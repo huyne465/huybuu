@@ -13,11 +13,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=f4d8dc&center=true&vCenter=true&width=435&lines=Front-end+Developer;Android+Development" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=f4d8dc&center=true&vCenter=true&width=435&lines=Android+Development" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=phongdz76&theme=nightowl" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=huyne465&theme=nightowl" alt="GitHub Activity Graph" />
 </p>
 
 
