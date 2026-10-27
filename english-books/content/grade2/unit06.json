@@ -20,7 +20,7 @@
  "vocabulary": [
   {
    "en": "zoo",
-   "ipa": "/zuː/",
+   "ipa": "/ˈzuː/",
    "vi": "sở thú",
    "emoji": "🦁",
    "image_prompt": "A big sign that says 'ZOO' at the entrance, with some animal shapes visible behind it."
@@ -76,7 +76,7 @@
   },
   {
    "en": "bear",
-   "ipa": "/bɛr/",
+   "ipa": "/ˈbɛr/",
    "vi": "con gấu",
    "emoji": "🐻",
    "image_prompt": "A cute cartoon brown bear, sitting and looking curious."
@@ -90,70 +90,70 @@
   },
   {
    "en": "snake",
-   "ipa": "/sneɪk/",
+   "ipa": "/ˈsneɪk/",
    "vi": "con rắn",
    "emoji": "🐍",
    "image_prompt": "A green cartoon snake coiled up, with a friendly expression."
   },
   {
    "en": "bird",
-   "ipa": "/bɜːrd/",
+   "ipa": "/ˈbɜːrd/",
    "vi": "con chim",
    "emoji": "🐦",
    "image_prompt": "A small, colorful cartoon bird perched on a branch, singing."
   },
   {
    "en": "fish",
-   "ipa": "/fɪʃ/",
+   "ipa": "/ˈfɪʃ/",
    "vi": "con cá",
    "emoji": "🐠",
    "image_prompt": "A happy cartoon fish swimming in blue water with bubbles."
   },
   {
    "en": "run",
-   "ipa": "/rʌn/",
+   "ipa": "/ˈrʌn/",
    "vi": "chạy",
    "emoji": "🏃",
    "image_prompt": "A cartoon child with a joyful expression, running quickly."
   },
   {
    "en": "jump",
-   "ipa": "/dʒʌmp/",
+   "ipa": "/ˈdʒʌmp/",
    "vi": "nhảy",
    "emoji": "🤸",
    "image_prompt": "A cartoon child mid-air, jumping happily with arms up."
   },
   {
    "en": "swim",
-   "ipa": "/swɪm/",
+   "ipa": "/ˈswɪm/",
    "vi": "bơi",
    "emoji": "🏊",
    "image_prompt": "A cartoon child with goggles, swimming gracefully in clear water."
   },
   {
    "en": "eat",
-   "ipa": "/iːt/",
+   "ipa": "/ˈiːt/",
    "vi": "ăn",
    "emoji": "🍎",
    "image_prompt": "A cartoon child happily eating an apple, with a bite taken out."
   },
   {
    "en": "big",
-   "ipa": "/bɪɡ/",
+   "ipa": "/ˈbɪɡ/",
    "vi": "to, lớn",
    "emoji": "🐘",
    "image_prompt": "A very large cartoon elephant standing next to a very small cartoon mouse, showing size difference."
   },
   {
    "en": "small",
-   "ipa": "/smɔːl/",
+   "ipa": "/ˈsmɔːl/",
    "vi": "nhỏ",
    "emoji": "🐭",
    "image_prompt": "A very small cartoon mouse standing next to a very large cartoon elephant, showing size difference."
   },
   {
    "en": "tall",
-   "ipa": "/tɔːl/",
+   "ipa": "/ˈtɔːl/",
    "vi": "cao",
    "emoji": "🦒",
    "image_prompt": "A cartoon giraffe with a very long neck, stretching up high to eat leaves."
@@ -171,7 +171,7 @@
    "buzz"
   ],
   "chant": "Zebra, zebra at the zoo,\nZigzag stripes, me and you!",
-  "tip_vi": "Khi phát âm âm /z/, hãy đặt lưỡi giống như khi phát âm /s/, nhưng rung dây thanh quản. Giống như tiếng ve kêu."
+  "tip_vi": "Khi phát âm âm /z/, hãy đặt lưỡi giống như khi phát âm /s/, nhưng rung dây thanh quản. Giống như tiếng ong kêu."
  },
  "patterns": [
   {
@@ -782,7 +782,7 @@
      "bird"
     ],
     "answer": "fish",
-    "why_vi": "Các từ còn lại là động vật có vằn hoặc sống trên cạn nhiều hơn."
+    "why_vi": "Các từ còn lại là động vật trên cạn hoặc có vằn."
    },
    {
     "options": [
@@ -811,7 +811,7 @@
   ],
   "scramble": [
    {
-    "scrambled": "ooln",
+    "scrambled": "nilo",
     "answer": "lion"
    },
    {
@@ -831,7 +831,7 @@
     "answer": "swim"
    },
    {
-    "scrambled": "oza",
+    "scrambled": "ozo",
     "answer": "zoo"
    }
   ],
@@ -892,7 +892,7 @@
  "fun_facts": [
   {
    "en": "Did you know? A giraffe has the same number of neck bones as a human!",
-   "vi": "Em có biết không? Hươu cao cổ có số lượng xương cổ giống như con người!"
+   "vi": "Em có biết không? Hươu cao cổ có số lượng xương cổ giống hệt con người!"
   },
   {
    "en": "Did you know? Elephants use their trunks to breathe, drink water, and pick up food!",
@@ -904,7 +904,7 @@
   },
   {
    "en": "Did you know? A tiger's stripes are like human fingerprints – no two tigers have the same pattern!",
-   "vi": "Em có biết không? Vằn của hổ giống như dấu vân tay của con người – không có hai con hổ nào có hoa văn giống nhau!"
+   "vi": "Em có biết không? Vằn của hổ giống như dấu vân tay của con người – không có hai con hổ nào có hoa văn giống hệt nhau!"
   },
   {
    "en": "Did you know? Monkeys are very smart. Some can even learn to use tools!",
@@ -1128,7 +1128,7 @@
     "answer": "A hippo can't fly."
    },
    {
-    "words": "at / Look / the / tiger",
+    "words": "at / Look / the / tiger!",
     "answer": "Look at the tiger!"
    },
    {
@@ -1170,7 +1170,16 @@
  "message_vi": "ĐỘNG VẬT LÀ BẠN CỦA CHÚNG TA. HÃY HỌC HỎI VÀ BẢO VỆ CHÚNG.",
  "message_body": "You have learned many new words and sentences about animals at the zoo! Remember to be kind to all animals and help keep their homes safe and clean. Keep practicing your English and learn more about the amazing world around us!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Updated scramble 'ooln' to 'nilo' to match letters in 'lion'.",
+  "Updated scramble 'oza' to 'ozo' to match letters in 'zoo'.",
+  "Added primary stress marks to all monosyllabic vocabulary IPA for consistency.",
+  "Changed phonics tip_vi from 've kêu' (cicada) to 'ong kêu' (bee) as it's a more common comparison for the /z/ sound in English teaching.",
+  "Adjusted review order list for 'Look at the tiger!' to include the exclamation mark in the words list for exact matching.",
+  "Verified all Vietnamese diacritics and level-appropriate phrasing."
+ ],
  "unit": 6,
  "grade": 2,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

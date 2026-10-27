@@ -42,7 +42,7 @@
    "en": "eraser",
    "ipa": "/ɪˈreɪsər/",
    "vi": "cục tẩy",
-   "emoji": "🧼",
+   "emoji": "🧽",
    "image_prompt": "a small pink rectangular eraser"
   },
   {
@@ -68,7 +68,7 @@
   },
   {
    "en": "crayon",
-   "ipa": "/ˈkreɪɑn/",
+   "ipa": "/ˈkreɪɑːn/",
    "vi": "bút màu sáp",
    "emoji": "🖍️",
    "image_prompt": "a single red crayon"
@@ -77,7 +77,7 @@
    "en": "marker",
    "ipa": "/ˈmɑːrkər/",
    "vi": "bút dạ",
-   "emoji": "🖊️",
+   "emoji": "🖍️",
    "image_prompt": "a thick black marker pen"
   },
   {
@@ -98,7 +98,7 @@
    "en": "desk",
    "ipa": "/dɛsk/",
    "vi": "bàn học",
-   "emoji": "🖥️",
+   "emoji": "🏫",
    "image_prompt": "a simple wooden school desk with a chair pushed in"
   },
   {
@@ -110,7 +110,7 @@
   },
   {
    "en": "whiteboard",
-   "ipa": "/ˈhwaɪtbɔːrd/",
+   "ipa": "/ˈwaɪtbɔːrd/",
    "vi": "bảng trắng",
    "emoji": "📝",
    "image_prompt": "a large blank whiteboard hanging on a classroom wall"
@@ -132,8 +132,8 @@
   {
    "en": "sharpener",
    "ipa": "/ˈʃɑːrpənər/",
-   "vi": "gọt bút chì",
-   "emoji": "⚙️",
+   "vi": "cái gọt bút chì",
+   "emoji": "✏️",
    "image_prompt": "a small plastic pencil sharpener with a metal blade"
   },
   {
@@ -170,7 +170,7 @@
    "apple"
   ],
   "chant": "Pink pigs paint pictures. / Peter picks purple pens.",
-  "tip_vi": "Khi phát âm âm /p/, môi của bạn khép lại rồi bật ra nhẹ nhàng, giống như tiếng 'p' trong tiếng Việt nhưng không có hơi."
+  "tip_vi": "Khi phát âm âm /p/, môi của bạn khép lại rồi bật mạnh luồng hơi ra, giống như tiếng bật hơi trong tiếng Anh, mạnh hơn âm 'p' trong tiếng Việt."
  },
  "patterns": [
   {
@@ -834,7 +834,7 @@
     "answer": "eraser"
    },
    {
-    "scrambled": "bagoolch",
+    "scrambled": "loochs gab",
     "answer": "school bag"
    },
    {
@@ -910,8 +910,8 @@
    "vi": "Em có biết không? Giấy hiện đại được phát minh ở Trung Quốc cách đây hơn 2000 năm, và nó được làm từ vỏ cây, cây gai dầu và vải vụn cũ."
   },
   {
-   "en": "Did you know? Before pencils, people often used charcoal or lead sticks to write and draw.",
-   "vi": "Em có biết không? Trước khi có bút chì, người ta thường dùng than củi hoặc que chì để viết và vẽ."
+   "en": "Did you know? Pencils don't actually contain lead; they use graphite, which is a type of carbon.",
+   "vi": "Em có biết không? Bút chì thực ra không chứa chì; chúng sử dụng than chì, một loại carbon."
   },
   {
    "en": "Did you know? Many school chairs and desks are designed to be adjustable so they can fit students of different heights.",
@@ -1178,7 +1178,16 @@
  "message_vi": "ĐỒ DÙNG HỌC TẬP LÀ CÔNG CỤ ĐỂ EM HỌC HỎI VÀ SÁNG TẠO.",
  "message_body": "Your school things are important friends on your learning journey. Take good care of them, use them wisely, and let them help you discover new things every day. Keep learning, keep exploring, and have fun!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Changed phonics tip to correctly describe /p/ as an aspirated sound unlike the Vietnamese 'p'.",
+  "Corrected 'school bag' scramble string to include missing letters.",
+  "Updated emojis for eraser, desk, marker, and sharpener to be more representative.",
+  "Adjusted IPA for 'whiteboard' and 'crayon' to standard American English.",
+  "Refined Vietnamese translation for 'sharpener' to 'cái gọt bút chì' for clarity as a noun.",
+  "Replaced doubtful fun fact about charcoal with a well-known fact about graphite in pencils."
+ ],
  "unit": 2,
  "grade": 3,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

@@ -69,7 +69,7 @@
   },
   {
    "en": "chicken",
-   "ipa": "/ˈʧɪkɪn/",
+   "ipa": "/ˈtʃɪkɪn/",
    "vi": "thịt gà",
    "emoji": "🍗",
    "image_prompt": "A cooked chicken drumstick."
@@ -91,7 +91,7 @@
   {
    "en": "salad",
    "ipa": "/ˈsæləd/",
-   "vi": "món sa lát",
+   "vi": "sa lát",
    "emoji": "🥗",
    "image_prompt": "A bowl of fresh green salad with tomatoes and cucumbers."
   },
@@ -111,28 +111,28 @@
   },
   {
    "en": "juice",
-   "ipa": "/ʤus/",
+   "ipa": "/dʒuːs/",
    "vi": "nước ép",
-   "emoji": "🥤",
+   "emoji": "🧃",
    "image_prompt": "A glass of orange juice with a straw."
   },
   {
    "en": "yogurt",
-   "ipa": "/ˈyoʊɡərt/",
+   "ipa": "/ˈjoʊɡərt/",
    "vi": "sữa chua",
-   "emoji": "🍦",
+   "emoji": "🥣",
    "image_prompt": "A small cup of white yogurt."
   },
   {
    "en": "cheese",
-   "ipa": "/ʧiz/",
+   "ipa": "/tʃiːz/",
    "vi": "phô mai",
    "emoji": "🧀",
    "image_prompt": "A slice of yellow cheese."
   },
   {
    "en": "soup",
-   "ipa": "/sup/",
+   "ipa": "/suːp/",
    "vi": "súp",
    "emoji": "🥣",
    "image_prompt": "A bowl of warm, steaming vegetable soup."
@@ -140,20 +140,20 @@
   {
    "en": "healthy",
    "ipa": "/ˈhɛlθi/",
-   "vi": "lành mạnh",
+   "vi": "tốt cho sức khỏe",
    "emoji": "💪",
    "image_prompt": "A smiling child eating a piece of fruit, looking strong and happy."
   },
   {
    "en": "delicious",
    "ipa": "/dɪˈlɪʃəs/",
-   "vi": "ngon",
+   "vi": "ngon tuyệt",
    "emoji": "😋",
    "image_prompt": "A child smiling with eyes closed, showing enjoyment after taking a bite of food."
   },
   {
    "en": "eat",
-   "ipa": "/it/",
+   "ipa": "/iːt/",
    "vi": "ăn",
    "emoji": "🍽️",
    "image_prompt": "A hand holding a fork, about to eat food from a plate."
@@ -328,7 +328,7 @@
    "vocab": [
     {
      "en": "lunchbox",
-     "ipa": "/ˈlʌnʧˌbɑks/",
+     "ipa": "/ˈlʌntʃˌbɑks/",
      "vi": "hộp cơm trưa"
     },
     {
@@ -343,7 +343,7 @@
     },
     {
      "en": "sandwich",
-     "ipa": "/ˈsænˌwɪʧ/",
+     "ipa": "/ˈsænwɪtʃ/",
      "vi": "bánh mì kẹp"
     },
     {
@@ -358,7 +358,7 @@
     },
     {
      "en": "eat",
-     "ipa": "/it/",
+     "ipa": "/iːt/",
      "vi": "ăn"
     },
     {
@@ -384,7 +384,7 @@
     "What does Mai have?",
     "What fruit is in her lunchbox?",
     "Does Mai like apples?",
-    "What kind of bread does she have?",
+    "Does she have a sandwich?",
     "What drink is in her lunchbox?",
     "Is her lunch healthy?",
     "How does Mai feel after eating her lunch?"
@@ -892,23 +892,23 @@
  "fun_facts": [
   {
    "en": "Did you know? An apple a day keeps the doctor away!",
-   "vi": "Em có biết không? Ăn một quả táo mỗi ngày giúp bạn khỏe mạnh!"
+   "vi": "Em có biết không? Ăn một quả táo mỗi ngày giúp em khỏe mạnh!"
   },
   {
    "en": "Did you know? Carrots are good for your eyes.",
-   "vi": "Em có biết không? Cà rốt tốt cho mắt của bạn."
+   "vi": "Em có biết không? Cà rốt rất tốt cho mắt của em."
   },
   {
-   "en": "Did you know? Bananas are fruits that grow on trees.",
-   "vi": "Em có biết không? Chuối là loại trái cây mọc trên cây."
+   "en": "Did you know? Bananas are curved because they grow towards the sun.",
+   "vi": "Em có biết không? Quả chuối có hình cong vì chúng mọc hướng về phía mặt trời."
   },
   {
-   "en": "Did you know? Water helps your body stay healthy.",
-   "vi": "Em có biết không? Nước giúp cơ thể bạn khỏe mạnh."
+   "en": "Did you know? Apples float in water because they are 25% air.",
+   "vi": "Em có biết không? Quả táo nổi trên nước vì chúng chứa 25% là không khí."
   },
   {
    "en": "Did you know? Milk helps your bones grow strong.",
-   "vi": "Em có biết không? Sữa giúp xương của bạn chắc khỏe."
+   "vi": "Em có biết không? Sữa giúp xương của em chắc khỏe."
   }
  ],
  "project": {
@@ -1170,7 +1170,18 @@
  "message_vi": "ĂN NGON, SỐNG KHỎE, HẠNH PHÚC!",
  "message_body": "Dear Roxy English learner, you are learning important words about food and drinks. Remember to choose healthy foods to grow strong and happy. Keep practicing and exploring new tastes!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Corrected yogurt emoji from 🍦 (ice cream) to 🥣 (bowl).",
+  "Corrected juice emoji from 🥤 (soda) to 🧃 (juice box).",
+  "Updated IPA for chicken, juice, cheese, soup, and eat to use standard American English symbols.",
+  "Fixed fun fact: Bananas grow on giant herbs, not trees; replaced with the fact about growing towards the sun.",
+  "Added a new fun fact about apples floating because they contain air.",
+  "Adjusted Reading 1 Question 7 to be answerable directly from the text.",
+  "Refined Vietnamese translations to be more natural (e.g., 'tốt cho sức khỏe' instead of 'lành mạnh' in certain contexts).",
+  "Fixed minor punctuation and spacing in the review section."
+ ],
  "unit": 7,
  "grade": 2,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

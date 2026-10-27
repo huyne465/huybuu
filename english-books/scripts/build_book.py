@@ -352,6 +352,8 @@ def css(color):
 def build(grade):
     book = BOOKS[grade]
     units = [json.loads(f.read_text()) for f in sorted((ROOT / f"content/grade{grade}").glob("unit*.json"))]
+    for u in units:  # titles exactly as planned in topics.py, so the contents read consistently
+        u["title"] = book["units"][u["unit"] - 1][0]
     BUILD.mkdir(exist_ok=True)
     OUT.mkdir(exist_ok=True)
     head = (f'<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="{(ROOT / "fonts/fonts.css").as_uri()}">'
@@ -360,7 +362,7 @@ def build(grade):
     # Cover (full bleed, no footer)
     cimg = ROOT / f"images/grade{grade}/cover.jpg"
     art = img_or(cimg, emoji_scene(["📚", "🌈", "🦁", "🚀", "🎨", "⭐", "🐼", "✏️", "🎵"], "cover-art", grade), "cover-art")
-    cover = f"""{head.replace("<body", "<body data-cover")}<div class="cover">
+    cover = f"""{head.replace("<body", "<style>@page { margin: 0; }</style><body data-cover")}<div class="cover">
   <div class="brand">ROXY ENGLISH</div><div class="grade">GRADE {grade}</div>
   <div class="sub">Student's Book · {e(book['level'])}</div>{art}
   <div class="badges"><span>📚 {len(units)} Units</span><span>🧩 20 Sections / Unit</span><span>🖼️ Picture Cards</span><span>🧠 Brain Games</span></div>

@@ -21,7 +21,7 @@
   {
    "en": "healthy",
    "ipa": "/ˈhel.θi/",
-   "vi": "khoẻ mạnh",
+   "vi": "khỏe mạnh",
    "emoji": "🥗",
    "image_prompt": "A happy Vietnamese primary school boy standing tall and showing his strong bicep arm muscle while smiling warmly."
   },
@@ -408,7 +408,7 @@
   {
    "level": "MORE PRACTICE",
    "title": "NAM'S HEALTHY CHANGE",
-   "text": "Last year, Nam was not very healthy. He liked playing video games for hours and went to sleep late at night. He ate a lot of junk food like chips and drinking sweet soda. He was often tired at school and sometimes got sick. Two months ago, his doctor told him to change his daily habits. Now, Nam works hard to build good habits! He drinks three bottles of water every day. He eats red apples and fresh carrots for snack. After school, he plays football with Minh and Ben in the school yard. He also stops playing video games at eight in the evening. Yesterday, Nam went to bed at nine o'clock and slept very well. Today, he feels happier, stronger, and more active than last year.",
+   "text": "Last year, Nam was not very healthy. He liked playing video games for hours and went to sleep late at night. He ate a lot of junk food like chips and drank sweet soda. He was often tired at school and sometimes got sick. Two months ago, his doctor told him to change his daily habits. Now, Nam works hard to build good habits! He drinks three bottles of water every day. He eats red apples and fresh carrots for a snack. After school, he plays football with Minh and Ben in the school yard. He also stops playing video games at eight in the evening. Yesterday, Nam went to bed at nine o'clock and slept very well. Today, he feels happier, stronger, and more active than last year.",
    "image_prompt": "A Vietnamese boy outdoors playing football with two friends in a sunny schoolyard, looking dynamic, energetic, and happy.",
    "vocab": [
     {
@@ -884,23 +884,23 @@
  },
  "fun_facts": [
   {
-   "en": "Laughing 100 times gives your heart as much workout as 10 minutes on a rowing machine!",
+   "en": "Did you know? Laughing 100 times gives your heart as much workout as 10 minutes on a rowing machine!",
    "vi": "Cười 100 lần giúp tim bạn vận động nhiều tương đương 10 phút tập chèo thuyền đấy!"
   },
   {
-   "en": "Drinking water boosts your brain speed and helps you solve math problems faster!",
+   "en": "Did you know? Drinking water boosts your brain speed and helps you solve math problems faster!",
    "vi": "Uống đủ nước giúp não bộ hoạt động nhanh hơn và giải toán tốt hơn!"
   },
   {
-   "en": "Apples give you more energy in the morning than a cup of sweet tea!",
+   "en": "Did you know? Apples give you more energy in the morning than a cup of sweet tea!",
    "vi": "Một quả táo mang lại cho bạn nhiều năng lượng buổi sáng hơn là một cốc trà ngọt!"
   },
   {
-   "en": "Your bones grow mostly at night while you are sleeping soundly!",
+   "en": "Did you know? Your bones grow mostly at night while you are sleeping soundly!",
    "vi": "Xương của bạn phát triển chủ yếu vào đêm khi bạn đang ngủ ngon giấc!"
   },
   {
-   "en": "Washing hands with soap for 20 seconds removes up to 99% of common germs!",
+   "en": "Did you know? Washing hands with soap for 20 seconds removes up to 99% of common germs!",
    "vi": "Rửa tay bằng xà phòng trong 20 giây loại bỏ tới 99% vi khuẩn thông thường!"
   }
  ],
@@ -1164,7 +1164,13 @@
  "message_vi": "THÓI QUEN LÀNH MẠNH NÂNG BƯỚC CƠ THỂ KHỎE MẠNH VÀ TÂM TRÍ VUI VẺ.",
  "message_body": "By taking care of your body every day, eating good food, and sleeping early, you build power for your future. Keep practicing your healthy habits and share them with your family and friends!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Standardized Vietnamese spelling of 'khoẻ mạnh' to 'khỏe mạnh' in vocabulary.",
+  "Fixed parallel past tense in Reading 2 text: changed 'drinking sweet soda' to 'drank sweet soda'.",
+  "Corrected unnatural phrasing 'for snack' to 'for a snack' in Reading 2 text to match question 7."
+ ],
  "unit": 7,
  "grade": 4,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

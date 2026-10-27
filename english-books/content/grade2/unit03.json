@@ -2,7 +2,7 @@
  "title": "MY BODY",
  "theme": "Me & My Body",
  "goal": "Students can identify and name major body parts and describe simple actions they can do with them.",
- "goal_vi": "Học sinh có thể nhận biết và gọi tên các bộ phận chính trên cơ thể, cũng như mô tả các hành động đơn giản mà họ có thể làm bằng các bộ phận đó.",
+ "goal_vi": "Học sinh có thể nhận biết và gọi tên các bộ phận chính trên cơ thể, cũng như mô tả các hành động đơn giản mà mình có thể làm với các bộ phận đó.",
  "cover_emoji": "🧍‍♀️🖐️👀",
  "cover_image_prompt": "A diverse group of cheerful Vietnamese and international children, around 7 years old, playing together and pointing to different parts of their bodies, like their head, hands, and feet, in a bright, sunny park setting. No text or numbers.",
  "big_question": {
@@ -69,7 +69,7 @@
   },
   {
    "en": "arm",
-   "ipa": "/ɑːrm/",
+   "ipa": "/ɑrm/",
    "vi": "cánh tay",
    "emoji": "💪",
    "image_prompt": "A cartoon child's arm, bent at the elbow, showing the whole arm. No text."
@@ -106,12 +106,12 @@
    "en": "toe",
    "ipa": "/toʊ/",
    "vi": "ngón chân",
-   "emoji": "👣",
+   "emoji": "🦶",
    "image_prompt": "A cartoon big toe on a foot. No text."
   },
   {
    "en": "body",
-   "ipa": "/ˈbɑːdi/",
+   "ipa": "/ˈbɑdi/",
    "vi": "cơ thể",
    "emoji": "🧍",
    "image_prompt": "A simple cartoon outline of a human body, showing the full form without clothes. No text."
@@ -120,42 +120,42 @@
    "en": "stomach",
    "ipa": "/ˈstʌmək/",
    "vi": "bụng",
-   "emoji": "🤰",
+   "emoji": "🧒",
    "image_prompt": "A cartoon child's torso, specifically highlighting the stomach area. No text."
   },
   {
    "en": "back",
    "ipa": "/bæk/",
    "vi": "lưng",
-   "emoji": "🔙",
+   "emoji": "👤",
    "image_prompt": "A cartoon child seen from behind, showing their back. No text."
   },
   {
    "en": "knee",
-   "ipa": "/niː/",
+   "ipa": "/ni/",
    "vi": "đầu gối",
-   "emoji": "🧎‍♀️",
+   "emoji": "🦵",
    "image_prompt": "A cartoon child's knee, isolated. No text."
   },
   {
    "en": "elbow",
    "ipa": "/ˈɛlboʊ/",
    "vi": "khuỷu tay",
-   "emoji": "🙆‍♂️",
+   "emoji": "💪",
    "image_prompt": "A cartoon child's elbow, isolated. No text."
   },
   {
    "en": "neck",
    "ipa": "/nɛk/",
    "vi": "cổ",
-   "emoji": "🦒",
+   "emoji": "👤",
    "image_prompt": "A cartoon child's neck, connecting the head to the body. No text."
   },
   {
    "en": "shoulder",
    "ipa": "/ˈʃoʊldər/",
    "vi": "vai",
-   "emoji": "🤷‍♀️",
+   "emoji": "👤",
    "image_prompt": "A cartoon child's shoulder, showing the joint. No text."
   }
  ],
@@ -320,12 +320,12 @@
   {
    "level": "EASY",
    "title": "MY BODY",
-   "text": "Hello! My name is Ben. This is my body. I have one head. I have two eyes. I have two ears. I have one nose and one mouth. This is my arm. These are my hands. I have two legs and two feet. My body is great!",
+   "text": "Hello! My name is Ben. This is my body. I have one head. I have two eyes. I have two ears. I have one nose and one mouth. I have two arms. These are my hands. I have two legs and two feet. My body is great!",
    "image_prompt": "A happy Vietnamese boy named Ben, 7 years old, standing and pointing to his own head, then his eyes, then his hands. He is smiling. Bright and simple background. No text.",
    "vocab": [
     {
      "en": "body",
-     "ipa": "/ˈbɑːdi/",
+     "ipa": "/ˈbɑdi/",
      "vi": "cơ thể"
     },
     {
@@ -355,7 +355,7 @@
     },
     {
      "en": "arm",
-     "ipa": "/ɑːrm/",
+     "ipa": "/ɑrm/",
      "vi": "cánh tay"
     },
     {
@@ -381,7 +381,7 @@
     "How many ears does Ben have?",
     "Does Ben have one nose or two noses?",
     "Does Ben have one mouth or two mouths?",
-    "What is this? (It is an arm)",
+    "How many arms does Ben have?",
     "Are these his hands or his feet?",
     "How many legs does Ben have?",
     "How many feet does Ben have?"
@@ -422,7 +422,7 @@
     },
     {
      "en": "see",
-     "ipa": "/siː/",
+     "ipa": "/si/",
      "vi": "nhìn"
     },
     {
@@ -437,13 +437,13 @@
     },
     {
      "en": "eat",
-     "ipa": "/iːt/",
+     "ipa": "/it/",
      "vi": "ăn"
     },
     {
      "en": "clap",
      "ipa": "/klæp/",
-     "vi": "vỗ"
+     "vi": "vỗ tay"
     },
     {
      "en": "run",
@@ -457,7 +457,7 @@
     },
     {
      "en": "strong",
-     "ipa": "/strɔːŋ/",
+     "ipa": "/strɔŋ/",
      "vi": "khỏe mạnh"
     },
     {
@@ -514,7 +514,7 @@
     },
     {
      "en": "top",
-     "ipa": "/tɑːp/",
+     "ipa": "/tɑp/",
      "vi": "trên cùng"
     },
     {
@@ -534,7 +534,7 @@
     },
     {
      "en": "each",
-     "ipa": "/iːtʃ/",
+     "ipa": "/itʃ/",
      "vi": "mỗi"
     },
     {
@@ -783,7 +783,7 @@
      "shoulder"
     ],
     "answer": "mouth",
-    "why_vi": "Miệng là một bộ phận trên mặt, các từ còn lại là bộ phận của thân."
+    "why_vi": "Miệng là một bộ phận trên mặt, các từ còn lại là bộ phận của thân mình."
    },
    {
     "options": [
@@ -900,8 +900,8 @@
    "vi": "Em có biết không? Mũi của em có thể ngửi hơn 1 nghìn tỷ mùi hương khác nhau!"
   },
   {
-   "en": "Did you know? You have 20 bones in each foot!",
-   "vi": "Em có biết không? Em có 20 xương ở mỗi bàn chân!"
+   "en": "Did you know? You have 26 bones in each foot!",
+   "vi": "Em có biết không? Em có 26 xương ở mỗi bàn chân!"
   },
   {
    "en": "Did you know? Your hair grows about 1 cm every month!",
@@ -1167,7 +1167,21 @@
  "message_vi": "CƠ THỂ CỦA EM THẬT TUYỆT VỜI! HÃY CHĂM SÓC NÓ THẬT TỐT VÀ NÓ SẼ GIÚP EM LÀM ĐƯỢC NHỮNG ĐIỀU KỲ DIỆU.",
  "message_body": "Dear Roxy English learner, your body is your best friend. It helps you explore the world, play with friends, and learn new things every day. Remember to keep it healthy and strong. We are so proud of you!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Replaced inappropriate pregnant woman emoji for 'stomach' with child emoji.",
+  "Replaced irrelevant giraffe emoji for 'neck' with silhouette emoji.",
+  "Replaced back-arrow emoji for 'back' with silhouette emoji.",
+  "Replaced kneeling woman emoji for 'knee' with leg emoji.",
+  "Replaced gesturing-OK emoji for 'elbow' with arm emoji.",
+  "Replaced footprint emoji for 'toe' with foot emoji to match vocabulary.",
+  "Corrected Vietnamese translation of 'clap' to 'vỗ tay' for naturalness.",
+  "Corrected fun fact: human feet have 26 bones, not 20.",
+  "Simplified IPA for primary level (removed length marks /ː/).",
+  "Updated Reading 1 text to explicitly say 'I have two arms' to align with the logic of the True/False question.",
+  "Adjusted 'goal_vi' to use 'mình' instead of 'họ' for a more child-friendly tone."
+ ],
  "unit": 3,
  "grade": 2,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

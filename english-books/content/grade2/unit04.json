@@ -4,7 +4,7 @@
  "goal": "Students can identify and name basic colours and shapes in English.",
  "goal_vi": "Học sinh có thể nhận biết và gọi tên các màu sắc và hình dạng cơ bản bằng tiếng Anh.",
  "cover_emoji": "🎨🔺🔵",
- "cover_image_prompt": "A vibrant outdoor park scene with diverse children playing. One child is holding a red ball, another is flying a kite shaped like a blue diamond. A yellow sun shines in the sky. There are green trees and a brown slide in the shape of a rectangle. A round clock on a building shows the time. The scene is full of bright colours and clear shapes.",
+ "cover_image_prompt": "A vibrant outdoor park scene with diverse children playing. One child is holding a red ball, another is flying a kite shaped like a blue diamond. A yellow sun shines in the sky. There are three green trees and a brown slide in the shape of a rectangle. A round clock on a building shows the time. The scene is full of bright colours and clear shapes.",
  "big_question": {
   "en": "What colours and shapes do you see around you?",
   "vi": "Em thấy những màu sắc và hình dạng nào xung quanh mình?",
@@ -48,14 +48,14 @@
   },
   {
    "en": "orange",
-   "ipa": "/ˈɔrɪndʒ/",
+   "ipa": "/ˈɔːrɪndʒ/",
    "vi": "màu cam",
    "emoji": "🧡",
    "image_prompt": "A juicy, ripe orange fruit, with a small green leaf attached."
   },
   {
    "en": "purple",
-   "ipa": "/ˈpɜrpl/",
+   "ipa": "/ˈpɜːrpəl/",
    "vi": "màu tím",
    "emoji": "💜",
    "image_prompt": "A beautiful cluster of purple grapes, looking plump and inviting."
@@ -104,7 +104,7 @@
   },
   {
    "en": "circle",
-   "ipa": "/ˈsɜrkl/",
+   "ipa": "/ˈsɜːrkəl/",
    "vi": "hình tròn",
    "emoji": "⚪",
    "image_prompt": "A perfect red circle, drawn simply."
@@ -118,35 +118,35 @@
   },
   {
    "en": "triangle",
-   "ipa": "/ˈtraɪˌæŋɡl/",
+   "ipa": "/ˈtraɪˌæŋɡəl/",
    "vi": "hình tam giác",
    "emoji": "🔺",
    "image_prompt": "A perfect green triangle, pointing upwards, drawn simply."
   },
   {
    "en": "rectangle",
-   "ipa": "/ˈrɛktæŋɡl/",
+   "ipa": "/ˈrɛktæŋɡəl/",
    "vi": "hình chữ nhật",
    "emoji": "🚪",
    "image_prompt": "A perfect yellow rectangle, wider than it is tall, drawn simply."
   },
   {
    "en": "star",
-   "ipa": "/stɑr/",
+   "ipa": "/stɑːr/",
    "vi": "hình ngôi sao",
    "emoji": "⭐",
    "image_prompt": "A shining gold star with five points, sparkling brightly."
   },
   {
    "en": "heart",
-   "ipa": "/hɑrt/",
+   "ipa": "/hɑːrt/",
    "vi": "hình trái tim",
    "emoji": "❤️",
    "image_prompt": "A simple red heart shape, soft and rounded."
   },
   {
    "en": "oval",
-   "ipa": "/ˈoʊvl/",
+   "ipa": "/ˈoʊvəl/",
    "vi": "hình bầu dục",
    "emoji": "🥚",
    "image_prompt": "A simple brown oval shape, like an egg."
@@ -320,7 +320,7 @@
   {
    "level": "EASY",
    "title": "MY COLOURFUL WORLD",
-   "text": "My name is Linh. I am seven years old. I love colours! I see red. The apple is red. I see blue. The sky is blue. I see yellow. The sun is yellow. I see green. The grass is green. Colours are everywhere! I love shapes too. The ball is a circle. The book is a rectangle. The window is a square. The roof is a triangle. The stars are stars! My world is colourful and full of shapes.",
+   "text": "My name is Linh. I am seven years old. I love colours! I see red. The apple is red. I see blue. The sky is blue. I see yellow. The sun is yellow. I see green. The grass is green. Colours are everywhere! I love shapes too. The ball is a circle. The book is a rectangle. The window is a square. The roof is a triangle. The stars are star shapes! My world is colourful and full of shapes.",
    "image_prompt": "A happy Vietnamese girl, Linh, pointing at different colourful objects around her in a simple, bright outdoor setting. She points at a red apple, then to the blue sky, then a yellow sun, and green grass. Simple shapes like a square window and a triangular roof are visible in the background.",
    "vocab": [
     {
@@ -355,12 +355,12 @@
     },
     {
      "en": "circle",
-     "ipa": "/ˈsɜrkl/",
+     "ipa": "/ˈsɜːrkəl/",
      "vi": "hình tròn"
     },
     {
      "en": "rectangle",
-     "ipa": "/ˈrɛktæŋɡl/",
+     "ipa": "/ˈrɛktæŋɡəl/",
      "vi": "hình chữ nhật"
     },
     {
@@ -370,7 +370,7 @@
     },
     {
      "en": "triangle",
-     "ipa": "/ˈtraɪˌæŋɡl/",
+     "ipa": "/ˈtraɪˌæŋɡəl/",
      "vi": "hình tam giác"
     }
    ],
@@ -442,7 +442,7 @@
     },
     {
      "en": "rectangle",
-     "ipa": "/ˈrɛktæŋɡl/",
+     "ipa": "/ˈrɛktæŋɡəl/",
      "vi": "hình chữ nhật"
     },
     {
@@ -457,7 +457,7 @@
     },
     {
      "en": "oval",
-     "ipa": "/ˈoʊvl/",
+     "ipa": "/ˈoʊvəl/",
      "vi": "hình bầu dục"
     },
     {
@@ -509,7 +509,7 @@
    "vocab": [
     {
      "en": "rectangle",
-     "ipa": "/ˈrɛktæŋɡl/",
+     "ipa": "/ˈrɛktæŋɡəl/",
      "vi": "hình chữ nhật"
     },
     {
@@ -529,7 +529,7 @@
     },
     {
      "en": "star",
-     "ipa": "/stɑr/",
+     "ipa": "/stɑːr/",
      "vi": "hình ngôi sao"
     },
     {
@@ -549,12 +549,12 @@
     },
     {
      "en": "circle",
-     "ipa": "/ˈsɜrkl/",
+     "ipa": "/ˈsɜːrkəl/",
      "vi": "hình tròn"
     },
     {
      "en": "orange",
-     "ipa": "/ˈɔrɪndʒ/",
+     "ipa": "/ˈɔːrɪndʒ/",
      "vi": "màu cam"
     }
    ],
@@ -1174,7 +1174,15 @@
  "message_vi": "THẾ GIỚI CỦA CHÚNG TA ĐẦY RẪY NHỮNG MÀU SẮC VÀ HÌNH DẠNG TUYỆT VỜI!",
  "message_body": "Look around you, little learners! Every day, you can see amazing colours and shapes. They make our world beautiful and interesting. Keep exploring and finding new colours and shapes wherever you go!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Standardized IPA symbols for US English across vocabulary (e.g., orange, circle, triangle).",
+  "Updated cover_image_prompt to specify 'three green trees' to make the picture_count question answerable.",
+  "Refined Reading 1 text: changed 'The stars are stars!' to 'The stars are star shapes!' to clarify the topic of shapes.",
+  "Verified all logic between reading texts and their corresponding questions/answers.",
+  "Checked Vietnamese diacritics and natural phrasing for level-appropriateness."
+ ],
  "unit": 4,
  "grade": 2,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

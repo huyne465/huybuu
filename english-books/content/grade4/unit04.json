@@ -3,7 +3,7 @@
  "theme": "Abilities & Talents",
  "goal": "Students can express present and past abilities, describe special talents, compare skills, and discuss future plans using can, could, good at, and will.",
  "goal_vi": "Học sinh có thể diễn tả khả năng ở hiện tại và quá khứ, mô tả năng khiếu cá nhân, so sánh kỹ năng và nói về kế hoạch học kỹ năng mới trong tương lai.",
- "cover_emoji": "🎨🎸🏊‍♂️🎭🏻",
+ "cover_emoji": "🎨🎸🏊‍♂️🎭🌟",
  "cover_image_prompt": "A cheerful primary school talent show stage in Vietnam. Vietnamese and international children aged 9 are happily demonstrating talents: one girl plays guitar, a boy juggles colorful balls, a girl paints on an easel, and another boy performs karate moves. Vibrant colors, friendly vector cartoon style.",
  "big_question": {
   "en": "What special talents and abilities do you have?",
@@ -70,7 +70,7 @@
   {
    "en": "skate",
    "ipa": "/skeɪt/",
-   "vi": "trượt băn/trượt pa-tin",
+   "vi": "trượt băng / trượt pa-tin",
    "emoji": "🛼",
    "image_prompt": "A pair of bright pink roller skates with white wheels resting on smooth ground."
   },
@@ -233,7 +233,7 @@
    "vi": "Ai có thể... nhanh hơn / tốt hơn / cao hơn?",
    "examples": [
     "Who can swim faster, Minh or Nam?",
-    "Who can jump higher in your class?",
+    "Who can jump higher, you or Tom?",
     "Who can play guitar better?"
    ]
   },
@@ -279,7 +279,7 @@
    "examples": [
     "Linh is good at painting colorful flowers.",
     "We are good at playing basketball.",
-    "Are you good at cooking standard dishes?"
+    "Are you good at cooking delicious meals?"
    ],
    "right": "✅ Minh is good at swimming.",
    "wrong": "❌ Minh is good at swim."
@@ -578,7 +578,7 @@
      "answer": false
     },
     {
-     "statement": "Mai practice English by reading short stories every evening.",
+     "statement": "Mai practices English by reading short stories every evening.",
      "answer": true
     },
     {
@@ -886,29 +886,29 @@
  },
  "fun_facts": [
   {
-   "en": "Dolphins are amazing swimmers and can dive up to 300 meters deep in the ocean!",
+   "en": "Did you know? Dolphins are amazing swimmers and can dive up to 300 meters deep in the ocean!",
    "vi": "Cá heo là những sinh vật bơi lội tuyệt vời và có thể lặn sâu tới 300 mét dưới lòng đại dương!"
   },
   {
-   "en": "Mozart could play the piano and write beautiful music when he was only five years old!",
+   "en": "Did you know? Mozart could play the piano and write beautiful music when he was only five years old!",
    "vi": "Mozart đã có thể chơi đàn pi-a-nô và sáng tác những bản nhạc tuyệt đẹp khi mới 5 tuổi!"
   },
   {
-   "en": "Cheetahs can run faster than any other land animal, reaching speeds of 100 km/h!",
+   "en": "Did you know? Cheetahs can run faster than any other land animal, reaching speeds of 100 km/h!",
    "vi": "Báo đốm có thể chạy nhanh hơn bất kỳ động vật trên bờ nào khác, đạt tốc độ lên tới 100 km/h!"
   },
   {
-   "en": "Some professional jugglers can juggle up to eleven balls in the air at the same time!",
+   "en": "Did you know? Some professional jugglers can juggle up to eleven balls in the air at the same time!",
    "vi": "Một số nghệ sĩ tung hứng chuyên nghiệp có thể tung hứng tới 11 quả bóng cùng lúc trong không trung!"
   },
   {
-   "en": "Learning a second language like English helps your brain grow stronger and work faster!",
+   "en": "Did you know? Learning a second language like English helps your brain grow stronger and work faster!",
    "vi": "Học thêm một ngôn ngữ thứ hai như tiếng Anh giúp bộ não của bạn phát triển khỏe mạnh và hoạt động nhanh nhạy hơn!"
   }
  ],
  "project": {
   "title": "MY TALENT SHOW POSTER",
-  "task": "Create an colorful poster displaying your special talents, past skills, and future learning goals to present to your class.",
+  "task": "Create a colorful poster displaying your special talents, past skills, and future learning goals to present to your class.",
   "draw_items": [
    "Yourself performing your favorite talent on stage",
    "A picture of what you could do at age five",
@@ -1063,7 +1063,7 @@
     "answer": "could"
    },
    {
-    "q": "Who can jump ______ in your class?",
+    "q": "Who can jump ______ , you or Tom?",
     "options": [
      "high",
      "higher",
@@ -1104,8 +1104,8 @@
     "answer": "She is good at painting."
    },
    {
-    "words": "five / I / could / bike / a / ride / When / was",
-    "answer": "When I was five I could ride a bike."
+    "words": "five / I / could / bike / a / ride / When / was / I",
+    "answer": "When I was five, I could ride a bike."
    },
    {
     "words": "couldn't / He / speak / English / two / ago / years",
@@ -1166,7 +1166,17 @@
  "message_vi": "Luyện tập mang lại sự thành thạo. Hãy tin vào năng khiếu của mình và không bao giờ bỏ cuộc!",
  "message_body": "Every child has unique gifts waiting to shine. With daily practice, patience, and enthusiasm, you can master incredible new skills every day. Keep trying, keep learning, and be proud of what you can do!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Cleaned up invalid trailing skin tone modifier in cover_emoji.",
+  "Fixed Vietnamese spelling typo in vocabulary 'skate': 'trượt băn' -> 'trượt băng'.",
+  "Improved unnatural phrasing in grammar example: 'cooking standard dishes' -> 'cooking delicious meals'.",
+  "Aligned comparative pattern example to clearly compare two individuals: 'Who can jump higher, you or Tom?'.",
+  "Fixed subject-verb agreement in Challenge reading True/False statement 3: 'Mai practice English' -> 'Mai practices English'.",
+  "Fixed article grammar in project.task: 'Create an colorful poster' -> 'Create a colorful poster'.",
+  "Aligned MCQ item 8 to use clear comparative context between two subjects: 'Who can jump ______ , you or Tom?'."
+ ],
  "unit": 4,
  "grade": 4,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

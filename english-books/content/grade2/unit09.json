@@ -2,7 +2,7 @@
  "title": "MY CLOTHES",
  "theme": "Everyday Life",
  "goal": "Students can talk about clothes they wear and identify different clothing items.",
- "goal_vi": "Học sinh có thể nói về quần áo họ mặc và nhận biết các món đồ quần áo khác nhau.",
+ "goal_vi": "Học sinh có thể nói về quần áo mình mặc và nhận biết các món đồ quần áo khác nhau.",
  "cover_emoji": "👕👖👗👚",
  "cover_image_prompt": "A group of diverse and cheerful primary school children, both boys and girls, aged 7, happily trying on and showing off various colorful clothing items in a bright, friendly classroom setting. Some are wearing t-shirts, some dresses, some pants, some hats. Vietnamese children are included. No text.",
  "big_question": {
@@ -20,7 +20,7 @@
  "vocabulary": [
   {
    "en": "t-shirt",
-   "ipa": "/ˈtiː ʃɜːrt/",
+   "ipa": "/ˈti ʃɜrt/",
    "vi": "áo phông",
    "emoji": "👕",
    "image_prompt": "A single, plain blue short-sleeved t-shirt, neatly folded on a white background. No text."
@@ -41,35 +41,35 @@
   },
   {
    "en": "shirt",
-   "ipa": "/ʃɜːrt/",
+   "ipa": "/ʃɜrt/",
    "vi": "áo sơ mi",
    "emoji": "👔",
    "image_prompt": "A single, white button-up long-sleeved shirt, neatly folded on a white background. No text."
   },
   {
    "en": "skirt",
-   "ipa": "/skɜːrt/",
+   "ipa": "/skɜrt/",
    "vi": "chân váy",
    "emoji": "👗",
    "image_prompt": "A single, red pleated skirt for a child, hanging on a hanger. No text."
   },
   {
    "en": "shorts",
-   "ipa": "/ʃɔːrts/",
+   "ipa": "/ʃɔrts/",
    "vi": "quần đùi",
    "emoji": "🩳",
    "image_prompt": "A single pair of green children's shorts, neatly folded on a white background. No text."
   },
   {
    "en": "shoes",
-   "ipa": "/ʃuːz/",
+   "ipa": "/ʃuz/",
    "vi": "giày",
    "emoji": "👟",
    "image_prompt": "A single pair of white sneakers with blue laces, clean and new. No text."
   },
   {
    "en": "socks",
-   "ipa": "/sɑːks/",
+   "ipa": "/sɑks/",
    "vi": "tất",
    "emoji": "🧦",
    "image_prompt": "A single pair of colorful (e.g., striped) children's socks, neatly folded. No text."
@@ -78,7 +78,7 @@
    "en": "hat",
    "ipa": "/hæt/",
    "vi": "mũ",
-   "emoji": "🎩",
+   "emoji": "👒",
    "image_prompt": "A single, brown wide-brimmed sun hat, resting on a surface. No text."
   },
   {
@@ -92,7 +92,7 @@
    "en": "coat",
    "ipa": "/koʊt/",
    "vi": "áo khoác dày",
-   "emoji": "🥼",
+   "emoji": "🧥",
    "image_prompt": "A single, warm, long red winter coat, hanging on a hanger. No text."
   },
   {
@@ -104,16 +104,16 @@
   },
   {
    "en": "uniform",
-   "ipa": "/ˈjuːnɪfɔːrm/",
+   "ipa": "/ˈjunəˌfɔrm/",
    "vi": "đồng phục",
-   "emoji": "🥋",
+   "emoji": "👔",
    "image_prompt": "A child's school uniform: a white shirt and blue pants/skirt, neatly arranged. No text."
   },
   {
    "en": "pajamas",
-   "ipa": "/pəˈdʒɑːməz/",
-   "vi": "đồ ngủ",
-   "emoji": "🛌",
+   "ipa": "/pəˈdʒæməz/",
+   "vi": "bộ đồ ngủ",
+   "emoji": "👕",
    "image_prompt": "A child's pajama set (top and bottom) with a fun pattern (e.g., stars), neatly folded. No text."
   },
   {
@@ -132,9 +132,9 @@
   },
   {
    "en": "boots",
-   "ipa": "/buːts/",
+   "ipa": "/buts/",
    "vi": "ủng, bốt",
-   "emoji": "👢",
+   "emoji": "🥾",
    "image_prompt": "A single pair of yellow rain boots for children. No text."
   },
   {
@@ -148,12 +148,12 @@
    "en": "belt",
    "ipa": "/belt/",
    "vi": "thắt lưng",
-   "emoji": "🎗️",
+   "emoji": "👖",
    "image_prompt": "A single, brown leather belt with a simple buckle, coiled neatly. No text."
   },
   {
    "en": "scarf",
-   "ipa": "/skɑːrf/",
+   "ipa": "/skɑrf/",
    "vi": "khăn quàng cổ",
    "emoji": "🧣",
    "image_prompt": "A single, long, colorful (e.g., red and white) knitted scarf, folded neatly. No text."
@@ -171,7 +171,7 @@
    "wish"
   ],
   "chant": "She sells shoes, shiny shoes. / Shirley shows her shirts.",
-  "tip_vi": "Âm /ʃ/ giống âm 's' trong 'sách' nhưng tròn môi hơn một chút."
+  "tip_vi": "Âm /ʃ/ giống âm 's' nặng trong tiếng Việt nhưng tròn môi và đẩy hơi mạnh hơn."
  },
  "patterns": [
   {
@@ -339,12 +339,12 @@
     },
     {
      "en": "new",
-     "ipa": "/nuː/",
+     "ipa": "/nu/",
      "vi": "mới"
     },
     {
      "en": "t-shirt",
-     "ipa": "/ˈtiː ʃɜːrt/",
+     "ipa": "/ˈti ʃɜrt/",
      "vi": "áo phông"
     },
     {
@@ -354,17 +354,17 @@
     },
     {
      "en": "soft",
-     "ipa": "/sɑːft/",
+     "ipa": "/sɑft/",
      "vi": "mềm"
     },
     {
      "en": "shorts",
-     "ipa": "/ʃɔːrts/",
+     "ipa": "/ʃɔrts/",
      "vi": "quần đùi"
     },
     {
      "en": "blue",
-     "ipa": "/bluː/",
+     "ipa": "/blu/",
      "vi": "màu xanh dương"
     },
     {
@@ -378,7 +378,7 @@
     "How old is Linh?",
     "What does Linh like?",
     "What color is Linh's t-shirt?",
-    "Is her t-shirt soft or hard?",
+    "Is her t-shirt soft or rough?",
     "What color are her shorts?",
     "Are her shorts cool or warm?",
     "What color are her new shoes?",
@@ -421,12 +421,12 @@
     },
     {
      "en": "school",
-     "ipa": "/skuːl/",
+     "ipa": "/skul/",
      "vi": "trường học"
     },
     {
      "en": "shirt",
-     "ipa": "/ʃɜːrt/",
+     "ipa": "/ʃɜrt/",
      "vi": "áo sơ mi"
     },
     {
@@ -456,7 +456,7 @@
     },
     {
      "en": "socks",
-     "ipa": "/sɑːks/",
+     "ipa": "/sɑks/",
      "vi": "tất"
     },
     {
@@ -518,17 +518,17 @@
     },
     {
      "en": "morning",
-     "ipa": "/ˈmɔːrnɪŋ/",
+     "ipa": "/ˈmɔrnɪŋ/",
      "vi": "buổi sáng"
     },
     {
      "en": "uniform",
-     "ipa": "/ˈjuːnɪfɔːrm/",
+     "ipa": "/ˈjunəˌfɔrm/",
      "vi": "đồng phục"
     },
     {
      "en": "green",
-     "ipa": "/ɡriːn/",
+     "ipa": "/ɡrin/",
      "vi": "màu xanh lá cây"
     },
     {
@@ -748,7 +748,7 @@
      "book"
     ],
     "answer": "book",
-    "why_vi": "Cái này không phải quần áo."
+    "why_vi": "Cái này không phải đồ mặc."
    },
    {
     "options": [
@@ -758,7 +758,7 @@
      "table"
     ],
     "answer": "table",
-    "why_vi": "Cái này không phải quần áo."
+    "why_vi": "Cái này là đồ nội thất, không phải đồ mặc."
    },
    {
     "options": [
@@ -768,7 +768,7 @@
      "juice"
     ],
     "answer": "juice",
-    "why_vi": "Cái này không phải quần áo."
+    "why_vi": "Cái này là đồ uống, không phải quần áo."
    },
    {
     "options": [
@@ -778,7 +778,7 @@
      "banana"
     ],
     "answer": "banana",
-    "why_vi": "Cái này không phải quần áo."
+    "why_vi": "Cái này là đồ ăn, không phải quần áo."
    },
    {
     "options": [
@@ -788,7 +788,7 @@
      "spoon"
     ],
     "answer": "spoon",
-    "why_vi": "Cái này không phải quần áo."
+    "why_vi": "Cái này là đồ dùng nhà bếp, không phải quần áo."
    }
   ],
   "riddles": [
@@ -867,7 +867,7 @@
  "life_skill": {
   "title": "TAKE CARE OF YOUR CLOTHES",
   "intro": "Our clothes keep us warm and make us look nice. Taking care of them is important. It helps them last longer and stay clean.",
-  "intro_vi": "Quần áo giúp chúng ta giữ ấm và trông đẹp. Chăm sóc quần áo là rất quan trọng. Điều đó giúp quần áo bền hơn và luôn sạch sẽ.",
+  "intro_vi": "Quần áo giúp chúng ta giữ ấm và trông đẹp hơn. Chăm sóc quần áo rất quan trọng, giúp chúng bền hơn và luôn sạch sẽ.",
   "can_do": [
    "Hang my clothes neatly.",
    "Fold my clothes after wearing.",
@@ -888,11 +888,11 @@
  "fun_facts": [
   {
    "en": "Did you know? People wear clothes for many reasons: to keep warm or cool, for protection, and for style.",
-   "vi": "Bạn có biết không? Mọi người mặc quần áo vì nhiều lý do: để giữ ấm hoặc mát, để bảo vệ và để thể hiện phong cách."
+   "vi": "Bạn có biết không? Mọi người mặc quần áo vì nhiều lý do: để giữ ấm hoặc làm mát, để bảo vệ cơ thể và để thể hiện phong cách."
   },
   {
    "en": "Did you know? A long time ago, people made clothes from animal skin and leaves.",
-   "vi": "Bạn có biết không? Rất lâu về trước, con người đã làm quần áo từ da động vật và lá cây."
+   "vi": "Bạn có biết không? Từ rất lâu về trước, con người đã làm quần áo từ da động vật và lá cây."
   },
   {
    "en": "Did you know? Some clothes, like uniforms, help people know what job you do or what school you go to.",
@@ -900,11 +900,11 @@
   },
   {
    "en": "Did you know? The zipper, a common part of many clothes, was invented over 100 years ago.",
-   "vi": "Bạn có biết không? Khóa kéo (zipper), một bộ phận phổ biến trên nhiều loại quần áo, đã được phát minh cách đây hơn 100 năm."
+   "vi": "Bạn có biết không? Khóa kéo (zipper), một bộ phận phổ biến trên quần áo, đã được phát minh cách đây hơn 100 năm."
   },
   {
    "en": "Did you know? Gloves have fingers, but mittens keep all fingers together (except the thumb).",
-   "vi": "Bạn có biết không? Găng tay (gloves) có các ngón riêng biệt, nhưng găng hở ngón (mittens) giữ tất cả các ngón lại với nhau (trừ ngón cái)."
+   "vi": "Bạn có biết không? Găng tay (gloves) có các ngón riêng biệt, nhưng găng tay kín ngón (mittens) giữ các ngón tay lại với nhau (trừ ngón cái)."
   }
  ],
  "project": {
@@ -1037,7 +1037,7 @@
     "q": "I wear ______ to school.",
     "options": [
      "uniform",
-     "uniformS",
+     "uniforms",
      "a uniform"
     ],
     "answer": "a uniform"
@@ -1081,11 +1081,11 @@
    {
     "q": "He has a new ______.",
     "options": [
-     "shoe",
-     "shoes",
-     "a shoe"
+     "shirt",
+     "pants",
+     "shoes"
     ],
-    "answer": "a shoe"
+    "answer": "shirt"
    }
   ],
   "order": [
@@ -1164,7 +1164,17 @@
  "message_vi": "QUẦN ÁO GIÚP CHÚNG TA THỂ HIỆN BẢN THÂN VÀ GIỮ CHÚNG TA THOẢI MÁI.",
  "message_body": "Clothes are part of our everyday life. They keep us safe and let us show our style. Let's learn to love and take good care of them!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Corrected IPA for 't-shirt', 'shirt', 'skirt', 'shorts', 'shoes', 'socks', 'uniform', 'pajamas', 'boots', and 'scarf' to match American English standards.",
+  "Updated 'pajamas' Vietnamese translation to 'bộ đồ ngủ' for better accuracy.",
+  "Changed 't-shirt soft or hard' to 't-shirt soft or rough' in Reading 1 questions as 'rough' is a more appropriate antonym for fabric.",
+  "Adjusted emojis for 'belt', 'pajamas', and 'uniform' to be more representative and less confusing for children.",
+  "Fixed MCQ #10: Changed options and answer to avoid the grammatical error 'a new shoes' or 'a new a shoe'.",
+  "Improved Vietnamese phrasing in 'goal_vi', 'phonics.tip_vi', and 'brain_games.why_vi' to be more natural for Grade 2 learners.",
+  "Ensured consistent use of American English pronunciation symbols in IPA (removed long vowel marks where unnecessary in US English)."
+ ],
  "unit": 9,
  "grade": 2,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

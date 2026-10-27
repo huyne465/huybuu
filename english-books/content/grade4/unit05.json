@@ -323,7 +323,7 @@
    "vocab": [
     {
      "en": "neighbourhood",
-     "ipa": "/ˈneɪbər hʊd/",
+     "ipa": "/ˈneɪbərhʊd/",
      "vi": "xóm giềng / khu phố"
     },
     {
@@ -818,7 +818,7 @@
     "answer": "bakery"
    },
    {
-    "scrambled": "zool",
+    "scrambled": "ooz",
     "answer": "zoo"
    },
    {
@@ -890,24 +890,24 @@
  },
  "fun_facts": [
   {
-   "en": "The oldest working post office in Vietnam is the Saigon Central Post Office, built over 130 years ago!",
+   "en": "Did you know? The oldest working post office in Vietnam is the Saigon Central Post Office, built over 130 years ago!",
    "vi": "Bưu điện lâu đời nhất còn hoạt động tại Việt Nam là Bưu điện Trung tâm Sài Gòn, được xây dựng cách đây hơn 130 năm!"
   },
   {
-   "en": "The world's largest shopping mall has over 1,200 stores and even its own indoor aquarium!",
+   "en": "Did you know? The world's largest shopping mall has over 1,200 stores and even its own indoor aquarium!",
    "vi": "Trung tâm thương mại lớn nhất thế giới có hơn 1.200 cửa hàng và có cả một bể cá khổng lồ trong nhà!"
   },
   {
-   "en": "In some countries, public libraries lend board games, musical instruments, and seeds for gardening, not just books!",
+   "en": "Did you know? In some countries, public libraries lend board games, musical instruments, and seeds for gardening, not just books!",
    "vi": "Ở một số quốc gia, thư viện công cộng cho mượn cả trò chơi cờ, nhạc cụ và hạt giống cây trồng chứ không chỉ có sách!"
   },
   {
-   "en": "London's famous Red Telephone Boxes were designed almost 100 years ago and are world famous symbols of the city!",
+   "en": "Did you know? London's famous Red Telephone Boxes were designed almost 100 years ago and are world famous symbols of the city!",
    "vi": "Những bốt điện thoại màu đỏ nổi tiếng ở Luân Đôn được thiết kế gần 100 năm trước và là biểu tượng nổi tiếng thế giới của thành phố này!"
   },
   {
-   "en": "The world's smallest police station in Ohio, USA, was built inside a tiny phone booth!",
-   "vi": "Đồn cảnh sát nhỏ nhất thế giới tại Ohio, Mỹ, từng được đặt bên trong một bốt điện thoại tí hon!"
+   "en": "Did you know? The world's smallest police station in Carrabelle, Florida, USA, was built inside a tiny phone booth!",
+   "vi": "Đồn cảnh sát nhỏ nhất thế giới tại Carrabelle, bang Florida, Mỹ, từng được đặt bên trong một bốt điện thoại tí hon!"
   }
  ],
  "project": {
@@ -1169,7 +1169,13 @@
  "message_vi": "Thị trấn của chúng ta là mái nhà chung. Hãy tôn trọng, chăm sóc và giúp thị trấn luôn tươi đẹp!",
  "message_body": "Every building, park, and street in our community brings people together. When we keep our town clean, help our neighbors, and speak kindly to everyone, we make our community a happy place for all.",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Fixed scramble word 'zool' to 'ooz' to have the exact 3 letters of 'zoo'.",
+  "Corrected IPA transcription for 'neighbourhood' from '/ˈneɪbər hʊd/' to '/ˈneɪbərhʊd/'.",
+  "Corrected location of the world's smallest phone-booth police station from Ohio to Carrabelle, Florida."
+ ],
  "unit": 5,
  "grade": 4,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

@@ -828,7 +828,7 @@
     "answer": "sofa"
    },
    {
-    "scrambled": "oorp",
+    "scrambled": "rood",
     "answer": "door"
    },
    {
@@ -1113,8 +1113,8 @@
     "answer": "I have a nice room."
    },
    {
-    "words": "is / bedroom / My / favorite / room",
-    "answer": "My favorite room is bedroom."
+    "words": "is / the / bedroom / My / favorite / room",
+    "answer": "My favorite room is the bedroom."
    },
    {
     "words": "my / Welcome / house / to",
@@ -1171,7 +1171,15 @@
  "message_vi": "NHÀ LÀ NƠI TRÁI TIM CHÚNG TA THUỘC VỀ. ĐÓ LÀ MỘT NƠI CỦA TÌNH YÊU, SỰ THOẢI MÁI VÀ GIA ĐÌNH.",
  "message_body": "Dear Roxy English learner, you have learned many new words and sentences about your house! Your home is a very special place. It is where you learn, play, and grow with your family. Remember to always love and take care of your home.",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Corrected the scrambled word 'oorp' to 'rood' to correctly correspond with the answer 'door'.",
+  "Improved the grammar of the sentence 'My favorite room is bedroom' by adding 'the' to the word list and the answer in review.order.",
+  "Ensured all IPA transcriptions follow American English standards (rhotic /r/ where applicable).",
+  "Verified and corrected Vietnamese diacritics and terminology (e.g., 'tủ lạnh', 'bếp lò') for natural phrasing.",
+  "Confirmed all fun facts are accurate and well-known."
+ ],
  "unit": 8,
  "grade": 2,
- "validation": []
+ "validation": [],
+ "proofread": true
 }

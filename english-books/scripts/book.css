@@ -34,8 +34,8 @@ img { display: block; }
 body[data-cover] { margin: 0; }
 .cover {
   width: 210mm; height: 296mm; padding: 16mm 14mm; position: relative; overflow: hidden; text-align: center;
-  background: radial-gradient(circle at 15% 10%, #fff7c2 0 18%, transparent 19%),
-              radial-gradient(circle at 90% 85%, #ffe0ef 0 22%, transparent 23%),
+  background: radial-gradient(circle at 105% 0%, rgba(255,255,255,.14) 0 22%, transparent 23%),
+              radial-gradient(circle at -5% 100%, rgba(255,255,255,.12) 0 26%, transparent 27%),
               linear-gradient(160deg, var(--brand), #2d2a4a);
   color: #fff;
 }
@@ -55,7 +55,7 @@ body[data-cover] { margin: 0; }
               radial-gradient(circle at 85% 30%, #fff5 0 9%, transparent 10%),
               linear-gradient(135deg, #ffe9a8, #ffd1e3 45%, #c9e6ff); }
 .emoji-scene span { position: absolute; line-height: 1; filter: drop-shadow(0 3px 2px rgba(0,0,0,.15)); }
-.emoji-scene.hero { height: 82mm; font-size: 20pt; }
+.emoji-scene.hero { height: 72mm; font-size: 20pt; }
 .emoji-scene.cover-art { font-size: 26pt; }
 .emoji-scene.rimg, .emoji-scene.cimg, .emoji-scene.vpic { font-size: 9pt; }
 .emoji-scene.pscene { height: 34mm; font-size: 8.5pt; border-radius: 4mm; }
@@ -82,12 +82,16 @@ body[data-cover] { margin: 0; }
   transform: rotate(-2deg); box-shadow: 0 4px 0 #e0a800; }
 .opener h1 { margin: 2mm 0 0; font-size: 34pt; line-height: 1.05; color: var(--brand); letter-spacing: 1px; }
 .opener .theme { color: #6b6790; font-weight: 700; margin-bottom: 4mm; }
-.opener .hero { width: 100%; height: 82mm; object-fit: cover; border-radius: 7mm; box-shadow: 0 6px 0 var(--line); }
+.opener .hero { width: 100%; height: 72mm; object-fit: cover; border-radius: 7mm; box-shadow: 0 6px 0 var(--line); }
 .goal { text-align: left; margin: 5mm 0 4mm; background: #fff8e1; border: 2px dashed var(--sun); border-radius: 5mm; padding: 3mm 5mm; }
 .journey { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5mm; margin: 0 0 5mm; }
 .journey span { display: inline-flex; align-items: center; gap: 1mm; background: var(--soft); border-radius: 20px; padding: .5mm 2.5mm .5mm 1mm; font-size: 10pt; }
 .journey b { display: inline-flex; width: 5mm; height: 5mm; border-radius: 50%; background: var(--brand); color: #fff; align-items: center; justify-content: center; font-size: 7.5pt; }
 .opener .sec { text-align: left; margin: 0; }
+.opener .grid2 { grid-template-columns: 1fr 1fr 1fr; gap: 2mm; }
+.opener .pill { font-size: .85em; padding: 1.8mm 3mm; }
+.opener .bubble.big { padding: 3mm 6mm; margin-bottom: 5mm; }
+.opener .goal { margin: 3mm 0; }
 .in-unit h3 { margin: 0 0 2mm; color: var(--brand); }
 .sec-list { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 6mm; font-size: .8em; }
 .sec-list li { padding: .6mm 0; }
@@ -113,8 +117,8 @@ body[data-cover] { margin: 0; }
 .vcard { border: 2px solid var(--line); border-radius: 5mm; padding: 2mm; text-align: center; background: #fff; break-inside: avoid; }
 .vcard:nth-child(4n+1) { border-color: #ffc4b3; } .vcard:nth-child(4n+2) { border-color: #a9eadb; }
 .vcard:nth-child(4n+3) { border-color: #c9c4ff; } .vcard:nth-child(4n) { border-color: #ffe08a; }
-.vimg { width: 100%; height: 30mm; object-fit: contain; }
-.vemo { height: 30mm; display: flex; align-items: center; justify-content: center; font-size: 34pt; border-radius: 4mm; background: var(--soft); }
+.vimg { width: 100%; height: 26mm; object-fit: contain; }
+.vemo { height: 26mm; display: flex; align-items: center; justify-content: center; font-size: 34pt; border-radius: 4mm; background: var(--soft); }
 .vcard .w { font-family: 'Baloo 2'; font-weight: 800; font-size: 1.1em; line-height: 1.15; margin-top: 1mm; }
 .vcard .ipa { color: var(--brand); font-size: .8em; font-family: 'DejaVu Sans', sans-serif; }
 .vcard .m { font-size: .85em; color: #6b6790; }
@@ -222,7 +226,7 @@ ol.odd li { margin-bottom: 1.5mm; font-weight: 700; }
 .step { margin: 2.5mm 0; }
 .example { background: #fff8e1; border-radius: 4mm; padding: 2mm 4mm; margin-top: 1.5mm; font-weight: 700; }
 .drawbox.small { height: 55mm; margin-top: 4mm; font-size: .9em; }
-.drawbox { height: 70mm; border: 3px dashed var(--line); border-radius: 6mm; display: flex; align-items: flex-start; justify-content: center;
+.drawbox { height: 48mm; border: 3px dashed var(--line); border-radius: 6mm; display: flex; align-items: flex-start; justify-content: center;
   color: #b9b4d6; font-weight: 800; padding-top: 3mm; }
 
 /* ---------- Review ---------- */

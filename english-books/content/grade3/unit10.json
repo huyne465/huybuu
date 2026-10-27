@@ -170,7 +170,7 @@
    "four",
    "fast"
   ],
-  "chant": "Fresh fruit, fresh fish!\nFast food on a full dish!",
+  "chant": "Fresh fruit, fresh fish!\nFresh food on a full dish!",
   "tip_vi": "Chạm nhẹ răng cửa trên vào môi dưới và thổi hơi ra để tạo âm /f/."
  },
  "patterns": [
@@ -308,7 +308,7 @@
    "Drink your milk and water clean,",
    "Best good choices ever seen!",
    "Yummy yummy healthy food,",
-   "Makes me strong and grows me good!"
+   "Makes me strong and helps me grow!"
   ],
   "actions_vi": "Vỗ tay theo nhịp, xoa bụng khi hát 'yummy yummy', giơ tay làm động tác cơ bắp khỏe mạnh khi hát 'makes me strong'."
  },
@@ -316,7 +316,7 @@
   {
    "level": "EASY",
    "title": "MY HEALTHY LUNCH",
-   "text": "My name is Nam. I am eight years old. I like healthy food. Today for lunch, I have rice, roasted chicken, and fresh soup. I also have an orange apple. I do not like soda because it is sweet. I drink clean water. Eating healthy food gives me energy to play and study at school. I feel happy when I eat good meal with my family.",
+   "text": "My name is Nam. I am eight years old. I like healthy food. Today for lunch, I have rice, roasted chicken, and fresh soup. I also have a red apple. I do not like soda because it is sweet. I drink clean water. Eating healthy food gives me energy to play and study at school. I feel happy when I eat a good meal with my family.",
    "image_prompt": "A cute 8-year-old Vietnamese boy named Nam happily sitting at a kitchen table with rice, chicken, soup, an apple, and a glass of water.",
    "vocab": [
     {
@@ -500,7 +500,7 @@
   {
    "level": "CHALLENGE",
    "title": "A HEALTHY COOKING DAY AT HOME",
-   "text": "On Sunday morning, Linh and her brother Minh help their mother in the kitchen. They want to make a healthy family lunch together. Linh washes bright red tomatoes, crisp carrots, and green lettuce to prepare a big bowl of salad. Minh cooks white rice and boils fresh eggs in a small pot. Mother is grilling fresh fish on the stove. The kitchen smells delicious! Linh says, 'I love eating carrots because they are good for my eyes.' Minh agrees and adds, 'And fish makes our brain smart!' After cooking, the family sits at the warm dining table. They drink fresh fruit juice instead of sweet sugary soft drinks. They enjoy their homemade meal very much because it is fresh, clean, and made with love.",
+   "text": "On Sunday morning, Linh and her brother Minh help their mother in the kitchen. They want to make a healthy family lunch together. Linh washes bright red tomatoes, crisp carrots, and green lettuce to prepare a big bowl of salad. Minh cooks white rice and boils fresh eggs in a small pot. Mother is grilling fresh fish on the stove. The kitchen smells delicious! Linh says, 'I love eating carrots because they are good for my eyes.' Minh agrees and adds, 'And fish makes our brain smart!' After cooking, the family sits at the warm dining table. They drink fresh fruit juice instead of sugary soft drinks. They enjoy their homemade meal very much because it is fresh, clean, and made with love.",
    "image_prompt": "A warm cozy home kitchen in Vietnam where a young girl Linh washes vegetables, her brother Minh cooks, and their mother grills fish at the stove.",
    "vocab": [
     {
@@ -629,7 +629,7 @@
    "Who cooks yummy meals in your house?",
    "Why is eating healthy food important?"
   ],
-  "model": "Hello everyone! My name is An. I am eight years old. I love healthy food very much. My favorite fruit is the banana because it is sweet and good for my health. Every day, I eat rice, fish, and green soup for lunch. When I am thirsty, I drink fresh water or milk. I don't eat too much cake because soft snacks are not healthy. Healthy food makes me stay strong!",
+  "model": "Hello everyone! My name is An. I am eight years old. I love healthy food very much. My favorite fruit is the banana because it is sweet and good for my health. Every day, I eat rice, fish, and green soup for lunch. When I am thirsty, I drink fresh water or milk. I don't eat too much cake because sweet snacks are not healthy. Healthy food makes me stay strong!",
   "challenge": "Talk about your favorite healthy food and drink for 30–60 seconds."
  },
  "conversations": [
@@ -1161,10 +1161,20 @@
   "I can choose healthy eating habits every day."
  ],
  "message_en": "HEALTHY FOOD BUILDS A STRONG BODY AND A SMART MIND.",
- "message_vi": "THỰC PHẨM LÀNH MẠNH XÂY DỰNG CƠ THỂ KHỎE MẠNH VÀ TRÍ TRUỆ MINH MẪN.",
+ "message_vi": "THỰC PHẨM LÀNH MẠNH XÂY DỰNG CƠ THỂ KHỎE MẠNH VÀ TRÍ TUỆ MINH MẪN.",
  "message_body": "Eating colorful fruits and fresh vegetables every day gives you the best power to play, learn, and excel. Choose clean water, eat good meals, and share healthy habits with your loving family and friends!",
  "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Changed 'an orange apple' to 'a red apple' in Reading 1 for logical consistency (apples are not typically orange).",
+  "Corrected grammar in Reading 1: 'eat good meal' to 'eat a good meal'.",
+  "Updated Phonics chant: changed 'Fast food' to 'Fresh food' to align with the unit's healthy eating theme.",
+  "Corrected Vietnamese spelling: 'TRÍ TRUỆ' to 'TRÍ TUỆ' in the final message.",
+  "Improved Song lyrics: changed 'grows me good' to 'helps me grow' for better grammatical structure.",
+  "Revised Reading 3: removed 'sweet' from 'sweet sugary soft drinks' to avoid redundancy.",
+  "Checked all review MCQ answers and scramble keys for accuracy."
+ ],
  "unit": 10,
  "grade": 3,
- "validation": []
+ "validation": [],
+ "proofread": true
 }
