@@ -1,0 +1,1169 @@
+{
+ "title": "Countries and Nationalities",
+ "theme": "Around the World",
+ "goal": "Students can identify countries and nationalities, ask and answer about origin, and talk about different cultures.",
+ "goal_vi": "Học sinh có thể nhận biết các quốc gia và quốc tịch, hỏi và trả lời về nguồn gốc, và nói về các nền văn hóa khác nhau.",
+ "cover_emoji": "🌎✈️🇻🇳🇺🇸",
+ "cover_image_prompt": "A cheerful group of diverse children, some wearing traditional clothes from different countries, holding small flags of various nations, standing around a large globe, with a plane flying in the background. Bright, happy atmosphere.",
+ "big_question": {
+  "en": "What do you know about the world?",
+  "vi": "Em biết gì về thế giới?",
+  "prompts": [
+   "What country are you from?",
+   "What is your nationality?",
+   "What other countries do you know?",
+   "Do you have friends from other countries?",
+   "What country do you want to visit?",
+   "What is your favorite international food?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "Vietnam",
+   "ipa": "/ˌviː.ətˈnɑːm/",
+   "vi": "Việt Nam",
+   "emoji": "🇻🇳",
+   "image_prompt": "A map of Vietnam with a small Vietnamese flag next to it."
+  },
+  {
+   "en": "Vietnamese",
+   "ipa": "/ˌviː.ət.nəˈmiːz/",
+   "vi": "người Việt, tiếng Việt",
+   "emoji": "👩‍👧‍👦",
+   "image_prompt": "A happy Vietnamese family, a mother and two children, smiling."
+  },
+  {
+   "en": "America",
+   "ipa": "/əˈmer.ɪ.kə/",
+   "vi": "Châu Mỹ, nước Mỹ",
+   "emoji": "🇺🇸",
+   "image_prompt": "A map of the United States of America with a small American flag."
+  },
+  {
+   "en": "American",
+   "ipa": "/əˈmer.ɪ.kən/",
+   "vi": "người Mỹ, tiếng Mỹ",
+   "emoji": "👨‍👩‍👧",
+   "image_prompt": "A cheerful American family, a mother, father, and daughter, eating hamburgers."
+  },
+  {
+   "en": "England",
+   "ipa": "/ˈɪŋ.ɡlənd/",
+   "vi": "nước Anh",
+   "emoji": "🇬🇧",
+   "image_prompt": "A map of England with a small British flag (Union Jack)."
+  },
+  {
+   "en": "English",
+   "ipa": "/ˈɪŋ.ɡlɪʃ/",
+   "vi": "người Anh, tiếng Anh",
+   "emoji": "💂‍♀️",
+   "image_prompt": "A friendly British student wearing a school uniform, reading a book."
+  },
+  {
+   "en": "France",
+   "ipa": "/fræns/",
+   "vi": "nước Pháp",
+   "emoji": "🇫🇷",
+   "image_prompt": "A map of France with a small French flag."
+  },
+  {
+   "en": "French",
+   "ipa": "/frentʃ/",
+   "vi": "người Pháp, tiếng Pháp",
+   "emoji": "🥐",
+   "image_prompt": "A French chef making a croissant, smiling."
+  },
+  {
+   "en": "Japan",
+   "ipa": "/dʒəˈpæn/",
+   "vi": "nước Nhật Bản",
+   "emoji": "🇯🇵",
+   "image_prompt": "A map of Japan with a small Japanese flag."
+  },
+  {
+   "en": "Japanese",
+   "ipa": "/ˌdʒæp.əˈniːz/",
+   "vi": "người Nhật, tiếng Nhật",
+   "emoji": "🍣",
+   "image_prompt": "A Japanese child happily eating sushi with chopsticks."
+  },
+  {
+   "en": "China",
+   "ipa": "/ˈtʃaɪ.nə/",
+   "vi": "nước Trung Quốc",
+   "emoji": "🇨🇳",
+   "image_prompt": "A map of China with a small Chinese flag."
+  },
+  {
+   "en": "Chinese",
+   "ipa": "/ˌtʃaɪˈniːz/",
+   "vi": "người Trung Quốc, tiếng Trung",
+   "emoji": "🐼",
+   "image_prompt": "A happy Chinese child playing with a panda toy."
+  },
+  {
+   "en": "Australia",
+   "ipa": "/ɒˈstreɪ.li.ə/",
+   "vi": "nước Úc",
+   "emoji": "🇦🇺",
+   "image_prompt": "A map of Australia with a small Australian flag."
+  },
+  {
+   "en": "Australian",
+   "ipa": "/ɒˈstreɪ.li.ən/",
+   "vi": "người Úc, tiếng Úc",
+   "emoji": "🦘",
+   "image_prompt": "A cheerful Australian child playing near a kangaroo."
+  },
+  {
+   "en": "country",
+   "ipa": "/ˈkʌn.tri/",
+   "vi": "quốc gia",
+   "emoji": "🌍",
+   "image_prompt": "A colorful globe showing continents and oceans."
+  },
+  {
+   "en": "nationality",
+   "ipa": "/ˌnæʃ.əˈnæl.ə.ti/",
+   "vi": "quốc tịch",
+   "emoji": "🆔",
+   "image_prompt": "A child holding up a passport, smiling proudly."
+  },
+  {
+   "en": "flag",
+   "ipa": "/flæɡ/",
+   "vi": "lá cờ",
+   "emoji": "🏳️",
+   "image_prompt": "A child happily waving a Vietnamese flag."
+  },
+  {
+   "en": "continent",
+   "ipa": "/ˈkɒn.tɪ.nənt/",
+   "vi": "châu lục",
+   "emoji": "🗺️",
+   "image_prompt": "A world map clearly showing the different continents."
+  },
+  {
+   "en": "travel",
+   "ipa": "/ˈtræv.əl/",
+   "vi": "du lịch",
+   "emoji": "✈️",
+   "image_prompt": "A family with two children carrying suitcases, waving goodbye at an airport."
+  },
+  {
+   "en": "world",
+   "ipa": "/wɜːld/",
+   "vi": "thế giới",
+   "emoji": "🌐",
+   "image_prompt": "A friendly illustration of planet Earth with small happy people from different countries holding hands around it."
+  }
+ ],
+ "phonics": {
+  "sound": "/ʃ/",
+  "letters": "sh",
+  "words": [
+   "English",
+   "French",
+   "fish",
+   "shoe",
+   "ship",
+   "wash"
+  ],
+  "chant": "Shiny shoes, short shirts, / She sells seashells on the seashore.",
+  "tip_vi": "Âm /ʃ/ tương tự âm 's' trong tiếng Việt nhưng tròn môi hơn, như khi bạn nói 's' và chu môi ra."
+ },
+ "patterns": [
+  {
+   "pattern": "Where are you from?",
+   "vi": "Bạn đến từ đâu?",
+   "examples": [
+    "Where are you from, Ben?",
+    "Where are your parents from?",
+    "Where are the students from?"
+   ]
+  },
+  {
+   "pattern": "I'm from + Country.",
+   "vi": "Tôi đến từ + Quốc gia.",
+   "examples": [
+    "I'm from Vietnam.",
+    "I'm from America.",
+    "I'm from Japan."
+   ]
+  },
+  {
+   "pattern": "What nationality are you?",
+   "vi": "Bạn là quốc tịch gì?",
+   "examples": [
+    "What nationality are you, Mai?",
+    "What nationality is he?",
+    "What nationality are they?"
+   ]
+  },
+  {
+   "pattern": "I'm + Nationality.",
+   "vi": "Tôi là người + Quốc tịch.",
+   "examples": [
+    "I'm Vietnamese.",
+    "I'm American.",
+    "I'm Japanese."
+   ]
+  },
+  {
+   "pattern": "He/She is from + Country.",
+   "vi": "Anh ấy/Cô ấy đến từ + Quốc gia.",
+   "examples": [
+    "He is from England.",
+    "She is from France.",
+    "My friend is from China."
+   ]
+  },
+  {
+   "pattern": "They are + Nationality.",
+   "vi": "Họ là người + Quốc tịch.",
+   "examples": [
+    "They are English.",
+    "They are French.",
+    "My classmates are Vietnamese."
+   ]
+  },
+  {
+   "pattern": "I want to visit + Country.",
+   "vi": "Tôi muốn đến thăm + Quốc gia.",
+   "examples": [
+    "I want to visit Australia.",
+    "She wants to visit Japan.",
+    "We want to visit America."
+   ]
+  },
+  {
+   "pattern": "My favorite country is + Country.",
+   "vi": "Quốc gia yêu thích của tôi là + Quốc gia.",
+   "examples": [
+    "My favorite country is Vietnam.",
+    "His favorite country is England.",
+    "Her favorite country is France."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "To Be: Talking about Origin",
+   "explain_en": "We use 'to be' (am, is, are) with 'from' to say where someone or something comes from. We use 'to be' directly with a nationality to say what nationality someone is.",
+   "explain_vi": "Chúng ta dùng động từ 'to be' (am, is, are) với 'from' để nói ai đó hoặc vật gì đó đến từ đâu. Chúng ta dùng 'to be' trực tiếp với quốc tịch để nói ai đó thuộc quốc tịch nào.",
+   "examples": [
+    "I am from Vietnam. I am Vietnamese.",
+    "He is from Japan. He is Japanese.",
+    "They are from America. They are American."
+   ],
+   "right": "✅ She is from China. She is Chinese.",
+   "wrong": "❌ She is China. She is from Chinese."
+  },
+  {
+   "title": "Asking about Countries and Nationalities",
+   "explain_en": "Use 'Where' to ask about a country and 'What nationality' to ask about someone's nationality.",
+   "explain_vi": "Dùng 'Where' (ở đâu) để hỏi về quốc gia và 'What nationality' (quốc tịch gì) để hỏi về quốc tịch của ai đó.",
+   "examples": [
+    "Where are you from? I'm from Vietnam.",
+    "What nationality are you? I'm Vietnamese.",
+    "Where is she from? She's from England. What nationality is she? She's English."
+   ],
+   "right": "✅ Where are you from?",
+   "wrong": "❌ What country are you?"
+  },
+  {
+   "title": "Capital Letters for Countries and Nationalities",
+   "explain_en": "Always use a capital letter for the names of countries and nationalities.",
+   "explain_vi": "Luôn luôn viết hoa chữ cái đầu tiên của tên các quốc gia và quốc tịch.",
+   "examples": [
+    "Vietnam (not vietnam)",
+    "Vietnamese (not vietnamese)",
+    "England, English; Japan, Japanese; France, French."
+   ],
+   "right": "✅ He is from China. He is Chinese.",
+   "wrong": "❌ He is from china. He is chinese."
+  },
+  {
+   "title": "Can for Languages",
+   "explain_en": "We use 'can' to talk about the ability to speak a language.",
+   "explain_vi": "Chúng ta dùng 'can' để nói về khả năng nói một ngôn ngữ nào đó.",
+   "examples": [
+    "I can speak Vietnamese.",
+    "She can speak English and French.",
+    "Can you speak Japanese?"
+   ],
+   "right": "✅ I can speak English.",
+   "wrong": "❌ I can to speak English."
+  }
+ ],
+ "song": {
+  "title": "Hello, World!",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Hello, hello, to friends so new,",
+   "From many countries, me and you.",
+   "Vietnam and America,",
+   "England, France, and China.",
+   "Japan, Australia, big and far,",
+   "Hello, world, wherever you are!"
+  ],
+  "actions_vi": "Mỗi dòng hát, hãy làm động tác mô tả hành động chào, chỉ vào bản thân và bạn bè, sau đó vẫy tay như đang chào các quốc gia khác nhau. Với 'big and far', dang tay rộng. Với 'wherever you are', chỉ vào bản đồ hoặc quả địa cầu."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My New Friend, Ben",
+   "text": "My name is Linh. I am nine years old. I am from Vietnam, and I am Vietnamese. I love my country very much. Vietnam is a beautiful country.\n\nToday, I met a new friend. His name is Ben. Ben is also nine years old. He is from America, and he is American. Ben can speak English very well. He is learning Vietnamese, too. Ben likes Vietnamese food, especially phở.\n\nWe talked about our countries. Ben showed me a picture of the Statue of Liberty in America. I showed him a picture of Ha Long Bay in Vietnam. We are happy to be friends. We can learn a lot from each other.",
+   "image_prompt": "Linh, a Vietnamese girl, and Ben, an American boy, both nine years old, sitting on a bench in a park, happily showing each other pictures of their countries on a tablet. Green park background.",
+   "vocab": [
+    {
+     "en": "met",
+     "ipa": "/met/",
+     "vi": "đã gặp"
+    },
+    {
+     "en": "also",
+     "ipa": "/ˈɔːl.soʊ/",
+     "vi": "cũng"
+    },
+    {
+     "en": "well",
+     "ipa": "/wel/",
+     "vi": "tốt"
+    },
+    {
+     "en": "learning",
+     "ipa": "/ˈlɜːr.nɪŋ/",
+     "vi": "đang học"
+    },
+    {
+     "en": "especially",
+     "ipa": "/ɪˈspeʃ.əl.i/",
+     "vi": "đặc biệt là"
+    },
+    {
+     "en": "phở",
+     "ipa": "/fɜː/",
+     "vi": "phở"
+    },
+    {
+     "en": "showed",
+     "ipa": "/ʃoʊd/",
+     "vi": "đã cho xem"
+    },
+    {
+     "en": "Statue of Liberty",
+     "ipa": "/ˈstætʃ.uː əv ˈlɪb.ər.ti/",
+     "vi": "Tượng Nữ thần Tự do"
+    },
+    {
+     "en": "Ha Long Bay",
+     "ipa": "/hɑː lɒŋ beɪ/",
+     "vi": "Vịnh Hạ Long"
+    },
+    {
+     "en": "each other",
+     "ipa": "/iːtʃ ˈʌð.ər/",
+     "vi": "lẫn nhau"
+    }
+   ],
+   "questions": [
+    "What is Linh's nationality?",
+    "How old is Linh?",
+    "Where is Ben from?",
+    "What is Ben's nationality?",
+    "What languages can Ben speak?",
+    "What Vietnamese food does Ben like?",
+    "What famous landmark did Ben show Linh?",
+    "What famous place did Linh show Ben?",
+    "Are Linh and Ben happy to be friends?",
+    "What can Linh and Ben do for each other?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is from America.",
+     "answer": false
+    },
+    {
+     "statement": "Ben is nine years old.",
+     "answer": true
+    },
+    {
+     "statement": "Ben can speak Japanese.",
+     "answer": false
+    },
+    {
+     "statement": "Linh showed Ben a picture of the Eiffel Tower.",
+     "answer": false
+    },
+    {
+     "statement": "Linh and Ben can learn from each other.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A Trip Around the World",
+   "text": "Minh and Mia are classmates. They love learning about different countries. Last weekend, they visited a special exhibition at the city museum called 'Around the World in One Day'.\n\nFirst, they stopped at the Japan booth. A friendly Japanese lady showed them how to write their names in Japanese characters. They learned that sushi is a famous Japanese food. Then, they went to the France booth. A French man taught them a few French words like 'Bonjour' and 'Merci'. They saw a model of the Eiffel Tower.\n\nNext, they visited the China booth. They watched a short video about the Great Wall of China and learned that pandas live there. Finally, they came to the Australia booth. An Australian boy, Tom, told them about kangaroos and the beautiful beaches. Minh wants to visit Australia, and Mia dreams of seeing the Eiffel Tower in France. It was a wonderful day!",
+   "image_prompt": "Minh and Mia, both Vietnamese children, happily exploring different country booths at a museum exhibition. They are interacting with people from Japan, France, China, and Australia, all represented by friendly, diverse adults and children. Flags and landmarks visible in the background.",
+   "vocab": [
+    {
+     "en": "classmates",
+     "ipa": "/ˈklæs.meɪts/",
+     "vi": "bạn cùng lớp"
+    },
+    {
+     "en": "exhibition",
+     "ipa": "/ˌek.sɪˈbɪʃ.ən/",
+     "vi": "triển lãm"
+    },
+    {
+     "en": "booth",
+     "ipa": "/buːθ/",
+     "vi": "gian hàng"
+    },
+    {
+     "en": "characters",
+     "ipa": "/ˈkær.ək.tərz/",
+     "vi": "chữ viết"
+    },
+    {
+     "en": "sushi",
+     "ipa": "/ˈsuː.ʃi/",
+     "vi": "món sushi"
+    },
+    {
+     "en": "taught",
+     "ipa": "/tɔːt/",
+     "vi": "đã dạy"
+    },
+    {
+     "en": "model",
+     "ipa": "/ˈmɑː.dəl/",
+     "vi": "mô hình"
+    },
+    {
+     "en": "Great Wall of China",
+     "ipa": "/ɡreɪt wɔːl əv ˈtʃaɪ.nə/",
+     "vi": "Vạn Lý Trường Thành"
+    },
+    {
+     "en": "pandas",
+     "ipa": "/ˈpæn.dəz/",
+     "vi": "gấu trúc"
+    },
+    {
+     "en": "beaches",
+     "ipa": "/biːtʃ.ɪz/",
+     "vi": "những bãi biển"
+    }
+   ],
+   "questions": [
+    "What did Minh and Mia visit last weekend?",
+    "What was the name of the exhibition?",
+    "Which country booth did they stop at first?",
+    "What did the Japanese lady show them?",
+    "What did the French man teach them?",
+    "What famous landmark did they see at the France booth?",
+    "What animal did they learn about at the China booth?",
+    "Who told them about kangaroos and beaches?",
+    "Which country does Minh want to visit?",
+    "What does Mia dream of seeing in France?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh and Mia visited the exhibition at the school.",
+     "answer": false
+    },
+    {
+     "statement": "Sushi is a famous Japanese food.",
+     "answer": true
+    },
+    {
+     "statement": "They learned 'Hello' in French.",
+     "answer": true
+    },
+    {
+     "statement": "The Great Wall of China is in Japan.",
+     "answer": false
+    },
+    {
+     "statement": "Tom is an Australian boy.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "Kids of the World Unite!",
+   "text": "Every year, children from all over the world join a special online camp called 'Kids of the World Unite!'. This year, Lucy from England, Hiro from Japan, and An from Vietnam are participating. They meet online every Saturday to share about their lives and countries.\n\nLucy, who is English, showed them pictures of London, with its famous red buses and Big Ben clock tower. She also taught them a fun English nursery rhyme. Hiro, a Japanese boy, talked about his school in Tokyo and explained how to make origami, a Japanese paper art. He showed them a beautiful paper crane he made. An, who is Vietnamese, proudly presented her country's traditional áo dài and showed a video of a Water Puppet Show, which is very popular in Vietnam.\n\nThey discovered many similarities and differences. All three enjoy playing football, but their favorite foods are different: Lucy likes fish and chips, Hiro loves ramen, and An enjoys spring rolls. They also learned about different greetings and customs. They are planning to send each other postcards. This camp helps them understand that even though they live in different corners of the world, they can be great friends and learn to respect each other's cultures. It's truly an amazing way to travel without leaving home!",
+   "image_prompt": "Lucy (English), Hiro (Japanese), and An (Vietnamese), all children, are happily chatting and showing items from their countries on a video call on their computers. Each child is in their own room, with national flags or cultural items in the background. A cheerful, connected atmosphere.",
+   "vocab": [
+    {
+     "en": "unite",
+     "ipa": "/juːˈnaɪt/",
+     "vi": "đoàn kết"
+    },
+    {
+     "en": "participating",
+     "ipa": "/pɑːrˈtɪs.ɪ.peɪtɪŋ/",
+     "vi": "tham gia"
+    },
+    {
+     "en": "nursery rhyme",
+     "ipa": "/ˈnɜːr.sə.ri raɪm/",
+     "vi": "bài hát thiếu nhi"
+    },
+    {
+     "en": "origami",
+     "ipa": "/ˌɔːr.ɪˈɡɑː.mi/",
+     "vi": "nghệ thuật gấp giấy Nhật Bản"
+    },
+    {
+     "en": "paper crane",
+     "ipa": "/ˈpeɪ.pər kreɪn/",
+     "vi": "hạc giấy"
+    },
+    {
+     "en": "áo dài",
+     "ipa": "/aʊ dzaɪ/",
+     "vi": "áo dài"
+    },
+    {
+     "en": "Water Puppet Show",
+     "ipa": "/ˈwɔː.tər ˈpʌp.ɪt ʃoʊ/",
+     "vi": "Múa rối nước"
+    },
+    {
+     "en": "popular",
+     "ipa": "/ˈpɑː.pjə.lər/",
+     "vi": "phổ biến"
+    },
+    {
+     "en": "similarities",
+     "ipa": "/ˌsɪm.ɪˈlær.ɪ.tiz/",
+     "vi": "những điểm tương đồng"
+    },
+    {
+     "en": "customs",
+     "ipa": "/ˈkʌs.təmz/",
+     "vi": "phong tục"
+    }
+   ],
+   "questions": [
+    "What is the name of the online camp?",
+    "Who are the three children participating this year?",
+    "Where is Lucy from?",
+    "What famous landmarks did Lucy show?",
+    "What did Hiro explain how to make?",
+    "What did An proudly present from Vietnam?",
+    "What is a Water Puppet Show?",
+    "What do all three children enjoy playing?",
+    "What are some of their favorite foods?",
+    "What are they planning to send each other?"
+   ],
+   "true_false": [
+    {
+     "statement": "The children meet online every Sunday.",
+     "answer": false
+    },
+    {
+     "statement": "Lucy is from England.",
+     "answer": true
+    },
+    {
+     "statement": "Origami is a Chinese paper art.",
+     "answer": false
+    },
+    {
+     "statement": "An showed a video of a Water Puppet Show.",
+     "answer": true
+    },
+    {
+     "statement": "The camp helps them understand different cultures.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Where's My Flag?",
+  "panels": [
+   {
+    "scene": "Mai, a Vietnamese girl, is holding a small American flag, looking confused. Ben, an American boy, is holding a small Japanese flag, also looking confused. They are in a classroom with many flags.",
+    "speech": "Mai: Oh no! This is not my flag! Where is my flag?"
+   },
+   {
+    "scene": "Minh, a Vietnamese boy, walks over to Mai. He is holding a Vietnamese flag.",
+    "speech": "Minh: Mai, that's an American flag! Are you American?"
+   },
+   {
+    "scene": "Mai shakes her head, smiling. Ben walks over to Minh and Mai, looking at his Japanese flag.",
+    "speech": "Mai: No, I'm Vietnamese! I'm from Vietnam! Ben, are you Japanese?"
+   },
+   {
+    "scene": "Ben shakes his head and points to his chest. Mai points to a Vietnamese flag behind Minh. Minh points to a Japanese flag behind Ben.",
+    "speech": "Ben: No, I'm American! I'm from America! Minh, where are the flags from Japan and Vietnam?"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your name?",
+   "Where are you from?",
+   "What nationality are you?",
+   "What is your favorite country?",
+   "Why do you like that country?",
+   "What languages can you speak?",
+   "What other countries do you know?",
+   "Have you ever traveled to another country?",
+   "What country would you like to visit in the future?",
+   "What is a famous landmark in your country?",
+   "What is a famous food from your country?",
+   "Do you know any songs from other countries?",
+   "What do you like about learning about other countries?",
+   "Do you have friends from other countries? Where are they from?",
+   "What is one thing you can do to be a global citizen?"
+  ],
+  "model": "Hello everyone! My name is Linh. I am from Vietnam, and I am Vietnamese. My favorite country is Japan because I love Japanese food like sushi and ramen. I can speak Vietnamese and a little English. In the future, I want to visit Japan and see Mount Fuji. I also want to try on a kimono. Learning about other countries is very interesting!",
+  "challenge": "Talk about your favorite country and why you want to visit it for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Meeting a New Friend",
+   "image_prompt": "Two children, a Vietnamese girl named Mai and an English boy named Tom, are meeting for the first time in a park, shaking hands and smiling. They both have small backpacks.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi! My name is Mai."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Hello, Mai! I'm Tom. Nice to meet you."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Nice to meet you too, Tom. Where are you from?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I'm from England. I'm English."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Oh, really? Welcome to Vietnam! I'm Vietnamese."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Thank you! Vietnam is a beautiful country. I love it here."
+    },
+    {
+     "speaker": "Mai",
+     "text": "That's great! Can you speak English?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, I can! And I'm learning some Vietnamese words."
+    }
+   ]
+  },
+  {
+   "title": "Dreaming of Travel",
+   "image_prompt": "Two Vietnamese children, Nam and An, sitting at a table with a large world map spread out. They are pointing at different countries on the map, looking excited.",
+   "lines": [
+    {
+     "speaker": "Nam",
+     "text": "Look, An! This is a map of the world."
+    },
+    {
+     "speaker": "An",
+     "text": "Wow! So many countries. Which country do you want to visit?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "I want to visit America. I want to see New York City!"
+    },
+    {
+     "speaker": "An",
+     "text": "That sounds exciting! My favorite country is France."
+    },
+    {
+     "speaker": "Nam",
+     "text": "France? Why France?"
+    },
+    {
+     "speaker": "An",
+     "text": "Because I want to see the Eiffel Tower and eat delicious French pastries."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Haha, good choice! Maybe one day we can travel together."
+    },
+    {
+     "speaker": "An",
+     "text": "Yes, that would be wonderful! Let's learn more English to talk to people there!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! My name is Ms. Hoa. Today, we are going to talk about different countries and nationalities. Listen carefully! Our first friend is from Japan. She is Japanese. She loves to eat sushi. Our second friend is from America. He is American. He loves to play baseball. Then we have a friend from England. She is English. She likes to drink tea. Next, a friend from France. He is French. He likes to eat croissants. And finally, a friend from China. She is Chinese. She loves pandas. It's wonderful to have friends from all over the world. They all have different cultures and speak different languages. But they can all say 'Hello' in English! We can learn many interesting things from each other.",
+  "questions": [
+   "What is the teacher's name?",
+   "How many friends are mentioned in the story?",
+   "Where is the first friend from?",
+   "What is the nationality of the friend from Japan?",
+   "What food does the Japanese friend like?",
+   "What sport does the American friend love?",
+   "What does the English friend like to drink?",
+   "What is the nationality of the friend who likes croissants?",
+   "What animal does the Chinese friend love?",
+   "What can all the friends say in English?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "VIETNAM",
+   "AMERICA",
+   "ENGLAND",
+   "FRANCE",
+   "JAPAN",
+   "CHINA",
+   "FLAG",
+   "WORLD"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "Vietnam",
+     "Vietnamese",
+     "America",
+     "England"
+    ],
+    "answer": "Vietnamese",
+    "why_vi": "Đây là quốc tịch, còn lại là tên quốc gia."
+   },
+   {
+    "options": [
+     "French",
+     "English",
+     "Japanese",
+     "Travel"
+    ],
+    "answer": "Travel",
+    "why_vi": "Đây là động từ/danh từ chung, còn lại là quốc tịch."
+   },
+   {
+    "options": [
+     "Flag",
+     "Country",
+     "Passport",
+     "Swim"
+    ],
+    "answer": "Swim",
+    "why_vi": "Đây là hành động, còn lại là danh từ liên quan đến quốc gia/du lịch."
+   },
+   {
+    "options": [
+     "Australia",
+     "China",
+     "Continent",
+     "Japan"
+    ],
+    "answer": "Continent",
+    "why_vi": "Đây là châu lục, còn lại là tên quốc gia."
+   },
+   {
+    "options": [
+     "Vietnamese",
+     "American",
+     "Apple",
+     "Australian"
+    ],
+    "answer": "Apple",
+    "why_vi": "Đây là một loại trái cây, còn lại là quốc tịch."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am a country in Asia. My flag has a red star. My traditional dress is áo dài. What country am I?",
+    "answer": "Vietnam"
+   },
+   {
+    "riddle": "I am a famous landmark in France. I am a tall metal tower. Many people visit me every year. What am I?",
+    "answer": "The Eiffel Tower"
+   },
+   {
+    "riddle": "I am a document you need to travel to other countries. I have your picture and information. What am I?",
+    "answer": "A passport"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "tnuocyr",
+    "answer": "country"
+   },
+   {
+    "scrambled": "gafl",
+    "answer": "flag"
+   },
+   {
+    "scrambled": "caimera",
+    "answer": "America"
+   },
+   {
+    "scrambled": "nejsapea",
+    "answer": "Japanese"
+   },
+   {
+    "scrambled": "nciha",
+    "answer": "China"
+   },
+   {
+    "scrambled": "tralve",
+    "answer": "travel"
+   }
+  ],
+  "picture_count": {
+   "question": "How many flags can you see on the cover picture?",
+   "hint_vi": "Hãy đếm cẩn thận tất cả các lá cờ mà các bạn nhỏ đang cầm hoặc treo."
+  }
+ },
+ "write": {
+  "profile_title": "My World Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am from:",
+   "My nationality is:",
+   "I can speak:",
+   "My favorite country is:",
+   "I want to visit:",
+   "A famous landmark I know is:",
+   "A famous food from my country is:",
+   "One thing I know about other countries is:",
+   "I want to learn about:"
+  ],
+  "frame_title": "ABOUT ME AND THE WORLD",
+  "frame_lines": [
+   "My name is ____.",
+   "I am from ____, and I am ____.",
+   "I can speak ____.",
+   "My favorite country is ____.",
+   "I like ____ because ____.",
+   "I want to visit ____ in the future.",
+   "In ____, I want to see ____ and try ____.",
+   "I also know about ____ (country).",
+   "People from ____ are ____ (nationality).",
+   "I think learning about the world is ____."
+  ]
+ },
+ "life_skill": {
+  "title": "BE A GLOBAL CITIZEN",
+  "intro": "Being a global citizen means you understand and respect people from different countries and cultures. You care about the world and try to make it a better place for everyone.",
+  "intro_vi": "Trở thành công dân toàn cầu nghĩa là bạn hiểu và tôn trọng mọi người từ các quốc gia và nền văn hóa khác nhau. Bạn quan tâm đến thế giới và cố gắng biến nó thành một nơi tốt đẹp hơn cho tất cả mọi người.",
+  "can_do": [
+   "Learn about different countries and cultures.",
+   "Be kind to people from other countries.",
+   "Listen to stories from people around the world.",
+   "Try new foods from different countries.",
+   "Learn a few words in another language.",
+   "Respect different customs and traditions.",
+   "Share your culture with others.",
+   "Understand that everyone is unique.",
+   "Be open-minded about differences.",
+   "Care about global issues, like helping others.",
+   "Travel and experience new places (if possible).",
+   "Make friends with people from diverse backgrounds."
+  ],
+  "value_question": "What is one new thing you can learn about a different country this week?",
+  "image_prompt": "A group of cheerful, diverse children (Vietnamese, American, Japanese, French, etc.) holding hands in a circle around a globe, smiling and looking friendly. Bright, positive scene."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? There are 195 countries in the world today!",
+   "vi": "Bạn có biết? Hiện nay có 195 quốc gia trên thế giới!"
+  },
+  {
+   "en": "Did you know? The Great Wall of China is the longest wall in the world, over 21,000 kilometers long!",
+   "vi": "Bạn có biết? Vạn Lý Trường Thành ở Trung Quốc là bức tường dài nhất thế giới, dài hơn 21.000 km!"
+  },
+  {
+   "en": "Did you know? The Eiffel Tower in France is visited by almost 7 million people every year, making it the most-visited paid monument in the world!",
+   "vi": "Bạn có biết? Tháp Eiffel ở Pháp đón gần 7 triệu lượt khách mỗi năm, biến nó thành đài tưởng niệm có thu phí được ghé thăm nhiều nhất trên thế giới!"
+  },
+  {
+   "en": "Did you know? Australia is a country, a continent, and an island all at the same time!",
+   "vi": "Bạn có biết? Úc vừa là một quốc gia, vừa là một châu lục và một hòn đảo cùng một lúc!"
+  },
+  {
+   "en": "Did you know? Japan has more than four million vending machines – about one for every 30 people!",
+   "vi": "Em có biết? Nhật Bản có hơn bốn triệu máy bán hàng tự động – cứ khoảng 30 người thì có một máy!"
+  }
+ ],
+ "project": {
+  "title": "MY COUNTRY POSTER",
+  "task": "Create a poster about a country you want to visit or learn more about. Include drawings and information.",
+  "draw_items": [
+   "The country's flag",
+   "A map of the country",
+   "A famous landmark",
+   "Traditional food or dish",
+   "A typical animal from that country",
+   "People in traditional clothes",
+   "A fun fact about the country",
+   "A picture of yourself 'visiting' the country"
+  ],
+  "example": [
+   "This is my poster about Japan.",
+   "The flag of Japan is white with a red circle.",
+   "Mount Fuji is a famous mountain in Japan.",
+   "I want to eat sushi and ramen there.",
+   "Japanese people are very polite. I want to say 'Konnichiwa' to them.",
+   "Japan is a beautiful country. I hope to visit it soon!"
+  ],
+  "present": "Hello everyone! This is my poster about [Country Name]. I am from [Your Country], but I love learning about [Country Name]. Here is the flag of [Country Name]... [Continue describing your poster]. Thank you!",
+  "image_prompt": "A Vietnamese child proudly presenting a colorful, hand-drawn poster about Japan, with drawings of Mount Fuji, sushi, a kimono, and the Japanese flag. Other diverse children in the background are watching and smiling."
+ },
+ "classroom_game": {
+  "name": "Country Guessing Game",
+  "players": "pairs / small groups",
+  "steps_en": [
+   "1. One student thinks of a country but doesn't say its name.",
+   "2. The student gives three clues about the country (e.g., 'It's in Asia. It's famous for sushi. Its flag is white with a red circle.').",
+   "3. Other students listen to the clues and guess the country.",
+   "4. The first student to guess correctly gets a point. Then, it's their turn to give clues.",
+   "5. Play for 5-10 minutes."
+  ],
+  "steps_vi": [
+   "1. Một học sinh nghĩ về một quốc gia nhưng không nói tên.",
+   "2. Học sinh đó đưa ra ba gợi ý về quốc gia đó (ví dụ: 'Nó ở châu Á. Nó nổi tiếng với sushi. Cờ của nó màu trắng với một vòng tròn đỏ.').",
+   "3. Các học sinh khác lắng nghe gợi ý và đoán tên quốc gia.",
+   "4. Học sinh đoán đúng đầu tiên được một điểm. Sau đó, đến lượt họ đưa ra gợi ý.",
+   "5. Chơi trong 5-10 phút."
+  ],
+  "language": [
+   "I'm thinking of a country.",
+   "It's in [continent].",
+   "It's famous for [food/landmark].",
+   "Its flag is [colors].",
+   "Is it [country name]?",
+   "Yes, it is! / No, it isn't."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "cou___ry",
+    "answer": "country"
+   },
+   {
+    "word": "natio___ity",
+    "answer": "nationality"
+   },
+   {
+    "word": "Vi__nam",
+    "answer": "Vietnam"
+   },
+   {
+    "word": "Ameri___a",
+    "answer": "America"
+   },
+   {
+    "word": "Eng___nd",
+    "answer": "England"
+   },
+   {
+    "word": "F___nce",
+    "answer": "France"
+   },
+   {
+    "word": "Ja___an",
+    "answer": "Japan"
+   },
+   {
+    "word": "Ch__na",
+    "answer": "China"
+   },
+   {
+    "word": "Aus___alia",
+    "answer": "Australia"
+   },
+   {
+    "word": "f___g",
+    "answer": "flag"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "Where ______ you from?",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "I'm from Vietnam. I'm ______.",
+    "options": [
+     "Vietnamese",
+     "Vietnam",
+     "Vietnameses"
+    ],
+    "answer": "Vietnamese"
+   },
+   {
+    "q": "She is from Japan. She is ______.",
+    "options": [
+     "Japan",
+     "Japanese",
+     "Japanes"
+    ],
+    "answer": "Japanese"
+   },
+   {
+    "q": "What ______ are you?",
+    "options": [
+     "country",
+     "nationality",
+     "from"
+    ],
+    "answer": "nationality"
+   },
+   {
+    "q": "He ______ speak English.",
+    "options": [
+     "is",
+     "can",
+     "from"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "My favorite ______ is France.",
+    "options": [
+     "nationality",
+     "flag",
+     "country"
+    ],
+    "answer": "country"
+   },
+   {
+    "q": "The capital letter for 'china' is ______.",
+    "options": [
+     "china",
+     "China",
+     "CHina"
+    ],
+    "answer": "China"
+   },
+   {
+    "q": "The Eiffel Tower is in ______.",
+    "options": [
+     "America",
+     "England",
+     "France"
+    ],
+    "answer": "France"
+   },
+   {
+    "q": "Kangaroos are from ______.",
+    "options": [
+     "China",
+     "Australia",
+     "Japan"
+    ],
+    "answer": "Australia"
+   },
+   {
+    "q": "I want to ______ to different countries.",
+    "options": [
+     "travel",
+     "eat",
+     "read"
+    ],
+    "answer": "travel"
+   }
+  ],
+  "order": [
+   {
+    "words": "are / you / from / Where / ?",
+    "answer": "Where are you from?"
+   },
+   {
+    "words": "from / is / He / England .",
+    "answer": "He is from England."
+   },
+   {
+    "words": "Vietnamese / I'm .",
+    "answer": "I'm Vietnamese."
+   },
+   {
+    "words": "can / speak / I / English .",
+    "answer": "I can speak English."
+   },
+   {
+    "words": "country / favorite / My / is / Japan .",
+    "answer": "My favorite country is Japan."
+   },
+   {
+    "words": "to / visit / I / want / America .",
+    "answer": "I want to visit America."
+   },
+   {
+    "words": "nationality / What / you / are / ?",
+    "answer": "What nationality are you?"
+   },
+   {
+    "words": "is / She / French .",
+    "answer": "She is French."
+   },
+   {
+    "words": "about / learn / We / countries / new .",
+    "answer": "We learn about new countries."
+   },
+   {
+    "words": "beautiful / Vietnam / a / country / is .",
+    "answer": "Vietnam is a beautiful country."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "Where are you from?",
+   "What is your nationality?",
+   "What languages can you speak?",
+   "What is your favorite country?",
+   "Why do you like that country?",
+   "What famous landmark do you know in Vietnam?",
+   "Do you want to travel around the world?",
+   "What is one new country you learned about in this unit?",
+   "How can you be a good global citizen?"
+  ]
+ },
+ "i_can": [
+  "I can say the names of 10 countries in English.",
+  "I can say the names of 10 nationalities in English.",
+  "I can ask 'Where are you from?'",
+  "I can answer 'I'm from Vietnam.'",
+  "I can ask 'What nationality are you?'",
+  "I can answer 'I'm Vietnamese.'",
+  "I can use 'can' to talk about speaking languages.",
+  "I can write sentences about my country and nationality.",
+  "I can identify flags of different countries.",
+  "I can talk about a country I want to visit.",
+  "I can understand short readings about countries.",
+  "I can tell the difference between a country and a nationality.",
+  "I can use capital letters for countries and nationalities.",
+  "I can talk about respecting other cultures.",
+  "I can share information about my own country in English."
+ ],
+ "message_en": "THE WORLD IS A BOOK, AND THOSE WHO DO NOT TRAVEL READ ONLY ONE PAGE.",
+ "message_vi": "Thế giới là một cuốn sách, và những ai không đi du lịch chỉ đọc được một trang.",
+ "message_body": "Every country is special, and every person has a unique story. Let's open our hearts and minds to explore the wonderful world around us. Keep learning, keep discovering!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 1,
+ "grade": 4,
+ "validation": []
+}

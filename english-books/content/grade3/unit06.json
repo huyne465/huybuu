@@ -1,0 +1,1173 @@
+{
+ "title": "MY PETS",
+ "theme": "Animals & Care",
+ "goal": "Students can describe pets, talk about what pets can do, and say how to care for them.",
+ "goal_vi": "Học sinh có thể mô tả thú cưng, nói về những gì thú cưng có thể làm và cách chăm sóc chúng.",
+ "cover_emoji": "🐾🐶🐱🐠🐦",
+ "cover_image_prompt": "A cheerful scene with diverse Vietnamese children happily playing with various pets like a dog, cat, fish in a bowl, and a bird in a cage, in a sunny park or backyard. The children are laughing and interacting gently with their pets.",
+ "big_question": {
+  "en": "What kind of pet do you like to have? Why?",
+  "vi": "Em thích có loại thú cưng nào? Tại sao?",
+  "prompts": [
+   "Do you have a pet at home?",
+   "What is your favorite animal?",
+   "What can a dog do?",
+   "What does a cat like to eat?",
+   "Are pets friendly?",
+   "How do you take care of an animal?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "dog",
+   "ipa": "/dɔːɡ/",
+   "vi": "chó",
+   "emoji": "🐶",
+   "image_prompt": "A friendly brown dog sitting happily, looking at the viewer."
+  },
+  {
+   "en": "cat",
+   "ipa": "/kæt/",
+   "vi": "mèo",
+   "emoji": "🐱",
+   "image_prompt": "A cute white cat playing with a ball of yarn."
+  },
+  {
+   "en": "fish",
+   "ipa": "/fɪʃ/",
+   "vi": "cá",
+   "emoji": "🐠",
+   "image_prompt": "A colorful goldfish swimming in a clear glass bowl."
+  },
+  {
+   "en": "bird",
+   "ipa": "/bɜːrd/",
+   "vi": "chim",
+   "emoji": "🐦",
+   "image_prompt": "A small, colorful pet bird perched on a branch inside a cage."
+  },
+  {
+   "en": "rabbit",
+   "ipa": "/ˈræbɪt/",
+   "vi": "thỏ",
+   "emoji": "🐰",
+   "image_prompt": "A fluffy white rabbit munching on a carrot."
+  },
+  {
+   "en": "hamster",
+   "ipa": "/ˈhæmstər/",
+   "vi": "chuột hamster",
+   "emoji": "🐹",
+   "image_prompt": "A tiny hamster running on a wheel in its cage."
+  },
+  {
+   "en": "turtle",
+   "ipa": "/ˈtɜːrtl/",
+   "vi": "rùa",
+   "emoji": "🐢",
+   "image_prompt": "A small pet turtle slowly walking on the ground."
+  },
+  {
+   "en": "puppy",
+   "ipa": "/ˈpʌpi/",
+   "vi": "chó con",
+   "emoji": "🐕",
+   "image_prompt": "A playful puppy with soft fur, chasing a toy."
+  },
+  {
+   "en": "kitten",
+   "ipa": "/ˈkɪtən/",
+   "vi": "mèo con",
+   "emoji": "🐈",
+   "image_prompt": "A small, curious kitten batting at a feather toy."
+  },
+  {
+   "en": "tail",
+   "ipa": "/teɪl/",
+   "vi": "đuôi",
+   "emoji": "🐾",
+   "image_prompt": "A fluffy dog's tail wagging happily."
+  },
+  {
+   "en": "fur",
+   "ipa": "/fɜːr/",
+   "vi": "lông",
+   "emoji": "🧶",
+   "image_prompt": "A close-up of soft, brown animal fur."
+  },
+  {
+   "en": "cage",
+   "ipa": "/keɪdʒ/",
+   "vi": "lồng",
+   "emoji": "🏠",
+   "image_prompt": "A clean, empty bird cage with a small door."
+  },
+  {
+   "en": "bowl",
+   "ipa": "/boʊl/",
+   "vi": "bát (ăn)",
+   "emoji": "🥣",
+   "image_prompt": "A ceramic pet food bowl on the floor."
+  },
+  {
+   "en": "pet",
+   "ipa": "/pet/",
+   "vi": "thú cưng",
+   "emoji": "🐾",
+   "image_prompt": "A child gently petting a small, friendly dog."
+  },
+  {
+   "en": "feed",
+   "ipa": "/fiːd/",
+   "vi": "cho ăn",
+   "emoji": "🍽️",
+   "image_prompt": "A Vietnamese boy pouring food into a dog's bowl."
+  },
+  {
+   "en": "walk",
+   "ipa": "/wɔːk/",
+   "vi": "dắt đi bộ",
+   "emoji": "🚶‍♀️",
+   "image_prompt": "A Vietnamese girl happily walking her small dog on a leash in a park."
+  },
+  {
+   "en": "play",
+   "ipa": "/pleɪ/",
+   "vi": "chơi",
+   "emoji": "🎾",
+   "image_prompt": "A child throwing a ball for a dog to catch in a green field."
+  },
+  {
+   "en": "clean",
+   "ipa": "/kliːn/",
+   "vi": "dọn dẹp (chuồng)",
+   "emoji": "🧹",
+   "image_prompt": "A Vietnamese girl carefully cleaning a hamster's cage."
+  },
+  {
+   "en": "friendly",
+   "ipa": "/ˈfrendli/",
+   "vi": "thân thiện",
+   "emoji": "😊",
+   "image_prompt": "A happy dog licking a child's hand gently."
+  },
+  {
+   "en": "smart",
+   "ipa": "/smɑːrt/",
+   "vi": "thông minh",
+   "emoji": "💡",
+   "image_prompt": "A dog sitting and 'shaking hands' with its owner, looking clever."
+  }
+ ],
+ "phonics": {
+  "sound": "/p/",
+  "letters": "p, pp",
+  "words": [
+   "pet",
+   "puppy",
+   "play",
+   "happy",
+   "park",
+   "pop"
+  ],
+  "chant": "Pink puppies play in the park. / Pop! Pop! Pop! What a lark!",
+  "tip_vi": "Âm /p/ là âm bật hơi. Khi phát âm, bạn khép môi lại rồi bật hơi mạnh ra."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my + pet.",
+   "vi": "Đây là + thú cưng của tôi.",
+   "examples": [
+    "This is my dog, Lucky.",
+    "This is my new pet fish.",
+    "This is my sister's rabbit."
+   ]
+  },
+  {
+   "pattern": "I have got a/an + pet.",
+   "vi": "Tôi có một + thú cưng.",
+   "examples": [
+    "I have got a cat.",
+    "She has got a hamster.",
+    "They have got some fish."
+   ]
+  },
+  {
+   "pattern": "My pet is + adjective.",
+   "vi": "Thú cưng của tôi + tính từ.",
+   "examples": [
+    "My dog is friendly.",
+    "The kitten is small and cute.",
+    "My turtle is slow but smart."
+   ]
+  },
+  {
+   "pattern": "It can + action verb.",
+   "vi": "Nó có thể + động từ hành động.",
+   "examples": [
+    "It can run fast.",
+    "My bird can sing beautifully.",
+    "The puppy can play with a ball."
+   ]
+  },
+  {
+   "pattern": "It can't + action verb.",
+   "vi": "Nó không thể + động từ hành động.",
+   "examples": [
+    "A fish can't walk.",
+    "My hamster can't fly.",
+    "A rabbit can't talk."
+   ]
+  },
+  {
+   "pattern": "What is your favorite pet?",
+   "vi": "Thú cưng yêu thích của bạn là gì?",
+   "examples": [
+    "What is your favorite pet, Linh?",
+    "What is your favorite pet? I like cats.",
+    "What is his favorite pet? He likes dogs."
+   ]
+  },
+  {
+   "pattern": "I like + pet + because + reason.",
+   "vi": "Tôi thích + thú cưng + vì + lý do.",
+   "examples": [
+    "I like dogs because they are friendly.",
+    "She likes fish because they are quiet.",
+    "He likes rabbits because they are cute."
+   ]
+  },
+  {
+   "pattern": "We need to + care action + our pet.",
+   "vi": "Chúng ta cần + hành động chăm sóc + thú cưng của mình.",
+   "examples": [
+    "We need to feed our dog every day.",
+    "We need to clean the bird's cage.",
+    "We need to walk our puppy in the park."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Have got / Has got",
+   "explain_en": "We use 'have got' to talk about things we own. Use 'have got' with I, you, we, they. Use 'has got' with he, she, it.",
+   "explain_vi": "Chúng ta dùng 'have got' để nói về những thứ mình sở hữu. Dùng 'have got' với I, you, we, they. Dùng 'has got' với he, she, it.",
+   "examples": [
+    "I have got a pet dog.",
+    "My sister has got a small cat.",
+    "They have got many colorful fish."
+   ],
+   "right": "✅ I have got a rabbit.",
+   "wrong": "❌ I has got a rabbit."
+  },
+  {
+   "title": "Can / Can't",
+   "explain_en": "We use 'can' to talk about ability (what someone or something is able to do). We use 'can't' (cannot) to talk about inability.",
+   "explain_vi": "Chúng ta dùng 'can' để nói về khả năng (ai đó hoặc cái gì đó có thể làm được). Chúng ta dùng 'can't' (cannot) để nói về việc không thể làm được.",
+   "examples": [
+    "A bird can fly.",
+    "My dog can run very fast.",
+    "A fish can't walk, but it can swim."
+   ],
+   "right": "✅ My cat can jump high.",
+   "wrong": "❌ My cat can to jump high."
+  },
+  {
+   "title": "Present Simple for description",
+   "explain_en": "We use the Present Simple to talk about facts or things that are always true. We use it to describe our pets and their habits.",
+   "explain_vi": "Chúng ta dùng thì Hiện tại đơn để nói về các sự thật hoặc những điều luôn đúng. Chúng ta dùng nó để mô tả thú cưng và thói quen của chúng.",
+   "examples": [
+    "My dog has brown fur.",
+    "Rabbits like to eat carrots.",
+    "My cat sleeps a lot during the day."
+   ],
+   "right": "✅ A hamster lives in a cage.",
+   "wrong": "❌ A hamster is living in a cage."
+  },
+  {
+   "title": "Present Continuous for actions happening now",
+   "explain_en": "We use the Present Continuous to talk about actions that are happening right now, at this moment.",
+   "explain_vi": "Chúng ta dùng thì Hiện tại tiếp diễn để nói về những hành động đang diễn ra ngay bây giờ, tại thời điểm nói.",
+   "examples": [
+    "Look! My puppy is playing with a ball.",
+    "The cat is sleeping on the sofa right now.",
+    "My fish are swimming in the bowl."
+   ],
+   "right": "✅ What is your dog doing? It is barking.",
+   "wrong": "❌ What is your dog doing? It bark."
+  }
+ ],
+ "song": {
+  "title": "My Lovely Pets",
+  "tune": "Sing to the tune of 'Old MacDonald Had a Farm'",
+  "lines": [
+   "I have a pet, a lovely dog,",
+   "And Lucky is his name-o.",
+   "With a 'woof woof' here and a 'woof woof' there,",
+   "Here a 'woof', there a 'woof', everywhere a 'woof woof'.",
+   "I have a pet, a lovely cat,",
+   "And Kitty is her name-o.",
+   "With a 'meow meow' here and a 'meow meow' there,",
+   "Here a 'meow', there a 'meow', everywhere a 'meow meow'.",
+   "I have a pet, a tiny fish,",
+   "And Goldie is its name-o.",
+   "With a 'swim swim' here and a 'swim swim' there,",
+   "Here a 'swim', there a 'swim', everywhere a 'swim swim'."
+  ],
+  "actions_vi": "Khi hát về chó, vẫy tay như đuôi chó và nói 'woof woof'. Khi hát về mèo, vuốt tay lên mặt như ria mèo và nói 'meow meow'. Khi hát về cá, chụm hai bàn tay và vẫy như cá bơi và nói 'swim swim'."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY PET DOG, LUCKY",
+   "text": "Hello! My name is Nam. I am eight years old. I have got a pet dog. His name is Lucky. Lucky is a puppy. He is small and friendly. Lucky has got brown fur and a short tail. He loves to play with me in the park. He can run very fast. Lucky likes to eat dog food and sometimes a small bone. I feed him every morning and evening. Lucky is a very good boy. I love my dog, Lucky, very much.",
+   "image_prompt": "A happy Vietnamese boy, Nam, smiling and gently petting his small, brown puppy named Lucky in a park setting.",
+   "vocab": [
+    {
+     "en": "puppy",
+     "ipa": "/ˈpʌpi/",
+     "vi": "chó con"
+    },
+    {
+     "en": "fur",
+     "ipa": "/fɜːr/",
+     "vi": "lông"
+    },
+    {
+     "en": "tail",
+     "ipa": "/teɪl/",
+     "vi": "đuôi"
+    },
+    {
+     "en": "park",
+     "ipa": "/pɑːrk/",
+     "vi": "công viên"
+    },
+    {
+     "en": "run",
+     "ipa": "/rʌn/",
+     "vi": "chạy"
+    },
+    {
+     "en": "fast",
+     "ipa": "/fæst/",
+     "vi": "nhanh"
+    },
+    {
+     "en": "dog food",
+     "ipa": "/dɔːɡ fuːd/",
+     "vi": "thức ăn cho chó"
+    },
+    {
+     "en": "bone",
+     "ipa": "/boʊn/",
+     "vi": "xương"
+    },
+    {
+     "en": "feed",
+     "ipa": "/fiːd/",
+     "vi": "cho ăn"
+    },
+    {
+     "en": "morning",
+     "ipa": "/ˈmɔːrnɪŋ/",
+     "vi": "buổi sáng"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Nam?",
+    "What pet does Nam have?",
+    "What is his dog's name?",
+    "Is Lucky a big dog or a puppy?",
+    "What color is Lucky's fur?",
+    "Does Lucky have a long tail or a short tail?",
+    "Where does Lucky like to play?",
+    "What can Lucky do?",
+    "When does Nam feed Lucky?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Lucky is a cat.",
+     "answer": false
+    },
+    {
+     "statement": "Lucky has brown fur.",
+     "answer": true
+    },
+    {
+     "statement": "Lucky can't run fast.",
+     "answer": false
+    },
+    {
+     "statement": "Nam feeds Lucky every day.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "MY PETS, GOLDIE AND FLUFFY",
+   "text": "Hi, I'm Mia. I live with my parents and my two pets. I have got a fish named Goldie and a cat named Fluffy. Goldie lives in a big glass bowl. She is orange and shiny. She likes to swim around all day. I feed Goldie small fish food flakes every morning. Fluffy is a black cat. She has soft fur and green eyes. Fluffy loves to sleep and play. Sometimes, she catches small toys. Right now, Fluffy is sleeping on my bed. Goldie is swimming fast because I just fed her. I love my pets very much. They are part of my family.",
+   "image_prompt": "A cheerful Vietnamese girl, Mia, sitting between a clear fish bowl with an orange fish and a sleeping black cat on a cozy bed. Both pets are visible and happy.",
+   "vocab": [
+    {
+     "en": "parents",
+     "ipa": "/ˈperənts/",
+     "vi": "bố mẹ"
+    },
+    {
+     "en": "glass bowl",
+     "ipa": "/ɡlæs boʊl/",
+     "vi": "bát thủy tinh"
+    },
+    {
+     "en": "orange",
+     "ipa": "/ˈɔːrɪndʒ/",
+     "vi": "màu cam"
+    },
+    {
+     "en": "shiny",
+     "ipa": "/ˈʃaɪni/",
+     "vi": "bóng"
+    },
+    {
+     "en": "swim around",
+     "ipa": "/swɪm əˈraʊnd/",
+     "vi": "bơi xung quanh"
+    },
+    {
+     "en": "flakes",
+     "ipa": "/fleɪks/",
+     "vi": "vảy (thức ăn)"
+    },
+    {
+     "en": "soft",
+     "ipa": "/sɔːft/",
+     "vi": "mềm"
+    },
+    {
+     "en": "green eyes",
+     "ipa": "/ɡriːn aɪz/",
+     "vi": "mắt xanh"
+    },
+    {
+     "en": "catch",
+     "ipa": "/kætʃ/",
+     "vi": "bắt"
+    },
+    {
+     "en": "part of",
+     "ipa": "/pɑːrt ʌv/",
+     "vi": "một phần của"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How many pets does Mia have?",
+    "What are her pets' names?",
+    "Where does Goldie live?",
+    "What color is Goldie?",
+    "What does Goldie like to do?",
+    "What color is Fluffy?",
+    "What kind of fur does Fluffy have?",
+    "What is Fluffy doing right now?",
+    "Why is Goldie swimming fast?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mia has three pets.",
+     "answer": false
+    },
+    {
+     "statement": "Goldie is Mia's cat.",
+     "answer": false
+    },
+    {
+     "statement": "Fluffy has green eyes.",
+     "answer": true
+    },
+    {
+     "statement": "Fluffy is sleeping on the floor.",
+     "answer": false
+    },
+    {
+     "statement": "Mia loves her pets.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "TAKING CARE OF MY PETS",
+   "text": "My name is Ben, and I have two pets: a rabbit named Cotton and a bird named Sky. Cotton has very white fur and long ears. He lives in a clean cage in our garden. I feed him fresh carrots and special rabbit food every day. I also clean his cage once a week because rabbits like to be clean. Sky is a small blue bird. She has a beautiful singing voice. Sky lives in a cage inside our house. I give her bird seeds and fresh water. My mom helps me clean Sky's cage every two days. It is important to take good care of our pets. They need food, water, and a clean home. Playing with them is also important because they need exercise and love. My pets are happy, and I am happy too because I love watching them play. Taking care of pets teaches me responsibility.",
+   "image_prompt": "A happy diverse boy, Ben, in a garden, holding a white rabbit named Cotton, while a small blue bird named Sky is in a cage hanging nearby. Ben is smiling as he looks at Cotton.",
+   "vocab": [
+    {
+     "en": "rabbit",
+     "ipa": "/ˈræbɪt/",
+     "vi": "thỏ"
+    },
+    {
+     "en": "long ears",
+     "ipa": "/lɔːŋ ɪərz/",
+     "vi": "tai dài"
+    },
+    {
+     "en": "garden",
+     "ipa": "/ˈɡɑːrdn/",
+     "vi": "khu vườn"
+    },
+    {
+     "en": "fresh carrots",
+     "ipa": "/freʃ ˈkærəts/",
+     "vi": "cà rốt tươi"
+    },
+    {
+     "en": "clean cage",
+     "ipa": "/kliːn keɪdʒ/",
+     "vi": "lồng sạch"
+    },
+    {
+     "en": "once a week",
+     "ipa": "/wʌns ə wiːk/",
+     "vi": "mỗi tuần một lần"
+    },
+    {
+     "en": "singing voice",
+     "ipa": "/ˈsɪŋɪŋ vɔɪs/",
+     "vi": "giọng hót"
+    },
+    {
+     "en": "bird seeds",
+     "ipa": "/bɜːrd siːdz/",
+     "vi": "hạt cho chim"
+    },
+    {
+     "en": "exercise",
+     "ipa": "/ˈeksərsaɪz/",
+     "vi": "vận động"
+    },
+    {
+     "en": "responsibility",
+     "ipa": "/rɪˌspɑːnsəˈbɪləti/",
+     "vi": "trách nhiệm"
+    }
+   ],
+   "questions": [
+    "What are Ben's pets' names?",
+    "What color is Cotton's fur?",
+    "Where does Cotton live?",
+    "What does Ben feed Cotton?",
+    "How often does Ben clean Cotton's cage?",
+    "What color is Sky?",
+    "What can Sky do well?",
+    "What does Ben give Sky to eat and drink?",
+    "Who helps Ben clean Sky's cage?",
+    "What does taking care of pets teach Ben?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben has a dog and a cat.",
+     "answer": false
+    },
+    {
+     "statement": "Cotton lives in the house.",
+     "answer": false
+    },
+    {
+     "statement": "Ben cleans Cotton's cage every day.",
+     "answer": false
+    },
+    {
+     "statement": "Sky is a blue bird.",
+     "answer": true
+    },
+    {
+     "statement": "Pets need food, water, and exercise.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "A Smart Parrot!",
+  "panels": [
+   {
+    "scene": "A Vietnamese boy, Minh, is visiting his friend, Linh, who is proudly showing off a colorful parrot in a cage in her living room.",
+    "speech": "Minh: Wow, Linh! Is this your new pet?"
+   },
+   {
+    "scene": "Linh nods happily, pointing at the parrot. Minh looks surprised and curious.",
+    "speech": "Linh: Yes, it is! This is Polly. She is a parrot. Minh: Can she talk?"
+   },
+   {
+    "scene": "Polly the parrot is looking directly at Minh, who is now very excited. Linh smiles.",
+    "speech": "Linh: Yes, she can! Polly, say hello to Minh! Polly: Hello, Minh! Hello, Minh!"
+   },
+   {
+    "scene": "Minh is laughing loudly, very impressed. Linh looks happy with her smart pet.",
+    "speech": "Minh: That's amazing! She is so smart! Linh: I love my smart pet!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "Do you like pets? Why or why not?",
+   "What is your favorite pet?",
+   "What pet do you have at home?",
+   "What is your pet's name?",
+   "What does your pet look like? (e.g., color, fur, tail)",
+   "Is your pet big or small?",
+   "Is your pet friendly or shy?",
+   "What can your pet do?",
+   "What does your pet like to eat?",
+   "What do you do to take care of your pet?",
+   "How often do you feed your pet?",
+   "Where does your pet sleep?",
+   "Do you play with your pet? What games do you play?",
+   "What do you like most about your pet?",
+   "Why is it important to take care of pets?"
+  ],
+  "model": "My favorite pet is a dog. I have got a puppy named Kiki. She has white fur and a short tail. Kiki is very friendly and playful. She can run fast and jump high. Kiki likes to eat dog food and play with her ball. I feed her two times a day and walk her in the park. I love Kiki very much because she always makes me happy.",
+  "challenge": "Talk about your favorite pet for 30–60 seconds. Say what it looks like, what it can do, and how you take care of it."
+ },
+ "conversations": [
+  {
+   "title": "My New Puppy",
+   "image_prompt": "Two Vietnamese children, An and Minh, are sitting on a park bench. An is holding a small, happy puppy.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Hi, Minh! Look! This is my new puppy."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Oh, wow! What a cute puppy! What's his name?"
+    },
+    {
+     "speaker": "An",
+     "text": "His name is Milo. He is only three months old."
+    },
+    {
+     "speaker": "Minh",
+     "text": "He has got soft brown fur. Is he friendly?"
+    },
+    {
+     "speaker": "An",
+     "text": "Yes, he is very friendly! He loves to play."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Can he run fast?"
+    },
+    {
+     "speaker": "An",
+     "text": "Yes, he can! Look, he is running after that leaf now."
+    },
+    {
+     "speaker": "Minh",
+     "text": "He is very playful. I like Milo!"
+    }
+   ]
+  },
+  {
+   "title": "Caring for Pets",
+   "image_prompt": "Two Vietnamese girls, Mai and Linh, are standing next to a bird cage. Mai is holding a small bowl of bird seeds.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi, Linh! Is this your pet bird?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Yes, Mai. This is Sky. She is singing beautifully right now."
+    },
+    {
+     "speaker": "Mai",
+     "text": "She is lovely! What does she eat?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "I feed her bird seeds and fresh fruit every day."
+    },
+    {
+     "speaker": "Mai",
+     "text": "That's good. Do you clean her cage?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Yes, I clean her cage every two days. It's important to keep it clean."
+    },
+    {
+     "speaker": "Mai",
+     "text": "You are a good pet owner, Linh. I want a pet too!"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Pets are fun, but we need to take good care of them."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! Today, I want to tell you about my pets. I have two pets. One is a cat, and her name is Mimi. Mimi has soft white fur and a long tail. She likes to sleep on my bed, and she loves to chase toys. Right now, she is sleeping under my chair. My other pet is a small fish named Bubbles. Bubbles is orange and lives in a glass bowl. He loves to swim around his bowl all day long. I feed Mimi cat food every morning and evening. I feed Bubbles fish flakes once a day. I always give them fresh water. I clean Mimi's litter box every day and Bubbles' bowl once a week. Taking care of my pets is a big job, but they bring me a lot of joy. What about your pets?",
+  "questions": [
+   "How many pets does the speaker have?",
+   "What is the cat's name?",
+   "What color is Mimi's fur?",
+   "What does Mimi like to do?",
+   "What is Mimi doing right now?",
+   "What is the fish's name?",
+   "What color is Bubbles?",
+   "Where does Bubbles live?",
+   "How often does the speaker feed Bubbles?",
+   "How often does the speaker clean Bubbles' bowl?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "DOG",
+   "CAT",
+   "FISH",
+   "BIRD",
+   "RABBIT",
+   "PUPPY",
+   "KITTEN",
+   "FRIENDLY"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "dog",
+     "cat",
+     "table",
+     "fish"
+    ],
+    "answer": "table",
+    "why_vi": "Các từ khác là tên thú cưng."
+   },
+   {
+    "options": [
+     "run",
+     "swim",
+     "sing",
+     "tree"
+    ],
+    "answer": "tree",
+    "why_vi": "Các từ khác là hành động thú cưng có thể làm."
+   },
+   {
+    "options": [
+     "fur",
+     "tail",
+     "shoe",
+     "cage"
+    ],
+    "answer": "shoe",
+    "why_vi": "Các từ khác là bộ phận hoặc đồ dùng của thú cưng."
+   },
+   {
+    "options": [
+     "feed",
+     "clean",
+     "play",
+     "sleep"
+    ],
+    "answer": "sleep",
+    "why_vi": "Các từ khác là hành động chăm sóc thú cưng mà chúng ta làm."
+   },
+   {
+    "options": [
+     "hamster",
+     "turtle",
+     "chicken",
+     "rabbit"
+    ],
+    "answer": "chicken",
+    "why_vi": "Các từ khác thường là thú cưng trong nhà."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have soft fur and long ears. I like to eat carrots and jump. What am I?",
+    "answer": "A rabbit"
+   },
+   {
+    "riddle": "I live in a bowl and I can swim. I am often orange or red. What am I?",
+    "answer": "A fish"
+   },
+   {
+    "riddle": "I have a tail and I can bark. I am a human's best friend. What am I?",
+    "answer": "A dog"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "ogd",
+    "answer": "dog"
+   },
+   {
+    "scrambled": "tac",
+    "answer": "cat"
+   },
+   {
+    "scrambled": "ihsf",
+    "answer": "fish"
+   },
+   {
+    "scrambled": "bdri",
+    "answer": "bird"
+   },
+   {
+    "scrambled": "birtba",
+    "answer": "rabbit"
+   },
+   {
+    "scrambled": "pyppu",
+    "answer": "puppy"
+   }
+  ],
+  "picture_count": {
+   "question": "How many different kinds of pets can you see on the cover picture?",
+   "hint_vi": "Hãy đếm số loại thú cưng khác nhau (ví dụ: chó, mèo, cá, chim) trong bức tranh bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Pet Profile",
+  "profile_fields": [
+   "My pet's name is:",
+   "It is a (dog/cat/fish/etc.):",
+   "It is (color and size):",
+   "It has got (fur/scales/feathers):",
+   "It likes to eat:",
+   "It can (action):",
+   "It can't (action):",
+   "I feed my pet (how often):",
+   "I play with my pet by:",
+   "My pet makes me feel:"
+  ],
+  "frame_title": "MY PET",
+  "frame_lines": [
+   "I have got a pet. It is a ____.",
+   "Its name is ____.",
+   "It is ____ years old.",
+   "It has got ____ fur/scales/feathers.",
+   "It is ____ and ____ (adjectives).",
+   "My pet likes to eat ____.",
+   "It can ____ and ____ (actions).",
+   "It can't ____ (action).",
+   "I ____ my pet every day.",
+   "I love my pet very much because ____."
+  ]
+ },
+ "life_skill": {
+  "title": "BE RESPONSIBLE FOR YOUR PETS",
+  "intro": "Having a pet is fun, but it's also a big responsibility. Pets need your care and love to be healthy and happy.",
+  "intro_vi": "Có thú cưng rất vui, nhưng đó cũng là một trách nhiệm lớn. Thú cưng cần sự chăm sóc và tình yêu thương của bạn để khỏe mạnh và hạnh phúc.",
+  "can_do": [
+   "Feed my pet on time.",
+   "Give my pet fresh water every day.",
+   "Clean my pet's cage/bowl/litter box regularly.",
+   "Walk my dog every day.",
+   "Play with my pet gently.",
+   "Take my pet to the vet if it's sick.",
+   "Talk to my pet.",
+   "Teach my pet tricks.",
+   "Be patient with my pet.",
+   "Never hurt my pet.",
+   "Learn about my pet's needs.",
+   "Love my pet unconditionally."
+  ],
+  "value_question": "What is one thing you can do today to be more responsible for your pet or any animal?",
+  "image_prompt": "A diverse group of cheerful Vietnamese children showing different acts of pet care: one feeding a fish, one walking a dog, one cleaning a hamster cage, all looking happy and responsible."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Cats sleep for about 70% of their lives! That's a lot of napping!",
+   "vi": "Bạn có biết không? Mèo ngủ khoảng 70% cuộc đời của chúng! Ngủ thật nhiều!"
+  },
+  {
+   "en": "Did you know? Dogs' noses are like fingerprints – no two are exactly alike!",
+   "vi": "Bạn có biết không? Mũi của chó giống như dấu vân tay – không có hai chiếc mũi nào giống hệt nhau!"
+  },
+  {
+   "en": "Did you know? Goldfish can remember things for months – much longer than the 'three seconds' many people believe!",
+   "vi": "Em có biết? Cá vàng có thể nhớ mọi thứ trong nhiều tháng – lâu hơn nhiều so với '3 giây' như nhiều người vẫn nghĩ!"
+  },
+  {
+   "en": "Did you know? Rabbits can live for about 8 to 12 years if they are well cared for!",
+   "vi": "Bạn có biết không? Thỏ có thể sống khoảng 8 đến 12 năm nếu chúng được chăm sóc tốt!"
+  },
+  {
+   "en": "Did you know? Hamsters carry food in their cheeks, which can get very big!",
+   "vi": "Bạn có biết không? Chuột Hamster mang thức ăn trong má của chúng, những chiếc má này có thể phình rất to!"
+  }
+ ],
+ "project": {
+  "title": "MY DREAM PET POSTER",
+  "task": "Create a poster about your dream pet. Draw your dream pet and write 5-8 sentences about it.",
+  "draw_items": [
+   "Your dream pet (e.g., a big dog, a small cat, a colorful bird)",
+   "Its favorite food",
+   "Its toy",
+   "Its bed/home",
+   "You playing with your pet",
+   "A bowl of water",
+   "A park or garden where it plays",
+   "A happy face on your pet"
+  ],
+  "example": [
+   "This is my dream pet. It is a big, friendly dog named Max.",
+   "Max has got soft, black fur and a long tail.",
+   "He can run very fast and catch a ball.",
+   "Max loves to eat dog treats and play in the park.",
+   "I will walk Max every day and give him lots of love.",
+   "Max will be my best friend!"
+  ],
+  "present": "Hello everyone! This is my dream pet poster. My dream pet is a ____. Its name is ____. It has got ____. It can ____. I will ____. Thank you!",
+  "image_prompt": "A group of diverse Vietnamese children proudly presenting their 'Dream Pet' posters to the class. The posters are colorful with drawings of various imaginary and real pets, and simple sentences written on them. The children are smiling and enthusiastic."
+ },
+ "classroom_game": {
+  "name": "Pet Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "Divide the class into small groups.",
+   "Each group gets a list of pet names (e.g., dog, cat, fish, bird, rabbit, hamster).",
+   "One student from a group acts out a pet without speaking. The others guess.",
+   "The first group to guess correctly gets a point. The group with the most points wins!"
+  ],
+  "steps_vi": [
+   "Chia lớp thành các nhóm nhỏ.",
+   "Mỗi nhóm nhận một danh sách tên thú cưng (ví dụ: chó, mèo, cá, chim, thỏ, chuột hamster).",
+   "Một học sinh trong nhóm sẽ diễn tả một con vật mà không nói. Các bạn khác đoán.",
+   "Nhóm nào đoán đúng đầu tiên sẽ được một điểm. Nhóm có nhiều điểm nhất sẽ thắng!"
+  ],
+  "language": [
+   "What is it?",
+   "Is it a...?",
+   "Yes, it is!",
+   "No, it isn't.",
+   "It can...",
+   "It can't..."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "d__g",
+    "answer": "dog"
+   },
+   {
+    "word": "c__t",
+    "answer": "cat"
+   },
+   {
+    "word": "f__sh",
+    "answer": "fish"
+   },
+   {
+    "word": "b__rd",
+    "answer": "bird"
+   },
+   {
+    "word": "r__bb__t",
+    "answer": "rabbit"
+   },
+   {
+    "word": "p__ppy",
+    "answer": "puppy"
+   },
+   {
+    "word": "k__tt__n",
+    "answer": "kitten"
+   },
+   {
+    "word": "t__il",
+    "answer": "tail"
+   },
+   {
+    "word": "f__r",
+    "answer": "fur"
+   },
+   {
+    "word": "c__ge",
+    "answer": "cage"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "I ______ got a pet dog.",
+    "options": [
+     "has",
+     "have",
+     "is"
+    ],
+    "answer": "have"
+   },
+   {
+    "q": "My cat ______ soft fur.",
+    "options": [
+     "have got",
+     "has got",
+     "can got"
+    ],
+    "answer": "has got"
+   },
+   {
+    "q": "A bird ______ fly high.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "A fish ______ walk.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can't"
+   },
+   {
+    "q": "My dog ______ playing with a ball right now.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "What ______ your favorite pet?",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I like cats ______ they are cute.",
+    "options": [
+     "and",
+     "but",
+     "because"
+    ],
+    "answer": "because"
+   },
+   {
+    "q": "We need to ______ our pets every day.",
+    "options": [
+     "feed",
+     "sleep",
+     "sit"
+    ],
+    "answer": "feed"
+   },
+   {
+    "q": "This is my ______ dog.",
+    "options": [
+     "friendly",
+     "friend",
+     "friends"
+    ],
+    "answer": "friendly"
+   },
+   {
+    "q": "My hamster ______ in its cage.",
+    "options": [
+     "run",
+     "runs",
+     "is run"
+    ],
+    "answer": "runs"
+   }
+  ],
+  "order": [
+   {
+    "words": "dog. / is / This / my",
+    "answer": "This is my dog."
+   },
+   {
+    "words": "a / I / cat. / got / have",
+    "answer": "I have got a cat."
+   },
+   {
+    "words": "friendly. / pet / is / My",
+    "answer": "My pet is friendly."
+   },
+   {
+    "words": "fly. / can / A / bird",
+    "answer": "A bird can fly."
+   },
+   {
+    "words": "walk. / can't / A / fish",
+    "answer": "A fish can't walk."
+   },
+   {
+    "words": "pet? / favorite / your / is / What",
+    "answer": "What is your favorite pet?"
+   },
+   {
+    "words": "dogs / I / because / like / smart. / they / are",
+    "answer": "I like dogs because they are smart."
+   },
+   {
+    "words": "feed / to / We / our / need / cat. / fresh food",
+    "answer": "We need to feed our cat fresh food."
+   },
+   {
+    "words": "fur. / has / brown / My / rabbit",
+    "answer": "My rabbit has brown fur."
+   },
+   {
+    "words": "now. / is / playing / The / puppy / right",
+    "answer": "The puppy is playing right now."
+   }
+  ],
+  "about_you": [
+   "Do you have a pet?",
+   "What is its name?",
+   "What kind of pet is it?",
+   "What color is your pet?",
+   "What can your pet do?",
+   "What does your pet like to eat?",
+   "How do you take care of your pet?",
+   "Do you like dogs or cats more?",
+   "What is your dream pet?",
+   "Why is it important to be kind to animals?"
+  ]
+ },
+ "i_can": [
+  "I can say pet words in English.",
+  "I can understand and use /p/ sound words.",
+  "I can use 'have got' and 'has got' to talk about pets.",
+  "I can use 'can' and 'can't' to describe pet abilities.",
+  "I can describe my pet using the Present Simple.",
+  "I can talk about actions happening now using the Present Continuous.",
+  "I can ask and answer 'What is your favorite pet?'.",
+  "I can say why I like a certain pet.",
+  "I can talk about how to care for pets.",
+  "I can read simple stories about pets.",
+  "I can understand conversations about pets.",
+  "I can write sentences about my pet.",
+  "I can talk about being responsible for pets.",
+  "I can present my dream pet.",
+  "I can play a game about pets in English."
+ ],
+ "message_en": "PETS BRING JOY AND TEACH RESPONSIBILITY.",
+ "message_vi": "Thú cưng mang lại niềm vui và dạy chúng ta trách nhiệm.",
+ "message_body": "Thank you for learning about 'My Pets'! We hope you enjoyed discovering different animals and learning how to care for them. Remember, pets are wonderful friends, and they need our love and care every day. Keep practicing your English and be kind to all animals!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 6,
+ "grade": 3,
+ "validation": []
+}

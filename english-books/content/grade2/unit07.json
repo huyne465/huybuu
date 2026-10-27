@@ -1,0 +1,1187 @@
+{
+ "title": "Food and Drinks",
+ "theme": "Healthy Eating",
+ "goal": "Students can name common foods and drinks, express preferences, and make simple healthy choices.",
+ "goal_vi": "Học sinh có thể gọi tên các loại thực phẩm và đồ uống thông thường, bày tỏ sở thích và lựa chọn những món ăn lành mạnh đơn giản.",
+ "cover_emoji": "🍎🥛🥕🥪",
+ "cover_image_prompt": "A group of diverse, cheerful primary school children, both boys and girls, happily sharing a healthy picnic lunch outdoors in a sunny park. They are eating fruits like apples and bananas, drinking milk, and holding sandwiches. Bright colors, no text.",
+ "big_question": {
+  "en": "What do you like to eat and drink for healthy living?",
+  "vi": "Em thích ăn và uống gì để sống khỏe mạnh?",
+  "prompts": [
+   "What is your favorite food?",
+   "What is your favorite drink?",
+   "Do you like fruit?",
+   "Do you like vegetables?",
+   "What do you eat for breakfast?",
+   "What do you drink with your meal?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "apple",
+   "ipa": "/ˈæpəl/",
+   "vi": "quả táo",
+   "emoji": "🍎",
+   "image_prompt": "A single red apple, shiny and round."
+  },
+  {
+   "en": "banana",
+   "ipa": "/bəˈnænə/",
+   "vi": "quả chuối",
+   "emoji": "🍌",
+   "image_prompt": "A single ripe yellow banana."
+  },
+  {
+   "en": "orange",
+   "ipa": "/ˈɔrɪndʒ/",
+   "vi": "quả cam",
+   "emoji": "🍊",
+   "image_prompt": "A single bright orange fruit."
+  },
+  {
+   "en": "milk",
+   "ipa": "/mɪlk/",
+   "vi": "sữa",
+   "emoji": "🥛",
+   "image_prompt": "A glass of white milk."
+  },
+  {
+   "en": "water",
+   "ipa": "/ˈwɔtər/",
+   "vi": "nước",
+   "emoji": "💧",
+   "image_prompt": "A clear glass of water."
+  },
+  {
+   "en": "bread",
+   "ipa": "/brɛd/",
+   "vi": "bánh mì",
+   "emoji": "🍞",
+   "image_prompt": "A slice of brown bread."
+  },
+  {
+   "en": "rice",
+   "ipa": "/raɪs/",
+   "vi": "cơm",
+   "emoji": "🍚",
+   "image_prompt": "A bowl of white rice with a spoon."
+  },
+  {
+   "en": "chicken",
+   "ipa": "/ˈtʃɪkɪn/",
+   "vi": "thịt gà",
+   "emoji": "🍗",
+   "image_prompt": "A cooked chicken drumstick."
+  },
+  {
+   "en": "fish",
+   "ipa": "/fɪʃ/",
+   "vi": "cá",
+   "emoji": "🐟",
+   "image_prompt": "A cooked piece of fish."
+  },
+  {
+   "en": "egg",
+   "ipa": "/ɛɡ/",
+   "vi": "trứng",
+   "emoji": "🥚",
+   "image_prompt": "A single boiled egg, peeled."
+  },
+  {
+   "en": "salad",
+   "ipa": "/ˈsæləd/",
+   "vi": "sa lát",
+   "emoji": "🥗",
+   "image_prompt": "A bowl of fresh green salad with tomatoes and cucumbers."
+  },
+  {
+   "en": "carrot",
+   "ipa": "/ˈkærət/",
+   "vi": "củ cà rốt",
+   "emoji": "🥕",
+   "image_prompt": "A single orange carrot."
+  },
+  {
+   "en": "tomato",
+   "ipa": "/təˈmeɪtoʊ/",
+   "vi": "quả cà chua",
+   "emoji": "🍅",
+   "image_prompt": "A single red, round tomato."
+  },
+  {
+   "en": "juice",
+   "ipa": "/dʒuːs/",
+   "vi": "nước ép",
+   "emoji": "🧃",
+   "image_prompt": "A glass of orange juice with a straw."
+  },
+  {
+   "en": "yogurt",
+   "ipa": "/ˈjoʊɡərt/",
+   "vi": "sữa chua",
+   "emoji": "🥣",
+   "image_prompt": "A small cup of white yogurt."
+  },
+  {
+   "en": "cheese",
+   "ipa": "/tʃiːz/",
+   "vi": "phô mai",
+   "emoji": "🧀",
+   "image_prompt": "A slice of yellow cheese."
+  },
+  {
+   "en": "soup",
+   "ipa": "/suːp/",
+   "vi": "súp",
+   "emoji": "🥣",
+   "image_prompt": "A bowl of warm, steaming vegetable soup."
+  },
+  {
+   "en": "healthy",
+   "ipa": "/ˈhɛlθi/",
+   "vi": "tốt cho sức khỏe",
+   "emoji": "💪",
+   "image_prompt": "A smiling child eating a piece of fruit, looking strong and happy."
+  },
+  {
+   "en": "delicious",
+   "ipa": "/dɪˈlɪʃəs/",
+   "vi": "ngon tuyệt",
+   "emoji": "😋",
+   "image_prompt": "A child smiling with eyes closed, showing enjoyment after taking a bite of food."
+  },
+  {
+   "en": "eat",
+   "ipa": "/iːt/",
+   "vi": "ăn",
+   "emoji": "🍽️",
+   "image_prompt": "A hand holding a fork, about to eat food from a plate."
+  }
+ ],
+ "phonics": {
+  "sound": "/s/",
+  "letters": "s",
+  "words": [
+   "salad",
+   "soup",
+   "sandwich",
+   "seven",
+   "see",
+   "sit"
+  ],
+  "chant": "Six small sandwiches, / So yummy, so sweet.",
+  "tip_vi": "Khi phát âm âm /s/, môi hơi mở, răng khép hờ, đẩy hơi ra ngoài tạo tiếng xì như con rắn."
+ },
+ "patterns": [
+  {
+   "pattern": "I like + noun.",
+   "vi": "Tôi thích + danh từ.",
+   "examples": [
+    "I like apples.",
+    "I like milk.",
+    "I like healthy food."
+   ]
+  },
+  {
+   "pattern": "I don't like + noun.",
+   "vi": "Tôi không thích + danh từ.",
+   "examples": [
+    "I don't like soda.",
+    "I don't like candy.",
+    "I don't like unhealthy food."
+   ]
+  },
+  {
+   "pattern": "Do you like + noun?",
+   "vi": "Bạn có thích + danh từ không?",
+   "examples": [
+    "Do you like bananas?",
+    "Do you like water?",
+    "Do you like chicken?"
+   ]
+  },
+  {
+   "pattern": "Yes, I do. / No, I don't.",
+   "vi": "Có, tôi có. / Không, tôi không.",
+   "examples": [
+    "Do you like carrots? Yes, I do.",
+    "Do you like fish? Yes, I do.",
+    "Do you like cake? No, I don't."
+   ]
+  },
+  {
+   "pattern": "I want + noun.",
+   "vi": "Tôi muốn + danh từ.",
+   "examples": [
+    "I want an apple.",
+    "I want some water.",
+    "I want a sandwich."
+   ]
+  },
+  {
+   "pattern": "What is this?",
+   "vi": "Đây là cái gì?",
+   "examples": [
+    "What is this? It is an orange.",
+    "What is this? It is bread.",
+    "What is this? It is juice."
+   ]
+  },
+  {
+   "pattern": "It is + adjective.",
+   "vi": "Nó + là tính từ.",
+   "examples": [
+    "It is healthy.",
+    "It is delicious.",
+    "It is good for me."
+   ]
+  },
+  {
+   "pattern": "This is + adjective + noun.",
+   "vi": "Đây là + tính từ + danh từ.",
+   "examples": [
+    "This is healthy food.",
+    "This is delicious milk.",
+    "This is good soup."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "I like / I don't like",
+   "explain_en": "We use 'I like' to say what food or drink we enjoy. We use 'I don't like' to say what we do not enjoy.",
+   "explain_vi": "Chúng ta dùng 'I like' để nói về món ăn hoặc thức uống chúng ta yêu thích. Chúng ta dùng 'I don't like' để nói về những gì chúng ta không thích.",
+   "examples": [
+    "I like rice.",
+    "I like vegetables.",
+    "I don't like soda.",
+    "I don't like unhealthy snacks."
+   ],
+   "right": "✅ I like apples.",
+   "wrong": "❌ I likes apples."
+  },
+  {
+   "title": "Do you like...?",
+   "explain_en": "We use 'Do you like...?' to ask someone about their food or drink preferences. The answers are 'Yes, I do.' or 'No, I don't.'",
+   "explain_vi": "Chúng ta dùng 'Do you like...?' để hỏi ai đó về sở thích món ăn hoặc thức uống của họ. Câu trả lời là 'Yes, I do.' hoặc 'No, I don't.'",
+   "examples": [
+    "Do you like fish? Yes, I do.",
+    "Do you like carrots? No, I don't.",
+    "Do you like yogurt? Yes, I do."
+   ],
+   "right": "✅ Do you like milk?",
+   "wrong": "❌ Are you like milk?"
+  },
+  {
+   "title": "I want...",
+   "explain_en": "We use 'I want' to ask for food or drink politely. It means you wish to have something.",
+   "explain_vi": "Chúng ta dùng 'I want' để yêu cầu món ăn hoặc thức uống một cách lịch sự. Nó có nghĩa là bạn muốn có thứ gì đó.",
+   "examples": [
+    "I want an apple, please.",
+    "I want some water.",
+    "I want a banana."
+   ],
+   "right": "✅ I want chicken.",
+   "wrong": "❌ I wanting chicken."
+  },
+  {
+   "title": "It is healthy / It is delicious",
+   "explain_en": "We use 'It is healthy' to say food is good for our body. We use 'It is delicious' to say food tastes good.",
+   "explain_vi": "Chúng ta dùng 'It is healthy' để nói món ăn tốt cho cơ thể. Chúng ta dùng 'It is delicious' để nói món ăn có vị ngon.",
+   "examples": [
+    "This fruit is healthy.",
+    "This soup is delicious.",
+    "Milk is healthy. It helps me grow."
+   ],
+   "right": "✅ It is delicious.",
+   "wrong": "❌ It are delicious."
+  }
+ ],
+ "song": {
+  "title": "My Healthy Food Song",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The apple on the tree goes red, red, red,",
+   "Red, red, red, red, red, red.",
+   "The apple on the tree goes red, red, red,",
+   "It's healthy for me!",
+   "",
+   "The milk in the cup goes white, white, white,",
+   "White, white, white, white, white, white.",
+   "The milk in the cup goes white, white, white,",
+   "It makes me strong!",
+   "",
+   "The carrots on the plate go crunch, crunch, crunch,",
+   "Crunch, crunch, crunch, crunch, crunch, crunch.",
+   "The carrots on the plate go crunch, crunch, crunch,",
+   "They're good for my eyes!"
+  ],
+  "actions_vi": "Làm động tác hái táo, uống sữa, cắn cà rốt. Vừa hát vừa chỉ vào mắt và khoe cơ bắp."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY LUNCHBOX",
+   "text": "My name is Mai. I am seven years old. Today is Monday. I have a lunchbox. In my lunchbox, I have an apple. I like apples. I have a sandwich. I like sandwiches. I have some milk. I like milk. My lunch is healthy. I eat my lunch. I am happy. I am strong.",
+   "image_prompt": "A cheerful Vietnamese girl named Mai, 7 years old, opening her colorful lunchbox to reveal an apple, a sandwich, and a small milk carton. She is smiling.",
+   "vocab": [
+    {
+     "en": "lunchbox",
+     "ipa": "/ˈlʌntʃˌbɑks/",
+     "vi": "hộp cơm trưa"
+    },
+    {
+     "en": "Monday",
+     "ipa": "/ˈmʌndeɪ/",
+     "vi": "thứ Hai"
+    },
+    {
+     "en": "apple",
+     "ipa": "/ˈæpəl/",
+     "vi": "quả táo"
+    },
+    {
+     "en": "sandwich",
+     "ipa": "/ˈsænwɪtʃ/",
+     "vi": "bánh mì kẹp"
+    },
+    {
+     "en": "milk",
+     "ipa": "/mɪlk/",
+     "vi": "sữa"
+    },
+    {
+     "en": "healthy",
+     "ipa": "/ˈhɛlθi/",
+     "vi": "lành mạnh"
+    },
+    {
+     "en": "eat",
+     "ipa": "/iːt/",
+     "vi": "ăn"
+    },
+    {
+     "en": "happy",
+     "ipa": "/ˈhæpi/",
+     "vi": "vui vẻ"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɔŋ/",
+     "vi": "khỏe mạnh"
+    },
+    {
+     "en": "today",
+     "ipa": "/təˈdeɪ/",
+     "vi": "hôm nay"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Mai?",
+    "What day is it today?",
+    "What does Mai have?",
+    "What fruit is in her lunchbox?",
+    "Does Mai like apples?",
+    "Does she have a sandwich?",
+    "What drink is in her lunchbox?",
+    "Is her lunch healthy?",
+    "How does Mai feel after eating her lunch?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "Mai likes oranges.",
+     "answer": false
+    },
+    {
+     "statement": "Mai has milk in her lunchbox.",
+     "answer": true
+    },
+    {
+     "statement": "Her lunch is unhealthy.",
+     "answer": false
+    },
+    {
+     "statement": "Mai is strong after eating.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "HEALTHY SNACKS FOR BEN",
+   "text": "Ben is a boy. He is seven years old. He likes to play. After playing, Ben is hungry. He wants a snack. His mom gives him healthy snacks. Ben has a banana. He likes bananas. He has some yogurt. He likes yogurt. He drinks water. Water is good for him. Ben is happy. He eats his healthy snacks. Healthy snacks make Ben strong and full of energy. He can play again!",
+   "image_prompt": "A happy Vietnamese boy named Ben, 7 years old, sitting at a table with a banana, a cup of yogurt, and a glass of water. He looks energetic and ready to play.",
+   "vocab": [
+    {
+     "en": "snack",
+     "ipa": "/snæk/",
+     "vi": "đồ ăn nhẹ"
+    },
+    {
+     "en": "hungry",
+     "ipa": "/ˈhʌŋɡri/",
+     "vi": "đói"
+    },
+    {
+     "en": "mom",
+     "ipa": "/mɑm/",
+     "vi": "mẹ"
+    },
+    {
+     "en": "banana",
+     "ipa": "/bəˈnænə/",
+     "vi": "quả chuối"
+    },
+    {
+     "en": "yogurt",
+     "ipa": "/ˈyoʊɡərt/",
+     "vi": "sữa chua"
+    },
+    {
+     "en": "water",
+     "ipa": "/ˈwɔtər/",
+     "vi": "nước"
+    },
+    {
+     "en": "good for",
+     "ipa": "/ɡʊd fɔr/",
+     "vi": "tốt cho"
+    },
+    {
+     "en": "energy",
+     "ipa": "/ˈɛnərʤi/",
+     "vi": "năng lượng"
+    },
+    {
+     "en": "play",
+     "ipa": "/pleɪ/",
+     "vi": "chơi"
+    },
+    {
+     "en": "again",
+     "ipa": "/əˈɡɛn/",
+     "vi": "lại nữa"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Ben?",
+    "What does Ben like to do?",
+    "How does Ben feel after playing?",
+    "What does Ben want?",
+    "Who gives Ben snacks?",
+    "What fruit does Ben have?",
+    "What other food does Ben have?",
+    "What does Ben drink?",
+    "What do healthy snacks give Ben?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "Ben is thirsty after playing.",
+     "answer": false
+    },
+    {
+     "statement": "Ben's mom gives him candy.",
+     "answer": false
+    },
+    {
+     "statement": "Ben likes bananas and yogurt.",
+     "answer": true
+    },
+    {
+     "statement": "Healthy snacks give Ben energy.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "OUR HEALTHY DINNER",
+   "text": "Hello, my name is Minh. I live with my family. My family likes healthy food. For dinner, my mom cooks many delicious dishes. We have rice. Rice gives us energy. We have chicken. Chicken is good for our muscles. We have fresh salad. The salad has carrots and tomatoes. Carrots are good for our eyes. Tomatoes are good for our skin. My dad says, \"Eat your vegetables!\" We drink water with our dinner. Sometimes, we have a small orange after dinner. Oranges have Vitamin C. They help us stay healthy. I love my family's healthy dinners. They make us strong and happy every day.",
+   "image_prompt": "A Vietnamese family (Minh, his mom, and dad) happily eating a healthy dinner together at a table. On the table, there is rice, cooked chicken, a bowl of salad with carrots and tomatoes, and glasses of water.",
+   "vocab": [
+    {
+     "en": "family",
+     "ipa": "/ˈfæməli/",
+     "vi": "gia đình"
+    },
+    {
+     "en": "dinner",
+     "ipa": "/ˈdɪnər/",
+     "vi": "bữa tối"
+    },
+    {
+     "en": "cooks",
+     "ipa": "/kʊks/",
+     "vi": "nấu ăn"
+    },
+    {
+     "en": "dishes",
+     "ipa": "/ˈdɪʃɪz/",
+     "vi": "các món ăn"
+    },
+    {
+     "en": "muscles",
+     "ipa": "/ˈmʌsəlz/",
+     "vi": "cơ bắp"
+    },
+    {
+     "en": "fresh",
+     "ipa": "/frɛʃ/",
+     "vi": "tươi"
+    },
+    {
+     "en": "skin",
+     "ipa": "/skɪn/",
+     "vi": "da"
+    },
+    {
+     "en": "dad",
+     "ipa": "/dæd/",
+     "vi": "bố"
+    },
+    {
+     "en": "Vitamin C",
+     "ipa": "/ˈvaɪtəmɪn si/",
+     "vi": "Vitamin C"
+    },
+    {
+     "en": "every day",
+     "ipa": "/ˈɛvri deɪ/",
+     "vi": "mỗi ngày"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "Who does Minh live with?",
+    "What kind of food does Minh's family like?",
+    "What does Minh's mom cook for dinner?",
+    "What gives Minh's family energy?",
+    "What is chicken good for?",
+    "What is in the salad?",
+    "What are carrots good for?",
+    "What does Minh's family drink with dinner?",
+    "What fruit do they sometimes have after dinner?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh's family likes unhealthy food.",
+     "answer": false
+    },
+    {
+     "statement": "Rice is good for muscles.",
+     "answer": false
+    },
+    {
+     "statement": "The salad has apples and bananas.",
+     "answer": false
+    },
+    {
+     "statement": "Minh's dad tells them to eat vegetables.",
+     "answer": true
+    },
+    {
+     "statement": "Oranges have Vitamin C.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "A Sweet Surprise!",
+  "panels": [
+   {
+    "scene": "A Vietnamese boy named Nam is at a table, looking sad. In front of him is a big piece of chocolate cake.",
+    "speech": "Nam: Oh no, I want cake! But it's not healthy."
+   },
+   {
+    "scene": "A Vietnamese girl named Linh comes to Nam, holding a plate with a colorful fruit salad (apple, banana, orange pieces).",
+    "speech": "Linh: Nam, try this! It's a fruit salad. It is healthy and delicious."
+   },
+   {
+    "scene": "Nam takes a small bite of the fruit salad from Linh's plate. His eyes widen in surprise.",
+    "speech": "Nam: Wow! It is very delicious!"
+   },
+   {
+    "scene": "Nam is now happily eating the fruit salad with Linh. The chocolate cake is forgotten in the background. Both children are smiling.",
+    "speech": "Nam: I like healthy food now! Thank you, Linh!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite fruit?",
+   "What is your favorite vegetable?",
+   "Do you like apples?",
+   "Do you like carrots?",
+   "What do you drink for breakfast?",
+   "Do you like milk?",
+   "What do you eat for lunch?",
+   "Do you like chicken?",
+   "Do you like fish?",
+   "What do you eat for dinner?",
+   "Is rice healthy?",
+   "Is water healthy?",
+   "What healthy food do you eat to be strong?",
+   "What healthy drink do you like?",
+   "Why is healthy food important?"
+  ],
+  "model": "Hello everyone. My name is An. I am seven years old. I like many healthy foods. I like apples and bananas. They are fruits. I like carrots and tomatoes. They are vegetables. I drink water every day. I also like milk. My favorite healthy meal is rice with fish and a salad. It is very delicious and healthy. Healthy food makes me strong and happy.",
+  "challenge": "Talk about your favorite healthy meal for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "At the Cafeteria",
+   "image_prompt": "Two diverse primary school children, Tom and Lucy, standing in a school cafeteria line. Tom is pointing at food, and Lucy is holding a tray.",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "text": "Hi, Lucy! What do you want to eat?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Hi, Tom! I want some rice and chicken."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Do you like chicken?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, I do! It is delicious. What about you?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I want a sandwich. And I want an apple."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "That is healthy, Tom!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes! And I want some water."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Me too! Let's eat."
+    }
+   ]
+  },
+  {
+   "title": "Sharing Snacks",
+   "image_prompt": "Two Vietnamese primary school children, Minh and An, sitting on a bench in a park, sharing healthy snacks like fruit slices and small yogurt cups. They are smiling.",
+   "lines": [
+    {
+     "speaker": "Minh",
+     "text": "Hi An! Do you want an orange?"
+    },
+    {
+     "speaker": "An",
+     "text": "Oh, thank you, Minh! I like oranges."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Here you go. It is fresh."
+    },
+    {
+     "speaker": "An",
+     "text": "Mmm, it is delicious! Do you like yogurt?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "Yes, I do! I like yogurt very much."
+    },
+    {
+     "speaker": "An",
+     "text": "Here is one for you. It is healthy."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Thank you, An! Let's eat our healthy snacks."
+    },
+    {
+     "speaker": "An",
+     "text": "Yes! Healthy food makes us strong."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, children! Today, I want to tell you about my breakfast. For breakfast, I like to eat eggs. Eggs are good for me. I also like to eat some bread. Bread gives me energy. And for my drink, I always have milk. Milk helps my bones grow strong. Sometimes, I eat a banana, too. Bananas are very sweet and healthy. I like my breakfast because it is delicious and it helps me start my day strong and happy. What do you like for your breakfast?",
+  "questions": [
+   "What meal is the teacher talking about?",
+   "What does the teacher like to eat for breakfast?",
+   "Are eggs good for the teacher?",
+   "What else does the teacher eat?",
+   "What does bread give the teacher?",
+   "What does the teacher drink for breakfast?",
+   "What does milk help?",
+   "What fruit does the teacher sometimes eat?",
+   "How do bananas taste?",
+   "How does the teacher feel after breakfast?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "APPLE",
+   "BANANA",
+   "MILK",
+   "BREAD",
+   "RICE",
+   "SALAD",
+   "CARROT",
+   "JUICE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "apple",
+     "banana",
+     "carrot",
+     "orange"
+    ],
+    "answer": "carrot",
+    "why_vi": "Cà rốt là rau củ, còn lại là trái cây."
+   },
+   {
+    "options": [
+     "milk",
+     "water",
+     "juice",
+     "bread"
+    ],
+    "answer": "bread",
+    "why_vi": "Bánh mì là thức ăn, còn lại là đồ uống."
+   },
+   {
+    "options": [
+     "chicken",
+     "fish",
+     "egg",
+     "soup"
+    ],
+    "answer": "soup",
+    "why_vi": "Súp là một món ăn tổng hợp, còn lại là nguyên liệu chính."
+   },
+   {
+    "options": [
+     "healthy",
+     "delicious",
+     "big",
+     "small"
+    ],
+    "answer": "big",
+    "why_vi": "Big và small là kích cỡ, còn lại là tính chất của thức ăn."
+   },
+   {
+    "options": [
+     "eat",
+     "drink",
+     "play",
+     "run"
+    ],
+    "answer": "play",
+    "why_vi": "Play và run là hành động vận động, còn eat và drink liên quan đến ăn uống."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am red or green. I grow on a tree. You can eat me whole or in slices. What am I?",
+    "answer": "An apple"
+   },
+   {
+    "riddle": "I am yellow. Monkeys like me. You peel me before you eat me. What am I?",
+    "answer": "A banana"
+   },
+   {
+    "riddle": "I am white. I come from a cow. I help your bones grow strong. What am I?",
+    "answer": "Milk"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "pelap",
+    "answer": "apple"
+   },
+   {
+    "scrambled": "nanaba",
+    "answer": "banana"
+   },
+   {
+    "scrambled": "kilm",
+    "answer": "milk"
+   },
+   {
+    "scrambled": "edabr",
+    "answer": "bread"
+   },
+   {
+    "scrambled": "roctar",
+    "answer": "carrot"
+   },
+   {
+    "scrambled": "ecir",
+    "answer": "rice"
+   }
+  ],
+  "picture_count": {
+   "question": "How many apples can you see in the cover picture?",
+   "hint_vi": "Đếm số quả táo trên hình bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Food Diary",
+  "profile_fields": [
+   "My name is:",
+   "My favorite fruit is:",
+   "My favorite vegetable is:",
+   "My favorite drink is:",
+   "I like to eat ____ for breakfast.",
+   "I like to eat ____ for lunch.",
+   "I like to eat ____ for dinner.",
+   "My favorite healthy food is:",
+   "I like to eat ____ when I am hungry.",
+   "I like to drink ____ when I am thirsty."
+  ],
+  "frame_title": "MY HEALTHY MEAL",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "I like to eat ____ for breakfast.",
+   "It is ____.",
+   "I like to eat ____ for lunch.",
+   "It is ____.",
+   "I like to eat ____ for dinner.",
+   "It is ____.",
+   "I like to drink ____.",
+   "It is ____. I like healthy food."
+  ]
+ },
+ "life_skill": {
+  "title": "EAT HEALTHY, BE STRONG",
+  "intro": "Eating healthy food helps your body grow big and strong. It gives you energy to play and learn!",
+  "intro_vi": "Ăn uống lành mạnh giúp cơ thể em lớn nhanh và khỏe mạnh. Nó cung cấp năng lượng cho em vui chơi và học tập!",
+  "can_do": [
+   "Eat fruits every day.",
+   "Eat vegetables every day.",
+   "Drink water.",
+   "Drink milk.",
+   "Eat rice and bread.",
+   "Eat chicken and fish.",
+   "Try new healthy foods.",
+   "Wash my hands before eating.",
+   "Eat slowly.",
+   "Finish my food.",
+   "Say \"Thank you\" for food.",
+   "Share healthy snacks with friends."
+  ],
+  "value_question": "What healthy food do you eat to be strong?",
+  "image_prompt": "A happy, strong Vietnamese boy flexing his arm muscles, with a background of various colorful healthy foods like fruits and vegetables."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? An apple a day keeps the doctor away!",
+   "vi": "Em có biết không? Ăn một quả táo mỗi ngày giúp em khỏe mạnh!"
+  },
+  {
+   "en": "Did you know? Carrots are good for your eyes.",
+   "vi": "Em có biết không? Cà rốt rất tốt cho mắt của em."
+  },
+  {
+   "en": "Did you know? Bananas are curved because they grow towards the sun.",
+   "vi": "Em có biết không? Quả chuối có hình cong vì chúng mọc hướng về phía mặt trời."
+  },
+  {
+   "en": "Did you know? Apples float in water because they are 25% air.",
+   "vi": "Em có biết không? Quả táo nổi trên nước vì chúng chứa 25% là không khí."
+  },
+  {
+   "en": "Did you know? Milk helps your bones grow strong.",
+   "vi": "Em có biết không? Sữa giúp xương của em chắc khỏe."
+  }
+ ],
+ "project": {
+  "title": "MY HEALTHY FOOD PLATE",
+  "task": "Create a drawing of your healthy food plate for one meal. Show different healthy foods.",
+  "draw_items": [
+   "A plate",
+   "Rice",
+   "Chicken",
+   "Fish",
+   "An apple slice",
+   "A banana slice",
+   "Carrot sticks",
+   "A glass of water"
+  ],
+  "example": [
+   "This is my healthy plate.",
+   "I have rice.",
+   "I have chicken.",
+   "I have carrots.",
+   "I have an apple.",
+   "I drink water.",
+   "I like healthy food."
+  ],
+  "present": "Hello everyone! This is my healthy food plate. I like to eat (name a food) and drink (name a drink). It is healthy and delicious!",
+  "image_prompt": "A cheerful Vietnamese girl holding up a drawing of a colorful plate filled with various healthy foods like rice, chicken, vegetables, and fruit."
+ },
+ "classroom_game": {
+  "name": "Healthy Food Guessing Game",
+  "players": "pairs",
+  "steps_en": [
+   "1. Student A thinks of a healthy food from the unit.",
+   "2. Student B asks 'Do you like (food)?'.",
+   "3. Student A answers 'Yes, I do.' or 'No, I don't.'.",
+   "4. Student B tries to guess the food. If correct, they swap roles. If not, Student B asks another question."
+  ],
+  "steps_vi": [
+   "1. Học sinh A nghĩ về một món ăn lành mạnh trong bài học.",
+   "2. Học sinh B hỏi 'Bạn có thích (món ăn) không?'.",
+   "3. Học sinh A trả lời 'Có, tôi có.' hoặc 'Không, tôi không.'.",
+   "4. Học sinh B cố gắng đoán món ăn. Nếu đúng, đổi vai. Nếu không, Học sinh B hỏi câu khác."
+  ],
+  "language": [
+   "Do you like...?",
+   "Yes, I do.",
+   "No, I don't.",
+   "Is it...?",
+   "It is..."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "a__le",
+    "answer": "apple"
+   },
+   {
+    "word": "bana__",
+    "answer": "banana"
+   },
+   {
+    "word": "m__k",
+    "answer": "milk"
+   },
+   {
+    "word": "w__er",
+    "answer": "water"
+   },
+   {
+    "word": "b__ad",
+    "answer": "bread"
+   },
+   {
+    "word": "r__e",
+    "answer": "rice"
+   },
+   {
+    "word": "chi__en",
+    "answer": "chicken"
+   },
+   {
+    "word": "f__h",
+    "answer": "fish"
+   },
+   {
+    "word": "e__g",
+    "answer": "egg"
+   },
+   {
+    "word": "s__ad",
+    "answer": "salad"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "I ____ apples.",
+    "options": [
+     "like",
+     "likes",
+     "liking"
+    ],
+    "answer": "like"
+   },
+   {
+    "q": "Do you like milk? ____, I do.",
+    "options": [
+     "No",
+     "Yes",
+     "Not"
+    ],
+    "answer": "Yes"
+   },
+   {
+    "q": "I ____ like soda.",
+    "options": [
+     "don't",
+     "doesn't",
+     "not"
+    ],
+    "answer": "don't"
+   },
+   {
+    "q": "This is a ____.",
+    "options": [
+     "water",
+     "banana",
+     "milk"
+    ],
+    "answer": "banana"
+   },
+   {
+    "q": "Carrots are ____ for your eyes.",
+    "options": [
+     "bad",
+     "good",
+     "small"
+    ],
+    "answer": "good"
+   },
+   {
+    "q": "I want some ____.",
+    "options": [
+     "play",
+     "water",
+     "jump"
+    ],
+    "answer": "water"
+   },
+   {
+    "q": "Rice gives us ____.",
+    "options": [
+     "sleep",
+     "energy",
+     "cars"
+    ],
+    "answer": "energy"
+   },
+   {
+    "q": "Chicken is good for your ____.",
+    "options": [
+     "muscles",
+     "toys",
+     "books"
+    ],
+    "answer": "muscles"
+   },
+   {
+    "q": "____ is white and comes from a cow.",
+    "options": [
+     "Juice",
+     "Water",
+     "Milk"
+    ],
+    "answer": "Milk"
+   },
+   {
+    "q": "This food is ____.",
+    "options": [
+     "play",
+     "run",
+     "healthy"
+    ],
+    "answer": "healthy"
+   }
+  ],
+  "order": [
+   {
+    "words": "like / I / apples",
+    "answer": "I like apples."
+   },
+   {
+    "words": "milk / you / Do / like?",
+    "answer": "Do you like milk?"
+   },
+   {
+    "words": "don't / I / soda / like",
+    "answer": "I don't like soda."
+   },
+   {
+    "words": "is / This / food / healthy",
+    "answer": "This is healthy food."
+   },
+   {
+    "words": "want / water / I / some",
+    "answer": "I want some water."
+   },
+   {
+    "words": "is / It / delicious",
+    "answer": "It is delicious."
+   },
+   {
+    "words": "for / good / Carrots / eyes / are / your",
+    "answer": "Carrots are good for your eyes."
+   },
+   {
+    "words": "eat / I / rice",
+    "answer": "I eat rice."
+   },
+   {
+    "words": "chicken / I / like",
+    "answer": "I like chicken."
+   },
+   {
+    "words": "strong / Milk / makes / me",
+    "answer": "Milk makes me strong."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "What is your favorite food?",
+   "What is your favorite drink?",
+   "Do you like apples?",
+   "Do you like carrots?",
+   "What do you eat for breakfast?",
+   "What do you drink for lunch?",
+   "Do you like healthy food?",
+   "What healthy food do you like to eat?"
+  ]
+ },
+ "i_can": [
+  "I can say food words in English.",
+  "I can say drink words in English.",
+  "I can say \"I like...\"",
+  "I can say \"I don't like...\"",
+  "I can ask \"Do you like...?\"",
+  "I can answer \"Yes, I do.\"",
+  "I can answer \"No, I don't.\"",
+  "I can say \"I want...\"",
+  "I can say \"This is healthy food.\"",
+  "I can talk about my favorite food.",
+  "I can talk about my favorite drink.",
+  "I can name some healthy foods.",
+  "I can name some healthy drinks.",
+  "I can understand a short text about food.",
+  "I can write about my favorite meal."
+ ],
+ "message_en": "EAT WELL, LIVE WELL, BE HAPPY!",
+ "message_vi": "ĂN NGON, SỐNG KHỎE, HẠNH PHÚC!",
+ "message_body": "Dear Roxy English learner, you are learning important words about food and drinks. Remember to choose healthy foods to grow strong and happy. Keep practicing and exploring new tastes!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Corrected yogurt emoji from 🍦 (ice cream) to 🥣 (bowl).",
+  "Corrected juice emoji from 🥤 (soda) to 🧃 (juice box).",
+  "Updated IPA for chicken, juice, cheese, soup, and eat to use standard American English symbols.",
+  "Fixed fun fact: Bananas grow on giant herbs, not trees; replaced with the fact about growing towards the sun.",
+  "Added a new fun fact about apples floating because they contain air.",
+  "Adjusted Reading 1 Question 7 to be answerable directly from the text.",
+  "Refined Vietnamese translations to be more natural (e.g., 'tốt cho sức khỏe' instead of 'lành mạnh' in certain contexts).",
+  "Fixed minor punctuation and spacing in the review section."
+ ],
+ "unit": 7,
+ "grade": 2,
+ "validation": [],
+ "proofread": true
+}

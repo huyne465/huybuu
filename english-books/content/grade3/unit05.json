@@ -1,0 +1,1183 @@
+{
+ "title": "Rooms in My Home",
+ "theme": "Home",
+ "goal": "Students can identify and describe different rooms and items in a home.",
+ "goal_vi": "Học sinh có thể nhận biết và mô tả các phòng và đồ vật khác nhau trong nhà.",
+ "cover_emoji": "🏠🛋️🛏️🍽️",
+ "cover_image_prompt": "A cheerful illustration of a diverse family (parents and two kids) looking happy in front of their cozy, colorful house, which is open to show different rooms inside. There are flowers in the garden.",
+ "big_question": {
+  "en": "What rooms are in your home? What do you like to do in them?",
+  "vi": "Nhà em có những phòng nào? Em thích làm gì trong những phòng đó?",
+  "prompts": [
+   "Do you live in a house or an apartment?",
+   "Is your home big or small?",
+   "How many rooms does your home have?",
+   "What is your favorite room?",
+   "Who do you live with?",
+   "What color are the walls in your living room?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "home",
+   "ipa": "/hoʊm/",
+   "vi": "nhà",
+   "emoji": "🏠",
+   "image_prompt": "A cozy, brightly colored house with a garden and a family standing happily outside. No text."
+  },
+  {
+   "en": "living room",
+   "ipa": "/ˈlɪvɪŋ ruːm/",
+   "vi": "phòng khách",
+   "emoji": "🛋️",
+   "image_prompt": "A cheerful living room with a sofa, a TV, and a diverse family playing a board game. No text."
+  },
+  {
+   "en": "sofa",
+   "ipa": "/ˈsoʊfə/",
+   "vi": "ghế sofa",
+   "emoji": "🛋️",
+   "image_prompt": "A comfortable, colorful sofa with soft cushions. No text."
+  },
+  {
+   "en": "television (TV)",
+   "ipa": "/ˈtelɪvɪʒən/",
+   "vi": "ti vi",
+   "emoji": "📺",
+   "image_prompt": "A flat-screen TV on a stand, showing a cartoon. No text."
+  },
+  {
+   "en": "bedroom",
+   "ipa": "/ˈbedruːm/",
+   "vi": "phòng ngủ",
+   "emoji": "🛏️",
+   "image_prompt": "A cozy bedroom with a bed, a desk, and a window. A child is reading a book on the bed. No text."
+  },
+  {
+   "en": "bed",
+   "ipa": "/bed/",
+   "vi": "giường",
+   "emoji": "🛏️",
+   "image_prompt": "A comfortable bed with a soft blanket and pillows. No text."
+  },
+  {
+   "en": "wardrobe",
+   "ipa": "/ˈwɔːrdroʊb/",
+   "vi": "tủ quần áo",
+   "emoji": "👕",
+   "image_prompt": "A wooden wardrobe with its doors slightly open, showing clothes inside. No text."
+  },
+  {
+   "en": "desk",
+   "ipa": "/desk/",
+   "vi": "bàn học",
+   "emoji": "📚",
+   "image_prompt": "A child's desk with a lamp, books, and colorful pencils. No text."
+  },
+  {
+   "en": "kitchen",
+   "ipa": "/ˈkɪtʃɪn/",
+   "vi": "nhà bếp",
+   "emoji": "🍳",
+   "image_prompt": "A bright kitchen with a fridge, a stove, and a sink. A diverse parent and child are cooking together. No text."
+  },
+  {
+   "en": "fridge",
+   "ipa": "/frɪdʒ/",
+   "vi": "tủ lạnh",
+   "emoji": "🧊",
+   "image_prompt": "A tall, white fridge with magnets on the door. No text."
+  },
+  {
+   "en": "stove",
+   "ipa": "/stoʊv/",
+   "vi": "bếp nấu",
+   "emoji": "♨️",
+   "image_prompt": "A kitchen stove with pots and pans on it, steam rising from one. No text."
+  },
+  {
+   "en": "sink",
+   "ipa": "/sɪŋk/",
+   "vi": "bồn rửa",
+   "emoji": "💧",
+   "image_prompt": "A kitchen sink with a faucet and some clean dishes. No text."
+  },
+  {
+   "en": "bathroom",
+   "ipa": "/ˈbæθruːm/",
+   "vi": "phòng tắm",
+   "emoji": "🛁",
+   "image_prompt": "A clean bathroom with a toilet, a sink, and a shower. No text."
+  },
+  {
+   "en": "toilet",
+   "ipa": "/ˈtɔɪlɪt/",
+   "vi": "bồn cầu",
+   "emoji": "🚽",
+   "image_prompt": "A clean white toilet. No text."
+  },
+  {
+   "en": "shower",
+   "ipa": "/ˈʃaʊər/",
+   "vi": "vòi hoa sen",
+   "emoji": "🚿",
+   "image_prompt": "A shower with water spraying out, in a clean bathroom. No text."
+  },
+  {
+   "en": "dining room",
+   "ipa": "/ˈdaɪnɪŋ ruːm/",
+   "vi": "phòng ăn",
+   "emoji": "🍽️",
+   "image_prompt": "A dining room with a large table and chairs. A diverse family is enjoying a meal. No text."
+  },
+  {
+   "en": "table",
+   "ipa": "/ˈteɪbəl/",
+   "vi": "bàn",
+   "emoji": "📏",
+   "image_prompt": "A sturdy wooden dining table with chairs around it. No text."
+  },
+  {
+   "en": "chair",
+   "ipa": "/tʃer/",
+   "vi": "ghế",
+   "emoji": "🪑",
+   "image_prompt": "A simple wooden chair. No text."
+  },
+  {
+   "en": "garden",
+   "ipa": "/ˈɡɑːrdən/",
+   "vi": "khu vườn",
+   "emoji": "🌳",
+   "image_prompt": "A colorful garden with flowers, a small tree, and a child playing with a ball. No text."
+  },
+  {
+   "en": "window",
+   "ipa": "/ˈwɪndoʊ/",
+   "vi": "cửa sổ",
+   "emoji": "🖼️",
+   "image_prompt": "An open window with curtains, showing a sunny view outside. No text."
+  }
+ ],
+ "phonics": {
+  "sound": "/r/",
+  "letters": "r, rr",
+  "words": [
+   "room",
+   "fridge",
+   "red",
+   "run",
+   "rat",
+   "road"
+  ],
+  "chant": "Red rabbits run in the room, /r/, /r/, /r/.\nRed rabbits run and jump, zoom!",
+  "tip_vi": "Khi phát âm âm /r/, lưỡi của bạn cuộn nhẹ lên phía sau răng cửa trên nhưng không chạm vào vòm miệng."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my home.",
+   "vi": "Đây là nhà của em.",
+   "examples": [
+    "This is my home. It is big.",
+    "This is my living room.",
+    "This is my bed."
+   ]
+  },
+  {
+   "pattern": "There is a/an + noun.",
+   "vi": "Có một...",
+   "examples": [
+    "There is a sofa in the living room.",
+    "There is a fridge in the kitchen.",
+    "There is a desk in my bedroom."
+   ]
+  },
+  {
+   "pattern": "There are + plural noun.",
+   "vi": "Có những...",
+   "examples": [
+    "There are three bedrooms in my home.",
+    "There are two chairs at the table.",
+    "There are many toys in the living room."
+   ]
+  },
+  {
+   "pattern": "I have got + noun.",
+   "vi": "Tôi có...",
+   "examples": [
+    "I have got a big bedroom.",
+    "My home has got a garden.",
+    "I have got a new TV."
+   ]
+  },
+  {
+   "pattern": "What is this?",
+   "vi": "Đây là gì?",
+   "examples": [
+    "What is this? It's a sofa.",
+    "What is this room? It's the kitchen.",
+    "What is this? It's a wardrobe."
+   ]
+  },
+  {
+   "pattern": "Where is the + noun?",
+   "vi": "Cái... ở đâu?",
+   "examples": [
+    "Where is the fridge? It's in the kitchen.",
+    "Where is your bed? It's in my bedroom.",
+    "Where is the TV? It's in the living room."
+   ]
+  },
+  {
+   "pattern": "I can + verb.",
+   "vi": "Tôi có thể...",
+   "examples": [
+    "I can sleep in my bedroom.",
+    "I can watch TV in the living room.",
+    "I can cook with my mom in the kitchen."
+   ]
+  },
+  {
+   "pattern": "I like/love to + verb in + room.",
+   "vi": "Tôi thích làm gì đó ở phòng nào đó.",
+   "examples": [
+    "I like to read in my bedroom.",
+    "I love to play games in the living room.",
+    "I like to eat in the dining room."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "There is / There are",
+   "explain_en": "We use \"There is\" for one thing and \"There are\" for more than one thing.",
+   "explain_vi": "Chúng ta dùng \"There is\" cho một thứ và \"There are\" cho nhiều hơn một thứ.",
+   "examples": [
+    "There is a big living room.",
+    "There are two bathrooms.",
+    "There is a red sofa.",
+    "There are many chairs."
+   ],
+   "right": "✅ There is a garden.",
+   "wrong": "❌ There are a garden."
+  },
+  {
+   "title": "Prepositions of Place: in, on, under",
+   "explain_en": "We use \"in\" for inside, \"on\" for on top of, and \"under\" for below something.",
+   "explain_vi": "Chúng ta dùng \"in\" để chỉ bên trong, \"on\" để chỉ bên trên, và \"under\" để chỉ bên dưới.",
+   "examples": [
+    "The sofa is in the living room.",
+    "The book is on the desk.",
+    "The cat is under the table.",
+    "My clothes are in the wardrobe."
+   ],
+   "right": "✅ The lamp is on the desk.",
+   "wrong": "❌ The lamp is in the desk."
+  },
+  {
+   "title": "Can / Can't",
+   "explain_en": "We use \"can\" to say what we are able to do, and \"can't\" (cannot) to say what we are not able to do.",
+   "explain_vi": "Chúng ta dùng \"can\" để nói về những gì mình có thể làm, và \"can't\" (cannot) để nói về những gì mình không thể làm.",
+   "examples": [
+    "I can play games in the living room.",
+    "I can't play football in the kitchen.",
+    "My brother can draw on his desk.",
+    "We can't sleep in the kitchen."
+   ],
+   "right": "✅ I can watch TV here.",
+   "wrong": "❌ I can watching TV here."
+  },
+  {
+   "title": "Present Simple vs Present Continuous (actions now)",
+   "explain_en": "We use Present Simple for habits. We use Present Continuous for actions happening now.",
+   "explain_vi": "Chúng ta dùng Hiện tại đơn cho thói quen. Chúng ta dùng Hiện tại tiếp diễn cho hành động đang xảy ra.",
+   "examples": [
+    "I often read in my bedroom. (Simple)",
+    "I am reading a book now. (Continuous)",
+    "My mom cooks in the kitchen every day. (Simple)",
+    "My mom is cooking dinner now. (Continuous)"
+   ],
+   "right": "✅ Look! He is sleeping.",
+   "wrong": "❌ Look! He sleeps."
+  }
+ ],
+ "song": {
+  "title": "Rooms in My Home",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The living room in my home, so bright and grand,",
+   "Bright and grand, bright and grand.",
+   "The living room in my home, where we play with a band!",
+   "All through the house.",
+   "The kitchen in my home, where mom cooks yummy food,",
+   "Yummy food, yummy food.",
+   "The kitchen in my home, where mom cooks yummy food.",
+   "All through the house.",
+   "The bedroom in my home, where I sleep so sound,",
+   "Sleep so sound, sleep so sound.",
+   "The bedroom in my home, where I sleep so sound.",
+   "All through the house.",
+   "The bathroom in my home, where we wash our face,",
+   "Wash our face, wash our face.",
+   "The bathroom in my home, where we wash our face.",
+   "All through the house."
+  ],
+  "actions_vi": "Gợi ý động tác khi hát:\n- Living room: Chỉ vào ghế sofa tưởng tượng, bắt chước chơi một trò chơi.\n- Kitchen: Bắt chước khuấy nồi, ngửi thức ăn.\n- Bedroom: Chụm hai tay vào nhau để ngủ, ngáp.\n- Bathroom: Bắt chước rửa mặt."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Cozy Home",
+   "text": "Hi! My name is Linh. I am eight years old. I live in a big house with my family. My home has got three bedrooms, two bathrooms, a living room, a kitchen, and a dining room. It also has a small garden.\nMy favorite room is my bedroom. It is small but very cozy. There is a bed and a small desk. I can read books on my bed. I also have a big wardrobe for my clothes.\nIn the living room, there is a big sofa and a TV. My family likes to watch movies there. My mom is cooking in the kitchen right now. I love my cozy home!",
+   "image_prompt": "A cheerful Vietnamese girl, Linh, smiling in her cozy bedroom with a bed and a desk. Her house is visible in the background, showing different rooms. No text.",
+   "vocab": [
+    {
+     "en": "cozy",
+     "ipa": "/ˈkoʊzi/",
+     "vi": "ấm cúng"
+    },
+    {
+     "en": "big",
+     "ipa": "/bɪɡ/",
+     "vi": "lớn"
+    },
+    {
+     "en": "small",
+     "ipa": "/smɔːl/",
+     "vi": "nhỏ"
+    },
+    {
+     "en": "family",
+     "ipa": "/ˈfæməli/",
+     "vi": "gia đình"
+    },
+    {
+     "en": "read",
+     "ipa": "/riːd/",
+     "vi": "đọc"
+    },
+    {
+     "en": "movies",
+     "ipa": "/ˈmuːviz/",
+     "vi": "phim"
+    },
+    {
+     "en": "right now",
+     "ipa": "/raɪt naʊ/",
+     "vi": "ngay bây giờ"
+    },
+    {
+     "en": "loves",
+     "ipa": "/lʌvz/",
+     "vi": "yêu"
+    },
+    {
+     "en": "three",
+     "ipa": "/θriː/",
+     "vi": "ba"
+    },
+    {
+     "en": "two",
+     "ipa": "/tuː/",
+     "vi": "hai"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "Does Linh live in a big house or a small apartment?",
+    "How many bedrooms are in her home?",
+    "What is Linh's favorite room?",
+    "What can Linh do on her bed?",
+    "What is in the living room?",
+    "What does Linh's family like to do in the living room?",
+    "What is Linh's mom doing right now?",
+    "Does Linh love her home?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's home has a garden.",
+     "answer": true
+    },
+    {
+     "statement": "Her bedroom is big.",
+     "answer": false
+    },
+    {
+     "statement": "There is a TV in Linh's bedroom.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's mom is cooking in the kitchen.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A Busy Saturday at Home",
+   "text": "It's Saturday morning, and everyone in Ben's home is busy! Ben is in his bedroom. He is making his bed and putting his books on the bookshelf. He can tidy his room by himself.\nHis little sister, Mia, is in the living room. She is playing with her toy cars on the rug. Their dad is in the kitchen. He is making breakfast for everyone. The fridge is open, and he is taking out some milk.\nTheir mom is in the garden. She is watering the plants and picking some flowers. Oh, wait! Now she is calling Ben and Mia for breakfast.\nThe dining room table is set. There are plates, forks, and spoons. Ben and Mia run to the dining room. They are hungry! What a busy and happy home.",
+   "image_prompt": "A cheerful scene showing different diverse family members in their respective rooms: Ben tidying his bedroom, Mia playing in the living room, Dad cooking in the kitchen, and Mom gardening outside. No text.",
+   "vocab": [
+    {
+     "en": "busy",
+     "ipa": "/ˈbɪzi/",
+     "vi": "bận rộn"
+    },
+    {
+     "en": "making his bed",
+     "ipa": "/ˈmeɪkɪŋ hɪz bed/",
+     "vi": "dọn giường"
+    },
+    {
+     "en": "putting",
+     "ipa": "/ˈpʊtɪŋ/",
+     "vi": "đặt"
+    },
+    {
+     "en": "bookshelf",
+     "ipa": "/ˈbʊkʃelf/",
+     "vi": "kệ sách"
+    },
+    {
+     "en": "tidy",
+     "ipa": "/ˈtaɪdi/",
+     "vi": "dọn dẹp"
+    },
+    {
+     "en": "toy cars",
+     "ipa": "/tɔɪ kɑːrz/",
+     "vi": "ô tô đồ chơi"
+    },
+    {
+     "en": "rug",
+     "ipa": "/rʌɡ/",
+     "vi": "thảm"
+    },
+    {
+     "en": "breakfast",
+     "ipa": "/ˈbrekfəst/",
+     "vi": "bữa sáng"
+    },
+    {
+     "en": "watering",
+     "ipa": "/ˈwɔːtərɪŋ/",
+     "vi": "tưới nước"
+    },
+    {
+     "en": "hungry",
+     "ipa": "/ˈhʌŋɡri/",
+     "vi": "đói"
+    }
+   ],
+   "questions": [
+    "What day of the week is it?",
+    "What is Ben doing in his bedroom?",
+    "Who is Mia?",
+    "Where is Mia playing?",
+    "What is Ben's dad doing in the kitchen?",
+    "What is dad taking out from the fridge?",
+    "Where is Ben's mom?",
+    "What is mom doing in the garden?",
+    "What is on the dining room table?",
+    "Why do Ben and Mia run to the dining room?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben is playing in the living room.",
+     "answer": false
+    },
+    {
+     "statement": "Mia is playing with dolls.",
+     "answer": false
+    },
+    {
+     "statement": "Dad is making dinner.",
+     "answer": false
+    },
+    {
+     "statement": "Mom is watering the plants.",
+     "answer": true
+    },
+    {
+     "statement": "Ben and Mia are hungry.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "My Dream Home",
+   "text": "Hello! My name is Tom. I am a student in Grade 3. I often think about my dream home. It is a big, modern house with many special rooms.\nFirst, there is a super cool gaming room! It has a giant TV, two comfy sofas, and lots of video games. I can play with my friends there all day. Next to it, there is a small cinema room with big, soft chairs and a popcorn machine. We can watch all our favorite movies.\nMy bedroom is very big. It has a secret door to a treehouse in the garden! Inside my bedroom, there is a huge bed, a desk with two computer screens, and a robot that tidies my clothes in the wardrobe.\nThe kitchen is always full of delicious smells because my robot chef cooks yummy food. There is also a swimming pool in the garden, and a slide from the second floor directly into the pool! It sounds amazing, right? I hope my dream home comes true one day.",
+   "image_prompt": "A bright, imaginative drawing of Tom's dream home, showing a treehouse, a gaming room with a giant TV, a swimming pool with a slide, and a robot chef in the kitchen. Tom, a diverse boy, is smiling excitedly. No text.",
+   "vocab": [
+    {
+     "en": "dream home",
+     "ipa": "/driːm hoʊm/",
+     "vi": "ngôi nhà mơ ước"
+    },
+    {
+     "en": "modern",
+     "ipa": "/ˈmɑːdərn/",
+     "vi": "hiện đại"
+    },
+    {
+     "en": "special",
+     "ipa": "/ˈspeʃəl/",
+     "vi": "đặc biệt"
+    },
+    {
+     "en": "gaming room",
+     "ipa": "/ˈɡeɪmɪŋ ruːm/",
+     "vi": "phòng chơi game"
+    },
+    {
+     "en": "giant",
+     "ipa": "/ˈdʒaɪənt/",
+     "vi": "khổng lồ"
+    },
+    {
+     "en": "cinema room",
+     "ipa": "/ˈsɪnəmə ruːm/",
+     "vi": "phòng chiếu phim"
+    },
+    {
+     "en": "popcorn machine",
+     "ipa": "/ˈpɑːpkɔːrn məˈʃiːn/",
+     "vi": "máy làm bỏng ngô"
+    },
+    {
+     "en": "secret door",
+     "ipa": "/ˈsiːkrət dɔːr/",
+     "vi": "cửa bí mật"
+    },
+    {
+     "en": "robot chef",
+     "ipa": "/ˈroʊbɑːt ʃef/",
+     "vi": "đầu bếp robot"
+    },
+    {
+     "en": "swimming pool",
+     "ipa": "/ˈswɪmɪŋ puːl/",
+     "vi": "hồ bơi"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "What does Tom often think about?",
+    "What is special about his gaming room?",
+    "What can Tom do in his gaming room?",
+    "What does the cinema room have?",
+    "What is special about Tom's bedroom?",
+    "What does the robot in his bedroom do?",
+    "Who cooks food in the kitchen in his dream home?",
+    "What is in the garden?",
+    "How can Tom get into the swimming pool from the second floor?"
+   ],
+   "true_false": [
+    {
+     "statement": "Tom's dream home is a small apartment.",
+     "answer": false
+    },
+    {
+     "statement": "The gaming room has only one sofa.",
+     "answer": false
+    },
+    {
+     "statement": "His bedroom has a secret door to a treehouse.",
+     "answer": true
+    },
+    {
+     "statement": "Tom's mom cooks in the kitchen.",
+     "answer": false
+    },
+    {
+     "statement": "There is a slide from the second floor to the pool.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Messy Room, Clean Room!",
+  "panels": [
+   {
+    "scene": "Nam's bedroom. Clothes are on the floor, books are on the bed. Nam, a Vietnamese boy, is playing with a toy car and smiling.",
+    "speech": "Nam: Wow! My toy car is so fast!"
+   },
+   {
+    "scene": "Dad, a Vietnamese man, walks into Nam's messy bedroom. He looks surprised and a little strict.",
+    "speech": "Dad: Nam! What is happening here? Your room is very messy!"
+   },
+   {
+    "scene": "Nam is tidying his room. He is putting clothes in the wardrobe and books on the desk. He looks a bit sad but determined.",
+    "speech": "Nam: Oh, no! I am tidying my room now, Dad. I can do it!"
+   },
+   {
+    "scene": "Nam's bedroom is clean and tidy. Nam is smiling, sitting at his desk. Dad is giving a thumbs-up and smiling proudly.",
+    "speech": "Dad: Great job, Nam! Now your room looks beautiful!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite room in your home? Why?",
+   "What can you see in your living room?",
+   "Is your bedroom big or small? What is in it?",
+   "Who usually cooks in your kitchen?",
+   "Do you have a garden? What do you do there?",
+   "Where do you watch TV?",
+   "Do you have a desk in your bedroom? What do you do at your desk?",
+   "Is there a sofa in your dining room?",
+   "What color is your bed?",
+   "Can you help to clean the bathroom?",
+   "What are you doing in your home right now?",
+   "What do you like to do in your home on a rainy day?",
+   "Is there a fridge in your kitchen? What's inside it?",
+   "What can't you do in the kitchen?",
+   "Tell me about a special thing in your home."
+  ],
+  "model": "My home has got a living room, a kitchen, two bedrooms, and one bathroom. My favorite room is my bedroom because it is cozy. There is a bed, a desk, and a wardrobe in my bedroom. I can read books and play quiet games there. Right now, I am sitting at my desk and talking about my home. In the living room, there is a big TV. My family often watches movies together. I love my home because it is a happy place.",
+  "challenge": "Talk about your home for 30–60 seconds. Describe the rooms and what you do in them."
+ },
+ "conversations": [
+  {
+   "title": "A New Home",
+   "image_prompt": "Two diverse children, Mai and Ben, standing excitedly in front of a new, empty house. No text.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi Ben! Is this your new home?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, it is, Mai! Come in!"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Wow, it's big! Is this the living room?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes. There is no sofa yet, but we can put one here."
+    },
+    {
+     "speaker": "Mai",
+     "text": "And this must be the kitchen! It has a big window."
+    },
+    {
+     "speaker": "Ben",
+     "text": "That's right! My mom is planning to buy a new fridge."
+    },
+    {
+     "speaker": "Mai",
+     "text": "It's a nice home, Ben!"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Thanks, Mai!"
+    }
+   ]
+  },
+  {
+   "title": "What are you doing?",
+   "image_prompt": "Two Vietnamese children, An and Minh, talking on a video call on a tablet. An is in her bedroom, Minh is in his living room. Both are smiling. No text.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Hi Minh! What are you doing?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "Hi An! I am watching TV in the living room. My dad is sleeping on the sofa!"
+    },
+    {
+     "speaker": "An",
+     "text": "Haha! Is he sleeping again? I am in my bedroom. I am drawing a picture of my dream home."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Oh, cool! Does your dream home have a big garden?"
+    },
+    {
+     "speaker": "An",
+     "text": "Yes, it has a big garden and a swimming pool! What about your mom? What is she doing?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "She is in the kitchen. She is cooking dinner now. It smells delicious!"
+    },
+    {
+     "speaker": "An",
+     "text": "Sounds yummy! Talk to you later, Minh!"
+    },
+    {
+     "speaker": "Minh",
+     "text": "Bye, An!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! My name is Lucy, and I want to tell you about my home. I live in a colorful house with my parents and my little brother, Tom. Our house has a living room, a kitchen, a dining room, two bedrooms, and one bathroom.\nIn the living room, there is a big red sofa and a TV. My family likes to play board games there on weekends. My mom cooks delicious food in the kitchen every day. There is a big fridge and a stove.\nMy bedroom is blue. There is a bed, a small desk, and a wardrobe. I often read books at my desk. My brother Tom's bedroom is green. He has many toys in his room.\nRight now, my mom is cleaning the bathroom, and my dad is helping Tom tidy his toys in the living room. I am sitting in my bedroom and talking to you. I love my home very much!",
+  "questions": [
+   "What is the girl's name?",
+   "Who does Lucy live with?",
+   "How many bedrooms are in her house?",
+   "What color is the sofa in the living room?",
+   "What does Lucy's family like to do in the living room on weekends?",
+   "Who cooks in the kitchen?",
+   "What color is Lucy's bedroom?",
+   "What does Lucy often do at her desk?",
+   "What color is Tom's bedroom?",
+   "What is Lucy's mom doing right now?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "HOME",
+   "SOFA",
+   "BED",
+   "DESK",
+   "KITCHEN",
+   "TOILET",
+   "TABLE",
+   "GARDEN"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "sofa",
+     "table",
+     "bed",
+     "kitchen"
+    ],
+    "answer": "kitchen",
+    "why_vi": "Kitchen là tên một căn phòng, còn các từ khác là đồ vật."
+   },
+   {
+    "options": [
+     "fridge",
+     "stove",
+     "sink",
+     "wardrobe"
+    ],
+    "answer": "wardrobe",
+    "why_vi": "Wardrobe là đồ vật trong phòng ngủ/quần áo, còn các từ khác là đồ vật trong bếp."
+   },
+   {
+    "options": [
+     "bedroom",
+     "bathroom",
+     "living room",
+     "garden"
+    ],
+    "answer": "garden",
+    "why_vi": "Garden là khu vườn bên ngoài, còn các từ khác là các phòng bên trong nhà."
+   },
+   {
+    "options": [
+     "can",
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "can",
+    "why_vi": "Can là động từ khiếm khuyết, còn is/am/are là động từ to be."
+   },
+   {
+    "options": [
+     "read",
+     "sleep",
+     "cook",
+     "sofa"
+    ],
+    "answer": "sofa",
+    "why_vi": "Sofa là danh từ chỉ đồ vật, còn các từ khác là động từ chỉ hành động."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have a bed, a desk, and a wardrobe. You sleep here at night. What room am I?",
+    "answer": "A bedroom"
+   },
+   {
+    "riddle": "I have a fridge and a stove. Your mom cooks yummy food here. What room am I?",
+    "answer": "A kitchen"
+   },
+   {
+    "riddle": "I have a sofa and a TV. Your family watches movies here. What room am I?",
+    "answer": "A living room"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "moros",
+    "answer": "rooms"
+   },
+   {
+    "scrambled": "oafs",
+    "answer": "sofa"
+   },
+   {
+    "scrambled": "edb",
+    "answer": "bed"
+   },
+   {
+    "scrambled": "esdk",
+    "answer": "desk"
+   },
+   {
+    "scrambled": "htcekin",
+    "answer": "kitchen"
+   },
+   {
+    "scrambled": "athobrmo",
+    "answer": "bathroom"
+   }
+  ],
+  "picture_count": {
+   "question": "How many windows can you see in the cover picture?",
+   "hint_vi": "Hãy nhìn kỹ ngôi nhà ở trang bìa nhé!"
+  }
+ },
+ "write": {
+  "profile_title": "My Home Profile",
+  "profile_fields": [
+   "My name is:",
+   "I live in a (house/apartment):",
+   "My home has (number) rooms:",
+   "My home has (number) bedrooms:",
+   "My favorite room is:",
+   "In my favorite room, there is a (item): ____ and a (item):",
+   "I can (action) in my favorite room:",
+   "The kitchen has a (item): ____ and a (item):",
+   "In the living room, I can (action):",
+   "I love my home because:"
+  ],
+  "frame_title": "MY HOME",
+  "frame_lines": [
+   "My name is ____.",
+   "I live in a ____ (house/apartment).",
+   "My home has got ____ bedrooms and ____ bathrooms.",
+   "My favorite room is the ____.",
+   "In my ____, there is a ____ and a ____.",
+   "I can ____ in my ____.",
+   "In the kitchen, my mom is ____ now.",
+   "There is a big ____ in the living room.",
+   "My family likes to ____ in the ____.",
+   "I love my home very much because it is ____."
+  ]
+ },
+ "life_skill": {
+  "title": "KEEP YOUR HOME CLEAN AND TIDY",
+  "intro": "Our home is a special place where we live and grow. It's important to keep it clean and tidy to make it a happy and healthy place for everyone.",
+  "intro_vi": "Ngôi nhà là một nơi đặc biệt nơi chúng ta sống và lớn lên. Điều quan trọng là giữ cho nhà cửa sạch sẽ và gọn gàng để tạo ra một nơi hạnh phúc và khỏe mạnh cho mọi người.",
+  "can_do": [
+   "Make my bed every morning.",
+   "Put my toys away after playing.",
+   "Help my parents clean the living room.",
+   "Put my dirty clothes in the laundry basket.",
+   "Keep my desk tidy.",
+   "Help wash dishes after meals.",
+   "Not draw on the walls.",
+   "Throw trash in the bin.",
+   "Help water the plants in the garden.",
+   "Keep the bathroom clean.",
+   "Help set the table for dinner.",
+   "Turn off the lights when leaving a room."
+  ],
+  "value_question": "What is one thing you can do today to make your home cleaner and happier?",
+  "image_prompt": "A cheerful, diverse family (parents and two kids) happily cleaning different parts of their home: one child making their bed, another putting toys away, a parent wiping a table, all smiling. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Antilia, a home in Mumbai, India, is 27 floors tall – as tall as a big office building!",
+   "vi": "Em có biết? Antilia, một ngôi nhà ở Mumbai, Ấn Độ, cao 27 tầng – cao như một tòa nhà văn phòng lớn!"
+  },
+  {
+   "en": "Did you know? In some countries, people live in houses made of ice called 'igloos'.",
+   "vi": "Em có biết không? Ở một số quốc gia, người dân sống trong những ngôi nhà làm bằng băng gọi là 'igloo'."
+  },
+  {
+   "en": "Did you know? The kitchen is often called the \"heart of the home\" because families spend a lot of time cooking and eating there.",
+   "vi": "Em có biết không? Nhà bếp thường được gọi là \"trái tim của ngôi nhà\" vì các gia đình dành nhiều thời gian nấu nướng và ăn uống ở đó."
+  },
+  {
+   "en": "Did you know? Before beds, people used to sleep on straw mats or animal skins on the floor!",
+   "vi": "Em có biết không? Trước khi có giường, mọi người thường ngủ trên chiếu rơm hoặc da động vật trên sàn nhà!"
+  },
+  {
+   "en": "Did you know? Having plants in your home can make the air cleaner and make you feel happier!",
+   "vi": "Em có biết không? Có cây xanh trong nhà có thể làm không khí trong lành hơn và khiến bạn cảm thấy vui vẻ hơn!"
+  }
+ ],
+ "project": {
+  "title": "MY DREAM HOME POSTER",
+  "task": "Create a poster about your dream home. Draw the rooms and things inside, then write sentences to describe it.",
+  "draw_items": [
+   "Your dream house (outside view)",
+   "Your bedroom with special things",
+   "A super cool living room",
+   "A kitchen with yummy food",
+   "A garden with fun activities",
+   "A special room (e.g., gaming room, art room)",
+   "A pet's corner",
+   "Your family enjoying the home"
+  ],
+  "example": [
+   "Hello! This is my dream home.",
+   "It is very big and colorful.",
+   "It has a swimming pool and a big garden.",
+   "My bedroom has a secret slide to the garden!",
+   "In the living room, there is a giant TV.",
+   "My robot chef cooks delicious food in the kitchen.",
+   "I love my dream home!"
+  ],
+  "present": "Hello everyone! This is my dream home poster. My dream home has... I can... in my...",
+  "image_prompt": "A group of diverse children proudly presenting their colorful \"My Dream Home\" posters to their classmates. Posters show imaginative houses with various rooms and activities. No text."
+ },
+ "classroom_game": {
+  "name": "Room Explorer",
+  "players": "Small groups (3-4 students)",
+  "steps_en": [
+   "Each group gets a set of cards with room names (living room, kitchen, bedroom, bathroom, dining room, garden) and item names (sofa, bed, fridge, toilet, table, TV, desk, stove).",
+   "One student picks a room card without showing it.",
+   "Other students ask \"Is there a... in this room?\" or \"What can you do in this room?\".",
+   "The student with the card answers \"Yes, there is.\" or \"No, there isn't.\" or \"You can...\".",
+   "The first student to guess the room correctly wins a point."
+  ],
+  "steps_vi": [
+   "Mỗi nhóm nhận một bộ thẻ gồm tên các phòng (phòng khách, nhà bếp, phòng ngủ, phòng tắm, phòng ăn, khu vườn) và tên các đồ vật (ghế sofa, giường, tủ lạnh, bồn cầu, bàn, TV, bàn học, bếp).",
+   "Một học sinh chọn một thẻ phòng mà không cho người khác thấy.",
+   "Các học sinh khác hỏi \"Is there a... in this room?\" (Có... trong phòng này không?) hoặc \"What can you do in this room?\" (Bạn có thể làm gì trong phòng này?).",
+   "Học sinh giữ thẻ trả lời \"Yes, there is.\" (Có.) hoặc \"No, there isn't.\" (Không có.) hoặc \"You can...\" (Bạn có thể...).",
+   "Học sinh đầu tiên đoán đúng tên phòng sẽ được một điểm."
+  ],
+  "language": [
+   "Is there a...?",
+   "What can you do in...?",
+   "Yes, there is/are.",
+   "No, there isn't/aren't.",
+   "I can..."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "h_me",
+    "answer": "home"
+   },
+   {
+    "word": "l_v_ng r_om",
+    "answer": "living room"
+   },
+   {
+    "word": "b_dr__m",
+    "answer": "bedroom"
+   },
+   {
+    "word": "k_tch_n",
+    "answer": "kitchen"
+   },
+   {
+    "word": "b_thr__m",
+    "answer": "bathroom"
+   },
+   {
+    "word": "d_sk",
+    "answer": "desk"
+   },
+   {
+    "word": "s_fa",
+    "answer": "sofa"
+   },
+   {
+    "word": "t_l_t",
+    "answer": "toilet"
+   },
+   {
+    "word": "t_ble",
+    "answer": "table"
+   },
+   {
+    "word": "g_rd_n",
+    "answer": "garden"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ my home.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "There ______ three bedrooms.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "My bed is ______ my bedroom.",
+    "options": [
+     "on",
+     "in",
+     "under"
+    ],
+    "answer": "in"
+   },
+   {
+    "q": "I ______ watch TV in the living room.",
+    "options": [
+     "can",
+     "can't",
+     "am"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "My mom ______ dinner in the kitchen now.",
+    "options": [
+     "cooks",
+     "cook",
+     "is cooking"
+    ],
+    "answer": "is cooking"
+   },
+   {
+    "q": "What ______ this room? It's the kitchen.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "There is a ______ in the living room.",
+    "options": [
+     "bed",
+     "fridge",
+     "sofa"
+    ],
+    "answer": "sofa"
+   },
+   {
+    "q": "My clothes are in the ______. ",
+    "options": [
+     "stove",
+     "wardrobe",
+     "sink"
+    ],
+    "answer": "wardrobe"
+   },
+   {
+    "q": "Where is the toilet? It's in the ______.",
+    "options": [
+     "kitchen",
+     "bathroom",
+     "bedroom"
+    ],
+    "answer": "bathroom"
+   },
+   {
+    "q": "My family often ______ movies in the living room.",
+    "options": [
+     "watches",
+     "watch",
+     "watching"
+    ],
+    "answer": "watches"
+   }
+  ],
+  "order": [
+   {
+    "words": "my / This / home / is",
+    "answer": "This is my home."
+   },
+   {
+    "words": "a / is / There / sofa",
+    "answer": "There is a sofa."
+   },
+   {
+    "words": "are / two / There / bedrooms",
+    "answer": "There are two bedrooms."
+   },
+   {
+    "words": "can / I / in / read / bedroom / my",
+    "answer": "I can read in my bedroom."
+   },
+   {
+    "words": "is / What / this",
+    "answer": "What is this?"
+   },
+   {
+    "words": "is / The / in / kitchen / fridge / the",
+    "answer": "The fridge is in the kitchen."
+   },
+   {
+    "words": "my / home / I / love",
+    "answer": "I love my home."
+   },
+   {
+    "words": "mom / now / is / cooking / My",
+    "answer": "My mom is cooking now."
+   },
+   {
+    "words": "is / There / a / in / desk / my / bedroom",
+    "answer": "There is a desk in my bedroom."
+   },
+   {
+    "words": "beautiful / home / is / My",
+    "answer": "My home is beautiful."
+   }
+  ],
+  "about_you": [
+   "What is your favorite room?",
+   "How many bedrooms are in your home?",
+   "What color is your bed?",
+   "What can you see from your window?",
+   "What do you do in your living room?",
+   "Who helps to clean your home?",
+   "What is your favorite thing in your bedroom?",
+   "Do you have a garden?",
+   "What is your mom doing in the kitchen now?",
+   "Why do you love your home?"
+  ]
+ },
+ "i_can": [
+  "I can say the names of rooms in English.",
+  "I can name common items in a home.",
+  "I can use \"There is\" and \"There are\" to describe rooms.",
+  "I can use \"in,\" \"on,\" and \"under\" to talk about where things are.",
+  "I can use \"can\" and \"can't\" to talk about what I can do at home.",
+  "I can ask and answer questions about rooms and items in a home.",
+  "I can describe my favorite room.",
+  "I can talk about what my family members are doing at home right now.",
+  "I can sing a song about rooms in a home.",
+  "I can read simple stories about homes.",
+  "I can understand conversations about homes.",
+  "I can write sentences to describe my home.",
+  "I can make a poster about my dream home.",
+  "I can identify ways to keep my home clean and tidy.",
+  "I can express why I love my home."
+ ],
+ "message_en": "YOUR HOME IS WHERE YOUR HEART IS. IT'S A PLACE OF COMFORT, JOY, AND FAMILY LOVE.",
+ "message_vi": "NGÔI NHÀ LÀ NƠI TRÁI TIM BẠN THUỘC VỀ. ĐÓ LÀ NƠI AN YÊN, HẠNH PHÚC VÀ TÌNH YÊU GIA ĐÌNH.",
+ "message_body": "Your home is a special place where you feel safe and loved. Cherish the moments you share with your family and help make it the best place to be. Let's keep our homes happy and healthy!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 5,
+ "grade": 3,
+ "validation": []
+}

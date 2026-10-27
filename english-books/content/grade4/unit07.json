@@ -1,0 +1,1176 @@
+{
+ "title": "HEALTHY HABITS",
+ "theme": "Health",
+ "goal": "Students can talk about daily health habits, ask and give advice using should/shouldn't, and compare healthy choices.",
+ "goal_vi": "Học sinh có thể nói về các thói quen sức khỏe hàng ngày, đưa ra lời khuyên với should/shouldn't và so sánh các lựa chọn lành mạnh.",
+ "cover_emoji": "🥗🏋️‍♂️🍎💧",
+ "cover_image_prompt": "A bright and colorful school playground in Vietnam where happy grade 4 children are engaged in healthy activities: a girl in a school uniform drinks water from a bottle, a boy eats a fresh red apple, two students play badminton, and a teacher smiles under a sunny sky.",
+ "big_question": {
+  "en": "What do you do every day to stay healthy?",
+  "vi": "Em làm gì mỗi ngày để giữ gìn sức khỏe?",
+  "prompts": [
+   "Do you drink water every morning?",
+   "What is your favorite fruit?",
+   "Do you play sports after school?",
+   "What time do you go to bed?",
+   "Why are vegetables good for you?",
+   "How do you feel after exercising?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "healthy",
+   "ipa": "/ˈhel.θi/",
+   "vi": "khỏe mạnh",
+   "emoji": "🥗",
+   "image_prompt": "A happy Vietnamese primary school boy standing tall and showing his strong bicep arm muscle while smiling warmly."
+  },
+  {
+   "en": "habit",
+   "ipa": "/ˈhæb.ɪt/",
+   "vi": "thói quen",
+   "emoji": "📅",
+   "image_prompt": "A cute colorful desk calendar showing green checkmarks on every day of the week to show good daily routine."
+  },
+  {
+   "en": "exercise",
+   "ipa": "/ˈek.sɚ.saɪz/",
+   "vi": "tập thể dục",
+   "emoji": "🏋️",
+   "image_prompt": "A young girl doing cheerful jumping jacks in a brightly lit school gym wearing sports clothes."
+  },
+  {
+   "en": "vegetable",
+   "ipa": "/ˈvedʒ.tə.bəl/",
+   "vi": "rau củ",
+   "emoji": "🥦",
+   "image_prompt": "A fresh green broccoli head standing next to a bright orange carrot on a wooden kitchen table."
+  },
+  {
+   "en": "fruit",
+   "ipa": "/fruːt/",
+   "vi": "trái cây",
+   "emoji": "🍎",
+   "image_prompt": "A small wooden basket filled with a red apple, a yellow banana, and juicy orange slices."
+  },
+  {
+   "en": "early",
+   "ipa": "/ˈɝː.li/",
+   "vi": "sớm",
+   "emoji": "🌅",
+   "image_prompt": "A bright yellow sun rising gently over green hills with a small clock showing 6:00 AM."
+  },
+  {
+   "en": "late",
+   "ipa": "/leɪt/",
+   "vi": "muộn, trễ",
+   "emoji": "🌙",
+   "image_prompt": "A dark night sky with a crescent moon and stars, and a wall clock pointing to 11:00 PM."
+  },
+  {
+   "en": "drink",
+   "ipa": "/drɪŋk/",
+   "vi": "uống",
+   "emoji": "🥛",
+   "image_prompt": "A Vietnamese girl taking a refreshing drink of fresh white milk from a glass tumbler."
+  },
+  {
+   "en": "water",
+   "ipa": "/ˈwɑː.t̬ɚ/",
+   "vi": "nước",
+   "emoji": "💧",
+   "image_prompt": "A clean clear glass filled with pure water showing blue water drops bouncing light."
+  },
+  {
+   "en": "wash",
+   "ipa": "/wɑːʃ/",
+   "vi": "rửa, gội",
+   "emoji": "🧼",
+   "image_prompt": "Hands rubbing together under a water tap with white fluffy soap bubbles around them."
+  },
+  {
+   "en": "hand",
+   "ipa": "/hænd/",
+   "vi": "bàn tay",
+   "emoji": "✋",
+   "image_prompt": "An open clean child hand raised up against a clear light blue background."
+  },
+  {
+   "en": "brush",
+   "ipa": "/brʌʃ/",
+   "vi": "chải, đánh (răng)",
+   "emoji": "🪥",
+   "image_prompt": "A colorful plastic toothbrush with white toothpaste sitting neat near a sink."
+  },
+  {
+   "en": "teeth",
+   "ipa": "/tiːθ/",
+   "vi": "răng",
+   "emoji": "🦷",
+   "image_prompt": "A sparkling white clean tooth character smiling brightly with sparkles."
+  },
+  {
+   "en": "sleep",
+   "ipa": "/sliːp/",
+   "vi": "ngủ",
+   "emoji": "💤",
+   "image_prompt": "A young boy sleeping peacefully under a blue blanket in a cozy bedroom with Zzz icons overhead."
+  },
+  {
+   "en": "rest",
+   "ipa": "/rest/",
+   "vi": "nghỉ ngơi",
+   "emoji": "🛋️",
+   "image_prompt": "A child relaxing quietly on a comfortable yellow armchair reading a favorite book."
+  },
+  {
+   "en": "active",
+   "ipa": "/ˈæk.tɪv/",
+   "vi": "năng động",
+   "emoji": "🏃",
+   "image_prompt": "A cheerful young boy running fast across a outdoor grass park with arms open wide."
+  },
+  {
+   "en": "junk food",
+   "ipa": "/ˈdʒʌŋk ˌfuːd/",
+   "vi": "đồ ăn vặt không lành mạnh",
+   "emoji": "🍕",
+   "image_prompt": "A tray showing a hot slice of pepperoni pizza, French fries, and a sweet red soda glass."
+  },
+  {
+   "en": "sugar",
+   "ipa": "/ˈʃʊɡ.ɚ/",
+   "vi": "đường",
+   "emoji": "🍬",
+   "image_prompt": "A small white bowl filled with white sugar crystals and a small silver spoon."
+  },
+  {
+   "en": "strong",
+   "ipa": "/strɑːŋ/",
+   "vi": "mạnh mẽ, khỏe",
+   "emoji": "🏋️‍♂️",
+   "image_prompt": "A strong young boy lifting a light wooden bat with a triumphant and confident smile."
+  },
+  {
+   "en": "sick",
+   "ipa": "/sɪk/",
+   "vi": "bị ốm",
+   "emoji": "🤒",
+   "image_prompt": "A child lying in bed with a warm cloth on the forehead and a thermometer nearby."
+  }
+ ],
+ "phonics": {
+  "sound": "/h/",
+  "letters": "h",
+  "words": [
+   "healthy",
+   "habit",
+   "hand",
+   "head",
+   "heart",
+   "hospital"
+  ],
+  "chant": "Harry has a healthy habit!\nHe washes his hands every day!",
+  "tip_vi": "Âm /h/ là âm gió bật nhẹ từ cổ họng, không làm rung dây thanh quản."
+ },
+ "patterns": [
+  {
+   "pattern": "You should + verb.",
+   "vi": "Bạn nên + động từ.",
+   "examples": [
+    "You should drink water.",
+    "You should eat vegetables.",
+    "You should sleep early."
+   ]
+  },
+  {
+   "pattern": "You shouldn't + verb.",
+   "vi": "Bạn không nên + động từ.",
+   "examples": [
+    "You shouldn't stay up late.",
+    "You shouldn't eat too much sugar.",
+    "You shouldn't play games all day."
+   ]
+  },
+  {
+   "pattern": "I usually + verb + every day.",
+   "vi": "Tôi thường + làm gì + mỗi ngày.",
+   "examples": [
+    "I usually do exercise every day.",
+    "I usually brush my teeth every day.",
+    "I usually wash my hands every day."
+   ]
+  },
+  {
+   "pattern": "... is healthier than ...",
+   "vi": "... thì lành mạnh hơn ...",
+   "examples": [
+    "Fruit is healthier than candy.",
+    "Water is healthier than soda.",
+    "Walking is healthier than sitting."
+   ]
+  },
+  {
+   "pattern": "How often do you exercise?",
+   "vi": "Bạn có thường xuyên tập thể dục không?",
+   "examples": [
+    "How often do you exercise? I exercise every morning.",
+    "How often do you eat fruit? I eat fruit every day.",
+    "How often do you sleep early? I sleep early every night."
+   ]
+  },
+  {
+   "pattern": "I can ... to be strong.",
+   "vi": "Tôi có thể ... để trở nên khỏe mạnh.",
+   "examples": [
+    "I can run fast to be strong.",
+    "I can jump rope to be strong.",
+    "I can swim to be strong."
+   ]
+  },
+  {
+   "pattern": "Yesterday I ate/drank ...",
+   "vi": "Hôm qua tôi đã ăn/uống ...",
+   "examples": [
+    "Yesterday I ate an apple.",
+    "Yesterday I drank two glasses of milk.",
+    "Yesterday I exercised at school."
+   ]
+  },
+  {
+   "pattern": "I will ... tomorrow.",
+   "vi": "Tôi sẽ ... vào ngày mai.",
+   "examples": [
+    "I will wake up early tomorrow.",
+    "I will play football tomorrow.",
+    "I will eat green vegetables tomorrow."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Modal Verbs: Should / Shouldn't",
+   "explain_en": "We use 'should' to give good advice and 'shouldn't' to warn against bad choices.",
+   "explain_vi": "Chúng ta dùng 'should' để đưa ra lời khuyên tốt và 'shouldn't' để khuyên không nên làm điều có hại.",
+   "examples": [
+    "You should wash your hands before eating.",
+    "You should eat fresh fruit.",
+    "You shouldn't eat junk food before bed."
+   ],
+   "right": "✅ You should eat vegetables.",
+   "wrong": "❌ You should to eat vegetables."
+  },
+  {
+   "title": "Present Simple vs Present Continuous",
+   "explain_en": "Use Present Simple for daily habits and Present Continuous for actions happening right now.",
+   "explain_vi": "Thì Hiện tại đơn dùng cho thói quen hàng ngày, Hiện tại tiếp diễn dùng cho hành động đang diễn ra.",
+   "examples": [
+    "I brush my teeth every morning.",
+    "Look! Mai is drinking water now.",
+    "We play sports every afternoon."
+   ],
+   "right": "✅ I drink water every day.",
+   "wrong": "❌ I am drink water every day."
+  },
+  {
+   "title": "Simple Comparatives (-er / more...)",
+   "explain_en": "Add '-er' to short adjectives or use 'more' before long words to compare two habits.",
+   "explain_vi": "Thêm '-er' vào tính từ ngắn hoặc dùng 'more' trước tính từ dài để so sánh hai thói quen.",
+   "examples": [
+    "Running is faster than walking.",
+    "Apples are healthier than chips.",
+    "Exercising is more useful than watching TV."
+   ],
+   "right": "✅ Fruit is healthier than soda.",
+   "wrong": "❌ Fruit is more healthy than soda."
+  },
+  {
+   "title": "Past Simple of Common Verbs",
+   "explain_en": "Use past verbs like was, were, ate, drank, played to talk about what you did yesterday.",
+   "explain_vi": "Dùng quá khứ của động từ (was, were, ate, drank, played) để kể về hoạt động ngày hôm qua.",
+   "examples": [
+    "Yesterday I was active at the park.",
+    "I ate vegetables for dinner last night.",
+    "Minh drank warm milk before sleep."
+   ],
+   "right": "✅ Yesterday I drank milk.",
+   "wrong": "❌ Yesterday I drink milk."
+  }
+ ],
+ "song": {
+  "title": "The Healthy Habit Song",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Wash your hands and brush your teeth,",
+   "Healthy habits keep you neat!",
+   "Eat your fruit and vegetables too,",
+   "Good fresh food is great for you!",
+   "Drink your water, run and play,",
+   "Feel so happy every day!",
+   "Sleep so early in your bed,",
+   "Rest your heart and rest your head!"
+  ],
+  "actions_vi": "Hát kết hợp động tác: Giả vờ rửa tay, đánh răng, chỉ vào đĩa hoa quả, làm động tác chạy tại chỗ và đặt hai tay lên má ngủ."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MAI'S HEALTHY DAY",
+   "text": "Mai is nine years old. She lives in Hanoi with her family. Mai has many healthy habits. Every morning, she wakes up early at six o'clock. She brushes her teeth and washes her hands with soap. Then she drinks a warm glass of water. For breakfast, Mai eats eggs and fresh fruit. She walks to school with her friend Lan. At school, she plays jump rope during break time. In the evening, she eats green vegetables for dinner. Mai never goes to bed late. She sleeps at nine o'clock every night. Mai feels strong, happy, and ready for school.",
+   "image_prompt": "A young Vietnamese schoolgirl in a white blouse sitting happily at a sunny kitchen table eating an apple with a glass of milk nearby.",
+   "vocab": [
+    {
+     "en": "healthy habits",
+     "ipa": "/ˈhel.θi ˈhæb.ɪts/",
+     "vi": "các thói quen lành mạnh"
+    },
+    {
+     "en": "wake up",
+     "ipa": "/weɪk ʌp/",
+     "vi": "thức dậy"
+    },
+    {
+     "en": "soap",
+     "ipa": "/soʊp/",
+     "vi": "xà phòng"
+    },
+    {
+     "en": "warm water",
+     "ipa": "/wɔːrm ˈwɑː.t̬ɚ/",
+     "vi": "nước ấm"
+    },
+    {
+     "en": "breakfast",
+     "ipa": "/ˈbrek.fəst/",
+     "vi": "bữa sáng"
+    },
+    {
+     "en": "fresh fruit",
+     "ipa": "/freʃ fruːt/",
+     "vi": "trái cây tươi"
+    },
+    {
+     "en": "walk",
+     "ipa": "/wɑːk/",
+     "vi": "đi bộ"
+    },
+    {
+     "en": "break time",
+     "ipa": "/breɪk taɪm/",
+     "vi": "giờ ra chơi"
+    },
+    {
+     "en": "dinner",
+     "ipa": "/ˈdɪn.ɚ/",
+     "vi": "bữa tối"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɑːŋ/",
+     "vi": "khỏe mạnh"
+    }
+   ],
+   "questions": [
+    "How old is Mai?",
+    "Where does Mai live?",
+    "What time does Mai wake up every morning?",
+    "What does she do after brushing her teeth?",
+    "What does she drink in the morning?",
+    "What does Mai eat for breakfast?",
+    "Who does Mai walk to school with?",
+    "What game does she play at break time?",
+    "What does she eat for dinner?",
+    "What time does Mai go to sleep?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai wakes up at eight o'clock.",
+     "answer": false
+    },
+    {
+     "statement": "Mai drinks a glass of warm water in the morning.",
+     "answer": true
+    },
+    {
+     "statement": "Mai goes to school by bus.",
+     "answer": false
+    },
+    {
+     "statement": "Mai eats green vegetables for dinner.",
+     "answer": true
+    },
+    {
+     "statement": "Mai goes to bed very late.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "NAM'S HEALTHY CHANGE",
+   "text": "Last year, Nam was not very healthy. He liked playing video games for hours and went to sleep late at night. He ate a lot of junk food like chips and drank sweet soda. He was often tired at school and sometimes got sick. Two months ago, his doctor told him to change his daily habits. Now, Nam works hard to build good habits! He drinks three bottles of water every day. He eats red apples and fresh carrots for a snack. After school, he plays football with Minh and Ben in the school yard. He also stops playing video games at eight in the evening. Yesterday, Nam went to bed at nine o'clock and slept very well. Today, he feels happier, stronger, and more active than last year.",
+   "image_prompt": "A Vietnamese boy outdoors playing football with two friends in a sunny schoolyard, looking dynamic, energetic, and happy.",
+   "vocab": [
+    {
+     "en": "tired",
+     "ipa": "/ˈtaɪ.ɚd/",
+     "vi": "mệt mỏi"
+    },
+    {
+     "en": "doctor",
+     "ipa": "/ˈdɑːk.tɚ/",
+     "vi": "bác sĩ"
+    },
+    {
+     "en": "change",
+     "ipa": "/tʃeɪndʒ/",
+     "vi": "thay đổi"
+    },
+    {
+     "en": "bottles",
+     "ipa": "/ˈbɑː.t̬əlz/",
+     "vi": "những cái chai"
+    },
+    {
+     "en": "snack",
+     "ipa": "/snæk/",
+     "vi": "bữa ăn nhẹ"
+    },
+    {
+     "en": "school yard",
+     "ipa": "/skuːl jɑːrd/",
+     "vi": "sân trường"
+    },
+    {
+     "en": "stop",
+     "ipa": "/stɑːp/",
+     "vi": "dừng lại"
+    },
+    {
+     "en": "happier",
+     "ipa": "/ˈhæp.i.ɚ/",
+     "vi": "vui vẻ hơn"
+    },
+    {
+     "en": "stronger",
+     "ipa": "/ˈstrɑːŋ.ɡɚ/",
+     "vi": "khỏe hơn"
+    },
+    {
+     "en": "more active",
+     "ipa": "/mɔːr ˈæk.tɪv/",
+     "vi": "năng động hơn"
+    }
+   ],
+   "questions": [
+    "Was Nam healthy last year?",
+    "What did Nam like doing last year?",
+    "What junk food did Nam eat in the past?",
+    "How did Nam feel at school last year?",
+    "Who told Nam to change his habits?",
+    "How many bottles of water does Nam drink every day now?",
+    "What does Nam eat for a snack now?",
+    "Who does Nam play football with after school?",
+    "What time did Nam go to bed yesterday?",
+    "How does Nam feel today compared to last year?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam played video games for hours last year.",
+     "answer": true
+    },
+    {
+     "statement": "The doctor told Nam to eat more candy.",
+     "answer": false
+    },
+    {
+     "statement": "Nam drinks water every day now.",
+     "answer": true
+    },
+    {
+     "statement": "Nam plays badminton after school.",
+     "answer": false
+    },
+    {
+     "statement": "Nam feels stronger and more active now.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "THE SCHOOL HEALTH CLUB",
+   "text": "Welcome to the Grade 4 Health Club presentation! Today, Linh and Tom are sharing three simple rules for a healthy life. First, choose good fuel for your body. Your body is like a super car; it needs clean fuel to run fast. Eating vegetables, fruits, fish, and drinking plenty of pure water gives you maximum power. Junk food with too much sugar will slow you down. Second, keep your body active every day. You should exercise for at least thirty minutes daily. You can run, swim, ride a bike, or dance to active music. Exercising makes your heart strong and your brain sharp. Third, give your body enough rest. Sleep is the best medicine for a tired body. Children aged nine should sleep nine to ten hours every night. When you sleep, your body grows and repairs itself. Yesterday, our club surveyed fifty students in our school. We found that students who sleep early and eat fruits every day get higher marks in class! Let us build healthy habits together starting from today!",
+   "image_prompt": "Two Vietnamese children standing in front of a class presentation easel poster that depicts healthy foods and simple sports, smiling proudly at their classmates.",
+   "vocab": [
+    {
+     "en": "presentation",
+     "ipa": "/ˌprez.ənˈteɪ.ʃən/",
+     "vi": "bài thuyết trình"
+    },
+    {
+     "en": "fuel",
+     "ipa": "/ˈfjuː.əl/",
+     "vi": "nhiên liệu"
+    },
+    {
+     "en": "maximum power",
+     "ipa": "/ˈmæk.sə.məm ˈpaʊ.ɚ/",
+     "vi": "năng lượng tối đa"
+    },
+    {
+     "en": "slow down",
+     "ipa": "/sloʊ daʊn/",
+     "vi": "làm chậm lại"
+    },
+    {
+     "en": "thirty minutes",
+     "ipa": "/ˈθɝː.t̬i ˈmɪn.ɪts/",
+     "vi": "ba mươi phút"
+    },
+    {
+     "en": "sharp",
+     "ipa": "/ʃɑːrp/",
+     "vi": "nhanh nhạy, sắc bén"
+    },
+    {
+     "en": "medicine",
+     "ipa": "/ˈmed.ɪ.sən/",
+     "vi": "liều thuốc"
+    },
+    {
+     "en": "surveyed",
+     "ipa": "/sɚˈveɪd/",
+     "vi": "đã khảo sát"
+    },
+    {
+     "en": "higher marks",
+     "ipa": "/ˈhaɪ.ɚ mɑːrks/",
+     "vi": "điểm số cao hơn"
+    },
+    {
+     "en": "repairs",
+     "ipa": "/rɪˈperz/",
+     "vi": "phục hồi, sửa chữa"
+    }
+   ],
+   "questions": [
+    "Who is giving the Health Club presentation?",
+    "How many rules do Linh and Tom share?",
+    "Why is the body compared to a car?",
+    "What food gives your body maximum power?",
+    "What does junk food do to your body?",
+    "How many minutes should children exercise every day?",
+    "Name two sports mentioned in the text.",
+    "How many hours of sleep do nine-year-old children need?",
+    "How many students did the club survey yesterday?",
+    "What habit helps students get higher marks in class?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh and Tom share five rules in their presentation.",
+     "answer": false
+    },
+    {
+     "statement": "Water and fruit give your body clean fuel.",
+     "answer": true
+    },
+    {
+     "statement": "Exercising makes your heart weak.",
+     "answer": false
+    },
+    {
+     "statement": "Nine-year-old children should sleep 9-10 hours every night.",
+     "answer": true
+    },
+    {
+     "statement": "Students who eat fruits and sleep early scored lower marks.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Too Much Sugar!",
+  "panels": [
+   {
+    "scene": "Minh sits at a school desk holding a big bag of candy and eating sweet chocolates rapidly.",
+    "speech": "Minh: I love candy! Candy is delicious!"
+   },
+   {
+    "scene": "Minh holds his tummy with a sad expression while his friend Mai looks concerned.",
+    "speech": "Minh: Oh no! My tummy hurts! I feel sick!"
+   },
+   {
+    "scene": "Mai offers a fresh red apple and a water bottle to Minh.",
+    "speech": "Mai: You shouldn't eat so much sugar. Here, drink water and eat an apple!"
+   },
+   {
+    "scene": "Minh takes a bite of the red apple and smiles happily next to Mai.",
+    "speech": "Minh: Wow, this apple is crisp and tasty! Fresh fruit is much better!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What time do you usually wake up?",
+   "Do you drink water in the morning?",
+   "How often do you wash your hands?",
+   "Do you brush your teeth twice a day?",
+   "What is your favorite fruit?",
+   "Do you like green vegetables?",
+   "What sport do you like to play?",
+   "How often do you exercise?",
+   "Do you eat junk food often?",
+   "Why shouldn't we eat too much sugar?",
+   "What time do you go to sleep at night?",
+   "How many hours do you sleep every night?",
+   "What healthy food did you eat yesterday?",
+   "What sport will you play this weekend?",
+   "What can you do to stay strong and healthy?"
+  ],
+  "model": "Hello everyone! My name is Mai. I am nine years old. I have many healthy habits. Every day, I wake up early at six o'clock. I drink a glass of water and brush my teeth. I love eating fresh bananas and green vegetables. After school, I play badminton with my friend An. I shouldn't eat too much candy because sugar is bad for my teeth. Every night, I go to bed at nine o'clock. Healthy habits make me strong and happy!",
+  "challenge": "Talk about your daily healthy habits for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "At the Park",
+   "image_prompt": "Two young Vietnamese students sitting on a park bench after playing badminton with water bottles in hand.",
+   "lines": [
+    {
+     "speaker": "Linh",
+     "text": "Phew! We played badminton for thirty minutes. I feel tired!"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Here, Linh! You should drink some pure water."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Thank you, Ben! Ah, water is so refreshing!"
+    },
+    {
+     "speaker": "Ben",
+     "text": "How often do you play badminton?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "I usually play three times a week. How about you?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I ride my bicycle every afternoon with my brother."
+    },
+    {
+     "speaker": "Linh",
+     "text": "That is great! Exercise makes us strong and active."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes! Let us rest for five minutes, then play again!"
+    }
+   ]
+  },
+  {
+   "title": "Choosing Lunch",
+   "image_prompt": "Two Grade 4 students standing in a clean school cafeteria line selecting healthy items like carrots, salad, and fish.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Look at the school canteen menu today, Tom!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I want to buy French fries and sweet soda!"
+    },
+    {
+     "speaker": "Mai",
+     "text": "You shouldn't drink soda every day, Tom. Soda has too much sugar."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Really? What should I choose for lunch?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "You should pick rice, fish, and fresh green salad."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Is green salad tasty?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes! Vegetables give you vitamins and energy for learning."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Okay! I will try the fresh salad and fruit juice today!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello Grade 4 students! I am Doctor Ha from the city hospital. Today, I want to share important healthy habits with you. To stay healthy, you should eat good food every day. Vegetables like carrots and spinach are full of vitamins. You should also eat fresh fruits like oranges and apples. Drinking pure water is much healthier than drinking sweet soda. You need at least six glasses of water daily. Next, do not forget to keep your body moving! You can run, dance, or play sports with friends. Finally, go to bed early! Children should sleep nine hours every night to help their brains grow. Remember: good habits today mean a happy life tomorrow!",
+  "questions": [
+   "Who is speaking in the recording?",
+   "Where does Doctor Ha work?",
+   "What kind of food has lots of vitamins?",
+   "Name two vegetables mentioned by Doctor Ha.",
+   "Name two fresh fruits mentioned in the text.",
+   "How many glasses of water should children drink daily?",
+   "Why is water better than sweet soda?",
+   "What sports or activities can children do?",
+   "How many hours should children sleep every night?",
+   "Why is sleeping early important for children?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "HEALTHY",
+   "HABIT",
+   "FRUIT",
+   "SLEEP",
+   "WATER",
+   "BRUSH",
+   "STRONG",
+   "ACTIVE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "apple",
+     "banana",
+     "carrot",
+     "candy"
+    ],
+    "answer": "candy",
+    "why_vi": "Candy chứa nhiều đường không tốt cho sức khỏe, 3 từ còn lại là trái cây và rau củ lành mạnh."
+   },
+   {
+    "options": [
+     "running",
+     "swimming",
+     "sleeping",
+     "dancing"
+    ],
+    "answer": "sleeping",
+    "why_vi": "Sleeping là hoạt động nghỉ ngơi, 3 từ còn lại là các môn thể thao vận động."
+   },
+   {
+    "options": [
+     "water",
+     "milk",
+     "fruit juice",
+     "pizza"
+    ],
+    "answer": "pizza",
+    "why_vi": "Pizza là món ăn, 3 từ còn lại là đồ uống."
+   },
+   {
+    "options": [
+     "strong",
+     "healthy",
+     "active",
+     "sick"
+    ],
+    "answer": "sick",
+    "why_vi": "Sick mang nghĩa bị ốm, 3 từ còn lại miêu tả trạng thái khỏe mạnh."
+   },
+   {
+    "options": [
+     "toothbrush",
+     "soap",
+     "water",
+     "chocolate"
+    ],
+    "answer": "chocolate",
+    "why_vi": "Chocolate là đồ ăn, 3 từ còn lại liên quan đến việc vệ sinh cá nhân."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am red, yellow, or green. I am crisp and sweet. Eat me every day to keep the doctor away! What am I?",
+    "answer": "An apple"
+   },
+   {
+    "riddle": "I have no color and no taste, but everyone needs me when they are thirsty. What am I?",
+    "answer": "Water"
+   },
+   {
+    "riddle": "I am small and thin. You put toothpaste on me to clean your teeth every morning and night. What am I?",
+    "answer": "A toothbrush"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "ealthyh",
+    "answer": "healthy"
+   },
+   {
+    "scrambled": "eetvbglea",
+    "answer": "vegetable"
+   },
+   {
+    "scrambled": "eicrxese",
+    "answer": "exercise"
+   },
+   {
+    "scrambled": "tawer",
+    "answer": "water"
+   },
+   {
+    "scrambled": "srubh",
+    "answer": "brush"
+   },
+   {
+    "scrambled": "tsrong",
+    "answer": "strong"
+   }
+  ],
+  "picture_count": {
+   "question": "How many fresh apples can you spot in the cover picture?",
+   "hint_vi": "Hãy đếm số quả táo đỏ tươi xuất hiện trên đĩa hoặc trên tay các bạn nhỏ trong bức tranh cover."
+  }
+ },
+ "write": {
+  "profile_title": "My Healthy Lifestyle Profile",
+  "profile_fields": [
+   "My full name is:",
+   "My age is:",
+   "My waking time in the morning is:",
+   "My favorite fresh fruit is:",
+   "My favorite vegetable is:",
+   "The sport I play every week is:",
+   "I drink ____ glasses of water every day.",
+   "One healthy habit I do every day is:",
+   "One unhealthy food I should avoid is:",
+   "My bedtime every night is:"
+  ],
+  "frame_title": "MY HEALTHY HABITS",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "Every morning, I wake up at ____.",
+   "I usually drink ____ and brush my teeth.",
+   "For a healthy snack, I like eating ____.",
+   "I like playing ____ with my friends.",
+   "I should eat more ____ to stay strong.",
+   "I shouldn't drink too much ____.",
+   "Yesterday, I slept at ____.",
+   "Healthy habits make me feel ____ and happy!"
+  ]
+ },
+ "life_skill": {
+  "title": "BUILDING GREAT HEALTHY HABITS",
+  "intro": "Taking care of your body when you are young helps you grow tall, stay energetic, and feel happy every single day!",
+  "intro_vi": "Chăm sóc cơ thể khi còn nhỏ giúp em phát triển chiều cao, giữ năng lượng và luôn cảm thấy vui vẻ mỗi ngày!",
+  "can_do": [
+   "Wash hands with soap before eating.",
+   "Brush teeth twice a day.",
+   "Drink six glasses of water daily.",
+   "Eat green vegetables with every lunch.",
+   "Choose fresh fruit instead of candy.",
+   "Exercise or play sports thirty minutes a day.",
+   "Sleep early before ten o'clock.",
+   "Cover mouth when coughing or sneezing.",
+   "Keep bedroom clean and airy.",
+   "Limit video games to 30 minutes.",
+   "Take a warm shower after playing sports.",
+   "Smile and keep a positive heart."
+  ],
+  "value_question": "What is one new healthy habit you want to start today?",
+  "image_prompt": "A happy Vietnamese child holding a colorful checklist with green tick icons next to good habits like washing hands, drinking water, and sleeping early."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Laughing 100 times gives your heart as much workout as 10 minutes on a rowing machine!",
+   "vi": "Cười 100 lần giúp tim bạn vận động nhiều tương đương 10 phút tập chèo thuyền đấy!"
+  },
+  {
+   "en": "Did you know? Drinking water boosts your brain speed and helps you solve math problems faster!",
+   "vi": "Uống đủ nước giúp não bộ hoạt động nhanh hơn và giải toán tốt hơn!"
+  },
+  {
+   "en": "Did you know? Apples give you more energy in the morning than a cup of sweet tea!",
+   "vi": "Một quả táo mang lại cho bạn nhiều năng lượng buổi sáng hơn là một cốc trà ngọt!"
+  },
+  {
+   "en": "Did you know? Your bones grow mostly at night while you are sleeping soundly!",
+   "vi": "Xương của bạn phát triển chủ yếu vào đêm khi bạn đang ngủ ngon giấc!"
+  },
+  {
+   "en": "Did you know? Washing hands with soap for 20 seconds removes up to 99% of common germs!",
+   "vi": "Rửa tay bằng xà phòng trong 20 giây loại bỏ tới 99% vi khuẩn thông thường!"
+  }
+ ],
+ "project": {
+  "title": "MY HEALTHY HABITS POSTER",
+  "task": "Design and draw a bright poster illustrating 4 good health habits you do every week, then present it to your class.",
+  "draw_items": [
+   "A clock showing early wake-up time",
+   "A glass of pure water",
+   "A toothbrush and toothpaste",
+   "A bowl of fresh red apples",
+   "A green broccoli or carrot",
+   "A football, jump rope, or bicycle",
+   "A cozy bed with sleeping clock",
+   "A big happy sun smiling"
+  ],
+  "example": [
+   "Hello everyone! This is my Healthy Habits Poster.",
+   "I have four main habits to stay strong.",
+   "First, I wake up early at six o'clock.",
+   "Second, I drink three glasses of water and eat fresh apples.",
+   "Third, I play badminton after school.",
+   "Fourth, I sleep at nine o'clock every night.",
+   "These habits make me energetic and happy!"
+  ],
+  "present": "Hello everyone! This is my Healthy Habits Poster. Look at my drawing! I wash my hands, eat fresh fruit, play sports, and go to bed early every day. Healthy habits help me grow tall and strong!",
+  "image_prompt": "A Vietnamese primary school girl holding up a handmade paper poster decorated with colored pencil drawings of apples, water glasses, and footballs."
+ },
+ "classroom_game": {
+  "name": "Healthy Choice Relay",
+  "players": "Groups of 4 to 6 students",
+  "steps_en": [
+   "Place flashcards of foods and activities (fruit, soda, exercise, sleeping late) on a table across the room.",
+   "Divide the class into two teams standing in line.",
+   "Teacher shouts a category: 'Healthy Choice!' or 'Unhealthy Choice!'.",
+   "The first student from each team runs to the table, picks a matching card, and says a sentence: 'You should eat apples!' or 'You shouldn't drink soda!'.",
+   "The team with the most correct cards and clear sentences wins the game."
+  ],
+  "steps_vi": [
+   "Đặt thẻ hình về đồ ăn và hoạt động (trái cây, nước ngọt, tập thể dục, thức khuya) ở bàn phía trên lớp.",
+   "Chia lớp thành hai đội xếp thành hàng dọc.",
+   "Giáo viên hô to nhóm: 'Lựa chọn lành mạnh!' hoặc 'Lựa chọn không lành mạnh!'.",
+   "Học sinh đầu tiên của mỗi đội chạy lên, chọn đúng thẻ và nói câu: 'You should eat apples!' hoặc 'You shouldn't drink soda!'.",
+   "Đội nào chọn đúng nhiều thẻ và nói câu chính xác nhất sẽ chiến thắng."
+  ],
+  "language": [
+   "You should eat fruit.",
+   "You shouldn't drink soda.",
+   "It is healthy!",
+   "It is unhealthy!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "h__lthy",
+    "answer": "healthy"
+   },
+   {
+    "word": "h_b_t",
+    "answer": "habit"
+   },
+   {
+    "word": "ex_rc_se",
+    "answer": "exercise"
+   },
+   {
+    "word": "v_getable",
+    "answer": "vegetable"
+   },
+   {
+    "word": "w_t_r",
+    "answer": "water"
+   },
+   {
+    "word": "br_sh",
+    "answer": "brush"
+   },
+   {
+    "word": "t__th",
+    "answer": "teeth"
+   },
+   {
+    "word": "sl__p",
+    "answer": "sleep"
+   },
+   {
+    "word": "str_ng",
+    "answer": "strong"
+   },
+   {
+    "word": "_ct_ve",
+    "answer": "active"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "You ______ drink plenty of water every day.",
+    "options": [
+     "should",
+     "shouldn't",
+     "can't"
+    ],
+    "answer": "should"
+   },
+   {
+    "q": "You ______ stay up late at night.",
+    "options": [
+     "should",
+     "shouldn't",
+     "must"
+    ],
+    "answer": "shouldn't"
+   },
+   {
+    "q": "Fruit is ______ than candy.",
+    "options": [
+     "healthier",
+     "healthy",
+     "more healthy"
+    ],
+    "answer": "healthier"
+   },
+   {
+    "q": "Look! Mai ______ her hands with soap right now.",
+    "options": [
+     "washes",
+     "is washing",
+     "washed"
+    ],
+    "answer": "is washing"
+   },
+   {
+    "q": "Yesterday, Nam ______ a fresh red apple.",
+    "options": [
+     "eats",
+     "is eating",
+     "ate"
+    ],
+    "answer": "ate"
+   },
+   {
+    "q": "How ______ do you exercise?",
+    "options": [
+     "often",
+     "many",
+     "much"
+    ],
+    "answer": "often"
+   },
+   {
+    "q": "We should brush our ______ after meals.",
+    "options": [
+     "tooth",
+     "teeth",
+     "hand"
+    ],
+    "answer": "teeth"
+   },
+   {
+    "q": "Sugar is not good ______ your teeth.",
+    "options": [
+     "for",
+     "to",
+     "at"
+    ],
+    "answer": "for"
+   },
+   {
+    "q": "I feel tired because I went to bed ______.",
+    "options": [
+     "early",
+     "late",
+     "fast"
+    ],
+    "answer": "late"
+   },
+   {
+    "q": "Tomorrow, Minh ______ badminton with Ben.",
+    "options": [
+     "plays",
+     "played",
+     "will play"
+    ],
+    "answer": "will play"
+   }
+  ],
+  "order": [
+   {
+    "words": "should / You / drink / water / clean",
+    "answer": "You should drink clean water."
+   },
+   {
+    "words": "eat / shouldn't / You / too / sugar / much",
+    "answer": "You shouldn't eat too much sugar."
+   },
+   {
+    "words": "healthier / is / Fruit / than / junk food",
+    "answer": "Fruit is healthier than junk food."
+   },
+   {
+    "words": "brush / my / teeth / I / every morning",
+    "answer": "I brush my teeth every morning."
+   },
+   {
+    "words": "ate / Yesterday / fresh / Mai / vegetables",
+    "answer": "Yesterday Mai ate fresh vegetables."
+   },
+   {
+    "words": "How / do / you / often / sports / play / ?",
+    "answer": "How often do you play sports?"
+   },
+   {
+    "words": "will / I / sleep / early / tonight",
+    "answer": "I will sleep early tonight."
+   },
+   {
+    "words": "is / exercise / Doing / good / for / you",
+    "answer": "Doing exercise is good for you."
+   },
+   {
+    "words": "woke / at / six o'clock / Nam / up",
+    "answer": "Nam woke up at six o'clock."
+   },
+   {
+    "words": "keep / Healthy / habits / us / strong",
+    "answer": "Healthy habits keep us strong."
+   }
+  ],
+  "about_you": [
+   "What time do you wake up every day?",
+   "Do you drink milk or water in the morning?",
+   "What is your favorite green vegetable?",
+   "How often do you eat fresh fruit?",
+   "Do you play sports after school?",
+   "What should you do before eating meals?",
+   "What shouldn't you eat before sleeping?",
+   "What time did you go to bed yesterday?",
+   "How many hours did you sleep last night?",
+   "What will you do tomorrow to stay healthy?"
+  ]
+ },
+ "i_can": [
+  "I can say 20 health words in English.",
+  "I can pronounce the /h/ sound correctly in words like healthy and habit.",
+  "I can use 'should' to give good health advice.",
+  "I can use 'shouldn't' to warn against unhealthy choices.",
+  "I can talk about my daily routines using the present simple tense.",
+  "I can describe actions happening now using the present continuous tense.",
+  "I can compare two choices using simple comparative forms like 'healthier than'.",
+  "I can talk about yesterday's health habits using past simple verbs.",
+  "I can express future plans to stay healthy using 'will'.",
+  "I can ask 'How often do you...?' and answer about frequency.",
+  "I can read and understand short stories about health routines.",
+  "I can listen to advice from a doctor and answer questions.",
+  "I can ask and answer 15 speaking questions about healthy lifestyle.",
+  "I can write a complete personal profile about my health habits.",
+  "I can create and present a Healthy Habits Poster to my class."
+ ],
+ "message_en": "HEALTHY HABITS BUILD A STRONG BODY AND A HAPPY MIND.",
+ "message_vi": "THÓI QUEN LÀNH MẠNH NÂNG BƯỚC CƠ THỂ KHỎE MẠNH VÀ TÂM TRÍ VUI VẺ.",
+ "message_body": "By taking care of your body every day, eating good food, and sleeping early, you build power for your future. Keep practicing your healthy habits and share them with your family and friends!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Standardized Vietnamese spelling of 'khoẻ mạnh' to 'khỏe mạnh' in vocabulary.",
+  "Fixed parallel past tense in Reading 2 text: changed 'drinking sweet soda' to 'drank sweet soda'.",
+  "Corrected unnatural phrasing 'for snack' to 'for a snack' in Reading 2 text to match question 7."
+ ],
+ "unit": 7,
+ "grade": 4,
+ "validation": [],
+ "proofread": true
+}

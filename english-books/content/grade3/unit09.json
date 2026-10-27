@@ -1,0 +1,1173 @@
+{
+ "title": "At the Park",
+ "theme": "Outdoor Fun",
+ "goal": "Students can talk about park activities and features using present simple, present continuous, can/can't, and have got.",
+ "goal_vi": "Học sinh có thể nói về các hoạt động và đặc điểm của công viên bằng cách sử dụng thì hiện tại đơn, hiện tại tiếp diễn, 'can/can't' và 'have got'.",
+ "cover_emoji": "🌳 swings 🏞️",
+ "cover_image_prompt": "A vibrant, sunny park scene with diverse Vietnamese children playing on slides, swings, and a seesaw, while others walk on paths or sit on benches. A pond with ducks is in the background. No text.",
+ "big_question": {
+  "en": "What do you like to do at the park?",
+  "vi": "Em thích làm gì ở công viên?",
+  "prompts": [
+   "Do you often go to the park?",
+   "Who do you go to the park with?",
+   "What can you see at the park?",
+   "What is your favorite thing to do there?",
+   "Is there a park near your home?",
+   "Do you like playing outside?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "park",
+   "ipa": "/pɑːrk/",
+   "vi": "công viên",
+   "emoji": "🏞️",
+   "image_prompt": "A wide shot of a green, open park with trees, paths, and playground equipment in the distance, no people."
+  },
+  {
+   "en": "slide",
+   "ipa": "/slaɪd/",
+   "vi": "cầu trượt",
+   "emoji": "🎢",
+   "image_prompt": "A colorful plastic slide, empty and ready for play."
+  },
+  {
+   "en": "swing",
+   "ipa": "/swɪŋ/",
+   "vi": "xích đu",
+   "emoji": "🎡",
+   "image_prompt": "Two empty swings hanging from a metal frame in a park."
+  },
+  {
+   "en": "seesaw",
+   "ipa": "/ˈsiːsɔː/",
+   "vi": "bập bênh",
+   "emoji": "⚖️",
+   "image_prompt": "A brightly colored seesaw in a park, with one end up and one end down."
+  },
+  {
+   "en": "sandbox",
+   "ipa": "/ˈsændbɑːks/",
+   "vi": "hố cát",
+   "emoji": "🏖️",
+   "image_prompt": "A square wooden sandbox filled with clean sand, with a few sand toys inside."
+  },
+  {
+   "en": "bench",
+   "ipa": "/bɛntʃ/",
+   "vi": "ghế đá",
+   "emoji": "🪑",
+   "image_prompt": "An empty park bench made of wood and metal, under a leafy tree."
+  },
+  {
+   "en": "tree",
+   "ipa": "/triː/",
+   "vi": "cái cây",
+   "emoji": "🌳",
+   "image_prompt": "A tall, leafy green tree in a sunny park."
+  },
+  {
+   "en": "flower",
+   "ipa": "/ˈflaʊər/",
+   "vi": "bông hoa",
+   "emoji": "🌸",
+   "image_prompt": "A single, vibrant pink flower with green leaves."
+  },
+  {
+   "en": "grass",
+   "ipa": "/ɡræs/",
+   "vi": "cỏ xanh",
+   "emoji": "🌿",
+   "image_prompt": "A patch of lush green grass under a clear blue sky."
+  },
+  {
+   "en": "path",
+   "ipa": "/pæθ/",
+   "vi": "lối đi",
+   "emoji": "🚶‍♀️",
+   "image_prompt": "A winding paved path through a green park, with trees on both sides."
+  },
+  {
+   "en": "pond",
+   "ipa": "/pɑːnd/",
+   "vi": "cái ao",
+   "emoji": "🦆",
+   "image_prompt": "A small, calm pond with lily pads and a few ducks swimming."
+  },
+  {
+   "en": "fountain",
+   "ipa": "/ˈfaʊntən/",
+   "vi": "đài phun nước",
+   "emoji": "⛲",
+   "image_prompt": "A decorative park fountain with water spraying upwards."
+  },
+  {
+   "en": "kite",
+   "ipa": "/kaɪt/",
+   "vi": "diều",
+   "emoji": "🪁",
+   "image_prompt": "A colorful diamond-shaped kite flying high in a blue sky."
+  },
+  {
+   "en": "bicycle",
+   "ipa": "/ˈbaɪsɪkl/",
+   "vi": "xe đạp",
+   "emoji": "🚲",
+   "image_prompt": "A small, child's red bicycle with training wheels, parked on a path."
+  },
+  {
+   "en": "run",
+   "ipa": "/rʌn/",
+   "vi": "chạy",
+   "emoji": "🏃‍♂️",
+   "image_prompt": "A happy Vietnamese boy in a blue shirt running across a grassy field with arms outstretched."
+  },
+  {
+   "en": "jump",
+   "ipa": "/dʒʌmp/",
+   "vi": "nhảy",
+   "emoji": "🤸‍♀️",
+   "image_prompt": "A cheerful Vietnamese girl with pigtails jumping high in the air on a green lawn."
+  },
+  {
+   "en": "walk",
+   "ipa": "/wɔːk/",
+   "vi": "đi bộ",
+   "emoji": "🚶",
+   "image_prompt": "A Vietnamese family (mother, father, child) walking together on a park path, holding hands."
+  },
+  {
+   "en": "laugh",
+   "ipa": "/læf/",
+   "vi": "cười",
+   "emoji": "😂",
+   "image_prompt": "Two diverse children, a boy and a girl, laughing happily with open mouths and bright eyes."
+  },
+  {
+   "en": "play",
+   "ipa": "/pleɪ/",
+   "vi": "chơi",
+   "emoji": "⚽",
+   "image_prompt": "Two Vietnamese children, a boy and a girl, playing with a colorful ball on a sunny day."
+  },
+  {
+   "en": "read",
+   "ipa": "/riːd/",
+   "vi": "đọc",
+   "emoji": "📖",
+   "image_prompt": "A Vietnamese girl sitting on a park bench, quietly reading a book with a gentle smile."
+  }
+ ],
+ "phonics": {
+  "sound": "/p/",
+  "letters": "P p",
+  "words": [
+   "park",
+   "pond",
+   "path",
+   "playing",
+   "puppy",
+   "picnic"
+  ],
+  "chant": "P-P-P, park is fun!\nP-P-P, let's run, run, run!",
+  "tip_vi": "Phát âm /p/ bằng cách khép môi và đẩy hơi ra ngoài, không rung dây thanh quản."
+ },
+ "patterns": [
+  {
+   "pattern": "This is a/an + noun.",
+   "vi": "Đây là một + danh từ.",
+   "examples": [
+    "This is a park.",
+    "This is a big slide.",
+    "This is an old bench."
+   ]
+  },
+  {
+   "pattern": "There is/are + noun.",
+   "vi": "Có một/những + danh từ.",
+   "examples": [
+    "There is a pond in the park.",
+    "There are many trees here.",
+    "There is a tall fountain."
+   ]
+  },
+  {
+   "pattern": "I can/can't + verb.",
+   "vi": "Tôi có thể/không thể + động từ.",
+   "examples": [
+    "I can run fast.",
+    "I can't fly a kite.",
+    "We can play together."
+   ]
+  },
+  {
+   "pattern": "He/She is + V-ing.",
+   "vi": "Anh ấy/Cô ấy đang + động từ -ing.",
+   "examples": [
+    "He is playing on the slide.",
+    "She is walking on the path.",
+    "Look! He is jumping high!"
+   ]
+  },
+  {
+   "pattern": "We are + V-ing.",
+   "vi": "Chúng tôi đang + động từ -ing.",
+   "examples": [
+    "We are having fun.",
+    "We are playing a game.",
+    "We are running in the grass."
+   ]
+  },
+  {
+   "pattern": "What is + noun?",
+   "vi": "Cái gì là + danh từ?",
+   "examples": [
+    "What is this?",
+    "What is your favorite activity?",
+    "What is he doing?"
+   ]
+  },
+  {
+   "pattern": "Where is + noun?",
+   "vi": "Ở đâu là + danh từ?",
+   "examples": [
+    "Where is the slide?",
+    "Where are the flowers?",
+    "Where is she going?"
+   ]
+  },
+  {
+   "pattern": "Let's + verb.",
+   "vi": "Chúng ta hãy + động từ.",
+   "examples": [
+    "Let's go to the park.",
+    "Let's play together.",
+    "Let's sit on the bench."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Present Simple: Facts and Routines",
+   "explain_en": "We use the present simple for things that are generally true or happen regularly.",
+   "explain_vi": "Chúng ta dùng thì hiện tại đơn để diễn tả những sự thật hiển nhiên hoặc những hành động diễn ra thường xuyên.",
+   "examples": [
+    "The park has many trees.",
+    "Children play here every day.",
+    "I like to walk on the path."
+   ],
+   "right": "✅ The park is beautiful.",
+   "wrong": "❌ The park are beautiful."
+  },
+  {
+   "title": "Present Continuous: Actions Happening Now",
+   "explain_en": "We use the present continuous for actions that are happening at the moment of speaking.",
+   "explain_vi": "Chúng ta dùng thì hiện tại tiếp diễn để diễn tả những hành động đang xảy ra ngay tại thời điểm nói.",
+   "examples": [
+    "Look! Mai is swinging.",
+    "Ben and Tom are running.",
+    "I am reading a book now."
+   ],
+   "right": "✅ She is playing.",
+   "wrong": "❌ She playing."
+  },
+  {
+   "title": "Can / Can't: Ability",
+   "explain_en": "We use 'can' to say that we are able to do something, and 'can't' to say we are not able to.",
+   "explain_vi": "Chúng ta dùng 'can' để nói rằng mình có thể làm gì đó, và 'can't' để nói rằng mình không thể làm gì đó.",
+   "examples": [
+    "I can jump high.",
+    "Birds can fly.",
+    "A bench can't run."
+   ],
+   "right": "✅ He can ride a bicycle.",
+   "wrong": "❌ He can to ride a bicycle."
+  },
+  {
+   "title": "Have got / Has got: Possession",
+   "explain_en": "We use 'have got' or 'has got' to talk about things we possess or own.",
+   "explain_vi": "Chúng ta dùng 'have got' hoặc 'has got' để nói về những thứ mình sở hữu.",
+   "examples": [
+    "I have got a new kite.",
+    "She has got a pretty flower.",
+    "They have got a big sandbox."
+   ],
+   "right": "✅ I have got a ball.",
+   "wrong": "❌ I has got a ball."
+  }
+ ],
+ "song": {
+  "title": "Fun at the Park",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The children in the park go 'Round and round, round and round,'",
+   "'Round and round! The children in the park go 'Round and round,'",
+   "All day long!",
+   "The swings in the park go 'Up and down, up and down,'",
+   "'Up and down! The swings in the park go 'Up and down,'",
+   "All day long!",
+   "The slide in the park goes 'Whee-ee-ee, whee-ee-ee,'",
+   "'Whee-ee-ee! The slide in the park goes 'Whee-ee-ee,'",
+   "All day long!",
+   "The friends in the park go 'Laugh, laugh, laugh, laugh, laugh, laugh,'",
+   "'Laugh, laugh, laugh! The friends in the park go 'Laugh, laugh, laugh,'",
+   "All day long!"
+  ],
+  "actions_vi": "Các em có thể làm động tác quay tròn, nhún lên xuống, trượt dốc và cười vui vẻ theo lời bài hát."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Favorite Park",
+   "text": "Hello! My name is Linh. I am eight years old. I like to go to the park. It is a big and green park. There are many trees and colorful flowers. I can see a big slide and two swings. My friend, Nam, is playing on the slide. I am swinging high. We are happy at the park. We often go there on Sunday. We love our park!",
+   "image_prompt": "A cheerful Vietnamese girl named Linh and a boy named Nam playing happily at a green park. Linh is on a swing, and Nam is on a slide. Bright flowers are nearby. No text.",
+   "vocab": [
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích"
+    },
+    {
+     "en": "big",
+     "ipa": "/bɪɡ/",
+     "vi": "lớn"
+    },
+    {
+     "en": "green",
+     "ipa": "/ɡriːn/",
+     "vi": "xanh lá cây"
+    },
+    {
+     "en": "colorful",
+     "ipa": "/ˈkʌlərfl/",
+     "vi": "đầy màu sắc"
+    },
+    {
+     "en": "high",
+     "ipa": "/haɪ/",
+     "vi": "cao"
+    },
+    {
+     "en": "happy",
+     "ipa": "/ˈhæpi/",
+     "vi": "vui vẻ"
+    },
+    {
+     "en": "often",
+     "ipa": "/ˈɔːfn/",
+     "vi": "thường xuyên"
+    },
+    {
+     "en": "Sunday",
+     "ipa": "/ˈsʌndeɪ/",
+     "vi": "Chủ Nhật"
+    },
+    {
+     "en": "love",
+     "ipa": "/lʌv/",
+     "vi": "yêu"
+    },
+    {
+     "en": "our",
+     "ipa": "/ˈaʊər/",
+     "vi": "của chúng tôi"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "What kind of park is it?",
+    "What can Linh see in the park?",
+    "Who is playing on the slide?",
+    "What is Linh doing?",
+    "How do Linh and Nam feel at the park?",
+    "When do they often go to the park?",
+    "Does Linh like the park?",
+    "What is your favorite thing at a park?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "The park is small and yellow.",
+     "answer": false
+    },
+    {
+     "statement": "There are many trees and flowers.",
+     "answer": true
+    },
+    {
+     "statement": "Nam is swinging high.",
+     "answer": false
+    },
+    {
+     "statement": "Linh and Nam are happy at the park.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A Busy Afternoon at Green Park",
+   "text": "It's a sunny afternoon at Green Park. Many children and families are here. Look! Two boys, Minh and Ben, are playing with a red ball near the big tree. A little girl, Mia, is riding her small bicycle on the path. She has got a pink helmet. Her mom is walking beside her. Over there, two friends, An and Lucy, are on the seesaw. They are laughing loudly. There is also a pond with three white ducks. A man is sitting on a bench, reading a book. Everyone is having a good time at Green Park. It is a wonderful place for outdoor fun!",
+   "image_prompt": "A bustling park scene on a sunny afternoon. Diverse children and families are enjoying various activities: two boys playing with a red ball, a girl riding a bicycle with her mom walking beside, two friends on a seesaw laughing, ducks in a pond, and a man reading on a bench. No text.",
+   "vocab": [
+    {
+     "en": "afternoon",
+     "ipa": "/ˌæftərˈnuːn/",
+     "vi": "buổi chiều"
+    },
+    {
+     "en": "sunny",
+     "ipa": "/ˈsʌni/",
+     "vi": "nắng"
+    },
+    {
+     "en": "families",
+     "ipa": "/ˈfæməliz/",
+     "vi": "các gia đình"
+    },
+    {
+     "en": "near",
+     "ipa": "/nɪr/",
+     "vi": "gần"
+    },
+    {
+     "en": "red",
+     "ipa": "/rɛd/",
+     "vi": "màu đỏ"
+    },
+    {
+     "en": "little",
+     "ipa": "/ˈlɪtl/",
+     "vi": "nhỏ bé"
+    },
+    {
+     "en": "helmet",
+     "ipa": "/ˈhɛlmɪt/",
+     "vi": "mũ bảo hiểm"
+    },
+    {
+     "en": "loudly",
+     "ipa": "/ˈlaʊdli/",
+     "vi": "ồn ào"
+    },
+    {
+     "en": "wonderful",
+     "ipa": "/ˈwʌndərfl/",
+     "vi": "tuyệt vời"
+    },
+    {
+     "en": "place",
+     "ipa": "/pleɪs/",
+     "vi": "nơi chốn"
+    }
+   ],
+   "questions": [
+    "What time of day is it at Green Park?",
+    "Who are playing with a red ball?",
+    "What is Mia doing?",
+    "What color is Mia's helmet?",
+    "Who is walking beside Mia?",
+    "What are An and Lucy doing?",
+    "How many ducks are in the pond?",
+    "What is the man on the bench doing?",
+    "Is Green Park a good place for outdoor fun?",
+    "What is your favorite color for a bicycle?"
+   ],
+   "true_false": [
+    {
+     "statement": "It is a rainy morning at Green Park.",
+     "answer": false
+    },
+    {
+     "statement": "Minh and Ben are playing with a blue ball.",
+     "answer": false
+    },
+    {
+     "statement": "Mia is riding her bicycle.",
+     "answer": true
+    },
+    {
+     "statement": "An and Lucy are on the slide.",
+     "answer": false
+    },
+    {
+     "statement": "Everyone is having a good time.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "A Day of Discovery at City Park",
+   "text": "Today, Tom and his sister, Daisy, are visiting City Park. It's a very big park with many interesting things. First, they run to the playground. Tom is climbing the slide, and Daisy is pushing the swing for a little boy. They are helping him. Then, they see a beautiful fountain. Water is spraying high up! Next to the fountain, there is a big flower garden. Daisy loves flowers, so she is looking at the red, yellow, and purple flowers. Tom says, 'Look, Daisy! I have got a new kite. Let's fly it!' Daisy smiles, 'Yes! I can help you.' They find an open space with green grass. Tom is holding the kite, and Daisy is running to make it fly. Oh no! The kite is falling down. Tom can't fly it alone. Daisy says, 'Don't worry, Tom. We can try again together!' They pick up the kite and try again. This time, the kite flies high in the sky. They are so happy and proud!",
+   "image_prompt": "A lively scene at City Park. Tom is climbing a slide, Daisy is pushing a swing for a younger boy. Nearby, a beautiful fountain sprays water high, and a flower garden with red, yellow, and purple flowers is visible. Later, Tom and Daisy are in an open grassy area, attempting to fly a colorful kite. In the final moment, the kite is flying high with both children smiling proudly. No text.",
+   "vocab": [
+    {
+     "en": "visiting",
+     "ipa": "/ˈvɪzɪtɪŋ/",
+     "vi": "thăm"
+    },
+    {
+     "en": "interesting",
+     "ipa": "/ˈɪntrəstɪŋ/",
+     "vi": "thú vị"
+    },
+    {
+     "en": "climbing",
+     "ipa": "/ˈklaɪmɪŋ/",
+     "vi": "leo trèo"
+    },
+    {
+     "en": "pushing",
+     "ipa": "/ˈpʊʃɪŋ/",
+     "vi": "đẩy"
+    },
+    {
+     "en": "helping",
+     "ipa": "/ˈhɛlpɪŋ/",
+     "vi": "giúp đỡ"
+    },
+    {
+     "en": "garden",
+     "ipa": "/ˈɡɑːrdn/",
+     "vi": "khu vườn"
+    },
+    {
+     "en": "open space",
+     "ipa": "/ˈoʊpən speɪs/",
+     "vi": "không gian mở"
+    },
+    {
+     "en": "alone",
+     "ipa": "/əˈloʊn/",
+     "vi": "một mình"
+    },
+    {
+     "en": "proud",
+     "ipa": "/praʊd/",
+     "vi": "tự hào"
+    },
+    {
+     "en": "together",
+     "ipa": "/təˈɡɛðər/",
+     "vi": "cùng nhau"
+    }
+   ],
+   "questions": [
+    "Who is visiting City Park today?",
+    "What is Tom doing at the playground?",
+    "What is Daisy doing for the little boy?",
+    "What do they see after the playground?",
+    "What kind of flowers does Daisy like to look at?",
+    "What has Tom got?",
+    "Where do they go to fly the kite?",
+    "What happens when Tom tries to fly the kite alone?",
+    "What does Daisy say to Tom?",
+    "How do Tom and Daisy feel when the kite flies high?"
+   ],
+   "true_false": [
+    {
+     "statement": "Tom and Daisy are visiting Green Park.",
+     "answer": false
+    },
+    {
+     "statement": "Daisy is climbing the slide.",
+     "answer": false
+    },
+    {
+     "statement": "There is a beautiful fountain and a flower garden.",
+     "answer": true
+    },
+    {
+     "statement": "Tom has got a new bicycle.",
+     "answer": false
+    },
+    {
+     "statement": "The kite flies high on the first try.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "A Surprise at the Park!",
+  "panels": [
+   {
+    "scene": "A Vietnamese boy, Nam, is happily swinging high on a swing at a sunny park. He looks excited.",
+    "speech": "Nam: Whee! I am swinging so high!"
+   },
+   {
+    "scene": "Nam stops swinging and looks down at the ground. He sees something small and brown near his foot.",
+    "speech": "Nam: What is this? I can see something small!"
+   },
+   {
+    "scene": "Nam bends down to pick up a small, brown teddy bear. He looks surprised but happy.",
+    "speech": "Nam: Oh! I have got a cute teddy bear! It's so soft!"
+   },
+   {
+    "scene": "Nam is now sitting on a park bench, hugging the teddy bear. A Vietnamese girl, Mai, sits next to him, smiling. Nam looks very content.",
+    "speech": "Mai: Wow, Nam! You can play with it here. It's a happy day!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite park activity?",
+   "Do you like to go to the park with your family or friends?",
+   "What colors of flowers can you see in a park?",
+   "Can you ride a bicycle in the park?",
+   "What animals can you see at the park?",
+   "Is there a pond in your park?",
+   "What do you do if you see rubbish in the park?",
+   "Do you like to run or walk in the park?",
+   "Can you climb a tree?",
+   "What is a seesaw?",
+   "What are two things you can play with at a park?",
+   "What do you wear when you ride a bicycle?",
+   "Is it good to laugh loudly in the park?",
+   "What do you do when you are tired at the park?",
+   "Why is it important to have parks in a city?"
+  ],
+  "model": "Hello, everyone! My favorite park is Green Park. It is big and has many trees. I often go there with my sister on Saturday. We like to play on the swings and the slide. I can swing very high! Sometimes, my dad flies a kite, and I help him. There is also a pond with ducks. I love watching them. At the park, I can run, jump, and laugh with my sister. It makes me feel very happy!",
+  "challenge": "Talk about your favorite park for 30–60 seconds. Remember to say what you can see and what you like to do there."
+ },
+ "conversations": [
+  {
+   "title": "At the Playground",
+   "image_prompt": "Two Vietnamese children, a boy named Hùng and a girl named Lan, are standing near a slide and a swing in a sunny park. They are smiling and talking.",
+   "lines": [
+    {
+     "speaker": "Hùng",
+     "text": "Hi, Lan! What are you doing?"
+    },
+    {
+     "speaker": "Lan",
+     "text": "Hi, Hùng! I'm watching the children play. It's so fun here."
+    },
+    {
+     "speaker": "Hùng",
+     "text": "Yes, it is! Look, a boy is on the slide. He is going down fast!"
+    },
+    {
+     "speaker": "Lan",
+     "text": "Wow! He is very brave. Can you go on the slide?"
+    },
+    {
+     "speaker": "Hùng",
+     "text": "Yes, I can! I love slides. What about you? Can you swing high?"
+    },
+    {
+     "speaker": "Lan",
+     "text": "I can swing, but not very high. I like the sandbox more."
+    },
+    {
+     "speaker": "Hùng",
+     "text": "Let's go to the sandbox then! We can build a castle."
+    },
+    {
+     "speaker": "Lan",
+     "text": "Great idea! I have got some small toys with me."
+    }
+   ]
+  },
+  {
+   "title": "A Walk by the Pond",
+   "image_prompt": "Two Vietnamese children, a girl named Chi and a boy named Duy, are walking along a path next to a small pond in a park. Ducks are swimming in the pond, and flowers are blooming nearby.",
+   "lines": [
+    {
+     "speaker": "Chi",
+     "text": "It's a beautiful day, Duy. The park is so green."
+    },
+    {
+     "speaker": "Duy",
+     "text": "Yes, Chi. Look at the pond! There are three ducks swimming."
+    },
+    {
+     "speaker": "Chi",
+     "text": "Oh, they are so cute! Are they eating something?"
+    },
+    {
+     "speaker": "Duy",
+     "text": "I think so. My mom says we can't feed them bread."
+    },
+    {
+     "speaker": "Chi",
+     "text": "That's right. It's not good for them. What about those flowers?"
+    },
+    {
+     "speaker": "Duy",
+     "text": "They are beautiful! They have got red and yellow petals. My grandmother loves flowers."
+    },
+    {
+     "speaker": "Chi",
+     "text": "This park has got so many nice things. I love walking here."
+    },
+    {
+     "speaker": "Duy",
+     "text": "Me too! It's peaceful and fun."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! Welcome to our listening practice. Today, we are talking about a day at the park. Listen carefully. My name is Tom. I am at the park now with my little sister, Mia. It is a sunny day. The park is big and beautiful. There are many children here. Look! Mia is playing on the seesaw with her friend, Linh. They are laughing loudly. I am sitting on a bench near a big tree. I have got my new book, and I am reading it. A boy is flying a colorful kite in the sky. He is running fast. Two girls are riding their bicycles on the path. They are wearing helmets. There is also a small fountain, and water is spraying up. I love coming to the park because it's always full of fun activities. What a great day!",
+  "questions": [
+   "What is the boy's name?",
+   "Who is with Tom at the park?",
+   "What kind of day is it?",
+   "What are Mia and Linh doing?",
+   "Where is Tom sitting?",
+   "What is Tom doing?",
+   "What is the boy flying in the sky?",
+   "What are the two girls doing on the path?",
+   "What are the girls wearing?",
+   "Why does Tom love coming to the park?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "PARK",
+   "SLIDE",
+   "SWING",
+   "SEESAW",
+   "BENCH",
+   "TREE",
+   "POND",
+   "KITE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "slide",
+     "swing",
+     "tree",
+     "seesaw"
+    ],
+    "answer": "tree",
+    "why_vi": "Cây là thực vật, còn lại là thiết bị chơi trong công viên."
+   },
+   {
+    "options": [
+     "run",
+     "jump",
+     "read",
+     "walk"
+    ],
+    "answer": "read",
+    "why_vi": "Đọc là hoạt động tĩnh, còn lại là các hoạt động di chuyển/thể chất."
+   },
+   {
+    "options": [
+     "bicycle",
+     "kite",
+     "flower",
+     "ball"
+    ],
+    "answer": "flower",
+    "why_vi": "Hoa là thực vật, còn lại là đồ chơi hoặc phương tiện di chuyển."
+   },
+   {
+    "options": [
+     "happy",
+     "sad",
+     "big",
+     "fun"
+    ],
+    "answer": "big",
+    "why_vi": "Big là tính từ chỉ kích thước, còn lại là tính từ chỉ cảm xúc hoặc trải nghiệm."
+   },
+   {
+    "options": [
+     "pond",
+     "fountain",
+     "grass",
+     "water"
+    ],
+    "answer": "grass",
+    "why_vi": "Cỏ là thực vật trên mặt đất, còn lại liên quan đến nước."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am tall and green, I give you shade. Birds build their homes in me. What am I?",
+    "answer": "A tree"
+   },
+   {
+    "riddle": "I am a place for fun, with slides and swings. You can run and play with your friends here. What am I?",
+    "answer": "A park"
+   },
+   {
+    "riddle": "I go up and down, up and down. Two friends sit on me to play. What am I?",
+    "answer": "A seesaw"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "krap",
+    "answer": "park"
+   },
+   {
+    "scrambled": "dlies",
+    "answer": "slide"
+   },
+   {
+    "scrambled": "ginws",
+    "answer": "swing"
+   },
+   {
+    "scrambled": "hcbne",
+    "answer": "bench"
+   },
+   {
+    "scrambled": "eetr",
+    "answer": "tree"
+   },
+   {
+    "scrambled": "itke",
+    "answer": "kite"
+   }
+  ],
+  "picture_count": {
+   "question": "How many swings can you see in the cover picture?",
+   "hint_vi": "Hãy đếm số lượng xích đu trong hình bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Park Fun Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ____ years old.",
+   "I like to go to the park on ____.",
+   "I go to the park with my ____.",
+   "My favorite thing at the park is the ____.",
+   "I can ____ at the park.",
+   "I can't ____ at the park.",
+   "I have got a ____ to play with there.",
+   "I usually see ____ at the park.",
+   "I feel ____ when I am at the park."
+  ],
+  "frame_title": "MY DAY AT THE PARK",
+  "frame_lines": [
+   "Hello! My name is ____.",
+   "I am ____ years old.",
+   "I love going to the park because ____.",
+   "I often go to the park with my ____.",
+   "We go there on ____.",
+   "At the park, I can see ____ and ____.",
+   "My favorite activity is ____. I am ____.",
+   "My friend ____ is ____.",
+   "We sometimes ____.",
+   "I always feel ____ at the park."
+  ]
+ },
+ "life_skill": {
+  "title": "BE SAFE AND KIND AT THE PARK",
+  "intro": "The park is a wonderful place for everyone to have fun! To make sure it stays safe and happy for all, we need to follow some simple rules.",
+  "intro_vi": "Công viên là một nơi tuyệt vời để mọi người vui chơi! Để đảm bảo công viên luôn an toàn và vui vẻ cho tất cả mọi người, chúng ta cần tuân thủ một số quy tắc đơn giản.",
+  "can_do": [
+   "Look both ways before crossing the path.",
+   "Share the playground equipment with others.",
+   "Take turns on the slide and swings.",
+   "Be gentle with flowers and trees.",
+   "Don't litter; put rubbish in the bin.",
+   "Stay with your family or friends.",
+   "Be careful not to push or hurt others.",
+   "Say 'Excuse me' if you bump into someone.",
+   "Help a friend if they fall down.",
+   "Be kind to animals in the park.",
+   "Wash your hands after playing.",
+   "Listen to adults and follow their rules."
+  ],
+  "value_question": "What is one thing you can do today to make your local park a better place?",
+  "image_prompt": "A brightly colored cartoon illustration of diverse children (including Vietnamese children) happily playing at a park, showing good manners: sharing a seesaw, putting rubbish in a bin, and watering a small plant. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The largest park in the world is Northeast Greenland National Park, and it's bigger than many countries!",
+   "vi": "Bạn có biết? Công viên lớn nhất thế giới là Công viên Quốc gia Đông Bắc Greenland, và nó lớn hơn nhiều quốc gia!"
+  },
+  {
+   "en": "Did you know? Trees in parks help us breathe by making fresh air!",
+   "vi": "Bạn có biết? Cây xanh trong công viên giúp chúng ta thở bằng cách tạo ra không khí trong lành!"
+  },
+  {
+   "en": "Did you know? Some parks have special areas called 'dog parks' where dogs can play freely!",
+   "vi": "Bạn có biết? Một số công viên có các khu vực đặc biệt gọi là 'công viên chó' nơi chó có thể chơi tự do!"
+  },
+  {
+   "en": "Did you know? Kites were invented in China over 2,000 years ago!",
+   "vi": "Bạn có biết? Diều được phát minh ở Trung Quốc cách đây hơn 2.000 năm!"
+  },
+  {
+   "en": "Did you know? A group of frogs is sometimes called an 'army'!",
+   "vi": "Bạn có biết? Một nhóm ếch đôi khi được gọi là một 'đội quân'!"
+  }
+ ],
+ "project": {
+  "title": "MY DREAM PARK POSTER",
+  "task": "Create a poster about your dream park! What does it look like? What can you do there?",
+  "draw_items": [
+   "A very tall slide",
+   "A big swimming pond",
+   "Swings that fly really high",
+   "A talking tree",
+   "Colorful flowers everywhere",
+   "A special animal area",
+   "A big ice cream stand",
+   "Rainbow paths"
+  ],
+  "example": [
+   "This is my dream park. It is very big and fun.",
+   "There is a super tall slide and magic swings.",
+   "I can swim in the clean pond.",
+   "There are many talking animals.",
+   "I can eat delicious ice cream there. I love my dream park!"
+  ],
+  "present": "Hello everyone! This is my dream park poster. In my park, there is a giant slide and a big pond. I can fly high on the swings and talk to the animals. I want to play here every day!",
+  "image_prompt": "A child-like drawing of a fantastical, colorful dream park on a poster. It includes a very tall slide, swings flying high, a pond, talking trees, vibrant flowers, and an ice cream stand. Diverse children are happily enjoying these imaginative features. No text."
+ },
+ "classroom_game": {
+  "name": "Park Action Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "1. Each group writes 5 park activities on small pieces of paper (e.g., 'swinging', 'riding a bicycle', 'flying a kite', 'running', 'reading a book').",
+   "2. Fold the papers and put them in a hat or bag.",
+   "3. One student from a group picks a paper, reads it, and acts out the activity without speaking.",
+   "4. Their group guesses the activity. If they guess correctly within 30 seconds, they get a point.",
+   "5. The next group takes a turn. The group with the most points wins!"
+  ],
+  "steps_vi": [
+   "1. Mỗi nhóm viết 5 hoạt động ở công viên lên các mảnh giấy nhỏ (ví dụ: 'đang đu xích đu', 'đang đi xe đạp', 'đang thả diều', 'đang chạy', 'đang đọc sách').",
+   "2. Gấp các mảnh giấy lại và cho vào mũ hoặc túi.",
+   "3. Một học sinh từ một nhóm chọn một mảnh giấy, đọc nó và diễn tả hoạt động đó mà không nói.",
+   "4. Nhóm của họ đoán hoạt động đó. Nếu đoán đúng trong vòng 30 giây, họ được một điểm.",
+   "5. Nhóm tiếp theo sẽ đến lượt. Nhóm nào có nhiều điểm nhất sẽ thắng!"
+  ],
+  "language": [
+   "What are you doing?",
+   "Are you (running)?",
+   "Yes, I am.",
+   "No, I'm not. I'm (jumping).",
+   "He/She is (playing)."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "p__k",
+    "answer": "park"
+   },
+   {
+    "word": "sl__e",
+    "answer": "slide"
+   },
+   {
+    "word": "sw__g",
+    "answer": "swing"
+   },
+   {
+    "word": "b__ch",
+    "answer": "bench"
+   },
+   {
+    "word": "tr__",
+    "answer": "tree"
+   },
+   {
+    "word": "fl__er",
+    "answer": "flower"
+   },
+   {
+    "word": "gr__s",
+    "answer": "grass"
+   },
+   {
+    "word": "p__d",
+    "answer": "pond"
+   },
+   {
+    "word": "k__e",
+    "answer": "kite"
+   },
+   {
+    "word": "b__cycle",
+    "answer": "bicycle"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "Look! The children ______ on the slide.",
+    "options": [
+     "is playing",
+     "are playing",
+     "play"
+    ],
+    "answer": "are playing"
+   },
+   {
+    "q": "This is a big ______.",
+    "options": [
+     "park",
+     "parks",
+     "parked"
+    ],
+    "answer": "park"
+   },
+   {
+    "q": "I ______ run fast.",
+    "options": [
+     "am",
+     "can",
+     "has"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "She ______ got a new kite.",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ],
+    "answer": "has"
+   },
+   {
+    "q": "There ______ many trees in the park.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "What ______ you doing?",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "The bird ______ fly in the sky.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "Let's ______ to the park!",
+    "options": [
+     "go",
+     "going",
+     "goes"
+    ],
+    "answer": "go"
+   },
+   {
+    "q": "They ______ happy at the park every day.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "My mom is ______ on the bench.",
+    "options": [
+     "sit",
+     "sits",
+     "sitting"
+    ],
+    "answer": "sitting"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / park / a",
+    "answer": "This is a park."
+   },
+   {
+    "words": "are / playing / We / park / the / in",
+    "answer": "We are playing in the park."
+   },
+   {
+    "words": "can / I / high / swing",
+    "answer": "I can swing high."
+   },
+   {
+    "words": "got / has / kite / a / He",
+    "answer": "He has got a kite."
+   },
+   {
+    "words": "is / Where / slide / the",
+    "answer": "Where is the slide?"
+   },
+   {
+    "words": "many / There / flowers / are",
+    "answer": "There are many flowers."
+   },
+   {
+    "words": "Let's / run / grass / the / in",
+    "answer": "Let's run in the grass."
+   },
+   {
+    "words": "bench / is / a / This",
+    "answer": "This is a bench."
+   },
+   {
+    "words": "riding / is / bicycle / She / a",
+    "answer": "She is riding a bicycle."
+   },
+   {
+    "words": "I / love / park / my",
+    "answer": "I love my park."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "Do you like going to the park?",
+   "What is your favorite thing at the park?",
+   "Can you ride a bicycle?",
+   "What colors of flowers do you like?",
+   "Who do you go to the park with?",
+   "What are you doing now?",
+   "Do you have got a kite?",
+   "What makes you happy at the park?"
+  ]
+ },
+ "i_can": [
+  "I can say park words in English.",
+  "I can use 'This is' and 'There is/are' to describe the park.",
+  "I can talk about actions happening now using present continuous.",
+  "I can use 'can' and 'can't' to talk about abilities.",
+  "I can use 'have got' and 'has got' to talk about possessions.",
+  "I can ask and answer simple 'What' and 'Where' questions about the park.",
+  "I can understand and follow a short story about the park.",
+  "I can talk about my favorite park activities.",
+  "I can have a simple conversation about going to the park.",
+  "I can listen and understand information about park activities.",
+  "I can write sentences about my day at the park.",
+  "I can identify 'P p' sound and words.",
+  "I can participate in a park-themed classroom game.",
+  "I can share playground equipment and be kind at the park.",
+  "I can create a poster about my dream park."
+ ],
+ "message_en": "THE PARK IS A PLACE TO PLAY, TO EXPLORE, AND TO ENJOY NATURE.",
+ "message_vi": "CÔNG VIÊN LÀ NƠI ĐỂ CHƠI ĐÙA, KHÁM PHÁ VÀ TẬN HƯỞNG THIÊN NHIÊN.",
+ "message_body": "Going to the park is a wonderful adventure! It's where we can run free, see beautiful flowers, and play with our friends. Remember to always be safe, be kind to everyone, and take care of our precious green spaces. Every visit to the park brings new joy and discovery!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 9,
+ "grade": 3,
+ "validation": []
+}

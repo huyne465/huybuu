@@ -1,0 +1,1173 @@
+{
+ "title": "Me and My Friends",
+ "theme": "Friendship",
+ "goal": "Students can talk about themselves and their friends, describe what friends do together, and express feelings about friendship.",
+ "goal_vi": "Học sinh có thể nói về bản thân và bạn bè, mô tả những gì bạn bè làm cùng nhau, và bày tỏ cảm xúc về tình bạn.",
+ "cover_emoji": "🧑‍🤝‍🧑👭👬",
+ "cover_image_prompt": "A diverse group of cheerful 8-year-old Vietnamese children laughing and playing together in a sunny park, some holding hands, others sharing a toy, showing strong friendship. No text.",
+ "big_question": {
+  "en": "What makes a good friend?",
+  "vi": "Điều gì tạo nên một người bạn tốt?",
+  "prompts": [
+   "Who is your best friend?",
+   "What do you like to do with your friends?",
+   "Do you share your toys with friends?",
+   "Do you help your friends?",
+   "What do your friends look like?",
+   "How do you feel when you play with friends?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "friend",
+   "ipa": "/frɛnd/",
+   "vi": "bạn bè",
+   "emoji": "🧑‍🤝‍🧑",
+   "image_prompt": "two happy children holding hands"
+  },
+  {
+   "en": "kind",
+   "ipa": "/kaɪnd/",
+   "vi": "tốt bụng",
+   "emoji": "❤️",
+   "image_prompt": "a child sharing their snack with another child"
+  },
+  {
+   "en": "happy",
+   "ipa": "/ˈhæpi/",
+   "vi": "vui vẻ",
+   "emoji": "😄",
+   "image_prompt": "a child jumping with joy"
+  },
+  {
+   "en": "share",
+   "ipa": "/ʃɛr/",
+   "vi": "chia sẻ",
+   "emoji": "🎁",
+   "image_prompt": "two children sharing a toy car"
+  },
+  {
+   "en": "play together",
+   "ipa": "/pleɪ təˈɡɛðər/",
+   "vi": "chơi cùng nhau",
+   "emoji": "🤸‍♂️",
+   "image_prompt": "three children playing tag in a park"
+  },
+  {
+   "en": "help",
+   "ipa": "/hɛlp/",
+   "vi": "giúp đỡ",
+   "emoji": "👋",
+   "image_prompt": "a child helping another child pick up dropped books"
+  },
+  {
+   "en": "talk",
+   "ipa": "/tɔːk/",
+   "vi": "nói chuyện",
+   "emoji": "🗣️",
+   "image_prompt": "two children whispering and smiling"
+  },
+  {
+   "en": "laugh",
+   "ipa": "/læf/",
+   "vi": "cười",
+   "emoji": "😂",
+   "image_prompt": "a child with a wide open mouth, laughing heartily"
+  },
+  {
+   "en": "smile",
+   "ipa": "/smaɪl/",
+   "vi": "mỉm cười",
+   "emoji": "😊",
+   "image_prompt": "a child with a gentle, happy smile"
+  },
+  {
+   "en": "caring",
+   "ipa": "/ˈkɛrɪŋ/",
+   "vi": "quan tâm",
+   "emoji": "🤗",
+   "image_prompt": "a child putting an arm around another child who looks sad"
+  },
+  {
+   "en": "brave",
+   "ipa": "/breɪv/",
+   "vi": "dũng cảm",
+   "emoji": "💪",
+   "image_prompt": "a child confidently climbing a small rock wall"
+  },
+  {
+   "en": "honest",
+   "ipa": "/ˈɑːnɪst/",
+   "vi": "trung thực",
+   "emoji": "🤝",
+   "image_prompt": "two children shaking hands to agree on something"
+  },
+  {
+   "en": "polite",
+   "ipa": "/pəˈlaɪt/",
+   "vi": "lịch sự",
+   "emoji": "🙏",
+   "image_prompt": "a child saying 'please' with hands together"
+  },
+  {
+   "en": "listen",
+   "ipa": "/ˈlɪsən/",
+   "vi": "lắng nghe",
+   "emoji": "👂",
+   "image_prompt": "a child leaning in to listen to another child speaking"
+  },
+  {
+   "en": "trust",
+   "ipa": "/trʌst/",
+   "vi": "tin tưởng",
+   "emoji": "🔒",
+   "image_prompt": "two hands interlocking fingers"
+  },
+  {
+   "en": "hug",
+   "ipa": "/hʌɡ/",
+   "vi": "ôm",
+   "emoji": "🥰",
+   "image_prompt": "two children giving each other a warm hug"
+  },
+  {
+   "en": "fun",
+   "ipa": "/fʌn/",
+   "vi": "vui vẻ (tính từ/danh từ)",
+   "emoji": "🎉",
+   "image_prompt": "children throwing colorful confetti"
+  },
+  {
+   "en": "different",
+   "ipa": "/ˈdɪfrənt/",
+   "vi": "khác biệt",
+   "emoji": "↔️",
+   "image_prompt": "two children with different hair colors and clothes, smiling together"
+  },
+  {
+   "en": "best friend",
+   "ipa": "/bɛst frɛnd/",
+   "vi": "bạn thân nhất",
+   "emoji": "💖",
+   "image_prompt": "two children with their arms around each other, very close"
+  },
+  {
+   "en": "always",
+   "ipa": "/ˈɔːlweɪz/",
+   "vi": "luôn luôn",
+   "emoji": "♾️",
+   "image_prompt": "a circle with a continuous arrow, showing repetition"
+  }
+ ],
+ "phonics": {
+  "sound": "/f/",
+  "letters": "f, ph",
+  "words": [
+   "friend",
+   "fun",
+   "fish",
+   "family",
+   "phone",
+   "photo"
+  ],
+  "chant": "Friends are fun, fun, fun, / We play and run, run, run.",
+  "tip_vi": "Khi phát âm âm /f/, môi dưới của bạn chạm nhẹ vào răng trên và bạn thổi hơi ra."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my friend, [Name].",
+   "vi": "Đây là bạn của em, [Tên].",
+   "examples": [
+    "This is my friend, Linh. She is kind.",
+    "This is my friend, Ben. We play together.",
+    "This is my friend, Mai. She has got a big smile."
+   ]
+  },
+  {
+   "pattern": "My friend is + adjective.",
+   "vi": "Bạn của em thì + tính từ.",
+   "examples": [
+    "My friend is kind.",
+    "My friend is happy.",
+    "My friend is brave."
+   ]
+  },
+  {
+   "pattern": "We + verb + together.",
+   "vi": "Chúng em + động từ + cùng nhau.",
+   "examples": [
+    "We play together.",
+    "We laugh together.",
+    "We share toys together."
+   ]
+  },
+  {
+   "pattern": "I feel + adjective + with my friends.",
+   "vi": "Em cảm thấy + tính từ + khi ở bên bạn bè.",
+   "examples": [
+    "I feel happy with my friends.",
+    "I feel safe with my friends.",
+    "I feel fun with my friends."
+   ]
+  },
+  {
+   "pattern": "My friend can + verb.",
+   "vi": "Bạn của em có thể + động từ.",
+   "examples": [
+    "My friend can run fast.",
+    "My friend can draw well.",
+    "My friend can sing a song."
+   ]
+  },
+  {
+   "pattern": "My friend has got + noun phrase.",
+   "vi": "Bạn của em có + cụm danh từ.",
+   "examples": [
+    "My friend has got long hair.",
+    "My friend has got a red backpack.",
+    "My friend has got a happy face."
+   ]
+  },
+  {
+   "pattern": "My friends are + verb-ing + now.",
+   "vi": "Các bạn của em đang + động từ-ing + bây giờ.",
+   "examples": [
+    "My friends are playing soccer now.",
+    "My friends are talking now.",
+    "My friends are laughing now."
+   ]
+  },
+  {
+   "pattern": "What do you + verb + with your friends?",
+   "vi": "Bạn + động từ + gì với bạn bè?",
+   "examples": [
+    "What do you do with your friends?",
+    "What do you talk about with your friends?",
+    "What do you play with your friends?"
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Present Simple: Actions with friends",
+   "explain_en": "We use the present simple to talk about things we usually do with our friends.",
+   "explain_vi": "Chúng ta dùng thì hiện tại đơn để nói về những điều chúng ta thường làm với bạn bè.",
+   "examples": [
+    "I play with my friends every day.",
+    "My friend helps me with my homework.",
+    "We always laugh together."
+   ],
+   "right": "✅ My friends share toys.",
+   "wrong": "❌ My friends sharing toys."
+  },
+  {
+   "title": "Present Continuous: What friends are doing now",
+   "explain_en": "We use the present continuous to talk about actions happening right now.",
+   "explain_vi": "Chúng ta dùng thì hiện tại tiếp diễn để nói về các hành động đang xảy ra ngay bây giờ.",
+   "examples": [
+    "My friend is drawing a picture now.",
+    "We are talking about our day.",
+    "They are laughing loudly."
+   ],
+   "right": "✅ My friends are playing in the park.",
+   "wrong": "❌ My friends play in the park now."
+  },
+  {
+   "title": "Can / Can't: Abilities of friends",
+   "explain_en": "We use 'can' to say what someone is able to do, and 'can't' for what they are not able to do.",
+   "explain_vi": "Chúng ta dùng 'can' để nói ai đó có thể làm gì, và 'can't' để nói họ không thể làm gì.",
+   "examples": [
+    "My friend can sing well.",
+    "I can't swim very fast.",
+    "Can you help me?"
+   ],
+   "right": "✅ My friend can speak English.",
+   "wrong": "❌ My friend cans speak English."
+  },
+  {
+   "title": "Have got / Has got: Describing friends",
+   "explain_en": "We use 'have got' or 'has got' to talk about what someone owns or to describe their appearance.",
+   "explain_vi": "Chúng ta dùng 'have got' hoặc 'has got' để nói về những gì ai đó sở hữu hoặc mô tả ngoại hình của họ.",
+   "examples": [
+    "I have got a new friend.",
+    "She has got long black hair.",
+    "They have got many interesting books."
+   ],
+   "right": "✅ My friend has got a big smile.",
+   "wrong": "❌ My friend have got a big smile."
+  }
+ ],
+ "song": {
+  "title": "My Happy Friends",
+  "tune": "Sing to the tune of 'Row, Row, Row Your Boat'",
+  "lines": [
+   "Friends, friends, happy friends,",
+   "Playing all day long.",
+   "Sharing toys and stories,",
+   "Singing a happy song.",
+   "Friends, friends, helpful friends,",
+   "Always by my side.",
+   "Laughing, talking, learning,",
+   "With friends, I feel so proud."
+  ],
+  "actions_vi": "Hát và làm theo động tác: 'Friends, friends' – chỉ vào bạn bè; 'happy friends' – cười; 'Playing all day long' – giả vờ chơi; 'Sharing toys' – làm động tác chia sẻ; 'Singing a happy song' – giả vờ hát; 'helpful friends' – giơ ngón cái; 'Always by my side' – ôm ngực; 'Laughing, talking, learning' – cười, nói, đọc sách; 'feel so proud' – vỗ tay."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Best Friend, Linh",
+   "text": "My name is Mai. I am eight years old. I have a best friend. Her name is Linh. Linh is eight years old too. She has got short black hair and a happy smile. Linh is very kind. She always shares her toys with me. We play together every day after school. We like to draw pictures and tell stories. Linh can run very fast! I can't run as fast as her, but she always waits for me. We laugh a lot. I feel so happy with Linh. She is my best friend!",
+   "image_prompt": "Mai and Linh, two 8-year-old Vietnamese girls, sitting on the grass, drawing pictures together and smiling. They are sharing colored pencils. Sunny day.",
+   "vocab": [
+    {
+     "en": "best friend",
+     "ipa": "/bɛst frɛnd/",
+     "vi": "bạn thân nhất"
+    },
+    {
+     "en": "short hair",
+     "ipa": "/ʃɔːrt hɛr/",
+     "vi": "tóc ngắn"
+    },
+    {
+     "en": "happy smile",
+     "ipa": "/ˈhæpi smaɪl/",
+     "vi": "nụ cười vui vẻ"
+    },
+    {
+     "en": "kind",
+     "ipa": "/kaɪnd/",
+     "vi": "tốt bụng"
+    },
+    {
+     "en": "shares",
+     "ipa": "/ʃɛrz/",
+     "vi": "chia sẻ"
+    },
+    {
+     "en": "play together",
+     "ipa": "/pleɪ təˈɡɛðər/",
+     "vi": "chơi cùng nhau"
+    },
+    {
+     "en": "after school",
+     "ipa": "/ˈæftər skuːl/",
+     "vi": "sau giờ học"
+    },
+    {
+     "en": "draw pictures",
+     "ipa": "/drɔː ˈpɪktʃərz/",
+     "vi": "vẽ tranh"
+    },
+    {
+     "en": "tell stories",
+     "ipa": "/tɛl ˈstɔːriz/",
+     "vi": "kể chuyện"
+    },
+    {
+     "en": "laugh a lot",
+     "ipa": "/læf ə lɑːt/",
+     "vi": "cười nhiều"
+    }
+   ],
+   "questions": [
+    "What is the girl's name in the story?",
+    "How old is Mai?",
+    "What is Mai's best friend's name?",
+    "How old is Linh?",
+    "What does Linh look like? (hair and smile)",
+    "What kind of person is Linh?",
+    "What does Linh always do with Mai?",
+    "When do they play together?",
+    "What do they like to do? (two things)",
+    "How does Mai feel with Linh?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh has got long black hair.",
+     "answer": false
+    },
+    {
+     "statement": "Linh is very kind.",
+     "answer": true
+    },
+    {
+     "statement": "Mai and Linh draw pictures together.",
+     "answer": true
+    },
+    {
+     "statement": "Mai can run faster than Linh.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "Our Friendship Garden",
+   "text": "My name is Nam. I have many friends at school. We are like a big family. Every Tuesday, we meet in the school garden. It's our special 'Friendship Garden.' We are not just playing; we are working together! Today, my friend Minh is watering the flowers. He is very careful. My friend An is picking up fallen leaves. She is always helpful. I am digging a small hole for a new plant. We are laughing and talking while we work. Sometimes, we sing songs. We all help each other. If someone needs help, we always ask, 'Can I help you?' We make the garden beautiful. We learn to be caring and responsible friends. Our friendship is growing, just like the plants in our garden.",
+   "image_prompt": "A group of cheerful 8-year-old Vietnamese children, both boys and girls, working together in a sunny school garden. One child is watering plants, another is raking leaves, and another is digging. They are smiling and interacting.",
+   "vocab": [
+    {
+     "en": "many friends",
+     "ipa": "/ˈmɛni frɛndz/",
+     "vi": "nhiều bạn bè"
+    },
+    {
+     "en": "big family",
+     "ipa": "/bɪɡ ˈfæməli/",
+     "vi": "gia đình lớn"
+    },
+    {
+     "en": "special",
+     "ipa": "/ˈspɛʃəl/",
+     "vi": "đặc biệt"
+    },
+    {
+     "en": "working together",
+     "ipa": "/ˈwɜːrkɪŋ təˈɡɛðər/",
+     "vi": "làm việc cùng nhau"
+    },
+    {
+     "en": "watering",
+     "ipa": "/ˈwɑːtərɪŋ/",
+     "vi": "tưới nước"
+    },
+    {
+     "en": "careful",
+     "ipa": "/ˈkɛrfl/",
+     "vi": "cẩn thận"
+    },
+    {
+     "en": "picking up",
+     "ipa": "/ˈpɪkɪŋ ʌp/",
+     "vi": "nhặt lên"
+    },
+    {
+     "en": "helpful",
+     "ipa": "/ˈhɛlpfl/",
+     "vi": "hay giúp đỡ"
+    },
+    {
+     "en": "digging",
+     "ipa": "/ˈdɪɡɪŋ/",
+     "vi": "đào"
+    },
+    {
+     "en": "responsible",
+     "ipa": "/rɪˈspɑːnsəbl/",
+     "vi": "có trách nhiệm"
+    }
+   ],
+   "questions": [
+    "What is the boy's name in the story?",
+    "How often do Nam and his friends meet in the garden?",
+    "What do they call their garden?",
+    "What is Minh doing in the garden today?",
+    "How is Minh doing his job?",
+    "What is An doing?",
+    "What kind of person is An?",
+    "What is Nam doing?",
+    "What do they do while they work? (two things)",
+    "What do they learn by working in the garden?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam has only one friend.",
+     "answer": false
+    },
+    {
+     "statement": "They meet in the garden every Monday.",
+     "answer": false
+    },
+    {
+     "statement": "Minh is picking up leaves.",
+     "answer": false
+    },
+    {
+     "statement": "An is always helpful.",
+     "answer": true
+    },
+    {
+     "statement": "Their friendship is growing.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "The New Kid, Ben",
+   "text": "This is a story about a new student, Ben. Ben moved to our town last week. He felt a little shy on his first day at Green Primary School. During playtime, he sat alone under a big tree. My friends, Hoa and Duc, and I saw him. We talked about it. Hoa said, 'He looks lonely. We should invite him to play.' Duc agreed, 'Yes, being new can be hard.'\nSo, we walked over to Ben. I smiled and said, 'Hi, Ben! My name is Mai. Do you want to play soccer with us?' Ben looked up, surprised. He smiled back and said, 'Yes, please!' He was a bit quiet at first, but he tried his best to play. He wasn't very good at soccer, but he was very brave because he kept trying. We didn't care if he was perfect; we just wanted him to feel welcome. After playing, we sat and talked. Ben told us about his old school and his favorite games. We learned that he is very honest and also very funny! Now, Ben is not shy anymore. He plays with us every day. We are happy because we have a new friend, and Ben is happy because he has new friends. Friendship makes everyone happy!",
+   "image_prompt": "A group of 8-year-old Vietnamese children, three boys and two girls, playing soccer together in a schoolyard. One new boy, Ben, is being welcomed and is smiling, even if he's not good at soccer. Other children are encouraging him. Sunny day, happy atmosphere.",
+   "vocab": [
+    {
+     "en": "new student",
+     "ipa": "/nuː ˈstuːdənt/",
+     "vi": "học sinh mới"
+    },
+    {
+     "en": "moved",
+     "ipa": "/muːvd/",
+     "vi": "chuyển đến"
+    },
+    {
+     "en": "shy",
+     "ipa": "/ʃaɪ/",
+     "vi": "nhút nhát"
+    },
+    {
+     "en": "playtime",
+     "ipa": "/ˈpleɪtaɪm/",
+     "vi": "giờ chơi"
+    },
+    {
+     "en": "sat alone",
+     "ipa": "/sæt əˈloʊn/",
+     "vi": "ngồi một mình"
+    },
+    {
+     "en": "lonely",
+     "ipa": "/ˈloʊnli/",
+     "vi": "cô đơn"
+    },
+    {
+     "en": "invite",
+     "ipa": "/ɪnˈvaɪt/",
+     "vi": "mời"
+    },
+    {
+     "en": "agreed",
+     "ipa": "/əˈɡriːd/",
+     "vi": "đồng ý"
+    },
+    {
+     "en": "surprised",
+     "ipa": "/sərˈpraɪzd/",
+     "vi": "ngạc nhiên"
+    },
+    {
+     "en": "welcome",
+     "ipa": "/ˈwɛlkəm/",
+     "vi": "chào đón"
+    }
+   ],
+   "questions": [
+    "Who is the new student in the story?",
+    "How did Ben feel on his first day?",
+    "Where did Ben sit during playtime?",
+    "Who saw Ben sitting alone?",
+    "What did Hoa say about Ben?",
+    "What did Mai invite Ben to do?",
+    "How was Ben at soccer at first?",
+    "What did Ben tell them after playing? (two things)",
+    "What did they learn about Ben? (two adjectives)",
+    "How does Ben feel now?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben moved to town last month.",
+     "answer": false
+    },
+    {
+     "statement": "Ben felt very brave on his first day.",
+     "answer": false
+    },
+    {
+     "statement": "Mai, Hoa, and Duc invited Ben to play.",
+     "answer": true
+    },
+    {
+     "statement": "Ben was very good at soccer at first.",
+     "answer": false
+    },
+    {
+     "statement": "Friendship makes everyone sad.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "The Lost Toy",
+  "panels": [
+   {
+    "scene": "Mai is sitting on a bench, looking sad. A colorful toy car is missing from her lap. Nam walks by, looking concerned. Cheerful park setting.",
+    "speech": "Mai: Oh no! My favorite toy car is gone."
+   },
+   {
+    "scene": "Nam is helping Mai look for the car. They are looking under the bench and behind a bush. Nam points to something with a hopeful expression. Sunny park setting.",
+    "speech": "Nam: Don't worry, Mai! I can help you find it. Is that it?"
+   },
+   {
+    "scene": "Mai smiles happily, holding her colorful toy car. Nam is smiling too. The car was found under a large leaf. Relief and joy on their faces.",
+    "speech": "Mai: Yes, it is! Thank you, Nam! You are so kind."
+   },
+   {
+    "scene": "Mai and Nam are playing together with the toy car, laughing. They are sitting on the grass, looking happy. Friendship in action.",
+    "speech": "Nam: Friends always help each other! Let's play together!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "Who is your best friend?",
+   "What does your best friend look like? (hair, eyes, smile)",
+   "What is your friend's favorite color?",
+   "What is your friend's favorite animal?",
+   "What do you usually do with your best friend?",
+   "Do you share your toys with your friend?",
+   "Do you help your friend when they are sad?",
+   "What makes your friend happy?",
+   "What can your friend do very well? (e.g., sing, draw, run)",
+   "What can't your friend do?",
+   "How do you feel when you play with your friends?",
+   "What are your friends doing right now? (imagine)",
+   "Do you like making new friends? Why or why not?",
+   "What is one kind thing you did for a friend recently?",
+   "What is one kind thing a friend did for you?"
+  ],
+  "model": "My best friend is An. She has got long black hair and a big, happy smile. An is very kind and funny. We always play together after school. We like to draw and tell stories. An can sing very well, but she can't play soccer. I feel very happy when I am with An. She always helps me, and I help her too. She is a wonderful friend!",
+  "challenge": "Talk about your best friend for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Meeting a New Friend",
+   "image_prompt": "Two 8-year-old Vietnamese children, a boy and a girl, standing in a school hallway. One child (Mai) is smiling and extending a hand, the other (Ben) looks a little shy but is starting to smile back. Bright and friendly atmosphere, no text.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi! Are you new here?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, I am. My name is Ben."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Nice to meet you, Ben! I'm Mai. Welcome to Green Primary School."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Thank you, Mai."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Are you feeling shy?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "A little bit. I don't know anyone yet."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Don't worry! We can be friends. I can show you around."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Really? That's very kind of you!"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Of course! Do you want to play during playtime?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, I'd love to!"
+    }
+   ]
+  },
+  {
+   "title": "Helping a Friend",
+   "image_prompt": "Two 8-year-old Vietnamese children, a boy (Nam) and a girl (Linh), sitting at a table. The girl looks a bit confused by her homework, and the boy is gently pointing to something in her book, explaining with a kind expression. Books and pencils on the table, warm lighting.",
+   "lines": [
+    {
+     "speaker": "Nam",
+     "text": "Hi, Linh! What are you doing?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Hi, Nam. I'm doing my English homework, but it's hard."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Oh, I can help you! I understand this part."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Really? That would be great! Thanks, Nam."
+    },
+    {
+     "speaker": "Nam",
+     "text": "See, this word means 'happy' in Vietnamese."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Ah, I see! You're a very good helper, Nam."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Thanks! Friends always help each other, right?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Yes, you're right. I'm so happy to have a friend like you."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Me too, Linh! Let's finish it together."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! Today, I want to talk about my friends. I have three best friends: An, Hoa, and Minh. An is a girl with long, curly hair. She is very energetic and always laughing. She loves to play tag in the park. Hoa is a quiet girl, but she is very thoughtful. She always listens carefully when I talk. She has got pretty glasses. Minh is a boy, and he is very brave. He is good at climbing trees! All my friends are very kind. We often meet after school. We are usually playing games, but sometimes we just sit and talk about our day. Right now, An and Minh are playing soccer, and Hoa is reading a book. I feel so lucky to have such wonderful friends. They make me happy every day!",
+  "questions": [
+   "How many best friends does the speaker have?",
+   "What are their names?",
+   "What does An look like? (hair)",
+   "What is An always doing?",
+   "What does An love to play?",
+   "What kind of person is Hoa?",
+   "What does Hoa have? (glasses)",
+   "What is Minh good at?",
+   "What are An and Minh doing right now?",
+   "How does the speaker feel about her friends?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "FRIEND",
+   "KIND",
+   "HAPPY",
+   "SHARE",
+   "HELP",
+   "TALK",
+   "LAUGH",
+   "BRAVE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "kind",
+     "happy",
+     "tree",
+     "brave"
+    ],
+    "answer": "tree",
+    "why_vi": "Cây là đồ vật, còn lại là tính từ mô tả người."
+   },
+   {
+    "options": [
+     "share",
+     "play",
+     "run",
+     "book"
+    ],
+    "answer": "book",
+    "why_vi": "Sách là đồ vật, còn lại là hành động."
+   },
+   {
+    "options": [
+     "talk",
+     "listen",
+     "smile",
+     "sad"
+    ],
+    "answer": "sad",
+    "why_vi": "Buồn là cảm xúc tiêu cực, còn lại là hành động hoặc cảm xúc tích cực."
+   },
+   {
+    "options": [
+     "friend",
+     "teacher",
+     "parent",
+     "toy"
+    ],
+    "answer": "toy",
+    "why_vi": "Đồ chơi là đồ vật, còn lại là người."
+   },
+   {
+    "options": [
+     "can",
+     "can't",
+     "is",
+     "happy"
+    ],
+    "answer": "happy",
+    "why_vi": "Happy là tính từ, còn lại là động từ khuyết thiếu hoặc động từ 'to be'."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am someone who always plays with you and helps you. Who am I?",
+    "answer": "A friend"
+   },
+   {
+    "riddle": "I am a feeling when you are very joyful. What am I?",
+    "answer": "Happy"
+   },
+   {
+    "riddle": "I am something you do when you give your toy to another person. What am I?",
+    "answer": "Share"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "dneirf",
+    "answer": "friend"
+   },
+   {
+    "scrambled": "pyhap",
+    "answer": "happy"
+   },
+   {
+    "scrambled": "rheas",
+    "answer": "share"
+   },
+   {
+    "scrambled": "pleh",
+    "answer": "help"
+   },
+   {
+    "scrambled": "stnile",
+    "answer": "listen"
+   },
+   {
+    "scrambled": "vabir",
+    "answer": "brave"
+   }
+  ],
+  "picture_count": {
+   "question": "How many children can you see in the cover picture?",
+   "hint_vi": "Hãy đếm số lượng trẻ em trong bức tranh bìa của bài học này."
+  }
+ },
+ "write": {
+  "profile_title": "My Friend Profile",
+  "profile_fields": [
+   "My name is:",
+   "My best friend's name is:",
+   "My friend is ___ years old.",
+   "My friend has got (hair color/length):",
+   "My friend has got (eye color):",
+   "My friend is (adjective, e.g., kind, funny):",
+   "We like to (activity) together:",
+   "My friend can (ability):",
+   "I feel (emotion) with my friend:",
+   "I always (action) for my friend:"
+  ],
+  "frame_title": "MY FRIEND",
+  "frame_lines": [
+   "My name is ____.",
+   "I have a best friend. His/Her name is ____.",
+   "He/She is ____ years old.",
+   "He/She has got ____ hair and ____ eyes.",
+   "My friend is very ____ and ____.",
+   "We always ____ together after school.",
+   "My friend can ____ very well.",
+   "I feel so ____ when I am with my friend.",
+   "We always ____ each other.",
+   "I love my friend very much!"
+  ]
+ },
+ "life_skill": {
+  "title": "BE A GOOD FRIEND",
+  "intro": "Friendship is a wonderful gift! To have good friends, we also need to be good friends. Here are some ways to be a good friend:",
+  "intro_vi": "Tình bạn là một món quà tuyệt vời! Để có những người bạn tốt, chúng ta cũng cần phải là những người bạn tốt. Dưới đây là một số cách để trở thành một người bạn tốt:",
+  "can_do": [
+   "I can share my toys.",
+   "I can help my friends.",
+   "I can listen to my friends.",
+   "I can be kind and polite.",
+   "I can say \"please\" and \"thank you.\"",
+   "I can play fairly.",
+   "I can forgive my friends.",
+   "I can say sorry.",
+   "I can encourage my friends.",
+   "I can be honest.",
+   "I can celebrate my friends' successes.",
+   "I can always be there for my friends."
+  ],
+  "value_question": "What is one thing you can do today to be a better friend?",
+  "image_prompt": "A group of diverse 8-year-old Vietnamese children showing various acts of kindness and friendship: one sharing a toy, one helping another up, two listening to each other, all smiling in a warm, inviting setting."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The longest friendship recorded lasted over 90 years!",
+   "vi": "Bạn có biết không? Tình bạn dài nhất được ghi nhận kéo dài hơn 90 năm!"
+  },
+  {
+   "en": "Did you know? Having friends can make you feel happier and healthier.",
+   "vi": "Bạn có biết không? Có bạn bè có thể khiến bạn cảm thấy vui vẻ và khỏe mạnh hơn."
+  },
+  {
+   "en": "Did you know? Animals can also have best friends, just like humans!",
+   "vi": "Bạn có biết không? Động vật cũng có thể có bạn thân, giống như con người!"
+  },
+  {
+   "en": "Did you know? Smiling is contagious! When you smile, your friends are more likely to smile back.",
+   "vi": "Bạn có biết không? Nụ cười có tính lây lan! Khi bạn cười, bạn bè của bạn cũng có nhiều khả năng cười lại."
+  },
+  {
+   "en": "Did you know? Good friends celebrate your victories and comfort you when you are sad.",
+   "vi": "Bạn có biết không? Những người bạn tốt sẽ ăn mừng chiến thắng của bạn và an ủi bạn khi bạn buồn."
+  }
+ ],
+ "project": {
+  "title": "MY FRIENDSHIP BOOKLET",
+  "task": "Create a small booklet about your friends and what you do together.",
+  "draw_items": [
+   "A picture of my best friend.",
+   "A picture of us playing together.",
+   "A picture of us sharing something.",
+   "A picture of us laughing.",
+   "A picture of us helping each other.",
+   "A picture of us talking.",
+   "A picture of us smiling.",
+   "A picture of what makes my friend special."
+  ],
+  "example": "Hello! This is my friend, Linh. She has got long hair. We always play games. We share our snacks. Linh is very kind. We laugh a lot together. I love my friend!",
+  "present": "Hello everyone! This is my Friendship Booklet. This is my friend [Name]. We [activity] together. He/She is [adjective]. I like my friend because...",
+  "image_prompt": "A child proudly presenting a small, handmade booklet with colorful drawings and simple sentences about their friends. The child is smiling and standing in front of a small group of classmates who are listening attentively. Cheerful classroom setting."
+ },
+ "classroom_game": {
+  "name": "Friendship Web",
+  "players": "whole class",
+  "steps_en": [
+   "The teacher stands in the middle of the circle, holding a ball of yarn.",
+   "The teacher says, \"My friend [Name] is kind.\" and holds onto the end of the yarn, then gently throws the ball to that friend.",
+   "The friend catches the yarn, says, \"My friend [Another Name] can run fast,\" holds onto the yarn, and throws it to the next friend.",
+   "Continue until everyone has held the yarn and said something about a friend. A \"friendship web\" will form!",
+   "When finished, talk about how everyone is connected."
+  ],
+  "steps_vi": [
+   "Giáo viên đứng giữa vòng tròn, cầm một cuộn len.",
+   "Giáo viên nói, \"Bạn [Tên] của em rất tốt bụng.\" và giữ lấy đầu sợi len, sau đó nhẹ nhàng ném cuộn len cho bạn đó.",
+   "Bạn đó bắt lấy len, nói, \"Bạn [Tên khác] của em có thể chạy nhanh.\", giữ lấy sợi len, và ném cho bạn tiếp theo.",
+   "Tiếp tục cho đến khi mọi người đều đã cầm sợi len và nói điều gì đó về một người bạn. Một \"mạng lưới tình bạn\" sẽ hình thành!",
+   "Khi kết thúc, hãy nói về cách mọi người được kết nối với nhau."
+  ],
+  "language": [
+   "My friend [Name] is [adjective].",
+   "My friend [Name] can [verb].",
+   "I like my friend because he/she [verb/is adjective]."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "fr__nd",
+    "answer": "friend"
+   },
+   {
+    "word": "k__nd",
+    "answer": "kind"
+   },
+   {
+    "word": "h__ppy",
+    "answer": "happy"
+   },
+   {
+    "word": "sh__re",
+    "answer": "share"
+   },
+   {
+    "word": "h__lp",
+    "answer": "help"
+   },
+   {
+    "word": "t__lk",
+    "answer": "talk"
+   },
+   {
+    "word": "l__gh",
+    "answer": "laugh"
+   },
+   {
+    "word": "sm__le",
+    "answer": "smile"
+   },
+   {
+    "word": "c__r__ng",
+    "answer": "caring"
+   },
+   {
+    "word": "br__ve",
+    "answer": "brave"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "My best friend ____ Linh.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "We ____ together every day.",
+    "options": [
+     "play",
+     "plays",
+     "playing"
+    ],
+    "answer": "play"
+   },
+   {
+    "q": "She ____ got long hair.",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ],
+    "answer": "has"
+   },
+   {
+    "q": "My friends ____ laughing right now.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "He ____ share his toys.",
+    "options": [
+     "can",
+     "can't",
+     "cans"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "Do you ____ your friends?",
+    "options": [
+     "helps",
+     "help",
+     "helping"
+    ],
+    "answer": "help"
+   },
+   {
+    "q": "They are ____ in the park.",
+    "options": [
+     "play",
+     "plays",
+     "playing"
+    ],
+    "answer": "playing"
+   },
+   {
+    "q": "I feel ____ with my friends.",
+    "options": [
+     "sad",
+     "happy",
+     "angry"
+    ],
+    "answer": "happy"
+   },
+   {
+    "q": "She is very ____. She always helps everyone.",
+    "options": [
+     "brave",
+     "kind",
+     "shy"
+    ],
+    "answer": "kind"
+   },
+   {
+    "q": "What ____ you do with your friends?",
+    "options": [
+     "do",
+     "does",
+     "is"
+    ],
+    "answer": "do"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / My / friend / kind.",
+    "answer": "My friend is kind."
+   },
+   {
+    "words": "play / We / together / always.",
+    "answer": "We always play together."
+   },
+   {
+    "words": "has / friend / My / got / smile / a / happy.",
+    "answer": "My friend has got a happy smile."
+   },
+   {
+    "words": "are / now / They / talking.",
+    "answer": "They are talking now."
+   },
+   {
+    "words": "run / can / fast / My / friend.",
+    "answer": "My friend can run fast."
+   },
+   {
+    "words": "you / your / Do / friends / help?",
+    "answer": "Do you help your friends?"
+   },
+   {
+    "words": "a / new / I / friend / have / got.",
+    "answer": "I have got a new friend."
+   },
+   {
+    "words": "are / playing / The / children / outside.",
+    "answer": "The children are playing outside."
+   },
+   {
+    "words": "is / He / because / shy / new / he / is.",
+    "answer": "He is shy because he is new."
+   },
+   {
+    "words": "a / good / friend / Be.",
+    "answer": "Be a good friend."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "Do you have a best friend? What is his/her name?",
+   "What do you like to do with your best friend?",
+   "Is your friend kind?",
+   "Can you help your friends?",
+   "What makes you happy?",
+   "Do you share your toys?",
+   "What are you doing now?",
+   "What is one thing you can do to be a good friend?"
+  ]
+ },
+ "i_can": [
+  "I can say words about friends in English.",
+  "I can describe my friends using adjectives.",
+  "I can talk about what I do with my friends.",
+  "I can use \"This is my friend...\" to introduce someone.",
+  "I can use \"My friend has got...\" to describe a friend.",
+  "I can use \"can\" and \"can't\" to talk about abilities.",
+  "I can use the present simple for daily activities with friends.",
+  "I can use the present continuous for actions happening now.",
+  "I can ask simple questions about friends.",
+  "I can read and understand stories about friendship.",
+  "I can talk about my best friend for 30 seconds.",
+  "I can write simple sentences about my friends.",
+  "I can identify ways to be a good friend.",
+  "I can participate in a friendship game.",
+  "I can understand that friendship makes me happy."
+ ],
+ "message_en": "FRIENDSHIP MAKES OUR LIVES RICHER, HAPPIER, AND FULL OF ADVENTURES.",
+ "message_vi": "TÌNH BẠN LÀM CHO CUỘC SỐNG CỦA CHÚNG TA PHONG PHÚ HƠN, VUI VẺ HƠN VÀ ĐẦY NHỮNG CUỘC PHIÊU LƯU.",
+ "message_body": "Friends are like stars, always there to light up our way. Let's cherish our friends, make new ones, and always be kind and helpful. Together, we can make every day an amazing adventure!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 1,
+ "grade": 3,
+ "validation": []
+}

@@ -1,0 +1,1185 @@
+{
+ "title": "Animals at the Zoo",
+ "theme": "Animals",
+ "goal": "Students can identify common zoo animals, describe them using simple adjectives, and talk about what they can do.",
+ "goal_vi": "Học sinh có thể nhận biết các loài động vật phổ biến ở sở thú, mô tả chúng bằng các tính từ đơn giản và nói về những gì chúng có thể làm.",
+ "cover_emoji": "🐘🦁🐒🦒",
+ "cover_image_prompt": "A cheerful, wide scene of a group of diverse children and their teacher visiting a lively zoo, looking at various animals like elephants, lions, and giraffes in their enclosures, with green trees and blue sky.",
+ "big_question": {
+  "en": "What animals do you like at the zoo?",
+  "vi": "Em thích con vật nào ở sở thú?",
+  "prompts": [
+   "What is your favorite animal?",
+   "Do you like to go to the zoo?",
+   "What animals can you see at the zoo?",
+   "Are animals big or small?",
+   "What sound does a lion make?",
+   "Can animals run and jump?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "zoo",
+   "ipa": "/ˈzuː/",
+   "vi": "sở thú",
+   "emoji": "🦁",
+   "image_prompt": "A big sign that says 'ZOO' at the entrance, with some animal shapes visible behind it."
+  },
+  {
+   "en": "animal",
+   "ipa": "/ˈænɪməl/",
+   "vi": "động vật",
+   "emoji": "🐾",
+   "image_prompt": "A collection of various cute, stylized animals like a lion, monkey, and elephant together."
+  },
+  {
+   "en": "elephant",
+   "ipa": "/ˈɛlɪfənt/",
+   "vi": "con voi",
+   "emoji": "🐘",
+   "image_prompt": "A friendly cartoon elephant with a long trunk and big ears, standing happily."
+  },
+  {
+   "en": "lion",
+   "ipa": "/ˈlaɪən/",
+   "vi": "con sư tử",
+   "emoji": "🦁",
+   "image_prompt": "A majestic but friendly cartoon lion with a big mane, smiling."
+  },
+  {
+   "en": "monkey",
+   "ipa": "/ˈmʌŋki/",
+   "vi": "con khỉ",
+   "emoji": "🐒",
+   "image_prompt": "A playful cartoon monkey swinging from a tree branch, holding a banana."
+  },
+  {
+   "en": "giraffe",
+   "ipa": "/dʒɪˈræf/",
+   "vi": "con hươu cao cổ",
+   "emoji": "🦒",
+   "image_prompt": "A tall and gentle cartoon giraffe with a long neck, eating leaves from a tree."
+  },
+  {
+   "en": "tiger",
+   "ipa": "/ˈtaɪɡər/",
+   "vi": "con hổ",
+   "emoji": "🐅",
+   "image_prompt": "A strong cartoon tiger with orange and black stripes, looking alert."
+  },
+  {
+   "en": "zebra",
+   "ipa": "/ˈziːbrə/",
+   "vi": "con ngựa vằn",
+   "emoji": "🦓",
+   "image_prompt": "A friendly cartoon zebra with black and white stripes, standing in a field."
+  },
+  {
+   "en": "bear",
+   "ipa": "/ˈbɛr/",
+   "vi": "con gấu",
+   "emoji": "🐻",
+   "image_prompt": "A cute cartoon brown bear, sitting and looking curious."
+  },
+  {
+   "en": "hippo",
+   "ipa": "/ˈhɪpoʊ/",
+   "vi": "con hà mã",
+   "emoji": "🦛",
+   "image_prompt": "A large cartoon hippo partially submerged in water, looking happy."
+  },
+  {
+   "en": "snake",
+   "ipa": "/ˈsneɪk/",
+   "vi": "con rắn",
+   "emoji": "🐍",
+   "image_prompt": "A green cartoon snake coiled up, with a friendly expression."
+  },
+  {
+   "en": "bird",
+   "ipa": "/ˈbɜːrd/",
+   "vi": "con chim",
+   "emoji": "🐦",
+   "image_prompt": "A small, colorful cartoon bird perched on a branch, singing."
+  },
+  {
+   "en": "fish",
+   "ipa": "/ˈfɪʃ/",
+   "vi": "con cá",
+   "emoji": "🐠",
+   "image_prompt": "A happy cartoon fish swimming in blue water with bubbles."
+  },
+  {
+   "en": "run",
+   "ipa": "/ˈrʌn/",
+   "vi": "chạy",
+   "emoji": "🏃",
+   "image_prompt": "A cartoon child with a joyful expression, running quickly."
+  },
+  {
+   "en": "jump",
+   "ipa": "/ˈdʒʌmp/",
+   "vi": "nhảy",
+   "emoji": "🤸",
+   "image_prompt": "A cartoon child mid-air, jumping happily with arms up."
+  },
+  {
+   "en": "swim",
+   "ipa": "/ˈswɪm/",
+   "vi": "bơi",
+   "emoji": "🏊",
+   "image_prompt": "A cartoon child with goggles, swimming gracefully in clear water."
+  },
+  {
+   "en": "eat",
+   "ipa": "/ˈiːt/",
+   "vi": "ăn",
+   "emoji": "🍎",
+   "image_prompt": "A cartoon child happily eating an apple, with a bite taken out."
+  },
+  {
+   "en": "big",
+   "ipa": "/ˈbɪɡ/",
+   "vi": "to, lớn",
+   "emoji": "🐘",
+   "image_prompt": "A very large cartoon elephant standing next to a very small cartoon mouse, showing size difference."
+  },
+  {
+   "en": "small",
+   "ipa": "/ˈsmɔːl/",
+   "vi": "nhỏ",
+   "emoji": "🐭",
+   "image_prompt": "A very small cartoon mouse standing next to a very large cartoon elephant, showing size difference."
+  },
+  {
+   "en": "tall",
+   "ipa": "/ˈtɔːl/",
+   "vi": "cao",
+   "emoji": "🦒",
+   "image_prompt": "A cartoon giraffe with a very long neck, stretching up high to eat leaves."
+  }
+ ],
+ "phonics": {
+  "sound": "/z/",
+  "letters": "z",
+  "words": [
+   "zoo",
+   "zebra",
+   "zigzag",
+   "zero",
+   "zip",
+   "buzz"
+  ],
+  "chant": "Zebra, zebra at the zoo,\nZigzag stripes, me and you!",
+  "tip_vi": "Khi phát âm âm /z/, hãy đặt lưỡi giống như khi phát âm /s/, nhưng rung dây thanh quản. Giống như tiếng ong kêu."
+ },
+ "patterns": [
+  {
+   "pattern": "This is a/an + animal.",
+   "vi": "Đây là một con + [tên con vật].",
+   "examples": [
+    "This is a lion.",
+    "This is an elephant.",
+    "This is a monkey."
+   ]
+  },
+  {
+   "pattern": "It is + adjective.",
+   "vi": "Nó + [tính từ].",
+   "examples": [
+    "It is big.",
+    "It is tall.",
+    "It is small."
+   ]
+  },
+  {
+   "pattern": "It can + action verb.",
+   "vi": "Nó có thể + [hành động].",
+   "examples": [
+    "It can run.",
+    "It can jump.",
+    "It can swim."
+   ]
+  },
+  {
+   "pattern": "What is this?",
+   "vi": "Đây là con gì?",
+   "examples": [
+    "What is this? It is a tiger.",
+    "What is this? It is a zebra.",
+    "What is this? It is a bear."
+   ]
+  },
+  {
+   "pattern": "Do you like + animal?",
+   "vi": "Bạn có thích + [tên con vật] không?",
+   "examples": [
+    "Do you like elephants? Yes, I do.",
+    "Do you like snakes? No, I don't.",
+    "Do you like monkeys? Yes, I do."
+   ]
+  },
+  {
+   "pattern": "They are + animals.",
+   "vi": "Chúng là những con + [tên con vật].",
+   "examples": [
+    "They are lions.",
+    "They are elephants.",
+    "They are monkeys."
+   ]
+  },
+  {
+   "pattern": "It eats + food.",
+   "vi": "Nó ăn + [thức ăn].",
+   "examples": [
+    "It eats grass.",
+    "It eats bananas.",
+    "It eats meat."
+   ]
+  },
+  {
+   "pattern": "Look at the + animal!",
+   "vi": "Nhìn con + [tên con vật] kìa!",
+   "examples": [
+    "Look at the giraffe! It is tall.",
+    "Look at the hippo! It can swim.",
+    "Look at the bird! It can fly."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "We use 'This is' for one animal. We use 'These are' for many animals.",
+   "explain_vi": "Chúng ta dùng 'This is' cho một con vật. Chúng ta dùng 'These are' cho nhiều con vật.",
+   "examples": [
+    "This is a lion.",
+    "These are two lions.",
+    "This is an elephant.",
+    "These are three elephants."
+   ],
+   "right": "✅ This is a monkey.",
+   "wrong": "❌ This are a monkey."
+  },
+  {
+   "title": "It is / They are",
+   "explain_en": "We use 'It is' to describe one animal. We use 'They are' to describe many animals.",
+   "explain_vi": "Chúng ta dùng 'It is' để mô tả một con vật. Chúng ta dùng 'They are' để mô tả nhiều con vật.",
+   "examples": [
+    "It is big.",
+    "They are big.",
+    "It is small.",
+    "They are small."
+   ],
+   "right": "✅ It is a big elephant.",
+   "wrong": "❌ They is big elephants."
+  },
+  {
+   "title": "It can / It cannot (can't)",
+   "explain_en": "We use 'can' for things animals do. We use 'cannot' or 'can't' for things animals do not do.",
+   "explain_vi": "Chúng ta dùng 'can' cho những điều con vật có thể làm. Chúng ta dùng 'cannot' hoặc 'can't' cho những điều con vật không thể làm.",
+   "examples": [
+    "A bird can fly.",
+    "A fish can swim.",
+    "A snake can't jump.",
+    "An elephant can't climb a tree."
+   ],
+   "right": "✅ A monkey can jump.",
+   "wrong": "❌ A monkey can jumping."
+  },
+  {
+   "title": "A / An",
+   "explain_en": "We use 'a' before words starting with consonant sounds (b, c, d...). We use 'an' before words starting with vowel sounds (a, e, i, o, u...).",
+   "explain_vi": "Chúng ta dùng 'a' trước các từ bắt đầu bằng phụ âm. Chúng ta dùng 'an' trước các từ bắt đầu bằng nguyên âm.",
+   "examples": [
+    "a tiger",
+    "an elephant",
+    "a monkey",
+    "an animal"
+   ],
+   "right": "✅ an apple",
+   "wrong": "❌ a apple"
+  }
+ ],
+ "song": {
+  "title": "Animals at the Zoo",
+  "tune": "Sing to the tune of 'Old MacDonald Had a Farm'",
+  "lines": [
+   "At the zoo, I see a lion,",
+   "Roar, roar, roar, goes the lion.",
+   "Roar, roar, here, and roar, roar, there,",
+   "Here a roar, there a roar, everywhere a roar, roar.",
+   "At the zoo, I see a lion, oh!",
+   "",
+   "At the zoo, I see a monkey,",
+   "Swing, swing, swing, goes the monkey.",
+   "Swing, swing, here, and swing, swing, there,",
+   "Here a swing, there a swing, everywhere a swing, swing.",
+   "At the zoo, I see a monkey, oh!"
+  ],
+  "actions_vi": "Hát và làm các động tác: Vỗ tay theo nhịp. Khi hát về sư tử, làm động tác cào vuốt và giả tiếng 'gầm'. Khi hát về khỉ, làm động tác vung tay như đang đu cây và giả tiếng 'chít chít'."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Zoo Trip",
+   "text": "My name is Linh. I am seven years old. Today, I go to the zoo. My mom is with me. \nI see many animals. Look! This is a big elephant. It has a long trunk. It eats grass. \nNext, I see a tall giraffe. It has a long neck. It eats leaves from a tree. \nI also see a small monkey. It can jump and swing. It eats bananas. \nThe zoo is fun! I like animals.",
+   "image_prompt": "A happy Vietnamese girl, Linh, and her mom walking hand-in-hand at a sunny zoo. In the background, a big elephant and a tall giraffe are visible.",
+   "vocab": [
+    {
+     "en": "trip",
+     "ipa": "/trɪp/",
+     "vi": "chuyến đi"
+    },
+    {
+     "en": "today",
+     "ipa": "/təˈdeɪ/",
+     "vi": "hôm nay"
+    },
+    {
+     "en": "mom",
+     "ipa": "/mɑːm/",
+     "vi": "mẹ"
+    },
+    {
+     "en": "many",
+     "ipa": "/ˈmɛni/",
+     "vi": "nhiều"
+    },
+    {
+     "en": "trunk",
+     "ipa": "/trʌŋk/",
+     "vi": "vòi (voi)"
+    },
+    {
+     "en": "grass",
+     "ipa": "/ɡræs/",
+     "vi": "cỏ"
+    },
+    {
+     "en": "next",
+     "ipa": "/nɛkst/",
+     "vi": "tiếp theo"
+    },
+    {
+     "en": "neck",
+     "ipa": "/nɛk/",
+     "vi": "cổ"
+    },
+    {
+     "en": "leaves",
+     "ipa": "/liːvz/",
+     "vi": "lá cây"
+    },
+    {
+     "en": "fun",
+     "ipa": "/fʌn/",
+     "vi": "vui vẻ"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "Where does Linh go today?",
+    "Who is with Linh?",
+    "What animal does Linh see first?",
+    "Is the elephant big or small?",
+    "What does the elephant eat?",
+    "What animal does Linh see next?",
+    "What can the monkey do?",
+    "Does Linh like animals?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is eight years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh goes to the zoo with her dad.",
+     "answer": false
+    },
+    {
+     "statement": "The elephant has a short trunk.",
+     "answer": false
+    },
+    {
+     "statement": "The giraffe eats leaves.",
+     "answer": true
+    },
+    {
+     "statement": "The monkey can jump and swing.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "Zoo Friends",
+   "text": "Hello! My name is Nam. I love the zoo. I like many animals. \nLook at the lion! It is a big cat. It is strong. It can run fast. But it cannot climb trees like a monkey. \nSee the zebra? It has black and white stripes. It eats grass. A zebra can run fast, too. \nNear the water, there is a hippo. It is very big. A hippo can swim. It likes water. \nOh, look! A tiger! It has orange and black stripes. It can run. It eats meat. \nI like to watch all the zoo friends. They are amazing!",
+   "image_prompt": "A happy Vietnamese boy, Nam, pointing at a lion in its enclosure, with a zebra and a hippo visible in the background. The animals look friendly.",
+   "vocab": [
+    {
+     "en": "love",
+     "ipa": "/lʌv/",
+     "vi": "yêu"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɔːŋ/",
+     "vi": "mạnh mẽ"
+    },
+    {
+     "en": "fast",
+     "ipa": "/fæst/",
+     "vi": "nhanh"
+    },
+    {
+     "en": "climb",
+     "ipa": "/klaɪm/",
+     "vi": "leo trèo"
+    },
+    {
+     "en": "stripes",
+     "ipa": "/straɪps/",
+     "vi": "vằn, sọc"
+    },
+    {
+     "en": "near",
+     "ipa": "/nɪr/",
+     "vi": "gần"
+    },
+    {
+     "en": "water",
+     "ipa": "/ˈwɔːtər/",
+     "vi": "nước"
+    },
+    {
+     "en": "meat",
+     "ipa": "/miːt/",
+     "vi": "thịt"
+    },
+    {
+     "en": "watch",
+     "ipa": "/wɑːtʃ/",
+     "vi": "xem, ngắm"
+    },
+    {
+     "en": "amazing",
+     "ipa": "/əˈmeɪzɪŋ/",
+     "vi": "tuyệt vời"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "Does Nam like the zoo?",
+    "What animal is a big cat?",
+    "Can a lion climb trees?",
+    "What colors are a zebra's stripes?",
+    "What does a zebra eat?",
+    "Where is the hippo?",
+    "Can a hippo swim?",
+    "What colors are a tiger's stripes?",
+    "What does a tiger eat?"
+   ],
+   "true_false": [
+    {
+     "statement": "The lion can climb trees.",
+     "answer": false
+    },
+    {
+     "statement": "A zebra has black and white stripes.",
+     "answer": true
+    },
+    {
+     "statement": "The hippo is small.",
+     "answer": false
+    },
+    {
+     "statement": "A hippo likes water.",
+     "answer": true
+    },
+    {
+     "statement": "The tiger eats grass.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "A Day with Animals",
+   "text": "My name is Mai. I am eight years old. I like to learn about animals. \nToday, I am at the zoo with my friend, Ben. We see many different animals. \nFirst, we see the bears. They are big and brown. They can climb short trees. They like to eat fish and berries. \nThen, we see the birds. Some birds are small. Some birds are big. They all have wings and can fly. They sing beautiful songs. \nIn the reptile house, we see snakes. Snakes are long. Some snakes are green, some are brown. They can crawl on the ground. They cannot run. \nWe also see small fish in the big aquarium. They swim fast. They are colorful. \nBen says, 'I like the bears!' I say, 'I like the colorful fish!' \nIt is a great day at the zoo. We learn many new things.",
+   "image_prompt": "Two happy children, Mai (Vietnamese girl) and Ben (English boy), standing in front of an aquarium at a zoo, looking at colorful fish. In the background, a bear and some birds are visible.",
+   "vocab": [
+    {
+     "en": "learn",
+     "ipa": "/lɜːrn/",
+     "vi": "học"
+    },
+    {
+     "en": "different",
+     "ipa": "/ˈdɪfərənt/",
+     "vi": "khác nhau"
+    },
+    {
+     "en": "brown",
+     "ipa": "/braʊn/",
+     "vi": "màu nâu"
+    },
+    {
+     "en": "berries",
+     "ipa": "/ˈbɛriz/",
+     "vi": "quả mọng"
+    },
+    {
+     "en": "wings",
+     "ipa": "/wɪŋz/",
+     "vi": "cánh"
+    },
+    {
+     "en": "fly",
+     "ipa": "/flaɪ/",
+     "vi": "bay"
+    },
+    {
+     "en": "sing",
+     "ipa": "/sɪŋ/",
+     "vi": "hát"
+    },
+    {
+     "en": "reptile",
+     "ipa": "/ˈrɛptaɪl/",
+     "vi": "bò sát"
+    },
+    {
+     "en": "crawl",
+     "ipa": "/krɔːl/",
+     "vi": "bò"
+    },
+    {
+     "en": "aquarium",
+     "ipa": "/əˈkwɛriəm/",
+     "vi": "thủy cung"
+    }
+   ],
+   "questions": [
+    "How old is Mai?",
+    "Who is with Mai at the zoo?",
+    "What color are the bears?",
+    "What do bears like to eat?",
+    "Do all birds have wings?",
+    "Can birds fly?",
+    "What kind of animals are in the reptile house?",
+    "Can snakes run?",
+    "Where do Mai and Ben see fish?",
+    "What animal does Ben like?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Bears like to eat fish.",
+     "answer": true
+    },
+    {
+     "statement": "Birds cannot fly.",
+     "answer": false
+    },
+    {
+     "statement": "Snakes can crawl on the ground.",
+     "answer": true
+    },
+    {
+     "statement": "Mai likes the bears.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Monkey's Lunch!",
+  "panels": [
+   {
+    "scene": "A cheerful boy, Tom, is holding a banana and looking at a mischievous monkey in its enclosure at the zoo.",
+    "speech": "Tom: Wow! A monkey!"
+   },
+   {
+    "scene": "The monkey quickly reaches out its hand and snatches the banana from Tom's hand. Tom looks surprised.",
+    "speech": "Monkey: Yummy! My banana!"
+   },
+   {
+    "scene": "The monkey happily eats the banana, sitting on a branch. Tom looks confused but smiles a little.",
+    "speech": "Tom: Oh! The monkey can eat fast!"
+   },
+   {
+    "scene": "Tom laughs, and the monkey looks back at him with a funny face, holding the banana peel.",
+    "speech": "Tom: Silly monkey! I like you!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite animal?",
+   "Where can you see many animals?",
+   "Is the zoo big or small?",
+   "What big animal do you like?",
+   "What small animal do you like?",
+   "Can a lion run fast?",
+   "Can an elephant jump high?",
+   "Can a fish swim?",
+   "What does a monkey eat?",
+   "What animal has a long neck?",
+   "What animal has black and white stripes?",
+   "Do you like snakes? Why or why not?",
+   "What sound does a tiger make?",
+   "What can you do at the zoo?",
+   "What animals are brown?"
+  ],
+  "model": "Hello! My name is Minh. I like animals very much. My favorite animal is the lion. It is big and strong. A lion can run fast, but it cannot climb trees. I also like monkeys. They are small and funny. Monkeys can jump and swing. They eat bananas. I like to go to the zoo to see all these animals. They are amazing!",
+  "challenge": "Talk about your favorite animals at the zoo for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "At the Elephant Enclosure",
+   "image_prompt": "Two Vietnamese children, Mai and An, standing in front of a friendly cartoon elephant enclosure at the zoo, pointing and smiling.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Look, An! This is a big elephant!"
+    },
+    {
+     "speaker": "An",
+     "text": "Wow! It is very big."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes. It has a long trunk."
+    },
+    {
+     "speaker": "An",
+     "text": "What does it eat?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "It eats grass. And sometimes fruit."
+    },
+    {
+     "speaker": "An",
+     "text": "Can it run?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, it can run. But not very fast."
+    },
+    {
+     "speaker": "An",
+     "text": "I like elephants. They are nice."
+    }
+   ]
+  },
+  {
+   "title": "Meeting the Monkey",
+   "image_prompt": "Two English children, Tom and Lucy, watching a playful monkey swinging on a rope in its enclosure. They are laughing.",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "text": "Look, Lucy! A monkey!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Oh, it is so funny!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "It can jump and swing."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "What does it like to eat?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "It likes bananas. And nuts."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Can it talk?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "No, it can't talk. But it can make sounds."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "I like monkeys. They are playful."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! Welcome to the zoo. My name is Ms. Hoa. I am your guide today. Look around! What animals do you see? Over there, we have a very big elephant. It has a long trunk. Near the water, there is a hippo. It is also big. It loves to swim. Can you see the tall giraffe? It eats leaves. And look up! A small monkey is swinging. It is very fast. And here is a tiger. It has orange and black stripes. All the animals are happy here. Enjoy your visit!",
+  "questions": [
+   "What is the guide's name?",
+   "What place are they visiting?",
+   "What animal has a long trunk?",
+   "Is the elephant small or big?",
+   "What animal is near the water?",
+   "Does the hippo like to swim?",
+   "What animal is tall?",
+   "What does the giraffe eat?",
+   "What can the monkey do?",
+   "What colors are the tiger's stripes?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "LION",
+   "BEAR",
+   "FISH",
+   "RUN",
+   "JUMP",
+   "SWIM",
+   "ZOO",
+   "EAT"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "lion",
+     "monkey",
+     "table",
+     "elephant"
+    ],
+    "answer": "table",
+    "why_vi": "Các từ còn lại là tên con vật."
+   },
+   {
+    "options": [
+     "run",
+     "jump",
+     "blue",
+     "swim"
+    ],
+    "answer": "blue",
+    "why_vi": "Các từ còn lại là hành động của con vật."
+   },
+   {
+    "options": [
+     "big",
+     "tall",
+     "book",
+     "small"
+    ],
+    "answer": "book",
+    "why_vi": "Các từ còn lại là tính từ mô tả con vật."
+   },
+   {
+    "options": [
+     "zebra",
+     "tiger",
+     "fish",
+     "bird"
+    ],
+    "answer": "fish",
+    "why_vi": "Các từ còn lại là động vật trên cạn hoặc có vằn."
+   },
+   {
+    "options": [
+     "monkey",
+     "banana",
+     "apple",
+     "grass"
+    ],
+    "answer": "monkey",
+    "why_vi": "Các từ còn lại là thức ăn."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am very big. I have a long trunk. I eat grass. What am I?",
+    "answer": "An elephant"
+   },
+   {
+    "riddle": "I have black and white stripes. I can run fast. I eat grass. What am I?",
+    "answer": "A zebra"
+   },
+   {
+    "riddle": "I like to swing and jump. I eat bananas. I am playful. What am I?",
+    "answer": "A monkey"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "nilo",
+    "answer": "lion"
+   },
+   {
+    "scrambled": "eknas",
+    "answer": "snake"
+   },
+   {
+    "scrambled": "afefgir",
+    "answer": "giraffe"
+   },
+   {
+    "scrambled": "erba",
+    "answer": "bear"
+   },
+   {
+    "scrambled": "mwis",
+    "answer": "swim"
+   },
+   {
+    "scrambled": "ozo",
+    "answer": "zoo"
+   }
+  ],
+  "picture_count": {
+   "question": "How many monkeys can you see in the cover picture?",
+   "hint_vi": "Hãy nhìn kỹ hình ảnh trang bìa và đếm số con khỉ."
+  }
+ },
+ "write": {
+  "profile_title": "My Favorite Animal Profile",
+  "profile_fields": [
+   "My name is:",
+   "My favorite animal is:",
+   "It is a (big/small/tall) ______ animal.",
+   "It has ______ (e.g., stripes, long neck, big ears).",
+   "It can ______ (e.g., run, jump, swim, fly).",
+   "It eats ______.",
+   "Its color is ______.",
+   "I like this animal because it is ______.",
+   "I see this animal at the ______.",
+   "I want to ______ with this animal."
+  ],
+  "frame_title": "MY FAVORITE ANIMAL",
+  "frame_lines": [
+   "My name is ____.",
+   "I like animals. My favorite animal is the ____.",
+   "It is a ____ animal.",
+   "It has ____.",
+   "It can ____.",
+   "It eats ____.",
+   "Its color is ____.",
+   "I think it is ____.",
+   "I want to visit it at the ____.",
+   "I love my favorite animal."
+  ]
+ },
+ "life_skill": {
+  "title": "CARE FOR ANIMALS AND NATURE",
+  "intro": "Animals are important. We must be kind to them and protect their homes. When you visit the zoo, follow the rules to keep animals safe and happy.",
+  "intro_vi": "Động vật rất quan trọng. Chúng ta phải đối xử tốt với chúng và bảo vệ ngôi nhà của chúng. Khi đi sở thú, hãy tuân thủ các quy tắc để giữ cho động vật an toàn và hạnh phúc.",
+  "can_do": [
+   "I can be gentle with animals.",
+   "I can feed animals only if a zookeeper says so.",
+   "I can keep the zoo clean.",
+   "I can speak softly near animals.",
+   "I can watch animals from a safe distance.",
+   "I can learn about different animals.",
+   "I can respect all living things.",
+   "I can help keep our planet clean for animals.",
+   "I can tell an adult if an animal needs help.",
+   "I can visit the zoo to learn more.",
+   "I can share my knowledge about animals.",
+   "I can love nature."
+  ],
+  "value_question": "What can you do to help animals live happily in the world?",
+  "image_prompt": "A diverse group of cheerful children, some Vietnamese, volunteering to clean up a park or a small animal sanctuary. One child is gently petting a friendly rabbit, another is picking up litter, and a third is watering a plant. Animals like birds and squirrels are happily co-existing."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? A giraffe has the same number of neck bones as a human!",
+   "vi": "Em có biết không? Hươu cao cổ có số lượng xương cổ giống hệt con người!"
+  },
+  {
+   "en": "Did you know? Elephants use their trunks to breathe, drink water, and pick up food!",
+   "vi": "Em có biết không? Voi dùng vòi của mình để thở, uống nước và nhặt thức ăn!"
+  },
+  {
+   "en": "Did you know? Zebras sleep standing up!",
+   "vi": "Em có biết không? Ngựa vằn ngủ trong tư thế đứng!"
+  },
+  {
+   "en": "Did you know? A tiger's stripes are like human fingerprints – no two tigers have the same pattern!",
+   "vi": "Em có biết không? Vằn của hổ giống như dấu vân tay của con người – không có hai con hổ nào có hoa văn giống hệt nhau!"
+  },
+  {
+   "en": "Did you know? Monkeys are very smart. Some can even learn to use tools!",
+   "vi": "Em có biết không? Khỉ rất thông minh. Một số loài thậm chí có thể học cách sử dụng công cụ!"
+  }
+ ],
+ "project": {
+  "title": "MY FAVORITE ZOO ANIMAL POSTER",
+  "task": "Create a poster about your favorite animal at the zoo. Draw the animal and write 5-8 sentences about it.",
+  "draw_items": [
+   "Your favorite animal (big and colorful)",
+   "The animal's home (e.g., trees, water, grass)",
+   "Food the animal eats (e.g., bananas, leaves, meat)",
+   "Other small details (e.g., sun, clouds, flowers)",
+   "Your name",
+   "A title for your poster",
+   "A border around the poster",
+   "Happy faces for the animal"
+  ],
+  "example": [
+   "This is my favorite animal. It is a monkey.",
+   "It is small and brown.",
+   "It can jump and swing on trees.",
+   "It eats yummy bananas.",
+   "I see it at the zoo. I like monkeys very much."
+  ],
+  "present": "Hello everyone! This is my poster. My favorite animal is the ____. It is ____. It can ____. I like it because it is ____. Thank you!",
+  "image_prompt": "A happy Vietnamese child holding up a colorful poster they drew. The poster shows a friendly monkey swinging on a branch, eating a banana, with green leaves and blue sky. The child is smiling proudly."
+ },
+ "classroom_game": {
+  "name": "Animal Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "Step 1: Each group gets a list of animal names (e.g., lion, monkey, elephant, fish, bird).",
+   "Step 2: One student secretly picks an animal from the list.",
+   "Step 3: This student acts out the animal without speaking. They can show how it moves, eats, or makes sounds.",
+   "Step 4: Other students in the group guess the animal using sentences like 'Is it a monkey?' or 'Can it swim?'.",
+   "Step 5: The first student to guess correctly gets a point. Then, a new student acts."
+  ],
+  "steps_vi": [
+   "Bước 1: Mỗi nhóm nhận một danh sách tên các con vật (ví dụ: sư tử, khỉ, voi, cá, chim).",
+   "Bước 2: Một học sinh bí mật chọn một con vật từ danh sách.",
+   "Bước 3: Học sinh này diễn tả con vật đó mà không được nói. Em có thể thể hiện cách nó di chuyển, ăn uống hoặc tạo ra âm thanh.",
+   "Bước 4: Các học sinh khác trong nhóm đoán tên con vật bằng cách dùng các câu như 'Is it a monkey?' (Đây có phải con khỉ không?) hoặc 'Can it swim?' (Nó có biết bơi không?).",
+   "Bước 5: Học sinh đoán đúng đầu tiên sẽ được một điểm. Sau đó, một học sinh mới sẽ diễn."
+  ],
+  "language": [
+   "Is it a/an + animal?",
+   "Yes, it is.",
+   "No, it isn't.",
+   "It can + action.",
+   "It is a/an + animal."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "z__",
+    "answer": "zoo"
+   },
+   {
+    "word": "l__n",
+    "answer": "lion"
+   },
+   {
+    "word": "m__key",
+    "answer": "monkey"
+   },
+   {
+    "word": "__ephant",
+    "answer": "elephant"
+   },
+   {
+    "word": "t__ger",
+    "answer": "tiger"
+   },
+   {
+    "word": "z__bra",
+    "answer": "zebra"
+   },
+   {
+    "word": "j__p",
+    "answer": "jump"
+   },
+   {
+    "word": "r__n",
+    "answer": "run"
+   },
+   {
+    "word": "s__m",
+    "answer": "swim"
+   },
+   {
+    "word": "b__d",
+    "answer": "bird"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ a monkey.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "An elephant ______ big.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "A bird ______ fly.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "A fish ______ run.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can't"
+   },
+   {
+    "q": "What ______ this? It is a tiger.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "Do you like giraffes? ______, I do.",
+    "options": [
+     "No",
+     "Yes",
+     "Not"
+    ],
+    "answer": "Yes"
+   },
+   {
+    "q": "A monkey eats ______.",
+    "options": [
+     "meat",
+     "grass",
+     "bananas"
+    ],
+    "answer": "bananas"
+   },
+   {
+    "q": "A giraffe has a long ______.",
+    "options": [
+     "trunk",
+     "neck",
+     "tail"
+    ],
+    "answer": "neck"
+   },
+   {
+    "q": "______ are many animals at the zoo.",
+    "options": [
+     "This",
+     "That",
+     "There"
+    ],
+    "answer": "There"
+   },
+   {
+    "q": "A zebra has black and white ______.",
+    "options": [
+     "spots",
+     "stripes",
+     "fur"
+    ],
+    "answer": "stripes"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / lion / a",
+    "answer": "This is a lion."
+   },
+   {
+    "words": "big / It / is",
+    "answer": "It is big."
+   },
+   {
+    "words": "can / jump / A / monkey",
+    "answer": "A monkey can jump."
+   },
+   {
+    "words": "like / Do / elephants / you?",
+    "answer": "Do you like elephants?"
+   },
+   {
+    "words": "tall / is / giraffe / The",
+    "answer": "The giraffe is tall."
+   },
+   {
+    "words": "zoo / I / the / love",
+    "answer": "I love the zoo."
+   },
+   {
+    "words": "eats / grass / An / elephant",
+    "answer": "An elephant eats grass."
+   },
+   {
+    "words": "can't / A / fly / hippo",
+    "answer": "A hippo can't fly."
+   },
+   {
+    "words": "at / Look / the / tiger!",
+    "answer": "Look at the tiger!"
+   },
+   {
+    "words": "is / small / fish / The",
+    "answer": "The fish is small."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "Do you like animals?",
+   "What is your favorite animal?",
+   "Is your favorite animal big or small?",
+   "What can your favorite animal do?",
+   "What does your favorite animal eat?",
+   "Have you been to a zoo?",
+   "What animals did you see at the zoo?",
+   "What animal do you want to see?"
+  ]
+ },
+ "i_can": [
+  "I can say zoo animal words in English.",
+  "I can use 'This is' and 'These are' for animals.",
+  "I can use 'It is' and 'They are' to describe animals.",
+  "I can use 'can' and 'can't' to talk about animal actions.",
+  "I can ask and answer 'What is this?' about animals.",
+  "I can ask and answer 'Do you like...?' about animals.",
+  "I can read about animals at the zoo.",
+  "I can understand simple conversations about animals.",
+  "I can listen and answer questions about animals.",
+  "I can act out animal movements.",
+  "I can write sentences about my favorite animal.",
+  "I can draw my favorite animal.",
+  "I can talk about caring for animals.",
+  "I can say fun facts about animals.",
+  "I can sing a song about animals at the zoo."
+ ],
+ "message_en": "ANIMALS ARE OUR FRIENDS. LET'S LEARN ABOUT THEM AND PROTECT THEM.",
+ "message_vi": "ĐỘNG VẬT LÀ BẠN CỦA CHÚNG TA. HÃY HỌC HỎI VÀ BẢO VỆ CHÚNG.",
+ "message_body": "You have learned many new words and sentences about animals at the zoo! Remember to be kind to all animals and help keep their homes safe and clean. Keep practicing your English and learn more about the amazing world around us!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Updated scramble 'ooln' to 'nilo' to match letters in 'lion'.",
+  "Updated scramble 'oza' to 'ozo' to match letters in 'zoo'.",
+  "Added primary stress marks to all monosyllabic vocabulary IPA for consistency.",
+  "Changed phonics tip_vi from 've kêu' (cicada) to 'ong kêu' (bee) as it's a more common comparison for the /z/ sound in English teaching.",
+  "Adjusted review order list for 'Look at the tiger!' to include the exclamation mark in the words list for exact matching.",
+  "Verified all Vietnamese diacritics and level-appropriate phrasing."
+ ],
+ "unit": 6,
+ "grade": 2,
+ "validation": [],
+ "proofread": true
+}

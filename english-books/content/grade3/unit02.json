@@ -1,0 +1,1193 @@
+{
+ "title": "MY SCHOOL THINGS",
+ "theme": "School Life",
+ "goal": "Students can identify and describe common school things, ask and answer questions about them, and express what they can and can't do with their school items.",
+ "goal_vi": "Học sinh có thể nhận biết và mô tả các đồ dùng học tập phổ biến, hỏi và trả lời câu hỏi về chúng, và diễn đạt những gì các em có thể và không thể làm với đồ dùng học tập của mình.",
+ "cover_emoji": "📚✏️🎒",
+ "cover_image_prompt": "A cheerful group of diverse primary school children, both boys and girls, aged 8, happily sitting at their desks in a colorful classroom, surrounded by various school supplies like books, pencils, backpacks, and notebooks. Some are drawing, some are reading, all are smiling.",
+ "big_question": {
+  "en": "What school things do you have and what do you use them for?",
+  "vi": "Em có những đồ dùng học tập nào và em dùng chúng để làm gì?",
+  "prompts": [
+   "What's in your school bag?",
+   "What do you use a pencil for?",
+   "What color is your book?",
+   "Can you draw with a crayon?",
+   "Do you like your school things? Why?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "pencil",
+   "ipa": "/ˈpɛnsəl/",
+   "vi": "bút chì",
+   "emoji": "✏️",
+   "image_prompt": "a single yellow pencil with a pink eraser on top"
+  },
+  {
+   "en": "pen",
+   "ipa": "/pɛn/",
+   "vi": "bút mực",
+   "emoji": "🖊️",
+   "image_prompt": "a single blue ballpoint pen"
+  },
+  {
+   "en": "ruler",
+   "ipa": "/ˈruːlər/",
+   "vi": "thước kẻ",
+   "emoji": "📏",
+   "image_prompt": "a clear plastic ruler with black markings"
+  },
+  {
+   "en": "eraser",
+   "ipa": "/ɪˈreɪsər/",
+   "vi": "cục tẩy",
+   "emoji": "🧽",
+   "image_prompt": "a small pink rectangular eraser"
+  },
+  {
+   "en": "notebook",
+   "ipa": "/ˈnoʊtbʊk/",
+   "vi": "vở",
+   "emoji": "📓",
+   "image_prompt": "an open spiral notebook with blank pages"
+  },
+  {
+   "en": "book",
+   "ipa": "/bʊk/",
+   "vi": "sách",
+   "emoji": "📚",
+   "image_prompt": "a colorful closed storybook for children"
+  },
+  {
+   "en": "school bag",
+   "ipa": "/skuːl bæɡ/",
+   "vi": "cặp sách",
+   "emoji": "🎒",
+   "image_prompt": "a brightly colored school bag with straps, standing upright"
+  },
+  {
+   "en": "crayon",
+   "ipa": "/ˈkreɪɑːn/",
+   "vi": "bút màu sáp",
+   "emoji": "🖍️",
+   "image_prompt": "a single red crayon"
+  },
+  {
+   "en": "marker",
+   "ipa": "/ˈmɑːrkər/",
+   "vi": "bút dạ",
+   "emoji": "🖍️",
+   "image_prompt": "a thick black marker pen"
+  },
+  {
+   "en": "scissors",
+   "ipa": "/ˈsɪzərz/",
+   "vi": "kéo",
+   "emoji": "✂️",
+   "image_prompt": "a pair of child-safe scissors with blue handles"
+  },
+  {
+   "en": "glue",
+   "ipa": "/ɡluː/",
+   "vi": "keo dán",
+   "emoji": "🧴",
+   "image_prompt": "a white glue stick"
+  },
+  {
+   "en": "desk",
+   "ipa": "/dɛsk/",
+   "vi": "bàn học",
+   "emoji": "🏫",
+   "image_prompt": "a simple wooden school desk with a chair pushed in"
+  },
+  {
+   "en": "chair",
+   "ipa": "/tʃɛr/",
+   "vi": "ghế",
+   "emoji": "🪑",
+   "image_prompt": "a yellow plastic school chair"
+  },
+  {
+   "en": "whiteboard",
+   "ipa": "/ˈwaɪtbɔːrd/",
+   "vi": "bảng trắng",
+   "emoji": "📝",
+   "image_prompt": "a large blank whiteboard hanging on a classroom wall"
+  },
+  {
+   "en": "backpack",
+   "ipa": "/ˈbækˌpæk/",
+   "vi": "ba lô",
+   "emoji": "🎒",
+   "image_prompt": "a small, blue backpack with zippers"
+  },
+  {
+   "en": "pencil case",
+   "ipa": "/ˈpɛnsəl keɪs/",
+   "vi": "hộp bút",
+   "emoji": "✏️",
+   "image_prompt": "a colorful fabric pencil case, slightly open showing some pencils"
+  },
+  {
+   "en": "sharpener",
+   "ipa": "/ˈʃɑːrpənər/",
+   "vi": "cái gọt bút chì",
+   "emoji": "✏️",
+   "image_prompt": "a small plastic pencil sharpener with a metal blade"
+  },
+  {
+   "en": "calculator",
+   "ipa": "/ˈkælkjəˌleɪtər/",
+   "vi": "máy tính",
+   "emoji": "🧮",
+   "image_prompt": "a simple black calculator with green buttons"
+  },
+  {
+   "en": "paint",
+   "ipa": "/peɪnt/",
+   "vi": "màu vẽ",
+   "emoji": "🎨",
+   "image_prompt": "a set of watercolor paints in a palette"
+  },
+  {
+   "en": "paintbrush",
+   "ipa": "/ˈpeɪntˌbrʌʃ/",
+   "vi": "cọ vẽ",
+   "emoji": "🖌️",
+   "image_prompt": "a single paintbrush with a wooden handle and soft bristles"
+  }
+ ],
+ "phonics": {
+  "sound": "/p/",
+  "letters": "p, pp",
+  "words": [
+   "pencil",
+   "pen",
+   "paper",
+   "puppy",
+   "happy",
+   "apple"
+  ],
+  "chant": "Pink pigs paint pictures. / Peter picks purple pens.",
+  "tip_vi": "Khi phát âm âm /p/, môi của bạn khép lại rồi bật mạnh luồng hơi ra, giống như tiếng bật hơi trong tiếng Anh, mạnh hơn âm 'p' trong tiếng Việt."
+ },
+ "patterns": [
+  {
+   "pattern": "What is this? / This is a/an + noun.",
+   "vi": "Đây là gì? / Đây là một…",
+   "examples": [
+    "What is this? This is a pencil.",
+    "What is this? This is an eraser.",
+    "This is my new school bag."
+   ]
+  },
+  {
+   "pattern": "What color is your + noun? / My + noun + is + color.",
+   "vi": "Đồ dùng của bạn màu gì? / Đồ dùng của tôi màu…",
+   "examples": [
+    "What color is your ruler? My ruler is yellow.",
+    "What color is her book? Her book is green.",
+    "My pencil case is red and blue."
+   ]
+  },
+  {
+   "pattern": "I have got a/an + noun.",
+   "vi": "Tôi có một…",
+   "examples": [
+    "I have got a new pencil.",
+    "She has got an orange book.",
+    "We have got many crayons."
+   ]
+  },
+  {
+   "pattern": "Can you + verb + with a/an + noun? / Yes, I can. / No, I can't.",
+   "vi": "Bạn có thể… với một…? / Có, tôi có thể. / Không, tôi không thể.",
+   "examples": [
+    "Can you draw with a crayon? Yes, I can.",
+    "Can he cut paper with scissors? No, he can't.",
+    "I can write my name with this pen."
+   ]
+  },
+  {
+   "pattern": "I use a/an + noun + to + verb.",
+   "vi": "Tôi dùng… để….",
+   "examples": [
+    "I use a pencil to write.",
+    "She uses scissors to cut paper.",
+    "We use glue to stick pictures."
+   ]
+  },
+  {
+   "pattern": "What do you have in your school bag? / I have got… and…",
+   "vi": "Bạn có gì trong cặp sách của mình? / Tôi có… và…",
+   "examples": [
+    "What do you have in your school bag? I have got books and notebooks.",
+    "What does Nam have in his backpack? He has got a ruler and a pencil case.",
+    "I have got a pen, an eraser, and a sharpener."
+   ]
+  },
+  {
+   "pattern": "This is my + noun + but it is + adjective.",
+   "vi": "Đây là… của tôi nhưng nó….",
+   "examples": [
+    "This is my book but it is old.",
+    "This is my ruler but it is broken.",
+    "This is her pencil case but it is empty."
+   ]
+  },
+  {
+   "pattern": "I like my + noun + because it is + adjective.",
+   "vi": "Tôi thích… của tôi bởi vì nó….",
+   "examples": [
+    "I like my crayons because they are colorful.",
+    "She likes her school bag because it is big.",
+    "We like our desk because it is clean."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "'This is' is used to introduce one person, place, or thing. 'These are' is used for more than one person, place, or thing.",
+   "explain_vi": "'This is' dùng để giới thiệu một người, một địa điểm hoặc một vật. 'These are' dùng để giới thiệu nhiều người, nhiều địa điểm hoặc nhiều vật.",
+   "examples": [
+    "This is my pencil.",
+    "These are my books.",
+    "This is a blue pen.",
+    "These are colorful crayons."
+   ],
+   "right": "✅ This is my school bag.",
+   "wrong": "❌ These is my school bag."
+  },
+  {
+   "title": "I have got / I haven't got",
+   "explain_en": "We use 'have got' to talk about things we own or possess. 'Haven't got' is for things we do not own.",
+   "explain_vi": "Chúng ta dùng 'have got' để nói về những gì mình sở hữu. 'Haven't got' dùng cho những thứ mình không sở hữu.",
+   "examples": [
+    "I have got a new pencil case.",
+    "She has got three books.",
+    "I haven't got a calculator.",
+    "They have got many markers."
+   ],
+   "right": "✅ I have got a red ruler.",
+   "wrong": "❌ I got a red ruler."
+  },
+  {
+   "title": "Can / Can't",
+   "explain_en": "'Can' means you are able to do something. 'Can't' means you are not able to do something.",
+   "explain_vi": "'Can' nghĩa là bạn có thể làm gì đó. 'Can't' nghĩa là bạn không thể làm gì đó.",
+   "examples": [
+    "I can draw with my crayons.",
+    "Can you cut paper with scissors? Yes, I can.",
+    "He can't write clearly with this old pen.",
+    "They can share their glue."
+   ],
+   "right": "✅ I can write with this pen.",
+   "wrong": "❌ I can to write with this pen."
+  },
+  {
+   "title": "Present Simple vs. Present Continuous",
+   "explain_en": "We use the Present Simple for habits, routines, or things that are always true. We use the Present Continuous for actions happening right now.",
+   "explain_vi": "Chúng ta dùng Hiện tại đơn để nói về thói quen, lịch trình hoặc những điều luôn đúng. Chúng ta dùng Hiện tại tiếp diễn để nói về hành động đang diễn ra ngay bây giờ.",
+   "examples": [
+    "I always use my pencil to write.",
+    "Look! Linh is drawing a picture right now.",
+    "What are you doing? I am reading my book.",
+    "My teacher often writes on the whiteboard."
+   ],
+   "right": "✅ I am writing now. (Present continuous)",
+   "wrong": "❌ I writing now. (Missing 'am')"
+  }
+ ],
+ "song": {
+  "title": "My School Things",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The pencils in my bag go tap, tap, tap,",
+   "Tap, tap, tap, tap, tap, tap.",
+   "The pencils in my bag go tap, tap, tap,",
+   "All through the school day!",
+   "",
+   "The books on my desk go open, shut,",
+   "Open, shut, open, shut.",
+   "The books on my desk go open, shut,",
+   "All through the school day!",
+   "",
+   "The crayons in my case go draw, draw, draw,",
+   "Draw, draw, draw, draw, draw, draw.",
+   "The crayons in my case go draw, draw, draw,",
+   "All through the school day!",
+   "",
+   "My school bag helps me carry things,",
+   "Carry things, carry things.",
+   "My school bag helps me carry things,",
+   "All through the school day!"
+  ],
+  "actions_vi": "Dùng ngón tay gõ nhẹ vào lòng bàn tay (taps), mở và đóng hai bàn tay (open, shut), làm động tác vẽ (draw), làm động tác đeo cặp sách (carry things)."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY FAVORITE PENCIL CASE",
+   "text": "Hello! My name is Mai. I am eight years old. I have got a new pencil case. It is very colorful, red and yellow. Inside, I have got five pencils, a small eraser, and a sharpener. My pencils are long and sharp. I use them to write my name and draw happy faces. My eraser helps me fix mistakes. My sharpener keeps my pencils pointy. I always keep my pencil case tidy. I like my pencil case very much because it helps me in class. It is my favorite school thing!",
+   "image_prompt": "A happy Vietnamese girl, Mai, 8 years old, holding up a brightly colored red and yellow pencil case. Some pencils, an eraser, and a sharpener are peeking out. She is smiling in a classroom setting.",
+   "vocab": [
+    {
+     "en": "colorful",
+     "ipa": "/ˈkʌlərfl/",
+     "vi": "đầy màu sắc"
+    },
+    {
+     "en": "inside",
+     "ipa": "/ɪnˈsaɪd/",
+     "vi": "bên trong"
+    },
+    {
+     "en": "sharp",
+     "ipa": "/ʃɑːrp/",
+     "vi": "nhọn, sắc"
+    },
+    {
+     "en": "draw",
+     "ipa": "/drɔː/",
+     "vi": "vẽ"
+    },
+    {
+     "en": "fix mistakes",
+     "ipa": "/fɪks mɪˈsteɪks/",
+     "vi": "sửa lỗi"
+    },
+    {
+     "en": "pointy",
+     "ipa": "/ˈpɔɪnti/",
+     "vi": "nhọn"
+    },
+    {
+     "en": "tidy",
+     "ipa": "/ˈtaɪdi/",
+     "vi": "ngăn nắp"
+    },
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích"
+    },
+    {
+     "en": "class",
+     "ipa": "/klæs/",
+     "vi": "lớp học"
+    },
+    {
+     "en": "helps",
+     "ipa": "/hɛlps/",
+     "vi": "giúp đỡ"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Mai?",
+    "What color is her pencil case?",
+    "What does she have inside her pencil case?",
+    "How many pencils does she have?",
+    "What does Mai use her pencils for?",
+    "What does the eraser do?",
+    "What does the sharpener do?",
+    "How does Mai keep her pencil case?",
+    "Why does Mai like her pencil case?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Her pencil case is blue and green.",
+     "answer": false
+    },
+    {
+     "statement": "She has got an eraser in her pencil case.",
+     "answer": true
+    },
+    {
+     "statement": "Mai uses her pencils to draw happy faces.",
+     "answer": true
+    },
+    {
+     "statement": "Her pencil case is not tidy.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A BUSY MORNING IN CLASS",
+   "text": "It's 9 o'clock in Ms. Hoa's Grade 3 classroom. Everyone is busy learning! Look at Minh. He is sitting at his desk and reading a big blue book about animals. He loves animals! Next to him, An is drawing a beautiful flower with her colorful crayons. She is very good at art. On the other side of the room, Linh and Nam are working together. Linh is using scissors to cut out shapes from paper, and Nam is carefully applying glue to stick them into his notebook. They are making a project about shapes. Ms. Hoa is standing by the whiteboard. She is writing new words for the children to learn. The classroom is full of happy sounds and busy children. Learning English is fun!",
+   "image_prompt": "A busy and colorful classroom scene with diverse Grade 3 children. Minh is reading a book, An is drawing with crayons, Linh is cutting paper with scissors, and Nam is gluing shapes into a notebook. Ms. Hoa, a kind Vietnamese teacher, is writing on a whiteboard. Everyone looks focused and happy.",
+   "vocab": [
+    {
+     "en": "busy",
+     "ipa": "/ˈbɪzi/",
+     "vi": "bận rộn"
+    },
+    {
+     "en": "reading",
+     "ipa": "/ˈriːdɪŋ/",
+     "vi": "đang đọc"
+    },
+    {
+     "en": "drawing",
+     "ipa": "/ˈdrɔːɪŋ/",
+     "vi": "đang vẽ"
+    },
+    {
+     "en": "art",
+     "ipa": "/ɑːrt/",
+     "vi": "mỹ thuật"
+    },
+    {
+     "en": "working together",
+     "ipa": "/ˈwɜːrkɪŋ təˈɡɛðər/",
+     "vi": "làm việc cùng nhau"
+    },
+    {
+     "en": "cutting out",
+     "ipa": "/ˈkʌtɪŋ aʊt/",
+     "vi": "cắt ra"
+    },
+    {
+     "en": "applying glue",
+     "ipa": "/əˈplaɪɪŋ ɡluː/",
+     "vi": "phết keo"
+    },
+    {
+     "en": "shapes",
+     "ipa": "/ʃeɪps/",
+     "vi": "hình dạng"
+    },
+    {
+     "en": "project",
+     "ipa": "/ˈprɑːdʒɛkt/",
+     "vi": "dự án"
+    },
+    {
+     "en": "full of",
+     "ipa": "/fʊl əv/",
+     "vi": "đầy"
+    }
+   ],
+   "questions": [
+    "What time is it in the classroom?",
+    "Who is the teacher?",
+    "What is Minh doing?",
+    "What kind of book is Minh reading?",
+    "What is An drawing?",
+    "What is An using to draw?",
+    "Who are working together?",
+    "What is Linh doing with the scissors?",
+    "What is Nam doing with the glue?",
+    "What is Ms. Hoa writing on the whiteboard?"
+   ],
+   "true_false": [
+    {
+     "statement": "The children are playing outside.",
+     "answer": false
+    },
+    {
+     "statement": "Minh is reading a book about cars.",
+     "answer": false
+    },
+    {
+     "statement": "An is using crayons to draw a flower.",
+     "answer": true
+    },
+    {
+     "statement": "Linh and Nam are making a project about colors.",
+     "answer": false
+    },
+    {
+     "statement": "Ms. Hoa is writing new words for the children.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "MY BACKPACK AND MY SCHOOL DAY",
+   "text": "Every morning, I pack my backpack carefully for school. My backpack is blue and it has got many pockets. First, I put my big English book and my math notebook inside. My math notebook has many numbers and shapes. Then, I put my pencil case which has pencils, pens, an eraser, and a sharpener. I always make sure my pencils are sharp! For art class, I have got a small box of crayons and a paintbrush. Sometimes, I also bring a glue stick if we are making collages. If it's a science day, I might bring my small magnifying glass. I don't have a calculator yet, but I want one for next year. My backpack can be heavy, but it holds all my important school things. I use my ruler to draw straight lines, and my markers to highlight important words. My backpack helps me be ready for all my lessons and learning adventures!",
+   "image_prompt": "A diverse primary school student, about 8 years old, with a blue backpack open on a desk. They are carefully organizing books, a pencil case, crayons, a paintbrush, and a glue stick inside the backpack. The student looks thoughtful and organized.",
+   "vocab": [
+    {
+     "en": "carefully",
+     "ipa": "/ˈkɛrfəli/",
+     "vi": "cẩn thận"
+    },
+    {
+     "en": "pockets",
+     "ipa": "/ˈpɑːkɪts/",
+     "vi": "túi"
+    },
+    {
+     "en": "math",
+     "ipa": "/mæθ/",
+     "vi": "môn toán"
+    },
+    {
+     "en": "make sure",
+     "ipa": "/meɪk ʃʊr/",
+     "vi": "đảm bảo"
+    },
+    {
+     "en": "collages",
+     "ipa": "/kəˈlɑːʒɪz/",
+     "vi": "tranh cắt dán"
+    },
+    {
+     "en": "magnifying glass",
+     "ipa": "/ˈmæɡnɪˌfaɪɪŋ ɡlæs/",
+     "vi": "kính lúp"
+    },
+    {
+     "en": "heavy",
+     "ipa": "/ˈhɛvi/",
+     "vi": "nặng"
+    },
+    {
+     "en": "holds",
+     "ipa": "/hoʊldz/",
+     "vi": "chứa, đựng"
+    },
+    {
+     "en": "straight lines",
+     "ipa": "/streɪt laɪnz/",
+     "vi": "đường thẳng"
+    },
+    {
+     "en": "highlight",
+     "ipa": "/ˈhaɪˌlaɪt/",
+     "vi": "đánh dấu"
+    }
+   ],
+   "questions": [
+    "What color is the student's backpack?",
+    "What does the student put in their backpack first?",
+    "What does the math notebook have inside?",
+    "What items are in the pencil case?",
+    "What does the student use for art class?",
+    "When does the student bring a glue stick?",
+    "What does the student bring for a science day?",
+    "Does the student have a calculator?",
+    "What does the student use the ruler for?",
+    "Why does the student like their backpack?"
+   ],
+   "true_false": [
+    {
+     "statement": "The backpack is red.",
+     "answer": false
+    },
+    {
+     "statement": "The student puts the pencil case in first.",
+     "answer": false
+    },
+    {
+     "statement": "The pencil case has pencils, pens, an eraser, and a sharpener.",
+     "answer": true
+    },
+    {
+     "statement": "The student always brings a calculator.",
+     "answer": false
+    },
+    {
+     "statement": "The student uses markers to draw straight lines.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Where Is My Pen?",
+  "panels": [
+   {
+    "scene": "A classroom. Linh, an 8-year-old Vietnamese girl, is sitting at her desk, looking worriedly into her open pencil case. Her friend, Ben, an 8-year-old boy, is next to her, looking curious.",
+    "speech": "Linh: Oh no! Where is my favorite blue pen? I can't find it!"
+   },
+   {
+    "scene": "Linh is now looking under her desk. Ben is pointing with a funny expression towards Linh's head.",
+    "speech": "Ben: Look, Linh! What's that on your head?"
+   },
+   {
+    "scene": "Linh touches her hair, looking surprised. The blue pen is clearly stuck in her messy bun.",
+    "speech": "Linh: On my head? Oh! Is it... my pen? How did it get there?"
+   },
+   {
+    "scene": "Linh is laughing, holding the pen. Ben is also laughing, shaking his head. They are both happy.",
+    "speech": "Linh: Haha! Yes, it's my pen! Thank you, Ben! Ben: You are welcome, Linh! Always keep your school things tidy!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite school thing?",
+   "What color is your favorite school thing?",
+   "What do you use it for?",
+   "Do you have a big or small school bag?",
+   "What do you keep in your school bag?",
+   "Can you draw well with your crayons?",
+   "Do you have many books or few books?",
+   "What do you use your ruler for?",
+   "Is your desk tidy or messy?",
+   "Do you like to share your school things?",
+   "What is a pencil case for?",
+   "Can you cut paper with scissors carefully?",
+   "What colors of markers do you have?",
+   "Why do we need an eraser?",
+   "What's one new school thing you want to have?"
+  ],
+  "model": "My favorite school thing is my blue pencil case. It has got many colorful pens and pencils inside. I use my pencils to draw pictures and my pens to write stories. I like it because it helps me keep my things tidy. I can also share my crayons with my friends. My school bag is big, and I put all my books and notebooks inside it every morning.",
+  "challenge": "Talk about the things in your school bag and what you use them for."
+ },
+ "conversations": [
+  {
+   "title": "A New Ruler",
+   "image_prompt": "Two diverse 8-year-old children, Mai and Tom, are sitting at their school desks. Mai is holding up a brand new, colorful ruler, looking excited. Tom is looking at it with interest.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi, Tom! Look at my new ruler!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Wow, Mai! It's beautiful! What color is it?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "It's rainbow color! It has got red, orange, yellow, green, and blue."
+    },
+    {
+     "speaker": "Tom",
+     "text": "That's cool! Can you draw straight lines with it?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, I can! I use it for math class. And for drawing."
+    },
+    {
+     "speaker": "Tom",
+     "text": "I like it. My ruler is just clear."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Do you want to try it?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, please! Thank you!"
+    }
+   ]
+  },
+  {
+   "title": "Packing My Backpack",
+   "image_prompt": "Two diverse 8-year-old children, Linh and Ben, are standing next to an open backpack on a table. Linh is putting a book inside, and Ben is holding a pencil case, ready to put it in. They are talking and smiling.",
+   "lines": [
+    {
+     "speaker": "Linh",
+     "text": "What do you have in your backpack today, Ben?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Well, I have got my English book and my notebook."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Me too! And what's in your pencil case?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I have got two pencils, a pen, and a big eraser. I also have my sharpener."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Oh, I need to put my crayons in. We are drawing today!"
+    },
+    {
+     "speaker": "Ben",
+     "text": "That's right! I have got my markers for art class."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Is your backpack heavy?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "A little bit, because of all my books! But I like my school things."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, children! Let's talk about our school things. Look at my desk. What can you see? I have got a big red book. It's a storybook. I also have a small blue notebook for writing notes. And here is my pen. It is black. I use this pen to write on the whiteboard. Oh, I have got some colorful markers, too! Red, green, and blue. I use them for drawing and writing interesting things for you. What about cutting? I have got a pair of scissors. They are orange. And when I make a mistake, I use my white eraser. All these things help me teach you every day. What are your favorite school things?",
+  "questions": [
+   "What color is the book?",
+   "What kind of book is it?",
+   "What color is the notebook?",
+   "What does the speaker use the notebook for?",
+   "What color is the pen?",
+   "What does the speaker use the pen for?",
+   "What colors are the markers?",
+   "What does the speaker use the markers for?",
+   "What color are the scissors?",
+   "What does the speaker use to fix mistakes?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "PENCIL",
+   "BOOK",
+   "RULER",
+   "ERASER",
+   "CRAYON",
+   "GLUE",
+   "DESK",
+   "CHAIR"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "pencil",
+     "pen",
+     "book",
+     "apple"
+    ],
+    "answer": "apple",
+    "why_vi": "Apple là một loại trái cây, còn lại là đồ dùng học tập."
+   },
+   {
+    "options": [
+     "scissors",
+     "glue",
+     "marker",
+     "ball"
+    ],
+    "answer": "ball",
+    "why_vi": "Ball là đồ chơi, còn lại là đồ dùng học tập."
+   },
+   {
+    "options": [
+     "red",
+     "blue",
+     "ruler",
+     "green"
+    ],
+    "answer": "ruler",
+    "why_vi": "Ruler là đồ dùng học tập, còn lại là màu sắc."
+   },
+   {
+    "options": [
+     "desk",
+     "chair",
+     "backpack",
+     "banana"
+    ],
+    "answer": "banana",
+    "why_vi": "Banana là trái cây, còn lại là đồ dùng học tập/nội thất lớp học."
+   },
+   {
+    "options": [
+     "write",
+     "draw",
+     "sing",
+     "cut"
+    ],
+    "answer": "sing",
+    "why_vi": "Sing là hành động hát, còn lại là các hành động liên quan đến đồ dùng học tập."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have pages, but I'm not a tree. You read stories and learn from me. What am I?",
+    "answer": "a book"
+   },
+   {
+    "riddle": "I have a point and an eraser too. I help you write, what do you do? What am I?",
+    "answer": "a pencil"
+   },
+   {
+    "riddle": "I have two blades but cannot bite. I help you cut paper, sharp and bright. What am I?",
+    "answer": "scissors"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "okob",
+    "answer": "book"
+   },
+   {
+    "scrambled": "cliepn",
+    "answer": "pencil"
+   },
+   {
+    "scrambled": "urlre",
+    "answer": "ruler"
+   },
+   {
+    "scrambled": "aeserr",
+    "answer": "eraser"
+   },
+   {
+    "scrambled": "loochs gab",
+    "answer": "school bag"
+   },
+   {
+    "scrambled": "srocsiss",
+    "answer": "scissors"
+   }
+  ],
+  "picture_count": {
+   "question": "How many pencils can you see in the cover picture?",
+   "hint_vi": "Hãy đếm số bút chì trên bức tranh bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My School Things Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ____ years old.",
+   "My favorite school thing is:",
+   "Its color is:",
+   "I use it to:",
+   "I have got ____ pencils.",
+   "I have got ____ books.",
+   "My school bag is ____ (color).",
+   "I can ____ with my school things.",
+   "I like my school things because:"
+  ],
+  "frame_title": "MY SCHOOL THINGS",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "I have got a ____ school bag.",
+   "Inside my school bag, I have got a ____ book and a ____ pencil case.",
+   "My pencil case has got ____ pencils and a ____ eraser.",
+   "I use my book to ____.",
+   "I use my pencils to ____ and ____.",
+   "I can ____ with my crayons.",
+   "My ruler helps me draw ____ lines.",
+   "I like my school things because they are ____."
+  ]
+ },
+ "life_skill": {
+  "title": "TAKE CARE OF YOUR SCHOOL THINGS",
+  "intro": "Your school things help you learn and grow. Taking good care of them shows responsibility and respect for your belongings and for the environment.",
+  "intro_vi": "Đồ dùng học tập giúp em học hỏi và phát triển. Giữ gìn đồ dùng học tập của mình thể hiện sự có trách nhiệm và tôn trọng đối với đồ đạc của mình và môi trường.",
+  "can_do": [
+   "Put my pencils and pens in my pencil case.",
+   "Close my books and notebooks gently.",
+   "Keep my school bag tidy and clean.",
+   "Sharpen my pencils carefully.",
+   "Don't break my ruler.",
+   "Use glue and scissors safely.",
+   "Clean my desk after working.",
+   "Don't lose my eraser.",
+   "Share my crayons with friends.",
+   "Ask for permission before using others' things.",
+   "Put caps back on markers and pens.",
+   "Help my friends take care of their things."
+  ],
+  "value_question": "Why is it important to share your school things with friends?",
+  "image_prompt": "A diverse primary school student, about 8 years old, gently wiping their desk with a cloth, then carefully placing a book back into a neat school bag. Another student is sharing crayons with a friend. The scene is clean and organized, showing responsible children."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The word 'pencil' comes from a Latin word 'penicillus' meaning 'little tail' because of the small brushes used for writing in ancient times.",
+   "vi": "Em có biết không? Từ 'pencil' (bút chì) bắt nguồn từ một từ Latin 'penicillus' có nghĩa là 'cái đuôi nhỏ' vì những chiếc cọ nhỏ được dùng để viết trong thời cổ đại."
+  },
+  {
+   "en": "Did you know? The first erasers were made from bread crumbs! People used to rub soft bread on paper to remove pencil marks.",
+   "vi": "Em có biết không? Cục tẩy đầu tiên được làm từ vụn bánh mì! Người ta từng dùng bánh mì mềm để chà lên giấy để xóa vết chì."
+  },
+  {
+   "en": "Did you know? Modern paper was invented in China over 2000 years ago, and it was made from tree bark, hemp, and old rags.",
+   "vi": "Em có biết không? Giấy hiện đại được phát minh ở Trung Quốc cách đây hơn 2000 năm, và nó được làm từ vỏ cây, cây gai dầu và vải vụn cũ."
+  },
+  {
+   "en": "Did you know? Pencils don't actually contain lead; they use graphite, which is a type of carbon.",
+   "vi": "Em có biết không? Bút chì thực ra không chứa chì; chúng sử dụng than chì, một loại carbon."
+  },
+  {
+   "en": "Did you know? Many school chairs and desks are designed to be adjustable so they can fit students of different heights.",
+   "vi": "Em có biết không? Nhiều ghế và bàn học được thiết kế để có thể điều chỉnh để phù hợp với học sinh ở các chiều cao khác nhau."
+  }
+ ],
+ "project": {
+  "title": "MY FAVORITE SCHOOL THING POSTER",
+  "task": "Create a poster about your favorite school thing. Draw it and write some sentences about it.",
+  "draw_items": [
+   "Your favorite pencil",
+   "Your favorite book",
+   "Your school bag",
+   "A colorful ruler",
+   "Your crayons",
+   "Scissors",
+   "A glue stick",
+   "A whiteboard"
+  ],
+  "example": [
+   "This is my blue backpack.",
+   "It is big and strong.",
+   "I put my books and pencil case in it.",
+   "I use it every day for school.",
+   "I love my backpack because it helps me carry all my things."
+  ],
+  "present": "Hello everyone! This is my poster. My favorite school thing is my ____. It is ____. I use it to ____. I like it very much!",
+  "image_prompt": "A diverse group of 8-year-old children proudly presenting their colorful posters about their favorite school items in a classroom. Each poster has drawings of school things and simple sentences. The children are smiling and enthusiastic, holding up their posters."
+ },
+ "classroom_game": {
+  "name": "What's Missing?",
+  "players": "pairs / small groups",
+  "steps_en": [
+   "1. Each group collects 5-7 school items (e.g., a pencil, an eraser, a ruler, a book).",
+   "2. One student (Student A) arranges the items on the desk.",
+   "3. Student B closes their eyes.",
+   "4. Student A secretly removes one item.",
+   "5. Student B opens their eyes and guesses: 'What's missing?'",
+   "6. Student A answers: 'It's the (pencil).' Then they swap roles."
+  ],
+  "steps_vi": [
+   "1. Mỗi nhóm tập hợp 5-7 đồ dùng học tập (ví dụ: bút chì, cục tẩy, thước kẻ, sách).",
+   "2. Một học sinh (Học sinh A) sắp xếp các đồ vật lên bàn.",
+   "3. Học sinh B nhắm mắt lại.",
+   "4. Học sinh A bí mật lấy đi một đồ vật.",
+   "5. Học sinh B mở mắt và đoán: 'What's missing?' (Cái gì đã mất?)",
+   "6. Học sinh A trả lời: 'It's the (pencil).' (Đó là bút chì.) Sau đó đổi vai."
+  ],
+  "language": [
+   "What's missing?",
+   "Is it the (book)?",
+   "Yes, it is.",
+   "No, it isn't. Try again!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "p_nc_l",
+    "answer": "pencil"
+   },
+   {
+    "word": "b__k",
+    "answer": "book"
+   },
+   {
+    "word": "r_l_r",
+    "answer": "ruler"
+   },
+   {
+    "word": "_r_s_r",
+    "answer": "eraser"
+   },
+   {
+    "word": "n_t_b__k",
+    "answer": "notebook"
+   },
+   {
+    "word": "s_h__l b_g",
+    "answer": "school bag"
+   },
+   {
+    "word": "cr_y_n",
+    "answer": "crayon"
+   },
+   {
+    "word": "s_c_s_rs",
+    "answer": "scissors"
+   },
+   {
+    "word": "gl_e",
+    "answer": "glue"
+   },
+   {
+    "word": "d_sk",
+    "answer": "desk"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ my book.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I have ______ a red ruler.",
+    "options": [
+     "got",
+     "get",
+     "have"
+    ],
+    "answer": "got"
+   },
+   {
+    "q": "Can you draw ______ a pen?",
+    "options": [
+     "with",
+     "on",
+     "in"
+    ],
+    "answer": "with"
+   },
+   {
+    "q": "What ______ is your school bag?",
+    "options": [
+     "do",
+     "color",
+     "many"
+    ],
+    "answer": "color"
+   },
+   {
+    "q": "She ______ using crayons now.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "These ______ my new pencils.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "I use scissors ______ cut paper.",
+    "options": [
+     "for",
+     "to",
+     "at"
+    ],
+    "answer": "to"
+   },
+   {
+    "q": "He ______ got a calculator.",
+    "options": [
+     "have",
+     "has",
+     "having"
+    ],
+    "answer": "has"
+   },
+   {
+    "q": "I like my book ______ it is interesting.",
+    "options": [
+     "but",
+     "and",
+     "because"
+    ],
+    "answer": "because"
+   },
+   {
+    "q": "What ______ you doing?",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / school / my / bag",
+    "answer": "This is my school bag."
+   },
+   {
+    "words": "have / I / a / got / ruler / red",
+    "answer": "I have got a red ruler."
+   },
+   {
+    "words": "draw / Can / you / crayons / with?",
+    "answer": "Can you draw with crayons?"
+   },
+   {
+    "words": "pencil / is / What / your / color?",
+    "answer": "What color is your pencil?"
+   },
+   {
+    "words": "now / reading / I / am / a / book",
+    "answer": "I am reading a book now."
+   },
+   {
+    "words": "use / to / I / write / a / pencil",
+    "answer": "I use a pencil to write."
+   },
+   {
+    "words": "not / I / have / a / got / sharpener",
+    "answer": "I have not got a sharpener."
+   },
+   {
+    "words": "desk / is / tidy / My",
+    "answer": "My desk is tidy."
+   },
+   {
+    "words": "she / What / in / has / her / got / backpack?",
+    "answer": "What has she got in her backpack?"
+   },
+   {
+    "words": "my / I / pen / like / because / it / writes / well",
+    "answer": "I like my pen because it writes well."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "What do you have in your pencil case?",
+   "What color is your school bag?",
+   "Do you have a ruler?",
+   "What do you use an eraser for?",
+   "Can you cut paper with scissors?",
+   "What is your favorite book?",
+   "Do you like your school things?",
+   "What do you like to draw with crayons?"
+  ]
+ },
+ "i_can": [
+  "I can name 10 school things in English.",
+  "I can say what color my school things are.",
+  "I can use 'This is' and 'These are' correctly.",
+  "I can talk about what I have got in my school bag.",
+  "I can ask and answer questions using 'Can you...?'",
+  "I can say what I use my school things for.",
+  "I can tell the difference between Present Simple and Present Continuous for simple actions.",
+  "I can understand short stories about school things.",
+  "I can participate in conversations about school supplies.",
+  "I can follow instructions for a classroom game.",
+  "I can write sentences about my favorite school things.",
+  "I can identify good habits for taking care of my school things.",
+  "I can draw my favorite school thing for a poster.",
+  "I can share my ideas about school things with my friends.",
+  "I can understand and answer simple 'wh-' questions about school items."
+ ],
+ "message_en": "YOUR SCHOOL THINGS ARE YOUR TOOLS FOR LEARNING AND CREATING.",
+ "message_vi": "ĐỒ DÙNG HỌC TẬP LÀ CÔNG CỤ ĐỂ EM HỌC HỎI VÀ SÁNG TẠO.",
+ "message_body": "Your school things are important friends on your learning journey. Take good care of them, use them wisely, and let them help you discover new things every day. Keep learning, keep exploring, and have fun!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Changed phonics tip to correctly describe /p/ as an aspirated sound unlike the Vietnamese 'p'.",
+  "Corrected 'school bag' scramble string to include missing letters.",
+  "Updated emojis for eraser, desk, marker, and sharpener to be more representative.",
+  "Adjusted IPA for 'whiteboard' and 'crayon' to standard American English.",
+  "Refined Vietnamese translation for 'sharpener' to 'cái gọt bút chì' for clarity as a noun.",
+  "Replaced doubtful fun fact about charcoal with a well-known fact about graphite in pencils."
+ ],
+ "unit": 2,
+ "grade": 3,
+ "validation": [],
+ "proofread": true
+}

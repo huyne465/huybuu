@@ -1,0 +1,1180 @@
+{
+ "title": "MY CLOTHES",
+ "theme": "Everyday Life",
+ "goal": "Students can talk about clothes they wear and identify different clothing items.",
+ "goal_vi": "Học sinh có thể nói về quần áo mình mặc và nhận biết các món đồ quần áo khác nhau.",
+ "cover_emoji": "👕👖👗👚",
+ "cover_image_prompt": "A group of diverse and cheerful primary school children, both boys and girls, aged 7, happily trying on and showing off various colorful clothing items in a bright, friendly classroom setting. Some are wearing t-shirts, some dresses, some pants, some hats. Vietnamese children are included. No text.",
+ "big_question": {
+  "en": "What clothes do you like to wear?",
+  "vi": "Bạn thích mặc quần áo gì?",
+  "prompts": [
+   "What do you wear in the morning?",
+   "What do you wear to school?",
+   "Do you like new clothes?",
+   "What color are your clothes today?",
+   "Is your t-shirt big or small?",
+   "Do you like to wear a hat?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "t-shirt",
+   "ipa": "/ˈti ʃɜrt/",
+   "vi": "áo phông",
+   "emoji": "👕",
+   "image_prompt": "A single, plain blue short-sleeved t-shirt, neatly folded on a white background. No text."
+  },
+  {
+   "en": "pants",
+   "ipa": "/pænts/",
+   "vi": "quần dài",
+   "emoji": "👖",
+   "image_prompt": "A single pair of blue denim pants (jeans), neatly folded on a white background. No text."
+  },
+  {
+   "en": "dress",
+   "ipa": "/dres/",
+   "vi": "váy liền",
+   "emoji": "👗",
+   "image_prompt": "A single, colorful (e.g., pink with flowers) child's dress, hanging on a hanger. No text."
+  },
+  {
+   "en": "shirt",
+   "ipa": "/ʃɜrt/",
+   "vi": "áo sơ mi",
+   "emoji": "👔",
+   "image_prompt": "A single, white button-up long-sleeved shirt, neatly folded on a white background. No text."
+  },
+  {
+   "en": "skirt",
+   "ipa": "/skɜrt/",
+   "vi": "chân váy",
+   "emoji": "👗",
+   "image_prompt": "A single, red pleated skirt for a child, hanging on a hanger. No text."
+  },
+  {
+   "en": "shorts",
+   "ipa": "/ʃɔrts/",
+   "vi": "quần đùi",
+   "emoji": "🩳",
+   "image_prompt": "A single pair of green children's shorts, neatly folded on a white background. No text."
+  },
+  {
+   "en": "shoes",
+   "ipa": "/ʃuz/",
+   "vi": "giày",
+   "emoji": "👟",
+   "image_prompt": "A single pair of white sneakers with blue laces, clean and new. No text."
+  },
+  {
+   "en": "socks",
+   "ipa": "/sɑks/",
+   "vi": "tất",
+   "emoji": "🧦",
+   "image_prompt": "A single pair of colorful (e.g., striped) children's socks, neatly folded. No text."
+  },
+  {
+   "en": "hat",
+   "ipa": "/hæt/",
+   "vi": "mũ",
+   "emoji": "👒",
+   "image_prompt": "A single, brown wide-brimmed sun hat, resting on a surface. No text."
+  },
+  {
+   "en": "jacket",
+   "ipa": "/ˈdʒækɪt/",
+   "vi": "áo khoác",
+   "emoji": "🧥",
+   "image_prompt": "A single, blue zippered jacket, hanging on a hanger. No text."
+  },
+  {
+   "en": "coat",
+   "ipa": "/koʊt/",
+   "vi": "áo khoác dày",
+   "emoji": "🧥",
+   "image_prompt": "A single, warm, long red winter coat, hanging on a hanger. No text."
+  },
+  {
+   "en": "sweater",
+   "ipa": "/ˈswetər/",
+   "vi": "áo len",
+   "emoji": "🧶",
+   "image_prompt": "A single, green knitted sweater, neatly folded on a white background. No text."
+  },
+  {
+   "en": "uniform",
+   "ipa": "/ˈjunəˌfɔrm/",
+   "vi": "đồng phục",
+   "emoji": "👔",
+   "image_prompt": "A child's school uniform: a white shirt and blue pants/skirt, neatly arranged. No text."
+  },
+  {
+   "en": "pajamas",
+   "ipa": "/pəˈdʒæməz/",
+   "vi": "bộ đồ ngủ",
+   "emoji": "👕",
+   "image_prompt": "A child's pajama set (top and bottom) with a fun pattern (e.g., stars), neatly folded. No text."
+  },
+  {
+   "en": "cap",
+   "ipa": "/kæp/",
+   "vi": "mũ lưỡi trai",
+   "emoji": "🧢",
+   "image_prompt": "A single, red baseball cap, resting on a surface. No text."
+  },
+  {
+   "en": "sandals",
+   "ipa": "/ˈsændlz/",
+   "vi": "dép quai hậu",
+   "emoji": "🩴",
+   "image_prompt": "A single pair of child's colorful (e.g., blue and yellow) sandals. No text."
+  },
+  {
+   "en": "boots",
+   "ipa": "/buts/",
+   "vi": "ủng, bốt",
+   "emoji": "🥾",
+   "image_prompt": "A single pair of yellow rain boots for children. No text."
+  },
+  {
+   "en": "tie",
+   "ipa": "/taɪ/",
+   "vi": "cà vạt",
+   "emoji": "👔",
+   "image_prompt": "A single, blue striped necktie, hanging neatly. No text."
+  },
+  {
+   "en": "belt",
+   "ipa": "/belt/",
+   "vi": "thắt lưng",
+   "emoji": "👖",
+   "image_prompt": "A single, brown leather belt with a simple buckle, coiled neatly. No text."
+  },
+  {
+   "en": "scarf",
+   "ipa": "/skɑrf/",
+   "vi": "khăn quàng cổ",
+   "emoji": "🧣",
+   "image_prompt": "A single, long, colorful (e.g., red and white) knitted scarf, folded neatly. No text."
+  }
+ ],
+ "phonics": {
+  "sound": "/ʃ/",
+  "letters": "sh",
+  "words": [
+   "shirt",
+   "shoes",
+   "shorts",
+   "shop",
+   "fish",
+   "wish"
+  ],
+  "chant": "She sells shoes, shiny shoes. / Shirley shows her shirts.",
+  "tip_vi": "Âm /ʃ/ giống âm 's' nặng trong tiếng Việt nhưng tròn môi và đẩy hơi mạnh hơn."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my [clothing item].",
+   "vi": "Đây là [món đồ quần áo] của tôi.",
+   "examples": [
+    "This is my t-shirt.",
+    "This is my new dress.",
+    "This is my school uniform."
+   ]
+  },
+  {
+   "pattern": "These are my [clothing item - plural].",
+   "vi": "Đây là [món đồ quần áo số nhiều] của tôi.",
+   "examples": [
+    "These are my pants.",
+    "These are my shoes.",
+    "These are my socks."
+   ]
+  },
+  {
+   "pattern": "I wear [clothing item].",
+   "vi": "Tôi mặc [món đồ quần áo].",
+   "examples": [
+    "I wear a blue shirt.",
+    "I wear shorts to play.",
+    "I wear boots when it rains."
+   ]
+  },
+  {
+   "pattern": "I like my [clothing item].",
+   "vi": "Tôi thích [món đồ quần áo] của tôi.",
+   "examples": [
+    "I like my red dress.",
+    "I like my new jacket.",
+    "I like my comfortable pajamas."
+   ]
+  },
+  {
+   "pattern": "It is [color].",
+   "vi": "Nó có màu [màu sắc].",
+   "examples": [
+    "My t-shirt is green.",
+    "Her skirt is yellow.",
+    "His cap is red."
+   ]
+  },
+  {
+   "pattern": "They are [color].",
+   "vi": "Chúng có màu [màu sắc].",
+   "examples": [
+    "My pants are blue.",
+    "Her shoes are white.",
+    "Their socks are striped."
+   ]
+  },
+  {
+   "pattern": "What is this? It is a [clothing item].",
+   "vi": "Đây là cái gì? Đây là một [món đồ quần áo].",
+   "examples": [
+    "What is this? It is a hat.",
+    "What is this? It is a sweater.",
+    "What is this? It is a coat."
+   ]
+  },
+  {
+   "pattern": "Do you wear a [clothing item]? Yes, I do. / No, I don't.",
+   "vi": "Bạn có mặc [món đồ quần áo] không? Có, tôi có. / Không, tôi không.",
+   "examples": [
+    "Do you wear a uniform? Yes, I do.",
+    "Do you wear a scarf? No, I don't.",
+    "Do you wear sandals? Yes, I do."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "We use 'This is' to talk about one clothing item. We use 'These are' to talk about many clothing items, or items that come in pairs (like pants, shoes, socks).",
+   "explain_vi": "Chúng ta dùng 'This is' để nói về một món đồ quần áo. Chúng ta dùng 'These are' để nói về nhiều món đồ quần áo, hoặc những món đồ đi theo cặp (như quần dài, giày, tất).",
+   "examples": [
+    "This is my shirt.",
+    "This is a red dress.",
+    "These are my new shoes.",
+    "These are blue pants."
+   ],
+   "right": "✅ This is my t-shirt. ✅ These are my socks.",
+   "wrong": "❌ This are my t-shirt. ❌ These is my socks."
+  },
+  {
+   "title": "I wear...",
+   "explain_en": "We use 'I wear' to talk about the clothes you put on your body. It is for actions you do every day.",
+   "explain_vi": "Chúng ta dùng 'I wear' để nói về quần áo bạn mặc trên người. Nó dùng cho các hành động bạn làm hàng ngày.",
+   "examples": [
+    "I wear a uniform to school.",
+    "I wear shorts in summer.",
+    "I wear pajamas at night."
+   ],
+   "right": "✅ I wear a hat.",
+   "wrong": "❌ I wears a hat."
+  },
+  {
+   "title": "It is / They are (for description)",
+   "explain_en": "We use 'It is' to describe one clothing item. We use 'They are' to describe many clothing items or plural items.",
+   "explain_vi": "Chúng ta dùng 'It is' để mô tả một món đồ quần áo. Chúng ta dùng 'They are' để mô tả nhiều món đồ quần áo hoặc các món đồ số nhiều.",
+   "examples": [
+    "My jacket is blue. It is warm.",
+    "My shoes are white. They are clean.",
+    "Her dress is pink. It is pretty."
+   ],
+   "right": "✅ My shirt is red. ✅ My pants are long.",
+   "wrong": "❌ My shirt are red. ❌ My pants is long."
+  },
+  {
+   "title": "What...? / Do you...?",
+   "explain_en": "'What is this?' asks you to name a clothing item. 'Do you wear...?' asks if you wear something, and you answer 'Yes, I do' or 'No, I don't.'",
+   "explain_vi": "'What is this?' hỏi bạn tên một món đồ quần áo. 'Do you wear...?' hỏi bạn có mặc gì đó không, và bạn trả lời 'Yes, I do' hoặc 'No, I don't.'",
+   "examples": [
+    "What is this? It is a skirt.",
+    "Do you wear a jacket? Yes, I do.",
+    "Do you wear a tie? No, I don't."
+   ],
+   "right": "✅ What is this? ✅ Do you wear a uniform?",
+   "wrong": "❌ What are this? ❌ Are you wear a uniform?"
+  }
+ ],
+ "song": {
+  "title": "My Clothes Song",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "I wear my t-shirt, yes I do, yes I do, yes I do.",
+   "I wear my t-shirt, yes I do, all day long.",
+   "I wear my pants, yes I do, yes I do, yes I do.",
+   "I wear my pants, yes I do, all day long.",
+   "I wear my dress, yes I do, yes I do, yes I do.",
+   "I wear my dress, yes I do, all day long.",
+   "I wear my shoes, yes I do, yes I do, yes I do.",
+   "I wear my shoes, yes I do, all day long.",
+   "I wear my hat, yes I do, yes I do, yes I do.",
+   "I wear my hat, yes I do, all day long."
+  ],
+  "actions_vi": "Chỉ vào áo phông khi hát 't-shirt'. Chỉ vào quần khi hát 'pants'. Chỉ vào váy khi hát 'dress'. Giậm chân khi hát 'shoes'. Chạm vào đầu khi hát 'hat'."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY NEW CLOTHES",
+   "text": "My name is Linh. I am seven years old. I like clothes. Today, I have new clothes. This is my yellow t-shirt. It is soft. These are my blue shorts. They are cool. I also have new white shoes. They are clean. I wear my new clothes. I am happy.",
+   "image_prompt": "A cheerful Vietnamese girl, Linh, aged 7, standing happily wearing a yellow t-shirt, blue shorts, and white shoes. She is smiling. Her new clothes look clean and bright. No text.",
+   "vocab": [
+    {
+     "en": "name",
+     "ipa": "/neɪm/",
+     "vi": "tên"
+    },
+    {
+     "en": "old",
+     "ipa": "/oʊld/",
+     "vi": "tuổi"
+    },
+    {
+     "en": "clothes",
+     "ipa": "/kloʊðz/",
+     "vi": "quần áo"
+    },
+    {
+     "en": "new",
+     "ipa": "/nu/",
+     "vi": "mới"
+    },
+    {
+     "en": "t-shirt",
+     "ipa": "/ˈti ʃɜrt/",
+     "vi": "áo phông"
+    },
+    {
+     "en": "yellow",
+     "ipa": "/ˈjeloʊ/",
+     "vi": "màu vàng"
+    },
+    {
+     "en": "soft",
+     "ipa": "/sɑft/",
+     "vi": "mềm"
+    },
+    {
+     "en": "shorts",
+     "ipa": "/ʃɔrts/",
+     "vi": "quần đùi"
+    },
+    {
+     "en": "blue",
+     "ipa": "/blu/",
+     "vi": "màu xanh dương"
+    },
+    {
+     "en": "happy",
+     "ipa": "/ˈhæpi/",
+     "vi": "vui vẻ"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "What does Linh like?",
+    "What color is Linh's t-shirt?",
+    "Is her t-shirt soft or rough?",
+    "What color are her shorts?",
+    "Are her shorts cool or warm?",
+    "What color are her new shoes?",
+    "Are her shoes clean or dirty?",
+    "How does Linh feel?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is eight years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh has new clothes today.",
+     "answer": true
+    },
+    {
+     "statement": "Her t-shirt is blue.",
+     "answer": false
+    },
+    {
+     "statement": "Her shorts are yellow.",
+     "answer": false
+    },
+    {
+     "statement": "Linh is happy with her new clothes.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "WHAT WE WEAR",
+   "text": "Hello! My name is Ben. This is my friend, Mai. We are at school. I wear a white shirt and blue pants. My shoes are black. Mai wears a pink dress. Her shoes are white. We also wear socks. My socks are gray. Mai's socks are pink. Sometimes, I wear a cap. Mai likes to wear a hair bow. We like our school clothes.",
+   "image_prompt": "A cheerful Vietnamese boy (Ben) and girl (Mai), both 7 years old, standing together at school. Ben is wearing a white shirt, blue pants, black shoes, and gray socks. Mai is wearing a pink dress, white shoes, and pink socks. They are smiling. No text.",
+   "vocab": [
+    {
+     "en": "friend",
+     "ipa": "/frend/",
+     "vi": "bạn"
+    },
+    {
+     "en": "school",
+     "ipa": "/skul/",
+     "vi": "trường học"
+    },
+    {
+     "en": "shirt",
+     "ipa": "/ʃɜrt/",
+     "vi": "áo sơ mi"
+    },
+    {
+     "en": "white",
+     "ipa": "/waɪt/",
+     "vi": "màu trắng"
+    },
+    {
+     "en": "pants",
+     "ipa": "/pænts/",
+     "vi": "quần dài"
+    },
+    {
+     "en": "black",
+     "ipa": "/blæk/",
+     "vi": "màu đen"
+    },
+    {
+     "en": "dress",
+     "ipa": "/dres/",
+     "vi": "váy liền"
+    },
+    {
+     "en": "pink",
+     "ipa": "/pɪŋk/",
+     "vi": "màu hồng"
+    },
+    {
+     "en": "socks",
+     "ipa": "/sɑks/",
+     "vi": "tất"
+    },
+    {
+     "en": "cap",
+     "ipa": "/kæp/",
+     "vi": "mũ lưỡi trai"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "Who is Mai?",
+    "Where are Ben and Mai?",
+    "What color is Ben's shirt?",
+    "What color are Ben's pants?",
+    "What color is Mai's dress?",
+    "What color are Mai's shoes?",
+    "What color are Ben's socks?",
+    "What color are Mai's socks?",
+    "What does Ben sometimes wear on his head?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben and Mai are at home.",
+     "answer": false
+    },
+    {
+     "statement": "Ben wears a white shirt.",
+     "answer": true
+    },
+    {
+     "statement": "Mai wears blue pants.",
+     "answer": false
+    },
+    {
+     "statement": "Ben's shoes are black.",
+     "answer": true
+    },
+    {
+     "statement": "Mai likes to wear a cap.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "CLOTHES FOR ALL DAYS",
+   "text": "Hi! I am Tom. This is my sister, Lucy. We have many clothes. In the morning, I wear my uniform. It is a green shirt and brown pants. Lucy wears her uniform, a blue dress. After school, we change clothes. Tom wears a t-shirt and shorts to play. Lucy wears a skirt and a blouse. If it is cold, I wear a jacket. Lucy wears a sweater. When it rains, we wear coats. At night, we wear pajamas. My pajamas are striped. Lucy's pajamas have stars. We have clothes for all days!",
+   "image_prompt": "A cheerful diverse boy (Tom) and girl (Lucy), both around 7 years old, in a bedroom with an open wardrobe. Tom is holding a striped pajama top. Lucy is holding a blue dress. Other clothes like a green shirt, brown pants, t-shirt, shorts, skirt, blouse, jacket, sweater, and coats are visible in the wardrobe or on a chair. They are smiling. No text.",
+   "vocab": [
+    {
+     "en": "sister",
+     "ipa": "/ˈsɪstər/",
+     "vi": "chị/em gái"
+    },
+    {
+     "en": "many",
+     "ipa": "/ˈmeni/",
+     "vi": "nhiều"
+    },
+    {
+     "en": "morning",
+     "ipa": "/ˈmɔrnɪŋ/",
+     "vi": "buổi sáng"
+    },
+    {
+     "en": "uniform",
+     "ipa": "/ˈjunəˌfɔrm/",
+     "vi": "đồng phục"
+    },
+    {
+     "en": "green",
+     "ipa": "/ɡrin/",
+     "vi": "màu xanh lá cây"
+    },
+    {
+     "en": "brown",
+     "ipa": "/braʊn/",
+     "vi": "màu nâu"
+    },
+    {
+     "en": "blouse",
+     "ipa": "/blaʊs/",
+     "vi": "áo kiểu"
+    },
+    {
+     "en": "cold",
+     "ipa": "/koʊld/",
+     "vi": "lạnh"
+    },
+    {
+     "en": "rains",
+     "ipa": "/reɪnz/",
+     "vi": "trời mưa"
+    },
+    {
+     "en": "night",
+     "ipa": "/naɪt/",
+     "vi": "buổi tối"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "Who is Lucy?",
+    "What does Tom wear for his uniform?",
+    "What does Lucy wear for her uniform?",
+    "What does Tom wear to play after school?",
+    "What does Lucy wear after school?",
+    "What does Tom wear if it is cold?",
+    "What does Lucy wear if it is cold?",
+    "What do they wear when it rains?",
+    "What do Tom and Lucy wear at night?"
+   ],
+   "true_false": [
+    {
+     "statement": "Tom and Lucy are brothers.",
+     "answer": false
+    },
+    {
+     "statement": "Tom's uniform is a green shirt and brown pants.",
+     "answer": true
+    },
+    {
+     "statement": "Lucy wears a yellow dress for her uniform.",
+     "answer": false
+    },
+    {
+     "statement": "When it is cold, Tom wears a sweater.",
+     "answer": false
+    },
+    {
+     "statement": "Tom and Lucy wear pajamas at night.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "LOST SOCK!",
+  "panels": [
+   {
+    "scene": "A cheerful Vietnamese boy, Minh, 7 years old, is looking under his bed with a worried expression. His room is a bit messy.",
+    "speech": "Minh: Oh no! Where is my sock?"
+   },
+   {
+    "scene": "Minh's mom, a kind Vietnamese woman, enters his room and sees him looking under the bed. She looks a little curious.",
+    "speech": "Mum: What is wrong, Minh?"
+   },
+   {
+    "scene": "Minh stands up, surprised, with a red sock on top of his head, which he didn't realize was there. He points at it, laughing.",
+    "speech": "Minh: Haha! Here it is! On my head!"
+   },
+   {
+    "scene": "Minh and his mom are both laughing happily. Minh is holding the sock in his hand now.",
+    "speech": "Mum: Silly Minh! Let's get dressed now."
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your name?",
+   "How old are you?",
+   "What clothes do you wear today?",
+   "What color is your t-shirt?",
+   "What color are your pants/shorts?",
+   "Do you wear shoes or sandals today?",
+   "What color are your shoes/sandals?",
+   "Do you wear socks?",
+   "What color are your socks?",
+   "Do you wear a uniform to school?",
+   "What is your favorite piece of clothing?",
+   "What do you wear when it is cold?",
+   "What do you wear when it is hot?",
+   "Do you like to wear a hat?",
+   "Do you like your clothes?"
+  ],
+  "model": "My name is Mai. I am seven years old. Today, I wear a pink t-shirt and blue shorts. I like my t-shirt. It is soft. My shoes are white. I wear them to school. My favorite clothes are my yellow dress. I wear it for parties. I like clothes!",
+  "challenge": "Talk about your favorite clothes for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "NEW DRESS",
+   "image_prompt": "Two cheerful primary school girls, Anna and Mai, aged 7, standing together. Mai is wearing a pretty new dress and twirling slightly. Anna is looking at Mai's dress with a smile. No text.",
+   "lines": [
+    {
+     "speaker": "Anna",
+     "text": "Hi, Mai! Your dress is beautiful!"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Thank you, Anna! It is new."
+    },
+    {
+     "speaker": "Anna",
+     "text": "What color is it?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "It is pink and white."
+    },
+    {
+     "speaker": "Anna",
+     "text": "Do you like it?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, I do! I like it very much."
+    },
+    {
+     "speaker": "Anna",
+     "text": "It looks good on you."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Thanks!"
+    }
+   ]
+  },
+  {
+   "title": "WHAT TO WEAR?",
+   "image_prompt": "Two cheerful primary school boys, Ben and Tom, aged 7, standing in front of an open closet or clothes rack. They are pointing at different clothes like a shirt and shorts, deciding what to wear. No text.",
+   "lines": [
+    {
+     "speaker": "Ben",
+     "text": "Tom, what do you wear today?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I wear a blue t-shirt and green shorts."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Oh, I like blue t-shirts."
+    },
+    {
+     "speaker": "Tom",
+     "text": "What about you, Ben?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I wear my school uniform. A white shirt and black pants."
+    },
+    {
+     "speaker": "Tom",
+     "text": "And your shoes?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "My shoes are black too."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Let's go play!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! Look at the picture. This is Lucy. She wears a pink dress. Her shoes are white. Next is Tom. Tom wears a blue t-shirt and brown shorts. He has a red cap. Look at Mai. Mai wears a yellow skirt and a white blouse. She has green sandals. Now, look at Ben. Ben wears a school uniform. It is a white shirt and black pants. He wears black shoes. They all look very nice in their clothes.",
+  "questions": [
+   "What color is Lucy's dress?",
+   "What color are Lucy's shoes?",
+   "What does Tom wear on his body?",
+   "What color are Tom's shorts?",
+   "Does Tom wear a hat or a cap?",
+   "What does Mai wear on her legs?",
+   "What color is Mai's blouse?",
+   "What kind of shoes does Mai have?",
+   "What uniform does Ben wear?",
+   "What color are Ben's shoes?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "TSHIRT",
+   "PANTS",
+   "DRESS",
+   "SHIRT",
+   "SKIRT",
+   "SHORTS",
+   "SHOES",
+   "SOCKS"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "t-shirt",
+     "dress",
+     "pants",
+     "book"
+    ],
+    "answer": "book",
+    "why_vi": "Cái này không phải đồ mặc."
+   },
+   {
+    "options": [
+     "shoes",
+     "socks",
+     "hat",
+     "table"
+    ],
+    "answer": "table",
+    "why_vi": "Cái này là đồ nội thất, không phải đồ mặc."
+   },
+   {
+    "options": [
+     "jacket",
+     "coat",
+     "sweater",
+     "juice"
+    ],
+    "answer": "juice",
+    "why_vi": "Cái này là đồ uống, không phải quần áo."
+   },
+   {
+    "options": [
+     "uniform",
+     "pajamas",
+     "cap",
+     "banana"
+    ],
+    "answer": "banana",
+    "why_vi": "Cái này là đồ ăn, không phải quần áo."
+   },
+   {
+    "options": [
+     "shirt",
+     "skirt",
+     "shorts",
+     "spoon"
+    ],
+    "answer": "spoon",
+    "why_vi": "Cái này là đồ dùng nhà bếp, không phải quần áo."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have two legs but cannot walk. You wear me on your legs. What am I?",
+    "answer": "pants"
+   },
+   {
+    "riddle": "I cover your head. I keep you warm or cool. What am I?",
+    "answer": "hat"
+   },
+   {
+    "riddle": "Girls wear me. I am one piece. What am I?",
+    "answer": "dress"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "isrht",
+    "answer": "shirt"
+   },
+   {
+    "scrambled": "ssred",
+    "answer": "dress"
+   },
+   {
+    "scrambled": "stpan",
+    "answer": "pants"
+   },
+   {
+    "scrambled": "saech",
+    "answer": "shoes"
+   },
+   {
+    "scrambled": "atnifom",
+    "answer": "uniform"
+   },
+   {
+    "scrambled": "cjkaet",
+    "answer": "jacket"
+   }
+  ],
+  "picture_count": {
+   "question": "How many t-shirts can you see in the cover picture?",
+   "hint_vi": "Hãy nhìn vào bức tranh ở đầu bài học và đếm."
+  }
+ },
+ "write": {
+  "profile_title": "My Clothes Profile",
+  "profile_fields": [
+   "My name is:",
+   "My age is:",
+   "My favorite color is:",
+   "Today, I wear a:",
+   "I also wear:",
+   "My shoes are:",
+   "My favorite clothes are:",
+   "I wear a uniform to:",
+   "I wear pajamas at:",
+   "I like my clothes because:"
+  ],
+  "frame_title": "MY CLOTHES",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "I like to wear ____.",
+   "Today, I wear a ____ t-shirt.",
+   "My pants are ____.",
+   "I wear ____ shoes.",
+   "My favorite clothes are my ____.",
+   "I wear a ____ to school.",
+   "At night, I wear ____.",
+   "I like my clothes very much."
+  ]
+ },
+ "life_skill": {
+  "title": "TAKE CARE OF YOUR CLOTHES",
+  "intro": "Our clothes keep us warm and make us look nice. Taking care of them is important. It helps them last longer and stay clean.",
+  "intro_vi": "Quần áo giúp chúng ta giữ ấm và trông đẹp hơn. Chăm sóc quần áo rất quan trọng, giúp chúng bền hơn và luôn sạch sẽ.",
+  "can_do": [
+   "Hang my clothes neatly.",
+   "Fold my clothes after wearing.",
+   "Keep my clothes clean.",
+   "Ask for help to wash clothes.",
+   "Put dirty clothes in the basket.",
+   "Don't play roughly in nice clothes.",
+   "Wear an apron when eating messy food.",
+   "Change clothes when they are wet.",
+   "Keep my shoes clean.",
+   "Put my socks in the laundry.",
+   "Don't waste new clothes.",
+   "Be thankful for my clothes."
+  ],
+  "value_question": "What can you do to help take care of your clothes at home?",
+  "image_prompt": "A cheerful Vietnamese boy, aged 7, neatly folding his clean t-shirt and putting it into a drawer. His room is tidy. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? People wear clothes for many reasons: to keep warm or cool, for protection, and for style.",
+   "vi": "Bạn có biết không? Mọi người mặc quần áo vì nhiều lý do: để giữ ấm hoặc làm mát, để bảo vệ cơ thể và để thể hiện phong cách."
+  },
+  {
+   "en": "Did you know? A long time ago, people made clothes from animal skin and leaves.",
+   "vi": "Bạn có biết không? Từ rất lâu về trước, con người đã làm quần áo từ da động vật và lá cây."
+  },
+  {
+   "en": "Did you know? Some clothes, like uniforms, help people know what job you do or what school you go to.",
+   "vi": "Bạn có biết không? Một số loại quần áo, như đồng phục, giúp mọi người biết bạn làm nghề gì hoặc bạn học trường nào."
+  },
+  {
+   "en": "Did you know? The zipper, a common part of many clothes, was invented over 100 years ago.",
+   "vi": "Bạn có biết không? Khóa kéo (zipper), một bộ phận phổ biến trên quần áo, đã được phát minh cách đây hơn 100 năm."
+  },
+  {
+   "en": "Did you know? Gloves have fingers, but mittens keep all fingers together (except the thumb).",
+   "vi": "Bạn có biết không? Găng tay (gloves) có các ngón riêng biệt, nhưng găng tay kín ngón (mittens) giữ các ngón tay lại với nhau (trừ ngón cái)."
+  }
+ ],
+ "project": {
+  "title": "MY FAVORITE OUTFIT POSTER",
+  "task": "Create a poster about your favorite outfit for a special day.",
+  "draw_items": [
+   "A t-shirt",
+   "A pair of pants",
+   "A dress",
+   "A pair of shoes",
+   "A hat",
+   "A jacket",
+   "Socks",
+   "A skirt"
+  ],
+  "example": [
+   "Hello! This is my favorite outfit.",
+   "I like to wear a blue t-shirt and yellow shorts.",
+   "My shoes are white.",
+   "I wear a cap when it is sunny.",
+   "I wear these clothes to the park.",
+   "I feel happy in my favorite outfit!"
+  ],
+  "present": "Hello everyone! This is my poster. I drew my favorite clothes. I like to wear...",
+  "image_prompt": "A cheerful diverse group of primary school children, both boys and girls, aged 7, proudly presenting their hand-drawn posters of their favorite outfits. The posters show colorful drawings of clothes. No text on posters."
+ },
+ "classroom_game": {
+  "name": "Clothes Scavenger Hunt",
+  "players": "groups of 4",
+  "steps_en": [
+   "Your teacher will give each group a list of clothes words.",
+   "Find items in the classroom or pictures that match the words.",
+   "Say 'This is a [t-shirt]!' or 'These are [shoes]!' when you find it.",
+   "The first group to find all items wins!"
+  ],
+  "steps_vi": [
+   "Giáo viên sẽ đưa cho mỗi nhóm một danh sách các từ về quần áo.",
+   "Tìm các đồ vật trong lớp học hoặc tranh ảnh phù hợp với các từ đó.",
+   "Nói 'This is a [t-shirt]!' hoặc 'These are [shoes]!' khi bạn tìm thấy.",
+   "Nhóm nào tìm thấy tất cả các đồ vật trước sẽ thắng cuộc!"
+  ],
+  "language": [
+   "This is a...",
+   "These are...",
+   "I see a...",
+   "Do you have...?"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "t-sh__t",
+    "answer": "t-shirt"
+   },
+   {
+    "word": "p__ts",
+    "answer": "pants"
+   },
+   {
+    "word": "dr__s",
+    "answer": "dress"
+   },
+   {
+    "word": "sh__t",
+    "answer": "shirt"
+   },
+   {
+    "word": "sk__t",
+    "answer": "skirt"
+   },
+   {
+    "word": "sh__ts",
+    "answer": "shorts"
+   },
+   {
+    "word": "sh__s",
+    "answer": "shoes"
+   },
+   {
+    "word": "s__ks",
+    "answer": "socks"
+   },
+   {
+    "word": "h__t",
+    "answer": "hat"
+   },
+   {
+    "word": "j__ket",
+    "answer": "jacket"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ my new dress.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I wear ______ blue t-shirt.",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ],
+    "answer": "a"
+   },
+   {
+    "q": "These ______ my shoes.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "My shirt ______ green.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I wear ______ to school.",
+    "options": [
+     "uniform",
+     "uniforms",
+     "a uniform"
+    ],
+    "answer": "a uniform"
+   },
+   {
+    "q": "What ______ this?",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "Do you ______ a hat?",
+    "options": [
+     "wear",
+     "wears",
+     "wearing"
+    ],
+    "answer": "wear"
+   },
+   {
+    "q": "My pants ______ long.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "She wears a pink ______.",
+    "options": [
+     "dress",
+     "dresses",
+     "dressing"
+    ],
+    "answer": "dress"
+   },
+   {
+    "q": "He has a new ______.",
+    "options": [
+     "shirt",
+     "pants",
+     "shoes"
+    ],
+    "answer": "shirt"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / my / t-shirt",
+    "answer": "This is my t-shirt."
+   },
+   {
+    "words": "wear / I / pants / blue",
+    "answer": "I wear blue pants."
+   },
+   {
+    "words": "are / These / my / shoes",
+    "answer": "These are my shoes."
+   },
+   {
+    "words": "dress / red / is / Her",
+    "answer": "Her dress is red."
+   },
+   {
+    "words": "a / Do / wear / you / hat?",
+    "answer": "Do you wear a hat?"
+   },
+   {
+    "words": "a / Ben / shirt / wears",
+    "answer": "Ben wears a shirt."
+   },
+   {
+    "words": "My / are / socks / white",
+    "answer": "My socks are white."
+   },
+   {
+    "words": "new / I / have / a / jacket",
+    "answer": "I have a new jacket."
+   },
+   {
+    "words": "is / What / this?",
+    "answer": "What is this?"
+   },
+   {
+    "words": "clothes / I / my / like",
+    "answer": "I like my clothes."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "What color is your t-shirt today?",
+   "Do you wear pants or shorts?",
+   "What color are your shoes?",
+   "Do you wear a uniform to school?",
+   "What is your favorite piece of clothing?",
+   "Do you like new clothes?",
+   "What do you wear when it is cold?",
+   "What do you wear when you sleep?"
+  ]
+ },
+ "i_can": [
+  "I can say clothes words in English.",
+  "I can use \"This is\" and \"These are\" for clothes.",
+  "I can say what I wear.",
+  "I can describe clothes with colors.",
+  "I can ask \"What is this?\" about clothes.",
+  "I can answer questions about clothes.",
+  "I can sing a song about clothes.",
+  "I can read about clothes.",
+  "I can talk about my favorite clothes.",
+  "I can understand conversations about clothes.",
+  "I can write about my clothes.",
+  "I can take care of my clothes.",
+  "I can find words about clothes.",
+  "I can tell a riddle about clothes.",
+  "I can present my favorite outfit poster."
+ ],
+ "message_en": "CLOTHES HELP US EXPRESS WHO WE ARE AND KEEP US COMFORTABLE.",
+ "message_vi": "QUẦN ÁO GIÚP CHÚNG TA THỂ HIỆN BẢN THÂN VÀ GIỮ CHÚNG TA THOẢI MÁI.",
+ "message_body": "Clothes are part of our everyday life. They keep us safe and let us show our style. Let's learn to love and take good care of them!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Corrected IPA for 't-shirt', 'shirt', 'skirt', 'shorts', 'shoes', 'socks', 'uniform', 'pajamas', 'boots', and 'scarf' to match American English standards.",
+  "Updated 'pajamas' Vietnamese translation to 'bộ đồ ngủ' for better accuracy.",
+  "Changed 't-shirt soft or hard' to 't-shirt soft or rough' in Reading 1 questions as 'rough' is a more appropriate antonym for fabric.",
+  "Adjusted emojis for 'belt', 'pajamas', and 'uniform' to be more representative and less confusing for children.",
+  "Fixed MCQ #10: Changed options and answer to avoid the grammatical error 'a new shoes' or 'a new a shoe'.",
+  "Improved Vietnamese phrasing in 'goal_vi', 'phonics.tip_vi', and 'brain_games.why_vi' to be more natural for Grade 2 learners.",
+  "Ensured consistent use of American English pronunciation symbols in IPA (removed long vowel marks where unnecessary in US English)."
+ ],
+ "unit": 9,
+ "grade": 2,
+ "validation": [],
+ "proofread": true
+}

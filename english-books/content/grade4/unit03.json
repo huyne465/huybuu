@@ -1,0 +1,1174 @@
+{
+ "title": "Birthdays and Months",
+ "theme": "Celebrations",
+ "goal": "Students can talk about birthday dates, months of the year, past birthday celebrations, and future party plans.",
+ "goal_vi": "Học sinh có thể nói về ngày sinh nhật, các tháng trong năm, kỷ niệm sinh nhật đã qua và kế hoạch cho bữa tiệc sinh nhật.",
+ "cover_emoji": "🎂🎈📅🎉",
+ "cover_image_prompt": "A cheerful classroom celebration scene with Vietnamese primary students wearing colourful party hats around a big birthday cake with burning candles, bright balloons, and a large wall calendar showing twelve colorful months. Bright, friendly children's illustration style, warm lighting, no text or words anywhere in the image.",
+ "big_question": {
+  "en": "When is your birthday and how do you like to celebrate it?",
+  "vi": "Sinh nhật của em là khi nào và em thích tổ chức sinh nhật như thế nào?",
+  "prompts": [
+   "In which month were you born?",
+   "How old are you on your next birthday?",
+   "What do you usually eat on your birthday?",
+   "Who comes to your birthday party?",
+   "What present do you want this year?",
+   "Do you like party games?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "January",
+   "ipa": "/ˈdʒæn.ju.er.i/",
+   "vi": "Tháng Một",
+   "emoji": "❄️",
+   "image_prompt": "A colorful page of a desk calendar showing the first month of the year with snowflakes, vector style, no text."
+  },
+  {
+   "en": "February",
+   "ipa": "/ˈfeb.ru.er.i/",
+   "vi": "Tháng Hai",
+   "emoji": "💖",
+   "image_prompt": "A cute calendar page with small red hearts on it, vector illustration, no text."
+  },
+  {
+   "en": "March",
+   "ipa": "/mɑːrtʃ/",
+   "vi": "Tháng Ba",
+   "emoji": "🌱",
+   "image_prompt": "A calendar page with little green sprouts growing, flat art, no text."
+  },
+  {
+   "en": "April",
+   "ipa": "/ˈeɪ.prəl/",
+   "vi": "Tháng Tư",
+   "emoji": "🌧️",
+   "image_prompt": "A calendar page with light rain clouds and a bright umbrella, no text."
+  },
+  {
+   "en": "May",
+   "ipa": "/meɪ/",
+   "vi": "Tháng Năm",
+   "emoji": "🌸",
+   "image_prompt": "A calendar page surrounded by pink spring flowers, bright children illustration style, no text."
+  },
+  {
+   "en": "June",
+   "ipa": "/dʒuːn/",
+   "vi": "Tháng Sáu",
+   "emoji": "☀️",
+   "image_prompt": "A calendar page with a shining yellow sun and beach ball nearby, no text."
+  },
+  {
+   "en": "July",
+   "ipa": "/dʒʊˈlaɪ/",
+   "vi": "Tháng Bảy",
+   "emoji": "🍦",
+   "image_prompt": "A calendar page next to a tasty ice cream cone, vivid colors, no text."
+  },
+  {
+   "en": "August",
+   "ipa": "/ˈɔː.ɡəst/",
+   "vi": "Tháng Tám",
+   "emoji": "🍉",
+   "image_prompt": "A calendar page beside a slice of fresh watermelon, colorful vector illustration, no text."
+  },
+  {
+   "en": "September",
+   "ipa": "/sepˈtem.bər/",
+   "vi": "Tháng Chín",
+   "emoji": "🎒",
+   "image_prompt": "A calendar page next to a red school bag and yellow pencil, bright clean art, no text."
+  },
+  {
+   "en": "October",
+   "ipa": "/ɒkˈtəʊ.bər/",
+   "vi": "Tháng Mười",
+   "emoji": "🍁",
+   "image_prompt": "A calendar page decorated with orange autumn leaves, cozy illustration style, no text."
+  },
+  {
+   "en": "November",
+   "ipa": "/nəʊˈvem.bər/",
+   "vi": "Tháng Mười Một",
+   "emoji": "🍂",
+   "image_prompt": "A calendar page with falling golden leaves, simple clean illustration, no text."
+  },
+  {
+   "en": "December",
+   "ipa": "/dɪˈsem.bər/",
+   "vi": "Tháng Mười Hai",
+   "emoji": "🎄",
+   "image_prompt": "A calendar page with a small festive pine tree nearby, cute illustration style, no text."
+  },
+  {
+   "en": "birthday cake",
+   "ipa": "/ˈbɜːrθ.deɪ keɪk/",
+   "vi": "bánh sinh nhật",
+   "emoji": "🎂",
+   "image_prompt": "A round chocolate cake with white cream frosting and colorful sprinkles on a blue plate, no text."
+  },
+  {
+   "en": "candle",
+   "ipa": "/ˈkæn.dəl/",
+   "vi": "cây nến",
+   "emoji": "🕯️",
+   "image_prompt": "A single bright yellow lit candle standing on a small round cake base, no text."
+  },
+  {
+   "en": "gift",
+   "ipa": "/ɡɪft/",
+   "vi": "quà tặng",
+   "emoji": "🎁",
+   "image_prompt": "A square blue gift box wrapped with a shiny red ribbon bow, no text."
+  },
+  {
+   "en": "balloon",
+   "ipa": "/bəˈluːn/",
+   "vi": "quả bóng bay",
+   "emoji": "🎈",
+   "image_prompt": "Three floating balloons in red, yellow, and blue tied with simple strings, no text."
+  },
+  {
+   "en": "invitation",
+   "ipa": "/ˌɪn.vɪˈteɪ.ʃən/",
+   "vi": "thiệp mời",
+   "emoji": "✉️",
+   "image_prompt": "A pretty open envelope containing a colorful decorated card with birthday stars, no text."
+  },
+  {
+   "en": "party hat",
+   "ipa": "/ˈpɑːr.ti hæt/",
+   "vi": "mũ bữa tiệc",
+   "emoji": "🥳",
+   "image_prompt": "A pointy cone party hat with colorful stripes and a tiny fluffy pom-pom on top, no text."
+  },
+  {
+   "en": "calendar",
+   "ipa": "/ˈkæl.ɪn.dər/",
+   "vi": "lịch",
+   "emoji": "📅",
+   "image_prompt": "A flip table calendar standing on a wooden desk, clean vector art style, no text."
+  },
+  {
+   "en": "celebrate",
+   "ipa": "/ˈsel.ə.breɪt/",
+   "vi": "tổ chức kỷ niệm",
+   "emoji": "🎉",
+   "image_prompt": "Confetti bursting out with colorful paper ribbons floating in the air, joyful atmosphere, no text."
+  }
+ ],
+ "phonics": {
+  "sound": "/θ/",
+  "letters": "th",
+  "words": [
+   "birthday",
+   "month",
+   "third",
+   "tenth",
+   "think",
+   "three"
+  ],
+  "chant": "Think about your birthday month!\nIs it the third or the tenth of June?",
+  "tip_vi": "Đặt nhẹ đầu lưỡi giữa hai hàm răng và thổi hơi ra để tạo âm /θ/ như trong từ 'birthday'."
+ },
+ "patterns": [
+  {
+   "pattern": "When is your birthday? - It is in + [month].",
+   "vi": "Sinh nhật của bạn là khi nào? - Vào tháng [tháng].",
+   "examples": [
+    "When is your birthday? - It is in May.",
+    "When is your birthday? - It is in October.",
+    "When is your birthday? - It is in December."
+   ]
+  },
+  {
+   "pattern": "When is your birthday? - It is on the + [date] + of + [month].",
+   "vi": "Sinh nhật của bạn vào ngày nào? - Vào ngày [ngày] tháng [tháng].",
+   "examples": [
+    "When is your birthday? - It is on the fifth of March.",
+    "When is your birthday? - It is on the twentieth of November.",
+    "When is your birthday? - It is on the first of January."
+   ]
+  },
+  {
+   "pattern": "What will you do on your birthday? - I will + [verb].",
+   "vi": "Bạn sẽ làm gì vào ngày sinh nhật? - Tớ sẽ [hành động].",
+   "examples": [
+    "What will you do on your birthday? - I will invite my friends.",
+    "What will you do on your birthday? - I will blow out the candles.",
+    "What will you do on your birthday? - I will eat a big cake."
+   ]
+  },
+  {
+   "pattern": "Were you happy on your birthday? - Yes, I was. / No, I was not.",
+   "vi": "Bạn có vui vào sinh nhật không? - Có, tớ rất vui. / Không, tớ không.",
+   "examples": [
+    "Were you happy on your birthday? - Yes, I was.",
+    "Were you excited about your birthday? - Yes, I was very excited.",
+    "Were you sad at the party? - No, I was not."
+   ]
+  },
+  {
+   "pattern": "Who came to your party? - [Name/People] came to my party.",
+   "vi": "Ai đã đến dự tiệc của bạn? - [Tên/Người] đã đến dự tiệc của tớ.",
+   "examples": [
+    "Who came to your party? - My classmates came to my party.",
+    "Who came to your party? - Nam and Mai came to my party.",
+    "Who came to your party? - My grandparents came to my party."
+   ]
+  },
+  {
+   "pattern": "My birthday is bigger/louder than yours!",
+   "vi": "Sinh nhật của tớ lớn hơn/nhộn nhịp hơn của bạn!",
+   "examples": [
+    "My cake is bigger than your cake.",
+    "This box is heavier than that box.",
+    "Our party was funnier than last year."
+   ]
+  },
+  {
+   "pattern": "I was born in + [month].",
+   "vi": "Tôi sinh vào tháng [tháng].",
+   "examples": [
+    "I was born in August.",
+    "My sister was born in April.",
+    "Linh was born in September."
+   ]
+  },
+  {
+   "pattern": "What gift do you want? - I want a/an + [noun].",
+   "vi": "Bạn muốn món quà gì? - Tớ muốn một [món đồ].",
+   "examples": [
+    "What gift do you want? - I want a new storybook.",
+    "What gift do you want? - I want a small teddy bear.",
+    "What gift do you want? - I want a yellow bicycle."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Prepositions of Time: IN vs. ON",
+   "explain_en": "Use 'in' for months, years, and seasons. Use 'on' for specific dates and special days.",
+   "explain_vi": "Dùng 'in' đi với tháng, năm, mùa. Dùng 'on' đi với ngày cụ thể hoặc dịp lễ.",
+   "examples": [
+    "My birthday is in July.",
+    "My party is on July 12th.",
+    "We celebrate Teacher's Day on November 20th."
+   ],
+   "right": "✅ My birthday is in September.",
+   "wrong": "❌ My birthday is on September."
+  },
+  {
+   "title": "Past Simple of 'be': WAS and WERE",
+   "explain_en": "Use 'was' with I, he, she, it, and singular nouns. Use 'were' with you, we, they, and plural nouns.",
+   "explain_vi": "Dùng 'was' cho I, he, she, it và danh từ số ít. Dùng 'were' cho you, we, they và danh từ số nhiều.",
+   "examples": [
+    "I was happy yesterday.",
+    "The candles were on the cake.",
+    "My friends were at my house last night."
+   ],
+   "right": "✅ My friends were happy at the party.",
+   "wrong": "❌ My friends was happy at the party."
+  },
+  {
+   "title": "Future Intentions with WILL",
+   "explain_en": "Use 'will' + base verb to express a promise, plan, or decision for the future.",
+   "explain_vi": "Dùng 'will' + động từ nguyên thể để thể hiện ý định hoặc kế hoạch trong tương lai.",
+   "examples": [
+    "I will make invitations tomorrow.",
+    "We will sing a birthday song.",
+    "He will wear a blue party hat."
+   ],
+   "right": "✅ I will buy five red balloons.",
+   "wrong": "❌ I will buying five red balloons."
+  },
+  {
+   "title": "Ordinal Numbers for Dates",
+   "explain_en": "When saying dates, use ordinal numbers like 1st (first), 2nd (second), 3rd (third), 4th (fourth).",
+   "explain_vi": "Khi nói ngày tháng, dùng số thứ tự như 1st (first), 2nd (second), 3rd (third), 4th (fourth).",
+   "examples": [
+    "My birthday is on the first of May.",
+    "Today is the second of October.",
+    "Her party is on the twentieth of June."
+   ],
+   "right": "✅ It is on the third of March.",
+   "wrong": "❌ It is on the three of March."
+  }
+ ],
+ "song": {
+  "title": "Twelve Months Birthday Song",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "January, February, March and April,",
+   "May and June bring sun so bright!",
+   "July, August, September days,",
+   "October leaves in autumn haze!",
+   "November, December, hear us cheer,",
+   "Happy birthday all through the year!",
+   "When is your birthday, tell us please,",
+   "Blow the candles with a gentle breeze!"
+  ],
+  "actions_vi": "Học sinh vỗ tay theo nhịp, xòe ngón tay đếm các tháng và làm động tác thổi nến ở hai câu cuối."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "Mai's Birthday Party",
+   "text": "My name is Mai. I am nine years old. My birthday is in May. It is on the tenth of May. Yesterday was my birthday! I was very happy. My mother bought a big chocolate cake for me. There were nine bright candles on the cake. My friends Minh and Linh came to my house. They gave me beautiful presents. We ate sweet cake and drank juice. We sang the birthday song together. My cat was near the table too. It was a wonderful day for me!",
+   "image_prompt": "A young Vietnamese girl in a yellow dress blowing out candles on a chocolate cake, surrounded by two smiling friends and a small cat nearby, cozy home setting, vector illustration, no text.",
+   "vocab": [
+    {
+     "en": "ninth",
+     "ipa": "/naɪnθ/",
+     "vi": "thứ chín"
+    },
+    {
+     "en": "May",
+     "ipa": "/meɪ/",
+     "vi": "Tháng Năm"
+    },
+    {
+     "en": "bought",
+     "ipa": "/bɔːt/",
+     "vi": "đã mua"
+    },
+    {
+     "en": "chocolate cake",
+     "ipa": "/ˈtʃɑːk.lət keɪk/",
+     "vi": "bánh sô-cô-la"
+    },
+    {
+     "en": "bright",
+     "ipa": "/braɪt/",
+     "vi": "rực rỡ"
+    },
+    {
+     "en": "came",
+     "ipa": "/keɪm/",
+     "vi": "đã đến"
+    },
+    {
+     "en": "gave",
+     "ipa": "/ɡeɪv/",
+     "vi": "đã tặng"
+    },
+    {
+     "en": "juice",
+     "ipa": "/dʒuːs/",
+     "vi": "nước trái cây"
+    },
+    {
+     "en": "sang",
+     "ipa": "/sæŋ/",
+     "vi": "đã hát"
+    },
+    {
+     "en": "wonderful",
+     "ipa": "/ˈwʌn.dər.fəl/",
+     "vi": "tuyệt vời"
+    }
+   ],
+   "questions": [
+    "How old is Mai?",
+    "In which month is Mai's birthday?",
+    "What date is Mai's birthday?",
+    "Was Mai happy on her birthday?",
+    "What kind of cake did her mother buy?",
+    "How many candles were on the cake?",
+    "Who came to Mai's house?",
+    "What did her friends give her?",
+    "What did they eat and drink?",
+    "What animal was near the table?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is eight years old.",
+     "answer": false
+    },
+    {
+     "statement": "Mai's birthday is in May.",
+     "answer": true
+    },
+    {
+     "statement": "There were ten candles on the cake.",
+     "answer": false
+    },
+    {
+     "statement": "Minh and Linh are Mai's friends.",
+     "answer": true
+    },
+    {
+     "statement": "They sang the birthday song together.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "Four Seasons of Birthdays",
+   "text": "In our class, pupils have birthdays in all four seasons. There are twelve months in a year. Nam was born in January, so his birthday is in winter. He loves cold weather because his family makes hot soup. An has her birthday in April. Spring is warm and flowers are everywhere. My birthday is in July, in the middle of summer holiday. I usually celebrate it at the beach with my cousins. We make sandcastles and play games. Hoa's birthday is in October. Autumn leaves are orange and yellow. She invites all of us to her garden. Every month brings different joy. We love celebrating birthdays together!",
+   "image_prompt": "Four small circular art frames showing four children celebrating birthdays in four different seasons: winter snow, spring flowers, summer beach, and autumn leaves. Colorful children's book illustration style, no text.",
+   "vocab": [
+    {
+     "en": "seasons",
+     "ipa": "/ˈsiː.zənz/",
+     "vi": "các mùa"
+    },
+    {
+     "en": "twelve",
+     "ipa": "/twelv/",
+     "vi": "mười hai"
+    },
+    {
+     "en": "winter",
+     "ipa": "/ˈwɪn.tər/",
+     "vi": "mùa đông"
+    },
+    {
+     "en": "soup",
+     "ipa": "/suːp/",
+     "vi": "món súp"
+    },
+    {
+     "en": "spring",
+     "ipa": "/sprɪŋ/",
+     "vi": "mùa xuân"
+    },
+    {
+     "en": "summer",
+     "ipa": "/ˈsʌm.ər/",
+     "vi": "mùa hè"
+    },
+    {
+     "en": "cousins",
+     "ipa": "/ˈkʌz.ənz/",
+     "vi": "anh chị em họ"
+    },
+    {
+     "en": "autumn",
+     "ipa": "/ˈɔː.təm/",
+     "vi": "mùa thu"
+    },
+    {
+     "en": "garden",
+     "ipa": "/ˈɡɑːr.dən/",
+     "vi": "khu vườn"
+    },
+    {
+     "en": "joy",
+     "ipa": "/dʒɔɪ/",
+     "vi": "niềm vui"
+    }
+   ],
+   "questions": [
+    "How many months are there in a year?",
+    "In which month was Nam born?",
+    "Why does Nam like cold weather?",
+    "When is An's birthday?",
+    "What is the weather like in spring?",
+    "When is the writer's birthday?",
+    "Where does the writer usually celebrate their birthday?",
+    "What do they make at the beach?",
+    "In which month is Hoa's birthday?",
+    "Where does Hoa invite her friends?"
+   ],
+   "true_false": [
+    {
+     "statement": "There are ten months in a year.",
+     "answer": false
+    },
+    {
+     "statement": "Nam's birthday is in January.",
+     "answer": true
+    },
+    {
+     "statement": "An's birthday is in summer.",
+     "answer": false
+    },
+    {
+     "statement": "Hoa's birthday is in October.",
+     "answer": true
+    },
+    {
+     "statement": "The children hate celebrating birthdays.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "A Surprise Birthday Party for Ben",
+   "text": "Last week, our class planned a special secret for Ben. Ben was born on the twentieth of November. He thought nobody remembered his birthday! In the morning, Ben walked into the classroom. It was dark and quiet. Suddenly, the lights turned on! Everyone shouted, 'Happy Birthday, Ben!' Ben was so surprised that his eyes opened wide.\n\nOur teacher, Ms. Anna, placed a large strawberry cake on the teacher's desk. There were nine pink candles on top. Ben blew out all the candles in one big breath. Then, Tom gave Ben a colorful card. All of us wrote friendly messages inside it. Linh brought floating balloons, and Nam played a happy song on his recorder.\n\nBen said, 'Thank you, everyone! This is the best birthday party ever!' We shared cake, played musical chairs, and laughed together. Ben will remember this happy day for a very long time.",
+   "image_prompt": "A surprised schoolboy entering a brightly decorated classroom while classmates clap and pull party poppers, a strawberry cake sits on the front table, warm and happy primary school classroom scene, vector style, no text.",
+   "vocab": [
+    {
+     "en": "secret",
+     "ipa": "/ˈsiː.krət/",
+     "vi": "bí mật"
+    },
+    {
+     "en": "remembered",
+     "ipa": "/rɪˈmem.bərd/",
+     "vi": "đã nhớ"
+    },
+    {
+     "en": "suddenly",
+     "ipa": "/ˈsʌd.ən.li/",
+     "vi": "bột ngột"
+    },
+    {
+     "en": "shouted",
+     "ipa": "/ˈʃaʊ.tɪd/",
+     "vi": "đã hét lớn"
+    },
+    {
+     "en": "surprised",
+     "ipa": "/sərˈpraɪzd/",
+     "vi": "ngạc nhiên"
+    },
+    {
+     "en": "strawberry",
+     "ipa": "/ˈstrɔː.ber.i/",
+     "vi": "quả dâu tây"
+    },
+    {
+     "en": "breath",
+     "ipa": "/breθ/",
+     "vi": "hơi thở"
+    },
+    {
+     "en": "messages",
+     "ipa": "/ˈmes.ɪ.dʒɪz/",
+     "vi": "lời nhắn"
+    },
+    {
+     "en": "recorder",
+     "ipa": "/rɪˈkɔːr.dər/",
+     "vi": "sáo dọc"
+    },
+    {
+     "en": "shared",
+     "ipa": "/ʃerd/",
+     "vi": "đã chia sẻ"
+    }
+   ],
+   "questions": [
+    "When was Ben born?",
+    "What did Ben think in the morning?",
+    "How was the classroom when Ben walked in?",
+    "What did the students shout when the lights turned on?",
+    "How did Ben look when he was surprised?",
+    "What kind of cake did Ms. Anna place on the desk?",
+    "How many candles were on the cake?",
+    "What did Tom give Ben?",
+    "What instrument did Nam play?",
+    "What game did the children play together?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben's birthday is in December.",
+     "answer": false
+    },
+    {
+     "statement": "Ben knew about the surprise party beforehand.",
+     "answer": false
+    },
+    {
+     "statement": "The teacher bought a strawberry cake.",
+     "answer": true
+    },
+    {
+     "statement": "Nam played a song on his recorder.",
+     "answer": true
+    },
+    {
+     "statement": "The students played musical chairs.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "The Calendar Confusion",
+  "panels": [
+   {
+    "scene": "Ben is looking excitedly at a wall calendar while pointing at a date.",
+    "speech": "Ben: Yay! My birthday party is tomorrow!"
+   },
+   {
+    "scene": "Linh points at the month heading on top of the calendar.",
+    "speech": "Linh: Wait, Ben! Today is October 5th, not November 5th!"
+   },
+   {
+    "scene": "Ben holds up party hats with a confused expression.",
+    "speech": "Ben: Oh no! I already blew up twenty balloons!"
+   },
+   {
+    "scene": "Linh and Ben laugh together and eat cupcakes.",
+    "speech": "Linh: That is okay! We can have an early practice party today!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "In which month is your birthday?",
+   "What date is your birthday?",
+   "How old will you be on your next birthday?",
+   "What is your favorite month of the year?",
+   "Why do you like that month?",
+   "Who usually comes to your birthday party?",
+   "What kind of cake do you like best?",
+   "Do you prefer chocolate or vanilla cake?",
+   "What gifts did you get last year?",
+   "What gift do you want this year?",
+   "What games do you like to play at parties?",
+   "Do you wear a party hat at your birthday?",
+   "Who bakes or buys your birthday cake?",
+   "Were you happy on your last birthday?",
+   "How will you decorate your room for your next birthday?"
+  ],
+  "model": "Hello everyone! My name is Minh. I am nine years old. My birthday is on the fifteenth of August. August is in the summer. Last year, I had a fun birthday party at my home. My mother made a big chocolate cake with nine candles. My friends came and gave me storybooks and a new robot. We sang songs and played games. Next year, I will invite all my classmates to my party!",
+  "challenge": "Talk about your birthday and your favorite birthday memory for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Planning the Birthday Party",
+   "image_prompt": "Two young primary students, a Vietnamese boy and an English girl, chatting with notebook and pencils on a school desk, cheerful style, no text.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi, Tom! When is your birthday?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Hi, Mai! My birthday is on the twelfth of December."
+    },
+    {
+     "speaker": "Mai",
+     "text": "That is in winter! What will you do on that day?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I will have a small party at my home."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Will you invite our classmates?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, I will! I am writing invitation cards now."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Awesome! What cake will you have?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I want a strawberry cake with ten yellow candles."
+    },
+    {
+     "speaker": "Mai",
+     "text": "I cannot wait for your party!"
+    }
+   ]
+  },
+  {
+   "title": "Comparing Birthdays",
+   "image_prompt": "Two primary children looking at a bright colorful desk calendar together in a library setting, clean children illustration style, no text.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Linh, is your birthday in March?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "No, it isn't. My birthday is in September."
+    },
+    {
+     "speaker": "An",
+     "text": "Oh, my birthday is in September too!"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Really? Which date were you born?"
+    },
+    {
+     "speaker": "An",
+     "text": "I was born on the third of September."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Mine is on the twentieth of September. Yours is earlier than mine!"
+    },
+    {
+     "speaker": "An",
+     "text": "Yes! We can celebrate our birthday month together!"
+    },
+    {
+     "speaker": "Linh",
+     "text": "That is a great idea! Let us tell Ms. Anna!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello! My name is Nam. I am nine years old. Today I am very excited because my birthday month is here! I was born on the fourth of October. October is a lovely autumn month in Hanoi. Yesterday, my mother and I went to the store to buy decorations. We bought ten red balloons, shiny paper ribbons, and ten colourful party hats. Tomorrow is my birthday! My mother will bake a sweet apple cake. My father will buy a big blue gift box for me. I invited seven friends from my school. We will play hide and seek in the yard and eat sweet cake. My friend Minh will bring his guitar, and we will sing happy songs together. I love my birthday month very much!",
+  "questions": [
+   "How old is Nam?",
+   "In which month is Nam's birthday?",
+   "What date is Nam's birthday?",
+   "How is the weather in Hanoi in October?",
+   "Where did Nam and his mother go yesterday?",
+   "How many red balloons did they buy?",
+   "What kind of cake will Nam's mother bake?",
+   "What present will his father buy?",
+   "How many friends did Nam invite from school?",
+   "What instrument will Minh bring?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "JANUARY",
+   "AUGUST",
+   "CANDLE",
+   "BALLOON",
+   "PARTY",
+   "MARCH",
+   "APRIL",
+   "GIFTS"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "January",
+     "March",
+     "Sunday",
+     "October"
+    ],
+    "answer": "Sunday",
+    "why_vi": "Sunday là ngày trong tuần, ba từ còn lại là các tháng trong năm."
+   },
+   {
+    "options": [
+     "cake",
+     "balloon",
+     "invitation",
+     "pencil"
+    ],
+    "answer": "pencil",
+    "why_vi": "Pencil là đồ dùng học tập, các từ còn lại là vật dụng cho tiệc sinh nhật."
+   },
+   {
+    "options": [
+     "was",
+     "were",
+     "is",
+     "had"
+    ],
+    "answer": "is",
+    "why_vi": "Is ở thì hiện tại đơn, ba từ còn lại ở thì quá khứ đơn."
+   },
+   {
+    "options": [
+     "first",
+     "third",
+     "five",
+     "tenth"
+    ],
+    "answer": "five",
+    "why_vi": "Five là số đếm, các từ còn lại là số thứ tự dùng cho ngày tháng."
+   },
+   {
+    "options": [
+     "spring",
+     "summer",
+     "December",
+     "autumn"
+    ],
+    "answer": "December",
+    "why_vi": "December là tháng trong năm, các từ còn lại là các mùa."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have twelve members in my family. I show days, weeks, and months on the wall. What am I?",
+    "answer": "A calendar"
+   },
+   {
+    "riddle": "I am sweet and soft. People put candles on top of me and blow them out. What am I?",
+    "answer": "A birthday cake"
+   },
+   {
+    "riddle": "I am full of air, bright and light. If you pop me with a pin, I make a loud sound! What am I?",
+    "answer": "A balloon"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "yranauj",
+    "answer": "january"
+   },
+   {
+    "scrambled": "tsugua",
+    "answer": "august"
+   },
+   {
+    "scrambled": "lednac",
+    "answer": "candle"
+   },
+   {
+    "scrambled": "trapy",
+    "answer": "party"
+   },
+   {
+    "scrambled": "noollab",
+    "answer": "balloon"
+   },
+   {
+    "scrambled": "rednalac",
+    "answer": "calendar"
+   }
+  ],
+  "picture_count": {
+   "question": "How many candles can you see on the cover birthday cake?",
+   "hint_vi": "Hãy đếm số cây nến rực rỡ cắm trên chiếc bánh sinh nhật ở bức tranh bìa nhé!"
+  }
+ },
+ "write": {
+  "profile_title": "My Birthday Profile",
+  "profile_fields": [
+   "My full name is:",
+   "My age is:",
+   "My birthday month is:",
+   "My exact birthday date is:",
+   "My favorite birthday cake is:",
+   "My best party game is:",
+   "The friends I invite are:",
+   "My favorite gift from last year was:",
+   "The gift I want this year is:",
+   "How I feel on my birthday:"
+  ],
+  "frame_title": "MY BIRTHDAY STORY",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "My birthday is in ____.",
+   "It is on the ____ of ____.",
+   "On my birthday, my family buys a big ____ cake.",
+   "There are ____ candles on my cake.",
+   "I invite my friends ____ and ____ to my party.",
+   "We play ____ and eat delicious ____.",
+   "Last year, I received a wonderful ____.",
+   "I love my birthday because ____."
+  ]
+ },
+ "life_skill": {
+  "title": "BE GRATEFUL AND KIND ON YOUR BIRTHDAY",
+  "intro": "A birthday is not just about gifts and cake. It is a special time to thank your parents and share joy with others!",
+  "intro_vi": "Sinh nhật không chỉ là quà và bánh. Đó là dịp đặc biệt để cảm ơn cha mẹ và chia sẻ niềm vui với mọi người xung quanh!",
+  "can_do": [
+   "Say thank you to my parents for caring for me.",
+   "Share my birthday cake with my family and friends.",
+   "Say polite thank-you words when receiving gifts.",
+   "Keep my room clean before and after the party.",
+   "Help clean up paper plates and decorations.",
+   "Remember my friends' birthday dates.",
+   "Write handmade birthday cards for my friends.",
+   "Include all classmates when playing party games.",
+   "Be happy even if I do not get every present I want.",
+   "Wish my grandparents good health on special days.",
+   "Donate old toys on my birthday to help other children.",
+   "Smile and spread happiness to everyone around me."
+  ],
+  "value_question": "What is one nice thing you can do for your parents on your birthday?",
+  "image_prompt": "A young child giving a handmade 'Thank You Mom and Dad' card with small flowers to parents, warm home setting, joyful expression, flat style, no text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? On a birthday cake, we often put one candle for each year of your age!",
+   "vi": "Em có biết? Trên bánh sinh nhật, chúng ta thường cắm số nến bằng số tuổi của em!"
+  },
+  {
+   "en": "Did you know? The tune of 'Happy Birthday to You' is more than 120 years old!",
+   "vi": "Em có biết? Giai điệu bài 'Happy Birthday to You' đã có từ hơn 120 năm trước!"
+  },
+  {
+   "en": "Did you know? In the past in Vietnam, everyone became one year older together at Tet, not on their birthday!",
+   "vi": "Em có biết? Ngày xưa ở Việt Nam, mọi người cùng thêm một tuổi vào dịp Tết chứ không phải vào ngày sinh nhật!"
+  },
+  {
+   "en": "Did you know? The world's largest birthday cake weighed over 50,000 kilograms in North America!",
+   "vi": "Chiếc bánh sinh nhật lớn nhất thế giới nặng hơn 50.000 kg ở Bắc Mỹ!"
+  },
+  {
+   "en": "Did you know? Blowing out candles on cakes started in ancient Greece to honor the shining moon!",
+   "vi": "Tục lệ thổi nến trên bánh sinh nhật bắt nguồn từ thời Hy Lạp cổ đại để tôn vinh ánh mặt trăng rực rỡ!"
+  }
+ ],
+ "project": {
+  "title": "MY BIRTHDAY PARTY POSTER",
+  "task": "Design and present a poster about your dream birthday party to your class.",
+  "draw_items": [
+   "A big colorful calendar with your birthday date circled",
+   "Your dream birthday cake with candles",
+   "Five bright party balloons",
+   "Two gift boxes wrapped with ribbons",
+   "A party hat with polka dots",
+   "A invitation card for your best friend",
+   "Your favorite party food and drinks",
+   "You and your friends smiling at the party"
+  ],
+  "example": [
+   "Hello everyone! This is my Dream Birthday Poster.",
+   "My birthday is on the eighth of May.",
+   "At my dream party, I will have a huge strawberry cake.",
+   "There will be ten glowing candles on the cake.",
+   "I will decorate my room with yellow balloons.",
+   "My friends Mai, Nam, and Ben will come.",
+   "We will play fun games and sing cheerful songs.",
+   "Thank you for listening to my presentation!"
+  ],
+  "present": "Hello everyone! This is my Birthday Poster. My birthday is in... I will invite...",
+  "image_prompt": "A Vietnamese pupil holding up a colorful drawn poster showing a birthday cake and balloons in front of a primary class, cheerful illustration style, no text."
+ },
+ "classroom_game": {
+  "name": "Birthday Month Line-Up",
+  "players": "Whole class",
+  "steps_en": [
+   "Step 1: Students stand up and walk around the classroom silently.",
+   "Step 2: When the teacher says 'Find your month!', students ask each other 'When is your birthday?'.",
+   "Step 3: Students form 12 groups according to their birthday months (January to December).",
+   "Step 4: Each month group shouts their month and sings one line of 'Happy Birthday'.",
+   "Step 5: The fastest month group to stand in date order wins the round!"
+  ],
+  "steps_vi": [
+   "Bước 1: Học sinh đứng dậy và đi lại nhẹ nhàng quanh lớp.",
+   "Bước 2: Khi thầy cô hô 'Find your month!', học sinh hỏi nhau 'When is your birthday?'.",
+   "Bước 3: Học sinh xếp thành 12 nhóm tương ứng với 12 tháng sinh.",
+   "Bước 4: Mỗi nhóm tháng hô to tên tháng của mình và hát một câu 'Happy Birthday'.",
+   "Bước 5: Nhóm tháng nào xếp hàng đúng thứ tự ngày sinh nhanh nhất sẽ chiến thắng!"
+  ],
+  "language": [
+   "When is your birthday?",
+   "My birthday is in [month].",
+   "I was born on [date]."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "Jan__ry",
+    "answer": "January"
+   },
+   {
+    "word": "Febr__ry",
+    "answer": "February"
+   },
+   {
+    "word": "M__ch",
+    "answer": "March"
+   },
+   {
+    "word": "Ap__l",
+    "answer": "April"
+   },
+   {
+    "word": "Au__st",
+    "answer": "August"
+   },
+   {
+    "word": "Sept__ber",
+    "answer": "September"
+   },
+   {
+    "word": "Oct__er",
+    "answer": "October"
+   },
+   {
+    "word": "Dec__ber",
+    "answer": "December"
+   },
+   {
+    "word": "c__dle",
+    "answer": "candle"
+   },
+   {
+    "word": "ball__n",
+    "answer": "balloon"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "My birthday is ______ May.",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ],
+    "answer": "in"
+   },
+   {
+    "q": "Her party is ______ the fifth of June.",
+    "options": [
+     "in",
+     "on",
+     "under"
+    ],
+    "answer": "on"
+   },
+   {
+    "q": "There ______ nine candles on my cake yesterday.",
+    "options": [
+     "was",
+     "were",
+     "are"
+    ],
+    "answer": "were"
+   },
+   {
+    "q": "I ______ invite my classmates to my party tomorrow.",
+    "options": [
+     "will",
+     "was",
+     "did"
+    ],
+    "answer": "will"
+   },
+   {
+    "q": "Ben ______ happy on his birthday last week.",
+    "options": [
+     "is",
+     "was",
+     "were"
+    ],
+    "answer": "was"
+   },
+   {
+    "q": "Which month comes after October?",
+    "options": [
+     "September",
+     "November",
+     "December"
+    ],
+    "answer": "November"
+   },
+   {
+    "q": "How many months are there in one year?",
+    "options": [
+     "ten",
+     "eleven",
+     "twelve"
+    ],
+    "answer": "twelve"
+   },
+   {
+    "q": "What do you blow out on a birthday cake?",
+    "options": [
+     "balloons",
+     "candles",
+     "presents"
+    ],
+    "answer": "candles"
+   },
+   {
+    "q": "My cake is ______ than yours.",
+    "options": [
+     "big",
+     "bigger",
+     "biggest"
+    ],
+    "answer": "bigger"
+   },
+   {
+    "q": "She was ______ in August.",
+    "options": [
+     "born",
+     "bear",
+     "birth"
+    ],
+    "answer": "born"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / birthday / My / in / May .",
+    "answer": "My birthday is in May."
+   },
+   {
+    "words": "is / When / birthday / your / ?",
+    "answer": "When is your birthday?"
+   },
+   {
+    "words": "on / It / is / tenth / the / of / April .",
+    "answer": "It is on the tenth of April."
+   },
+   {
+    "words": "were / candles / Nine / the / cake / on .",
+    "answer": "Nine candles were on the cake."
+   },
+   {
+    "words": "invite / will / my / I / friends .",
+    "answer": "I will invite my friends."
+   },
+   {
+    "words": "came / My / party / to / friends / my .",
+    "answer": "My friends came to my party."
+   },
+   {
+    "words": "cake / Mother / a / bought / sweet .",
+    "answer": "Mother bought a sweet cake."
+   },
+   {
+    "words": "twelve / A / has / year / months .",
+    "answer": "A year has twelve months."
+   },
+   {
+    "words": "happy / I / yesterday / was .",
+    "answer": "I was happy yesterday."
+   },
+   {
+    "words": "give / What / gift / will / you / him / ?",
+    "answer": "What gift will you give him?"
+   }
+  ],
+  "about_you": [
+   "In which month is your birthday?",
+   "What date were you born?",
+   "How old were you on your last birthday?",
+   "What kind of cake do you want on your next birthday?",
+   "How many candles will be on your next cake?",
+   "Who is your best friend to invite to your party?",
+   "What games do you like playing at birthdays?",
+   "What was the best present you got last year?",
+   "Do you like wearing party hats?",
+   "What will you say to your parents on your birthday?"
+  ]
+ },
+ "i_can": [
+  "I can name all twelve months of the year in English.",
+  "I can say my birthday month and exact date clearly.",
+  "I can ask my friends 'When is your birthday?'.",
+  "I can use 'in' for months and 'on' for specific dates.",
+  "I can use 'was' and 'were' to talk about past birthdays.",
+  "I can use 'will' to talk about future party plans.",
+  "I can talk about birthday cakes, candles, and gifts.",
+  "I can write a simple invitation card for my birthday.",
+  "I can pronounce the /θ/ sound in 'birthday' and 'month'.",
+  "I can read and understand short stories about celebrations.",
+  "I can listen and answer questions about a birthday story.",
+  "I can complete a birthday profile with my information.",
+  "I can compare sizes of birthday items using simple comparatives.",
+  "I can present my Birthday Party Poster to my class.",
+  "I can express gratitude to my parents on my birthday."
+ ],
+ "message_en": "EVERY BIRTHDAY IS A NEW STEP TO GROW, TO LEARN, AND TO SPREAD JOY!",
+ "message_vi": "MỖI DỊP SINH NHẬT LÀ MỘT BƯỚC TRƯỞNG THÀNH MỚI ĐỂ HỌC HỎI, YÊU THƯƠNG VÀ LAN TỎA NIỀM VUI!",
+ "message_body": "Birthdays are special moments to celebrate growing older and wiser. Enjoy your cake, thank your loved ones, and look forward to a bright new year of learning and happiness with your friends!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 3,
+ "grade": 4,
+ "validation": []
+}

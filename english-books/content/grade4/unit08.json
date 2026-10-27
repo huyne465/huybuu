@@ -1,0 +1,1183 @@
+{
+ "title": "GOING SHOPPING",
+ "theme": "Money & Shopping",
+ "goal": "Students can talk about prices, buy items at stores, compare costs, and use shopping language confidently in English.",
+ "goal_vi": "Học sinh có thể hỏi giá, mua đồ tại cửa hàng, so sánh giá cả và sử dụng tiếng Anh khi đi siêu thị hoặc mua sắm.",
+ "cover_emoji": "🛒💵🛍️",
+ "cover_image_prompt": "A bright, colourful supermarket scene where Vietnamese children and parents are happily pushing shopping carts, picking fresh fruits, looking at toys, and paying friendly cashiers.",
+ "big_question": {
+  "en": "How do we buy things and spend money wisely?",
+  "vi": "Chúng ta mua đồ và sử dụng tiền thông minh như thế nào?",
+  "prompts": [
+   "Do you like going shopping with your family?",
+   "What is your favorite store in town?",
+   "What do you usually buy at the supermarket?",
+   "How much is a bottle of milk in Vietnam?",
+   "Do you have a piggy bank at home?",
+   "What would you like to buy today?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "supermarket",
+   "ipa": "/ˈsuːpərmɑːrkɪt/",
+   "vi": "siêu thị",
+   "emoji": "🛒",
+   "image_prompt": "A modern supermarket aisle filled with neat shelves of goods and a shopping cart in the center."
+  },
+  {
+   "en": "toy store",
+   "ipa": "/ˈtɔɪ stɔːr/",
+   "vi": "cửa hàng đồ chơi",
+   "emoji": "🧸",
+   "image_prompt": "A cheerful toy store storefront with teddy bears, toy cars, and colorful balls displayed in the window."
+  },
+  {
+   "en": "bakery",
+   "ipa": "/ˈbeɪkəri/",
+   "vi": "tiệm bánh",
+   "emoji": "🥐",
+   "image_prompt": "A cozy bakery display showing fresh bread loaves, golden croissants, and small delicious cakes."
+  },
+  {
+   "en": "money",
+   "ipa": "/ˈmʌni/",
+   "vi": "tiền",
+   "emoji": "💵",
+   "image_prompt": "A clear fan of colorful Vietnamese dong banknotes and silver coins on a clean white surface."
+  },
+  {
+   "en": "price",
+   "ipa": "/praɪs/",
+   "vi": "giá cả",
+   "emoji": "🏷️",
+   "image_prompt": "A bright yellow price tag attached to a cute blue backpack."
+  },
+  {
+   "en": "cheap",
+   "ipa": "/tʃiːp/",
+   "vi": "rẻ",
+   "emoji": "🪙",
+   "image_prompt": "A small red pencil with a tiny price tag showing a very low cost."
+  },
+  {
+   "en": "expensive",
+   "ipa": "/ɪkˈspensɪv/",
+   "vi": "đắt, mắc",
+   "emoji": "💎",
+   "image_prompt": "A shiny fancy digital watch with a high price tag attached."
+  },
+  {
+   "en": "buy",
+   "ipa": "/baɪ/",
+   "vi": "mua",
+   "emoji": "🛍️",
+   "image_prompt": "A young girl handing cash to buy a fresh green apple from a seller."
+  },
+  {
+   "en": "sell",
+   "ipa": "/sel/",
+   "vi": "bán",
+   "emoji": "🏷️",
+   "image_prompt": "A smiling shopkeeper standing behind a counter offering a book to a buyer."
+  },
+  {
+   "en": "cash",
+   "ipa": "/kæʃ/",
+   "vi": "tiền mặt",
+   "emoji": "💵",
+   "image_prompt": "Paper money notes stacked neatly in a open wallet."
+  },
+  {
+   "en": "change",
+   "ipa": "/tʃeɪndʒ/",
+   "vi": "tiền thừa",
+   "emoji": "🪙",
+   "image_prompt": "A hand giving back a small paper note and three coins as change to a customer."
+  },
+  {
+   "en": "shopping bag",
+   "ipa": "/ˈʃɑːpɪŋ bæɡ/",
+   "vi": "túi mua sắm",
+   "emoji": "🛍️",
+   "image_prompt": "A sturdy cloth reusable shopping bag full of groceries like bread and oranges."
+  },
+  {
+   "en": "shopping cart",
+   "ipa": "/ˈʃɑːpɪŋ kɑːrt/",
+   "vi": "xe đẩy mua hàng",
+   "emoji": "🛒",
+   "image_prompt": "A metal shopping cart with four wheels parked in a clean store aisle."
+  },
+  {
+   "en": "wallet",
+   "ipa": "/ˈwɑːlɪt/",
+   "vi": "ví tiền",
+   "emoji": "👛",
+   "image_prompt": "A neat leather wallet holding money cards and paper bills."
+  },
+  {
+   "en": "coin",
+   "ipa": "/kɔɪn/",
+   "vi": "đồng xu",
+   "emoji": "🪙",
+   "image_prompt": "A shiny round gold-colored coin with decorative pattern."
+  },
+  {
+   "en": "receipt",
+   "ipa": "/rɪˈsiːt/",
+   "vi": "hóa đơn",
+   "emoji": "🧾",
+   "image_prompt": "A paper shopping receipt printout showing printed numbers and items."
+  },
+  {
+   "en": "pay",
+   "ipa": "/peɪ/",
+   "vi": "thanh toán",
+   "emoji": "💳",
+   "image_prompt": "A hand handing money across a counter to pay for goods."
+  },
+  {
+   "en": "customer",
+   "ipa": "/ˈkʌstəmər/",
+   "vi": "khách hàng",
+   "emoji": "👤",
+   "image_prompt": "A child customer holding a shopping basket with groceries."
+  },
+  {
+   "en": "cashier",
+   "ipa": "/kæˈʃɪr/",
+   "vi": "nhân viên thu ngân",
+   "emoji": "🧑‍💼",
+   "image_prompt": "A friendly cashier wearing a blue uniform operating a cash register."
+  },
+  {
+   "en": "spend",
+   "ipa": "/spend/",
+   "vi": "tiêu tiền",
+   "emoji": "💸",
+   "image_prompt": "A child putting money into a cash register to purchase a textbook."
+  }
+ ],
+ "phonics": {
+  "sound": "/ʃ/",
+  "letters": "sh",
+  "words": [
+   "shop",
+   "shopping",
+   "cashier",
+   "shirt",
+   "shoes",
+   "shelf"
+  ],
+  "chant": "She sells shiny shoes in the big shop!\nI buy a short shirt on the shelf!",
+  "tip_vi": "Phát âm âm /ʃ/ bằng cách cong tròn môi nhẹ, nâng phần trước lưỡi lên gần ngạc cứng và đẩy hơi giòn như tiếng ra hiệu giữ trật tự 'suýt'."
+ },
+ "patterns": [
+  {
+   "pattern": "How much is this [singular noun]?",
+   "vi": "Cái [danh từ số ít] này giá bao nhiêu?",
+   "examples": [
+    "How much is this book? - It is 20,000 dong.",
+    "How much is this hat? - It is 50,000 dong.",
+    "How much is this pen? - It is 10,000 dong."
+   ]
+  },
+  {
+   "pattern": "How much are these [plural noun]?",
+   "vi": "Những cái [danh từ số nhiều] này giá bao nhiêu?",
+   "examples": [
+    "How much are these apples? - They are 30,000 dong.",
+    "How much are these shoes? - They are 200,000 dong.",
+    "How much are these pencils? - They are 15,000 dong."
+   ]
+  },
+  {
+   "pattern": "I want to buy [item].",
+   "vi": "Tớ muốn mua [món đồ].",
+   "examples": [
+    "I want to buy a new shopping bag.",
+    "I want to buy three notebooks.",
+    "I want to buy a toy car."
+   ]
+  },
+  {
+   "pattern": "Can I help you?",
+   "vi": "Tôi có thể giúp gì cho em?",
+   "examples": [
+    "Can I help you? - Yes, I am looking for a ruler.",
+    "Can I help you? - Yes, how much is this cake?",
+    "Can I help you? - No, thank you. I am just looking."
+   ]
+  },
+  {
+   "pattern": "[Item A] is cheaper than [Item B].",
+   "vi": "[Món A] rẻ hơn [Món B].",
+   "examples": [
+    "This pen is cheaper than that ruler.",
+    "The small teddy bear is cheaper than the big doll.",
+    "Apples are cheaper than grapes."
+   ]
+  },
+  {
+   "pattern": "How many [plural noun] do you want?",
+   "vi": "Bạn muốn bao nhiêu [danh từ số nhiều]?",
+   "examples": [
+    "How many bananas do you want? - I want four bananas.",
+    "How many cookies do you want? - I want two cookies.",
+    "How many pens do you want? - I want five pens."
+   ]
+  },
+  {
+   "pattern": "I am going to the [store] to buy [item].",
+   "vi": "Tớ đang đi tới [cửa hàng] để mua [món đồ].",
+   "examples": [
+    "I am going to the bakery to buy bread.",
+    "I am going to the toy store to buy a robot.",
+    "I am going to the supermarket to buy milk."
+   ]
+  },
+  {
+   "pattern": "Yesterday, I bought [item] at the [store].",
+   "vi": "Hôm qua, tớ đã mua [món đồ] ở [cửa hàng].",
+   "examples": [
+    "Yesterday, I bought a bag at the supermarket.",
+    "Yesterday, I bought a cake at the bakery.",
+    "Yesterday, I bought shoes at the store."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Asking Prices: How much is / How much are",
+   "explain_en": "Use 'How much is' for one thing (singular) and 'How much are' for more than one thing (plural).",
+   "explain_vi": "Dùng 'How much is' đối với món đồ số ít và 'How much are' đối với các món đồ số nhiều.",
+   "examples": [
+    "How much is this shirt? It is 100,000 dong.",
+    "How much are these socks? They are 40,000 dong.",
+    "How much is the blue wallet? It is 80,000 dong."
+   ],
+   "right": "✅ How much is this apple?",
+   "wrong": "❌ How much are this apple?"
+  },
+  {
+   "title": "Comparatives: Cheaper than & More expensive than",
+   "explain_en": "Add '-er' for short adjectives (cheap -> cheaper). Use 'more' before long adjectives (more expensive).",
+   "explain_vi": "Thêm đuôi '-er' với tính từ ngắn (cheap -> cheaper). Dùng 'more' phía trước tính từ dài (more expensive).",
+   "examples": [
+    "The pencil is cheaper than the pen.",
+    "The bicycle is more expensive than the ball.",
+    "Bread is cheaper than birthday cake."
+   ],
+   "right": "✅ This doll is more expensive than the toy car.",
+   "wrong": "❌ This doll is expensiver than the toy car."
+  },
+  {
+   "title": "Past Simple: Irregular Verbs Buy & Sell",
+   "explain_en": "The past simple form of 'buy' is 'bought'. The past simple form of 'sell' is 'sold'.",
+   "explain_vi": "Dạng quá khứ của 'buy' là 'bought' (đã mua). Dạng quá khứ của 'sell' là 'sold' (đã bán).",
+   "examples": [
+    "Mai bought a new wallet yesterday.",
+    "The shopkeeper sold all the storybooks.",
+    "We bought fresh fruit at the market."
+   ],
+   "right": "✅ Nam bought a toy yesterday.",
+   "wrong": "❌ Nam buyed a toy yesterday."
+  },
+  {
+   "title": "Future Intentions: Will & Be going to",
+   "explain_en": "Use 'will' or 'am/is/are going to' to talk about shopping plans in the future.",
+   "explain_vi": "Dùng 'will' hoặc 'am/is/are going to' để nói về kế hoạch mua sắm trong tương lai.",
+   "examples": [
+    "I will buy a new notebook tomorrow.",
+    "She is going to buy groceries this afternoon.",
+    "They will pay by cash."
+   ],
+   "right": "✅ I will go to the bakery later.",
+   "wrong": "❌ I will going to the bakery later."
+  }
+ ],
+ "song": {
+  "title": "LET'S GO SHOPPING TODAY!",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Let us go to the big store,",
+   "We can buy and learn much more!",
+   "How much is this shiny ball?",
+   "How much are those dolls so tall?",
+   "Take your money, count your change,",
+   "Shopping items in a range!",
+   "Pay cash to the cashier friend,",
+   "Shopping fun will never end!"
+  ],
+  "actions_vi": "Học sinh vỗ tay theo nhịp, làm động tác đẩy xe siêu thị ở câu 1, giả vờ đếm tiền ở câu 5 và trao tiền nhận túi đồ ở câu 7."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "AT THE SUPERMARKET",
+   "text": "Today is Saturday. Nam and his mother are at the big supermarket near their house. The supermarket is clean and brightly lit. Nam pushes a green shopping cart while his mother picks fresh yellow bananas and red apples. Nam wants to buy a new notebook for school. He looks at the shelf. The blue notebook is 15,000 dong. It is cheaper than the pink notebook. His mother buys the blue notebook for him. They go to the friendly cashier. Mother pays in cash and gets 10,000 dong change. Nam puts everything into a reusable shopping bag. He feels happy.",
+   "image_prompt": "A happy Vietnamese boy pushing a green shopping cart next to his mother in a brightly lit supermarket aisle filled with fruits and school supplies.",
+   "vocab": [
+    {
+     "en": "supermarket",
+     "ipa": "/ˈsuːpərmɑːrkɪt/",
+     "vi": "siêu thị"
+    },
+    {
+     "en": "shopping cart",
+     "ipa": "/ˈʃɑːpɪŋ kɑːrt/",
+     "vi": "xe đẩy mua hàng"
+    },
+    {
+     "en": "fresh",
+     "ipa": "/freʃ/",
+     "vi": "tươi ngon"
+    },
+    {
+     "en": "notebook",
+     "ipa": "/ˈnoʊtbʊk/",
+     "vi": "quyển vở"
+    },
+    {
+     "en": "shelf",
+     "ipa": "/ʃelf/",
+     "vi": "kệ hàng"
+    },
+    {
+     "en": "cheaper",
+     "ipa": "/ˈtʃiːpər/",
+     "vi": "rẻ hơn"
+    },
+    {
+     "en": "cashier",
+     "ipa": "/kæˈʃɪr/",
+     "vi": "nhân viên thu ngân"
+    },
+    {
+     "en": "cash",
+     "ipa": "/kæʃ/",
+     "vi": "tiền mặt"
+    },
+    {
+     "en": "change",
+     "ipa": "/tʃeɪndʒ/",
+     "vi": "tiền thừa"
+    },
+    {
+     "en": "reusable",
+     "ipa": "/ˌriːˈjuːzəbl/",
+     "vi": "tái sử dụng"
+    }
+   ],
+   "questions": [
+    "What day is it today?",
+    "Where are Nam and his mother?",
+    "What does Nam push at the supermarket?",
+    "What fruits does his mother pick?",
+    "What item does Nam want to buy?",
+    "How much is the blue notebook?",
+    "Which notebook is cheaper?",
+    "Who pays the cashier?",
+    "How much change does his mother get?",
+    "What kind of shopping bag does Nam use?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam goes to the supermarket on Sunday.",
+     "answer": false
+    },
+    {
+     "statement": "Nam pushes a green shopping cart.",
+     "answer": true
+    },
+    {
+     "statement": "The blue notebook costs 15,000 dong.",
+     "answer": true
+    },
+    {
+     "statement": "The pink notebook is cheaper than the blue notebook.",
+     "answer": false
+    },
+    {
+     "statement": "Nam puts the items into a reusable shopping bag.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "MAI'S NEW BACKPACK",
+   "text": "Mai needed a new backpack for Grade 4 because her old backpack was small and torn. Yesterday afternoon, Mai and her father walked to the central shopping mall. First, they visited a store with many colourful bags. Mai saw a beautiful purple backpack with star patterns. She checked the price tag on the side. The purple backpack was 250,000 dong. Next to it was a red backpack for 180,000 dong. The red backpack was cheaper, but Mai liked the purple one very much because purple is her favorite color. Her father asked the cashier, 'Can I pay by cash?' The cashier smiled and said, 'Yes, of course!' Her father handed three 100,000 dong notes and received a paper receipt along with 50,000 dong in change. Mai thanked her father cheerfully.",
+   "image_prompt": "A Vietnamese girl wearing Grade 4 uniform looking at colourful backpacks on store shelves while holding her father's hand in a modern shopping mall.",
+   "vocab": [
+    {
+     "en": "backpack",
+     "ipa": "/ˈbækpæk/",
+     "vi": "ba lô"
+    },
+    {
+     "en": "torn",
+     "ipa": "/tɔːrn/",
+     "vi": "bị rách"
+    },
+    {
+     "en": "shopping mall",
+     "ipa": "/ˈʃɑːpɪŋ mɔːl/",
+     "vi": "trung tâm thương mại"
+    },
+    {
+     "en": "price tag",
+     "ipa": "/praɪs tæɡ/",
+     "vi": "nhãn giá"
+    },
+    {
+     "en": "pattern",
+     "ipa": "/ˈpætərn/",
+     "vi": "hoa văn, họa tiết"
+    },
+    {
+     "en": "cheaper",
+     "ipa": "/ˈtʃiːpər/",
+     "vi": "rẻ hơn"
+    },
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích"
+    },
+    {
+     "en": "hand",
+     "ipa": "/hænd/",
+     "vi": "đưa, trao bằng tay"
+    },
+    {
+     "en": "receipt",
+     "ipa": "/rɪˈsiːt/",
+     "vi": "hóa đơn"
+    },
+    {
+     "en": "cheerfully",
+     "ipa": "/ˈtʃɪrfəli/",
+     "vi": "một cách vui vẻ"
+    }
+   ],
+   "questions": [
+    "Why did Mai need a new backpack?",
+    "Where did Mai and her father go yesterday afternoon?",
+    "What color was the backpack with star patterns?",
+    "How much was the purple backpack?",
+    "How much was the red backpack?",
+    "Which backpack was cheaper?",
+    "Why did Mai choose the purple backpack?",
+    "What did Mai's father ask the cashier?",
+    "How many 100,000 dong notes did her father hand over?",
+    "How much change did her father receive?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai's old backpack was new and big.",
+     "answer": false
+    },
+    {
+     "statement": "Mai went to the shopping mall with her father.",
+     "answer": true
+    },
+    {
+     "statement": "The purple backpack was 180,000 dong.",
+     "answer": false
+    },
+    {
+     "statement": "The red backpack was cheaper than the purple one.",
+     "answer": true
+    },
+    {
+     "statement": "Her father paid by card.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "THE SCHOOL FLEA MARKET",
+   "text": "Last Sunday, Primary School No. 1 organized a charity flea market in the main school yard. Students brought old toys, handmade crafts, storybooks, and delicious homemade snacks to sell to each other. Minh and his group set up a small table named 'Happy Books & Toys'. Minh brought five comic books and three small robot toys that he did not play with anymore. His friend Linh baked tasty chocolate cupcakes. They marked clear prices on every item with small yellow paper tags.\n\nAt nine o'clock, many customers visited their table. Ben, a classmate, walked over and asked, 'How much is this comic book?' Minh replied, 'It is 10,000 dong. It is very cheap and interesting!' Ben decided to buy two comic books. Later, Mia came and bought two cupcakes for 20,000 dong. By eleven o'clock, Minh and Linh had sold all their items. They collected a total of 180,000 dong in cash in their blue pencil box. They were very proud because all the money collected from the market will go to buy winter clothes for poor children in rural areas. Shopping and selling at the market was not only fun, but it also taught them how to manage money and share love with community.",
+   "image_prompt": "A bustling outdoors schoolyard market where elementary students are standing behind tables selling books and cupcakes to schoolmates, with cheerful banners overhead.",
+   "vocab": [
+    {
+     "en": "flea market",
+     "ipa": "/ˈfliː mɑːrkɪt/",
+     "vi": "chợ phiên đồ cũ"
+    },
+    {
+     "en": "charity",
+     "ipa": "/ˈtʃærəti/",
+     "vi": "từ thiện"
+    },
+    {
+     "en": "handmade",
+     "ipa": "/ˌhændˈmeɪd/",
+     "vi": "làm bằng tay"
+    },
+    {
+     "en": "crafts",
+     "ipa": "/kræfts/",
+     "vi": "đồ thủ công"
+    },
+    {
+     "en": "set up",
+     "ipa": "/set ʌp/",
+     "vi": "bày ra, chuẩn bị"
+    },
+    {
+     "en": "customer",
+     "ipa": "/ˈkʌstəmər/",
+     "vi": "khách hàng"
+    },
+    {
+     "en": "reply",
+     "ipa": "/rɪˈplaɪ/",
+     "vi": "trả lời"
+    },
+    {
+     "en": "collect",
+     "ipa": "/kəˈlekt/",
+     "vi": "thu thập, gom tiền"
+    },
+    {
+     "en": "manage",
+     "ipa": "/ˈmænɪdʒ/",
+     "vi": "quản lý"
+    },
+    {
+     "en": "community",
+     "ipa": "/kəˈmjuːnəti/",
+     "vi": "cộng đồng"
+    }
+   ],
+   "questions": [
+    "When did Primary School No. 1 organize the flea market?",
+    "Where took place the charity market?",
+    "What did students bring to sell at the market?",
+    "What was the name of Minh's table?",
+    "What did Linh bake to sell?",
+    "How much was one comic book?",
+    "How many comic books did Ben buy?",
+    "How much did Mia pay for two cupcakes?",
+    "How much money did Minh and Linh collect in total?",
+    "Where will the money collected go to help?"
+   ],
+   "true_false": [
+    {
+     "statement": "The flea market took place last Saturday.",
+     "answer": false
+    },
+    {
+     "statement": "Linh baked chocolate cupcakes for the market.",
+     "answer": true
+    },
+    {
+     "statement": "Ben bought three comic books from Minh.",
+     "answer": false
+    },
+    {
+     "statement": "Minh and Linh collected 180,000 dong in total.",
+     "answer": true
+    },
+    {
+     "statement": "The collected money will be used to buy new toys for themselves.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "THE TALKING PIGGY BANK",
+  "panels": [
+   {
+    "scene": "Ben stands in front of a toy store looking excitedly at a big shiny red toy car in the window.",
+    "speech": "Ben: Wow! Look at that fast red racing car! I want to buy it right now!"
+   },
+   {
+    "scene": "Ben shakes his heavy ceramic piggy bank on his bedroom desk. Mia watches him.",
+    "speech": "Mia: How much is the racing car, Ben? Do you have enough money in your piggy bank?"
+   },
+   {
+    "scene": "Ben opens the piggy bank and counts his small paper notes and coins carefully on the bed.",
+    "speech": "Ben: The car is 100,000 dong. But I only have 60,000 dong here!"
+   },
+   {
+    "scene": "Mia smiles and hands Ben a broom in the living room.",
+    "speech": "Mia: Don't worry! Help Mom sweep the house this week to earn more coins!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "Do you like going shopping on weekends?",
+   "Who do you usually go shopping with?",
+   "What is your favorite place to shop: a supermarket, a market, or a mall?",
+   "How much is a notebook in your school bookstore?",
+   "What item did you buy recently?",
+   "Do you save money in a piggy bank?",
+   "What do you do when an item is too expensive?",
+   "Which is cheaper: an eraser or a school bag?",
+   "How do you pay for goods at a supermarket?",
+   "Who works at the checkout register?",
+   "What do you put your groceries in when you finish shopping?",
+   "What is your favorite snack to buy at the bakery?",
+   "Have you ever sold anything at a school fair?",
+   "Why should we keep receipts after buying things?",
+   "What will you buy if you have 100,000 dong today?"
+  ],
+  "model": "Hello everyone! My name is An. On weekends, I often go to the supermarket with my mother. My favorite place is the stationery corner. Yesterday, I bought a blue pen and a yellow sketchbook. The pen was 10,000 dong and the sketchbook was 25,000 dong. I paid in cash and got a receipt. I save my remaining pocket money in a pink piggy bank to buy books in the future. Shopping responsibly is fun!",
+  "challenge": "Talk about your last shopping trip or what you want to buy for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "At the Toy Store",
+   "image_prompt": "A friendly shop assistant behind a wooden counter talking to a young boy pointing at a wooden toy train.",
+   "lines": [
+    {
+     "speaker": "Cashier",
+     "text": "Hello! Welcome to Kid's Toy World. Can I help you?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Hi! Yes, please. I am looking for a toy train."
+    },
+    {
+     "speaker": "Cashier",
+     "text": "We have two trains here. The wooden train is on this shelf."
+    },
+    {
+     "speaker": "Tom",
+     "text": "How much is this wooden train?"
+    },
+    {
+     "speaker": "Cashier",
+     "text": "It is 80,000 dong."
+    },
+    {
+     "speaker": "Tom",
+     "text": "And how much is that plastic train over there?"
+    },
+    {
+     "speaker": "Cashier",
+     "text": "That plastic train is 50,000 dong. It is cheaper."
+    },
+    {
+     "speaker": "Tom",
+     "text": "I will buy the wooden train, please. It looks stronger!"
+    },
+    {
+     "speaker": "Cashier",
+     "text": "Great choice! That is 80,000 dong, please."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Here is 100,000 dong cash."
+    }
+   ]
+  },
+  {
+   "title": "Comparing Prices at the Bakery",
+   "image_prompt": "Two Vietnamese kids in casual clothes standing in front of a bakery glass display showing chocolate cakes and croissants.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Look, Nam! The bakery has so many delicious cakes today!"
+    },
+    {
+     "speaker": "Nam",
+     "text": "Yes! I want to buy a snack for our tea party."
+    },
+    {
+     "speaker": "Mai",
+     "text": "How much is this chocolate cupcake?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "The sign says it is 20,000 dong."
+    },
+    {
+     "speaker": "Mai",
+     "text": "What about the big strawberry doughnut?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "The doughnut is 15,000 dong. It is cheaper than the cupcake."
+    },
+    {
+     "speaker": "Mai",
+     "text": "How many doughnuts do you want to buy?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "I want two doughnuts, please! That is 30,000 dong in total."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Good idea. Let's pay the cashier together!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, I am Linh! Last Sunday, I went shopping with my older brother at the central supermarket. The store was very busy. First, we went to the fresh food section. We bought one kilogram of apples for 40,000 dong and two bottles of milk for 30,000 dong. Next, we walked to the school section because I needed a new pencil case. I saw a shiny blue pencil case for 35,000 dong and a red one for 50,000 dong. The blue pencil case was cheaper, so I chose it. In total, my brother spent 105,000 dong. He paid cash at the checkout counter. The cashier gave him a receipt and a green shopping bag. We had a great time shopping together!",
+  "questions": [
+   "Who did Linh go shopping with last Sunday?",
+   "Where did Linh and her brother go shopping?",
+   "What fruit did they buy at the fresh food section?",
+   "How much were the apples?",
+   "How much were the two bottles of milk?",
+   "What item did Linh need at the school section?",
+   "How much was the shiny blue pencil case?",
+   "Which pencil case was cheaper?",
+   "How much money did her brother spend in total?",
+   "What did the cashier give her brother after he paid?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "BAKERY",
+   "MONEY",
+   "PRICE",
+   "CHEAP",
+   "BUY",
+   "SELL",
+   "CASH",
+   "COIN"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "Supermarket",
+     "Bakery",
+     "Toy store",
+     "Pencil"
+    ],
+    "answer": "Pencil",
+    "why_vi": "Pencil là đồ dùng học tập, các từ còn lại là địa điểm cửa hàng mua sắm."
+   },
+   {
+    "options": [
+     "Cheap",
+     "Expensive",
+     "Receipt",
+     "Small"
+    ],
+    "answer": "Receipt",
+    "why_vi": "Receipt là danh từ (hóa đơn), các từ còn lại là tính từ mô tả."
+   },
+   {
+    "options": [
+     "Cash",
+     "Coin",
+     "Wallet",
+     "Money"
+    ],
+    "answer": "Wallet",
+    "why_vi": "Wallet là vật chứa tiền (ví), các từ còn lại chỉ tiền bạc."
+   },
+   {
+    "options": [
+     "Buy",
+     "Sell",
+     "Pay",
+     "Cart"
+    ],
+    "answer": "Cart",
+    "why_vi": "Cart là danh từ (xe đẩy), các từ còn lại là động từ mua bán."
+   },
+   {
+    "options": [
+     "Cashier",
+     "Customer",
+     "Seller",
+     "Price"
+    ],
+    "answer": "Price",
+    "why_vi": "Price là giá cả, các từ còn lại là từ chỉ người."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am made of paper or metal. People use me to buy food and toys. What am I?",
+    "answer": "Money"
+   },
+   {
+    "riddle": "I am a large building with many shelves full of food, drinks, and fruits. What am I?",
+    "answer": "Supermarket"
+   },
+   {
+    "riddle": "I print out after you pay at the register to show what you bought. What am I?",
+    "answer": "Receipt"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "mnoey",
+    "answer": "money"
+   },
+   {
+    "scrambled": "prive",
+    "answer": "price"
+   },
+   {
+    "scrambled": "cahsi",
+    "answer": "cash"
+   },
+   {
+    "scrambled": "bakrye",
+    "answer": "bakery"
+   },
+   {
+    "scrambled": "wlaelt",
+    "answer": "wallet"
+   },
+   {
+    "scrambled": "rcpieet",
+    "answer": "receipt"
+   }
+  ],
+  "picture_count": {
+   "question": "How many shopping carts can you see in the unit cover picture?",
+   "hint_vi": "Hãy đếm tất cả những chiếc xe đẩy hàng xuất hiện trong bức tranh trang bìa!"
+  }
+ },
+ "write": {
+  "profile_title": "My Shopping Plan Profile",
+  "profile_fields": [
+   "My name is:",
+   "My favorite store is:",
+   "I usually go shopping on:",
+   "I go shopping with:",
+   "An item I want to buy is:",
+   "The estimated price is:",
+   "It is cheaper than:",
+   "I pay by (cash / card):",
+   "I keep my money in a:",
+   "My shopping habit is:"
+  ],
+  "frame_title": "MY SHOPPING TRIP",
+  "frame_lines": [
+   "My name is ____.",
+   "On weekends, I love going to ____.",
+   "I usually go with ____.",
+   "Last week, I bought ____ at the store.",
+   "It cost ____ dong.",
+   "It was cheaper than ____.",
+   "I paid the cashier in ____.",
+   "The cashier gave me a printed ____.",
+   "I saved my remaining money in ____.",
+   "Shopping responsibly helps me ____."
+  ]
+ },
+ "life_skill": {
+  "title": "BE A SMART SHOPPER & RESPECT MONEY",
+  "intro": "Money is earned through hard work. Being a smart shopper means buying what you need and spending wisely!",
+  "intro_vi": "Tiền bạc được làm ra từ sự lao động vất vả. Trở thành người tiêu dùng thông minh nghĩa là mua những gì mình cần và chi tiêu hợp lý!",
+  "can_do": [
+   "Make a shopping list before going to the store.",
+   "Compare prices before choosing an item.",
+   "Buy things I really need before buying things I want.",
+   "Keep money safely in a wallet or piggy bank.",
+   "Check the change carefully after paying cash.",
+   "Keep receipts to check expenses at home.",
+   "Use reusable shopping bags to protect the environment.",
+   "Turn off lights and save water to help family save money.",
+   "Take care of my school supplies so I do not waste money.",
+   "Share old usable books at flea markets for charity.",
+   "Say thank you politely to cashiers and shopkeepers.",
+   "Never demand expensive toys from parents."
+  ],
+  "value_question": "What can you do to spend money wisely and help your family save?",
+  "image_prompt": "A thoughtful Vietnamese student writing a neat shopping list on paper before going grocery shopping with family."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? In ancient times, people did not use paper money; they traded cows, salt, and seashells for goods!",
+   "vi": "Thời cổ đại, con người không dùng tiền giấy; họ trao đổi bò, muối và vỏ sò để lấy hàng hóa!"
+  },
+  {
+   "en": "Did you know? Some of the first coins in the world were made in Lydia (in today's Turkey) about 2,600 years ago!",
+   "vi": "Em có biết? Một trong những đồng xu đầu tiên trên thế giới được làm ở xứ Lydia (nay thuộc Thổ Nhĩ Kỳ) khoảng 2.600 năm trước!"
+  },
+  {
+   "en": "Did you know? US dollar notes are not made from wood paper. They are made from cotton and linen!",
+   "vi": "Em có biết? Tiền đô la Mỹ không làm từ giấy gỗ mà làm từ sợi bông và sợi lanh!"
+  },
+  {
+   "en": "Did you know? Vietnamese Polymer banknotes are water-resistant and much harder to tear than plain paper notes!",
+   "vi": "Tờ tiền Polymer Việt Nam có khả năng chống nước và khó rách hơn nhiều so với tiền giấy thường!"
+  },
+  {
+   "en": "Did you know? The concept of price tags on store items was invented over 140 years ago in the United States!",
+   "vi": "Ý tưởng dán nhãn giá lên hàng hóa trong cửa hàng được phát minh cách đây hơn 140 năm tại Mỹ!"
+  }
+ ],
+ "project": {
+  "title": "MY MINI SHOP POSTER",
+  "task": "Create a colorful poster for your own imaginary shop, draw products with prices, and present it to your class!",
+  "draw_items": [
+   "A shop sign with a creative name",
+   "3 main products for sale",
+   "Clear price tags on every item",
+   "A cash register counter",
+   "A friendly cashier character",
+   "Reusable shopping bags",
+   "A piggy bank for savings",
+   "Special discount banner"
+  ],
+  "example": [
+   "Welcome to Star Stationery Shop!",
+   "We sell colorful notebooks for 15,000 dong.",
+   "Our cute animal pens are 10,000 dong each.",
+   "The green ruler is cheaper than the pink pencil case.",
+   "You can pay in cash at our counter.",
+   "Please bring your own reusable shopping bag!",
+   "We save 10% of our money for charity."
+  ],
+  "present": "Hello everyone! Welcome to my shop poster named Star Stationery Shop! Look at these items...",
+  "image_prompt": "A Grade 4 Vietnamese student holding up a vibrant poster showing a decorated stationery shop drawing with price tags and store name."
+ },
+ "classroom_game": {
+  "name": "ROXY CLASSROOM FLEA MARKET",
+  "players": "Whole class in small groups of 4",
+  "steps_en": [
+   "Step 1: Each group sets up a mini shop table with classroom items (pens, rulers, books).",
+   "Step 2: Write paper price tags (from 5,000 to 50,000 dong) for each item.",
+   "Step 3: Two students act as cashiers and two students act as buyers with play money.",
+   "Step 4: Buyers ask 'How much is this?' and compare prices before buying.",
+   "Step 5: Switch roles after 5 minutes and see which group manages money best!"
+  ],
+  "steps_vi": [
+   "Bước 1: Mỗi nhóm bày một bàn cửa hàng nhỏ với đồ dùng học tập (bút, thước, sách).",
+   "Bước 2: Viết nhãn giá bằng giấy (từ 5.000 đến 50.000 đồng) cho từng món đồ.",
+   "Bước 3: Hai bạn đóng vai thu ngân, hai bạn đóng vai người mua với tiền đồ chơi.",
+   "Bước 4: Người mua hỏi 'How much is this?' và so sánh giá trước khi mua.",
+   "Bước 5: Đổi vai sau 5 phút và xem nhóm nào quản lý tiền tốt nhất!"
+  ],
+  "language": [
+   "How much is this pen?",
+   "It is 10,000 dong.",
+   "Can I help you?",
+   "I want to buy this book.",
+   "Here is your change and receipt!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "sup__mar__et",
+    "answer": "supermarket"
+   },
+   {
+    "word": "b__ke__y",
+    "answer": "bakery"
+   },
+   {
+    "word": "m__n__y",
+    "answer": "money"
+   },
+   {
+    "word": "p__i__e",
+    "answer": "price"
+   },
+   {
+    "word": "ch__a__",
+    "answer": "cheap"
+   },
+   {
+    "word": "e__pen__ive",
+    "answer": "expensive"
+   },
+   {
+    "word": "w__ll__t",
+    "answer": "wallet"
+   },
+   {
+    "word": "c__sh__er",
+    "answer": "cashier"
+   },
+   {
+    "word": "rec__i__t",
+    "answer": "receipt"
+   },
+   {
+    "word": "ch__n__e",
+    "answer": "change"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "How much ______ this blue backpack?",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "How much ______ these green apples?",
+    "options": [
+     "is",
+     "are",
+     "be"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "The pen is ______ than the pencil case.",
+    "options": [
+     "cheap",
+     "cheaper",
+     "more cheap"
+    ],
+    "answer": "cheaper"
+   },
+   {
+    "q": "The robot toy is more ______ than the ball.",
+    "options": [
+     "expensive",
+     "expensiver",
+     "cheaper"
+    ],
+    "answer": "expensive"
+   },
+   {
+    "q": "Yesterday, Mai ______ a new notebook at the store.",
+    "options": [
+     "buy",
+     "buys",
+     "bought"
+    ],
+    "answer": "bought"
+   },
+   {
+    "q": "The shopkeeper ______ all the comic books yesterday.",
+    "options": [
+     "sell",
+     "sold",
+     "sells"
+    ],
+    "answer": "sold"
+   },
+   {
+    "q": "We pay ______ at the checkout counter.",
+    "options": [
+     "cashier",
+     "cash",
+     "shelf"
+    ],
+    "answer": "cash"
+   },
+   {
+    "q": "The person who buys goods at a store is a ______.",
+    "options": [
+     "customer",
+     "cashier",
+     "seller"
+    ],
+    "answer": "customer"
+   },
+   {
+    "q": "I put my coins in my ceramic ______ bank.",
+    "options": [
+     "doggy",
+     "piggy",
+     "kitty"
+    ],
+    "answer": "piggy"
+   },
+   {
+    "q": "After paying, the cashier gives you a paper ______.",
+    "options": [
+     "receipt",
+     "price",
+     "wallet"
+    ],
+    "answer": "receipt"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / How / this / much / book / ?",
+    "answer": "How much is this book?"
+   },
+   {
+    "words": "are / How / these / shoes / much / ?",
+    "answer": "How much are these shoes?"
+   },
+   {
+    "words": "want / buy / I / a / to / bag / .",
+    "answer": "I want to buy a bag."
+   },
+   {
+    "words": "cheaper / This / is / pen / that / than / ruler / .",
+    "answer": "This pen is cheaper than that ruler."
+   },
+   {
+    "words": "bought / Yesterday, / I / a / toy / .",
+    "answer": "Yesterday, I bought a toy."
+   },
+   {
+    "words": "help / Can / you / I / ?",
+    "answer": "Can I help you?"
+   },
+   {
+    "words": "paid / cash / He / in / the / to / cashier / .",
+    "answer": "He paid in cash to the cashier."
+   },
+   {
+    "words": "is / expensive / This / doll / very / .",
+    "answer": "This doll is very expensive."
+   },
+   {
+    "words": "keep / receipt / Please / the / .",
+    "answer": "Please keep the receipt."
+   },
+   {
+    "words": "will / I / go / the / bakery / to / tomorrow / .",
+    "answer": "I will go to the bakery tomorrow."
+   }
+  ],
+  "about_you": [
+   "How often do you go to the supermarket?",
+   "What is your favorite item to buy at a stationery store?",
+   "How much is your favorite school notebook?",
+   "Do you save money in a piggy bank at home?",
+   "What did you buy yesterday?",
+   "Which store do you like best in your town?",
+   "Do you pay by cash or card when shopping with parents?",
+   "What is the most expensive thing you have ever seen?",
+   "How do you save money every week?",
+   "What will you buy for your friend's birthday?"
+  ]
+ },
+ "i_can": [
+  "I can say 20 shopping and money words in English.",
+  "I can pronounce the /ʃ/ sound correctly in words like shop and shelf.",
+  "I can ask 'How much is this?' for singular items.",
+  "I can ask 'How much are these?' for plural items.",
+  "I can express what I want to buy in English.",
+  "I can use 'cheaper than' to compare product prices.",
+  "I can use 'more expensive than' for long adjectives.",
+  "I can talk about past shopping trips using bought and sold.",
+  "I can read short stories about going to the supermarket and flea market.",
+  "I can roleplay as a cashier or customer in English.",
+  "I can listen and answer questions about shopping trips.",
+  "I can write my own shopping profile and plan.",
+  "I can list smart ways to spend and save money.",
+  "I can state fun facts about money and price tags.",
+  "I can design and present my Mini Shop Poster to the class."
+ ],
+ "message_en": "MONEY IS EARNED WITH HARD WORK. SPEND WISELY, SAVE SMARTLY, AND SHARE KINDLY.",
+ "message_vi": "Tiền bạc được làm ra bằng sự lao động chăm chỉ. Hãy tiêu dùng thông minh, tiết kiệm sáng suốt và biết chia sẻ yêu thương.",
+ "message_body": "Shopping is an essential life skill that teaches us responsibility, math, and respect for hard work. When you understand prices and save wisely, you help your family and grow into a smart, caring global citizen!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 8,
+ "grade": 4,
+ "validation": []
+}

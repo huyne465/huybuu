@@ -1,0 +1,1173 @@
+{
+ "title": "MY SCHOOL",
+ "theme": "School Life",
+ "goal": "Students can identify and talk about places, objects, and people at school using simple English sentences.",
+ "goal_vi": "Học sinh có thể nhận biết và nói về các địa điểm, đồ vật và con người ở trường học bằng các câu tiếng Anh đơn giản.",
+ "cover_emoji": "🏫🎒📚",
+ "cover_image_prompt": "A wide, cheerful scene showing diverse children, including Vietnamese kids, happily walking into a colorful school building with a big playground, some holding backpacks and books. Bright sunny day.",
+ "big_question": {
+  "en": "What do you like about your school?",
+  "vi": "Em thích điều gì ở trường của mình?",
+  "prompts": [
+   "What is your school's name?",
+   "Is your school big or small?",
+   "Who is your teacher?",
+   "What do you do at school?",
+   "Do you have many friends at school?",
+   "What is your favorite place at school?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "school",
+   "ipa": "/skuːl/",
+   "vi": "trường học",
+   "emoji": "🏫",
+   "image_prompt": "A vibrant, friendly school building with a clock tower and a flag flying, seen from a distance."
+  },
+  {
+   "en": "classroom",
+   "ipa": "/ˈklæsˌrum/",
+   "vi": "lớp học",
+   "emoji": "🧑‍🏫",
+   "image_prompt": "A bright, tidy classroom with small desks and chairs, a whiteboard, and colorful drawings on the wall."
+  },
+  {
+   "en": "teacher",
+   "ipa": "/ˈtiːtʃər/",
+   "vi": "giáo viên",
+   "emoji": "👩‍🏫",
+   "image_prompt": "A kind female teacher smiling and pointing to a whiteboard, with diverse young students looking at her."
+  },
+  {
+   "en": "student",
+   "ipa": "/ˈstuːdənt/",
+   "vi": "học sinh",
+   "emoji": "👧👦",
+   "image_prompt": "A happy boy and girl student, diverse, sitting at their desks, holding pencils and smiling."
+  },
+  {
+   "en": "book",
+   "ipa": "/bʊk/",
+   "vi": "sách",
+   "emoji": "📚",
+   "image_prompt": "An open, colorful children's storybook with bright illustrations on the pages."
+  },
+  {
+   "en": "pencil",
+   "ipa": "/ˈpɛnsəl/",
+   "vi": "bút chì",
+   "emoji": "✏️",
+   "image_prompt": "A single, sharpened yellow pencil with a pink eraser on top, lying on a white surface."
+  },
+  {
+   "en": "desk",
+   "ipa": "/dɛsk/",
+   "vi": "bàn học",
+   "emoji": "🪑",
+   "image_prompt": "A small, sturdy wooden school desk with a chair pulled up to it, seen from the front."
+  },
+  {
+   "en": "chair",
+   "ipa": "/tʃɛr/",
+   "vi": "ghế",
+   "emoji": "🪑",
+   "image_prompt": "A simple, colorful plastic school chair standing alone."
+  },
+  {
+   "en": "board",
+   "ipa": "/bɔːrd/",
+   "vi": "bảng",
+   "emoji": "📋",
+   "image_prompt": "A large, clean whiteboard mounted on a classroom wall, ready for writing."
+  },
+  {
+   "en": "bag",
+   "ipa": "/bæɡ/",
+   "vi": "cặp sách",
+   "emoji": "🎒",
+   "image_prompt": "A bright blue backpack with a small front pocket, standing upright."
+  },
+  {
+   "en": "playground",
+   "ipa": "/ˈpleɪˌɡraʊnd/",
+   "vi": "sân chơi",
+   "emoji": "🛝",
+   "image_prompt": "A vibrant school playground with swings, a slide, and a seesaw, with diverse children playing happily."
+  },
+  {
+   "en": "library",
+   "ipa": "/ˈlaɪˌbrɛri/",
+   "vi": "thư viện",
+   "emoji": "📖",
+   "image_prompt": "A cozy school library with rows of colorful books on shelves and a few children sitting on beanbags reading."
+  },
+  {
+   "en": "computer",
+   "ipa": "/kəmˈpjuːtər/",
+   "vi": "máy tính",
+   "emoji": "💻",
+   "image_prompt": "A simple desktop computer with a monitor, keyboard, and mouse on a small table."
+  },
+  {
+   "en": "friend",
+   "ipa": "/frɛnd/",
+   "vi": "bạn bè",
+   "emoji": "🤝",
+   "image_prompt": "Two diverse young children, a boy and a girl, holding hands and smiling at each other, happy and friendly."
+  },
+  {
+   "en": "study",
+   "ipa": "/ˈstʌdi/",
+   "vi": "học bài",
+   "emoji": "🧠",
+   "image_prompt": "A Vietnamese girl student sitting at a desk, looking at an open book with a pencil in her hand, concentrating."
+  },
+  {
+   "en": "read",
+   "ipa": "/rid/",
+   "vi": "đọc",
+   "emoji": "👓",
+   "image_prompt": "A diverse boy student holding an open book close to his face, his eyes focused on the pages."
+  },
+  {
+   "en": "write",
+   "ipa": "/raɪt/",
+   "vi": "viết",
+   "emoji": "✍️",
+   "image_prompt": "A child's hand holding a pencil, writing letters on a piece of paper on a desk."
+  },
+  {
+   "en": "play",
+   "ipa": "/pleɪ/",
+   "vi": "chơi",
+   "emoji": "⚽",
+   "image_prompt": "Two diverse children, a boy and a girl, laughing and kicking a colorful ball on a green field."
+  },
+  {
+   "en": "art room",
+   "ipa": "/ɑrt rum/",
+   "vi": "phòng mỹ thuật",
+   "emoji": "🎨",
+   "image_prompt": "A bright art room with easels, paint, and colorful artworks on display, with children painting."
+  },
+  {
+   "en": "music room",
+   "ipa": "/ˈmyuːzɪk rum/",
+   "vi": "phòng âm nhạc",
+   "emoji": "🎵",
+   "image_prompt": "A cheerful music room with a small piano, drums, and a guitar, with children singing and playing instruments."
+  }
+ ],
+ "phonics": {
+  "sound": "/p/",
+  "letters": "P p",
+  "words": [
+   "pencil",
+   "playground",
+   "paper",
+   "pen",
+   "play",
+   "puppet"
+  ],
+  "chant": "Pink pencils play on paper, please. / Pink pencils play on paper, please.",
+  "tip_vi": "Phát âm âm /p/ bằng cách khép môi lại, sau đó bật hơi ra nhanh."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my + noun.",
+   "vi": "Đây là + danh từ của tôi.",
+   "examples": [
+    "This is my school.",
+    "This is my classroom.",
+    "This is my book."
+   ]
+  },
+  {
+   "pattern": "There is a/an + noun.",
+   "vi": "Có một + danh từ.",
+   "examples": [
+    "There is a library.",
+    "There is a playground.",
+    "There is a board."
+   ]
+  },
+  {
+   "pattern": "There are + number + plural noun.",
+   "vi": "Có + số lượng + danh từ số nhiều.",
+   "examples": [
+    "There are many students.",
+    "There are two teachers.",
+    "There are five books."
+   ]
+  },
+  {
+   "pattern": "I have a/an + noun.",
+   "vi": "Tôi có một + danh từ.",
+   "examples": [
+    "I have a pencil.",
+    "I have a bag.",
+    "I have a friend."
+   ]
+  },
+  {
+   "pattern": "He/She is my + noun.",
+   "vi": "Anh ấy/Cô ấy là + danh từ của tôi.",
+   "examples": [
+    "He is my teacher.",
+    "She is my friend.",
+    "He is my principal."
+   ]
+  },
+  {
+   "pattern": "I like my + noun.",
+   "vi": "Tôi thích + danh từ của tôi.",
+   "examples": [
+    "I like my school.",
+    "I like my teacher.",
+    "I like my classroom."
+   ]
+  },
+  {
+   "pattern": "I + verb + at school.",
+   "vi": "Tôi + động từ + ở trường.",
+   "examples": [
+    "I study at school.",
+    "I play at school.",
+    "I read at school."
+   ]
+  },
+  {
+   "pattern": "It is + adjective.",
+   "vi": "Nó + tính từ.",
+   "examples": [
+    "It is big.",
+    "It is beautiful.",
+    "It is fun."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "We use 'This is' for one person, place, or thing. We use 'These are' for more than one person, place, or thing.",
+   "explain_vi": "Chúng ta dùng 'This is' để giới thiệu một người, một địa điểm hoặc một vật. Chúng ta dùng 'These are' để giới thiệu nhiều hơn một người, địa điểm hoặc vật.",
+   "examples": [
+    "This is my classroom.",
+    "These are my books.",
+    "This is my friend, Mai.",
+    "These are my pencils."
+   ],
+   "right": "✅ This is my school bag.",
+   "wrong": "❌ This are my school bag."
+  },
+  {
+   "title": "There is / There are",
+   "explain_en": "We use 'There is' for one thing. We use 'There are' for more than one thing.",
+   "explain_vi": "Chúng ta dùng 'There is' để nói về một thứ. Chúng ta dùng 'There are' để nói về nhiều thứ.",
+   "examples": [
+    "There is a big playground.",
+    "There are many students.",
+    "There is a teacher.",
+    "There are three computers."
+   ],
+   "right": "✅ There is a library.",
+   "wrong": "❌ There are a library."
+  },
+  {
+   "title": "I have",
+   "explain_en": "We use 'I have' to say what you own or possess.",
+   "explain_vi": "Chúng ta dùng 'I have' để nói về những gì mình sở hữu hoặc có.",
+   "examples": [
+    "I have a red pencil.",
+    "I have a new school bag.",
+    "I have many friends.",
+    "I have a book."
+   ],
+   "right": "✅ I have a nice teacher.",
+   "wrong": "❌ I has a nice teacher."
+  },
+  {
+   "title": "Possessive 's",
+   "explain_en": "We add 's to a noun to show possession, meaning something belongs to someone.",
+   "explain_vi": "Chúng ta thêm 's vào danh từ để chỉ sự sở hữu, nghĩa là thứ gì đó thuộc về ai đó.",
+   "examples": [
+    "This is Ben's book.",
+    "That is Ms. Anna's classroom.",
+    "These are Minh's pencils.",
+    "This is my friend's bag."
+   ],
+   "right": "✅ This is Linh's desk.",
+   "wrong": "❌ This is Linh desk."
+  }
+ ],
+ "song": {
+  "title": "My School, My Fun Place",
+  "tune": "Sing to the tune of 'Are You Sleeping?'",
+  "lines": [
+   "My school, my school,",
+   "Yes, it is fun!",
+   "Teachers, students, too,",
+   "Books and pencils new.",
+   "Playground, library,",
+   "Happy place for me!",
+   "My school, my school,",
+   "I love my school!"
+  ],
+  "actions_vi": "Hát và làm các động tác: chỉ vào trường, giơ ngón cái, vẫy tay chào giáo viên/học sinh, chỉ vào sách/bút chì, chỉ ra sân chơi/thư viện, ôm ngực thể hiện tình yêu trường."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY SCHOOL",
+   "text": "My name is Ben. I am seven years old. I go to Green Primary School. My school is big and beautiful. There is a big classroom. There is a small library. There is a nice playground, too. I have many friends at school. My teacher is Ms. Anna. She is kind. I love my school very much.",
+   "image_prompt": "A cheerful illustration of Ben, a Vietnamese boy, standing in front of a big, colorful school building, waving happily. Diverse children are playing in the background on the playground.",
+   "vocab": [
+    {
+     "en": "name",
+     "ipa": "/neɪm/",
+     "vi": "tên"
+    },
+    {
+     "en": "old",
+     "ipa": "/oʊld/",
+     "vi": "tuổi"
+    },
+    {
+     "en": "go to",
+     "ipa": "/ɡoʊ tu/",
+     "vi": "đi đến"
+    },
+    {
+     "en": "primary school",
+     "ipa": "/ˈpraɪˌmɛri skuːl/",
+     "vi": "trường tiểu học"
+    },
+    {
+     "en": "big",
+     "ipa": "/bɪɡ/",
+     "vi": "lớn"
+    },
+    {
+     "en": "beautiful",
+     "ipa": "/ˈbyuːtɪfəl/",
+     "vi": "đẹp"
+    },
+    {
+     "en": "small",
+     "ipa": "/smɔːl/",
+     "vi": "nhỏ"
+    },
+    {
+     "en": "nice",
+     "ipa": "/naɪs/",
+     "vi": "tốt, đẹp"
+    },
+    {
+     "en": "kind",
+     "ipa": "/kaɪnd/",
+     "vi": "tốt bụng"
+    },
+    {
+     "en": "love",
+     "ipa": "/lʌv/",
+     "vi": "yêu"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Ben?",
+    "What is the name of his school?",
+    "Is his school big or small?",
+    "Is his school beautiful?",
+    "Is there a big classroom in his school?",
+    "Is there a library in his school?",
+    "What is the playground like?",
+    "Who is his teacher?",
+    "Does Ben love his school?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "Ben goes to Green Primary School.",
+     "answer": true
+    },
+    {
+     "statement": "His school is small.",
+     "answer": false
+    },
+    {
+     "statement": "Ms. Anna is his teacher.",
+     "answer": true
+    },
+    {
+     "statement": "Ben does not like his school.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A DAY AT SCHOOL",
+   "text": "My name is Mai. I am a student. I go to school every day. My school is very friendly. I have many classes in my classroom. My teacher, Mr. Long, teaches us English. He is funny. I have a book and a pencil in my school bag. I read books in the library. I play with my friends in the playground. I like to draw in the art room. School is fun!",
+   "image_prompt": "A bright illustration showing Mai, a Vietnamese girl, walking into a school, carrying her backpack and smiling. Different school activities are happening in the background: kids drawing in an art room and playing in a playground.",
+   "vocab": [
+    {
+     "en": "every day",
+     "ipa": "/ˈɛvri deɪ/",
+     "vi": "mỗi ngày"
+    },
+    {
+     "en": "friendly",
+     "ipa": "/ˈfrɛndli/",
+     "vi": "thân thiện"
+    },
+    {
+     "en": "class",
+     "ipa": "/klæs/",
+     "vi": "tiết học"
+    },
+    {
+     "en": "teach",
+     "ipa": "/titʃ/",
+     "vi": "dạy"
+    },
+    {
+     "en": "English",
+     "ipa": "/ˈɪŋɡlɪʃ/",
+     "vi": "tiếng Anh"
+    },
+    {
+     "en": "funny",
+     "ipa": "/ˈfʌni/",
+     "vi": "vui tính"
+    },
+    {
+     "en": "school bag",
+     "ipa": "/skuːl bæɡ/",
+     "vi": "cặp sách"
+    },
+    {
+     "en": "draw",
+     "ipa": "/drɔː/",
+     "vi": "vẽ"
+    },
+    {
+     "en": "fun",
+     "ipa": "/fʌn/",
+     "vi": "vui"
+    },
+    {
+     "en": "like to",
+     "ipa": "/laɪk tu/",
+     "vi": "thích làm gì"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "What is Mai?",
+    "Does Mai go to school every day?",
+    "What is her school like?",
+    "Who teaches English?",
+    "Is Mr. Long funny?",
+    "What does Mai have in her school bag?",
+    "Where does Mai read books?",
+    "Where does Mai play with her friends?",
+    "Does Mai like to draw in the art room?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is a teacher.",
+     "answer": false
+    },
+    {
+     "statement": "Her school is friendly.",
+     "answer": true
+    },
+    {
+     "statement": "Mr. Long teaches Math.",
+     "answer": false
+    },
+    {
+     "statement": "Mai has a book and a pencil in her bag.",
+     "answer": true
+    },
+    {
+     "statement": "Mai plays in the library.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "OUR SCHOOL DAY",
+   "text": "Hello! My name is Nam. I am a Grade 2 student at Happy School. Our school day starts at 7:30 AM. First, we go to our classroom. My classroom has a big board and many desks. My teacher, Ms. Hoa, writes on the board. We learn many new things. We have a break time at 9:00 AM. I go to the playground with my friends, Minh and Lucy. We run and jump. After the break, we have music class in the music room. I like to sing songs. Then, we have lunch in the school canteen. After lunch, we have a computer class. We learn to use the computer. School is busy, but I am happy every day!",
+   "image_prompt": "A lively illustration of Nam, a Vietnamese boy, in a school uniform, standing in a busy school hallway with other diverse children. In the background, glimpses of a music room with kids singing and a computer room with kids looking at screens.",
+   "vocab": [
+    {
+     "en": "grade",
+     "ipa": "/ɡreɪd/",
+     "vi": "khối, lớp"
+    },
+    {
+     "en": "start",
+     "ipa": "/stɑrt/",
+     "vi": "bắt đầu"
+    },
+    {
+     "en": "first",
+     "ipa": "/fɜrst/",
+     "vi": "đầu tiên"
+    },
+    {
+     "en": "learn",
+     "ipa": "/lɜrn/",
+     "vi": "học"
+    },
+    {
+     "en": "new",
+     "ipa": "/nuː/",
+     "vi": "mới"
+    },
+    {
+     "en": "break time",
+     "ipa": "/breɪk taɪm/",
+     "vi": "giờ giải lao"
+    },
+    {
+     "en": "run",
+     "ipa": "/rʌn/",
+     "vi": "chạy"
+    },
+    {
+     "en": "jump",
+     "ipa": "/dʒʌmp/",
+     "vi": "nhảy"
+    },
+    {
+     "en": "sing",
+     "ipa": "/sɪŋ/",
+     "vi": "hát"
+    },
+    {
+     "en": "canteen",
+     "ipa": "/kænˈtin/",
+     "vi": "nhà ăn"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "What grade is Nam in?",
+    "What time does his school day start?",
+    "What does his classroom have?",
+    "Who writes on the board?",
+    "What do they do at 9:00 AM?",
+    "Who does Nam play with in the playground?",
+    "What do they do in the music room?",
+    "Where do they have lunch?",
+    "What do they learn in computer class?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam is in Grade 1.",
+     "answer": false
+    },
+    {
+     "statement": "Their school day starts at 8:00 AM.",
+     "answer": false
+    },
+    {
+     "statement": "Ms. Hoa is Nam's teacher.",
+     "answer": true
+    },
+    {
+     "statement": "Nam sings songs in the art room.",
+     "answer": false
+    },
+    {
+     "statement": "Nam is happy at school every day.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "My New School Bag",
+  "panels": [
+   {
+    "scene": "Linh, a Vietnamese girl, is standing proudly next to her desk, holding up a bright new school bag. Ben, a Vietnamese boy, is sitting at his desk, looking at her.",
+    "speech": "Linh: Look, Ben! This is my new school bag!"
+   },
+   {
+    "scene": "Ben is looking at the bag with wide eyes, impressed. Linh is smiling.",
+    "speech": "Ben: Wow! It is so beautiful, Linh!"
+   },
+   {
+    "scene": "Linh opens her bag and takes out a big, colorful book and a long, yellow pencil.",
+    "speech": "Linh: I have a book and a pencil in my bag."
+   },
+   {
+    "scene": "Ben smiles and points to his own small, old bag on the floor.",
+    "speech": "Ben: I have a book and a pencil, too. But my bag is old. Haha!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your school's name?",
+   "How many classrooms are there in your school?",
+   "Is there a library at your school?",
+   "Do you have a playground?",
+   "Who is your favorite teacher?",
+   "What do you like to do in the classroom?",
+   "What do you like to do in the playground?",
+   "Do you have many friends at school?",
+   "What is your favorite subject?",
+   "Do you have a computer room?",
+   "What do you carry in your school bag?",
+   "Do you like to read books?",
+   "Do you like to write?",
+   "Is your school big or small?",
+   "Why do you like your school?"
+  ],
+  "model": "Hello! My name is An. I go to Star Primary School. My school is big and beautiful. There are many classrooms. There is a big playground. I like to play with my friends there. My teacher is Ms. Linh. She is very kind. I have many books in my school bag. I love my school very much!",
+  "challenge": "Talk about your school for 30–60 seconds. Tell us about your school, your classroom, your teacher, and what you do there."
+ },
+ "conversations": [
+  {
+   "title": "At School",
+   "image_prompt": "Two diverse children, a boy named Tom and a girl named Anna, standing in front of a colorful school library, smiling and talking.",
+   "lines": [
+    {
+     "speaker": "Anna",
+     "text": "Hi, Tom! Is this your school?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, it is. Welcome to my school!"
+    },
+    {
+     "speaker": "Anna",
+     "text": "Wow! Your school is beautiful. Is this the library?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, it is the school library. I like to read books here."
+    },
+    {
+     "speaker": "Anna",
+     "text": "That's nice! Is there a playground?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, there is a big playground. Let's go play!"
+    },
+    {
+     "speaker": "Anna",
+     "text": "Great! I have many friends here, too."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Come on, let's meet my friends!"
+    }
+   ]
+  },
+  {
+   "title": "My Classroom",
+   "image_prompt": "Two diverse children, a boy named Ben and a girl named Mia, sitting at their desks in a bright, tidy classroom, pointing at things on their desks and talking.",
+   "lines": [
+    {
+     "speaker": "Ben",
+     "text": "Hi, Mia! This is my classroom."
+    },
+    {
+     "speaker": "Mia",
+     "text": "Hello, Ben! Your classroom is big."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, it is. There is a big board. My teacher writes on it."
+    },
+    {
+     "speaker": "Mia",
+     "text": "I see. What is this?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "This is my desk. And this is my chair."
+    },
+    {
+     "speaker": "Mia",
+     "text": "I have a new pencil. Do you have a pencil, Ben?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, I have a pencil. I also have a book and a school bag."
+    },
+    {
+     "speaker": "Mia",
+     "text": "Nice! Let's study together!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! My name is Ms. Linh. I am your new teacher. Welcome to our school! This is our classroom. It is big and bright. There are many desks and chairs. There is a big board. We will learn many new things here. We have many rooms in our school. There is a library. We can read books there. There is a playground. We can play with friends. I hope you love our school. It is a happy place!",
+  "questions": [
+   "What is the teacher's name?",
+   "Is Ms. Linh a new teacher?",
+   "What is the classroom like?",
+   "Are there many desks and chairs?",
+   "Is there a small board?",
+   "What can we do in the library?",
+   "What can we do in the playground?",
+   "Is the school a happy place?",
+   "Does the teacher hope students love the school?",
+   "What will students learn in the classroom?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "SCHOOL",
+   "BOOK",
+   "DESK",
+   "CHAIR",
+   "BOARD",
+   "BAG",
+   "READ",
+   "PLAY"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "teacher",
+     "student",
+     "friend",
+     "banana"
+    ],
+    "answer": "banana",
+    "why_vi": "Chuối là một loại trái cây, còn lại là người ở trường."
+   },
+   {
+    "options": [
+     "book",
+     "pencil",
+     "bag",
+     "house"
+    ],
+    "answer": "house",
+    "why_vi": "Ngôi nhà không phải là đồ dùng học tập."
+   },
+   {
+    "options": [
+     "classroom",
+     "library",
+     "playground",
+     "hat"
+    ],
+    "answer": "hat",
+    "why_vi": "Mũ là đồ dùng cá nhân, còn lại là các địa điểm trong trường."
+   },
+   {
+    "options": [
+     "run",
+     "jump",
+     "sing",
+     "desk"
+    ],
+    "answer": "desk",
+    "why_vi": "Bàn là một đồ vật, còn lại là các hành động."
+   },
+   {
+    "options": [
+     "big",
+     "small",
+     "red",
+     "friendly"
+    ],
+    "answer": "red",
+    "why_vi": "Màu đỏ là một màu sắc, còn lại là tính từ miêu tả kích thước hoặc tính cách."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have many pages. You can read me. What am I?",
+    "answer": "A book"
+   },
+   {
+    "riddle": "I have legs but cannot walk. You sit on me. What am I?",
+    "answer": "A chair"
+   },
+   {
+    "riddle": "I am a place for many students and one teacher. You learn here. What am I?",
+    "answer": "A classroom"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "oclohs",
+    "answer": "school"
+   },
+   {
+    "scrambled": "broda",
+    "answer": "board"
+   },
+   {
+    "scrambled": "deks",
+    "answer": "desk"
+   },
+   {
+    "scrambled": "rcha",
+    "answer": "chair"
+   },
+   {
+    "scrambled": "lpenic",
+    "answer": "pencil"
+   },
+   {
+    "scrambled": "ryraibl",
+    "answer": "library"
+   }
+  ],
+  "picture_count": {
+   "question": "How many students can you see in the cover picture?",
+   "hint_vi": "Hãy đếm số học sinh trong bức tranh tổng quan của bài học."
+  }
+ },
+ "write": {
+  "profile_title": "My School Profile",
+  "profile_fields": [
+   "My name is:",
+   "My school's name is:",
+   "I am in Grade:",
+   "My teacher's name is:",
+   "My classroom number is:",
+   "My favorite place at school is:",
+   "I have ______ friends at school.",
+   "My favorite thing in my bag is my ______.",
+   "I like to ______ at school.",
+   "My school is ______ and ______."
+  ],
+  "frame_title": "MY SCHOOL",
+  "frame_lines": [
+   "My name is ____.",
+   "I go to ____ Primary School.",
+   "My school is ____.",
+   "There is a big ____.",
+   "There is also a ____.",
+   "My classroom is ____.",
+   "My teacher is ____. She/He is ____.",
+   "I have many ____ at school.",
+   "I like to ____ and ____ at school.",
+   "I love my school!"
+  ]
+ },
+ "life_skill": {
+  "title": "LOVE AND RESPECT YOUR SCHOOL",
+  "intro": "Our school is a place where we learn, make friends, and grow. It is important to show love and respect for our school, our teachers, and our friends. Let's make our school a happy and clean place for everyone!",
+  "intro_vi": "Trường học là nơi chúng ta học tập, kết bạn và trưởng thành. Điều quan trọng là phải thể hiện tình yêu và sự tôn trọng đối với trường học, thầy cô và bạn bè của chúng ta. Hãy cùng nhau biến trường học thành một nơi vui vẻ và sạch đẹp cho tất cả mọi người!",
+  "can_do": [
+   "Listen to my teachers.",
+   "Be kind to my friends.",
+   "Help my classmates.",
+   "Keep my classroom clean.",
+   "Put trash in the bin.",
+   "Take care of school books.",
+   "Walk, not run, in the hallways.",
+   "Share my toys and materials.",
+   "Raise my hand to speak.",
+   "Say 'please' and 'thank you'.",
+   "Respect school property.",
+   "Be on time for class."
+  ],
+  "value_question": "What can you do to make your school a happier place?",
+  "image_prompt": "Diverse children, including Vietnamese kids, happily cleaning up their classroom together, putting books away, and wiping a desk, all with smiles on their faces. A teacher is giving a thumbs up in the background."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The word 'school' comes from an old Greek word meaning 'leisure' or 'free time' for learning!",
+   "vi": "Bạn có biết? Từ 'school' (trường học) bắt nguồn từ một từ tiếng Hy Lạp cổ có nghĩa là 'thời gian rảnh rỗi' hoặc 'thời gian tự do' để học hỏi!"
+  },
+  {
+   "en": "Did you know? The biggest school in the world is in India, with over 50,000 students!",
+   "vi": "Bạn có biết? Trường học lớn nhất thế giới nằm ở Ấn Độ, với hơn 50.000 học sinh!"
+  },
+  {
+   "en": "Did you know? Pencils can write for about 45,000 words or draw a line 35 miles long!",
+   "vi": "Bạn có biết? Bút chì có thể viết khoảng 45.000 từ hoặc vẽ một đường dài 35 dặm!"
+  },
+  {
+   "en": "Did you know? Many schools around the world have a special school uniform for students to wear.",
+   "vi": "Bạn có biết? Nhiều trường học trên thế giới có đồng phục đặc biệt cho học sinh mặc."
+  },
+  {
+   "en": "Did you know? The first blackboard was invented in Scotland in 1801!",
+   "vi": "Bạn có biết? Bảng đen đầu tiên được phát minh ở Scotland vào năm 1801!"
+  }
+ ],
+ "project": {
+  "title": "MY DREAM SCHOOL POSTER",
+  "task": "Create a poster about your dream school. What does it look like? What rooms does it have? What do you do there?",
+  "draw_items": [
+   "My dream school building",
+   "A happy classroom",
+   "A big playground",
+   "A colorful library",
+   "A fun art room",
+   "A cool music room",
+   "My friendly teacher",
+   "My happy friends"
+  ],
+  "example": [
+   "This is my dream school.",
+   "It is very big and colorful.",
+   "There is a big swimming pool.",
+   "My classroom has many robots.",
+   "I play with my friends every day.",
+   "My teacher is very funny.",
+   "I learn to fly in my dream school.",
+   "I love my dream school!"
+  ],
+  "present": "Hello everyone! This is my dream school poster. My dream school is [adjective]. It has [rooms]. I like to [activities] there. My favorite part is [favorite thing]. Thank you!",
+  "image_prompt": "A Vietnamese child happily presenting a colorful, hand-drawn poster of their 'dream school' to the class. The poster shows a fantastical school with unique features like a treehouse library and a rainbow slide. Other diverse children are watching and smiling."
+ },
+ "classroom_game": {
+  "name": "School Object Race",
+  "players": "groups of 4",
+  "steps_en": [
+   "1. The teacher calls out a school object (e.g., 'pencil', 'book', 'bag').",
+   "2. Students in each group quickly point to or pick up the object.",
+   "3. The first student to correctly point/pick up gets a point for their team.",
+   "4. The team with the most points at the end wins!"
+  ],
+  "steps_vi": [
+   "1. Giáo viên gọi tên một đồ vật học đường (ví dụ: 'pencil', 'book', 'bag').",
+   "2. Học sinh trong mỗi nhóm nhanh chóng chỉ vào hoặc nhặt đồ vật đó.",
+   "3. Học sinh đầu tiên chỉ/nhặt đúng sẽ nhận được một điểm cho đội của mình.",
+   "4. Đội có nhiều điểm nhất khi kết thúc sẽ thắng cuộc!"
+  ],
+  "language": [
+   "Where is the...?",
+   "It's here!",
+   "I have a...",
+   "This is a..."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "sch__l",
+    "answer": "school"
+   },
+   {
+    "word": "cl__sr__m",
+    "answer": "classroom"
+   },
+   {
+    "word": "t__ch__r",
+    "answer": "teacher"
+   },
+   {
+    "word": "b__k",
+    "answer": "book"
+   },
+   {
+    "word": "p__nc__l",
+    "answer": "pencil"
+   },
+   {
+    "word": "d__sk",
+    "answer": "desk"
+   },
+   {
+    "word": "ch__r",
+    "answer": "chair"
+   },
+   {
+    "word": "b__rd",
+    "answer": "board"
+   },
+   {
+    "word": "l__br__ry",
+    "answer": "library"
+   },
+   {
+    "word": "pl__ygr__und",
+    "answer": "playground"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ my school.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "There ______ a big playground.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I ______ a new school bag.",
+    "options": [
+     "has",
+     "have",
+     "is"
+    ],
+    "answer": "have"
+   },
+   {
+    "q": "My teacher ______ Ms. Hoa.",
+    "options": [
+     "are",
+     "am",
+     "is"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I like to ______ books in the library.",
+    "options": [
+     "play",
+     "read",
+     "write"
+    ],
+    "answer": "read"
+   },
+   {
+    "q": "There are many ______ in my classroom.",
+    "options": [
+     "desk",
+     "desks",
+     "a desk"
+    ],
+    "answer": "desks"
+   },
+   {
+    "q": "She ______ my friend.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "This is Ben's ______.",
+    "options": [
+     "book",
+     "books",
+     "book's"
+    ],
+    "answer": "book"
+   },
+   {
+    "q": "My school is ______ and beautiful.",
+    "options": [
+     "small",
+     "red",
+     "big"
+    ],
+    "answer": "big"
+   },
+   {
+    "q": "I ______ at school.",
+    "options": [
+     "study",
+     "studies",
+     "studying"
+    ],
+    "answer": "study"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / school / my",
+    "answer": "This is my school."
+   },
+   {
+    "words": "a / There / is / playground",
+    "answer": "There is a playground."
+   },
+   {
+    "words": "many / are / There / students",
+    "answer": "There are many students."
+   },
+   {
+    "words": "a / have / book / I",
+    "answer": "I have a book."
+   },
+   {
+    "words": "is / My / teacher / kind",
+    "answer": "My teacher is kind."
+   },
+   {
+    "words": "school / love / I / my",
+    "answer": "I love my school."
+   },
+   {
+    "words": "at / play / I / school",
+    "answer": "I play at school."
+   },
+   {
+    "words": "classroom / is / big / My",
+    "answer": "My classroom is big."
+   },
+   {
+    "words": "a / pencil / This / is",
+    "answer": "This is a pencil."
+   },
+   {
+    "words": "school / is / fun / My",
+    "answer": "My school is fun."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "What is your school's name?",
+   "How old are you?",
+   "Who is your teacher?",
+   "What do you have in your school bag?",
+   "Do you have a library at school?",
+   "What do you like to do in the playground?",
+   "How many friends do you have at school?",
+   "Is your classroom big or small?",
+   "Why do you like your school?"
+  ]
+ },
+ "i_can": [
+  "I can say school words in English.",
+  "I can use 'This is' and 'These are'.",
+  "I can use 'There is' and 'There are'.",
+  "I can use 'I have'.",
+  "I can use 's to show possession.",
+  "I can talk about my school.",
+  "I can describe my classroom.",
+  "I can talk about my teacher and friends.",
+  "I can say what I do at school.",
+  "I can read a simple story about school.",
+  "I can answer questions about a school text.",
+  "I can sing a song about school.",
+  "I can write simple sentences about my school.",
+  "I can show love and respect for my school.",
+  "I can ask and answer questions about school."
+ ],
+ "message_en": "SCHOOL IS A PLACE TO LEARN, TO LOVE, AND TO GROW.",
+ "message_vi": "Trường học là nơi em học hỏi, yêu thương và trưởng thành.",
+ "message_body": "Congratulations, Roxy English learners! You have finished Unit 2. Now you can talk all about your school. Keep practicing and learning new things every day. We are so proud of you!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 1,
+ "grade": 2,
+ "validation": []
+}

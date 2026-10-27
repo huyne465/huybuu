@@ -1,0 +1,1170 @@
+{
+ "title": "WILD ANIMALS",
+ "theme": "Nature & Environment",
+ "goal": "Students can describe wild animals, compare their characteristics, and talk about protecting their natural habitats.",
+ "goal_vi": "Học sinh có thể mô tả các loài động vật hoang dã, so sánh đặc điểm của chúng và nói về việc bảo vệ môi trường sống tự nhiên của chúng.",
+ "cover_emoji": "🦁🐘🦒",
+ "cover_image_prompt": "A vibrant and cheerful safari scene showing Vietnamese children Minh, Mai, and their foreign friends Ben and Mia excitedly observing wild animals like lions, elephants, and giraffes from a wooden observation tower in a sunny green national park.",
+ "big_question": {
+  "en": "Why are wild animals important to our planet?",
+  "vi": "Tại sao động vật hoang dã lại quan trọng đối với hành tinh của chúng ta?",
+  "prompts": [
+   "What is your favorite wild animal?",
+   "Where do lions and tigers live?",
+   "Are elephants bigger than horses?",
+   "Can a cheetah run faster than a dog?",
+   "Did you go to the zoo last weekend?",
+   "What will you do to help save wild animals?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "lion",
+   "ipa": "/ˈlaɪ.ən/",
+   "vi": "sư tử",
+   "emoji": "🦁",
+   "image_prompt": "A majestic male lion with a large golden mane resting proudly on a sunlit rock in the savannah, vector illustration style."
+  },
+  {
+   "en": "elephant",
+   "ipa": "/ˈɛl.ə.fənt/",
+   "vi": "con voi",
+   "emoji": "🐘",
+   "image_prompt": "A friendly gray elephant flapping its big ears and raising its trunk happily near a river bank."
+  },
+  {
+   "en": "giraffe",
+   "ipa": "/dʒəˈræf/",
+   "vi": "hươu cao cổ",
+   "emoji": "🦒",
+   "image_prompt": "A tall giraffe with yellow and brown spots reaching its long neck up to eat leafy branches from an acacia tree."
+  },
+  {
+   "en": "monkey",
+   "ipa": "/ˈmʌŋ.ki/",
+   "vi": "con khỉ",
+   "emoji": "🐒",
+   "image_prompt": "A playful brown monkey swinging by one arm from a thick jungle vine holding a yellow banana."
+  },
+  {
+   "en": "tiger",
+   "ipa": "/ˈtaɪ.ɡɚ/",
+   "vi": "con hổ",
+   "emoji": "🐅",
+   "image_prompt": "A strong orange tiger with bold black stripes walking gracefully through green forest grass."
+  },
+  {
+   "en": "zebra",
+   "ipa": "/ˈziː.brə/",
+   "vi": "ngựa vần",
+   "emoji": "🦓",
+   "image_prompt": "A cute zebra with clear black and white stripes standing in a grassy meadow under a sunny blue sky."
+  },
+  {
+   "en": "hippo",
+   "ipa": "/ˈhɪp.oʊ/",
+   "vi": "hà mã",
+   "emoji": "🦛",
+   "image_prompt": "A chubby hippopotamus swimming in a calm pond with only its eyes and nose poking out of the water."
+  },
+  {
+   "en": "crocodile",
+   "ipa": "/ˈkrɑː.kə.daɪl/",
+   "vi": "cá sấu",
+   "emoji": "🐊",
+   "image_prompt": "A green crocodile resting on a sandy riverbank with a wide, friendly smile."
+  },
+  {
+   "en": "panda",
+   "ipa": "/ˈpæn.də/",
+   "vi": "gấu trúc",
+   "emoji": "🐼",
+   "image_prompt": "A fluffy black and white panda bear sitting happily while munching on fresh green bamboo stalks."
+  },
+  {
+   "en": "kangaroo",
+   "ipa": "/ˌkæŋ.ɡəˈruː/",
+   "vi": "chuột túi",
+   "emoji": "🦘",
+   "image_prompt": "A brown kangaroo hopping across a grassy plain with a tiny joey peeking out from its pouch."
+  },
+  {
+   "en": "cheetah",
+   "ipa": "/ˈtʃiː.tə/",
+   "vi": "báo săn",
+   "emoji": "🐆",
+   "image_prompt": "A sleek cheetah with small black spots running super fast across an open grassland field."
+  },
+  {
+   "en": "dolphin",
+   "ipa": "/ˈdɑːl.fɪn/",
+   "vi": "cá heo",
+   "emoji": "🐬",
+   "image_prompt": "A shiny blue dolphin leaping gracefully out of clear ocean water into the air."
+  },
+  {
+   "en": "whale",
+   "ipa": "/weɪl/",
+   "vi": "cá voi",
+   "emoji": "🐳",
+   "image_prompt": "A huge blue whale swimming in the deep ocean blowing a spout of water into the sky."
+  },
+  {
+   "en": "eagle",
+   "ipa": "/ˈiː.ɡəl/",
+   "vi": "chim đại bàng",
+   "emoji": "🦅",
+   "image_prompt": "A powerful eagle with wide brown wings and a white head flying high above green mountains."
+  },
+  {
+   "en": "penguin",
+   "ipa": "/ˈpɛŋ.ɡwɪn/",
+   "vi": "chim cánh cụt",
+   "emoji": "🐧",
+   "image_prompt": "A cute black and white penguin standing on a shiny blue iceberg surrounded by snow."
+  },
+  {
+   "en": "rhino",
+   "ipa": "/ˈraɪ.noʊ/",
+   "vi": "tê giác",
+   "emoji": "🦏",
+   "image_prompt": "A sturdy gray rhinoceros with a sharp horn on its nose standing peacefully on the plains."
+  },
+  {
+   "en": "gorilla",
+   "ipa": "/ɡəˈrɪl.ə/",
+   "vi": "khỉ đột",
+   "emoji": "🦍",
+   "image_prompt": "A large black gorilla sitting calmly in a dense tropical forest surrounded by giant leaves."
+  },
+  {
+   "en": "jungle",
+   "ipa": "/ˈdʒʌŋ.ɡəl/",
+   "vi": "rừng nhiệt đới",
+   "emoji": "🌴",
+   "image_prompt": "A lush, dense jungle with tall green trees, hanging vines, colorful flowers, and bright sunlight filtering through."
+  },
+  {
+   "en": "wild",
+   "ipa": "/waɪld/",
+   "vi": "hoang dã",
+   "emoji": "🌿",
+   "image_prompt": "A scenic landscape showing free animals living naturally in open grassy fields and pristine forests."
+  },
+  {
+   "en": "protect",
+   "ipa": "/prəˈtɛkt/",
+   "vi": "bảo vệ",
+   "emoji": "🛡️",
+   "image_prompt": "Two cheerful children planting a tree and putting up a sign showing love for wild forest animals."
+  }
+ ],
+ "phonics": {
+  "sound": "/f/",
+  "letters": "f / ph",
+  "words": [
+   "elephant",
+   "giraffe",
+   "dolphin",
+   "forest",
+   "fast",
+   "feather"
+  ],
+  "chant": "The fast dolphin leaps over the wave,\nThe big elephant is friendly and brave!",
+  "tip_vi": "Đặt răng cửa trên nhẹ lên môi dưới và thổi hơi ra nhẹ nhàng để tạo âm /f/."
+ },
+ "patterns": [
+  {
+   "pattern": "What is your favorite wild animal? - My favorite wild animal is the [animal].",
+   "vi": "Động vật hoang dã yêu thích của bạn là gì? - Động vật hoang dã yêu thích của tớ là...",
+   "examples": [
+    "What is your favorite wild animal? - My favorite wild animal is the panda.",
+    "What is your favorite wild animal? - My favorite wild animal is the dolphin.",
+    "What is your favorite wild animal? - My favorite wild animal is the eagle."
+   ]
+  },
+  {
+   "pattern": "Where do [animals] live? - They live in the [habitat].",
+   "vi": "Các con [vật] sống ở đâu? - Chúng sống ở [môi trường sống].",
+   "examples": [
+    "Where do lions live? - They live in the jungle.",
+    "Where do dolphins live? - They live in the ocean.",
+    "Where do penguins live? - They live in snowy icy places."
+   ]
+  },
+  {
+   "pattern": "A [animal 1] is [comparative adj] than a [animal 2].",
+   "vi": "Một con [vật 1] thì [hơn] một con [vật 2].",
+   "examples": [
+    "A cheetah is faster than a lion.",
+    "An elephant is bigger than a zebra.",
+    "A giraffe is taller than a rhino."
+   ]
+  },
+  {
+   "pattern": "What are the [animals] doing? - They are [V-ing].",
+   "vi": "Những con [vật] đang làm gì? - Chúng đang...",
+   "examples": [
+    "What are the monkeys doing? - They are climbing trees.",
+    "What are the dolphins doing? - They are jumping high.",
+    "What are the eagles doing? - They are flying in the sky."
+   ]
+  },
+  {
+   "pattern": "What can a [animal] do? - It can [action].",
+   "vi": "Một con [vật] có thể làm gì? - Nó có thể...",
+   "examples": [
+    "What can a kangaroo do? - It can hop very high.",
+    "What can an eagle do? - It can see fish from far away.",
+    "What can a tiger do? - It can run fast and swim well."
+   ]
+  },
+  {
+   "pattern": "Yesterday, we visited [place] and saw [animals].",
+   "vi": "Hôm qua, chúng tớ đã thăm [nơi chốn] và nhìn thấy [các con vật].",
+   "examples": [
+    "Yesterday, we visited the zoo and saw two big elephants.",
+    "Yesterday, we visited the wildlife park and saw cute pandas.",
+    "Yesterday, we visited the natural reserve and saw wild birds."
+   ]
+  },
+  {
+   "pattern": "We will [action] to protect wild animals.",
+   "vi": "Chúng tớ sẽ [hành động] để bảo vệ động vật hoang dã.",
+   "examples": [
+    "We will draw posters to protect wild animals.",
+    "We will keep the forest clean to protect wild animals.",
+    "We will learn more about nature to protect wild animals."
+   ]
+  },
+  {
+   "pattern": "Could you see any [animals] in the wild? - Yes, I could. / No, I couldn't.",
+   "vi": "Bạn có thể đã nhìn thấy con [vật] nào ngoài tự nhiên không? - Có, tớ có. / Không, tớ không.",
+   "examples": [
+    "Could you see any dolphins in the sea? - Yes, I could.",
+    "Could you see any bears in the forest? - No, I couldn't.",
+    "Could you see any eagles in the sky? - Yes, I could."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Comparatives with Short Adjectives",
+   "explain_en": "We add -er to short adjectives to compare two animals or things. We use 'than' after the adjective.",
+   "explain_vi": "Chúng ta thêm đuôi -er vào sau tính từ ngắn để so sánh hai con vật hoặc đồ vật. Dùng 'than' sau tính từ.",
+   "examples": [
+    "A cheetah is faster than a lion.",
+    "An elephant is heavier than a hippo.",
+    "A giraffe is taller than a horse."
+   ],
+   "right": "✅ A cheetah is faster than a tiger.",
+   "wrong": "❌ A cheetah is more fast than a tiger."
+  },
+  {
+   "title": "Present Continuous for Animal Actions",
+   "explain_en": "We use is/are + verb-ing to describe actions happening right now.",
+   "explain_vi": "Chúng ta dùng is/are + động từ-ing để tả hành động của các con vật đang diễn ra ngay lúc này.",
+   "examples": [
+    "The monkey is eating a banana.",
+    "The birds are flying over the trees.",
+    "The lions are sleeping under the sun."
+   ],
+   "right": "✅ The monkeys are swinging on trees.",
+   "wrong": "❌ The monkeys is swing on trees."
+  },
+  {
+   "title": "Past Simple with Was / Were and Regular/Irregular Verbs",
+   "explain_en": "We use the Past Simple to talk about completed trips and events in the past.",
+   "explain_vi": "Chúng ta dùng thì Quá khứ đơn để kể lại những chuyến đi hoặc sự việc đã hoàn thành trong quá khứ.",
+   "examples": [
+    "I was at the safari park yesterday.",
+    "We saw three giant pandas.",
+    "The elephants walked slowly to the water."
+   ],
+   "right": "✅ We visited the zoo last Sunday.",
+   "wrong": "❌ We visit the zoo last Sunday."
+  },
+  {
+   "title": "Abilities with Can and Could",
+   "explain_en": "Use 'can' for present ability and 'could' for past ability or polite questions.",
+   "explain_vi": "Dùng 'can' để nói về khả năng ở hiện tại và 'could' để nói về khả năng trong quá khứ hoặc câu hỏi lịch sự.",
+   "examples": [
+    "Dolphins can swim very fast.",
+    "When I was young, I could not name all the wild animals.",
+    "Could you see the eagles high in the sky yesterday?"
+   ],
+   "right": "✅ She could see the tigers at the park yesterday.",
+   "wrong": "❌ She can saw the tigers at the park yesterday."
+  }
+ ],
+ "song": {
+  "title": "Wild Animals Song",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The lions in the jungle go roar, roar, roar!",
+   "Roar, roar, roar! Roar, roar, roar!",
+   "The lions in the jungle go roar, roar, roar,",
+   "All day long!",
+   "The monkeys in the trees swing high and low,",
+   "High and low! High and low!",
+   "The dolphins in the sea jump up and down,",
+   "All day long!",
+   "Let's love the wild animals near and far,",
+   "Protect their homes wherever they are!"
+  ],
+  "actions_vi": "Học sinh gầm giả làm sư tử, giơ tay đung đưa làm khỉ chuyền cành, chắp tay bật nhảy làm cá heo nhô lên mặt nước!"
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "A Day at the Wildlife Park",
+   "text": "Yesterday, Nam and his family visited a big wildlife park near their town. The weather was sunny and warm. They saw many amazing wild animals living in open areas. First, they looked at two giant elephants drinking water near a stream. Next, they saw three tall giraffes eating green leaves high in the trees. Nam liked the pandas best because they were fluffy and cute. A young panda was eating bamboo happily. Nam took many pictures with his camera. He felt very happy to see wild animals living in a safe and green environment.",
+   "image_prompt": "A Vietnamese boy named Nam holding a toy camera, looking happily at cute pandas and tall giraffes in an open green wildlife park with sunny blue skies.",
+   "vocab": [
+    {
+     "en": "wildlife park",
+     "ipa": "/ˈwaɪld.laɪf pɑːrk/",
+     "vi": "công viên bảo tồn động vật hoang dã"
+    },
+    {
+     "en": "amazing",
+     "ipa": "/əˈmeɪ.zɪŋ/",
+     "vi": "tuyệt vời, kinh ngạc"
+    },
+    {
+     "en": "open area",
+     "ipa": "/ˈoʊ.pən ˈɛr.i.ə/",
+     "vi": "khu vực mở, thoáng mát"
+    },
+    {
+     "en": "stream",
+     "ipa": "/striːm/",
+     "vi": "dòng suối"
+    },
+    {
+     "en": "leaf",
+     "ipa": "/liːf/",
+     "vi": "chiếc lá (số nhiều: leaves)"
+    },
+    {
+     "en": "fluffy",
+     "ipa": "/ˈflʌf.i/",
+     "vi": "mềm mại, xù lông"
+    },
+    {
+     "en": "bamboo",
+     "ipa": "/bæmˈbuː/",
+     "vi": "cây tre, cây trúc"
+    },
+    {
+     "en": "happily",
+     "ipa": "/ˈhæp.əl.i/",
+     "vi": "một cách vui vẻ"
+    },
+    {
+     "en": "picture",
+     "ipa": "/ˈpɪk.tʃɚ/",
+     "vi": "bức ảnh"
+    },
+    {
+     "en": "environment",
+     "ipa": "/ɪnˈvaɪ.rən.mənt/",
+     "vi": "môi trường"
+    }
+   ],
+   "questions": [
+    "Where did Nam and his family go yesterday?",
+    "How was the weather yesterday?",
+    "What were the two giant elephants doing?",
+    "What were the giraffes eating?",
+    "Which animal did Nam like best?",
+    "Why did Nam like the pandas?",
+    "What was the young panda eating?",
+    "What did Nam use to take pictures?",
+    "Where were the wild animals living?",
+    "How did Nam feel at the end of the trip?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam went to the wildlife park with his classmates.",
+     "answer": false
+    },
+    {
+     "statement": "The elephants were drinking water near a stream.",
+     "answer": true
+    },
+    {
+     "statement": "The giraffes were eating bananas.",
+     "answer": false
+    },
+    {
+     "statement": "Nam liked the pandas best.",
+     "answer": true
+    },
+    {
+     "statement": "Nam took pictures with his phone.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "The Smart Ocean Mammals",
+   "text": "Dolphins and whales are remarkable wild mammals that live in oceans across the world. Although they live underwater, they are not fish. They breathe air through blowholes on top of their heads. Dolphins are famous for being smart and friendly. They can jump high out of the water and perform playful tricks. In addition, dolphins use special clicking sounds to talk to each other and navigate underwater. Whales are much bigger than dolphins. In fact, the blue whale is the largest animal on Earth! It is even bigger than the biggest dinosaur that ever lived. Unfortunately, ocean pollution and trash harm these wonderful creatures. Today, young students around the world are working together to clean up beaches so ocean animals can swim safely.",
+   "image_prompt": "A bright underwater scene showing a clever blue dolphin and a huge blue whale swimming in crystal blue ocean waters with colorful fish.",
+   "vocab": [
+    {
+     "en": "mammal",
+     "ipa": "/ˈmæm.əl/",
+     "vi": "động vật có vú"
+    },
+    {
+     "en": "ocean",
+     "ipa": "/ˈoʊ.ʃən/",
+     "vi": "đại dương"
+    },
+    {
+     "en": "underwater",
+     "ipa": "/ˌʌn.dɚˈwɑː.tɚ/",
+     "vi": "dưới nước"
+    },
+    {
+     "en": "breathe",
+     "ipa": "/briːð/",
+     "vi": "hít thở"
+    },
+    {
+     "en": "blowhole",
+     "ipa": "/ˈbloʊ.hoʊl/",
+     "vi": "lỗ thở trên đỉnh đầu cá voi/cá heo"
+    },
+    {
+     "en": "tricks",
+     "ipa": "/trɪks/",
+     "vi": "trò diễn, kỹ năng khéo léo"
+    },
+    {
+     "en": "navigate",
+     "ipa": "/ˈnæv.ə.ɡeɪt/",
+     "vi": "định hướng, tìm đường đi"
+    },
+    {
+     "en": "dinosaur",
+     "ipa": "/ˈdaɪ.nə.sɔːr/",
+     "vi": "khủng long"
+    },
+    {
+     "en": "pollution",
+     "ipa": "/pəˈluː.ʃən/",
+     "vi": "sự ô nhiễm"
+    },
+    {
+     "en": "creature",
+     "ipa": "/ˈkriː.tʃɚ/",
+     "vi": "sinh vật, con vật"
+    }
+   ],
+   "questions": [
+    "Are dolphins and whales fish or mammals?",
+    "Where do dolphins and whales live?",
+    "How do dolphins and whales breathe air?",
+    "What are dolphins famous for?",
+    "What can dolphins do out of the water?",
+    "How do dolphins talk to each other underwater?",
+    "Which is bigger, a dolphin or a whale?",
+    "What is the largest animal on Earth?",
+    "What harms ocean animals today?",
+    "What are young students doing to help ocean animals?"
+   ],
+   "true_false": [
+    {
+     "statement": "Dolphins and whales are a special type of fish.",
+     "answer": false
+    },
+    {
+     "statement": "Dolphins breathe air through blowholes.",
+     "answer": true
+    },
+    {
+     "statement": "Blue whales are smaller than giant dinosaurs.",
+     "answer": false
+    },
+    {
+     "statement": "Dolphins communicate using clicking sounds.",
+     "answer": true
+    },
+    {
+     "statement": "Trash and ocean pollution are harmless to marine life.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "Protecting Our Wild Friends and Their Habitats",
+   "text": "Every wild animal plays a special role in nature. Lions and tigers keep the forests balanced by hunting weaker animals. Elephants create pathways through dense jungles that help smaller animals walk easily. Monkeys help plant new trees by dropping seeds across the tropical forest floor. However, many wild animals are in danger today because people are cutting down forests to build cities and farms.\n\nWhen trees disappear, wild animals lose their natural habitats and food sources. For example, giant pandas struggle to find bamboo forests, while cheetahs lose wide grasslands for hunting. Furthermore, illegal hunting makes many species rare and endangered. If we do not act now, some beautiful animals will vanish forever.\n\nFortunately, children and adults can take simple steps to save wildlife. We can reduce plastic waste, plant more trees, and support national parks. Schools can organize eco-friendly events to teach students about nature. Last week, Mai's class created colorful posters about endangered tigers. Next month, they will plant twenty young trees in their school garden. When we protect nature, we protect all living things on Earth.",
+   "image_prompt": "A group of diverse children including Mai and Linh planting small tree saplings in a sunny park with wild animal posters displayed proudly in the background.",
+   "vocab": [
+    {
+     "en": "habitat",
+     "ipa": "/ˈhæb.ə.tæt/",
+     "vi": "môi trường sống tự nhiên"
+    },
+    {
+     "en": "balanced",
+     "ipa": "/ˈbæl.ənst/",
+     "vi": "cân bằng"
+    },
+    {
+     "en": "pathway",
+     "ipa": "/ˈpæθ.weɪ/",
+     "vi": "lối đi, con đường nhỏ"
+    },
+    {
+     "en": "seed",
+     "ipa": "/siːd/",
+     "vi": "hạt giống"
+    },
+    {
+     "en": "in danger",
+     "ipa": "/ɪn ˈdeɪn.dʒɚ/",
+     "vi": "gặp nguy hiểm"
+    },
+    {
+     "en": "struggle",
+     "ipa": "/ˈstrʌɡ.əl/",
+     "vi": "trật vật, gặp khó khăn"
+    },
+    {
+     "en": "endangered",
+     "ipa": "/ɪnˈdeɪn.dʒɚd/",
+     "vi": "có nguy cơ tuyệt chủng"
+    },
+    {
+     "en": "vanish",
+     "ipa": "/ˈvæn.ɪʃ/",
+     "vi": "biến mất"
+    },
+    {
+     "en": "eco-friendly",
+     "ipa": "/ˌiː.koʊˈfrend.li/",
+     "vi": "thân thiện với môi trường"
+    },
+    {
+     "en": "sapling",
+     "ipa": "/ˈsæp.lɪŋ/",
+     "vi": "cây non"
+    }
+   ],
+   "questions": [
+    "Why are wild animals important in nature?",
+    "How do elephants help smaller animals in jungles?",
+    "How do monkeys help plant new forest trees?",
+    "Why are many wild animals in danger today?",
+    "What happens when natural trees disappear?",
+    "Why do giant pandas struggle in the wild?",
+    "What makes animal species rare and endangered?",
+    "What will happen if we do not protect wild animals?",
+    "What did Mai's class do last week?",
+    "What will Mai's class do next month in their school garden?"
+   ],
+   "true_false": [
+    {
+     "statement": "Lions and tigers help keep forest ecosystems balanced.",
+     "answer": true
+    },
+    {
+     "statement": "Monkeys spread tree seeds across the forest floor.",
+     "answer": true
+    },
+    {
+     "statement": "Building cities helps animals find bigger natural habitats.",
+     "answer": false
+    },
+    {
+     "statement": "Mai's class drew posters about endangered pandas last week.",
+     "answer": false
+    },
+    {
+     "statement": "Planting trees is a good way to help preserve wildlife.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "The Super Fast Cheetah",
+  "panels": [
+   {
+    "scene": "Nam and Ben are standing near a green field at the wildlife park looking at a sleeping cheetah under a shady tree.",
+    "speech": "Nam: Look at that cheetah! It is so lazy and sleeping peacefully."
+   },
+   {
+    "scene": "Ben points to his guidebook while looking at the peaceful animal.",
+    "speech": "Ben: Actually, a cheetah is much faster than a lion or a tiger!"
+   },
+   {
+    "scene": "Suddenly, a tiny blue butterfly flies past, and the cheetah instantly leaps up and runs at lightning speed across the field.",
+    "speech": "Nam: Whoa! Look at it go! It is moving faster than a sports car!"
+   },
+   {
+    "scene": "Ben and Nam watch with wide eyes while holding onto their hats in the breeze created by the running cheetah.",
+    "speech": "Ben: See? I told you! Never judge a wild animal when it is taking a nap!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite wild animal?",
+   "Where does your favorite wild animal live?",
+   "Is an elephant bigger than a lion?",
+   "Which animal runs faster, a cheetah or a zebra?",
+   "Can a dolphin jump out of the water?",
+   "What are the monkeys doing in the trees right now?",
+   "Did you go to the zoo or safari park last year?",
+   "What animals did you see at the zoo?",
+   "Are you afraid of snakes or crocodiles?",
+   "Why are wild animals important to nature?",
+   "What food do giant pandas eat?",
+   "Which wild bird can fly very high in the sky?",
+   "Could you name three animals that live in the ocean?",
+   "What will you do to protect natural forests?",
+   "Why should we keep oceans and rivers clean?"
+  ],
+  "model": "My favorite wild animal is the dolphin. Dolphins live in big ocean waters. They are very smart and friendly. A dolphin can swim extremely fast and jump high in the air. Yesterday, I watched a great video about blue dolphins. I will keep beaches clean to protect ocean animals.",
+  "challenge": "Talk about your favorite wild animal and how to protect it for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Trip to the Safari Park",
+   "image_prompt": "Nam and Mia sitting at a park bench looking at colorful pictures of wild animals in a guidebook.",
+   "lines": [
+    {
+     "speaker": "Nam",
+     "text": "Hi Mia! Did you enjoy your family trip to the safari park yesterday?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Yes, I did! It was super exciting. We saw so many wild animals."
+    },
+    {
+     "speaker": "Nam",
+     "text": "What was your favorite animal at the park?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "I loved the tall giraffes! They were taller than our school bus."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Wow! Could you feed them any green leaves?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Yes, I could! Their tongues were very long and purple."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Did you see any dangerous animals like lions or tigers?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "We saw two lions resting on big rocks. They were sleeping quietly!"
+    }
+   ]
+  },
+  {
+   "title": "Protecting Wild Habitats",
+   "image_prompt": "Linh and Ben making a poster with drawings of pandas and green forests on a classroom desk.",
+   "lines": [
+    {
+     "speaker": "Linh",
+     "text": "Ben, look at this picture of a panda. It is so cute!"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, but pandas are endangered because bamboo forests are disappearing."
+    },
+    {
+     "speaker": "Linh",
+     "text": "That is sad! Why are forests disappearing?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Because people cut down trees to build big cities and roads."
+    },
+    {
+     "speaker": "Linh",
+     "text": "What can we do to help protect wild animals?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "We can plant trees and reduce plastic waste every day."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Great idea! Let's write 'Save Forest Homes' on our green poster."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Awesome! I will draw trees and you can draw the happy pandas."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! Welcome to Nature World Radio. Today, ranger Tom is telling us about his trip to the tropical jungle. Last week, Tom walked deep into the green forest. Early in the morning, he saw three noisy monkeys swinging in the high trees. They were eating sweet yellow fruits. Near the river, Tom saw a big crocodile resting on the warm sand. It was very quiet. Then, Tom heard a loud sound in the bushes. A strong tiger was walking slowly through the tall grass! Tom stayed very quiet and took three beautiful photos. Tom says that jungle animals need big, clean forests to live safely. Next month, Tom will visit an ocean bay to study wild dolphins. Let me know if you want to join our junior ranger club!",
+  "questions": [
+   "Who is talking on Nature World Radio today?",
+   "Where did ranger Tom go last week?",
+   "What were the three monkeys doing early in the morning?",
+   "What were the monkeys eating?",
+   "Where was the big crocodile resting?",
+   "What animal came out of the tall grass?",
+   "How many photos did Tom take of the tiger?",
+   "Why do jungle animals need big forests?",
+   "Where will Tom go next month?",
+   "What animals will Tom study next month in the ocean bay?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "LION",
+   "TIGER",
+   "PANDA",
+   "ZEBRA",
+   "HIPPO",
+   "EAGLE",
+   "RHINO",
+   "WHALE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "lion",
+     "tiger",
+     "cheetah",
+     "desk"
+    ],
+    "answer": "desk",
+    "why_vi": "'desk' là đồ dùng học tập, các từ còn lại là động vật hoang dã thuộc họ mèo."
+   },
+   {
+    "options": [
+     "dolphin",
+     "whale",
+     "shark",
+     "monkey"
+    ],
+    "answer": "monkey",
+    "why_vi": "'monkey' sống trên cây/rừng, các từ còn lại sống dưới nước."
+   },
+   {
+    "options": [
+     "eagle",
+     "parrot",
+     "penguin",
+     "crocodile"
+    ],
+    "answer": "crocodile",
+    "why_vi": "'crocodile' là loài bò sát, các từ còn lại là các loài chim."
+   },
+   {
+    "options": [
+     "jungle",
+     "forest",
+     "ocean",
+     "pencil"
+    ],
+    "answer": "pencil",
+    "why_vi": "'pencil' là dụng cụ học tập, các từ còn lại là môi trường sống tự nhiên."
+   },
+   {
+    "options": [
+     "faster",
+     "taller",
+     "bigger",
+     "banana"
+    ],
+    "answer": "banana",
+    "why_vi": "'banana' là trái cây, các từ còn lại là tính từ so sánh hơn."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have black and white stripes all over my body. I look like a horse. What am I?",
+    "answer": "zebra"
+   },
+   {
+    "riddle": "I am the tallest animal in the world. I have a very long neck to eat tree leaves. What am I?",
+    "answer": "giraffe"
+   },
+   {
+    "riddle": "I live in the ocean. I am very smart, friendly, and I like to jump out of the water. What am I?",
+    "answer": "dolphin"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "e p h a l t n",
+    "answer": "elephant"
+   },
+   {
+    "scrambled": "g i r a f e f",
+    "answer": "giraffe"
+   },
+   {
+    "scrambled": "d o l p h i n",
+    "answer": "dolphin"
+   },
+   {
+    "scrambled": "p a n d a",
+    "answer": "panda"
+   },
+   {
+    "scrambled": "k a n g a r o o",
+    "answer": "kangaroo"
+   },
+   {
+    "scrambled": "j u n g l e",
+    "answer": "jungle"
+   }
+  ],
+  "picture_count": {
+   "question": "Look at the cover picture! How many wild animals can you see in total?",
+   "hint_vi": "Đếm tất cả các con sư tử, voi và hươu cao cổ xuất hiện trong hình ảnh bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Favorite Wild Animal Profile",
+  "profile_fields": [
+   "My name is:",
+   "My favorite wild animal is:",
+   "It lives in:",
+   "It eats:",
+   "It can:",
+   "It is bigger / taller / faster than:",
+   "Yesterday, I watched / saw:",
+   "It was doing:",
+   "I want to protect it because:",
+   "I will help by:"
+  ],
+  "frame_title": "MY FAVORITE WILD ANIMAL",
+  "frame_lines": [
+   "My name is ____.",
+   "My favorite wild animal is the ____.",
+   "It lives in the ____.",
+   "It likes to eat ____.",
+   "This animal can ____ very well.",
+   "It is ____ than a horse.",
+   "Yesterday, I saw a picture of a ____.",
+   "In the picture, it was ____ in the forest.",
+   "Wild animals are important because ____.",
+   "I will ____ to keep their homes safe."
+  ]
+ },
+ "life_skill": {
+  "title": "PROTECT WILD ANIMALS AND NATURE",
+  "intro": "Wild animals are an essential part of our natural world. By protecting their forest and ocean homes, we keep our planet healthy and beautiful!",
+  "intro_vi": "Động vật hoang dã là một phần thiết yếu của thế giới tự nhiên. Bằng cách bảo vệ ngôi nhà rừng núi và đại dương của chúng, chúng ta giữ cho hành tinh luôn xanh sạch đẹp!",
+  "can_do": [
+   "Never throw trash or plastic in forests, rivers, or beaches.",
+   "Plant trees and flowers in the school garden.",
+   "Learn about endangered wild animals and share knowledge with friends.",
+   "Turn off lights and save water at home.",
+   "Do not buy toys made from wild animal parts.",
+   "Support national parks and wildlife conservation funds.",
+   "Use reusable bags instead of single-use plastic bags.",
+   "Be quiet and respectful when visiting nature parks.",
+   "Keep local lakes and streams clean.",
+   "Recycle paper to save forest trees.",
+   "Draw posters to encourage people to protect wildlife.",
+   "Always treat all living creatures with love and kindness."
+  ],
+  "value_question": "What simple action will you do this week to show love for nature and wild animals?",
+  "image_prompt": "A happy group of young Vietnamese pupils placing recycled trash into colorful bins outdoors near a green forest park."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? A lion's roar can be heard from up to 8 kilometers (5 miles) away!",
+   "vi": "Bạn có biết? Tiếng gầm của sư tử có thể được nghe thấy từ khoảng cách xa đến 8 ki-lô-mét!"
+  },
+  {
+   "en": "Did you know? Kangaroos cannot walk backwards because of their long tails and big feet!",
+   "vi": "Bạn có biết? Chuột túi không thể đi giật lùi do chiếc đuôi dài và đôi chân to lớn của chúng!"
+  },
+  {
+   "en": "Did you know? Flamingos are born gray, and they turn pink because of the shrimp they eat!",
+   "vi": "Bạn có biết? Chim hồng hạc khi sinh ra có màu xám, chúng chuyển sang màu hồng do ăn loại tôm đặc biệt!"
+  },
+  {
+   "en": "Did you know? Dolphins sleep with one eye open so they can stay safe from danger!",
+   "vi": "Bạn có biết? Cá heo ngủ khi vẫn mở một bên mắt để luôn cảnh giác trước nguy hiểm!"
+  },
+  {
+   "en": "Did you know? No two zebras have the exact same stripe pattern; each zebra is unique like human fingerprints!",
+   "vi": "Bạn có biết? Không có hai con ngựa vằn nào có sọc giống hệt nhau; mỗi con đều độc nhất như vân tay con người!"
+  }
+ ],
+ "project": {
+  "title": "MY WILD ANIMAL POSTER",
+  "task": "Create a colorful poster about your favorite wild animal and present how to keep its environment safe.",
+  "draw_items": [
+   "A big green tree",
+   "A wild animal (lion/panda/dolphin)",
+   "A bright yellow sun",
+   "A clean blue river or ocean",
+   "A wooden 'Protect Animals' sign",
+   "Some green bamboo or grass",
+   "A rainbow in the sky",
+   "A happy child planting a sapling"
+  ],
+  "example": [
+   "This is my poster about the giant panda.",
+   "Pandas live in green bamboo forests.",
+   "They eat fresh bamboo leaves all day.",
+   "Pandas are cute and fluffy.",
+   "A panda is bigger than a monkey.",
+   "We must save bamboo forests to help pandas survive."
+  ],
+  "present": "Hello everyone! This is my wild animal poster. My favorite animal is the panda. Pandas live in bamboo forests. They are big, fluffy, and cute. A panda is bigger than a monkey. I want to save forests so pandas can live happily. Thank you for listening!",
+  "image_prompt": "A Vietnamese primary student standing proudly in front of the class holding a colorful handmade poster featuring a smiling panda bear in a green forest."
+ },
+ "classroom_game": {
+  "name": "Animal Action Freeze",
+  "players": "Whole class",
+  "steps_en": [
+   "The teacher plays lively music and calls out a wild animal action (e.g., 'Swinging monkeys!' or 'Hopping kangaroos!').",
+   "Students move around the classroom pretending to be that animal.",
+   "When the music stops, students must freeze like animal statues.",
+   "The teacher asks a frozen student: 'What can your animal do?' or 'Is your animal bigger than a cat?'",
+   "The student answers using unit sentence structures to win points for their team."
+  ],
+  "steps_vi": [
+   "Giáo viên bật nhạc sôi động và hô tên hành động của con vật (ví dụ: 'Khỉ chuyền cành!' hoặc 'Chuột túi nhảy!').",
+   "Học sinh di chuyển quanh lớp học đóng giả làm con vật đó.",
+   "Khi nhạc dừng, học sinh phải đóng băng như những bức tượng con vật.",
+   "Giáo viên hỏi một học sinh: 'Con vật của em có thể làm gì?' hoặc 'Con vật của em có to hơn con mèo không?'",
+   "Học sinh trả lời bằng cấu trúc câu đã học để giành điểm cho đội của mình."
+  ],
+  "language": [
+   "It can swim fast and jump high.",
+   "An elephant is bigger than a tiger.",
+   "Monkeys are climbing trees right now."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "li__n",
+    "answer": "lion"
+   },
+   {
+    "word": "el__ph__nt",
+    "answer": "elephant"
+   },
+   {
+    "word": "gir__ff__",
+    "answer": "giraffe"
+   },
+   {
+    "word": "monk__y",
+    "answer": "monkey"
+   },
+   {
+    "word": "t__g__r",
+    "answer": "tiger"
+   },
+   {
+    "word": "z__br__",
+    "answer": "zebra"
+   },
+   {
+    "word": "p__nd__",
+    "answer": "panda"
+   },
+   {
+    "word": "d__lph__n",
+    "answer": "dolphin"
+   },
+   {
+    "word": "jungl__",
+    "answer": "jungle"
+   },
+   {
+    "word": "prot__ct",
+    "answer": "protect"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "A cheetah is ________ than a lion.",
+    "options": [
+     "fast",
+     "faster",
+     "fastest"
+    ],
+    "answer": "faster"
+   },
+   {
+    "q": "An elephant is ________ than a monkey.",
+    "options": [
+     "bigger",
+     "small",
+     "tall"
+    ],
+    "answer": "bigger"
+   },
+   {
+    "q": "Look! The monkeys ________ trees right now.",
+    "options": [
+     "climb",
+     "are climbing",
+     "climbed"
+    ],
+    "answer": "are climbing"
+   },
+   {
+    "q": "Where ________ lions live?",
+    "options": [
+     "do",
+     "does",
+     "is"
+    ],
+    "answer": "do"
+   },
+   {
+    "q": "They live ________ the jungle.",
+    "options": [
+     "on",
+     "in",
+     "under"
+    ],
+    "answer": "in"
+   },
+   {
+    "q": "Yesterday, we ________ a giant panda at the park.",
+    "options": [
+     "see",
+     "saw",
+     "seeing"
+    ],
+    "answer": "saw"
+   },
+   {
+    "q": "A dolphin ________ swim very fast in the ocean.",
+    "options": [
+     "can",
+     "couldn't",
+     "is"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "Could you ________ the eagles yesterday?",
+    "options": [
+     "see",
+     "saw",
+     "seen"
+    ],
+    "answer": "see"
+   },
+   {
+    "q": "We will plant trees ________ protect wild animals.",
+    "options": [
+     "for",
+     "to",
+     "at"
+    ],
+    "answer": "to"
+   },
+   {
+    "q": "Giant pandas like to eat green ________.",
+    "options": [
+     "bamboo",
+     "meat",
+     "fish"
+    ],
+    "answer": "bamboo"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / my / lion / favorite / animal / .",
+    "answer": "My favorite animal is lion."
+   },
+   {
+    "words": "cheetah / A / faster / a / is / zebra / than / .",
+    "answer": "A cheetah is faster than a zebra."
+   },
+   {
+    "words": "live / Where / do / dolphins / ?",
+    "answer": "Where do dolphins live?"
+   },
+   {
+    "words": "the / They / ocean / in / live / .",
+    "answer": "They live in the ocean."
+   },
+   {
+    "words": "are / What / monkeys / doing / the / ?",
+    "answer": "What are the monkeys doing?"
+   },
+   {
+    "words": "climbing / are / They / trees / .",
+    "answer": "They are climbing trees."
+   },
+   {
+    "words": "saw / We / two / elephants / yesterday / .",
+    "answer": "We saw two elephants yesterday."
+   },
+   {
+    "words": "can / jump / Dolphins / high / .",
+    "answer": "Dolphins can jump high."
+   },
+   {
+    "words": "will / protect / We / forests / .",
+    "answer": "We will protect forests."
+   },
+   {
+    "words": "taller / Giraffes / are / rhinos / than / .",
+    "answer": "Giraffes are taller than rhinos."
+   }
+  ],
+  "about_you": [
+   "What is your favorite wild animal?",
+   "Where does your favorite animal live?",
+   "Is an elephant bigger than a lion?",
+   "Which animal is faster: a cheetah or a dog?",
+   "Have you ever visited a zoo or a safari park?",
+   "What animals did you see there?",
+   "Can you name two animals that live in the ocean?",
+   "What do giant pandas eat?",
+   "Why should we protect natural forests?",
+   "What will you do to help save wild animals?"
+  ]
+ },
+ "i_can": [
+  "I can name 20 wild animals and natural habitat words in English.",
+  "I can pronounce words with the /f/ sound correctly.",
+  "I can ask and answer about my favorite wild animal.",
+  "I can say where different wild animals live.",
+  "I can use comparatives (-er than) to compare two animals.",
+  "I can describe what animals are doing using Present Continuous.",
+  "I can talk about past zoo visits using Past Simple.",
+  "I can express present abilities using 'can'.",
+  "I can express past abilities using 'could'.",
+  "I can talk about future plans to protect animals using 'will'.",
+  "I can read short passages about wild animals and answer questions.",
+  "I can sing 'Wild Animals Song' with actions.",
+  "I can complete brain games and puzzles about wild animals.",
+  "I can create and present a wild animal poster in English.",
+  "I can practice good habits to protect natural habitats and animals."
+ ],
+ "message_en": "WILD ANIMALS ARE OUR FRIENDS. PROTECTING NATURE IS PROTECTING OUR FUTURE.",
+ "message_vi": "ĐỘNG VẬT HOANG DÃ LÀ BẠN CỦA CHÚNG TA. BẢO VỆ THIÊN NHIÊN LÀ BẢO VỆ TƯƠNG LAI CỦA CHÚNG TA.",
+ "message_body": "Every wild creature, from the smallest monkey to the giant elephant, plays a vital role in our ecosystem. By keeping our forests, rivers, and oceans clean, we build a wonderful green home for all living beings. Let's explore nature, love animals, and protect our environment together!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 9,
+ "grade": 4,
+ "validation": []
+}

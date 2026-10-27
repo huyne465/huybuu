@@ -1,0 +1,1169 @@
+{
+ "title": "My Hobbies",
+ "theme": "Free Time",
+ "goal": "Students can talk about their hobbies and free time activities using present simple and present continuous.",
+ "goal_vi": "Học sinh có thể nói về sở thích và các hoạt động giải trí của mình bằng thì hiện tại đơn và hiện tại tiếp diễn.",
+ "cover_emoji": "🎨🎶🎮🚲📖",
+ "cover_image_prompt": "A group of diverse, happy 8-year-old children, some Vietnamese, engaged in various hobbies in a sunny park: one is painting, another is playing a guitar, one is riding a bike, two are reading books under a tree, and one is playing a board game with a friend. Cheerful and vibrant colors.",
+ "big_question": {
+  "en": "What do you like to do in your free time?",
+  "vi": "Em thích làm gì vào thời gian rảnh rỗi?",
+  "prompts": [
+   "What do you do after school?",
+   "Do you like to play outside?",
+   "Do you like to read books?",
+   "Can you play a musical instrument?",
+   "What makes you happy?",
+   "Do you have a favorite hobby?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "reading",
+   "ipa": "/ˈriːdɪŋ/",
+   "vi": "đọc sách",
+   "emoji": "📖",
+   "image_prompt": "A single open storybook with colorful illustrations."
+  },
+  {
+   "en": "drawing",
+   "ipa": "/ˈdrɔːɪŋ/",
+   "vi": "vẽ",
+   "emoji": "✍️",
+   "image_prompt": "A single hand holding a pencil, sketching on a piece of paper."
+  },
+  {
+   "en": "painting",
+   "ipa": "/ˈpeɪntɪŋ/",
+   "vi": "tô màu, vẽ tranh",
+   "emoji": "🎨",
+   "image_prompt": "A single paintbrush dipping into a palette of vibrant colors."
+  },
+  {
+   "en": "singing",
+   "ipa": "/ˈsɪŋɪŋ/",
+   "vi": "hát",
+   "emoji": "🎤",
+   "image_prompt": "A single microphone with musical notes floating around it."
+  },
+  {
+   "en": "dancing",
+   "ipa": "/ˈdænsɪŋ/",
+   "vi": "nhảy múa",
+   "emoji": "🩰",
+   "image_prompt": "A pair of ballet slippers on a wooden floor."
+  },
+  {
+   "en": "listening to music",
+   "ipa": "/ˈlɪsənɪŋ tə ˈmjuːzɪk/",
+   "vi": "nghe nhạc",
+   "emoji": "🎧",
+   "image_prompt": "A pair of over-ear headphones with sound waves coming out."
+  },
+  {
+   "en": "playing video games",
+   "ipa": "/ˈpleɪɪŋ ˈvɪdioʊ ɡeɪmz/",
+   "vi": "chơi điện tử",
+   "emoji": "🎮",
+   "image_prompt": "A game controller with colorful buttons."
+  },
+  {
+   "en": "collecting stamps",
+   "ipa": "/kəˈlektɪŋ stæmps/",
+   "vi": "sưu tầm tem",
+   "emoji": "✉️",
+   "image_prompt": "A small hand holding a magnifying glass over a colorful stamp in an album."
+  },
+  {
+   "en": "gardening",
+   "ipa": "/ˈɡɑːrdnɪŋ/",
+   "vi": "làm vườn",
+   "emoji": "🌱",
+   "image_prompt": "A small green plant growing in a pot with a tiny shovel nearby."
+  },
+  {
+   "en": "cooking",
+   "ipa": "/ˈkʊkɪŋ/",
+   "vi": "nấu ăn",
+   "emoji": "🍳",
+   "image_prompt": "A frying pan with an egg sizzling inside."
+  },
+  {
+   "en": "baking",
+   "ipa": "/ˈbeɪkɪŋ/",
+   "vi": "nướng bánh",
+   "emoji": "🍪",
+   "image_prompt": "A tray of warm, freshly baked cookies."
+  },
+  {
+   "en": "photography",
+   "ipa": "/fəˈtɑːɡrəfi/",
+   "vi": "chụp ảnh",
+   "emoji": "📸",
+   "image_prompt": "A single camera lens with a flash going off."
+  },
+  {
+   "en": "writing stories",
+   "ipa": "/ˈraɪtɪŋ ˈstɔːriz/",
+   "vi": "viết truyện",
+   "emoji": "📝",
+   "image_prompt": "An open notebook with a pen resting on a page, showing some written lines."
+  },
+  {
+   "en": "making crafts",
+   "ipa": "/ˈmeɪkɪŋ kræfts/",
+   "vi": "làm đồ thủ công",
+   "emoji": "✂️",
+   "image_prompt": "A pair of scissors cutting colorful paper shapes."
+  },
+  {
+   "en": "playing board games",
+   "ipa": "/ˈpleɪɪŋ bɔːrd ɡeɪmz/",
+   "vi": "chơi cờ bàn",
+   "emoji": "🎲",
+   "image_prompt": "A board game with colorful pieces and dice."
+  },
+  {
+   "en": "riding a bike",
+   "ipa": "/ˈraɪdɪŋ ə baɪk/",
+   "vi": "đạp xe",
+   "emoji": "🚲",
+   "image_prompt": "A cheerful children's bicycle with a basket."
+  },
+  {
+   "en": "watching movies",
+   "ipa": "/ˈwɑːtʃɪŋ ˈmuːviz/",
+   "vi": "xem phim",
+   "emoji": "🎬",
+   "image_prompt": "A classic cinema clapboard and a roll of film."
+  },
+  {
+   "en": "learning a new language",
+   "ipa": "/ˈlɜːrnɪŋ ə nuː ˈlæŋɡwɪdʒ/",
+   "vi": "học một ngôn ngữ mới",
+   "emoji": "🗣️",
+   "image_prompt": "Speech bubbles with different language symbols (e.g., 'A', 'あ', '안녕하세요') around a globe."
+  },
+  {
+   "en": "hiking",
+   "ipa": "/ˈhaɪkɪŋ/",
+   "vi": "đi bộ đường dài",
+   "emoji": "🏞️",
+   "image_prompt": "A winding path through green hills with a backpack and hiking boots."
+  },
+  {
+   "en": "playing a musical instrument",
+   "ipa": "/ˈpleɪɪŋ ə ˈmjuːzɪkəl ˈɪnstrəmənt/",
+   "vi": "chơi nhạc cụ",
+   "emoji": "🎸",
+   "image_prompt": "A small, child-friendly acoustic guitar."
+  }
+ ],
+ "phonics": {
+  "sound": "/ɪŋ/",
+  "letters": "-ing",
+  "words": [
+   "singing",
+   "dancing",
+   "reading",
+   "drawing",
+   "playing",
+   "cooking"
+  ],
+  "chant": "Singing, dancing, having fun,\nLearning, playing, everyone!",
+  "tip_vi": "Âm /ɪŋ/ được phát âm bằng cách nâng lưỡi lên gần vòm miệng sau và thở ra bằng mũi, giống như cuối từ 'tiếng' trong tiếng Việt."
+ },
+ "patterns": [
+  {
+   "pattern": "I like + V-ing.",
+   "vi": "Tôi thích làm gì đó.",
+   "examples": [
+    "I like reading books.",
+    "My mom likes gardening.",
+    "We like playing board games."
+   ]
+  },
+  {
+   "pattern": "My hobby is + V-ing.",
+   "vi": "Sở thích của tôi là làm gì đó.",
+   "examples": [
+    "My hobby is drawing.",
+    "Her hobby is collecting stamps.",
+    "Their hobby is listening to music."
+   ]
+  },
+  {
+   "pattern": "I can + verb.",
+   "vi": "Tôi có thể làm gì đó.",
+   "examples": [
+    "I can sing.",
+    "He can ride a bike.",
+    "They can make crafts."
+   ]
+  },
+  {
+   "pattern": "I can't + verb.",
+   "vi": "Tôi không thể làm gì đó.",
+   "examples": [
+    "I can't dance well.",
+    "She can't play the guitar.",
+    "We can't cook a big meal."
+   ]
+  },
+  {
+   "pattern": "What do you like to do?",
+   "vi": "Bạn thích làm gì?",
+   "examples": [
+    "What do you like to do in your free time?",
+    "What does he like to do on weekends?",
+    "What do your friends like to do after school?"
+   ]
+  },
+  {
+   "pattern": "I am + V-ing. (action happening now)",
+   "vi": "Tôi đang làm gì đó (hành động đang diễn ra).",
+   "examples": [
+    "I am painting a picture now.",
+    "He is playing video games.",
+    "They are listening to music."
+   ]
+  },
+  {
+   "pattern": "Do you like + V-ing?",
+   "vi": "Bạn có thích làm gì đó không?",
+   "examples": [
+    "Do you like playing video games?",
+    "Does she like cooking?",
+    "Do they like hiking?"
+   ]
+  },
+  {
+   "pattern": "I have got + noun.",
+   "vi": "Tôi có cái gì đó.",
+   "examples": [
+    "I have got a new guitar.",
+    "She has got many storybooks.",
+    "We have got some colorful paints."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Present Simple (for hobbies/routines)",
+   "explain_en": "We use the present simple to talk about hobbies or things we do regularly.",
+   "explain_vi": "Chúng ta dùng thì hiện tại đơn để nói về sở thích hoặc những việc chúng ta làm thường xuyên.",
+   "examples": [
+    "I like drawing.",
+    "She plays the piano every day.",
+    "They enjoy reading."
+   ],
+   "right": "✅ I like swimming.",
+   "wrong": "❌ I am liking swimming."
+  },
+  {
+   "title": "Present Continuous (for actions now)",
+   "explain_en": "We use the present continuous to talk about actions happening right now.",
+   "explain_vi": "Chúng ta dùng thì hiện tại tiếp diễn để nói về những hành động đang diễn ra ngay bây giờ.",
+   "examples": [
+    "I am reading a book now.",
+    "He is playing video games.",
+    "They are listening to music."
+   ],
+   "right": "✅ She is singing a song.",
+   "wrong": "❌ She sings a song now."
+  },
+  {
+   "title": "Can / Can't (for ability)",
+   "explain_en": "We use 'can' to talk about what we are able to do, and 'can't' for what we are not able to do.",
+   "explain_vi": "Chúng ta dùng 'can' để nói về những gì chúng ta có thể làm, và 'can't' cho những gì chúng ta không thể làm.",
+   "examples": [
+    "I can draw well.",
+    "She can't swim.",
+    "Can you play the guitar?"
+   ],
+   "right": "✅ I can ride a bike.",
+   "wrong": "❌ I can to ride a bike."
+  },
+  {
+   "title": "Wh-questions (What/When/Who for hobbies)",
+   "explain_en": "We use 'wh-questions' to ask for specific information about hobbies or free time.",
+   "explain_vi": "Chúng ta dùng câu hỏi 'wh-' để hỏi thông tin cụ thể về sở thích hoặc thời gian rảnh.",
+   "examples": [
+    "What is your favorite hobby?",
+    "When do you usually draw?",
+    "Who do you play with?"
+   ],
+   "right": "✅ What do you like to do?",
+   "wrong": "❌ You like to do what?"
+  }
+ ],
+ "song": {
+  "title": "My Happy Hobbies",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "When I have some free time, free time, free time,",
+   "I like doing many things.",
+   "Reading books and drawing pictures,",
+   "Playing games and happy singing.",
+   "Oh, my hobbies make me smile,",
+   "Having fun for a long while.",
+   "Singing, dancing, every day,",
+   "Hobbies make my day so bright!"
+  ],
+  "actions_vi": "Vỗ tay khi hát, giả vờ đọc sách, vẽ, nhảy múa, và chỉ vào mình khi hát 'my hobbies'."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Free Time Fun",
+   "text": "Hi, my name is Minh. I am eight years old. I love my free time! After school, I often read books. I have many storybooks in my room. My favorite hobby is drawing. I can draw animals and people. Look! I am drawing a big elephant now. On weekends, I like to play outside with my friends. We ride our bikes and run in the park. My free time is always fun!",
+   "image_prompt": "A happy Vietnamese boy, Minh, sitting on a colorful rug, reading a book. In the background, there's a window showing a sunny garden with a swing.",
+   "vocab": [
+    {
+     "en": "free time",
+     "ipa": "/friː taɪm/",
+     "vi": "thời gian rảnh"
+    },
+    {
+     "en": "often",
+     "ipa": "/ˈɔːfən/",
+     "vi": "thường xuyên"
+    },
+    {
+     "en": "storybook",
+     "ipa": "/ˈstɔːri bʊk/",
+     "vi": "sách truyện"
+    },
+    {
+     "en": "drawing",
+     "ipa": "/ˈdrɔːɪŋ/",
+     "vi": "vẽ"
+    },
+    {
+     "en": "elephant",
+     "ipa": "/ˈelɪfənt/",
+     "vi": "con voi"
+    },
+    {
+     "en": "weekends",
+     "ipa": "/ˈwiːkendz/",
+     "vi": "những ngày cuối tuần"
+    },
+    {
+     "en": "ride bikes",
+     "ipa": "/raɪd baɪks/",
+     "vi": "đạp xe"
+    },
+    {
+     "en": "run",
+     "ipa": "/rʌn/",
+     "vi": "chạy"
+    },
+    {
+     "en": "park",
+     "ipa": "/pɑːrk/",
+     "vi": "công viên"
+    },
+    {
+     "en": "fun",
+     "ipa": "/fʌn/",
+     "vi": "vui vẻ"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Minh?",
+    "What does Minh love?",
+    "What does he often do after school?",
+    "What is his favorite hobby?",
+    "What can he draw?",
+    "What is he drawing now?",
+    "What does he like to do on weekends?",
+    "Who does he play with?",
+    "How is his free time?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Minh often reads books after school.",
+     "answer": true
+    },
+    {
+     "statement": "His favorite hobby is playing video games.",
+     "answer": false
+    },
+    {
+     "statement": "He is drawing a big cat now.",
+     "answer": false
+    },
+    {
+     "statement": "Minh plays outside with his friends on weekends.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "Linh's Creative Hobbies",
+   "text": "Hello! I am Linh. I have many creative hobbies. My favorite hobby is painting. I have many colors, and I like to paint flowers and birds. Right now, I am painting a beautiful blue bird for my mom. It's a special gift! Another hobby I enjoy is making crafts. I can make paper animals and little boxes. They are fun to make. On Saturday mornings, I go to a singing club. I love to sing! My friends and I sing many English songs together. We are practicing a new song for our school show. My hobbies make me happy and busy.",
+   "image_prompt": "A creative Vietnamese girl, Linh, sitting at a table covered with colorful paints and paper. She is happily painting a flower. Next to her are some finished paper crafts.",
+   "vocab": [
+    {
+     "en": "creative",
+     "ipa": "/kriˈeɪtɪv/",
+     "vi": "sáng tạo"
+    },
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích nhất"
+    },
+    {
+     "en": "painting",
+     "ipa": "/ˈpeɪntɪŋ/",
+     "vi": "vẽ tranh"
+    },
+    {
+     "en": "colors",
+     "ipa": "/ˈkʌlərz/",
+     "vi": "màu sắc"
+    },
+    {
+     "en": "birds",
+     "ipa": "/bɜːrdz/",
+     "vi": "những con chim"
+    },
+    {
+     "en": "gift",
+     "ipa": "/ɡɪft/",
+     "vi": "món quà"
+    },
+    {
+     "en": "crafts",
+     "ipa": "/kræfts/",
+     "vi": "đồ thủ công"
+    },
+    {
+     "en": "club",
+     "ipa": "/klʌb/",
+     "vi": "câu lạc bộ"
+    },
+    {
+     "en": "singing",
+     "ipa": "/ˈsɪŋɪŋ/",
+     "vi": "hát"
+    },
+    {
+     "en": "practicing",
+     "ipa": "/ˈpræktɪsɪŋ/",
+     "vi": "luyện tập"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "What kind of hobbies does Linh have?",
+    "What is her favorite hobby?",
+    "What does she like to paint?",
+    "What is she painting right now?",
+    "What is the blue bird for?",
+    "What else does Linh enjoy doing?",
+    "What can she make with crafts?",
+    "Where does she go on Saturday mornings?",
+    "What are Linh and her friends doing at the club?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh has only one hobby.",
+     "answer": false
+    },
+    {
+     "statement": "Her favorite hobby is painting.",
+     "answer": true
+    },
+    {
+     "statement": "She is painting a red bird for her dad.",
+     "answer": false
+    },
+    {
+     "statement": "Linh likes making paper animals.",
+     "answer": true
+    },
+    {
+     "statement": "Linh and her friends are practicing for a school show.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "The Weekend Fun Club",
+   "text": "My name is Nam. Every Saturday, my friends and I meet at the 'Weekend Fun Club'. We have many exciting hobbies! Ben likes playing board games. He is very good at chess. Today, he is teaching Mai how to play a new game. Mai's hobby is cooking. She loves making simple desserts like cookies and fruit salads. Right now, she is looking at a recipe for chocolate cookies. We can't wait to taste them! My hobby is photography. I like taking pictures of nature and my friends. I have a small camera, and I am taking a picture of Ben and Mai now. We are also learning some basic Japanese words together. It's a bit hard, but very interesting! We are having a great time at the club because we can do many fun things. What do you like to do on weekends?",
+   "image_prompt": "A diverse group of three 8-year-old children (Nam, Mai, Ben) sitting around a table in a bright room, laughing. One child is taking a picture with a camera, another is playing a board game, and the third is looking at a recipe book. There are some simple cookies on a plate.",
+   "vocab": [
+    {
+     "en": "exciting",
+     "ipa": "/ɪkˈsaɪtɪŋ/",
+     "vi": "thú vị"
+    },
+    {
+     "en": "board games",
+     "ipa": "/bɔːrd ɡeɪmz/",
+     "vi": "trò chơi cờ bàn"
+    },
+    {
+     "en": "chess",
+     "ipa": "/tʃes/",
+     "vi": "cờ vua"
+    },
+    {
+     "en": "desserts",
+     "ipa": "/dɪˈzɜːrts/",
+     "vi": "món tráng miệng"
+    },
+    {
+     "en": "cookies",
+     "ipa": "/ˈkʊkiz/",
+     "vi": "bánh quy"
+    },
+    {
+     "en": "recipe",
+     "ipa": "/ˈresɪpi/",
+     "vi": "công thức nấu ăn"
+    },
+    {
+     "en": "photography",
+     "ipa": "/fəˈtɑːɡrəfi/",
+     "vi": "nhiếp ảnh"
+    },
+    {
+     "en": "nature",
+     "ipa": "/ˈneɪtʃər/",
+     "vi": "thiên nhiên"
+    },
+    {
+     "en": "basic",
+     "ipa": "/ˈbeɪsɪk/",
+     "vi": "cơ bản"
+    },
+    {
+     "en": "interesting",
+     "ipa": "/ˈɪntrəstɪŋ/",
+     "vi": "thú vị, hấp dẫn"
+    }
+   ],
+   "questions": [
+    "What is the boy's name who tells the story?",
+    "When do Nam and his friends meet?",
+    "What is Ben's hobby?",
+    "What game is Ben good at?",
+    "What is Ben doing today?",
+    "What is Mai's hobby?",
+    "What kind of desserts does Mai like to make?",
+    "What is Mai looking at right now?",
+    "What is Nam's hobby?",
+    "What new language are they learning?"
+   ],
+   "true_false": [
+    {
+     "statement": "The club meets every Sunday.",
+     "answer": false
+    },
+    {
+     "statement": "Ben likes playing board games.",
+     "answer": true
+    },
+    {
+     "statement": "Mai's hobby is painting.",
+     "answer": false
+    },
+    {
+     "statement": "Mai is looking at a recipe for fruit salads.",
+     "answer": false
+    },
+    {
+     "statement": "Nam likes taking pictures of nature and his friends.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "A Rainy Day",
+  "panels": [
+   {
+    "scene": "Tom and Lucy are looking out a window at heavy rain. They look a bit sad.",
+    "speech": "Tom: Oh no! It's raining again. We can't ride our bikes."
+   },
+   {
+    "scene": "Lucy has an idea, a lightbulb above her head. Tom looks hopeful.",
+    "speech": "Lucy: Don't worry, Tom! We can still have fun inside."
+   },
+   {
+    "scene": "Tom and Lucy are sitting on the floor, surrounded by drawing materials. They are both happily drawing pictures.",
+    "speech": "Tom: You're right, Lucy! My hobby is drawing. Look, I'm drawing a superhero!"
+   },
+   {
+    "scene": "Lucy is showing her drawing of a beautiful flower to Tom, who is smiling. They are both happy.",
+    "speech": "Lucy: And my hobby is painting. I am painting a big, red flower! This is fun!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What do you like to do in your free time?",
+   "What is your favorite hobby?",
+   "Do you have many hobbies?",
+   "How often do you do your hobby?",
+   "Who do you do your hobby with?",
+   "Where do you usually do your hobby?",
+   "Can you draw well?",
+   "Do you like listening to music?",
+   "What kind of books do you like to read?",
+   "Are you playing video games now?",
+   "Can you play a musical instrument? Which one?",
+   "What are your friends' hobbies?",
+   "Is it important to have hobbies? Why?",
+   "What hobby do you want to try in the future?",
+   "What are you doing right now?"
+  ],
+  "model": "My favorite hobby is reading. I love reading adventure stories. I often read books in my room after school. I can read for a long time. My mom also likes reading, so sometimes we read together. I am not reading a book right now, I am talking about my hobbies! Reading makes me happy and helps me learn new things.",
+  "challenge": "Talk about your favorite hobby and what you do in your free time for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "At the Community Center",
+   "image_prompt": "Two happy Vietnamese children, An and Ben, talking at a community center. An is holding a small, colorful craft item. Ben has a sketchbook in his hand.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Hi Ben! What are you doing here?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Hi An! I'm here for my drawing class. My hobby is drawing."
+    },
+    {
+     "speaker": "An",
+     "text": "Oh, really? That's cool! What are you drawing today?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I'm drawing a big, funny monster! It's hard but fun."
+    },
+    {
+     "speaker": "An",
+     "text": "I like drawing too, but my favorite hobby is making crafts."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Wow! Can you make paper flowers?"
+    },
+    {
+     "speaker": "An",
+     "text": "Yes, I can! Look, I made this flower for my teacher."
+    },
+    {
+     "speaker": "Ben",
+     "text": "It's beautiful, An! You are very creative."
+    }
+   ]
+  },
+  {
+   "title": "After School",
+   "image_prompt": "Two diverse children, Linh and Tom, walking home from school. Linh is carrying a small book, and Tom has headphones around his neck.",
+   "lines": [
+    {
+     "speaker": "Linh",
+     "text": "What are you doing after school today, Tom?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I'm going home to listen to music. My hobby is listening to K-pop."
+    },
+    {
+     "speaker": "Linh",
+     "text": "That sounds fun! Are you listening to music now?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "No, I'm not. I'm talking to you! What about you, Linh?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "I'm going to read my new adventure book. Reading is my favorite."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Oh, I don't really like reading. I like playing video games."
+    },
+    {
+     "speaker": "Linh",
+     "text": "That's okay! We all have different hobbies."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes! And that's what makes life interesting."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! My name is Ms. Hoa. Today, let's talk about hobbies. My favorite hobby is gardening. I love to plant flowers and vegetables in my garden. It's relaxing, and I can eat fresh food! My husband, Mr. Minh, also has a hobby. He loves cooking! He can make delicious food for our family. He is cooking dinner right now. My daughter, Mia, is eight years old. She likes drawing and painting. She is drawing a beautiful bird for me. And my son, Nam, loves playing the guitar. He is practicing a new song in his room. We all have different hobbies, and we enjoy our free time together. What about you?",
+  "questions": [
+   "What is Ms. Hoa's favorite hobby?",
+   "What does she plant in her garden?",
+   "What is Mr. Minh's hobby?",
+   "What is Mr. Minh doing right now?",
+   "How old is Mia?",
+   "What does Mia like to do?",
+   "What is Mia drawing for her mom?",
+   "What is Nam's hobby?",
+   "What is Nam doing in his room?",
+   "Do they all have the same hobbies?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "READING",
+   "DRAWING",
+   "SINGING",
+   "DANCING",
+   "COOKING",
+   "BAKING",
+   "GAMES",
+   "BIKING"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "reading",
+     "drawing",
+     "singing",
+     "teacher"
+    ],
+    "answer": "teacher",
+    "why_vi": "Teacher là nghề nghiệp, không phải sở thích."
+   },
+   {
+    "options": [
+     "guitar",
+     "piano",
+     "flute",
+     "book"
+    ],
+    "answer": "book",
+    "why_vi": "Book là sách, không phải nhạc cụ."
+   },
+   {
+    "options": [
+     "run",
+     "jump",
+     "paint",
+     "sleep"
+    ],
+    "answer": "sleep",
+    "why_vi": "Sleep là hành động nghỉ ngơi, không phải một sở thích hay hoạt động giải trí tích cực."
+   },
+   {
+    "options": [
+     "pizza",
+     "painting",
+     "cooking",
+     "baking"
+    ],
+    "answer": "pizza",
+    "why_vi": "Pizza là món ăn, các từ khác là hoạt động liên quan đến sở thích."
+   },
+   {
+    "options": [
+     "happy",
+     "sad",
+     "hobby",
+     "excited"
+    ],
+    "answer": "hobby",
+    "why_vi": "Hobby là sở thích, các từ khác là cảm xúc."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am a fun activity you do in your free time. I can make you happy or help you relax. What am I?",
+    "answer": "A hobby"
+   },
+   {
+    "riddle": "I have many colorful pages, but I am not a flower. You can read stories and learn new things from me. What am I?",
+    "answer": "A book"
+   },
+   {
+    "riddle": "I make beautiful sounds with strings or keys. You can play me to make music. What am I?",
+    "answer": "A musical instrument"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "gindera",
+    "answer": "reading"
+   },
+   {
+    "scrambled": "wnaridg",
+    "answer": "drawing"
+   },
+   {
+    "scrambled": "gnnisig",
+    "answer": "singing"
+   },
+   {
+    "scrambled": "okconig",
+    "answer": "cooking"
+   },
+   {
+    "scrambled": "samge",
+    "answer": "games"
+   },
+   {
+    "scrambled": "cbiek",
+    "answer": "bike"
+   }
+  ],
+  "picture_count": {
+   "question": "How many children are doing hobbies in the cover picture?",
+   "hint_vi": "Hãy đếm số lượng trẻ em đang thực hiện các sở thích trong bức tranh bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Hobbies Profile",
+  "profile_fields": [
+   "My name is:",
+   "My age is:",
+   "My favorite hobby is:",
+   "I like to do my hobby:",
+   "I usually do my hobby:",
+   "I can:",
+   "I can't:",
+   "My friend's name is:",
+   "My friend's hobby is:",
+   "I want to try:"
+  ],
+  "frame_title": "MY HOBBIES",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "In my free time, I like to ____.",
+   "My favorite hobby is ____.",
+   "I can ____ well.",
+   "I usually do my hobby ____.",
+   "I do my hobby with ____.",
+   "Sometimes, I also like to ____.",
+   "My friend, ____, likes to ____.",
+   "My hobbies make me ____."
+  ]
+ },
+ "life_skill": {
+  "title": "BALANCE YOUR TIME",
+  "intro": "Having hobbies is wonderful, but it's also important to balance your time. Make sure you have enough time for schoolwork, family, friends, and rest, too!",
+  "intro_vi": "Có sở thích là điều tuyệt vời, nhưng điều quan trọng là phải cân bằng thời gian của bạn. Hãy đảm bảo bạn có đủ thời gian cho việc học, gia đình, bạn bè và cả nghỉ ngơi nữa!",
+  "can_do": [
+   "Finish my homework first.",
+   "Help my family with chores.",
+   "Play outside with friends.",
+   "Read a book before bed.",
+   "Practice my hobby for a while.",
+   "Spend time with my parents.",
+   "Go to bed on time.",
+   "Eat healthy snacks.",
+   "Limit screen time.",
+   "Learn something new every day.",
+   "Take a break when I'm tired.",
+   "Be kind to everyone."
+  ],
+  "value_question": "How can you make sure you have time for everything important?",
+  "image_prompt": "A happy diverse child, 8 years old, looking at a weekly schedule chart with different activities (school, play, hobby, family time, sleep) clearly marked, showing a balanced day. Bright and organized scene."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Playing a musical instrument can make you smarter and help with memory!",
+   "vi": "Bạn có biết? Chơi nhạc cụ có thể giúp bạn thông minh hơn và cải thiện trí nhớ!"
+  },
+  {
+   "en": "Did you know? Reading books before bed can help you sleep better.",
+   "vi": "Bạn có biết? Đọc sách trước khi đi ngủ có thể giúp bạn ngủ ngon hơn."
+  },
+  {
+   "en": "Did you know? Drawing and painting are great ways to express your feelings and be creative.",
+   "vi": "Bạn có biết? Vẽ và tô màu là những cách tuyệt vời để thể hiện cảm xúc và sáng tạo."
+  },
+  {
+   "en": "Did you know? The first postage stamp in the world, the Penny Black, was made in England in 1840!",
+   "vi": "Em có biết? Con tem bưu chính đầu tiên trên thế giới, tem Penny Black, được làm ở Anh vào năm 1840!"
+  },
+  {
+   "en": "Did you know? Cooking can teach you about math and science, and you get delicious food at the end!",
+   "vi": "Bạn có biết? Nấu ăn có thể dạy bạn về toán học và khoa học, và cuối cùng bạn sẽ có món ăn ngon!"
+  }
+ ],
+ "project": {
+  "title": "MY HOBBY POSTER",
+  "task": "Create a poster about your favorite hobby.",
+  "draw_items": [
+   "Yourself doing your hobby.",
+   "Things you use for your hobby (e.g., book, paint, guitar).",
+   "Your friends doing their hobbies.",
+   "A place where you do your hobby (e.g., park, room).",
+   "Happy faces.",
+   "Colors and shapes.",
+   "Nature if your hobby is outside.",
+   "Musical notes if you sing or play an instrument."
+  ],
+  "example": [
+   "Hello everyone! This is my hobby poster.",
+   "My name is Linh. My favorite hobby is drawing.",
+   "I like to draw animals and flowers. I can draw a big cat.",
+   "I usually draw in my room after school. I use colorful pencils.",
+   "Drawing makes me happy!"
+  ],
+  "present": "Hello everyone! This is my hobby poster. My name is ____. My favorite hobby is ____. I can ____. I usually ____. It makes me ____.",
+  "image_prompt": "A bright, colorful poster created by an 8-year-old, showing drawings related to hobbies like reading, drawing, playing music, and a child presenting it happily to a small group of friends."
+ },
+ "classroom_game": {
+  "name": "Hobby Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "Each group gets a list of hobbies (e.g., reading, drawing, singing, playing guitar, cooking).",
+   "One student chooses a hobby from the list, without showing it to their group.",
+   "They act out the hobby using actions only, no talking.",
+   "Their group members guess the hobby. The first group to guess correctly gets a point.",
+   "Take turns until all hobbies are acted out."
+  ],
+  "steps_vi": [
+   "Mỗi nhóm nhận một danh sách các sở thích (ví dụ: đọc sách, vẽ, hát, chơi ghi-ta, nấu ăn).",
+   "Một học sinh chọn một sở thích từ danh sách, không cho nhóm mình xem.",
+   "Bạn đó diễn tả sở thích đó bằng hành động, không được nói.",
+   "Các thành viên khác trong nhóm đoán sở thích. Nhóm nào đoán đúng đầu tiên sẽ được một điểm.",
+   "Luân phiên cho đến khi tất cả các sở thích được diễn tả."
+  ],
+  "language": [
+   "What is he/she doing?",
+   "Is he/she ...?",
+   "Yes, he/she is!",
+   "No, he/she isn't.",
+   "He/she is ...ing."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "r__d__ng",
+    "answer": "reading"
+   },
+   {
+    "word": "dr__w__ng",
+    "answer": "drawing"
+   },
+   {
+    "word": "s__ng__ng",
+    "answer": "singing"
+   },
+   {
+    "word": "d__nc__ng",
+    "answer": "dancing"
+   },
+   {
+    "word": "c__k__ng",
+    "answer": "cooking"
+   },
+   {
+    "word": "b__k__ng",
+    "answer": "baking"
+   },
+   {
+    "word": "g__m__s",
+    "answer": "games"
+   },
+   {
+    "word": "b__k__",
+    "answer": "bike"
+   },
+   {
+    "word": "p__nt__ng",
+    "answer": "painting"
+   },
+   {
+    "word": "m__s__c",
+    "answer": "music"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "What ____ your favorite hobby?",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I like ____ books.",
+    "options": [
+     "read",
+     "reads",
+     "reading"
+    ],
+    "answer": "reading"
+   },
+   {
+    "q": "She ____ a picture now.",
+    "options": [
+     "draw",
+     "draws",
+     "is drawing"
+    ],
+    "answer": "is drawing"
+   },
+   {
+    "q": "Can you ____ the guitar?",
+    "options": [
+     "play",
+     "playing",
+     "plays"
+    ],
+    "answer": "play"
+   },
+   {
+    "q": "My hobby ____ gardening.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "He ____ play video games because he doesn't have a console.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can't"
+   },
+   {
+    "q": "They ____ to music every day.",
+    "options": [
+     "listen",
+     "listening",
+     "are listening"
+    ],
+    "answer": "listen"
+   },
+   {
+    "q": "____ do you like to do on weekends?",
+    "options": [
+     "Who",
+     "What",
+     "Where"
+    ],
+    "answer": "What"
+   },
+   {
+    "q": "We ____ making crafts at the moment.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "I ____ a new camera for photography.",
+    "options": [
+     "have got",
+     "has got",
+     "am got"
+    ],
+    "answer": "have got"
+   }
+  ],
+  "order": [
+   {
+    "words": "hobby / is / My / reading.",
+    "answer": "My hobby is reading."
+   },
+   {
+    "words": "can / I / well / draw.",
+    "answer": "I can draw well."
+   },
+   {
+    "words": "is / What / hobby / your / favorite?",
+    "answer": "What is your favorite hobby?"
+   },
+   {
+    "words": "now / is / He / singing.",
+    "answer": "He is singing now."
+   },
+   {
+    "words": "bike / a / ride / can / She.",
+    "answer": "She can ride a bike."
+   },
+   {
+    "words": "music / to / like / I / listening.",
+    "answer": "I like listening to music."
+   },
+   {
+    "words": "games / playing / They / are / board.",
+    "answer": "They are playing board games."
+   },
+   {
+    "words": "got / a / I / new / have / book.",
+    "answer": "I have got a new book."
+   },
+   {
+    "words": "cooking / loves / My / mom.",
+    "answer": "My mom loves cooking."
+   },
+   {
+    "words": "time / free / in / do / What / you / your / like / to / do",
+    "answer": "What do you like to do in your free time?"
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "What is your favorite hobby?",
+   "What do you like to do in your free time?",
+   "Can you draw?",
+   "Do you like singing?",
+   "What are you doing now?",
+   "Who do you play with?",
+   "What new hobby do you want to try?",
+   "Do you like playing board games?",
+   "What makes you happy?"
+  ]
+ },
+ "i_can": [
+  "I can say words about hobbies in English.",
+  "I can use \"I like + V-ing\" to talk about my hobbies.",
+  "I can use \"My hobby is + V-ing.\"",
+  "I can use \"can\" and \"can't\" to talk about abilities.",
+  "I can ask and answer \"What do you like to do?\"",
+  "I can use the present continuous for actions happening now.",
+  "I can ask simple wh-questions about hobbies.",
+  "I can talk about my free time activities.",
+  "I can read simple stories about hobbies.",
+  "I can understand conversations about free time.",
+  "I can write about my hobbies.",
+  "I can balance my time for hobbies and school.",
+  "I can present my hobby poster.",
+  "I can play a classroom game about hobbies.",
+  "I can share my favorite hobby with friends."
+ ],
+ "message_en": "HOBBIES MAKE OUR LIVES MORE COLORFUL AND FUN!",
+ "message_vi": "SỞ THÍCH LÀM CHO CUỘC SỐNG CỦA CHÚNG TA THÊM ĐẦY MÀU SẮC VÀ VUI VẺ!",
+ "message_body": "Hobbies are special activities we love to do in our free time. They help us relax, learn new things, and make new friends. Let's explore our passions and enjoy every moment!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 3,
+ "grade": 3,
+ "validation": []
+}

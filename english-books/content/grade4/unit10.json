@@ -1,0 +1,1177 @@
+{
+ "title": "MY SUMMER HOLIDAY",
+ "theme": "Travel & Memories",
+ "goal": "Students can talk and write about their past summer trips, travel activities, and future holiday plans.",
+ "goal_vi": "Học sinh có thể nói và viết về các chuyến du lịch hè đã qua, các hoạt động vui chơi và kế hoạch kỳ nghỉ trong tương lai.",
+ "cover_emoji": "🏖️✈️🧳📸",
+ "cover_image_prompt": "A sunny, vibrant beach scene featuring a happy group of Vietnamese primary school children wearing summer outfits and hats, building sandcastles, holding a camera, wearing sunglasses, and waving near a calm blue ocean with palm trees under a bright sky.",
+ "big_question": {
+  "en": "Where did you go on your summer holiday?",
+  "vi": "Em đã đi đâu vào kỳ nghỉ hè?",
+  "prompts": [
+   "Do you like summer?",
+   "Where did you go last summer?",
+   "Who did you go with?",
+   "Did you swim in the sea?",
+   "What was your favorite food on vacation?",
+   "Where will you go next summer?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "beach",
+   "ipa": "/biːtʃ/",
+   "vi": "bãi biển",
+   "emoji": "🏖️",
+   "image_prompt": "A clean sandy beach with gentle blue ocean waves and a yellow sun shining above."
+  },
+  {
+   "en": "island",
+   "ipa": "/ˈaɪ.lənd/",
+   "vi": "hòn đảo",
+   "emoji": "🏝️",
+   "image_prompt": "A green island surrounded by tropical turquoise water with two palm trees in the middle."
+  },
+  {
+   "en": "sandcastle",
+   "ipa": "/ˈsændˌkæs.əl/",
+   "vi": "lâu đài cát",
+   "emoji": "🏰",
+   "image_prompt": "A detailed sandcastle built on golden sand with a tiny red flag on top."
+  },
+  {
+   "en": "seafood",
+   "ipa": "/ˈsiː.fuːd/",
+   "vi": "hải sản",
+   "emoji": "🦪",
+   "image_prompt": "A wooden plate with grilled prawns, fish, and crab served with lime slices."
+  },
+  {
+   "en": "suitcase",
+   "ipa": "/ˈsuːt.keɪs/",
+   "vi": "vali du lịch",
+   "emoji": "🧳",
+   "image_prompt": "A bright yellow rolling suitcase standing upright on wheels."
+  },
+  {
+   "en": "camera",
+   "ipa": "/ˈkæm.rə/",
+   "vi": "máy ảnh",
+   "emoji": "📷",
+   "image_prompt": "A modern black digital camera with a clean glass lens."
+  },
+  {
+   "en": "sunglasses",
+   "ipa": "/ˈsʌnˌɡlæs.ɪz/",
+   "vi": "kính râm",
+   "emoji": "🕶️",
+   "image_prompt": "A pair of cool black sunglasses sitting flat against a bright background."
+  },
+  {
+   "en": "sunscreen",
+   "ipa": "/ˈsʌn.skriːn/",
+   "vi": "kem chống nắng",
+   "emoji": "🧴",
+   "image_prompt": "A tube of sun protection cream with a small sun icon printed on the bottle."
+  },
+  {
+   "en": "resort",
+   "ipa": "/rɪˈzɔːrt/",
+   "vi": "khu nghỉ dưỡng",
+   "emoji": "🏨",
+   "image_prompt": "A beautiful seaside resort with a swimming pool, green lawn, and coconut trees."
+  },
+  {
+   "en": "souvenir",
+   "ipa": "/ˌsuː.vəˈnɪr/",
+   "vi": "quà lưu niệm",
+   "emoji": "🎁",
+   "image_prompt": "A small decorative seashell keychain placed beside a colorful postcard."
+  },
+  {
+   "en": "seashell",
+   "ipa": "/ˈsiː.ʃel/",
+   "vi": "vỏ ốc / vỏ sò",
+   "emoji": "🐚",
+   "image_prompt": "A shiny pink and white spiral seashell lying on soft beach sand."
+  },
+  {
+   "en": "flight",
+   "ipa": "/flaɪt/",
+   "vi": "chuyến bay",
+   "emoji": "✈️",
+   "image_prompt": "A white passenger airplane flying smoothly above soft white clouds in a blue sky."
+  },
+  {
+   "en": "passport",
+   "ipa": "/ˈpæs.pɔːrt/",
+   "vi": "hộ chiếu",
+   "emoji": "🛂",
+   "image_prompt": "A dark blue booklet with a golden emblem on the cover."
+  },
+  {
+   "en": "tent",
+   "ipa": "/tent/",
+   "vi": "lều trại",
+   "emoji": "⛺",
+   "image_prompt": "A colorful green and orange camping tent pitched on a grassy campsite."
+  },
+  {
+   "en": "waterpark",
+   "ipa": "/ˈwɑː.t̬ɚ.pɑːrk/",
+   "vi": "công viên nước",
+   "emoji": "🏊",
+   "image_prompt": "A fun outdoor waterpark with a huge winding blue slide and a big splash pool."
+  },
+  {
+   "en": "mountain",
+   "ipa": "/ˈmaʊn.tən/",
+   "vi": "ngọn núi",
+   "emoji": "⛰️",
+   "image_prompt": "A high green mountain under a clear blue sky with white clouds."
+  },
+  {
+   "en": "trip",
+   "ipa": "/trɪp/",
+   "vi": "chuyến đi",
+   "emoji": "🗺️",
+   "image_prompt": "An open travel map showing a red marked route and a mini compass."
+  },
+  {
+   "en": "memories",
+   "ipa": "/ˈmem.ər.iz/",
+   "vi": "kỷ niệm",
+   "emoji": "🖼️",
+   "image_prompt": "A photo frame with pictures of happy family travel moments hanging on a wall."
+  },
+  {
+   "en": "stay",
+   "ipa": "/steɪ/",
+   "vi": "ở lại / lưu trú",
+   "emoji": "🏡",
+   "image_prompt": "A cozy wooden bungalow near the sea with flowering plants outside."
+  },
+  {
+   "en": "explore",
+   "ipa": "/ɪkˈsplɔːr/",
+   "vi": "khám phá",
+   "emoji": "🔍",
+   "image_prompt": "A young boy holding a magnifying glass looking carefully at colorful shells on the beach."
+  }
+ ],
+ "phonics": {
+  "sound": "/st/",
+  "letters": "st",
+  "words": [
+   "stay",
+   "castle",
+   "starfish",
+   "stamp",
+   "story",
+   "start"
+  ],
+  "chant": "Steve stays at the seaside resort,\nHe sees five starfish in the surf!",
+  "tip_vi": "Phát âm âm /s/ nhẹ trước rồi lướt nhanh sang âm /t/ gọn gàng, không bật thêm âm 'ơ' giữa hai âm."
+ },
+ "patterns": [
+  {
+   "pattern": "Where did you go last summer? - I went to...",
+   "vi": "Mùa hè trước bạn đã đi đâu? - Tớ đã đi...",
+   "examples": [
+    "Where did you go last summer? - I went to Phu Quoc Island.",
+    "Where did you go last summer? - I went to Da Nang Beach.",
+    "Where did you go last summer? - I went to my hometown."
+   ]
+  },
+  {
+   "pattern": "How did you travel there? - I travelled by...",
+   "vi": "Bạn đi đến đó bằng phương tiện gì? - Tớ đi bằng...",
+   "examples": [
+    "How did you travel there? - I travelled by plane.",
+    "How did you travel there? - I travelled by coach.",
+    "How did you travel there? - I travelled by train."
+   ]
+  },
+  {
+   "pattern": "What was the weather like? - It was...",
+   "vi": "Thời tiết ở đó như thế nào? - Trời thì...",
+   "examples": [
+    "What was the weather like? - It was sunny and windy.",
+    "What was the weather like? - It was warm and pleasant.",
+    "What was the weather like? - It was hot and bright."
+   ]
+  },
+  {
+   "pattern": "What did you do there? - I...",
+   "vi": "Bạn đã làm gì ở đó? - Tớ đã...",
+   "examples": [
+    "What did you do there? - I built a big sandcastle.",
+    "What did you do there? - I ate delicious seafood.",
+    "What did you do there? - I swam in the blue ocean."
+   ]
+  },
+  {
+   "pattern": "Where will you go next summer? - I will go to...",
+   "vi": "Mùa hè tới bạn sẽ đi đâu? - Tớ sẽ đi...",
+   "examples": [
+    "Where will you go next summer? - I will go to Nha Trang.",
+    "Where will you go next summer? - I will go to Sa Pa.",
+    "Where will you go next summer? - I will go to Ha Long Bay."
+   ]
+  },
+  {
+   "pattern": "Did you buy any souvenirs? - Yes, I did. / No, I didn't.",
+   "vi": "Bạn có mua quà lưu niệm nào không? - Có, tớ có. / Không, tớ không.",
+   "examples": [
+    "Did you buy any souvenirs? - Yes, I did. I bought a shell keychain.",
+    "Did you buy any souvenirs? - Yes, I did. I bought a T-shirt.",
+    "Did you buy any souvenirs? - No, I didn't. I took photos instead."
+   ]
+  },
+  {
+   "pattern": "The beach was cleaner than...",
+   "vi": "Bãi biển thì sạch hơn...",
+   "examples": [
+    "The resort was bigger than our hotel.",
+    "This trip was more exciting than last year's trip.",
+    "The sea water was warmer today than yesterday."
+   ]
+  },
+  {
+   "pattern": "We could see... from our window.",
+   "vi": "Chúng tớ đã có thể nhìn thấy... từ cửa sổ.",
+   "examples": [
+    "We could see the ocean from our room.",
+    "We could hear the waves at night.",
+    "We could see high mountains in the morning."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Past Simple with Regular & Irregular Verbs",
+   "explain_en": "We use the past simple to talk about completed actions in the past (like last summer). Regular verbs end in -ed, while irregular verbs change forms.",
+   "explain_vi": "Chúng ta dùng thì quá khứ đơn để nói về hành động đã kết thúc trong quá khứ (như kỳ nghỉ hè năm ngoái). Động từ có quy tắc thêm -ed, động từ bất quy tắc biến đổi hình thức.",
+   "examples": [
+    "I visited my grandparents last June.",
+    "We played beach volleyball yesterday.",
+    "They went to Phu Quoc by plane last month.",
+    "She bought cute souvenirs for her friends."
+   ],
+   "right": "✅ I went to Da Nang last summer.",
+   "wrong": "❌ I goed to Da Nang last summer."
+  },
+  {
+   "title": "Past Simple of BE: Was / Were",
+   "explain_en": "Use 'was' with I, he, she, it, singular nouns. Use 'were' with you, we, they, plural nouns.",
+   "explain_vi": "Dùng 'was' với I, he, she, it và danh từ số ít. Dùng 'were' với you, we, they và danh từ số nhiều.",
+   "examples": [
+    "The beach was very clean and quiet.",
+    "The seafood dishes were delicious.",
+    "My summer trip was fantastic.",
+    "We were happy during our vacation."
+   ],
+   "right": "✅ The trip was wonderful.",
+   "wrong": "❌ The trip were wonderful."
+  },
+  {
+   "title": "Future with WILL for Holiday Plans",
+   "explain_en": "Use 'will + verb' to talk about plans or decisions for future holidays, like next summer.",
+   "explain_vi": "Dùng 'will + động từ nguyên thể' để nói về kế hoạch hoặc dự định cho kỳ nghỉ trong tương lai (ví dụ: mùa hè tới).",
+   "examples": [
+    "Next summer, I will visit Ha Long Bay.",
+    "My family will stay in a nice resort.",
+    "We will try sea kayaking together.",
+    "They will buy funny gifts for everyone."
+   ],
+   "right": "✅ I will visit my cousins next year.",
+   "wrong": "❌ I will visiting my cousins next year."
+  },
+  {
+   "title": "Simple Comparatives: -er than",
+   "explain_en": "When comparing two things, add -er to short adjectives and use 'than'.",
+   "explain_vi": "Khi so sánh hai sự vật, thêm -er vào sau tính từ ngắn và dùng từ 'than'.",
+   "examples": [
+    "The sea is warmer than the swimming pool.",
+    "This resort is bigger than our house.",
+    "Today is sunnier than yesterday.",
+    "My suitcase is heavier than your bag."
+   ],
+   "right": "✅ The hotel was bigger than my home.",
+   "wrong": "❌ The hotel was more big than my home."
+  }
+ ],
+ "song": {
+  "title": "SUMMER HOLIDAY FUN",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Summer time is full of fun,",
+   "Playing under yellow sun!",
+   "Packed my suitcase red and bright,",
+   "Took a fast and happy flight.",
+   "Built a castle on the sand,",
+   "Cleanest beach in all the land!",
+   "Ate seafood beside the sea,",
+   "Summer brings sweet memories!",
+   "Where will you go next July?",
+   "We will wave the sun goodbye!"
+  ],
+  "actions_vi": "Giơ tay tạo hình mặt trời khi hát 'yellow sun', giả vờ kéo vali ở câu 3, dang tay làm máy bay ở câu 4, cúi xuống làm động tác xây lâu đài cát ở câu 5."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY TRIP TO PHU QUOC ISLAND",
+   "text": "My name is Nam. I am nine years old. Last July, I went on a wonderful trip to Phu Quoc Island with my family. We travelled there by plane. The flight was fast and comfortable. We stayed in a beautiful resort near the beach. The weather was sunny and warm every day. In the morning, I built a high sandcastle with my younger sister, Mai. In the afternoon, we swam in the warm ocean water. In the evening, we ate fresh seafood at a night market. I bought a shell keychain as a souvenir. It was my favorite summer holiday!",
+   "image_prompt": "A Vietnamese family sitting under a straw umbrella on a sunny beach in Phu Quoc, looking happy with a sandcastle in front of them.",
+   "vocab": [
+    {
+     "en": "trip",
+     "ipa": "/trɪp/",
+     "vi": "chuyến đi"
+    },
+    {
+     "en": "island",
+     "ipa": "/ˈaɪ.lənd/",
+     "vi": "hòn đảo"
+    },
+    {
+     "en": "family",
+     "ipa": "/ˈfæm.əl.i/",
+     "vi": "gia đình"
+    },
+    {
+     "en": "flight",
+     "ipa": "/flaɪt/",
+     "vi": "chuyến bay"
+    },
+    {
+     "en": "resort",
+     "ipa": "/rɪˈzɔːrt/",
+     "vi": "khu nghỉ dưỡng"
+    },
+    {
+     "en": "sunny",
+     "ipa": "/ˈsʌn.i/",
+     "vi": "nhiều nắng"
+    },
+    {
+     "en": "sandcastle",
+     "ipa": "/ˈsændˌkæs.əl/",
+     "vi": "lâu đài cát"
+    },
+    {
+     "en": "seafood",
+     "ipa": "/ˈsiː.fuːd/",
+     "vi": "hải sản"
+    },
+    {
+     "en": "souvenir",
+     "ipa": "/ˌsuː.vəˈnɪr/",
+     "vi": "quà lưu niệm"
+    },
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪ.vər.ɪt/",
+     "vi": "yêu thích nhất"
+    }
+   ],
+   "questions": [
+    "Where did Nam go last July?",
+    "Who did Nam go with?",
+    "How did they travel to Phu Quoc Island?",
+    "Was the flight slow or fast?",
+    "Where did they stay?",
+    "What was the weather like every day?",
+    "Who did Nam build a sandcastle with?",
+    "What did they do in the afternoon?",
+    "Where did they eat seafood in the evening?",
+    "What souvenir did Nam buy?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam went to Phu Quoc Island last July.",
+     "answer": true
+    },
+    {
+     "statement": "Nam travelled by train.",
+     "answer": false
+    },
+    {
+     "statement": "They stayed at a hotel in the mountains.",
+     "answer": false
+    },
+    {
+     "statement": "Nam built a sandcastle with his sister Mai.",
+     "answer": true
+    },
+    {
+     "statement": "Nam bought a seashell keychain as a souvenir.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "CAMPING IN THE MOUNTAINS",
+   "text": "Hello, I am Linh! Last June, my family did not go to the beach. We went camping in the cool mountains near Ba Vi. We packed two green backpacks, a yellow tent, and warm sleeping bags into our car. The trip took about two hours. When we arrived, the air was fresher and cooler than in the city. My brother Minh and I helped our dad put up the tent on green grass near a small stream. In the afternoon, we explored the forest, walked along shady paths, and took many photos with my camera. We could hear colorful birds singing in the high trees. At night, we built a small campfire, roasted sweet corn, and listened to dad's funny stories under the starry sky. It was a unique holiday because I learned how to set up a tent and protect nature.",
+   "image_prompt": "A young Vietnamese girl and boy helping their parents pitch a bright yellow tent on a green campsite near a mountain stream.",
+   "vocab": [
+    {
+     "en": "camping",
+     "ipa": "/ˈkæm.pɪŋ/",
+     "vi": "đi cắm trại"
+    },
+    {
+     "en": "mountains",
+     "ipa": "/ˈmaʊn.tənz/",
+     "vi": "dãy núi"
+    },
+    {
+     "en": "tent",
+     "ipa": "/tent/",
+     "vi": "lều trại"
+    },
+    {
+     "en": "backpack",
+     "ipa": "/ˈbæk.pæk/",
+     "vi": "ba lô"
+    },
+    {
+     "en": "fresher",
+     "ipa": "/ˈfreʃ.ər/",
+     "vi": "trong lành hơn"
+    },
+    {
+     "en": "stream",
+     "ipa": "/striːm/",
+     "vi": "dòng suối"
+    },
+    {
+     "en": "explore",
+     "ipa": "/ɪkˈsplɔːr/",
+     "vi": "khám phá"
+    },
+    {
+     "en": "camera",
+     "ipa": "/ˈkæm.rə/",
+     "vi": "máy ảnh"
+    },
+    {
+     "en": "campfire",
+     "ipa": "/ˈkæmp.faɪər/",
+     "vi": "lửa trại"
+    },
+    {
+     "en": "nature",
+     "ipa": "/ˈneɪ.tʃɚ/",
+     "vi": "thiên nhiên"
+    }
+   ],
+   "questions": [
+    "Where did Linh's family go last June?",
+    "How did they travel to Ba Vi?",
+    "What items did they pack into their car?",
+    "Was the air in the mountains hotter or cooler than in the city?",
+    "Where did they put up their yellow tent?",
+    "What did Linh and Minh do in the afternoon?",
+    "What did they use to take photos?",
+    "What could they hear in the high trees?",
+    "What did they roast at night over the campfire?",
+    "What did Linh learn during this holiday?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh went to the beach last June.",
+     "answer": false
+    },
+    {
+     "statement": "They travelled to Ba Vi by train.",
+     "answer": false
+    },
+    {
+     "statement": "The mountain air was fresher than the city air.",
+     "answer": true
+    },
+    {
+     "statement": "Minh and Linh helped set up the yellow tent.",
+     "answer": true
+    },
+    {
+     "statement": "They roasted sweet corn over the campfire.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "MEMORIES AND FUTURE PLANS",
+   "text": "Every summer brings unforgettable memories for school children. Last year, my friend Ben from England visited Viet Nam during his summer break. He stayed with my family in Da Nang for ten sunny days. Together, we visited the famous Dragon Bridge and spent hours swimming in the ocean. Ben said that Da Nang beach was wider and cleaner than the beaches near his hometown. We also tried water slides at a huge waterpark and collected glossy red seashells along the shore. I gave Ben a silk lantern as a special gift, and he gave me a British postcard with a picture of Big Ben.\n\nNext summer, my family will visit my grandparents in the countryside near Can Tho. We will travel by coach early in the morning. I am very excited because I will learn how to ride a bicycle through green fruit orchards. My brother plans to go fishing with our grandfather in a small wooden boat. We will stay there for two full weeks. Summer trips are wonderful because they allow us to relax, explore new places, and store warm memories with the people we love most.",
+   "image_prompt": "A Vietnamese boy and a British boy smiling together on a sunny beach, holding glossy seashells and a decorative postcard.",
+   "vocab": [
+    {
+     "en": "memories",
+     "ipa": "/ˈmem.ər.iz/",
+     "vi": "kỷ niệm"
+    },
+    {
+     "en": "unforgettable",
+     "ipa": "/ˌʌn.fɚˈɡet.ə.bəl/",
+     "vi": "không thể nào quên"
+    },
+    {
+     "en": "wider",
+     "ipa": "/ˈwaɪ.dɚ/",
+     "vi": "rộng hơn"
+    },
+    {
+     "en": "waterpark",
+     "ipa": "/ˈwɑː.t̬ɚ.pɑːrk/",
+     "vi": "công viên nước"
+    },
+    {
+     "en": "seashells",
+     "ipa": "/ˈsiː.ʃelz/",
+     "vi": "các vỏ ốc / vỏ sò"
+    },
+    {
+     "en": "postcard",
+     "ipa": "/ˈpoʊst.kɑːrd/",
+     "vi": "bưu thiếp"
+    },
+    {
+     "en": "countryside",
+     "ipa": "/ˈkʌn.tri.saɪd/",
+     "vi": "miền quê"
+    },
+    {
+     "en": "coach",
+     "ipa": "/koʊtʃ/",
+     "vi": "xe khách"
+    },
+    {
+     "en": "orchards",
+     "ipa": "/ˈɔːr.tʃɚdz/",
+     "vi": "vườn cây ăn quả"
+    },
+    {
+     "en": "explore",
+     "ipa": "/ɪkˈsplɔːr/",
+     "vi": "khám phá"
+    }
+   ],
+   "questions": [
+    "Where was Ben from?",
+    "How long did Ben stay in Da Nang?",
+    "What iconic bridge did they visit in Da Nang?",
+    "How did Ben compare Da Nang beach to the beaches near his home?",
+    "What fun place did they visit besides the beach?",
+    "What souvenir did the author give to Ben?",
+    "Where will the author go next summer?",
+    "How will the family travel to Can Tho?",
+    "What will the author learn to do in the countryside?",
+    "Why are summer trips wonderful according to the text?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben visited Viet Nam during his winter holiday.",
+     "answer": false
+    },
+    {
+     "statement": "Ben stayed in Da Nang for ten days.",
+     "answer": true
+    },
+    {
+     "statement": "The author gave Ben a silk lantern.",
+     "answer": true
+    },
+    {
+     "statement": "Next summer, the author will go to London.",
+     "answer": false
+    },
+    {
+     "statement": "The author's brother will go fishing with his grandfather.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "THE HEAVY SUITCASE",
+  "panels": [
+   {
+    "scene": "Tom is trying hard to lift a huge blue suitcase near the door. Mai looks surprised.",
+    "speech": "Tom: Wow, this suitcase is so heavy! I packed everything for our beach trip!"
+   },
+   {
+    "scene": "Mai opens the suitcase slightly and looks inside with wide eyes.",
+    "speech": "Mai: Did you pack your clothes and sunscreen, Tom?"
+   },
+   {
+    "scene": "The suitcase opens up completely, showing five heavy storybooks, three footballs, and a huge teddy bear.",
+    "speech": "Tom: Yes! And my three footballs, five big books, and my giant teddy bear!"
+   },
+   {
+    "scene": "Mai laughs warmly while pointing at Tom's small beach bag.",
+    "speech": "Mai: Oh Tom! We need swimsuit and sunglasses, not the whole bedroom!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "Where did you go last summer?",
+   "Who did you travel with?",
+   "How did you go there? By bus, train, or plane?",
+   "What was the weather like on your vacation?",
+   "Did you stay in a hotel, resort, or tent?",
+   "What did you wear during your trip?",
+   "Did you swim in the ocean or a pool?",
+   "What delicious food did you eat?",
+   "Did you build a sandcastle on the beach?",
+   "Did you take photos with a camera?",
+   "What souvenirs did you buy for your friends?",
+   "Was this trip better than your last trip?",
+   "Where will you go next summer holiday?",
+   "What will you pack in your suitcase?",
+   "Why do you like summer holidays?"
+  ],
+  "model": "Last summer, I went to Nha Trang Beach with my parents. We travelled by plane, and the flight was very fast. The weather was hot and sunny. We stayed in a beautiful resort near the ocean. Every morning, I swam in the blue sea and collected pretty seashells. In the afternoon, we visited a large waterpark. The food was delicious, especially the fresh grilled prawns. I bought three magnet souvenirs for my classmates. Next summer, I will visit Ha Long Bay. I love summer holidays because I can spend time with my family!",
+  "challenge": "Talk about your summer holiday for 30–60 seconds using past simple verbs and future plans with 'will'."
+ },
+ "conversations": [
+  {
+   "title": "Talking About Summer Memories",
+   "image_prompt": "Two primary school pupils, An and Mia, chatting happily in a bright classroom with pictures of summer travel on the wall.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Hi Mia! Long time no see! Where did you go last summer?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Hi An! I went to Da Nang with my parents."
+    },
+    {
+     "speaker": "An",
+     "text": "Awesome! How did you travel there?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "We travelled by train. It was long but very exciting!"
+    },
+    {
+     "speaker": "An",
+     "text": "What was the weather like?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "It was sunny and warm every day. What about you?"
+    },
+    {
+     "speaker": "An",
+     "text": "I stayed in my hometown Can Tho and went fishing with my grandpa."
+    },
+    {
+     "speaker": "Mia",
+     "text": "That sounds like wonderful summer memories!"
+    }
+   ]
+  },
+  {
+   "title": "Plans for Next Vacation",
+   "image_prompt": "Two young pupils, Ben and Mai, pointing at a map of Viet Nam on a desk and talking about travel plans.",
+   "lines": [
+    {
+     "speaker": "Ben",
+     "text": "Mai, look at this map! Where will you go next summer?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "I will go to Sapa with my uncle and aunt."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Cool! Will you travel by coach or by train?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "We will take a comfortable coach."
+    },
+    {
+     "speaker": "Ben",
+     "text": "What will you do in Sapa?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "We will climb mountains and take photos with my new camera."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Sounds fantastic! Will you buy me a souvenir?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, I will! I will buy a hand-made Keychain for you!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! My name is Hoa. I had an amazing summer holiday with my family last month. We packed our yellow luggage and flew to Phu Quoc Island. The weather was sunny and bright. We stayed at a quiet resort right by the sea. Every morning, my brother and I built huge sandcastles on the beach and collected pink seashells. My mother applied sunscreen on us so we didn't get sunburned. In the evening, we ate delicious seafood like grilled squid and crabs at the local night market. My father took hundreds of beautiful photos with his digital camera. Before going home, I bought three colorful shell keychains as souvenirs for my best friends. Next summer, we will visit the high mountains in Sa Pa. I love traveling so much!",
+  "questions": [
+   "What is the girl's name?",
+   "When did she go on her summer holiday?",
+   "Where did her family go?",
+   "How did they travel to Phu Quoc Island?",
+   "What color was their luggage?",
+   "Where did they stay during the trip?",
+   "What did Hoa and her brother collect on the beach?",
+   "What did her mother apply on them?",
+   "What did they eat at the night market in the evening?",
+   "Where will they go next summer?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "BEACH",
+   "ISLAND",
+   "CAMERA",
+   "FLIGHT",
+   "RESORT",
+   "TENT",
+   "TRIP",
+   "SEAFOOD"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "beach",
+     "island",
+     "resort",
+     "pencil"
+    ],
+    "answer": "pencil",
+    "why_vi": "pencil (bút chì) là đồ dùng học tập, các từ còn lại chỉ nơi chốn du lịch."
+   },
+   {
+    "options": [
+     "plane",
+     "coach",
+     "train",
+     "sandcastle"
+    ],
+    "answer": "sandcastle",
+    "why_vi": "sandcastle (lâu đài cát) không phải là phương tiện giao thông."
+   },
+   {
+    "options": [
+     "sunny",
+     "windy",
+     "warm",
+     "passport"
+    ],
+    "answer": "passport",
+    "why_vi": "passport (hộ chiếu) là đồ dùng, các từ còn lại là tính từ chỉ thời tiết."
+   },
+   {
+    "options": [
+     "bought",
+     "swam",
+     "stayed",
+     "tomorrow"
+    ],
+    "answer": "tomorrow",
+    "why_vi": "tomorrow (ngày mai) chỉ tương lai, các từ còn lại là động từ thì quá khứ."
+   },
+   {
+    "options": [
+     "suitcase",
+     "camera",
+     "sunglasses",
+     "dolphin"
+    ],
+    "answer": "dolphin",
+    "why_vi": "dolphin (cá heo) là động vật, các từ còn lại là vật dụng mang theo khi đi du lịch."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am made of sand. Children build me on the beach with a bucket and spade. What am I?",
+    "answer": "A sandcastle"
+   },
+   {
+    "riddle": "You put your clothes, shoes, and toothbrush inside me when you travel. I have wheels and a handle. What am I?",
+    "answer": "A suitcase"
+   },
+   {
+    "riddle": "I fly high in the blue sky. I take you quickly from one city to another island. What am I?",
+    "answer": "A plane"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "c h e a b",
+    "answer": "beach"
+   },
+   {
+    "scrambled": "i s l a n d",
+    "answer": "island"
+   },
+   {
+    "scrambled": "c a m e r a",
+    "answer": "camera"
+   },
+   {
+    "scrambled": "r e s o r t",
+    "answer": "resort"
+   },
+   {
+    "scrambled": "f l i g h t",
+    "answer": "flight"
+   },
+   {
+    "scrambled": "t e n t",
+    "answer": "tent"
+   }
+  ],
+  "picture_count": {
+   "question": "How many pair of sunglasses can you find on the unit cover picture?",
+   "hint_vi": "Hãy đếm số cặp kính râm các bạn nhỏ đang đeo trên hình bìa bài học!"
+  }
+ },
+ "write": {
+  "profile_title": "My Summer Holiday Record",
+  "profile_fields": [
+   "1. Full Name:",
+   "2. My Age:",
+   "3. Destination last summer:",
+   "4. Travel companion(s):",
+   "5. Means of transport:",
+   "6. Type of stay (Hotel/Resort/Tent):",
+   "7. Favorite activity on trip:",
+   "8. Best food eaten:",
+   "9. Souvenir bought:",
+   "10. Planned destination for next summer:"
+  ],
+  "frame_title": "MY UNFORGETTABLE HOLIDAY",
+  "frame_lines": [
+   "My name is ____.",
+   "Last summer, I went to ____ with ____.",
+   "We travelled there by ____.",
+   "The weather was ____ and ____.",
+   "We stayed at a comfortable ____ near the ____.",
+   "During the trip, I ____ and ate delicious ____.",
+   "I also bought ____ as a souvenir.",
+   "The trip was ____ than my previous trip.",
+   "Next summer, I will go to ____.",
+   "I love summer holidays because ____."
+  ]
+ },
+ "life_skill": {
+  "title": "BE A SMART & RESPONSIBLE TRAVELER",
+  "intro": "Traveling is wonderful! When we visit new places, we should stay safe, protect nature, and respect local cultures.",
+  "intro_vi": "Đi du lịch thật là tuyệt vời! Khi đến những nơi mới, chúng ta nên giữ an toàn, bảo vệ thiên nhiên và tôn trọng văn hóa địa phương.",
+  "can_do": [
+   "Always hold hands with parents in crowded tourist places.",
+   "Wear sunscreen and a wide hat when playing under bright sun.",
+   "Keep personal belongings inside a backpack or suitcase safely.",
+   "Throw trash and plastic bottles into designated litter bins.",
+   "Do not break coral reefs or take living animals from the sea.",
+   "Drink plenty of clean water during outdoor summer activities.",
+   "Say polite thank you words to local tour guides and hotel staff.",
+   "Wear a safe life jacket when riding a boat or swimming.",
+   "Keep hotel room clean and turn off air conditioners when leaving.",
+   "Take nice memories and leave only footprints on the sand.",
+   "Respect historic monuments and do not write on walls.",
+   "Help family members carry luggage cheerfully."
+  ],
+  "value_question": "What can you do to keep beaches and mountains clean when you travel?",
+  "image_prompt": "A happy group of children putting plastic bottles into a green recycling bin on a sunny beach."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Phu Quoc is the largest island in Viet Nam, famous for beautiful beaches and long cable car rides.",
+   "vi": "Phú Quốc là hòn đảo lớn nhất Việt Nam, nổi tiếng với bãi biển đẹp và tuyến cáp treo dài."
+  },
+  {
+   "en": "Did you know? Seashells are abandoned homes of small ocean mollusks like snails and clams.",
+   "vi": "Vỏ sò, vỏ ốc là ngôi nhà cũ mà các loài thân mềm biển như ốc và ngao để lại."
+  },
+  {
+   "en": "Did you know? The world's largest natural cave is Son Doong Cave located in Quang Binh Province, Viet Nam.",
+   "vi": "Hang động tự nhiên lớn nhất thế giới là Hang Sơn Đoòng nằm ở tỉnh Quảng Bình, Việt Nam."
+  },
+  {
+   "en": "Did you know? Ha Long Bay in Viet Nam has nearly 2,000 islands and islets!",
+   "vi": "Em có biết? Vịnh Hạ Long ở Việt Nam có gần 2.000 hòn đảo lớn nhỏ!"
+  },
+  {
+   "en": "Did you know? Sunscreen works by absorbing or reflecting ultraviolet rays from the sun to protect human skin.",
+   "vi": "Kem chống nắng hoạt động bằng cách hấp thụ hoặc phản xạ tia cực tím từ mặt trời để bảo vệ làn da."
+  }
+ ],
+ "project": {
+  "title": "MY SUMMER MEMORY POSTER",
+  "task": "Create a colorful poster showing your best summer holiday memories and your future travel dream.",
+  "draw_items": [
+   "Draw the beach, mountain, or hometown you visited.",
+   "Draw your family or friends traveling together.",
+   "Draw the vehicle you used (plane, coach, train).",
+   "Draw your colorful luggage or tent.",
+   "Draw the favorite meal or seafood you ate.",
+   "Draw shells, camera, or souvenirs collected.",
+   "Draw the hotel or resort where you stayed.",
+   "Draw a sun and your destination for next summer."
+  ],
+  "example": [
+   "Hello everyone! This is my Summer Memory Poster.",
+   "Last June, I went to Nha Trang Beach with my family.",
+   "We travelled by fast airplane.",
+   "The weather was hot and sunnier than today.",
+   "I built a sandcastle and ate delicious crabs.",
+   "I bought two seashell keychains.",
+   "Next summer, I will visit Sa Pa mountains.",
+   "Thank you for listening to my holiday presentation!"
+  ],
+  "present": "Hello class! Look at my poster! Last summer, I went to... We went by... I loved...",
+  "image_prompt": "A pupil proudly standing beside a board presenting a brightly drawn poster featuring a beach, plane, and sandcastle."
+ },
+ "classroom_game": {
+  "name": "SUMMER SUITCASE MEMORY CHAIN",
+  "players": "Groups of 5–8 pupils or Whole Class",
+  "steps_en": [
+   "Pupils sit in a circle. Teacher starts by saying: 'I packed my suitcase and I took sunscreen.'",
+   "The second pupil repeats the sentence and adds a new item: 'I packed my suitcase and I took sunscreen and a camera.'",
+   "Each pupil must repeat all previous travel items in exact order and add one new holiday word.",
+   "If a pupil forgets an item, they answer a warm-up question: 'Where did you go last summer?' before continuing.",
+   "The last student who remembers the longest memory chain wins a Roxy Sticker!"
+  ],
+  "steps_vi": [
+   "Học sinh ngồi thành vòng tròn. Giáo viên bắt đầu: 'I packed my suitcase and I took sunscreen.'",
+   "Học sinh thứ hai nhắc lại câu đó và thêm từ mới: 'I packed my suitcase and I took sunscreen and a camera.'",
+   "Mỗi học sinh nối tiếp phải lặp lại đúng thứ tự các từ trước và thêm một đồ dùng du lịch mới.",
+   "Nếu học sinh quên từ, em đó sẽ trả lời câu hỏi phụ: 'Where did you go last summer?' rồi tiếp tục.",
+   "Học sinh duy trì chuỗi trí nhớ dài nhất sẽ giành sticker khen thưởng từ Roxy!"
+  ],
+  "language": [
+   "I packed my suitcase and I took...",
+   "Where did you go last summer?",
+   "I went to...",
+   "I took a camera / sunglasses / tent / postcard."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "b e __ c h",
+    "answer": "beach"
+   },
+   {
+    "word": "i s l __ n d",
+    "answer": "island"
+   },
+   {
+    "word": "s u i t c __ s e",
+    "answer": "suitcase"
+   },
+   {
+    "word": "c a m __ r a",
+    "answer": "camera"
+   },
+   {
+    "word": "r e s __ r t",
+    "answer": "resort"
+   },
+   {
+    "word": "s e a f __ o d",
+    "answer": "seafood"
+   },
+   {
+    "word": "f l i g __ t",
+    "answer": "flight"
+   },
+   {
+    "word": "s o u v e n __ r",
+    "answer": "souvenir"
+   },
+   {
+    "word": "t e __ t",
+    "answer": "tent"
+   },
+   {
+    "word": "m e m o r __ e s",
+    "answer": "memories"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "Where ______ you go last summer holiday?",
+    "options": [
+     "do",
+     "did",
+     "will"
+    ],
+    "answer": "did"
+   },
+   {
+    "q": "I ______ to Phu Quoc Island by plane last month.",
+    "options": [
+     "go",
+     "went",
+     "will go"
+    ],
+    "answer": "went"
+   },
+   {
+    "q": "The resort ______ very clean and beautiful.",
+    "options": [
+     "was",
+     "were",
+     "are"
+    ],
+    "answer": "was"
+   },
+   {
+    "q": "The seafood dishes ______ fresh and delicious.",
+    "options": [
+     "was",
+     "were",
+     "is"
+    ],
+    "answer": "were"
+   },
+   {
+    "q": "Next summer, my family ______ visit Ha Long Bay.",
+    "options": [
+     "visited",
+     "will visit",
+     "visits"
+    ],
+    "answer": "will visit"
+   },
+   {
+    "q": "This sandy beach is ______ than that one.",
+    "options": [
+     "clean",
+     "cleaner",
+     "more clean"
+    ],
+    "answer": "cleaner"
+   },
+   {
+    "q": "Did you buy any souvenirs? - Yes, I ______.",
+    "options": [
+     "did",
+     "do",
+     "will"
+    ],
+    "answer": "did"
+   },
+   {
+    "q": "How did you travel? - We travelled ______ coach.",
+    "options": [
+     "on",
+     "by",
+     "in"
+    ],
+    "answer": "by"
+   },
+   {
+    "q": "We built a huge ______ on the golden sand.",
+    "options": [
+     "sandcastle",
+     "resort",
+     "suitcase"
+    ],
+    "answer": "sandcastle"
+   },
+   {
+    "q": "My father took photos with his new ______.",
+    "options": [
+     "tent",
+     "camera",
+     "flight"
+    ],
+    "answer": "camera"
+   }
+  ],
+  "order": [
+   {
+    "words": "did / Where / go / you / summer / last / ?",
+    "answer": "Where did you go last summer?"
+   },
+   {
+    "words": "went / Phu Quoc / to / I / Island / .",
+    "answer": "I went to Phu Quoc Island."
+   },
+   {
+    "words": "travelled / by / We / plane / .",
+    "answer": "We travelled by plane."
+   },
+   {
+    "words": "was / The / sunny / weather / warm / and / .",
+    "answer": "The weather was sunny and warm."
+   },
+   {
+    "words": "sandcastle / built / a / I / big / .",
+    "answer": "I built a big sandcastle."
+   },
+   {
+    "words": "ate / fresh / seafood / We / evening / in / the / .",
+    "answer": "We ate fresh seafood in the evening."
+   },
+   {
+    "words": "bought / a / shell / souvenir / I / .",
+    "answer": "I bought a shell souvenir."
+   },
+   {
+    "words": "resort / was / bigger / Our / hotel / than / the / .",
+    "answer": "Our resort was bigger than the hotel."
+   },
+   {
+    "words": "will / go / Where / next / you / summer / ?",
+    "answer": "Where will you go next summer?"
+   },
+   {
+    "words": "will / Sa Pa / I / visit / next / year / .",
+    "answer": "I will visit Sa Pa next year."
+   }
+  ],
+  "about_you": [
+   "1. What is your favorite summer destination?",
+   "2. Where did you go on your last vacation?",
+   "3. Who did you go with?",
+   "4. Did you travel by plane, train, or bus?",
+   "5. What was the weather like during your trip?",
+   "6. Did you swim in the sea or build a sandcastle?",
+   "7. What delicious food did you eat?",
+   "8. What souvenir did you bring home?",
+   "9. Where will you go next summer?",
+   "10. Why do you enjoy summer holidays?"
+  ]
+ },
+ "i_can": [
+  "I can name 20 summer and travel words in English.",
+  "I can pronounce the /st/ sound correctly in words like 'stay' and 'castle'.",
+  "I can ask where someone went last summer using 'Where did you go...?'",
+  "I can state my holiday destination using 'I went to...'",
+  "I can talk about transport methods using 'I travelled by...'",
+  "I can describe past trip weather using 'It was sunny/warm'.",
+  "I can use past simple regular verbs like 'visited', 'stayed', and 'played'.",
+  "I can use past simple irregular verbs like 'went', 'built', and 'bought'.",
+  "I can use 'was' and 'were' accurately for past descriptions.",
+  "I can express future travel plans using 'will + verb'.",
+  "I can compare two travel places using short comparative adjectives (-er than).",
+  "I can talk about holiday activities like swimming, building sandcastles, and eating seafood.",
+  "I can understand a short listening recording about a beach holiday.",
+  "I can write a 10-sentence profile about my summer holiday memories.",
+  "I can present my Summer Memory Poster to my teacher and classmates."
+ ],
+ "message_en": "SUMMER HOLIDAYS HELP US EXPLORE THE WORLD, MAKE SWEET MEMORIES, AND GROW WISER.",
+ "message_vi": "KỲ NGHỈ HÈ GIÚP CHÚNG TA KHÁM PHÁ THẾ GIỚI, TẠO NÊN KỶ NIỆM ĐẸP VÀ TRƯỞNG THÀNH HƠN.",
+ "message_body": "Every summer trip is a fresh adventure waiting for you! Whether you swim in the ocean blue, climb misty mountains, or visit your peaceful hometown, remember to stay safe, keep nature clean, and store warm memories with loved ones.",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 10,
+ "grade": 4,
+ "validation": []
+}

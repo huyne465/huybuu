@@ -1,0 +1,1185 @@
+{
+ "title": "Sports and Games",
+ "theme": "Healthy Body",
+ "goal": "Students can talk about different sports and games, express abilities, and understand the importance of being active.",
+ "goal_vi": "Học sinh có thể nói về các môn thể thao và trò chơi khác nhau, diễn tả khả năng và hiểu tầm quan trọng của việc vận động.",
+ "cover_emoji": "⚽🏀🏃‍♀️🤸‍♂️",
+ "cover_image_prompt": "A vibrant, cheerful scene of diverse children (Vietnamese and others) playing various sports and games outdoors in a sunny park. Some kids are kicking a soccer ball, others are shooting a basketball, some are running, and others are jumping rope. A few children are laughing and cheering. Healthy, active atmosphere.",
+ "big_question": {
+  "en": "What sports and games do you like to play? How do they make you feel?",
+  "vi": "Em thích chơi những môn thể thao và trò chơi nào? Chúng khiến em cảm thấy thế nào?",
+  "prompts": [
+   "Do you like to play outside or inside?",
+   "What is your favorite sport?",
+   "Can you run fast?",
+   "Do you like to jump rope?",
+   "Why is it important to play sports?",
+   "What games do you play with your friends?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "run",
+   "ipa": "/rʌn/",
+   "vi": "chạy",
+   "emoji": "🏃",
+   "image_prompt": "A happy child running with arms swinging, outdoors in a park."
+  },
+  {
+   "en": "jump",
+   "ipa": "/dʒʌmp/",
+   "vi": "nhảy",
+   "emoji": "🤸",
+   "image_prompt": "A child jumping high in the air with a wide smile, on green grass."
+  },
+  {
+   "en": "swim",
+   "ipa": "/swɪm/",
+   "vi": "bơi",
+   "emoji": "🏊",
+   "image_prompt": "A child swimming in a clear blue pool, splashing water."
+  },
+  {
+   "en": "kick",
+   "ipa": "/kɪk/",
+   "vi": "đá",
+   "emoji": "🦵⚽",
+   "image_prompt": "A child kicking a soccer ball with their foot, focused and active."
+  },
+  {
+   "en": "throw",
+   "ipa": "/θroʊ/",
+   "vi": "ném",
+   "emoji": "⚾",
+   "image_prompt": "A child throwing a small red ball with an arm raised, in a playground."
+  },
+  {
+   "en": "catch",
+   "ipa": "/kætʃ/",
+   "vi": "bắt",
+   "emoji": "🧤⚾",
+   "image_prompt": "A child with open hands ready to catch a flying ball, smiling."
+  },
+  {
+   "en": "ball",
+   "ipa": "/bɔːl/",
+   "vi": "quả bóng",
+   "emoji": "🏀",
+   "image_prompt": "A colorful soccer ball sitting on green grass."
+  },
+  {
+   "en": "team",
+   "ipa": "/tiːm/",
+   "vi": "đội",
+   "emoji": "🤝",
+   "image_prompt": "Three diverse children standing together with arms around each other's shoulders, smiling, representing a team."
+  },
+  {
+   "en": "sport",
+   "ipa": "/spɔːrt/",
+   "vi": "môn thể thao",
+   "emoji": "🏅",
+   "image_prompt": "A collection of small sports equipment like a mini soccer ball, a jump rope, and a small racket."
+  },
+  {
+   "en": "game",
+   "ipa": "/ɡeɪm/",
+   "vi": "trò chơi",
+   "emoji": "🎲",
+   "image_prompt": "Two children sitting on the floor playing a board game, laughing."
+  },
+  {
+   "en": "healthy",
+   "ipa": "/ˈhelθi/",
+   "vi": "khỏe mạnh",
+   "emoji": "💪",
+   "image_prompt": "A cheerful child eating an apple and drinking water, looking energetic."
+  },
+  {
+   "en": "strong",
+   "ipa": "/strɔːŋ/",
+   "vi": "khỏe, mạnh",
+   "emoji": "🏋️",
+   "image_prompt": "A child flexing their arm showing a small muscle, with a proud smile."
+  },
+  {
+   "en": "play soccer",
+   "ipa": "/pleɪ ˈsɑːkər/",
+   "vi": "chơi bóng đá",
+   "emoji": "⚽",
+   "image_prompt": "Two children, one kicking a soccer ball and the other running to chase it on a green field."
+  },
+  {
+   "en": "play basketball",
+   "ipa": "/pleɪ ˈbæskɪtbɔːl/",
+   "vi": "chơi bóng rổ",
+   "emoji": "🏀",
+   "image_prompt": "A child dribbling a basketball towards a hoop on a court."
+  },
+  {
+   "en": "ride a bike",
+   "ipa": "/raɪd ə baɪk/",
+   "vi": "đạp xe",
+   "emoji": "🚴",
+   "image_prompt": "A child happily riding a colorful bicycle on a paved path."
+  },
+  {
+   "en": "exercise",
+   "ipa": "/ˈeksərsaɪz/",
+   "vi": "tập thể dục",
+   "emoji": "🧘",
+   "image_prompt": "A child doing a simple jumping jack exercise, full of energy."
+  },
+  {
+   "en": "fast",
+   "ipa": "/fæst/",
+   "vi": "nhanh",
+   "emoji": "⚡",
+   "image_prompt": "A cartoon-style image of a child running very quickly with motion lines behind them."
+  },
+  {
+   "en": "slow",
+   "ipa": "/sloʊ/",
+   "vi": "chậm",
+   "emoji": "🐌",
+   "image_prompt": "A child walking slowly and thoughtfully, perhaps observing something on the ground."
+  },
+  {
+   "en": "climb",
+   "ipa": "/klaɪm/",
+   "vi": "leo trèo",
+   "emoji": "🧗",
+   "image_prompt": "A child safely climbing a small rock wall at a playground."
+  },
+  {
+   "en": "dance",
+   "ipa": "/dæns/",
+   "vi": "nhảy múa",
+   "emoji": "💃",
+   "image_prompt": "A child with arms raised, spinning and dancing happily to music."
+  }
+ ],
+ "phonics": {
+  "sound": "/k/",
+  "letters": "c, k",
+  "words": [
+   "can",
+   "kick",
+   "catch",
+   "cold",
+   "cook",
+   "car"
+  ],
+  "chant": "Can Kate kick a cool ball? / Yes, Kate can kick a cool ball!",
+  "tip_vi": "Phát âm âm /k/ bằng cách đẩy hơi mạnh ra từ cổ họng."
+ },
+ "patterns": [
+  {
+   "pattern": "I can + verb.",
+   "vi": "Tôi có thể + động từ.",
+   "examples": [
+    "I can run fast.",
+    "I can swim.",
+    "I can play soccer."
+   ]
+  },
+  {
+   "pattern": "He/She can't + verb.",
+   "vi": "Anh ấy/Cô ấy không thể + động từ.",
+   "examples": [
+    "He can't jump high.",
+    "She can't catch the ball.",
+    "My friend can't ride a bike."
+   ]
+  },
+  {
+   "pattern": "Do you like to + verb + (noun)?",
+   "vi": "Bạn có thích + động từ + (danh từ) không?",
+   "examples": [
+    "Do you like to play games?",
+    "Do you like to swim?",
+    "Do you like to kick a ball?"
+   ]
+  },
+  {
+   "pattern": "Yes, I do. / No, I don't.",
+   "vi": "Có, tôi có. / Không, tôi không.",
+   "examples": [
+    "Do you like to run? Yes, I do.",
+    "Do you like to dance? No, I don't.",
+    "Do you like to play basketball? Yes, I do."
+   ]
+  },
+  {
+   "pattern": "What are you doing? I'm + verb-ing.",
+   "vi": "Bạn đang làm gì vậy? Tôi đang + động từ-ing.",
+   "examples": [
+    "What are you doing? I'm playing soccer.",
+    "What are you doing? I'm jumping rope.",
+    "What are you doing? I'm riding my bike."
+   ]
+  },
+  {
+   "pattern": "Let's + verb + (noun).",
+   "vi": "Hãy + động từ + (danh từ).",
+   "examples": [
+    "Let's play a game!",
+    "Let's run to the park.",
+    "Let's throw the ball."
+   ]
+  },
+  {
+   "pattern": "It makes me feel + adjective.",
+   "vi": "Nó làm tôi cảm thấy + tính từ.",
+   "examples": [
+    "Playing sports makes me feel strong.",
+    "Running makes me feel happy.",
+    "Swimming makes me feel healthy."
+   ]
+  },
+  {
+   "pattern": "We have got a new + noun.",
+   "vi": "Chúng ta có một + danh từ + mới.",
+   "examples": [
+    "We have got a new ball.",
+    "They have got new running shoes.",
+    "She has got a new bike."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Can / Can't (Ability)",
+   "explain_en": "We use 'can' to say what someone is able to do. We use 'can't' to say what someone is not able to do.",
+   "explain_vi": "Chúng ta dùng 'can' để nói về những gì ai đó có thể làm. Chúng ta dùng 'can't' để nói về những gì ai đó không thể làm.",
+   "examples": [
+    "I can swim.",
+    "He can play soccer well.",
+    "She can't jump very high.",
+    "Can you ride a bike?"
+   ],
+   "right": "✅ I can run fast.",
+   "wrong": "❌ I can to run fast."
+  },
+  {
+   "title": "Present Simple (Habits & Likes)",
+   "explain_en": "We use the Present Simple to talk about things we do regularly, or things we like and dislike.",
+   "explain_vi": "Chúng ta dùng thì Hiện tại đơn để nói về những việc chúng ta làm thường xuyên, hoặc những điều chúng ta thích và không thích.",
+   "examples": [
+    "I play soccer every Saturday.",
+    "She likes to dance.",
+    "They don't often swim.",
+    "Do you like sports?"
+   ],
+   "right": "✅ I like to play games.",
+   "wrong": "❌ I liking to play games."
+  },
+  {
+   "title": "Present Continuous (Actions Happening Now)",
+   "explain_en": "We use the Present Continuous to talk about actions that are happening right now, at this moment.",
+   "explain_vi": "Chúng ta dùng thì Hiện tại tiếp diễn để nói về những hành động đang xảy ra ngay bây giờ, vào lúc này.",
+   "examples": [
+    "I am running in the park now.",
+    "He is kicking the ball.",
+    "They are jumping rope.",
+    "What are you doing?"
+   ],
+   "right": "✅ She is swimming.",
+   "wrong": "❌ She swimming."
+  },
+  {
+   "title": "Have got / Has got (Possession)",
+   "explain_en": "We use 'have got' or 'has got' to say that someone owns or possesses something.",
+   "explain_vi": "Chúng ta dùng 'have got' hoặc 'has got' để nói rằng ai đó sở hữu một thứ gì đó.",
+   "examples": [
+    "I have got a new ball.",
+    "He has got a blue bicycle.",
+    "We have got three friends on our team.",
+    "Have you got a jump rope?"
+   ],
+   "right": "✅ I have got a red ball.",
+   "wrong": "❌ I got a red ball."
+  }
+ ],
+ "song": {
+  "title": "Let's Play Sports!",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The children in the park go run, run, run,",
+   "Run, run, run, run, run, run.",
+   "The children in the park go run, run, run,",
+   "All through the day!",
+   "",
+   "The children on the field go kick, kick, kick,",
+   "Kick, kick, kick, kick, kick, kick.",
+   "The children on the field go kick, kick, kick,",
+   "All through the day!",
+   "",
+   "The children in the pool go swim, swim, swim,",
+   "Swim, swim, swim, swim, swim, swim.",
+   "The children in the pool go swim, swim, swim,",
+   "All through the day!",
+   "",
+   "We all play sports to be strong and healthy!",
+   "Strong and healthy, strong and healthy!",
+   "We all play sports to be strong and healthy!",
+   "Hooray for play!"
+  ],
+  "actions_vi": "Khi hát 'run, run, run' hãy giậm chân tại chỗ; 'kick, kick, kick' hãy đá chân lên không khí; 'swim, swim, swim' hãy vung tay như đang bơi; 'strong and healthy' hãy làm động tác khoe cơ bắp."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Favorite Game",
+   "text": "Hello! My name is Minh. I am eight years old. I like to play outside with my friends. My favorite game is 'Hide-and-Seek'. It is so much fun! We run and hide in the park. My friend Linh is very good at finding. She can run very fast! Sometimes, we play 'Tag'. I can't run as fast as Linh, but I try my best. After playing, I feel happy and a little tired. Playing games makes me healthy and strong. I love playing with my friends every day!",
+   "image_prompt": "Minh and Linh, two cheerful Vietnamese children, playing hide-and-seek in a sunny park with trees and bushes. One child is covering eyes, counting, while the other is peeking from behind a tree.",
+   "vocab": [
+    {
+     "en": "Minh",
+     "ipa": "/mɪn/",
+     "vi": "Minh (tên riêng)"
+    },
+    {
+     "en": "Hide-and-Seek",
+     "ipa": "/haɪd ænd siːk/",
+     "vi": "trò chơi trốn tìm"
+    },
+    {
+     "en": "fun",
+     "ipa": "/fʌn/",
+     "vi": "vui vẻ"
+    },
+    {
+     "en": "hide",
+     "ipa": "/haɪd/",
+     "vi": "trốn"
+    },
+    {
+     "en": "Linh",
+     "ipa": "/lɪn/",
+     "vi": "Linh (tên riêng)"
+    },
+    {
+     "en": "finding",
+     "ipa": "/ˈfaɪndɪŋ/",
+     "vi": "tìm kiếm"
+    },
+    {
+     "en": "Tag",
+     "ipa": "/tæɡ/",
+     "vi": "trò chơi đuổi bắt"
+    },
+    {
+     "en": "tired",
+     "ipa": "/ˈtaɪərd/",
+     "vi": "mệt mỏi"
+    },
+    {
+     "en": "healthy",
+     "ipa": "/ˈhelθi/",
+     "vi": "khỏe mạnh"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɔːŋ/",
+     "vi": "khỏe, mạnh"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Minh?",
+    "What is Minh's favorite game?",
+    "Where do they play Hide-and-Seek?",
+    "Who is good at finding?",
+    "Can Minh run as fast as Linh?",
+    "What other game do they sometimes play?",
+    "How does Minh feel after playing?",
+    "What does playing games make Minh?",
+    "Does Minh like playing with friends?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Minh likes to play inside.",
+     "answer": false
+    },
+    {
+     "statement": "Hide-and-Seek is Minh's favorite game.",
+     "answer": true
+    },
+    {
+     "statement": "Linh can't run fast.",
+     "answer": false
+    },
+    {
+     "statement": "Playing games makes Minh healthy.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A Day at the Sports Field",
+   "text": "It's Saturday morning, and Ben is at the sports field with his friends. The sun is shining, and it's a perfect day for sports! Ben loves playing soccer. He is kicking the ball with his team. They are wearing blue shirts. Lucy is also here. She likes basketball. She is throwing the ball and practicing shooting hoops. Nam is riding his bike around the track. He is very fast! Mai and Tom are playing a game of catch with a soft ball. They can catch very well. Everyone is exercising and having a good time. They know that playing sports helps them stay active and happy. They are all getting strong and healthy today!",
+   "image_prompt": "A busy and joyful sports field scene. Ben and his team in blue shirts are playing soccer. Lucy is shooting a basketball. Nam is riding a bike fast. Mai and Tom are playing catch. All children are diverse and happy.",
+   "vocab": [
+    {
+     "en": "Saturday",
+     "ipa": "/ˈsætərdeɪ/",
+     "vi": "thứ Bảy"
+    },
+    {
+     "en": "sports field",
+     "ipa": "/spɔːrts fiːld/",
+     "vi": "sân thể thao"
+    },
+    {
+     "en": "perfect",
+     "ipa": "/ˈpɜːrfɪkt/",
+     "vi": "hoàn hảo"
+    },
+    {
+     "en": "soccer",
+     "ipa": "/ˈsɑːkər/",
+     "vi": "bóng đá"
+    },
+    {
+     "en": "team",
+     "ipa": "/tiːm/",
+     "vi": "đội"
+    },
+    {
+     "en": "basketball",
+     "ipa": "/ˈbæskɪtbɔːl/",
+     "vi": "bóng rổ"
+    },
+    {
+     "en": "hoops",
+     "ipa": "/huːps/",
+     "vi": "vòng rổ"
+    },
+    {
+     "en": "track",
+     "ipa": "/træk/",
+     "vi": "đường đua"
+    },
+    {
+     "en": "practicing",
+     "ipa": "/ˈpræktɪsɪŋ/",
+     "vi": "luyện tập"
+    },
+    {
+     "en": "active",
+     "ipa": "/ˈæktɪv/",
+     "vi": "năng động"
+    }
+   ],
+   "questions": [
+    "What day is it in the story?",
+    "Where is Ben?",
+    "What is Ben doing?",
+    "What color are Ben's team shirts?",
+    "What sport does Lucy like?",
+    "What is Lucy practicing?",
+    "Who is riding a bike?",
+    "Is Nam fast or slow?",
+    "What are Mai and Tom playing?",
+    "Why do they play sports?"
+   ],
+   "true_false": [
+    {
+     "statement": "It is Sunday morning.",
+     "answer": false
+    },
+    {
+     "statement": "Ben is playing basketball.",
+     "answer": false
+    },
+    {
+     "statement": "Lucy is throwing a ball.",
+     "answer": true
+    },
+    {
+     "statement": "Nam is riding his bike slowly.",
+     "answer": false
+    },
+    {
+     "statement": "Playing sports helps them stay active and happy.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "Staying Healthy and Active",
+   "text": "Having a healthy body is very important for all of us. How can we stay healthy and active? One good way is to play sports and games! Every morning, my dad and I go to the park. He runs, and I ride my small bike. I can ride fast now! My sister, An, likes to jump rope. She can jump for a long time. She is very strong. At school, during break time, my friends and I often play different games. Sometimes we play badminton, sometimes we just run around. We always try to move our bodies. Playing sports helps our hearts and muscles grow strong. It also helps us feel happy and sleep well at night. When we are active, we have more energy to learn and play. So, let's all find a sport or game we love and play it every day!",
+   "image_prompt": "A happy family (dad, daughter, son) exercising in a park. Dad is running, son is riding a bike, and daughter is jumping rope. A school playground in the background with children playing various games. All look energetic and cheerful.",
+   "vocab": [
+    {
+     "en": "important",
+     "ipa": "/ɪmˈpɔːrtənt/",
+     "vi": "quan trọng"
+    },
+    {
+     "en": "way",
+     "ipa": "/weɪ/",
+     "vi": "cách"
+    },
+    {
+     "en": "dad",
+     "ipa": "/dæd/",
+     "vi": "bố"
+    },
+    {
+     "en": "small",
+     "ipa": "/smɔːl/",
+     "vi": "nhỏ"
+    },
+    {
+     "en": "sister",
+     "ipa": "/ˈsɪstər/",
+     "vi": "chị/em gái"
+    },
+    {
+     "en": "An",
+     "ipa": "/æn/",
+     "vi": "An (tên riêng)"
+    },
+    {
+     "en": "break time",
+     "ipa": "/breɪk taɪm/",
+     "vi": "giờ giải lao"
+    },
+    {
+     "en": "badminton",
+     "ipa": "/ˈbædmɪntən/",
+     "vi": "cầu lông"
+    },
+    {
+     "en": "muscles",
+     "ipa": "/ˈmʌslz/",
+     "vi": "cơ bắp"
+    },
+    {
+     "en": "energy",
+     "ipa": "/ˈenərdʒi/",
+     "vi": "năng lượng"
+    }
+   ],
+   "questions": [
+    "What is important for all of us?",
+    "What is a good way to stay healthy and active?",
+    "Who does the narrator go to the park with in the morning?",
+    "What does the dad do at the park?",
+    "What does the narrator do at the park now?",
+    "What does An like to do?",
+    "Is An strong or weak?",
+    "What do friends play at school during break time?",
+    "What happens to our hearts and muscles when we play sports?",
+    "How does being active help us learn and play?"
+   ],
+   "true_false": [
+    {
+     "statement": "Staying healthy is not important.",
+     "answer": false
+    },
+    {
+     "statement": "The narrator's dad rides a bike.",
+     "answer": false
+    },
+    {
+     "statement": "An is very strong because she jumps rope.",
+     "answer": true
+    },
+    {
+     "statement": "They only play badminton at school.",
+     "answer": false
+    },
+    {
+     "statement": "Playing sports helps our hearts and muscles grow strong.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "The Big Catch!",
+  "panels": [
+   {
+    "scene": "A park. Ben is holding a small, soft ball. Linh is standing a little far away, looking excited.",
+    "speech": "Ben: Linh! Let's play catch!"
+   },
+   {
+    "scene": "Ben throws the ball. It goes a little too high. Linh jumps to catch it, but it flies over her head.",
+    "speech": "Linh: Oh no! I can't catch it! It's too high!"
+   },
+   {
+    "scene": "The ball is about to hit a tree. Suddenly, Minh runs into the frame, jumping high.",
+    "speech": "Minh: Don't worry, Linh! I can catch it!"
+   },
+   {
+    "scene": "Minh catches the ball with a big smile, landing perfectly. Ben and Linh cheer.",
+    "speech": "Ben: Wow, Minh! You are so strong! / Linh: And fast! Great catch!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite sport or game?",
+   "Do you play it often?",
+   "Who do you play with?",
+   "Where do you usually play?",
+   "What can you do well in your favorite sport?",
+   "What can't you do very well yet?",
+   "Do you like to run, jump, or swim?",
+   "What makes you feel healthy?",
+   "Can you ride a bike?",
+   "Do you like team sports or individual sports?",
+   "What are your friends doing when you play together?",
+   "Why is playing sports important for your body?",
+   "How do you feel after you exercise?",
+   "What new sport do you want to try?",
+   "What do you need to play your favorite sport?"
+  ],
+  "model": "Hello, everyone! My name is An. I am eight years old. I like to play badminton with my sister. We play it at the park every Sunday morning. I can hit the shuttlecock high, but I can't run very fast yet. Playing badminton makes me feel very active and happy. It helps my arms get strong. I think playing sports is important because it keeps our bodies healthy. I want to try swimming next!",
+  "challenge": "Talk about your favorite sport or game for 30–60 seconds. Say what it is, who you play with, what you can do, and how it makes you feel."
+ },
+ "conversations": [
+  {
+   "title": "Let's Play!",
+   "image_prompt": "Two children, Nam and Mia, standing on a grassy field with a soccer ball nearby. Nam is holding a small jump rope.",
+   "lines": [
+    {
+     "speaker": "Nam",
+     "text": "Hi, Mia! What are you doing?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Hi, Nam! I'm just looking at the clouds. I'm a bit bored."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Me too! Do you want to play a game?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Yes, I do! What can we play?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "I have got a jump rope. Can you jump rope?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Yes, I can! I can jump very fast! But I also like soccer."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Great! Let's jump rope first, and then we can kick the soccer ball."
+    },
+    {
+     "speaker": "Mia",
+     "text": "That sounds fun! Let's go!"
+    }
+   ]
+  },
+  {
+   "title": "What Can You Do?",
+   "image_prompt": "Two children, Lucy and Ben, sitting on a bench in a school yard. Lucy is showing a drawing of a child swimming.",
+   "lines": [
+    {
+     "speaker": "Lucy",
+     "text": "Ben, look at my drawing! It's me swimming."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Wow, Lucy! You can swim! That's great!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, I can. My dad teaches me. Can you swim?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "No, I can't swim yet. But I can ride my bike very fast!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "That's cool! I can't ride a bike very fast. My bike is old."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Maybe we can learn together. You can teach me to swim, and I can teach you to ride fast."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "That's a good idea! It makes me feel happy to learn new things."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Me too! Being active is fun!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, boys and girls! Today, let's talk about our favorite sports. My name is Ms. Hoa. I love sports! On weekends, I always go to the park. I like to run and jump. It makes me feel strong and healthy. My son, Tom, is eight years old. He loves playing soccer with his friends. He can kick the ball very well! My daughter, Linh, is six. She likes to dance. She can dance beautifully. Sometimes, we all go swimming together. We have got a big blue ball for the pool. Playing sports and games helps our family stay active and happy. What about you? What sports and games do you like? Remember, it's important to move your body every day!",
+  "questions": [
+   "What is the teacher's name?",
+   "What does Ms. Hoa love?",
+   "Where does Ms. Hoa go on weekends?",
+   "What does Ms. Hoa like to do at the park?",
+   "How old is Tom?",
+   "What does Tom like to play?",
+   "Can Tom kick the ball well?",
+   "What does Linh like to do?",
+   "Can Linh dance?",
+   "What does playing sports help Ms. Hoa's family do?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "RUN",
+   "JUMP",
+   "SWIM",
+   "KICK",
+   "BALL",
+   "TEAM",
+   "FAST",
+   "DANCE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "run",
+     "jump",
+     "eat",
+     "swim"
+    ],
+    "answer": "eat",
+    "why_vi": "Các từ khác là hành động thể thao."
+   },
+   {
+    "options": [
+     "ball",
+     "racket",
+     "apple",
+     "bike"
+    ],
+    "answer": "apple",
+    "why_vi": "Các từ khác là dụng cụ thể thao."
+   },
+   {
+    "options": [
+     "healthy",
+     "strong",
+     "sad",
+     "active"
+    ],
+    "answer": "sad",
+    "why_vi": "Các từ khác diễn tả trạng thái tích cực của cơ thể."
+   },
+   {
+    "options": [
+     "soccer",
+     "basketball",
+     "swimming",
+     "painting"
+    ],
+    "answer": "painting",
+    "why_vi": "Các từ khác là môn thể thao."
+   },
+   {
+    "options": [
+     "slow",
+     "fast",
+     "big",
+     "happy"
+    ],
+    "answer": "happy",
+    "why_vi": "Các từ khác là tính từ chỉ tốc độ hoặc kích thước."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am round, and you can kick me or throw me. What am I?",
+    "answer": "A ball"
+   },
+   {
+    "riddle": "I help you move fast with your legs. I have two wheels. What am I?",
+    "answer": "A bike"
+   },
+   {
+    "riddle": "I make your body strong and happy. You can do me indoors or outdoors. What am I?",
+    "answer": "Exercise"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "unr",
+    "answer": "run"
+   },
+   {
+    "scrambled": "ujpm",
+    "answer": "jump"
+   },
+   {
+    "scrambled": "misw",
+    "answer": "swim"
+   },
+   {
+    "scrambled": "clba",
+    "answer": "ball"
+   },
+   {
+    "scrambled": "althyhe",
+    "answer": "healthy"
+   },
+   {
+    "scrambled": "amte",
+    "answer": "team"
+   }
+  ],
+  "picture_count": {
+   "question": "How many children are playing soccer in the cover picture?",
+   "hint_vi": "Hãy nhìn kỹ hình bìa và đếm số bạn nhỏ đang chơi bóng đá."
+  }
+ },
+ "write": {
+  "profile_title": "My Sports and Games Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ____ years old.",
+   "My favorite sport is:",
+   "I like to play it with:",
+   "I usually play it at:",
+   "I can ____ (an ability in a sport).",
+   "I can't ____ (something you can't do yet).",
+   "Playing sports makes me feel:",
+   "I want to try this new sport:",
+   "I think being active is important because:"
+  ],
+  "frame_title": "MY FAVORITE SPORT",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "My favorite sport is ____.",
+   "I play ____ with my friends ____.",
+   "We usually play at the ____.",
+   "I can ____ when I play ____.",
+   "But I can't ____ yet.",
+   "Playing ____ makes me feel ____.",
+   "It makes my body ____.",
+   "I love my favorite sport!"
+  ]
+ },
+ "life_skill": {
+  "title": "BE ACTIVE, BE HEALTHY!",
+  "intro": "Being active means moving your body every day. It helps you stay healthy, strong, and happy! Let's learn how to be active.",
+  "intro_vi": "Năng động có nghĩa là vận động cơ thể mỗi ngày. Điều đó giúp em khỏe mạnh, mạnh mẽ và vui vẻ! Hãy cùng học cách năng động nhé.",
+  "can_do": [
+   "Run and play outside.",
+   "Jump rope with friends.",
+   "Ride my bicycle.",
+   "Swim in the pool.",
+   "Kick a ball.",
+   "Help with chores at home (e.g., sweeping).",
+   "Walk instead of taking a car for short distances.",
+   "Dance to my favorite music.",
+   "Play active games like 'Tag'.",
+   "Do simple exercises every morning.",
+   "Drink plenty of water.",
+   "Eat healthy food like fruits and vegetables."
+  ],
+  "value_question": "What is one new active thing you want to try this week to be healthier?",
+  "image_prompt": "A group of happy, diverse children (Vietnamese and others) actively playing various simple games outdoors – hopscotch, jump rope, running a short race. They are all smiling and energetic, with a bright sun in the background."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Running makes your heart strong, just like a pump!",
+   "vi": "Em có biết không? Chạy bộ giúp tim em khỏe mạnh, giống như một cái máy bơm vậy!"
+  },
+  {
+   "en": "Did you know? The fastest person in the world can run as fast as 45 kilometers per hour!",
+   "vi": "Em có biết không? Người chạy nhanh nhất thế giới có thể chạy nhanh tới 45 km/giờ!"
+  },
+  {
+   "en": "Did you know? Playing outside helps you get Vitamin D from the sun, which is good for your bones!",
+   "vi": "Em có biết không? Chơi ngoài trời giúp em hấp thụ Vitamin D từ mặt trời, rất tốt cho xương của em!"
+  },
+  {
+   "en": "Did you know? The first Olympic Games were held in ancient Greece more than 2,700 years ago!",
+   "vi": "Em có biết? Thế vận hội Olympic đầu tiên được tổ chức ở Hy Lạp cổ đại cách đây hơn 2.700 năm!"
+  },
+  {
+   "en": "Did you know? Your body has over 600 muscles, and they all get stronger when you exercise!",
+   "vi": "Em có biết không? Cơ thể em có hơn 600 cơ bắp, và tất cả chúng sẽ khỏe hơn khi em tập thể dục!"
+  }
+ ],
+ "project": {
+  "title": "MY HEALTHY BODY POSTER",
+  "task": "Create a poster about how you stay active and healthy. Draw pictures and write sentences.",
+  "draw_items": [
+   "A child running",
+   "A child jumping",
+   "A child swimming",
+   "A child riding a bike",
+   "A child eating healthy food (e.g., an apple)",
+   "A child drinking water",
+   "A happy face",
+   "A strong arm flexing"
+  ],
+  "example": [
+   "This is me! I am strong.",
+   "I can run fast in the park.",
+   "I like to swim in the summer.",
+   "I eat fruits to be healthy.",
+   "Playing sports makes me happy and active."
+  ],
+  "present": "Hello everyone! This is my 'Healthy Body' poster. I draw myself running and swimming. I can run fast, and I like to swim. I also draw an apple because I eat healthy food. Being active makes me feel strong and happy. Thank you!",
+  "image_prompt": "Diverse children (Vietnamese and others) sitting at desks, happily drawing and writing on large pieces of paper to create 'Healthy Body' posters. Crayons and markers are spread out. The children are focused and smiling."
+ },
+ "classroom_game": {
+  "name": "Sporty Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "1. Divide the class into small groups.",
+   "2. Each group gets a list of action verbs related to sports (e.g., run, jump, swim, kick, throw, dance, ride a bike).",
+   "3. One student from a group secretly picks a word and acts it out without speaking.",
+   "4. Their group guesses the action. The first group to guess correctly gets a point.",
+   "5. The game continues with other students acting out words."
+  ],
+  "steps_vi": [
+   "1. Chia lớp thành các nhóm nhỏ.",
+   "2. Mỗi nhóm nhận một danh sách các động từ hành động liên quan đến thể thao (ví dụ: chạy, nhảy, bơi, đá, ném, nhảy múa, đạp xe).",
+   "3. Một học sinh từ mỗi nhóm bí mật chọn một từ và diễn tả hành động đó mà không nói.",
+   "4. Nhóm của bạn đó đoán hành động. Nhóm nào đoán đúng đầu tiên sẽ được một điểm.",
+   "5. Trò chơi tiếp tục với các học sinh khác diễn tả hành động."
+  ],
+  "language": [
+   "What am I doing?",
+   "Are you (running)?",
+   "Yes, I am! / No, I'm not.",
+   "You are (swimming)!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "r__",
+    "answer": "run"
+   },
+   {
+    "word": "j__p",
+    "answer": "jump"
+   },
+   {
+    "word": "sw__",
+    "answer": "swim"
+   },
+   {
+    "word": "k__k",
+    "answer": "kick"
+   },
+   {
+    "word": "b__l",
+    "answer": "ball"
+   },
+   {
+    "word": "t__m",
+    "answer": "team"
+   },
+   {
+    "word": "h__lthy",
+    "answer": "healthy"
+   },
+   {
+    "word": "str__g",
+    "answer": "strong"
+   },
+   {
+    "word": "f__t",
+    "answer": "fast"
+   },
+   {
+    "word": "d__ce",
+    "answer": "dance"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "I ______ play soccer.",
+    "options": [
+     "can",
+     "cans",
+     "am"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "She ______ ride a bike fast.",
+    "options": [
+     "not can",
+     "can't",
+     "no can"
+    ],
+    "answer": "can't"
+   },
+   {
+    "q": "What ______ you doing?",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "He ______ playing basketball now.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "Do you like ______ to the park?",
+    "options": [
+     "go",
+     "going",
+     "goes"
+    ],
+    "answer": "going"
+   },
+   {
+    "q": "We ______ got a new ball.",
+    "options": [
+     "has",
+     "have",
+     "is"
+    ],
+    "answer": "have"
+   },
+   {
+    "q": "Playing sports makes me feel ______.",
+    "options": [
+     "sad",
+     "tired",
+     "healthy"
+    ],
+    "answer": "healthy"
+   },
+   {
+    "q": "Let's ______ a game!",
+    "options": [
+     "to play",
+     "playing",
+     "play"
+    ],
+    "answer": "play"
+   },
+   {
+    "q": "My sister ______ to dance.",
+    "options": [
+     "like",
+     "likes",
+     "liking"
+    ],
+    "answer": "likes"
+   },
+   {
+    "q": "I ______ swim every Sunday.",
+    "options": [
+     "am swimming",
+     "swim",
+     "swims"
+    ],
+    "answer": "swim"
+   }
+  ],
+  "order": [
+   {
+    "words": "can / I / run / fast",
+    "answer": "I can run fast."
+   },
+   {
+    "words": "playing / is / She / now / soccer",
+    "answer": "She is playing soccer now."
+   },
+   {
+    "words": "like / you / Do / to / swim",
+    "answer": "Do you like to swim?"
+   },
+   {
+    "words": "got / a / new / We / ball / have",
+    "answer": "We have got a new ball."
+   },
+   {
+    "words": "makes / feel / It / healthy / me",
+    "answer": "It makes me feel healthy."
+   },
+   {
+    "words": "bike / can't / a / He / ride",
+    "answer": "He can't ride a bike."
+   },
+   {
+    "words": "play / games / Let's",
+    "answer": "Let's play games!"
+   },
+   {
+    "words": "are / doing / What / you",
+    "answer": "What are you doing?"
+   },
+   {
+    "words": "sports / love / I",
+    "answer": "I love sports."
+   },
+   {
+    "words": "strong / body / My / is",
+    "answer": "My body is strong."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "Can you run fast?",
+   "Do you like to jump?",
+   "What sport do you like to play?",
+   "Who do you play with?",
+   "Have you got a ball?",
+   "Are you playing a game now?",
+   "What makes you feel strong?",
+   "Why is it good to be active?"
+  ]
+ },
+ "i_can": [
+  "I can say sports and games words in English.",
+  "I can use 'can' and 'can't' to talk about abilities.",
+  "I can talk about actions happening now using Present Continuous.",
+  "I can talk about my favorite sports using Present Simple.",
+  "I can use 'have got' to talk about possession.",
+  "I can ask and answer questions about sports and games.",
+  "I can read and understand a story about playing sports.",
+  "I can identify true or false statements from a text.",
+  "I can understand short conversations about activities.",
+  "I can follow a listening script about sports.",
+  "I can write about my favorite sport and what I can do.",
+  "I can talk about the importance of being active.",
+  "I can play a game of Sporty Charades.",
+  "I can create a 'Healthy Body' poster.",
+  "I can tell my friends about my favorite sport."
+ ],
+ "message_en": "Playing sports and games keeps our bodies strong and our minds happy!",
+ "message_vi": "Chơi thể thao và các trò chơi giúp cơ thể chúng ta khỏe mạnh và tinh thần vui vẻ!",
+ "message_body": "Keep moving, keep playing, and keep learning English! Your body and mind will thank you. Remember to always have fun and stay healthy!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 8,
+ "grade": 3,
+ "validation": [
+  "mcq answer Do you like ______ to the park?"
+ ]
+}
