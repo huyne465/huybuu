@@ -1,0 +1,1172 @@
+{
+ "title": "WHAT I CAN DO",
+ "theme": "Abilities & Talents",
+ "goal": "Students can express present and past abilities, describe special talents, compare skills, and discuss future plans using can, could, good at, and will.",
+ "goal_vi": "Học sinh có thể diễn tả khả năng ở hiện tại và quá khứ, mô tả năng khiếu cá nhân, so sánh kỹ năng và nói về kế hoạch học kỹ năng mới trong tương lai.",
+ "cover_emoji": "🎨🎸🏊‍♂️🎭🏻",
+ "cover_image_prompt": "A cheerful primary school talent show stage in Vietnam. Vietnamese and international children aged 9 are happily demonstrating talents: one girl plays guitar, a boy juggles colorful balls, a girl paints on an easel, and another boy performs karate moves. Vibrant colors, friendly vector cartoon style.",
+ "big_question": {
+  "en": "What special talents and abilities do you have?",
+  "vi": "Em có những năng khiếu và khả năng đặc biệt nào?",
+  "prompts": [
+   "Can you play a musical instrument?",
+   "What sports can you play well?",
+   "What could you do when you were five years old?",
+   "Who is the fastest swimmer in your class?",
+   "What new skill do you want to learn next?",
+   "Are you good at drawing or cooking?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "swim",
+   "ipa": "/swɪm/",
+   "vi": "bơi lội",
+   "emoji": "🏊‍♂️",
+   "image_prompt": "A cheerful boy swimming gracefully in a clean blue swimming pool wearing red goggles."
+  },
+  {
+   "en": "dance",
+   "ipa": "/dæns/",
+   "vi": "nhảy múa",
+   "emoji": "💃",
+   "image_prompt": "A young girl in colorful dance attire striking a joyful dancing pose on a stage."
+  },
+  {
+   "en": "sing",
+   "ipa": "/sɪŋ/",
+   "vi": "hát",
+   "emoji": "🎤",
+   "image_prompt": "A friendly child standing in front of a microphone holding a music note card, singing happily."
+  },
+  {
+   "en": "draw",
+   "ipa": "/drɔː/",
+   "vi": "vẽ nét",
+   "emoji": "✏️",
+   "image_prompt": "A child using a bright pencil to draw a happy sun and trees on white paper."
+  },
+  {
+   "en": "cook",
+   "ipa": "/kʊk/",
+   "vi": "nấu ăn",
+   "emoji": "👨‍🍳",
+   "image_prompt": "A proud young boy wearing a chef hat, mixing vegetables in a bowl carefully."
+  },
+  {
+   "en": "paint",
+   "ipa": "/peɪnt/",
+   "vi": "vẽ màu / sơn",
+   "emoji": "🎨",
+   "image_prompt": "An artist paintbrush spreading vibrant red and blue paint on a wooden palette."
+  },
+  {
+   "en": "juggle",
+   "ipa": "/ˈdʒʌɡ.əl/",
+   "vi": "tung hứng",
+   "emoji": "🤹",
+   "image_prompt": "A smiling boy throwing three colorful balls into the air in a circle motion."
+  },
+  {
+   "en": "skate",
+   "ipa": "/skeɪt/",
+   "vi": "trượt băn/trượt pa-tin",
+   "emoji": "🛼",
+   "image_prompt": "A pair of bright pink roller skates with white wheels resting on smooth ground."
+  },
+  {
+   "en": "bake",
+   "ipa": "/beɪk/",
+   "vi": "nướng bánh",
+   "emoji": "🧁",
+   "image_prompt": "A tray of freshly baked sweet cupcakes with pink strawberry icing."
+  },
+  {
+   "en": "dive",
+   "ipa": "/daɪv/",
+   "vi": "lặn / nhảy cầu",
+   "emoji": "🥽",
+   "image_prompt": "A child wearing a mask and snorkel diving into clear turquoise ocean water."
+  },
+  {
+   "en": "act",
+   "ipa": "/ækt/",
+   "vi": "diễn xuất",
+   "emoji": "🎭",
+   "image_prompt": "Two classic theater masks, one smiling warmly and one surprised."
+  },
+  {
+   "en": "skip",
+   "ipa": "/skɪp/",
+   "vi": "nhảy dây",
+   "emoji": "🪢",
+   "image_prompt": "A girl jumping high over a bright yellow jump rope in a sunny park."
+  },
+  {
+   "en": "balance",
+   "ipa": "/ˈbæl.əns/",
+   "vi": "thăng bằng",
+   "emoji": "⚖️",
+   "image_prompt": "A gymnast girl walking steadily on a low wooden balance beam with arms stretched out."
+  },
+  {
+   "en": "play guitar",
+   "ipa": "/pleɪ ɡɪˈtɑːr/",
+   "vi": "chơi đàn ghi-ta",
+   "emoji": "🎸",
+   "image_prompt": "A wooden acoustic guitar standing upright next to a music stand."
+  },
+  {
+   "en": "play piano",
+   "ipa": "/pleɪ piˈæn.oʊ/",
+   "vi": "chơi đàn pi-a-nô",
+   "emoji": "🎹",
+   "image_prompt": "A neat row of black and white piano keys shining under light."
+  },
+  {
+   "en": "play chess",
+   "ipa": "/pleɪ tʃes/",
+   "vi": "chơi cờ vua",
+   "emoji": "♟️",
+   "image_prompt": "A wooden chessboard set up with carved black and white king and queen pieces."
+  },
+  {
+   "en": "do karate",
+   "ipa": "/duː kəˈrɑː.ti/",
+   "vi": "tập võ karate",
+   "emoji": "🥋",
+   "image_prompt": "A white karate uniform with a black belt tied neatly around the waist."
+  },
+  {
+   "en": "speak English",
+   "ipa": "/spiːk ˈɪŋ.ɡlɪʃ/",
+   "vi": "nói tiếng Anh",
+   "emoji": "🗣️",
+   "image_prompt": "A cheerful speech bubble containing simple English greeting words."
+  },
+  {
+   "en": "ride a bike",
+   "ipa": "/raɪd ə baɪk/",
+   "vi": "đi xe đạp",
+   "emoji": "🚲",
+   "image_prompt": "A modern yellow bicycle with a front basket standing on a green lawn."
+  },
+  {
+   "en": "perform tricks",
+   "ipa": "/pərˈfɔːrm trɪks/",
+   "vi": "biểu diễn ảo thuật",
+   "emoji": "🪄",
+   "image_prompt": "A black magician top hat with a glowing magic wand pointing at it."
+  }
+ ],
+ "phonics": {
+  "sound": "/sk/",
+  "letters": "sk / sc",
+  "words": [
+   "skate",
+   "skip",
+   "skill",
+   "score",
+   "scooter",
+   "sky"
+  ],
+  "chant": "Skate on the street, skip in the park,\nShow your great skills before it gets dark!",
+  "tip_vi": "Phát âm âm /s/ nhanh trước, sau đó bật nhẹ âm /k/ liền ngay sau đó, không chèn âm ơ vào giữa."
+ },
+ "patterns": [
+  {
+   "pattern": "I can + V.",
+   "vi": "Tôi có thể làm gì đó.",
+   "examples": [
+    "I can swim very well.",
+    "I can play the piano.",
+    "I can speak English."
+   ]
+  },
+  {
+   "pattern": "Can you + V? - Yes, I can. / No, I can't.",
+   "vi": "Bạn có thể... không? - Có, tôi có thể. / Không, tôi không thể.",
+   "examples": [
+    "Can you bake cupcakes? - Yes, I can.",
+    "Can you do karate? - No, I can't.",
+    "Can you juggle three balls? - Yes, I can."
+   ]
+  },
+  {
+   "pattern": "He/She can + V, but he/she can't + V.",
+   "vi": "Cậu/Cô ấy có thể... nhưng không thể...",
+   "examples": [
+    "Nam can draw, but he can't paint.",
+    "Mai can dance, but she can't sing.",
+    "Ben can ride a bike, but he can't skate."
+   ]
+  },
+  {
+   "pattern": "I am good at + V-ing.",
+   "vi": "Tôi giỏi làm việc gì.",
+   "examples": [
+    "I am good at playing chess.",
+    "She is good at cooking meals.",
+    "They are good at singing songs."
+   ]
+  },
+  {
+   "pattern": "When I was five, I could + V.",
+   "vi": "Khi tôi 5 tuổi, tôi đã có thể...",
+   "examples": [
+    "When I was five, I could ride a bike.",
+    "When I was six, I could swim fast.",
+    "When she was four, she could draw birds."
+   ]
+  },
+  {
+   "pattern": "When I was young, I couldn't + V.",
+   "vi": "Khi tôi còn nhỏ, tôi đã không thể...",
+   "examples": [
+    "When I was four, I couldn't speak English.",
+    "When he was three, he couldn't skip rope.",
+    "When we were young, we couldn't dive deeply."
+   ]
+  },
+  {
+   "pattern": "Who can + V + faster / better / higher?",
+   "vi": "Ai có thể... nhanh hơn / tốt hơn / cao hơn?",
+   "examples": [
+    "Who can swim faster, Minh or Nam?",
+    "Who can jump higher in your class?",
+    "Who can play guitar better?"
+   ]
+  },
+  {
+   "pattern": "Next year, I will learn how to + V.",
+   "vi": "Sang năm, tôi sẽ học cách...",
+   "examples": [
+    "Next year, I will learn how to perform tricks.",
+    "Next summer, I will learn how to dive.",
+    "Next month, I will learn how to bake."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Can and Can't for Present Ability",
+   "explain_en": "We use 'can' to talk about things we are able to do now, and 'can't' (cannot) for things we cannot do.",
+   "explain_vi": "Dùng 'can' để nói về khả năng hiện tại và 'can't' cho những việc chưa thể làm.",
+   "examples": [
+    "I can speak English clearly.",
+    "My brother can play chess very well.",
+    "She can't swim in deep water yet."
+   ],
+   "right": "✅ She can play the guitar.",
+   "wrong": "❌ She can plays the guitar."
+  },
+  {
+   "title": "Could and Couldn't for Past Ability",
+   "explain_en": "We use 'could' to describe abilities in the past, often with time expressions like 'when I was five'.",
+   "explain_vi": "Dùng 'could' và 'couldn't' để diễn tả khả năng hoặc những gì không thể làm trong quá khứ.",
+   "examples": [
+    "When I was six, I could ride a bicycle.",
+    "Two years ago, he couldn't speak English.",
+    "Could you swim when you were young?"
+   ],
+   "right": "✅ When I was five, I could run fast.",
+   "wrong": "❌ When I was five, I can run fast."
+  },
+  {
+   "title": "Expressing Talents with 'Good at + V-ing'",
+   "explain_en": "When expressing a strong talent, we use 'be good at' followed by an '-ing' verb or a noun.",
+   "explain_vi": "Dùng cấu trúc 'be + good at + V-ing' để diễn tả sự thành thạo, giỏi giang ở một kĩ năng nào đó.",
+   "examples": [
+    "Linh is good at painting colorful flowers.",
+    "We are good at playing basketball.",
+    "Are you good at cooking standard dishes?"
+   ],
+   "right": "✅ Minh is good at swimming.",
+   "wrong": "❌ Minh is good at swim."
+  },
+  {
+   "title": "Simple Comparatives for Skills (faster, higher, better)",
+   "explain_en": "To compare how well people perform actions, add '-er' to short adverbs or use 'better'.",
+   "explain_vi": "Dùng dạng so sánh hơn của trạng từ (như faster, higher, better) để so sánh kĩ năng giữa hai người.",
+   "examples": [
+    "Nam can run faster than Tom.",
+    "Mai can jump higher than her brother.",
+    "An plays piano better than I do."
+   ],
+   "right": "✅ He can swim faster than me.",
+   "wrong": "❌ He can swim more fast than me."
+  }
+ ],
+ "song": {
+  "title": "Look What I Can Do!",
+  "tune": "Sing to the tune of 'If You're Happy and You Know It'",
+  "lines": [
+   "If you can play the guitar, clap your hands!",
+   "If you can play the guitar, clap your hands!",
+   "If you can jump and dance and sing,",
+   "You can do most anything!",
+   "If you can play the guitar, clap your hands!",
+   "If you're good at painting pictures, shout hooray!",
+   "If you're good at painting pictures, shout hooray!",
+   "When we work and try our best,",
+   "We will conquer every test!",
+   "Show the world what you can do today!"
+  ],
+  "actions_vi": "Hát kết hợp vỗ tay theo nhịp, làm động tác gảy đàn ghi-ta, giơ tay giả vờ cầm cọ vẽ và hô 'Hooray' thật lớn."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "NAM'S SPECIAL TALENTS",
+   "text": "My name is Nam. I am nine years old and I study in Grade 4. I have many fun hobbies and talents. I can swim very fast in the pool. When I was six years old, I couldn't swim at all, but my father taught me well. Now I swim every Saturday morning. I am also good at playing chess with my school friends. My friend Ben can play chess too, but I can win most games. I cannot play the piano, but my sister Mai can play beautiful songs. Next summer, I will learn how to bake sweet cakes with my mother.",
+   "image_prompt": "A 9-year-old Vietnamese boy named Nam holding a wooden chess piece while sitting at a table, looking happy and confident.",
+   "vocab": [
+    {
+     "en": "talents",
+     "ipa": "/ˈtæl.ənts/",
+     "vi": "năng khiếu"
+    },
+    {
+     "en": "hobbies",
+     "ipa": "/ˈhɑː.biz/",
+     "vi": "sở thích"
+    },
+    {
+     "en": "fast",
+     "ipa": "/fæst/",
+     "vi": "nhanh"
+    },
+    {
+     "en": "pool",
+     "ipa": "/puːl/",
+     "vi": "hồ bơi"
+    },
+    {
+     "en": "couldn't",
+     "ipa": "/ˈkʊd.ənt/",
+     "vi": "đã không thể"
+    },
+    {
+     "en": "taught",
+     "ipa": "/tɔːt/",
+     "vi": "đã dạy"
+    },
+    {
+     "en": "good at",
+     "ipa": "/ɡʊd æt/",
+     "vi": "giỏi về"
+    },
+    {
+     "en": "win",
+     "ipa": "/wɪn/",
+     "vi": "chiến thắng"
+    },
+    {
+     "en": "beautiful",
+     "ipa": "/ˈbjuː.t̬ə.fəl/",
+     "vi": "đẹp / hay"
+    },
+    {
+     "en": "bake",
+     "ipa": "/beɪk/",
+     "vi": "nướng"
+    }
+   ],
+   "questions": [
+    "How old is Nam?",
+    "What grade is Nam in?",
+    "What sport can Nam do very fast?",
+    "Could Nam swim when he was six years old?",
+    "Who taught Nam how to swim?",
+    "When does Nam go swimming?",
+    "What board game is Nam good at playing?",
+    "Can Ben play chess?",
+    "Who can play beautiful songs on the piano?",
+    "What will Nam learn to do next summer?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam is eight years old.",
+     "answer": false
+    },
+    {
+     "statement": "Nam can swim very fast.",
+     "answer": true
+    },
+    {
+     "statement": "Nam's father taught him how to swim.",
+     "answer": true
+    },
+    {
+     "statement": "Ben cannot play chess at all.",
+     "answer": false
+    },
+    {
+     "statement": "Nam will learn to bake sweet cakes next summer.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "THE GRADE 4 TALENT CLUB",
+   "text": "At Sunrise Primary School, Grade 4 students have an exciting Talent Club every Friday afternoon. Every student has a unique talent to share. Linh is nine years old and she is extremely good at drawing and painting. She can paint bright landscapes with watercolors. Her friend Minh is an energetic boy who can do karate and jump very high. Last year, Minh couldn't do high kicks, but he practiced every single day. Now he kicks higher than anyone in class. Another member, Lucy, loves music. She can play the guitar and sing English songs at the same time. When Lucy was seven, she could only play simple children's tunes on the recorder. Next month, the club will perform on the big school stage. Everyone is practicing hard to show their best skills.",
+   "image_prompt": "A lively primary school club room where Linh paints on an easel, Minh performs a karate kick, and Lucy plays acoustic guitar.",
+   "vocab": [
+    {
+     "en": "exciting",
+     "ipa": "/ɪkˈsaɪ.t̬ɪŋ/",
+     "vi": "hào hứng"
+    },
+    {
+     "en": "unique",
+     "ipa": "/jʊˈniːk/",
+     "vi": "độc đáo"
+    },
+    {
+     "en": "extremely",
+     "ipa": "/ɪkˈstriːm.li/",
+     "vi": "cực kỳ"
+    },
+    {
+     "en": "landscapes",
+     "ipa": "/ˈlænd.skeɪps/",
+     "vi": "phong cảnh"
+    },
+    {
+     "en": "energetic",
+     "ipa": "/ˌen.ɚˈdʒet̬.ɪk/",
+     "vi": "năng động"
+    },
+    {
+     "en": "kicks",
+     "ipa": "/kɪks/",
+     "vi": "cú đá"
+    },
+    {
+     "en": "practiced",
+     "ipa": "/ˈpræk.tɪst/",
+     "vi": "đã luyện tập"
+    },
+    {
+     "en": "member",
+     "ipa": "/ˈmem.bɚ/",
+     "vi": "thành viên"
+    },
+    {
+     "en": "recorder",
+     "ipa": "/rɪˈkɔːr.dɚ/",
+     "vi": "sáo nhựa"
+    },
+    {
+     "en": "perform",
+     "ipa": "/pɚˈfɔːrm/",
+     "vi": "biểu diễn"
+    }
+   ],
+   "questions": [
+    "When does the Talent Club meet at Sunrise Primary School?",
+    "What is Linh extremely good at doing?",
+    "What kind of paint does Linh use for landscapes?",
+    "What sport can Minh do?",
+    "Could Minh do high kicks last year?",
+    "How often did Minh practice his kicks?",
+    "Who can kick higher than anyone in the class?",
+    "What two things can Lucy do at the same time?",
+    "What could Lucy play when she was seven years old?",
+    "Where will the club perform next month?"
+   ],
+   "true_false": [
+    {
+     "statement": "The Talent Club meets every Monday morning.",
+     "answer": false
+    },
+    {
+     "statement": "Linh can paint bright landscapes with watercolors.",
+     "answer": true
+    },
+    {
+     "statement": "Minh never practiced karate kicks.",
+     "answer": false
+    },
+    {
+     "statement": "Lucy can play guitar and sing at the same time.",
+     "answer": true
+    },
+    {
+     "statement": "The club will perform on the school stage next month.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "MAI'S JOURNEY OF LEARNING NEW SKILLS",
+   "text": "Learning new abilities takes time, practice, and patience. Mai is a bright nine-year-old girl living in Hanoi. When Mai was five years old, she couldn't ride a bicycle without small training wheels. She fell down many times on the paved path in the park. However, Mai didn't give up. She tried again every afternoon after school. By age seven, she could ride smoothly and balance perfectly. \n\nToday, Mai has new goals. She is learning how to speak English fluently and play chess strategically. In English class, she can answer complex questions faster than before. Her teacher says she is getting better every week because she reads short stories every evening. In chess, Mai can plan three moves ahead, although her older brother An can still beat her because he is older and has played longer.\n\nNext year, Mai will join the school swimming club to learn how to dive safely. She believes that anyone can acquire wonderful new talents if they work hard every day. Mai says, 'When I was younger, I couldn't do many things. Now I can do much more, and in the future, I will learn even more exciting skills!'",
+   "image_prompt": "A composite scene showing Mai as a younger child learning to ride a bike with training wheels, and present-day Mai playing chess smartly with her brother.",
+   "vocab": [
+    {
+     "en": "patience",
+     "ipa": "/ˈpeɪ.ʃəns/",
+     "vi": "sự kiên nhẫn"
+    },
+    {
+     "en": "training wheels",
+     "ipa": "/ˈtreɪ.nɪŋ wiːlz/",
+     "vi": "bánh xe phụ"
+    },
+    {
+     "en": "smoothly",
+     "ipa": "/ˈsmuːð.li/",
+     "vi": "trôi chảy / mượt mà"
+    },
+    {
+     "en": "fluently",
+     "ipa": "/ˈfluː.ənt.li/",
+     "vi": "lưu loát"
+    },
+    {
+     "en": "strategically",
+     "ipa": "/strəˈtiː.dʒɪ.kəl.i/",
+     "vi": "có chiến thuật"
+    },
+    {
+     "en": "complex",
+     "ipa": "/kəmˈpleks/",
+     "vi": "phức tạp"
+    },
+    {
+     "en": "ahead",
+     "ipa": "/əˈhed/",
+     "vi": "về phía trước"
+    },
+    {
+     "en": "safely",
+     "ipa": "/ˈseɪf.li/",
+     "vi": "một cách an toàn"
+    },
+    {
+     "en": "acquire",
+     "ipa": "/əˈkwaɪ.ɚ/",
+     "vi": "đạt được / học được"
+    },
+    {
+     "en": "future",
+     "ipa": "/ˈfjuː.tʃɚ/",
+     "vi": "tương lai"
+    }
+   ],
+   "questions": [
+    "Where does Mai live?",
+    "What couldn't Mai do without training wheels at age five?",
+    "Where did Mai practice riding her bicycle?",
+    "At what age could Mai ride her bicycle smoothly?",
+    "What two new goals does Mai have today?",
+    "Why is Mai getting better at English every week?",
+    "How many moves ahead can Mai plan in chess?",
+    "Why can Mai's brother An still beat her at chess?",
+    "Which school club will Mai join next year?",
+    "What does Mai believe people must do to acquire new talents?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai lives in Da Nang.",
+     "answer": false
+    },
+    {
+     "statement": "At age five, Mai could ride a bicycle easily without training wheels.",
+     "answer": false
+    },
+    {
+     "statement": "Mai practice English by reading short stories every evening.",
+     "answer": true
+    },
+    {
+     "statement": "Mai's brother An is younger than Mai.",
+     "answer": false
+    },
+    {
+     "statement": "Mai believes hard work helps people gain new talents.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "BEN'S TALENT SHOW SURPRISE",
+  "panels": [
+   {
+    "scene": "Ben stands on stage holding three oranges, looking very confident in front of his friends Nam and Mai.",
+    "speech": "Ben: Look, everyone! I can juggle three oranges very fast!"
+   },
+   {
+    "scene": "Ben throws the oranges into the air, but they scatter everywhere and one drops right onto his head.",
+    "speech": "Nam: Watch out, Ben! Oranges are flying all over the place!"
+   },
+   {
+    "scene": "Ben quickly catches the falling orange on his nose and balances it perfectly with a silly smile.",
+    "speech": "Mai: Wow! You couldn't juggle, but you can balance an orange on your nose!"
+   },
+   {
+    "scene": "All three children laugh happily on stage while Ben bows like a funny performer.",
+    "speech": "Ben: Haha! Balancing is my real secret talent!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is one thing you can do very well?",
+   "Can you play the guitar or the piano?",
+   "Can you swim in a deep swimming pool?",
+   "Are you good at drawing pictures of animals?",
+   "What sports can you play with your friends?",
+   "Could you speak English when you were three years old?",
+   "What could you do when you were five years old?",
+   "Can you bake delicious cupcakes at home?",
+   "Who is the best singer in your family?",
+   "Who can run faster, you or your best friend?",
+   "Are you good at playing chess or checkers?",
+   "Can you do karate or gymnastics?",
+   "What skill couldn't you do last year that you can do now?",
+   "What new talent do you want to learn next year?",
+   "Why is it important to practice skills every day?"
+  ],
+  "model": "Hello everyone! My name is Minh and I am nine years old. I have some fun abilities and talents. I can play chess very well and I often win against my classmates. I am also good at swimming. When I was five years old, I couldn't swim at all, but now I can swim fast across the pool. I cannot play the guitar, but next year I will learn how to play it. Thank you for listening!",
+  "challenge": "Talk about your talents, what you could do in the past, and what skill you will learn next for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Practicing for the Talent Show",
+   "image_prompt": "Nam and Mia standing near a music room stage discussing their talents with a guitar nearby.",
+   "lines": [
+    {
+     "speaker": "Nam",
+     "text": "Hi Mia! Are you ready for our school talent show tomorrow?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "I think so, Nam! I can play the acoustic guitar quite well now."
+    },
+    {
+     "speaker": "Nam",
+     "text": "That is awesome! Can you sing while playing guitar?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Yes, I can! I am good at singing English songs."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Wow, you are very talented. What about juggling?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "No, I can't juggle at all! What about you, Nam?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "I am good at doing karate tricks and jumping high!"
+    },
+    {
+     "speaker": "Mia",
+     "text": "That sounds super exciting! You will do great on stage."
+    }
+   ]
+  },
+  {
+   "title": "Comparing Old and New Skills",
+   "image_prompt": "An and Lucy sitting on a bench in the schoolyard looking at a drawing notebook together.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Look at this old picture, Lucy! I drew it when I was six."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Haha, it looks funny! You couldn't draw very well back then."
+    },
+    {
+     "speaker": "An",
+     "text": "I know! But now I am good at drawing realistic animals."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, you can draw much better today than three years ago."
+    },
+    {
+     "speaker": "An",
+     "text": "What about you? Could you ride a bike when you were six?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "No, I couldn't ride a bike then, but now I ride to school daily."
+    },
+    {
+     "speaker": "An",
+     "text": "That is great! Practice really makes us better every day."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "I agree! Next year I will learn how to bake cakes too."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Welcome to our Grade 4 Talent Afternoon at Star Primary School! Today, many talented pupils are sharing their special abilities. First, Linh is on stage. She is nine years old and she is extremely good at playing the piano. She can play fast classical melodies smoothly. Next, we have Minh and Ben. Minh can do karate kicks very high, while Ben can juggle four colorful balls without dropping them. When Ben was seven years old, he couldn't juggle two balls, but he practiced every day after school. Finally, Mai and An are showing their art skills. Mai can paint beautiful ocean pictures with bright watercolors, and An can draw comic characters very fast. All our pupils worked hard this term. Next term, they will learn new skills like baking and performing magic tricks!",
+  "questions": [
+   "What event is taking place at Star Primary School?",
+   "What grade are the pupils in?",
+   "What instrument can Linh play very well?",
+   "How does Linh play classical melodies?",
+   "What sport move can Minh perform very high?",
+   "How many balls can Ben juggle now?",
+   "Could Ben juggle two balls when he was seven years old?",
+   "How often did Ben practice juggling after school?",
+   "What kind of pictures can Mai paint with watercolors?",
+   "What exciting new skills will pupils learn next term?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "SWIM",
+   "DANCE",
+   "SING",
+   "DRAW",
+   "COOK",
+   "PAINT",
+   "JUGGLE",
+   "SKATE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "swim",
+     "dive",
+     "skate",
+     "apple"
+    ],
+    "answer": "apple",
+    "why_vi": "'apple' là quả táo (trái cây), ba từ còn lại là hành động/kỹ năng thể thao."
+   },
+   {
+    "options": [
+     "guitar",
+     "piano",
+     "flute",
+     "cook"
+    ],
+    "answer": "cook",
+    "why_vi": "'cook' là hành động nấu ăn, ba từ còn lại là các nhạc cụ."
+   },
+   {
+    "options": [
+     "karate",
+     "chess",
+     "gymnastics",
+     "judo"
+    ],
+    "answer": "chess",
+    "why_vi": "'chess' là trò chơi trí tuệ trên bàn cờ, ba từ còn lại là môn thể thao/võ thuật vận động cơ thể."
+   },
+   {
+    "options": [
+     "faster",
+     "higher",
+     "better",
+     "sing"
+    ],
+    "answer": "sing",
+    "why_vi": "'sing' là động từ nguyên mẫu, ba từ còn lại là hình thức so sánh hơn của trạng từ."
+   },
+   {
+    "options": [
+     "could",
+     "can",
+     "will",
+     "table"
+    ],
+    "answer": "table",
+    "why_vi": "'table' là danh từ (cái bàn), ba từ còn lại là động từ khuyết thiếu chỉ khả năng/ý định."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have black and white keys, but I cannot open any door. You press my keys to make sweet sound. What am I?",
+    "answer": "a piano"
+   },
+   {
+    "riddle": "I have strings and a wooden body. You pluck my strings to play music. What am I?",
+    "answer": "a guitar"
+   },
+   {
+    "riddle": "You throw three or four objects in the air and catch them continuously without dropping them. What action is this?",
+    "answer": "juggling"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "w m i s",
+    "answer": "swim"
+   },
+   {
+    "scrambled": "e c n a d",
+    "answer": "dance"
+   },
+   {
+    "scrambled": "t n a i p",
+    "answer": "paint"
+   },
+   {
+    "scrambled": "e k a t s",
+    "answer": "skate"
+   },
+   {
+    "scrambled": "e g l g u j",
+    "answer": "juggle"
+   },
+   {
+    "scrambled": "o c k o",
+    "answer": "cook"
+   }
+  ],
+  "picture_count": {
+   "question": "How many musical instruments and art tools can you see on the cover picture stage?",
+   "hint_vi": "Hãy đếm tất cả các nhạc cụ (như ghi-ta) và dụng cụ vẽ (như giá vẽ/cọ) xuất hiện trên sân khấu ở bức tranh bạt bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Personal Talent Profile",
+  "profile_fields": [
+   "My name is:",
+   "My age is:",
+   "My school name is:",
+   "One thing I can do very well is:",
+   "One sport I am good at is:",
+   "When I was five years old, I could:",
+   "When I was five years old, I couldn't:",
+   "A friend who can run faster than me is:",
+   "A musical instrument I want to play is:",
+   "Next year, I will learn how to:"
+  ],
+  "frame_title": "MY ABILITIES AND FUTURE GOALS",
+  "frame_lines": [
+   "My name is ____ and I am ____ years old.",
+   "I study at ____ Primary School.",
+   "I have many fun abilities and ____.",
+   "I can ____ very well when I practice.",
+   "I am also good at ____ with my friends.",
+   "When I was six years old, I could ____.",
+   "However, when I was young, I couldn't ____.",
+   "My best friend ____ can swim ____ than me.",
+   "I really love learning new skills every ____.",
+   "Next year, I will learn how to ____!"
+  ]
+ },
+ "life_skill": {
+  "title": "NEVER GIVE UP AND DEVELOP YOUR TALENT",
+  "intro": "Everyone is born with different strengths and talents. Practice and perseverance help us become better every day!",
+  "intro_vi": "Mỗi người đều có những điểm mạnh và năng khiếu riêng. Sự kiên trì và chăm chỉ luyện tập sẽ giúp em tiến bộ mỗi ngày!",
+  "can_do": [
+   "Practice my hobbies every week.",
+   "Try again when I make mistakes.",
+   "Encourage my friends when they perform.",
+   "Listen patiently to my teachers and coaches.",
+   "Be proud of my personal achievements.",
+   "Help my classmates learn new skills.",
+   "Never say 'I can't' without trying first.",
+   "Set clear goals for learning new abilities.",
+   "Respect the special talents of other people.",
+   "Keep practicing until I get better.",
+   "Take good care of my sports gear and instruments.",
+   "Stay healthy by exercising and practicing daily."
+  ],
+  "value_question": "What skill is difficult for you now, and how can you practice every day to get better at it?",
+  "image_prompt": "A warm scene of children encouraging a friend who is practicing guitar, smiling and clapping happily in a bright classroom."
+ },
+ "fun_facts": [
+  {
+   "en": "Dolphins are amazing swimmers and can dive up to 300 meters deep in the ocean!",
+   "vi": "Cá heo là những sinh vật bơi lội tuyệt vời và có thể lặn sâu tới 300 mét dưới lòng đại dương!"
+  },
+  {
+   "en": "Mozart could play the piano and write beautiful music when he was only five years old!",
+   "vi": "Mozart đã có thể chơi đàn pi-a-nô và sáng tác những bản nhạc tuyệt đẹp khi mới 5 tuổi!"
+  },
+  {
+   "en": "Cheetahs can run faster than any other land animal, reaching speeds of 100 km/h!",
+   "vi": "Báo đốm có thể chạy nhanh hơn bất kỳ động vật trên bờ nào khác, đạt tốc độ lên tới 100 km/h!"
+  },
+  {
+   "en": "Some professional jugglers can juggle up to eleven balls in the air at the same time!",
+   "vi": "Một số nghệ sĩ tung hứng chuyên nghiệp có thể tung hứng tới 11 quả bóng cùng lúc trong không trung!"
+  },
+  {
+   "en": "Learning a second language like English helps your brain grow stronger and work faster!",
+   "vi": "Học thêm một ngôn ngữ thứ hai như tiếng Anh giúp bộ não của bạn phát triển khỏe mạnh và hoạt động nhanh nhạy hơn!"
+  }
+ ],
+ "project": {
+  "title": "MY TALENT SHOW POSTER",
+  "task": "Create an colorful poster displaying your special talents, past skills, and future learning goals to present to your class.",
+  "draw_items": [
+   "Yourself performing your favorite talent on stage",
+   "A picture of what you could do at age five",
+   "Musical instruments you like (guitar, piano)",
+   "Sports equipment you use (balls, skates)",
+   "Art tools like brushes and paints",
+   "A star rating badge for your top skill",
+   "A future goal bubble showing what you will learn",
+   "Colorful decorative ribbons and trophy cup"
+  ],
+  "example": [
+   "Welcome to my Talent Poster!",
+   "My name is Mai and I am in Grade 4.",
+   "I can draw colorful pictures and play the piano.",
+   "I am good at swimming fast in the pool.",
+   "When I was five, I could ride a tricycle.",
+   "When I was five, I couldn't swim in deep water.",
+   "Next year, I will learn how to bake cupcakes.",
+   "Thank you for looking at my poster!"
+  ],
+  "present": "Hello everyone! This is my Talent Poster. I can play piano and draw pictures. When I was five, I could ride a tricycle, but I couldn't swim. Next year, I will learn how to bake delicious cakes. Thank you!",
+  "image_prompt": "A primary school student holding up a bright poster board filled with drawings of a piano, swimming pool, and cupcakes, presenting proudly to the class."
+ },
+ "classroom_game": {
+  "name": "Talent Bingo Challenge",
+  "players": "Whole class / Groups of 4",
+  "steps_en": [
+   "Each student receives a 3x3 Bingo grid with action pictures (swim, play guitar, bake, skate, juggle, etc.).",
+   "Students walk around the room and ask classmates: 'Can you [action]?' or 'Could you [action] when you were five?'",
+   "If a classmate answers 'Yes, I can' or 'Yes, I could', they write that classmate's name in the matching grid square.",
+   "The first student to get three names in a row (horizontal, vertical, or diagonal) shouts 'BINGO!'",
+   "The winner presents the three talents and classmates' names to the whole class using target sentence patterns."
+  ],
+  "steps_vi": [
+   "Mỗi học sinh nhận một phiếu Bingo 3x3 có hình vẽ các hoạt động (bơi, chơi ghi-ta, nướng bánh, trượt pa-tin, tung hứng, v.v.).",
+   "Học sinh đi quanh lớp và hỏi các bạn: 'Can you [hoạt động]?' hoặc 'Could you [hoạt động] when you were five?'",
+   "Nếu bạn trả lời 'Yes, I can' hoặc 'Yes, I could', học sinh viết tên bạn đó vào ô vuông tương ứng trên phiếu.",
+   "Học sinh đầu tiên hoàn thành 3 ô hàng ngang, hàng dọc hoặc đường chéo hô 'BINGO!'",
+   "Người thắng cuộc trình bày 3 năng khiếu cùng tên các bạn trước cả lớp bằng mẫu câu đã học."
+  ],
+  "language": [
+   "Can you play the guitar? - Yes, I can. / No, I can't.",
+   "Could you swim when you were five? - Yes, I could.",
+   "Minh can play chess very well."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "s w __ m",
+    "answer": "swim"
+   },
+   {
+    "word": "d a n __ e",
+    "answer": "dance"
+   },
+   {
+    "word": "s __ n g",
+    "answer": "sing"
+   },
+   {
+    "word": "d r __ w",
+    "answer": "draw"
+   },
+   {
+    "word": "c o __ k",
+    "answer": "cook"
+   },
+   {
+    "word": "p a __ n t",
+    "answer": "paint"
+   },
+   {
+    "word": "j u g g __ e",
+    "answer": "juggle"
+   },
+   {
+    "word": "s k __ t e",
+    "answer": "skate"
+   },
+   {
+    "word": "b a __ e",
+    "answer": "bake"
+   },
+   {
+    "word": "d __ v e",
+    "answer": "dive"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "I ______ swim when I was three years old.",
+    "options": [
+     "can't",
+     "couldn't",
+     "won't"
+    ],
+    "answer": "couldn't"
+   },
+   {
+    "q": "Nam is very good at ______ soccer.",
+    "options": [
+     "play",
+     "plays",
+     "playing"
+    ],
+    "answer": "playing"
+   },
+   {
+    "q": "Can you play the guitar? - Yes, I ______.",
+    "options": [
+     "can",
+     "could",
+     "do"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "Mai can run ______ than her brother.",
+    "options": [
+     "fast",
+     "faster",
+     "fastest"
+    ],
+    "answer": "faster"
+   },
+   {
+    "q": "Next summer, I ______ learn how to dive.",
+    "options": [
+     "will",
+     "could",
+     "did"
+    ],
+    "answer": "will"
+   },
+   {
+    "q": "She can dance, ______ she cannot sing well.",
+    "options": [
+     "and",
+     "but",
+     "so"
+    ],
+    "answer": "but"
+   },
+   {
+    "q": "When Ben was five, he ______ ride a small bike.",
+    "options": [
+     "can",
+     "could",
+     "will"
+    ],
+    "answer": "could"
+   },
+   {
+    "q": "Who can jump ______ in your class?",
+    "options": [
+     "high",
+     "higher",
+     "more high"
+    ],
+    "answer": "higher"
+   },
+   {
+    "q": "Linh is good at ______ bright pictures.",
+    "options": [
+     "draw",
+     "draws",
+     "drawing"
+    ],
+    "answer": "drawing"
+   },
+   {
+    "q": "______ you juggle three balls? - No, I can't.",
+    "options": [
+     "Can",
+     "Could",
+     "Will"
+    ],
+    "answer": "Can"
+   }
+  ],
+  "order": [
+   {
+    "words": "can / I / swim / fast / very",
+    "answer": "I can swim very fast."
+   },
+   {
+    "words": "play / Can / guitar / the / you / ?",
+    "answer": "Can you play the guitar?"
+   },
+   {
+    "words": "good / She / at / is / painting",
+    "answer": "She is good at painting."
+   },
+   {
+    "words": "five / I / could / bike / a / ride / When / was",
+    "answer": "When I was five I could ride a bike."
+   },
+   {
+    "words": "couldn't / He / speak / English / two / ago / years",
+    "answer": "He couldn't speak English two years ago."
+   },
+   {
+    "words": "run / Nam / faster / can / Ben / than",
+    "answer": "Nam can run faster than Ben."
+   },
+   {
+    "words": "learn / I / will / how / to / bake",
+    "answer": "I will learn how to bake."
+   },
+   {
+    "words": "chess / play / well / can / They",
+    "answer": "They can play chess well."
+   },
+   {
+    "words": "at / My / sister / cooking / is / good",
+    "answer": "My sister is good at cooking."
+   },
+   {
+    "words": "you / What / can / do / talent / show / the / for / ?",
+    "answer": "What can you do for the talent show?"
+   }
+  ],
+  "about_you": [
+   "What is your name and how old are you?",
+   "What can you do very well?",
+   "Can you play any musical instruments?",
+   "What sport are you good at playing?",
+   "What could you do when you were five years old?",
+   "What couldn't you do when you were four years old?",
+   "Who can run faster, you or your best friend?",
+   "Are you good at painting or drawing pictures?",
+   "What new skill will you learn next year?",
+   "How do you practice your talent every week?"
+  ]
+ },
+ "i_can": [
+  "I can name 20 common actions, hobbies, and talent words in English.",
+  "I can pronounce the /sk/ sound correctly in words like skate and skip.",
+  "I can use 'can' and 'can't' to talk about my present abilities.",
+  "I can ask my classmates 'Can you...?' and answer their questions.",
+  "I can use 'could' and 'couldn't' to describe abilities in the past.",
+  "I can talk about what I could do when I was five years old.",
+  "I can use 'be good at + V-ing' to describe my special skills.",
+  "I can compare abilities using words like faster, higher, and better.",
+  "I can talk about future skill plans using 'will learn how to'.",
+  "I can read and understand three short texts about talent show activities.",
+  "I can listen to a short passage and answer 10 detail questions.",
+  "I can ask and answer 15 speaking questions about abilities.",
+  "I can fill in my Personal Talent Profile and write a short paragraph.",
+  "I can practice perseverance and work hard to develop my skills.",
+  "I can create and present my Dream Talent Poster to my whole class."
+ ],
+ "message_en": "PRACTICE MAKES PERFECT. BELIEVE IN YOUR TALENTS AND NEVER GIVE UP!",
+ "message_vi": "Luyện tập mang lại sự thành thạo. Hãy tin vào năng khiếu của mình và không bao giờ bỏ cuộc!",
+ "message_body": "Every child has unique gifts waiting to shine. With daily practice, patience, and enthusiasm, you can master incredible new skills every day. Keep trying, keep learning, and be proud of what you can do!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 4,
+ "grade": 4,
+ "validation": []
+}

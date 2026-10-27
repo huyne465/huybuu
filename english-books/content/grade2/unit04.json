@@ -1,0 +1,1180 @@
+{
+ "title": "COLOURS AND SHAPES",
+ "theme": "The World Around Me",
+ "goal": "Students can identify and name basic colours and shapes in English.",
+ "goal_vi": "Học sinh có thể nhận biết và gọi tên các màu sắc và hình dạng cơ bản bằng tiếng Anh.",
+ "cover_emoji": "🎨🔺🔵",
+ "cover_image_prompt": "A vibrant outdoor park scene with diverse children playing. One child is holding a red ball, another is flying a kite shaped like a blue diamond. A yellow sun shines in the sky. There are green trees and a brown slide in the shape of a rectangle. A round clock on a building shows the time. The scene is full of bright colours and clear shapes.",
+ "big_question": {
+  "en": "What colours and shapes do you see around you?",
+  "vi": "Em thấy những màu sắc và hình dạng nào xung quanh mình?",
+  "prompts": [
+   "What colour is your pencil case?",
+   "Is your book a square or a rectangle?",
+   "What colour is the sky today?",
+   "Do you like circles or stars?",
+   "What shape is your plate?",
+   "What colour is the grass?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "red",
+   "ipa": "/rɛd/",
+   "vi": "màu đỏ",
+   "emoji": "❤️",
+   "image_prompt": "A bright red apple, standing alone against a plain background, looking fresh and appealing."
+  },
+  {
+   "en": "blue",
+   "ipa": "/bluː/",
+   "vi": "màu xanh dương",
+   "emoji": "💙",
+   "image_prompt": "A clear blue sky with a few fluffy white clouds, representing the colour blue."
+  },
+  {
+   "en": "yellow",
+   "ipa": "/ˈjɛloʊ/",
+   "vi": "màu vàng",
+   "emoji": "💛",
+   "image_prompt": "A cheerful yellow sun with soft rays, smiling gently."
+  },
+  {
+   "en": "green",
+   "ipa": "/ɡriːn/",
+   "vi": "màu xanh lá cây",
+   "emoji": "💚",
+   "image_prompt": "A lush green leaf with water droplets, showing its vibrant colour."
+  },
+  {
+   "en": "orange",
+   "ipa": "/ˈɔrɪndʒ/",
+   "vi": "màu cam",
+   "emoji": "🧡",
+   "image_prompt": "A juicy, ripe orange fruit, with a small green leaf attached."
+  },
+  {
+   "en": "purple",
+   "ipa": "/ˈpɜrpl/",
+   "vi": "màu tím",
+   "emoji": "💜",
+   "image_prompt": "A beautiful cluster of purple grapes, looking plump and inviting."
+  },
+  {
+   "en": "pink",
+   "ipa": "/pɪŋk/",
+   "vi": "màu hồng",
+   "emoji": "💖",
+   "image_prompt": "A delicate pink flower, like a rose or a cherry blossom, in soft bloom."
+  },
+  {
+   "en": "brown",
+   "ipa": "/braʊn/",
+   "vi": "màu nâu",
+   "emoji": "🤎",
+   "image_prompt": "A small, cute brown teddy bear, sitting upright."
+  },
+  {
+   "en": "black",
+   "ipa": "/blæk/",
+   "vi": "màu đen",
+   "emoji": "🖤",
+   "image_prompt": "A silhouette of a black cat sitting, with only its outline visible."
+  },
+  {
+   "en": "white",
+   "ipa": "/waɪt/",
+   "vi": "màu trắng",
+   "emoji": "🤍",
+   "image_prompt": "A fluffy white cloud floating in a pale blue sky, soft and airy."
+  },
+  {
+   "en": "colour",
+   "ipa": "/ˈkʌlər/",
+   "vi": "màu sắc",
+   "emoji": "🌈",
+   "image_prompt": "A rainbow arching across the sky, showing all its vibrant colours."
+  },
+  {
+   "en": "shape",
+   "ipa": "/ʃeɪp/",
+   "vi": "hình dạng",
+   "emoji": "🔷",
+   "image_prompt": "A collection of simple geometric shapes (circle, square, triangle) drawn in outline, side-by-side."
+  },
+  {
+   "en": "circle",
+   "ipa": "/ˈsɜrkl/",
+   "vi": "hình tròn",
+   "emoji": "⚪",
+   "image_prompt": "A perfect red circle, drawn simply."
+  },
+  {
+   "en": "square",
+   "ipa": "/skwɛr/",
+   "vi": "hình vuông",
+   "emoji": "🟥",
+   "image_prompt": "A perfect blue square, drawn simply."
+  },
+  {
+   "en": "triangle",
+   "ipa": "/ˈtraɪˌæŋɡl/",
+   "vi": "hình tam giác",
+   "emoji": "🔺",
+   "image_prompt": "A perfect green triangle, pointing upwards, drawn simply."
+  },
+  {
+   "en": "rectangle",
+   "ipa": "/ˈrɛktæŋɡl/",
+   "vi": "hình chữ nhật",
+   "emoji": "🚪",
+   "image_prompt": "A perfect yellow rectangle, wider than it is tall, drawn simply."
+  },
+  {
+   "en": "star",
+   "ipa": "/stɑr/",
+   "vi": "hình ngôi sao",
+   "emoji": "⭐",
+   "image_prompt": "A shining gold star with five points, sparkling brightly."
+  },
+  {
+   "en": "heart",
+   "ipa": "/hɑrt/",
+   "vi": "hình trái tim",
+   "emoji": "❤️",
+   "image_prompt": "A simple red heart shape, soft and rounded."
+  },
+  {
+   "en": "oval",
+   "ipa": "/ˈoʊvl/",
+   "vi": "hình bầu dục",
+   "emoji": "🥚",
+   "image_prompt": "A simple brown oval shape, like an egg."
+  },
+  {
+   "en": "diamond",
+   "ipa": "/ˈdaɪmənd/",
+   "vi": "hình thoi",
+   "emoji": "💎",
+   "image_prompt": "A simple purple diamond shape, with four equal sides."
+  }
+ ],
+ "phonics": {
+  "sound": "/r/",
+  "letters": "r",
+  "words": [
+   "red",
+   "run",
+   "rabbit",
+   "rain",
+   "rectangle",
+   "round"
+  ],
+  "chant": "Red rabbits run right.\nRound rocks roll fast.",
+  "tip_vi": "Để phát âm /r/, hãy cuộn nhẹ đầu lưỡi lên phía sau răng cửa trên, nhưng không chạm vào vòm miệng. Luồng hơi đi ra sẽ tạo ra âm /r/."
+ },
+ "patterns": [
+  {
+   "pattern": "This is + (a colour).",
+   "vi": "Đây là màu (màu sắc).",
+   "examples": [
+    "This is red.",
+    "This is blue.",
+    "This is yellow."
+   ]
+  },
+  {
+   "pattern": "It is + (a colour).",
+   "vi": "Nó có màu (màu sắc).",
+   "examples": [
+    "It is green.",
+    "It is orange.",
+    "It is pink."
+   ]
+  },
+  {
+   "pattern": "This is a/an + (shape).",
+   "vi": "Đây là hình (hình dạng).",
+   "examples": [
+    "This is a circle.",
+    "This is a square.",
+    "This is a triangle."
+   ]
+  },
+  {
+   "pattern": "It is a/an + (shape).",
+   "vi": "Nó là hình (hình dạng).",
+   "examples": [
+    "It is a rectangle.",
+    "It is a star.",
+    "It is a heart."
+   ]
+  },
+  {
+   "pattern": "What colour is it?",
+   "vi": "Nó có màu gì?",
+   "examples": [
+    "What colour is it? It is red.",
+    "What colour is the ball? It is blue.",
+    "What colour is the sun? It is yellow."
+   ]
+  },
+  {
+   "pattern": "What shape is it?",
+   "vi": "Nó có hình dạng gì?",
+   "examples": [
+    "What shape is it? It is a circle.",
+    "What shape is the book? It is a rectangle.",
+    "What shape is the pizza? It is a circle."
+   ]
+  },
+  {
+   "pattern": "I see a + (colour) + (shape).",
+   "vi": "Tôi nhìn thấy một hình (hình dạng) màu (màu sắc).",
+   "examples": [
+    "I see a red circle.",
+    "I see a blue square.",
+    "I see a green triangle."
+   ]
+  },
+  {
+   "pattern": "The + (noun) + is + (colour).",
+   "vi": "(Danh từ) có màu (màu sắc).",
+   "examples": [
+    "The apple is red.",
+    "The sky is blue.",
+    "The banana is yellow."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / It is",
+   "explain_en": "We use 'This is' to point to one thing. We use 'It is' to talk about one thing.",
+   "explain_vi": "Chúng ta dùng 'This is' để chỉ một vật. Chúng ta dùng 'It is' để nói về một vật.",
+   "examples": [
+    "This is a red ball.",
+    "It is a circle.",
+    "This is blue.",
+    "It is a square."
+   ],
+   "right": "✅ This is a red apple.",
+   "wrong": "❌ It is red apple."
+  },
+  {
+   "title": "What colour is it?",
+   "explain_en": "We use 'What colour is it?' to ask about the colour of one thing.",
+   "explain_vi": "Chúng ta dùng 'What colour is it?' để hỏi về màu sắc của một vật.",
+   "examples": [
+    "What colour is it? It is green.",
+    "What colour is your bag? It is blue.",
+    "What colour is the flower? It is pink."
+   ],
+   "right": "✅ What colour is it?",
+   "wrong": "❌ What colour are it?"
+  },
+  {
+   "title": "What shape is it?",
+   "explain_en": "We use 'What shape is it?' to ask about the shape of one thing.",
+   "explain_vi": "Chúng ta dùng 'What shape is it?' để hỏi về hình dạng của một vật.",
+   "examples": [
+    "What shape is it? It is a triangle.",
+    "What shape is the window? It is a rectangle.",
+    "What shape is the clock? It is a circle."
+   ],
+   "right": "✅ What shape is it?",
+   "wrong": "❌ What shape it is?"
+  },
+  {
+   "title": "The + Noun + is + Adjective",
+   "explain_en": "We use this to describe the colour or shape of a noun.",
+   "explain_vi": "Chúng ta dùng cấu trúc này để mô tả màu sắc hoặc hình dạng của một danh từ.",
+   "examples": [
+    "The car is red.",
+    "The box is square.",
+    "The sky is blue.",
+    "The table is brown."
+   ],
+   "right": "✅ The ball is round.",
+   "wrong": "❌ The ball round is."
+  }
+ ],
+ "song": {
+  "title": "Colours and Shapes Everywhere",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Red and blue, and yellow too,",
+   "Green and orange, I see you!",
+   "Purple, pink, and brown, and white,",
+   "Colours shining, oh so bright!",
+   "Circle, square, and triangle,",
+   "Shapes are fun for me and you!",
+   "Rectangle, star, and heart so sweet,",
+   "Shapes and colours, can't be beat!",
+   "Red and blue, and yellow too,",
+   "I see colours, I see shapes with you!"
+  ],
+  "actions_vi": "Khi hát 'Red', chạm vào áo màu đỏ. Khi hát 'Blue', chỉ lên trời. Khi hát 'Yellow', chỉ vào mặt trời. Khi hát 'Circle', vẽ một hình tròn trong không khí. Khi hát 'Square', dùng tay tạo hình vuông. Khi hát 'Triangle', dùng ngón tay tạo hình tam giác. Khi hát 'Colours shining', vẫy tay lên cao. Khi hát 'Shapes are fun', giơ ngón cái lên."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY COLOURFUL WORLD",
+   "text": "My name is Linh. I am seven years old. I love colours! I see red. The apple is red. I see blue. The sky is blue. I see yellow. The sun is yellow. I see green. The grass is green. Colours are everywhere! I love shapes too. The ball is a circle. The book is a rectangle. The window is a square. The roof is a triangle. The stars are stars! My world is colourful and full of shapes.",
+   "image_prompt": "A happy Vietnamese girl, Linh, pointing at different colourful objects around her in a simple, bright outdoor setting. She points at a red apple, then to the blue sky, then a yellow sun, and green grass. Simple shapes like a square window and a triangular roof are visible in the background.",
+   "vocab": [
+    {
+     "en": "red",
+     "ipa": "/rɛd/",
+     "vi": "màu đỏ"
+    },
+    {
+     "en": "blue",
+     "ipa": "/bluː/",
+     "vi": "màu xanh dương"
+    },
+    {
+     "en": "yellow",
+     "ipa": "/ˈjɛloʊ/",
+     "vi": "màu vàng"
+    },
+    {
+     "en": "green",
+     "ipa": "/ɡriːn/",
+     "vi": "màu xanh lá cây"
+    },
+    {
+     "en": "colour",
+     "ipa": "/ˈkʌlər/",
+     "vi": "màu sắc"
+    },
+    {
+     "en": "shape",
+     "ipa": "/ʃeɪp/",
+     "vi": "hình dạng"
+    },
+    {
+     "en": "circle",
+     "ipa": "/ˈsɜrkl/",
+     "vi": "hình tròn"
+    },
+    {
+     "en": "rectangle",
+     "ipa": "/ˈrɛktæŋɡl/",
+     "vi": "hình chữ nhật"
+    },
+    {
+     "en": "square",
+     "ipa": "/skwɛr/",
+     "vi": "hình vuông"
+    },
+    {
+     "en": "triangle",
+     "ipa": "/ˈtraɪˌæŋɡl/",
+     "vi": "hình tam giác"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "What colour is the apple?",
+    "What colour is the sky?",
+    "What colour is the sun?",
+    "What colour is the grass?",
+    "What shape is the ball?",
+    "What shape is the book?",
+    "What shape is the window?",
+    "What shape is the roof?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "The apple is red.",
+     "answer": true
+    },
+    {
+     "statement": "The sky is yellow.",
+     "answer": false
+    },
+    {
+     "statement": "The ball is a square.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's world is full of shapes.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A WALK IN THE PARK",
+   "text": "Ben and Mia are at the park. They see many colours and shapes. Ben sees a big red ball. It is a circle. Mia sees a yellow kite. The kite is a diamond shape. Look! A green tree. Its leaves are green. The bench is brown. It is a long rectangle. Ben sees a pink flower. It is beautiful. Mia sees a white cloud. It is an oval shape. A small blue bird flies by. The bird is so cute. They love to see colours and shapes in the park.",
+   "image_prompt": "Ben, an English boy, and Mia, a Vietnamese girl, are walking happily in a sunny park. Ben points at a big red ball. Mia points at a yellow diamond-shaped kite in the sky. A green tree, a brown rectangular bench, a pink flower, and a white oval cloud are visible. A small blue bird flies in the distance.",
+   "vocab": [
+    {
+     "en": "red",
+     "ipa": "/rɛd/",
+     "vi": "màu đỏ"
+    },
+    {
+     "en": "yellow",
+     "ipa": "/ˈjɛloʊ/",
+     "vi": "màu vàng"
+    },
+    {
+     "en": "diamond",
+     "ipa": "/ˈdaɪmənd/",
+     "vi": "hình thoi"
+    },
+    {
+     "en": "green",
+     "ipa": "/ɡriːn/",
+     "vi": "màu xanh lá cây"
+    },
+    {
+     "en": "brown",
+     "ipa": "/braʊn/",
+     "vi": "màu nâu"
+    },
+    {
+     "en": "rectangle",
+     "ipa": "/ˈrɛktæŋɡl/",
+     "vi": "hình chữ nhật"
+    },
+    {
+     "en": "pink",
+     "ipa": "/pɪŋk/",
+     "vi": "màu hồng"
+    },
+    {
+     "en": "white",
+     "ipa": "/waɪt/",
+     "vi": "màu trắng"
+    },
+    {
+     "en": "oval",
+     "ipa": "/ˈoʊvl/",
+     "vi": "hình bầu dục"
+    },
+    {
+     "en": "blue",
+     "ipa": "/bluː/",
+     "vi": "màu xanh dương"
+    }
+   ],
+   "questions": [
+    "Who is at the park?",
+    "What colour is the ball Ben sees?",
+    "What shape is the red ball?",
+    "What colour is Mia's kite?",
+    "What shape is the kite?",
+    "What colour are the tree leaves?",
+    "What colour is the bench?",
+    "What shape is the bench?",
+    "What colour is the flower Ben sees?",
+    "What shape is the white cloud?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben and Mia are at school.",
+     "answer": false
+    },
+    {
+     "statement": "The red ball is a circle.",
+     "answer": true
+    },
+    {
+     "statement": "Mia's kite is red.",
+     "answer": false
+    },
+    {
+     "statement": "The bench is a short rectangle.",
+     "answer": false
+    },
+    {
+     "statement": "The cloud is an oval shape.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "MY FAVOURITE ROOM",
+   "text": "This is my room. It is my favourite room. I have many colourful things and fun shapes here. My bed is a big rectangle. My blanket is blue. My pillow is white and soft. On my wall, I have a big red star. It is very pretty. There is a small brown table. It is a square. On the table, there is a yellow lamp. The lamp shade is a circle. I have a box for my toys. The box is orange and it is a rectangle. My rug is green and has many small pink hearts. I like to draw. My drawing paper is white. I draw big colourful circles and small funny triangles. My room is a happy place!",
+   "image_prompt": "A cozy and colourful child's bedroom. A bed with a blue blanket and a white pillow is a prominent rectangle. A big red star is stuck on the wall. A small brown square table holds a yellow lamp with a circular shade. An orange rectangular toy box is on the floor. A green rug with many small pink hearts covers part of the floor. A Vietnamese child, perhaps Minh, is sitting at the table drawing colourful circles and triangles on white paper. The room looks cheerful.",
+   "vocab": [
+    {
+     "en": "rectangle",
+     "ipa": "/ˈrɛktæŋɡl/",
+     "vi": "hình chữ nhật"
+    },
+    {
+     "en": "blue",
+     "ipa": "/bluː/",
+     "vi": "màu xanh dương"
+    },
+    {
+     "en": "white",
+     "ipa": "/waɪt/",
+     "vi": "màu trắng"
+    },
+    {
+     "en": "red",
+     "ipa": "/rɛd/",
+     "vi": "màu đỏ"
+    },
+    {
+     "en": "star",
+     "ipa": "/stɑr/",
+     "vi": "hình ngôi sao"
+    },
+    {
+     "en": "brown",
+     "ipa": "/braʊn/",
+     "vi": "màu nâu"
+    },
+    {
+     "en": "square",
+     "ipa": "/skwɛr/",
+     "vi": "hình vuông"
+    },
+    {
+     "en": "yellow",
+     "ipa": "/ˈjɛloʊ/",
+     "vi": "màu vàng"
+    },
+    {
+     "en": "circle",
+     "ipa": "/ˈsɜrkl/",
+     "vi": "hình tròn"
+    },
+    {
+     "en": "orange",
+     "ipa": "/ˈɔrɪndʒ/",
+     "vi": "màu cam"
+    }
+   ],
+   "questions": [
+    "What is the shape of the bed?",
+    "What colour is the blanket?",
+    "What colour is the pillow?",
+    "What colour is the star on the wall?",
+    "What shape is the star?",
+    "What colour is the table?",
+    "What shape is the table?",
+    "What colour is the lamp?",
+    "What shape is the lamp shade?",
+    "What colour are the hearts on the rug?"
+   ],
+   "true_false": [
+    {
+     "statement": "The bed is a square.",
+     "answer": false
+    },
+    {
+     "statement": "The blanket is blue.",
+     "answer": true
+    },
+    {
+     "statement": "There is a small green table.",
+     "answer": false
+    },
+    {
+     "statement": "The lamp shade is a triangle.",
+     "answer": false
+    },
+    {
+     "statement": "The rug has many small pink hearts.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Roxy's Colourful Day",
+  "panels": [
+   {
+    "scene": "Roxy, a cheerful Vietnamese girl, holds up a red apple. She looks happy.",
+    "speech": "Roxy: Look! A red apple!"
+   },
+   {
+    "scene": "Roxy's friend, Ben, points to the apple. He looks curious.",
+    "speech": "Ben: What shape is it?"
+   },
+   {
+    "scene": "Roxy proudly makes a circle with her hands.",
+    "speech": "Roxy: It is a circle!"
+   },
+   {
+    "scene": "Roxy and Ben laugh together, Roxy holding the apple, Ben holding a small blue square block.",
+    "speech": "Ben: Wow! A red circle! I have a blue square!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favourite colour?",
+   "What is your favourite shape?",
+   "What colour is your uniform?",
+   "What colour is your school bag?",
+   "What colour is your water bottle?",
+   "What shape is your classroom door?",
+   "What shape is your desk?",
+   "Do you like red? Why or why not?",
+   "Do you like circles or squares more?",
+   "What colour is the sky in the morning?",
+   "What colour is the grass outside?",
+   "What shape is a pizza slice?",
+   "What shape is a clock?",
+   "Can you draw a red triangle?",
+   "What colours do you see in a rainbow?"
+  ],
+  "model": "Hello! My favourite colour is blue. I like the blue sky. My favourite shape is a star. I like to see stars in the night. My pencil case is blue. My book is a rectangle. I see many colours and shapes in my school. I like green, and I like triangles. What about you?",
+  "challenge": "Talk about the colours and shapes you see in your room for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "What Colour is This?",
+   "image_prompt": "Two children, Minh (Vietnamese boy) and Lucy (English girl), are sitting at a table with a box of crayons and a picture book. Minh holds up a red crayon, and Lucy points at a yellow sun in the book.",
+   "lines": [
+    {
+     "speaker": "Minh",
+     "text": "Lucy, look! What colour is this?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "It is red, Minh."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Yes! And what about this?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "That is yellow. Like the sun!"
+    },
+    {
+     "speaker": "Minh",
+     "text": "You are right! The sun is yellow."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "And the flower is pink. I like pink flowers."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Me too! Pink is a nice colour."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "What colour is your shirt, Minh?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "My shirt is blue."
+    }
+   ]
+  },
+  {
+   "title": "What Shape is That?",
+   "image_prompt": "Two children, An (Vietnamese girl) and Tom (English boy), are in a classroom. An points at a clock on the wall. Tom points at a book on his desk.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Tom, what shape is the clock?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "The clock is a circle, An."
+    },
+    {
+     "speaker": "An",
+     "text": "Oh, yes! A big circle. And what shape is your book?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "My book? It is a rectangle."
+    },
+    {
+     "speaker": "An",
+     "text": "I see. My notebook is a rectangle too."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Look at the window. What shape is it?"
+    },
+    {
+     "speaker": "An",
+     "text": "The window is a big square!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "That's right! Shapes are everywhere!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! Look at my drawing. It is a house. The roof of the house is red. It is a triangle. The body of the house is blue. It is a square. There is a yellow door. The door is a rectangle. There is a window. The window is a small square. In front of the house, there is a green tree. The tree leaves are green. Under the tree, there is a brown dog. The dog is cute! Above the house, the sun is yellow. The sun is a circle. I love my colourful drawing!",
+  "questions": [
+   "What colour is the roof of the house?",
+   "What shape is the roof?",
+   "What colour is the body of the house?",
+   "What shape is the body of the house?",
+   "What colour is the door?",
+   "What shape is the door?",
+   "What shape is the window?",
+   "What colour is the tree?",
+   "What colour is the dog?",
+   "What shape is the sun?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "RED",
+   "BLUE",
+   "STAR",
+   "OVAL",
+   "PINK",
+   "GREEN",
+   "HEART",
+   "SHAPE"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "red",
+     "blue",
+     "square",
+     "green"
+    ],
+    "answer": "square",
+    "why_vi": "Square là hình dạng, các từ còn lại là màu sắc."
+   },
+   {
+    "options": [
+     "circle",
+     "triangle",
+     "yellow",
+     "rectangle"
+    ],
+    "answer": "yellow",
+    "why_vi": "Yellow là màu sắc, các từ còn lại là hình dạng."
+   },
+   {
+    "options": [
+     "apple",
+     "banana",
+     "red",
+     "orange"
+    ],
+    "answer": "red",
+    "why_vi": "Red là màu sắc, các từ còn lại là trái cây."
+   },
+   {
+    "options": [
+     "star",
+     "heart",
+     "white",
+     "diamond"
+    ],
+    "answer": "white",
+    "why_vi": "White là màu sắc, các từ còn lại là hình dạng."
+   },
+   {
+    "options": [
+     "sun",
+     "sky",
+     "cloud",
+     "purple"
+    ],
+    "answer": "purple",
+    "why_vi": "Purple là màu sắc, các từ còn lại là vật thể trên bầu trời."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am the colour of an apple. I am the colour of a fire truck. What colour am I?",
+    "answer": "red"
+   },
+   {
+    "riddle": "I have three sides. I have three corners. What shape am I?",
+    "answer": "triangle"
+   },
+   {
+    "riddle": "I am round like a ball. I am round like a wheel. What shape am I?",
+    "answer": "circle"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "der",
+    "answer": "red"
+   },
+   {
+    "scrambled": "lueb",
+    "answer": "blue"
+   },
+   {
+    "scrambled": "lilewy",
+    "answer": "yellow"
+   },
+   {
+    "scrambled": "clerci",
+    "answer": "circle"
+   },
+   {
+    "scrambled": "raques",
+    "answer": "square"
+   },
+   {
+    "scrambled": "etrah",
+    "answer": "heart"
+   }
+  ],
+  "picture_count": {
+   "question": "How many green trees can you see in the cover picture?",
+   "hint_vi": "Hãy nhìn vào bức tranh bìa và đếm số cây màu xanh lá cây."
+  }
+ },
+ "write": {
+  "profile_title": "My Favourite Colours and Shapes Profile",
+  "profile_fields": [
+   "My name is:",
+   "My favourite colour is:",
+   "My second favourite colour is:",
+   "My favourite shape is:",
+   "I see a red ____ at home.",
+   "I see a blue ____ at school.",
+   "A ____ is yellow.",
+   "A ____ is a circle.",
+   "The ____ is a rectangle.",
+   "I like to draw ____ and ____."
+  ],
+  "frame_title": "MY COLOURS AND SHAPES",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "I love colours. My favourite colour is ____.",
+   "I also like ____ and ____.",
+   "I see a ____ apple. It is ____.",
+   "The sky is ____.",
+   "I love shapes. My favourite shape is a ____.",
+   "I also like ____ and ____.",
+   "My book is a ____. My clock is a ____.",
+   "The world is full of beautiful colours and shapes!"
+  ]
+ },
+ "life_skill": {
+  "title": "SEE THE BEAUTY IN COLOURS AND SHAPES",
+  "intro": "Colours and shapes make our world beautiful! Look around you. Everything has a colour and a shape. Learning about them helps you understand and appreciate the world more.",
+  "intro_vi": "Màu sắc và hình dạng làm cho thế giới của chúng ta tươi đẹp! Hãy nhìn xung quanh em. Mọi thứ đều có màu sắc và hình dạng. Học về chúng giúp em hiểu và trân trọng thế giới hơn.",
+  "can_do": [
+   "I can see colours in nature.",
+   "I can find shapes in my classroom.",
+   "I can draw with many colours.",
+   "I can name basic colours in English.",
+   "I can name basic shapes in English.",
+   "I can describe things using colours.",
+   "I can describe things using shapes.",
+   "I can make a colourful drawing.",
+   "I can help my friends learn colours.",
+   "I can help my friends learn shapes.",
+   "I can keep my colourful things clean.",
+   "I can share my colourful crayons with friends."
+  ],
+  "value_question": "What is your favourite colour and why do you like it?",
+  "image_prompt": "A group of diverse children, both Vietnamese and international, happily drawing and painting together on a large sheet of paper on the floor. They use many different colours and simple shapes in their artwork. The children are smiling and collaborating, surrounded by colourful crayons and paint pots."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Red, yellow, and blue are primary colours. You can mix them to make other colours!",
+   "vi": "Em có biết không? Đỏ, vàng và xanh dương là các màu cơ bản. Em có thể pha chúng để tạo ra các màu khác!"
+  },
+  {
+   "en": "Did you know? A rainbow has seven colours: red, orange, yellow, green, blue, indigo, and violet.",
+   "vi": "Em có biết không? Cầu vồng có bảy màu: đỏ, cam, vàng, xanh lá, xanh dương, chàm và tím."
+  },
+  {
+   "en": "Did you know? Bees see colours differently than people. They can see ultraviolet light!",
+   "vi": "Em có biết không? Ong nhìn màu sắc khác với con người. Chúng có thể nhìn thấy tia cực tím!"
+  },
+  {
+   "en": "Did you know? Many leaves are green because of something called chlorophyll inside them.",
+   "vi": "Em có biết không? Nhiều chiếc lá có màu xanh vì một chất gọi là chất diệp lục bên trong chúng."
+  },
+  {
+   "en": "Did you know? Honeycombs, where bees store honey, are made of many tiny hexagons (a shape with six sides)!",
+   "vi": "Em có biết không? Tổ ong, nơi ong cất mật, được tạo thành từ nhiều hình lục giác nhỏ (hình có sáu cạnh)!"
+  }
+ ],
+ "project": {
+  "title": "MY COLOURFUL SHAPE COLLAGE",
+  "task": "Create a collage using different colours and shapes. Cut out shapes from colourful paper and glue them onto a big paper to make a picture of your favourite animal or scene.",
+  "draw_items": [
+   "red circle",
+   "blue square",
+   "yellow triangle",
+   "green rectangle",
+   "orange heart",
+   "pink star",
+   "brown oval",
+   "black diamond"
+  ],
+  "example": [
+   "This is my colourful collage.",
+   "I use many colours.",
+   "I use many shapes.",
+   "I see a red circle. It is an apple.",
+   "I see a blue square. It is a house.",
+   "I see a yellow sun. It is a circle.",
+   "My collage is beautiful!",
+   "I love colours and shapes."
+  ],
+  "present": "Hello everyone! This is my colourful shape collage. I use red, blue, green, and yellow. I use circles, squares, and triangles. This is a red circle. It is a flower. This is a green triangle. It is a tree. I like my collage very much. Thank you!",
+  "image_prompt": "A Vietnamese child happily presenting a vibrant and creative collage made from cut-out colourful paper shapes. The collage depicts a simple scene like a house, a tree, and a sun, all made from basic geometric shapes. The child is standing next to an easel with the collage, smiling brightly."
+ },
+ "classroom_game": {
+  "name": "Colour and Shape Hunt",
+  "players": "pairs / small groups",
+  "steps_en": [
+   "The teacher calls out a colour and a shape, for example, 'red circle'.",
+   "Students, in pairs or groups, look for an object in the classroom that matches the colour and shape.",
+   "The first pair/group to point to a correct object and say 'I see a red circle!' gets a point.",
+   "The game continues with new colours and shapes.",
+   "The team with the most points at the end wins."
+  ],
+  "steps_vi": [
+   "Giáo viên gọi tên một màu sắc và một hình dạng, ví dụ: 'red circle' (hình tròn màu đỏ).",
+   "Học sinh, theo cặp hoặc nhóm nhỏ, tìm một vật trong lớp học có màu sắc và hình dạng tương ứng.",
+   "Cặp/nhóm đầu tiên chỉ vào vật đúng và nói 'I see a red circle!' sẽ được một điểm.",
+   "Trò chơi tiếp tục với các màu sắc và hình dạng mới.",
+   "Đội có nhiều điểm nhất khi kết thúc sẽ thắng cuộc."
+  ],
+  "language": [
+   "What colour is this?",
+   "What shape is that?",
+   "It is red.",
+   "It is a circle.",
+   "I see a red circle."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "r__",
+    "answer": "red"
+   },
+   {
+    "word": "bl__",
+    "answer": "blue"
+   },
+   {
+    "word": "yell__",
+    "answer": "yellow"
+   },
+   {
+    "word": "gr__n",
+    "answer": "green"
+   },
+   {
+    "word": "circ__",
+    "answer": "circle"
+   },
+   {
+    "word": "squ__e",
+    "answer": "square"
+   },
+   {
+    "word": "triang__",
+    "answer": "triangle"
+   },
+   {
+    "word": "rec__ngle",
+    "answer": "rectangle"
+   },
+   {
+    "word": "h__rt",
+    "answer": "heart"
+   },
+   {
+    "word": "st__",
+    "answer": "star"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "What ______ is this? It is red.",
+    "options": [
+     "shape",
+     "colour",
+     "name"
+    ],
+    "answer": "colour"
+   },
+   {
+    "q": "The sun is ______.",
+    "options": [
+     "blue",
+     "yellow",
+     "green"
+    ],
+    "answer": "yellow"
+   },
+   {
+    "q": "The ball is a ______.",
+    "options": [
+     "square",
+     "circle",
+     "triangle"
+    ],
+    "answer": "circle"
+   },
+   {
+    "q": "This is a ______ book.",
+    "options": [
+     "rectangle",
+     "red",
+     "colour"
+    ],
+    "answer": "red"
+   },
+   {
+    "q": "What shape ______ it? It is a star.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I see a ______ tree.",
+    "options": [
+     "blue",
+     "red",
+     "green"
+    ],
+    "answer": "green"
+   },
+   {
+    "q": "My bag is ______.",
+    "options": [
+     "circle",
+     "orange",
+     "shape"
+    ],
+    "answer": "orange"
+   },
+   {
+    "q": "A window is usually a ______.",
+    "options": [
+     "heart",
+     "circle",
+     "square"
+    ],
+    "answer": "square"
+   },
+   {
+    "q": "The sky is ______.",
+    "options": [
+     "yellow",
+     "blue",
+     "pink"
+    ],
+    "answer": "blue"
+   },
+   {
+    "q": "A pizza slice is a ______.",
+    "options": [
+     "triangle",
+     "square",
+     "oval"
+    ],
+    "answer": "triangle"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / red / This",
+    "answer": "This is red."
+   },
+   {
+    "words": "blue / is / It",
+    "answer": "It is blue."
+   },
+   {
+    "words": "is / What / it / colour / ?",
+    "answer": "What colour is it?"
+   },
+   {
+    "words": "a / This / circle / is",
+    "answer": "This is a circle."
+   },
+   {
+    "words": "is / What / it / shape / ?",
+    "answer": "What shape is it?"
+   },
+   {
+    "words": "is / The / yellow / sun",
+    "answer": "The sun is yellow."
+   },
+   {
+    "words": "red / I / a / see / heart",
+    "answer": "I see a red heart."
+   },
+   {
+    "words": "is / green / The / tree",
+    "answer": "The tree is green."
+   },
+   {
+    "words": "a / rectangle / is / book / My",
+    "answer": "My book is a rectangle."
+   },
+   {
+    "words": "everywhere / Shapes / are",
+    "answer": "Shapes are everywhere."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "What is your favourite colour?",
+   "What is your favourite shape?",
+   "Is your bag red or blue?",
+   "What colour is your pencil?",
+   "Do you like green?",
+   "Is your table a square or a rectangle?",
+   "What colour is your classroom door?",
+   "Can you draw a star?"
+  ]
+ },
+ "i_can": [
+  "I can say many colours in English.",
+  "I can say many shapes in English.",
+  "I can ask 'What colour is it?'.",
+  "I can answer 'It is red.'.",
+  "I can ask 'What shape is it?'.",
+  "I can answer 'It is a circle.'.",
+  "I can describe objects using colours.",
+  "I can describe objects using shapes.",
+  "I can identify red, blue, and yellow.",
+  "I can identify a circle, square, and triangle.",
+  "I can sing a song about colours and shapes.",
+  "I can find colours and shapes in my classroom.",
+  "I can draw colourful shapes.",
+  "I can talk about my favourite colour.",
+  "I can talk about my favourite shape."
+ ],
+ "message_en": "OUR WORLD IS FULL OF WONDERFUL COLOURS AND SHAPES!",
+ "message_vi": "THẾ GIỚI CỦA CHÚNG TA ĐẦY RẪY NHỮNG MÀU SẮC VÀ HÌNH DẠNG TUYỆT VỜI!",
+ "message_body": "Look around you, little learners! Every day, you can see amazing colours and shapes. They make our world beautiful and interesting. Keep exploring and finding new colours and shapes wherever you go!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 4,
+ "grade": 2,
+ "validation": []
+}

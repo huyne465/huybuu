@@ -1,0 +1,1185 @@
+{
+ "title": "Jobs People Do",
+ "theme": "Community",
+ "goal": "Students can identify common jobs, describe what people do, and express what they want to be.",
+ "goal_vi": "Học sinh có thể nhận biết các nghề nghiệp phổ biến, mô tả công việc của mọi người và bày tỏ mong muốn nghề nghiệp của mình.",
+ "cover_emoji": "👨‍⚕️👩‍🚒👷‍♀️🧑‍🍳",
+ "cover_image_prompt": "A vibrant, cheerful community scene with diverse Vietnamese children and adults. Children are observing various community helpers: a doctor at a clinic, a firefighter with a truck, a teacher in a classroom, a chef cooking, a police officer directing traffic, and a farmer in a field. All are smiling and interacting positively.",
+ "big_question": {
+  "en": "What jobs do people do in our community?",
+  "vi": "Mọi người làm những công việc gì trong cộng đồng của chúng ta?",
+  "prompts": [
+   "Who helps us when we are sick?",
+   "Who teaches at school?",
+   "Who puts out fires?",
+   "What does your mom/dad do?",
+   "What job do you like?",
+   "What do you want to be when you grow up?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "doctor",
+   "ipa": "/ˈdɑːktər/",
+   "vi": "bác sĩ",
+   "emoji": "👨‍⚕️",
+   "image_prompt": "a kind doctor in a white coat, holding a stethoscope, smiling at a child"
+  },
+  {
+   "en": "nurse",
+   "ipa": "/nɜːrs/",
+   "vi": "y tá",
+   "emoji": "👩‍⚕️",
+   "image_prompt": "a gentle nurse, wearing scrubs and a cap, giving medicine to a patient"
+  },
+  {
+   "en": "teacher",
+   "ipa": "/ˈtiːtʃər/",
+   "vi": "giáo viên",
+   "emoji": "👩‍🏫",
+   "image_prompt": "a friendly teacher standing in front of a blackboard, pointing to a lesson"
+  },
+  {
+   "en": "student",
+   "ipa": "/ˈstuːdnt/",
+   "vi": "học sinh",
+   "emoji": "🧑‍🎓",
+   "image_prompt": "a happy Vietnamese student with a backpack, holding a book and smiling"
+  },
+  {
+   "en": "police officer",
+   "ipa": "/pəˈliːs ˈɑːfɪsər/",
+   "vi": "cảnh sát",
+   "emoji": "👮‍♂️",
+   "image_prompt": "a helpful police officer in uniform, directing traffic safely"
+  },
+  {
+   "en": "firefighter",
+   "ipa": "/ˈfaɪərˌfaɪtər/",
+   "vi": "lính cứu hỏa",
+   "emoji": "👨‍🚒",
+   "image_prompt": "a brave firefighter in a helmet and protective gear, holding a hose"
+  },
+  {
+   "en": "chef",
+   "ipa": "/ʃef/",
+   "vi": "đầu bếp",
+   "emoji": "🧑‍🍳",
+   "image_prompt": "a cheerful chef in a tall white hat, holding a pan with delicious food"
+  },
+  {
+   "en": "farmer",
+   "ipa": "/ˈfɑːrmər/",
+   "vi": "nông dân",
+   "emoji": "👨‍🌾",
+   "image_prompt": "a hardworking farmer in a field, holding a basket full of fresh vegetables"
+  },
+  {
+   "en": "pilot",
+   "ipa": "/ˈpaɪlət/",
+   "vi": "phi công",
+   "emoji": "👨‍✈️",
+   "image_prompt": "a confident pilot in a uniform, standing next to an airplane"
+  },
+  {
+   "en": "artist",
+   "ipa": "/ˈɑːrtɪst/",
+   "vi": "họa sĩ",
+   "emoji": "🧑‍🎨",
+   "image_prompt": "a creative artist painting on a canvas with colorful paints in a studio"
+  },
+  {
+   "en": "singer",
+   "ipa": "/ˈsɪŋər/",
+   "vi": "ca sĩ",
+   "emoji": "👩‍🎤",
+   "image_prompt": "a joyful singer holding a microphone, performing on a stage with bright lights"
+  },
+  {
+   "en": "dancer",
+   "ipa": "/ˈdænsər/",
+   "vi": "vũ công",
+   "emoji": "💃",
+   "image_prompt": "an energetic dancer performing a graceful move on a stage"
+  },
+  {
+   "en": "engineer",
+   "ipa": "/ˌɛndʒɪˈnɪr/",
+   "vi": "kỹ sư",
+   "emoji": "👷‍♂️",
+   "image_prompt": "an engineer wearing a hard hat, looking at blueprints on a construction site"
+  },
+  {
+   "en": "cashier",
+   "ipa": "/kæˈʃɪr/",
+   "vi": "nhân viên thu ngân",
+   "emoji": "🧑‍💼",
+   "image_prompt": "a friendly cashier at a supermarket checkout, scanning groceries"
+  },
+  {
+   "en": "builder",
+   "ipa": "/ˈbɪldər/",
+   "vi": "thợ xây",
+   "emoji": "🧱",
+   "image_prompt": "a strong builder wearing a hard hat, laying bricks to build a wall"
+  },
+  {
+   "en": "delivery driver",
+   "ipa": "/dɪˈlɪvəri ˈdraɪvər/",
+   "vi": "tài xế giao hàng",
+   "emoji": "🛵",
+   "image_prompt": "a delivery driver on a motorbike, wearing a helmet and holding a package"
+  },
+  {
+   "en": "vet",
+   "ipa": "/vɛt/",
+   "vi": "bác sĩ thú y",
+   "emoji": "🐶",
+   "image_prompt": "a kind vet examining a small, fluffy dog on a table in a clinic"
+  },
+  {
+   "en": "librarian",
+   "ipa": "/laɪˈbrɛriən/",
+   "vi": "thủ thư",
+   "emoji": "📚",
+   "image_prompt": "a quiet librarian smiling in a library, surrounded by tall bookshelves"
+  },
+  {
+   "en": "postman",
+   "ipa": "/ˈpoʊstmən/",
+   "vi": "người đưa thư",
+   "emoji": "📬",
+   "image_prompt": "a postman in uniform, delivering mail to a mailbox in a neighborhood"
+  },
+  {
+   "en": "scientist",
+   "ipa": "/ˈsaɪəntɪst/",
+   "vi": "nhà khoa học",
+   "emoji": "🧪",
+   "image_prompt": "a curious scientist in a lab coat, looking at a test tube with colorful liquid"
+  }
+ ],
+ "phonics": {
+  "sound": "/dʒ/",
+  "letters": "Jj",
+  "words": [
+   "job",
+   "jump",
+   "jungle",
+   "jelly",
+   "juice",
+   "join"
+  ],
+  "chant": "Jolly Jiji likes to jump, / Jumping joyfully in the jungle!",
+  "tip_vi": "Âm /dʒ/ được phát âm giống chữ 'j' trong tiếng Việt, nhưng tròn môi và bật hơi hơn một chút khi bắt đầu."
+ },
+ "patterns": [
+  {
+   "pattern": "What do you do? I am a/an (job).",
+   "vi": "Bạn làm nghề gì? Tôi là một (nghề nghiệp).",
+   "examples": [
+    "What do you do? I am a teacher.",
+    "What do you do? I am a student.",
+    "What do you do? I am a chef."
+   ]
+  },
+  {
+   "pattern": "He/She is a/an (job).",
+   "vi": "Anh ấy/Cô ấy là một (nghề nghiệp).",
+   "examples": [
+    "He is a doctor.",
+    "She is a police officer.",
+    "My dad is a farmer."
+   ]
+  },
+  {
+   "pattern": "They are (jobs).",
+   "vi": "Họ là những (nghề nghiệp).",
+   "examples": [
+    "They are teachers.",
+    "My parents are farmers.",
+    "Look! They are builders."
+   ]
+  },
+  {
+   "pattern": "A/An (job) helps us by (verb-ing).",
+   "vi": "Một (nghề nghiệp) giúp chúng ta bằng cách (hành động).",
+   "examples": [
+    "A doctor helps us by healing sick people.",
+    "A teacher helps us by teaching new things.",
+    "A firefighter helps us by putting out fires."
+   ]
+  },
+  {
+   "pattern": "A/An (job) works at/in a/an (place).",
+   "vi": "Một (nghề nghiệp) làm việc tại/trong một (địa điểm).",
+   "examples": [
+    "A nurse works in a hospital.",
+    "A chef works at a restaurant.",
+    "A librarian works in a library."
+   ]
+  },
+  {
+   "pattern": "Can you (action)? Yes, I can./No, I can't.",
+   "vi": "Bạn có thể (hành động) không? Có, tôi có thể./Không, tôi không thể.",
+   "examples": [
+    "Can you fly a plane? No, I can't. A pilot can.",
+    "Can you build a house? Yes, I can build a small one.",
+    "Can you sing well? Yes, I can sing."
+   ]
+  },
+  {
+   "pattern": "He/She has got a/an (tool).",
+   "vi": "Anh ấy/Cô ấy có một (dụng cụ).",
+   "examples": [
+    "A doctor has got a stethoscope.",
+    "A police officer has got a uniform.",
+    "A builder has got a hard hat."
+   ]
+  },
+  {
+   "pattern": "What is he/she doing? He/She is (verb-ing).",
+   "vi": "Anh ấy/Cô ấy đang làm gì? Anh ấy/Cô ấy đang (hành động).",
+   "examples": [
+    "What is she doing? She is teaching.",
+    "What is he doing? He is driving a delivery bike.",
+    "What is the chef doing? He is cooking."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Present Simple: To Be (I am, He/She is, They are)",
+   "explain_en": "We use 'am,' 'is,' or 'are' with 'to be' to state someone's job or role. 'I' goes with 'am,' 'he/she' goes with 'is,' and 'they' goes with 'are.'",
+   "explain_vi": "Chúng ta dùng 'am,' 'is,' hoặc 'are' với động từ 'to be' để nói về nghề nghiệp hoặc vai trò của ai đó. 'I' đi với 'am,' 'he/she' đi với 'is,' và 'they' đi với 'are.'",
+   "examples": [
+    "I am a student.",
+    "She is a nurse.",
+    "They are farmers.",
+    "My dad is an engineer."
+   ],
+   "right": "✅ She is a teacher.",
+   "wrong": "❌ She am a teacher."
+  },
+  {
+   "title": "Present Continuous (is/are + verb-ing)",
+   "explain_en": "We use the present continuous to talk about actions happening right now. We use 'is' for singular subjects and 'are' for plural subjects, followed by a verb ending in -ing.",
+   "explain_vi": "Chúng ta dùng thì hiện tại tiếp diễn để nói về các hành động đang xảy ra ngay bây giờ. Chúng ta dùng 'is' cho chủ ngữ số ít và 'are' cho chủ ngữ số nhiều, theo sau là động từ thêm -ing.",
+   "examples": [
+    "He is building a house now.",
+    "The chef is cooking delicious food.",
+    "The children are playing outside.",
+    "What are you doing? I am learning English."
+   ],
+   "right": "✅ She is teaching.",
+   "wrong": "❌ She is teach."
+  },
+  {
+   "title": "Can / Can't (Ability)",
+   "explain_en": "'Can' means able to do something. 'Can't' means not able to do something. We use 'can' or 'can't' before a base verb.",
+   "explain_vi": "'Can' có nghĩa là có thể làm được điều gì đó. 'Can't' có nghĩa là không thể làm được điều gì đó. Chúng ta dùng 'can' hoặc 'can't' trước động từ nguyên mẫu.",
+   "examples": [
+    "A pilot can fly a plane.",
+    "I can't sing very well.",
+    "Can a doctor help sick animals? No, a vet can.",
+    "My mom can cook delicious meals."
+   ],
+   "right": "✅ A builder can build.",
+   "wrong": "❌ A builder cans build."
+  },
+  {
+   "title": "Have got / Has got (Possession)",
+   "explain_en": "We use 'have got' or 'has got' to talk about things people own or possess. 'I, you, we, they' use 'have got.' 'He, she, it' use 'has got.'",
+   "explain_vi": "Chúng ta dùng 'have got' hoặc 'has got' để nói về những thứ mà mọi người sở hữu. 'I, you, we, they' dùng 'have got.' 'He, she, it' dùng 'has got.'",
+   "examples": [
+    "A doctor has got a white coat.",
+    "I have got a new uniform.",
+    "They have got many tools for their work.",
+    "My sister has got a beautiful voice."
+   ],
+   "right": "✅ A firefighter has got a helmet.",
+   "wrong": "❌ A firefighter have got a helmet."
+  }
+ ],
+ "song": {
+  "title": "Jobs, Jobs, Everywhere!",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The doctor in the hospital goes, 'Help, help, help!'",
+   "'Help, help, help!' 'Help, help, help!'",
+   "The doctor in the hospital goes, 'Help, help, help!'",
+   "All around the town.",
+   "",
+   "The firefighter on the truck goes, 'Whoosh, whoosh, whoosh!'",
+   "'Whoosh, whoosh, whoosh!' 'Whoosh, whoosh, whoosh!'",
+   "The firefighter on the truck goes, 'Whoosh, whoosh, whoosh!'",
+   "All around the town.",
+   "",
+   "The teacher in the classroom goes, 'Learn, learn, learn!'",
+   "'Learn, learn, learn!' 'Learn, learn, learn!'",
+   "The teacher in the classroom goes, 'Learn, learn, learn!'",
+   "All around the town.",
+   "",
+   "The chef in the kitchen goes, 'Cook, cook, cook!'",
+   "'Cook, cook, cook!' 'Cook, cook, cook!'",
+   "The chef in the kitchen goes, 'Cook, cook, cook!'",
+   "All around the town."
+  ],
+  "actions_vi": "Bác sĩ: Giả vờ khám bệnh. Lính cứu hỏa: Giả vờ phun vòi nước. Giáo viên: Giả vờ viết lên bảng. Đầu bếp: Giả vờ khuấy nồi."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Parents' Jobs",
+   "text": "Hello! My name is Ben. I am 8 years old. My mom is a teacher. She works at Green Primary School. She teaches English. She is very kind and smart. My dad is a builder. He builds houses. He works hard every day. He can build big and strong houses. My parents are very busy, but they love their jobs. They help our community in different ways. I love my mom and dad very much!",
+   "image_prompt": "A happy Vietnamese boy, Ben, holding hands with his mom (a teacher with books) and dad (a builder with a hard hat) in front of their beautiful house.",
+   "vocab": [
+    {
+     "en": "teacher",
+     "ipa": "/ˈtiːtʃər/",
+     "vi": "giáo viên"
+    },
+    {
+     "en": "school",
+     "ipa": "/skuːl/",
+     "vi": "trường học"
+    },
+    {
+     "en": "kind",
+     "ipa": "/kaɪnd/",
+     "vi": "tốt bụng"
+    },
+    {
+     "en": "smart",
+     "ipa": "/smɑːrt/",
+     "vi": "thông minh"
+    },
+    {
+     "en": "builder",
+     "ipa": "/ˈbɪldər/",
+     "vi": "thợ xây"
+    },
+    {
+     "en": "builds",
+     "ipa": "/bɪldz/",
+     "vi": "xây dựng"
+    },
+    {
+     "en": "houses",
+     "ipa": "/ˈhaʊzɪz/",
+     "vi": "những ngôi nhà"
+    },
+    {
+     "en": "hard",
+     "ipa": "/hɑːrd/",
+     "vi": "chăm chỉ"
+    },
+    {
+     "en": "busy",
+     "ipa": "/ˈbɪzi/",
+     "vi": "bận rộn"
+    },
+    {
+     "en": "community",
+     "ipa": "/kəˈmjuːnəti/",
+     "vi": "cộng đồng"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Ben?",
+    "What is Ben's mom's job?",
+    "Where does Ben's mom work?",
+    "What does she teach?",
+    "What is Ben's dad's job?",
+    "What does Ben's dad do?",
+    "Is Ben's dad lazy?",
+    "Do Ben's parents love their jobs?",
+    "How do Ben's parents help the community?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben is 7 years old.",
+     "answer": false
+    },
+    {
+     "statement": "Ben's mom is a teacher.",
+     "answer": true
+    },
+    {
+     "statement": "Ben's dad is a doctor.",
+     "answer": false
+    },
+    {
+     "statement": "Ben's mom teaches math.",
+     "answer": false
+    },
+    {
+     "statement": "Ben's parents help their community.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A Day with Aunt Mai",
+   "text": "Linh loves animals. Today, she is visiting her Aunt Mai. Aunt Mai is a vet. She works at a small animal clinic in the city. Aunt Mai helps sick animals feel better. She has got many pets in her clinic today. Look! A small cat is meowing. Aunt Mai is giving the cat some medicine. The cat doesn't like it much, but it needs to get well. Next, she is checking a big dog's paw. The dog is very friendly. Aunt Mai is cleaning the dog's wound. Linh is watching everything carefully. She thinks Aunt Mai's job is very interesting because she can help many lovely animals every day. Linh wants to be a vet when she grows up too!",
+   "image_prompt": "A curious Vietnamese girl, Linh, at a clean vet clinic, watching her kind Aunt Mai (a vet in a white coat) gently examine a fluffy cat on a table. A friendly dog is waiting nearby.",
+   "vocab": [
+    {
+     "en": "animals",
+     "ipa": "/ˈænɪməlz/",
+     "vi": "động vật"
+    },
+    {
+     "en": "visiting",
+     "ipa": "/ˈvɪzɪtɪŋ/",
+     "vi": "thăm"
+    },
+    {
+     "en": "vet",
+     "ipa": "/vɛt/",
+     "vi": "bác sĩ thú y"
+    },
+    {
+     "en": "clinic",
+     "ipa": "/ˈklɪnɪk/",
+     "vi": "phòng khám"
+    },
+    {
+     "en": "sick",
+     "ipa": "/sɪk/",
+     "vi": "ốm"
+    },
+    {
+     "en": "meowing",
+     "ipa": "/miˈaʊɪŋ/",
+     "vi": "kêu meo meo"
+    },
+    {
+     "en": "medicine",
+     "ipa": "/ˈmɛdɪsɪn/",
+     "vi": "thuốc"
+    },
+    {
+     "en": "checking",
+     "ipa": "/ˈtʃɛkɪŋ/",
+     "vi": "kiểm tra"
+    },
+    {
+     "en": "paw",
+     "ipa": "/pɔː/",
+     "vi": "chân (động vật)"
+    },
+    {
+     "en": "wound",
+     "ipa": "/wuːnd/",
+     "vi": "vết thương"
+    }
+   ],
+   "questions": [
+    "Who is Linh visiting today?",
+    "What is Aunt Mai's job?",
+    "Where does Aunt Mai work?",
+    "What does Aunt Mai do?",
+    "What animal is meowing?",
+    "What is Aunt Mai giving to the cat?",
+    "What is Aunt Mai checking next?",
+    "Is the dog friendly or angry?",
+    "What does Linh think about Aunt Mai's job?",
+    "What does Linh want to be when she grows up?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh doesn't like animals.",
+     "answer": false
+    },
+    {
+     "statement": "Aunt Mai is a doctor for people.",
+     "answer": false
+    },
+    {
+     "statement": "A cat is meowing in the clinic.",
+     "answer": true
+    },
+    {
+     "statement": "Aunt Mai is giving the dog some medicine.",
+     "answer": false
+    },
+    {
+     "statement": "Linh wants to be a vet.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "Our Community Helpers",
+   "text": "In our community, many people work hard to help us every day. They are our community helpers! Let's meet some of them. First, there is Mr. Nam, a police officer. He keeps us safe. He directs traffic and helps people when they are lost. He has got a uniform and a whistle. Next, we have Ms. Hoa, a doctor. She works at the hospital. When we are sick, she examines us and gives us medicine. She uses a stethoscope to listen to our hearts. Doctors are very important because they help us stay healthy. Then, there is Mr. Minh, a firefighter. He is very brave! When there is a fire, he puts it out with his team. He drives a big red fire truck and uses a long hose. Firefighters save lives and homes. All these people have different jobs, but they all work together to make our community a wonderful and safe place for everyone.",
+   "image_prompt": "A bustling, cheerful street scene in a Vietnamese town. A police officer (Mr. Nam) is directing traffic safely, a doctor (Ms. Hoa) is smiling while walking near a hospital, and a firefighter (Mr. Minh) is waving from a big red fire truck. Diverse children are watching them with admiration.",
+   "vocab": [
+    {
+     "en": "community",
+     "ipa": "/kəˈmjuːnəti/",
+     "vi": "cộng đồng"
+    },
+    {
+     "en": "helpers",
+     "ipa": "/ˈhɛlpərz/",
+     "vi": "người giúp đỡ"
+    },
+    {
+     "en": "safe",
+     "ipa": "/seɪf/",
+     "vi": "an toàn"
+    },
+    {
+     "en": "directs traffic",
+     "ipa": "/dəˈrɛkts ˈtræfɪk/",
+     "vi": "điều khiển giao thông"
+    },
+    {
+     "en": "lost",
+     "ipa": "/lɔːst/",
+     "vi": "lạc đường"
+    },
+    {
+     "en": "whistle",
+     "ipa": "/ˈwɪsl/",
+     "vi": "còi"
+    },
+    {
+     "en": "examines",
+     "ipa": "/ɪɡˈzæmɪnz/",
+     "vi": "khám bệnh"
+    },
+    {
+     "en": "stethoscope",
+     "ipa": "/ˈstɛθəˌskoʊp/",
+     "vi": "ống nghe"
+    },
+    {
+     "en": "brave",
+     "ipa": "/breɪv/",
+     "vi": "dũng cảm"
+    },
+    {
+     "en": "hose",
+     "ipa": "/hoʊz/",
+     "vi": "vòi nước"
+    }
+   ],
+   "questions": [
+    "What do community helpers do?",
+    "What is Mr. Nam's job?",
+    "How does Mr. Nam help people?",
+    "What does Mr. Nam have?",
+    "What is Ms. Hoa's job?",
+    "Where does Ms. Hoa work?",
+    "What does Ms. Hoa use to listen to hearts?",
+    "What is Mr. Minh's job?",
+    "What does Mr. Minh do when there is a fire?",
+    "How do all these people make the community special?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mr. Nam is a firefighter.",
+     "answer": false
+    },
+    {
+     "statement": "Police officers keep us safe.",
+     "answer": true
+    },
+    {
+     "statement": "Ms. Hoa works at the school.",
+     "answer": false
+    },
+    {
+     "statement": "Doctors help us stay healthy.",
+     "answer": true
+    },
+    {
+     "statement": "Firefighters use a small car to put out fires.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "The Missing Hat",
+  "panels": [
+   {
+    "scene": "A cheerful chef (Mr. Binh) in a busy kitchen is looking around, scratching his head. He has lost his tall white chef hat. A small Vietnamese boy, An, is standing next to him, looking curious.",
+    "speech": "Chef Binh: Oh no! Where is my chef hat?"
+   },
+   {
+    "scene": "Outside, a police officer (Ms. Lan) is walking. She sees a small Vietnamese boy, Nam, playing with a very tall white hat like a chef's hat, pretending it's a spaceship.",
+    "speech": "Police Officer Lan: Hmm, that looks like a chef's hat! I know who needs it."
+   },
+   {
+    "scene": "Police Officer Lan is now back at the kitchen. She is smiling and handing the chef hat back to Chef Binh. Nam is standing politely beside her, a little shy.",
+    "speech": "Police Officer Lan: Here is your hat, Chef Binh! This boy found it."
+   },
+   {
+    "scene": "Chef Binh is wearing his hat and smiling happily. He gives a small cookie to Nam. An is clapping his hands happily.",
+    "speech": "Chef Binh: Thank you so much, Officer Lan! And thank you, Nam! You are a great helper!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your favorite job?",
+   "What does your mom do?",
+   "What does your dad do?",
+   "Do your parents like their jobs?",
+   "What tools does a doctor use?",
+   "Where does a police officer work?",
+   "Can a farmer fly a plane?",
+   "What do you want to be when you grow up?",
+   "Why do you want to be a/an (that job)?",
+   "What skills do you need for that job?",
+   "Who helps sick animals?",
+   "What is a postman doing?",
+   "Do you think being a chef is fun? Why or why not?",
+   "How can you help people in your community?",
+   "What is the most important job in your opinion?"
+  ],
+  "model": "My mom is a nurse. She works at a hospital. She helps sick people and gives them medicine. She is very kind and patient. When I grow up, I want to be an artist. I like drawing and painting beautiful pictures. An artist can make people happy with their art. I think it is a very creative and fun job.",
+  "challenge": "Talk about a job you admire or want to do in the future for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Guess My Job",
+   "image_prompt": "Two Vietnamese children, Mai and Nam, are sitting on a park bench. Mai is making a funny gesture and Nam is thinking hard, trying to guess.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Let's play 'Guess My Job'!"
+    },
+    {
+     "speaker": "Nam",
+     "text": "Okay! You go first."
+    },
+    {
+     "speaker": "Mai",
+     "text": "I wear a white coat. I use a stethoscope. I help sick people feel better. What am I?"
+    },
+    {
+     "speaker": "Nam",
+     "text": "Hmm... Are you a nurse?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Close! But not a nurse. I am a doctor!"
+    },
+    {
+     "speaker": "Nam",
+     "text": "Oh, right! My turn. I drive a big red truck. I put out fires. I am very brave. What am I?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "That's easy! You are a firefighter!"
+    },
+    {
+     "speaker": "Nam",
+     "text": "Yes! Good job!"
+    }
+   ]
+  },
+  {
+   "title": "What Do They Do?",
+   "image_prompt": "Two Vietnamese children, Ben and Lucy, are walking on a street in a small town. They are pointing at different community helpers they see (e.g., a postman, a delivery driver, a cashier).",
+   "lines": [
+    {
+     "speaker": "Ben",
+     "text": "Look, Lucy! Who is that?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Oh, that's Mr. Long. He is a postman."
+    },
+    {
+     "speaker": "Ben",
+     "text": "What does a postman do?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "He delivers letters and packages to our homes."
+    },
+    {
+     "speaker": "Ben",
+     "text": "That's a helpful job! And who is that person on the motorbike?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "She is a delivery driver. She is bringing food to a restaurant."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Wow, so many people are working! They are all helping our community."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, every job is important!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Listen and choose the correct answer. / Lắng nghe và chọn đáp án đúng.\n\nHello, everyone! My name is Ms. Linh, and I'm going to tell you about some special people in our community. \n\nFirst, there's Mr. Ba. He wakes up early every day. He goes to his big field. He plants vegetables and fruits. He waters them carefully. He is a farmer. He helps us have fresh food.\n\nNext, we have Ms. Thuy. She loves animals. She works in a clinic. Today, she is helping a small dog that has a sore paw. She cleans the paw gently. Ms. Thuy is a vet.\n\nLook! There's Mr. Hai. He wears a blue uniform. He stands on the street and helps cars and motorbikes go safely. He is directing traffic now. Mr. Hai is a police officer.\n\nFinally, let's talk about Ms. Lan. She is in a big building with many books. She helps children find interesting stories. She is quiet but very kind. She is a librarian. She helps us learn and read.",
+  "questions": [
+   "What is Mr. Ba's job?",
+   "What does Mr. Ba do?",
+   "Who loves animals?",
+   "What animal is Ms. Thuy helping today?",
+   "What is Ms. Thuy's job?",
+   "What color is Mr. Hai's uniform?",
+   "What is Mr. Hai doing now?",
+   "What is Mr. Hai's job?",
+   "Where does Ms. Lan work?",
+   "Who helps children find interesting stories?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "DOCTOR",
+   "NURSE",
+   "CHEF",
+   "PILOT",
+   "BUILDER",
+   "FARMER",
+   "ARTIST",
+   "SINGER"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "doctor",
+     "nurse",
+     "farmer",
+     "hospital"
+    ],
+    "answer": "hospital",
+    "why_vi": "'Hospital' là địa điểm, còn lại là nghề nghiệp."
+   },
+   {
+    "options": [
+     "firefighter",
+     "police officer",
+     "teacher",
+     "plane"
+    ],
+    "answer": "plane",
+    "why_vi": "'Plane' là phương tiện, còn lại là nghề nghiệp."
+   },
+   {
+    "options": [
+     "cook",
+     "sing",
+     "dance",
+     "chef"
+    ],
+    "answer": "chef",
+    "why_vi": "'Chef' là nghề nghiệp, còn lại là hành động."
+   },
+   {
+    "options": [
+     "stethoscope",
+     "helmet",
+     "book",
+     "vet"
+    ],
+    "answer": "vet",
+    "why_vi": "'Vet' là nghề nghiệp, còn lại là dụng cụ."
+   },
+   {
+    "options": [
+     "postman",
+     "delivery driver",
+     "car",
+     "engineer"
+    ],
+    "answer": "car",
+    "why_vi": "'Car' là phương tiện, còn lại là nghề nghiệp."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I wear a white coat and help you when you are sick. What am I?",
+    "answer": "A doctor"
+   },
+   {
+    "riddle": "I drive a big red truck and put out fires. What am I?",
+    "answer": "A firefighter"
+   },
+   {
+    "riddle": "I teach children at school and help them learn new things. What am I?",
+    "answer": "A teacher"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "ocrodt",
+    "answer": "doctor"
+   },
+   {
+    "scrambled": "eusrn",
+    "answer": "nurse"
+   },
+   {
+    "scrambled": "hceft",
+    "answer": "chef"
+   },
+   {
+    "scrambled": "polti",
+    "answer": "pilot"
+   },
+   {
+    "scrambled": "buldier",
+    "answer": "builder"
+   },
+   {
+    "scrambled": "amfrer",
+    "answer": "farmer"
+   }
+  ],
+  "picture_count": {
+   "question": "How many different jobs can you see in the cover picture?",
+   "hint_vi": "Hãy đếm các nghề nghiệp khác nhau trong bức tranh trang bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Future Job Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ___ years old.",
+   "When I grow up, I want to be a/an ____.",
+   "I think this job is ____ (interesting/important/fun).",
+   "I want to work at/in a/an ____.",
+   "I want to help ____.",
+   "To do this job, I need to be ____ (e.g., kind, brave, smart).",
+   "I can ____ (e.g., draw, talk to people, fix things).",
+   "I have got ____ (e.g., a good imagination, strong hands).",
+   "I will study hard to become a/an ____."
+  ],
+  "frame_title": "MY FUTURE JOB",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "When I grow up, I want to be a/an ____.",
+   "I think it is a very ____ job.",
+   "A/An ____ works at/in a/an ____.",
+   "He/She helps ____.",
+   "To be a/an ____, I need to be ____.",
+   "I can ____.",
+   "I have got ____.",
+   "I will work hard to achieve my dream."
+  ]
+ },
+ "life_skill": {
+  "title": "APPRECIATE OUR COMMUNITY HELPERS",
+  "intro": "Many people work hard every day to make our community a better place. They help us in many ways, from keeping us safe to providing food and care. It's important to appreciate and respect them.",
+  "intro_vi": "Nhiều người làm việc chăm chỉ mỗi ngày để biến cộng đồng của chúng ta thành một nơi tốt đẹp hơn. Họ giúp đỡ chúng ta bằng nhiều cách, từ việc giữ an toàn cho chúng ta đến việc cung cấp thức ăn và chăm sóc. Điều quan trọng là phải biết trân trọng và tôn trọng họ.",
+  "can_do": [
+   "Say 'thank you' to community helpers.",
+   "Smile at a postman or delivery driver.",
+   "Listen to your teachers carefully.",
+   "Help your parents with chores at home.",
+   "Keep your community clean.",
+   "Learn about different jobs people do.",
+   "Respect all kinds of jobs.",
+   "Be kind to everyone you meet.",
+   "Follow rules to keep yourself and others safe.",
+   "Offer a small drawing or note to express gratitude.",
+   "Be a good helper to your friends.",
+   "Think about how you can help others."
+  ],
+  "value_question": "How can you show your appreciation to the community helpers around you?",
+  "image_prompt": "Diverse Vietnamese children giving drawings or small thank-you notes to various community helpers (a doctor, a police officer, a postman) who are smiling warmly and accepting the gifts in a cheerful outdoor setting."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The word 'doctor' comes from a Latin word meaning 'to teach'!",
+   "vi": "Bạn có biết? Từ 'doctor' (bác sĩ) xuất phát từ một từ Latin có nghĩa là 'dạy dỗ'!"
+  },
+  {
+   "en": "Did you know? Firefighters don't just put out fires; they also help with car accidents and natural disasters!",
+   "vi": "Bạn có biết? Lính cứu hỏa không chỉ dập tắt đám cháy; họ còn giúp đỡ trong các vụ tai nạn ô tô và thiên tai!"
+  },
+  {
+   "en": "Did you know? Some police officers work with special dogs called K9 units to help them find things or people!",
+   "vi": "Bạn có biết? Một số cảnh sát làm việc với những chú chó đặc biệt gọi là đơn vị K9 để giúp họ tìm đồ vật hoặc người!"
+  },
+  {
+   "en": "Did you know? The tallest chef's hat ever recorded was over 4 feet (1.2 meters) tall!",
+   "vi": "Bạn có biết? Chiếc mũ đầu bếp cao nhất từng được ghi nhận cao hơn 1.2 mét!"
+  },
+  {
+   "en": "Did you know? In some places, postmen deliver mail on bikes, boats, or even on skis!",
+   "vi": "Bạn có biết? Ở một số nơi, người đưa thư giao thư bằng xe đạp, thuyền hoặc thậm chí bằng ván trượt tuyết!"
+  }
+ ],
+ "project": {
+  "title": "MY COMMUNITY HELPERS POSTER",
+  "task": "Create a poster about different community helpers and what they do. Draw pictures and write simple sentences.",
+  "draw_items": [
+   "A doctor helping a patient",
+   "A firefighter putting out a fire",
+   "A police officer directing traffic",
+   "A teacher teaching children",
+   "A chef cooking food",
+   "A postman delivering mail",
+   "A vet helping an animal",
+   "A builder constructing a house"
+  ],
+  "example": [
+   "This is a doctor. He helps sick people.",
+   "This is a firefighter. He puts out fires.",
+   "This is a police officer. She keeps us safe.",
+   "This is a teacher. She teaches new things.",
+   "This is a chef. He cooks yummy food."
+  ],
+  "present": "Hello everyone! This is my poster about community helpers. This is a doctor. He helps sick people. This is a firefighter. He puts out fires. They are all very important for our community.",
+  "image_prompt": "A group of diverse Vietnamese children proudly presenting their colorful posters about community helpers in a bright classroom. The posters show various jobs with simple drawings and sentences. The children are smiling and enthusiastic."
+ },
+ "classroom_game": {
+  "name": "Job Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "Write different job names on small cards (e.g., doctor, chef, pilot).",
+   "Students sit in groups. One student picks a card and acts out the job without speaking.",
+   "Their group members guess the job.",
+   "The first group to guess correctly gets a point. Continue with new players and cards.",
+   "The group with the most points at the end wins."
+  ],
+  "steps_vi": [
+   "Viết tên các nghề nghiệp khác nhau lên những tấm thẻ nhỏ (ví dụ: bác sĩ, đầu bếp, phi công).",
+   "Học sinh ngồi theo nhóm. Một học sinh chọn một tấm thẻ và diễn tả nghề nghiệp đó mà không nói.",
+   "Các thành viên trong nhóm đoán nghề nghiệp đó.",
+   "Nhóm nào đoán đúng đầu tiên sẽ được một điểm. Tiếp tục với người chơi và thẻ mới.",
+   "Nhóm nào có nhiều điểm nhất cuối cùng sẽ thắng."
+  ],
+  "language": [
+   "What am I doing?",
+   "Are you a/an...?",
+   "Yes, I am!",
+   "No, I'm not.",
+   "What is his/her job?",
+   "He/She is a/an..."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "doct_r",
+    "answer": "doctor"
+   },
+   {
+    "word": "n_rse",
+    "answer": "nurse"
+   },
+   {
+    "word": "t_ach_r",
+    "answer": "teacher"
+   },
+   {
+    "word": "p_lic_ _ffic_r",
+    "answer": "police officer"
+   },
+   {
+    "word": "f_r_f_ght_r",
+    "answer": "firefighter"
+   },
+   {
+    "word": "ch_f",
+    "answer": "chef"
+   },
+   {
+    "word": "f_rm_r",
+    "answer": "farmer"
+   },
+   {
+    "word": "p_l_t",
+    "answer": "pilot"
+   },
+   {
+    "word": "_rt_st",
+    "answer": "artist"
+   },
+   {
+    "word": "s_ng_r",
+    "answer": "singer"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "She ______ a teacher.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "A doctor helps ______ people.",
+    "options": [
+     "happy",
+     "sick",
+     "tall"
+    ],
+    "answer": "sick"
+   },
+   {
+    "q": "A firefighter ______ fires.",
+    "options": [
+     "cooks",
+     "builds",
+     "puts out"
+    ],
+    "answer": "puts out"
+   },
+   {
+    "q": "What ______ you do?",
+    "options": [
+     "is",
+     "are",
+     "do"
+    ],
+    "answer": "do"
+   },
+   {
+    "q": "He ______ building a house now.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "A pilot ______ fly a plane.",
+    "options": [
+     "can",
+     "can't",
+     "is"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "A nurse ______ got a uniform.",
+    "options": [
+     "have",
+     "has",
+     "is"
+    ],
+    "answer": "has"
+   },
+   {
+    "q": "A chef works ______ a restaurant.",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ],
+    "answer": "at"
+   },
+   {
+    "q": "I want ______ a doctor.",
+    "options": [
+     "be",
+     "to be",
+     "being"
+    ],
+    "answer": "to be"
+   },
+   {
+    "q": "They ______ farmers.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "are"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / a / He / doctor",
+    "answer": "He is a doctor."
+   },
+   {
+    "words": "do / you / What / do",
+    "answer": "What do you do?"
+   },
+   {
+    "words": "are / They / engineers",
+    "answer": "They are engineers."
+   },
+   {
+    "words": "is / She / cooking / now",
+    "answer": "She is cooking now."
+   },
+   {
+    "words": "can / fly / pilot / A / a / plane",
+    "answer": "A pilot can fly a plane."
+   },
+   {
+    "words": "got / has / A / uniform / police officer / a",
+    "answer": "A police officer has got a uniform."
+   },
+   {
+    "words": "helps / A / sick / people / doctor",
+    "answer": "A doctor helps sick people."
+   },
+   {
+    "words": "works / A / library / librarian / in / a",
+    "answer": "A librarian works in a library."
+   },
+   {
+    "words": "want / to / I / be / a / vet",
+    "answer": "I want to be a vet."
+   },
+   {
+    "words": "community / our / important / All / jobs / are / for",
+    "answer": "All jobs are important for our community."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "What does your mom do?",
+   "What does your dad do?",
+   "What job do you want to do when you grow up?",
+   "Why do you want to be a/an (that job)?",
+   "Can you help people in your community?",
+   "What is one thing a police officer does?",
+   "What is one thing a chef does?",
+   "Who is your favorite community helper?"
+  ]
+ },
+ "i_can": [
+  "I can name 5 different jobs.",
+  "I can say what a doctor does.",
+  "I can use 'He/She is a...' to talk about jobs.",
+  "I can ask and answer 'What do you do?'",
+  "I can use 'can' and 'can't' to talk about abilities.",
+  "I can describe what someone is doing now using 'is/are + -ing'.",
+  "I can identify tools for different jobs.",
+  "I can talk about where people work.",
+  "I can read a simple story about jobs.",
+  "I can write about my future job.",
+  "I can appreciate community helpers.",
+  "I can sing a song about jobs.",
+  "I can play a game about jobs.",
+  "I can answer questions about jobs.",
+  "I can make a poster about community helpers."
+ ],
+ "message_en": "EVERY JOB IS IMPORTANT, AND EVERYONE HELPS TO MAKE OUR COMMUNITY SPECIAL.",
+ "message_vi": "Mỗi công việc đều quan trọng, và mọi người đều góp phần làm cho cộng đồng của chúng ta trở nên đặc biệt.",
+ "message_body": "In this unit, we learned about many wonderful jobs. From doctors who heal us to builders who make our homes, everyone plays a part. Remember to appreciate the hard work of all the people around you!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 7,
+ "grade": 3,
+ "validation": []
+}

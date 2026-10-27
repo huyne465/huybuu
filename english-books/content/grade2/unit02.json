@@ -1,0 +1,1183 @@
+{
+ "title": "MY FAMILY",
+ "theme": "Family & Love",
+ "goal": "Students can introduce their family members and talk about family love and care.",
+ "goal_vi": "Học sinh có thể giới thiệu các thành viên trong gia đình và nói về tình yêu thương, sự quan tâm trong gia đình.",
+ "cover_emoji": "👨‍👩‍👧‍👦❤️🏡",
+ "cover_image_prompt": "A happy, diverse Vietnamese family (father, mother, daughter, son, grandmother, grandfather) smiling and hugging in a cozy living room, bathed in warm light. They are all looking at each other or at the viewer with love. No text.",
+ "big_question": {
+  "en": "What do you love about your family?",
+  "vi": "Em yêu điều gì ở gia đình mình?",
+  "prompts": [
+   "Who is in your family?",
+   "Do you have a brother or a sister?",
+   "Is your family big or small?",
+   "What does your father do?",
+   "What does your mother do?",
+   "Do you love your family?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "family",
+   "ipa": "/ˈfæm.ə.li/",
+   "vi": "gia đình",
+   "emoji": "👨‍👩‍👧‍👦",
+   "image_prompt": "A cheerful, diverse family of four (parents, two children) holding hands and smiling together."
+  },
+  {
+   "en": "mother",
+   "ipa": "/ˈmʌð.ər/",
+   "vi": "mẹ",
+   "emoji": "👩",
+   "image_prompt": "A kind, smiling mother hugging her child gently."
+  },
+  {
+   "en": "father",
+   "ipa": "/ˈfɑː.ðər/",
+   "vi": "bố",
+   "emoji": "👨",
+   "image_prompt": "A strong, smiling father playing with his child, lifting them in the air."
+  },
+  {
+   "en": "brother",
+   "ipa": "/ˈbrʌð.ər/",
+   "vi": "anh/em trai",
+   "emoji": "👦",
+   "image_prompt": "Two boys, one slightly older, playing with a toy car together, laughing."
+  },
+  {
+   "en": "sister",
+   "ipa": "/ˈsɪs.tər/",
+   "vi": "chị/em gái",
+   "emoji": "👧",
+   "image_prompt": "Two girls, one slightly older, sharing a doll and smiling at each other."
+  },
+  {
+   "en": "grandmother",
+   "ipa": "/ˈɡræn.mʌð.ər/",
+   "vi": "bà",
+   "emoji": "👵",
+   "image_prompt": "A gentle grandmother reading a storybook to her grandchild on a cozy sofa."
+  },
+  {
+   "en": "grandfather",
+   "ipa": "/ˈɡræn.fɑː.ðər/",
+   "vi": "ông",
+   "emoji": "👴",
+   "image_prompt": "A wise grandfather telling a story to his grandchild, who is listening intently."
+  },
+  {
+   "en": "baby",
+   "ipa": "/ˈbeɪ.bi/",
+   "vi": "em bé",
+   "emoji": "👶",
+   "image_prompt": "A cute baby crawling on the floor, smiling and holding a soft toy."
+  },
+  {
+   "en": "child",
+   "ipa": "/tʃaɪld/",
+   "vi": "đứa trẻ",
+   "emoji": "🧒",
+   "image_prompt": "A happy child playing with building blocks on a rug."
+  },
+  {
+   "en": "parent",
+   "ipa": "/ˈper.ənt/",
+   "vi": "cha mẹ",
+   "emoji": "👨‍👩‍👦",
+   "image_prompt": "A mother and father both holding hands with their child, walking happily."
+  },
+  {
+   "en": "love",
+   "ipa": "/lʌv/",
+   "vi": "yêu",
+   "emoji": "❤️",
+   "image_prompt": "A child hugging a parent, with hearts floating around them, showing affection."
+  },
+  {
+   "en": "happy",
+   "ipa": "/ˈhæp.i/",
+   "vi": "hạnh phúc",
+   "emoji": "😊",
+   "image_prompt": "A child jumping with joy and a big smile on their face."
+  },
+  {
+   "en": "kind",
+   "ipa": "/kaɪnd/",
+   "vi": "tốt bụng",
+   "emoji": "😇",
+   "image_prompt": "A child sharing their toy with another child, both smiling warmly."
+  },
+  {
+   "en": "big",
+   "ipa": "/bɪɡ/",
+   "vi": "lớn",
+   "emoji": "🐘",
+   "image_prompt": "A very large elephant standing next to a tiny mouse, showing size contrast."
+  },
+  {
+   "en": "small",
+   "ipa": "/smɔːl/",
+   "vi": "nhỏ",
+   "emoji": "🐜",
+   "image_prompt": "A tiny ladybug on a big green leaf."
+  },
+  {
+   "en": "tall",
+   "ipa": "/tɔːl/",
+   "vi": "cao",
+   "emoji": "🦒",
+   "image_prompt": "A very tall giraffe reaching for leaves on a tree."
+  },
+  {
+   "en": "short",
+   "ipa": "/ʃɔːrt/",
+   "vi": "thấp",
+   "emoji": "🌿",
+   "image_prompt": "A short, bushy tree next to a very tall, slender tree."
+  },
+  {
+   "en": "uncle",
+   "ipa": "/ˈʌŋ.kəl/",
+   "vi": "chú/bác trai",
+   "emoji": "🧔",
+   "image_prompt": "A friendly man with a mustache playing a fun game with two children."
+  },
+  {
+   "en": "aunt",
+   "ipa": "/ænt/",
+   "vi": "cô/dì/thím",
+   "emoji": "👩‍🦰",
+   "image_prompt": "A kind woman with red hair baking cookies with a child, both smiling."
+  },
+  {
+   "en": "cousin",
+   "ipa": "/ˈkʌz.ən/",
+   "vi": "anh/chị/em họ",
+   "emoji": "👫",
+   "image_prompt": "Two children, a boy and a girl, of similar age, laughing and running together in a park."
+  }
+ ],
+ "phonics": {
+  "sound": "/f/",
+  "letters": "f",
+  "words": [
+   "family",
+   "father",
+   "fun",
+   "fish",
+   "fan",
+   "fox"
+  ],
+  "chant": "Five fast fish are flying high.\nFunny frogs jump to the sky.",
+  "tip_vi": "Khi phát âm âm /f/, môi dưới chạm nhẹ vào răng trên và đẩy hơi ra."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my + family member.",
+   "vi": "Đây là + thành viên trong gia đình của tôi.",
+   "examples": [
+    "This is my mother.",
+    "This is my father.",
+    "This is my brother."
+   ]
+  },
+  {
+   "pattern": "I have a + family member.",
+   "vi": "Tôi có một + thành viên trong gia đình.",
+   "examples": [
+    "I have a sister.",
+    "I have a baby brother.",
+    "I have a grandmother."
+   ]
+  },
+  {
+   "pattern": "He/She is + adjective.",
+   "vi": "Anh ấy/Cô ấy + tính từ.",
+   "examples": [
+    "He is tall.",
+    "She is kind.",
+    "He is happy."
+   ]
+  },
+  {
+   "pattern": "They are + plural noun.",
+   "vi": "Họ là + danh từ số nhiều.",
+   "examples": [
+    "They are my parents.",
+    "They are my grandparents.",
+    "They are my cousins."
+   ]
+  },
+  {
+   "pattern": "I love my + family member.",
+   "vi": "Tôi yêu + thành viên trong gia đình của tôi.",
+   "examples": [
+    "I love my family.",
+    "I love my mother.",
+    "I love my father."
+   ]
+  },
+  {
+   "pattern": "My + family member + is + adjective.",
+   "vi": "+ Thành viên trong gia đình của tôi + thì + tính từ.",
+   "examples": [
+    "My mother is kind.",
+    "My father is strong.",
+    "My sister is small."
+   ]
+  },
+  {
+   "pattern": "Who is this?",
+   "vi": "Đây là ai?",
+   "examples": [
+    "Who is this? This is my aunt.",
+    "Who is this? This is my uncle.",
+    "Who is this? This is my cousin."
+   ]
+  },
+  {
+   "pattern": "What is your + family member's name?",
+   "vi": "Tên + thành viên trong gia đình của bạn là gì?",
+   "examples": [
+    "What is your mother's name?",
+    "What is your father's name?",
+    "What is your sister's name?"
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "We use 'This is' for one person. We use 'These are' for more than one person.",
+   "explain_vi": "Chúng ta dùng 'This is' để giới thiệu một người. Chúng ta dùng 'These are' để giới thiệu nhiều người.",
+   "examples": [
+    "This is my mother.",
+    "These are my parents.",
+    "This is my brother.",
+    "These are my grandparents."
+   ],
+   "right": "✅ This is my sister.",
+   "wrong": "❌ These is my sister."
+  },
+  {
+   "title": "He / She / They",
+   "explain_en": "We use 'He' for a boy or a man. We use 'She' for a girl or a woman. We use 'They' for more than one person.",
+   "explain_vi": "Chúng ta dùng 'He' cho con trai hoặc đàn ông. Chúng ta dùng 'She' cho con gái hoặc phụ nữ. Chúng ta dùng 'They' cho nhiều người.",
+   "examples": [
+    "This is my father. He is tall.",
+    "This is my mother. She is kind.",
+    "These are my parents. They are happy."
+   ],
+   "right": "✅ She is my sister.",
+   "wrong": "❌ He is my sister."
+  },
+  {
+   "title": "Possessive 's",
+   "explain_en": "We use 's to show that something belongs to someone or is related to someone.",
+   "explain_vi": "Chúng ta dùng 's để chỉ sự sở hữu hoặc mối quan hệ của ai đó.",
+   "examples": [
+    "This is my mother's name.",
+    "My father's car is big.",
+    "My sister's toy is new."
+   ],
+   "right": "✅ My brother's name is Nam.",
+   "wrong": "❌ My brother name is Nam."
+  },
+  {
+   "title": "I love / He loves",
+   "explain_en": "We use 'love' with I, you, we, they. We use 'loves' with he, she, it.",
+   "explain_vi": "Chúng ta dùng 'love' với I, you, we, they. Chúng ta dùng 'loves' với he, she, it.",
+   "examples": [
+    "I love my family.",
+    "My mother loves me.",
+    "We love our parents.",
+    "He loves his brother."
+   ],
+   "right": "✅ My sister loves to play.",
+   "wrong": "❌ My sister love to play."
+  }
+ ],
+ "song": {
+  "title": "My Happy Family",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "My family is happy, yes it is,",
+   "Yes it is, yes it is.",
+   "My family is happy, yes it is,",
+   "I love my family!",
+   "",
+   "My mother is kind, yes she is,",
+   "Yes she is, yes she is.",
+   "My mother is kind, yes she is,",
+   "I love my mother!",
+   "",
+   "My father is strong, yes he is,",
+   "Yes he is, yes he is.",
+   "My father is strong, yes he is,",
+   "I love my father!"
+  ],
+  "actions_vi": "Gợi ý động tác khi hát: \n- 'My family is happy': Đặt tay lên tim và mỉm cười.\n- 'My mother is kind': Đặt tay lên tim, sau đó giơ ngón cái lên.\n- 'My father is strong': Gồng cơ bắp tay.\n- 'I love my family/mother/father!': Khoanh tay ôm mình."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY FAMILY",
+   "text": "Hello! My name is Linh. I am seven years old. I have a family. My family is small. I have a mother and a father. My mother's name is Mai. She is kind. My father's name is Nam. He is tall. I love my mother and father. We are a happy family. I love my family very much.",
+   "image_prompt": "A happy Vietnamese girl, Linh, smiling and pointing to a picture frame with her mother and father in it. They are in a simple, cozy living room. No text.",
+   "vocab": [
+    {
+     "en": "hello",
+     "ipa": "/həˈloʊ/",
+     "vi": "xin chào"
+    },
+    {
+     "en": "name",
+     "ipa": "/neɪm/",
+     "vi": "tên"
+    },
+    {
+     "en": "seven",
+     "ipa": "/ˈsev.ən/",
+     "vi": "bảy"
+    },
+    {
+     "en": "years old",
+     "ipa": "/jɪrz oʊld/",
+     "vi": "tuổi"
+    },
+    {
+     "en": "family",
+     "ipa": "/ˈfæm.ə.li/",
+     "vi": "gia đình"
+    },
+    {
+     "en": "small",
+     "ipa": "/smɔːl/",
+     "vi": "nhỏ"
+    },
+    {
+     "en": "mother",
+     "ipa": "/ˈmʌð.ər/",
+     "vi": "mẹ"
+    },
+    {
+     "en": "father",
+     "ipa": "/ˈfɑː.ðər/",
+     "vi": "bố"
+    },
+    {
+     "en": "kind",
+     "ipa": "/kaɪnd/",
+     "vi": "tốt bụng"
+    },
+    {
+     "en": "tall",
+     "ipa": "/tɔːl/",
+     "vi": "cao"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "Does Linh have a family?",
+    "Is her family big or small?",
+    "Who is in Linh's family?",
+    "What is her mother's name?",
+    "What is her father's name?",
+    "Is Linh's mother kind?",
+    "Is Linh's father tall?",
+    "Does Linh love her family?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is eight years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's family is small.",
+     "answer": true
+    },
+    {
+     "statement": "Linh has a brother.",
+     "answer": false
+    },
+    {
+     "statement": "Her mother's name is Mai.",
+     "answer": true
+    },
+    {
+     "statement": "Linh loves her family.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "BEN'S BIG FAMILY",
+   "text": "Hi! I am Ben. I am seven years old. I have a big family. I have a mother and a father. My mother is Ms. Hoa. She is kind and lovely. My father is Mr. Hai. He is strong and happy. I also have a big brother. His name is Tom. He is ten years old. Tom is good at playing football. We play together. I have a baby sister, too. Her name is Lucy. She is one year old. Lucy is very cute. I love my big family. We are always happy together.",
+   "image_prompt": "A happy, diverse family (parents, two sons, baby daughter) playing in a park, laughing and kicking a football. The older boy is helping the younger boy kick the ball. No text.",
+   "vocab": [
+    {
+     "en": "big",
+     "ipa": "/bɪɡ/",
+     "vi": "lớn"
+    },
+    {
+     "en": "mother",
+     "ipa": "/ˈmʌð.ər/",
+     "vi": "mẹ"
+    },
+    {
+     "en": "father",
+     "ipa": "/ˈfɑː.ðər/",
+     "vi": "bố"
+    },
+    {
+     "en": "lovely",
+     "ipa": "/ˈlʌv.li/",
+     "vi": "đáng yêu"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɔːŋ/",
+     "vi": "khỏe mạnh"
+    },
+    {
+     "en": "brother",
+     "ipa": "/ˈbrʌð.ər/",
+     "vi": "anh/em trai"
+    },
+    {
+     "en": "ten",
+     "ipa": "/ten/",
+     "vi": "mười"
+    },
+    {
+     "en": "play",
+     "ipa": "/pleɪ/",
+     "vi": "chơi"
+    },
+    {
+     "en": "sister",
+     "ipa": "/ˈsɪs.tər/",
+     "vi": "chị/em gái"
+    },
+    {
+     "en": "cute",
+     "ipa": "/kjuːt/",
+     "vi": "dễ thương"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How old is Ben?",
+    "Does Ben have a big or small family?",
+    "What is Ben's mother's name?",
+    "What is Ben's father's name?",
+    "Who is Tom?",
+    "How old is Tom?",
+    "What is Tom good at?",
+    "Who is Lucy?",
+    "How old is Lucy?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben has a small family.",
+     "answer": false
+    },
+    {
+     "statement": "Ben's mother is Ms. Hoa.",
+     "answer": true
+    },
+    {
+     "statement": "Ben has two sisters.",
+     "answer": false
+    },
+    {
+     "statement": "Tom is Ben's big brother.",
+     "answer": true
+    },
+    {
+     "statement": "Lucy is five years old.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "MY WONDERFUL GRANDPARENTS",
+   "text": "My name is Minh. I am seven. I live with my parents, my little sister, and my grandparents. My grandmother's name is Lan. She is very kind. She tells me many stories. My grandfather's name is Hung. He is strong and wise. He helps me with my homework. My little sister, An, loves to draw. She is five years old. My parents work hard. My mother is a doctor. My father is an engineer. They are busy, but they always spend time with us. On Sundays, we all go to the park. We play games and eat ice cream. My family is wonderful. We love each other very much. I am happy to have my grandparents with us.",
+   "image_prompt": "A diverse family (grandparents, parents, boy, girl) happily spending time together in a park. The grandfather is helping the boy with a book, the grandmother is telling a story to the girl, and the parents are smiling watching them. They are eating ice cream. No text.",
+   "vocab": [
+    {
+     "en": "live",
+     "ipa": "/lɪv/",
+     "vi": "sống"
+    },
+    {
+     "en": "parents",
+     "ipa": "/ˈper.ənts/",
+     "vi": "cha mẹ"
+    },
+    {
+     "en": "little",
+     "ipa": "/ˈlɪt.əl/",
+     "vi": "nhỏ"
+    },
+    {
+     "en": "grandparents",
+     "ipa": "/ˈɡrændˌper.ənts/",
+     "vi": "ông bà"
+    },
+    {
+     "en": "stories",
+     "ipa": "/ˈstɔːr.iz/",
+     "vi": "những câu chuyện"
+    },
+    {
+     "en": "wise",
+     "ipa": "/waɪz/",
+     "vi": "khôn ngoan"
+    },
+    {
+     "en": "homework",
+     "ipa": "/ˈhoʊm.wɜːrk/",
+     "vi": "bài tập về nhà"
+    },
+    {
+     "en": "draw",
+     "ipa": "/drɔː/",
+     "vi": "vẽ"
+    },
+    {
+     "en": "doctor",
+     "ipa": "/ˈdɑːk.tər/",
+     "vi": "bác sĩ"
+    },
+    {
+     "en": "engineer",
+     "ipa": "/ˌen.dʒɪˈnɪr/",
+     "vi": "kỹ sư"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "Who does Minh live with?",
+    "What is Minh's grandmother's name?",
+    "What does his grandmother tell him?",
+    "What is Minh's grandfather's name?",
+    "What does his grandfather help him with?",
+    "Who is An?",
+    "How old is An?",
+    "What is Minh's mother's job?",
+    "What do they do on Sundays?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh lives with only his parents.",
+     "answer": false
+    },
+    {
+     "statement": "Minh's grandmother tells him stories.",
+     "answer": true
+    },
+    {
+     "statement": "Minh's sister is named An and she is seven.",
+     "answer": false
+    },
+    {
+     "statement": "Minh's father is a doctor.",
+     "answer": false
+    },
+    {
+     "statement": "They go to the park on Sundays.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "My Funny Family",
+  "panels": [
+   {
+    "scene": "A boy, Ben, holding a photo of his mother. He looks proud.",
+    "speech": "Ben: This is my mother. She is kind."
+   },
+   {
+    "scene": "Ben now holding a photo of his father. He looks happy.",
+    "speech": "Ben: This is my father. He is strong."
+   },
+   {
+    "scene": "Ben holding a photo of his baby sister. The baby in the photo is making a funny face. Ben giggles.",
+    "speech": "Ben: This is my baby sister, Lucy. She is cute... and funny!"
+   },
+   {
+    "scene": "Ben is holding a photo of his cat, who is sleeping on a cushion. He looks at it with a sweet smile.",
+    "speech": "Ben: And this is my cat, Mimi. She is part of my family, too! Meow!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "Who is in your family?",
+   "Do you have a mother? What is her name?",
+   "Do you have a father? What is his name?",
+   "Do you have a brother? What is his name?",
+   "Do you have a sister? What is her name?",
+   "Do you have a baby sister or brother?",
+   "Do you have a grandmother? What is her name?",
+   "Do you have a grandfather? What is his name?",
+   "Is your mother kind?",
+   "Is your father tall?",
+   "Is your brother small?",
+   "Is your sister happy?",
+   "What does your mother do?",
+   "What does your father do?",
+   "Why do you love your family?"
+  ],
+  "model": "Hello! My name is Minh. I am seven years old. I have a family. My family is big. I have a mother, a father, and a baby sister. My mother's name is Linh. She is kind. My father's name is An. He is strong. My baby sister's name is Mia. She is very cute. I love my family very much. We are a happy family.",
+  "challenge": "Talk about your family for 30–60 seconds. Tell your friends who is in your family, their names, and what you love about them."
+ },
+ "conversations": [
+  {
+   "title": "Meeting a Friend's Family",
+   "image_prompt": "Two Vietnamese children, Mai and Tom, standing in front of Mai's house. Mai's mother is waving from the doorway with a warm smile. No text.",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "text": "Hi, Mai! Who is this?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Hi, Tom! This is my mother."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Hello! Nice to meet you."
+    },
+    {
+     "speaker": "Mai's Mother",
+     "text": "Hello, Tom! Nice to meet you too."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Your mother is very kind, Mai."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, she is. I love my mother."
+    },
+    {
+     "speaker": "Tom",
+     "text": "I love my mother too!"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Let's play, Tom!"
+    }
+   ]
+  },
+  {
+   "title": "Talking About Brothers and Sisters",
+   "image_prompt": "Two diverse children, Ben and Linh, sitting on a bench in a park, happily talking. Ben is showing Linh a photo on his phone of his younger brother. No text.",
+   "lines": [
+    {
+     "speaker": "Linh",
+     "text": "Ben, do you have a brother or a sister?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, I have a brother. And I have a sister."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Wow! What are their names?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "My brother's name is Max. My sister's name is Anna."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Is Max big or small?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Max is big. Anna is small."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Do you like playing with them?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, I love playing with my brother and sister!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, everyone! My name is Ms. Lan. Today, I want to tell you about my family. I have a small family. There are four people: my husband, my daughter, my son, and me. My husband's name is Trung. He is a teacher. He is very kind. My daughter's name is Linh. She is ten years old. She loves to read books. My son's name is Minh. He is five years old. He loves to play with cars. We love to go to the park together on weekends. My family is happy. I love my family very much.",
+  "questions": [
+   "What is the teacher's name?",
+   "How many people are in her family?",
+   "What is her husband's name?",
+   "What is her husband's job?",
+   "Is her husband kind?",
+   "What is her daughter's name?",
+   "How old is her daughter?",
+   "What does her daughter love to do?",
+   "What is her son's name?",
+   "What do they love to do on weekends?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "FAMILY",
+   "MOTHER",
+   "FATHER",
+   "BROTHER",
+   "SISTER",
+   "GRANDMA",
+   "GRANDPA",
+   "BABY"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "mother",
+     "father",
+     "teacher",
+     "sister"
+    ],
+    "answer": "teacher",
+    "why_vi": "Teacher (giáo viên) không phải là thành viên trong gia đình."
+   },
+   {
+    "options": [
+     "happy",
+     "sad",
+     "kind",
+     "love"
+    ],
+    "answer": "sad",
+    "why_vi": "Sad (buồn) là cảm xúc tiêu cực, không giống happy, kind, love (tích cực)."
+   },
+   {
+    "options": [
+     "big",
+     "small",
+     "tall",
+     "read"
+    ],
+    "answer": "read",
+    "why_vi": "Read (đọc) là động từ, còn lại là tính từ chỉ kích thước."
+   },
+   {
+    "options": [
+     "uncle",
+     "aunt",
+     "cousin",
+     "school"
+    ],
+    "answer": "school",
+    "why_vi": "School (trường học) là một địa điểm, còn lại là thành viên trong gia đình."
+   },
+   {
+    "options": [
+     "Ben",
+     "Mai",
+     "dog",
+     "Linh"
+    ],
+    "answer": "dog",
+    "why_vi": "Dog (chó) là động vật, còn lại là tên người."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am your dad's wife. I am kind. Who am I?",
+    "answer": "mother"
+   },
+   {
+    "riddle": "I am your mother's father. I tell stories. Who am I?",
+    "answer": "grandfather"
+   },
+   {
+    "riddle": "I am very small. I cry and drink milk. Who am I?",
+    "answer": "baby"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "yflami",
+    "answer": "family"
+   },
+   {
+    "scrambled": "ehtrom",
+    "answer": "mother"
+   },
+   {
+    "scrambled": "efrhat",
+    "answer": "father"
+   },
+   {
+    "scrambled": "rberhot",
+    "answer": "brother"
+   },
+   {
+    "scrambled": "trssie",
+    "answer": "sister"
+   },
+   {
+    "scrambled": "veol",
+    "answer": "love"
+   }
+  ],
+  "picture_count": {
+   "question": "How many family members can you see in the cover picture? (Look at the mother, father, children, and grandparents.)",
+   "hint_vi": "Hãy đếm số người lớn và trẻ em trong bức tranh bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Family Profile",
+  "profile_fields": [
+   "My name is:",
+   "My age is:",
+   "I have a mother. Her name is:",
+   "I have a father. His name is:",
+   "I have a brother. His name is: (or 'No brother')",
+   "I have a sister. Her name is: (or 'No sister')",
+   "My grandmother's name is: (or 'No grandmother')",
+   "My grandfather's name is: (or 'No grandfather')",
+   "My family is (big/small/happy):",
+   "I love my family because:"
+  ],
+  "frame_title": "MY FAMILY",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "I have a ____ family.",
+   "This is my mother. Her name is ____.",
+   "She is ____ (kind/lovely).",
+   "This is my father. His name is ____.",
+   "He is ____ (strong/tall).",
+   "I have a ____ (brother/sister). His/Her name is ____.",
+   "We like to ____ together.",
+   "I love my family very much."
+  ]
+ },
+ "life_skill": {
+  "title": "LOVE AND CARE FOR YOUR FAMILY",
+  "intro": "Your family is special! They love you and care for you. It's important to show your love and care back.",
+  "intro_vi": "Gia đình em rất đặc biệt! Họ yêu thương và quan tâm em. Điều quan trọng là em cũng phải thể hiện tình yêu và sự quan tâm của mình dành cho họ.",
+  "can_do": [
+   "Help my mother.",
+   "Help my father.",
+   "Play with my brother/sister.",
+   "Share my toys.",
+   "Listen to my parents.",
+   "Talk to my grandparents.",
+   "Give hugs to my family.",
+   "Say 'I love you'.",
+   "Be kind to everyone.",
+   "Say 'Thank you'.",
+   "Help with chores.",
+   "Make my family happy."
+  ],
+  "value_question": "What is one thing you can do today to show love to your family?",
+  "image_prompt": "A diverse family (parents, two children, grandparents) doing various acts of kindness and love: one child is helping set the table, another is hugging a grandparent, a parent is reading to a child. All are smiling. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Not all families are the same size. Some families are very big, and some are small!",
+   "vi": "Em có biết không? Không phải tất cả các gia đình đều có cùng kích thước. Một số gia đình rất đông người, và một số thì ít người!"
+  },
+  {
+   "en": "Did you know? Many animals live in families too, just like us! For example, lions live in groups called 'prides'.",
+   "vi": "Em có biết không? Nhiều loài động vật cũng sống theo gia đình, giống như chúng ta! Ví dụ, sư tử sống theo nhóm gọi là 'bầy đàn'."
+  },
+  {
+   "en": "Did you know? In some cultures, grandparents often live with their children and grandchildren, creating big, happy homes.",
+   "vi": "Em có biết không? Ở một số nền văn hóa, ông bà thường sống cùng con cái và cháu chắt, tạo nên những ngôi nhà lớn, hạnh phúc."
+  },
+  {
+   "en": "Did you know? The word 'family' comes from a very old Latin word 'familia'.",
+   "vi": "Em có biết không? Từ 'family' (gia đình) có nguồn gốc từ một từ Latin cổ là 'familia'."
+  },
+  {
+   "en": "Did you know? Family photos are a great way to remember happy times and the people you love!",
+   "vi": "Em có biết không? Ảnh gia đình là một cách tuyệt vời để ghi nhớ những khoảnh khắc hạnh phúc và những người em yêu thương!"
+  }
+ ],
+ "project": {
+  "title": "MY FAMILY PHOTO ALBUM",
+  "task": "Create a small photo album or a drawing book about your family. You can draw pictures of your family members and write about them.",
+  "draw_items": [
+   "A picture of your whole family.",
+   "A picture of your mother.",
+   "A picture of your father.",
+   "A picture of your brother (if you have one).",
+   "A picture of your sister (if you have one).",
+   "A picture of your grandmother (if you have one).",
+   "A picture of your grandfather (if you have one).",
+   "A picture of your family doing something fun together."
+  ],
+  "example": [
+   "This is my family. We are happy.",
+   "This is my mother. Her name is Mai. She is kind.",
+   "This is my father. His name is Nam. He is tall.",
+   "I have a brother. His name is Huy. He is funny.",
+   "We love to go to the park together."
+  ],
+  "present": "Hello everyone! This is my Family Photo Album. This is my mother. She is lovely. This is my father. He is strong. I love my family very much. Thank you!",
+  "image_prompt": "A diverse child happily presenting a handmade photo album or drawing book about their family to the class. The album has colorful drawings of family members. Other children are listening and smiling. No text."
+ },
+ "classroom_game": {
+  "name": "Family Member Memory Match",
+  "players": "pairs / small groups",
+  "steps_en": [
+   "Teacher prepares cards with family member words (mother, father, brother, sister, etc.) and matching pictures.",
+   "Shuffle all cards and place them face down on the table.",
+   "Players take turns flipping two cards. If the word and picture match, the player keeps the pair.",
+   "If they don't match, flip them back over. The player with the most pairs at the end wins."
+  ],
+  "steps_vi": [
+   "Giáo viên chuẩn bị các thẻ bài có từ vựng về thành viên gia đình (mother, father, brother, sister,...) và các hình ảnh tương ứng.",
+   "Trộn tất cả các thẻ và đặt úp xuống bàn.",
+   "Người chơi lần lượt lật hai thẻ. Nếu từ và hình ảnh khớp nhau, người chơi giữ cặp thẻ đó.",
+   "Nếu không khớp, lật úp lại. Người chơi có nhiều cặp thẻ nhất sẽ thắng."
+  ],
+  "language": [
+   "This is my mother.",
+   "Is this a brother?",
+   "Yes, it is.",
+   "No, it isn't."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "fa__ily",
+    "answer": "family"
+   },
+   {
+    "word": "mo__her",
+    "answer": "mother"
+   },
+   {
+    "word": "fat__er",
+    "answer": "father"
+   },
+   {
+    "word": "bro__her",
+    "answer": "brother"
+   },
+   {
+    "word": "sis__er",
+    "answer": "sister"
+   },
+   {
+    "word": "grandm_ther",
+    "answer": "grandmother"
+   },
+   {
+    "word": "grandf_ther",
+    "answer": "grandfather"
+   },
+   {
+    "word": "b__by",
+    "answer": "baby"
+   },
+   {
+    "word": "lo__e",
+    "answer": "love"
+   },
+   {
+    "word": "ha__py",
+    "answer": "happy"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ my mother.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I ______ my family.",
+    "options": [
+     "loves",
+     "love",
+     "loving"
+    ],
+    "answer": "love"
+   },
+   {
+    "q": "My father ______ tall.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "She is my ______.",
+    "options": [
+     "brother",
+     "father",
+     "sister"
+    ],
+    "answer": "sister"
+   },
+   {
+    "q": "He is my ______.",
+    "options": [
+     "mother",
+     "grandmother",
+     "grandfather"
+    ],
+    "answer": "grandfather"
+   },
+   {
+    "q": "My mother is very ______.",
+    "options": [
+     "strong",
+     "kind",
+     "tall"
+    ],
+    "answer": "kind"
+   },
+   {
+    "q": "These ______ my parents.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "My sister ______ to play.",
+    "options": [
+     "love",
+     "loves",
+     "loving"
+    ],
+    "answer": "loves"
+   },
+   {
+    "q": "______ is this? This is my aunt.",
+    "options": [
+     "What",
+     "Where",
+     "Who"
+    ],
+    "answer": "Who"
+   },
+   {
+    "q": "I have a ______ sister.",
+    "options": [
+     "big",
+     "small",
+     "tall"
+    ],
+    "answer": "small"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / my / This / mother",
+    "answer": "This is my mother."
+   },
+   {
+    "words": "love / my / I / family",
+    "answer": "I love my family."
+   },
+   {
+    "words": "is / father / My / tall",
+    "answer": "My father is tall."
+   },
+   {
+    "words": "is / name / My / Linh",
+    "answer": "My name is Linh."
+   },
+   {
+    "words": "happy / We / family / a / are",
+    "answer": "We are a happy family."
+   },
+   {
+    "words": "sister / a / I / have",
+    "answer": "I have a sister."
+   },
+   {
+    "words": "kind / mother / My / is",
+    "answer": "My mother is kind."
+   },
+   {
+    "words": "baby / is / cute / The",
+    "answer": "The baby is cute."
+   },
+   {
+    "words": "are / These / grandparents / my",
+    "answer": "These are my grandparents."
+   },
+   {
+    "words": "family / Do / your / love / you",
+    "answer": "Do you love your family?"
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "Who is in your family?",
+   "What is your mother's name?",
+   "What is your father's name?",
+   "Do you have a brother? What is his name?",
+   "Do you have a sister? What is her name?",
+   "Is your family big or small?",
+   "What do you do with your family?",
+   "Why do you love your family?"
+  ]
+ },
+ "i_can": [
+  "I can say the names of family members in English.",
+  "I can introduce my family members.",
+  "I can say 'This is my mother/father/brother/sister'.",
+  "I can say 'I have a mother/father/brother/sister'.",
+  "I can use 'He is' for a boy/man.",
+  "I can use 'She is' for a girl/woman.",
+  "I can use 'They are' for more than one person.",
+  "I can use possessive 's (e.g., 'mother's name').",
+  "I can describe my family members using simple adjectives (kind, tall, happy).",
+  "I can talk about what I love about my family.",
+  "I can ask and answer 'Who is this?'.",
+  "I can ask and answer 'What is your mother's name?'.",
+  "I can read simple sentences about family.",
+  "I can write simple sentences about my family.",
+  "I can show love and care for my family."
+ ],
+ "message_en": "FAMILY IS WHERE LIFE BEGINS AND LOVE NEVER ENDS.",
+ "message_vi": "GIA ĐÌNH LÀ NƠI CUỘC SỐNG BẮT ĐẦU VÀ TÌNH YÊU KHÔNG BAO GIỜ KẾT THÚC.",
+ "message_body": "Dear Roxy English learner,\nYour family is a precious gift. They are always there for you, full of love and support. Remember to show your love and appreciation every day. Keep learning and growing with your wonderful family!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "edits": [
+  "Fixed IPA for father, mother, brother, sister, grandfather, and grandmother for standard American English pronunciation.",
+  "Corrected grandfather/grandmother names in Reading 3 (Lan/Hung) to avoid naming them 'Ba' and 'Ong', which are titles.",
+  "Updated Reading 3 question 'What does his grandmother do?' to 'What does his grandmother tell him?' for better alignment with the text.",
+  "Fixed duplicate keys in Review.complete_words (differentiating grandmother and grandfather).",
+  "Changed 'short' emoji from a tree (which is usually tall) to a small plant (herb/shrub) for better visual logic.",
+  "Changed 'parent' emoji to a family representation for better clarity."
+ ],
+ "unit": 2,
+ "grade": 2,
+ "validation": [],
+ "proofread": true
+}

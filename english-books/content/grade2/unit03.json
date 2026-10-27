@@ -1,0 +1,1173 @@
+{
+ "title": "MY BODY",
+ "theme": "Me & My Body",
+ "goal": "Students can identify and name major body parts and describe simple actions they can do with them.",
+ "goal_vi": "Học sinh có thể nhận biết và gọi tên các bộ phận chính trên cơ thể, cũng như mô tả các hành động đơn giản mà họ có thể làm bằng các bộ phận đó.",
+ "cover_emoji": "🧍‍♀️🖐️👀",
+ "cover_image_prompt": "A diverse group of cheerful Vietnamese and international children, around 7 years old, playing together and pointing to different parts of their bodies, like their head, hands, and feet, in a bright, sunny park setting. No text or numbers.",
+ "big_question": {
+  "en": "What can your body do?",
+  "vi": "Cơ thể của em có thể làm gì?",
+  "prompts": [
+   "What is this? (Point to your head)",
+   "How many eyes do you have?",
+   "What can you do with your hands?",
+   "Can you touch your toes?",
+   "Is your hair long or short?",
+   "What is your favorite body part?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "head",
+   "ipa": "/hɛd/",
+   "vi": "đầu",
+   "emoji": "👤",
+   "image_prompt": "A cartoon child's head with a happy expression, isolated on a white background. No text."
+  },
+  {
+   "en": "face",
+   "ipa": "/feɪs/",
+   "vi": "mặt",
+   "emoji": "😊",
+   "image_prompt": "A close-up of a smiling child's face, showing eyes, nose, and mouth. No text."
+  },
+  {
+   "en": "hair",
+   "ipa": "/hɛr/",
+   "vi": "tóc",
+   "emoji": "💇‍♀️",
+   "image_prompt": "A child with flowing, brown hair, showing texture and length. No text."
+  },
+  {
+   "en": "eye",
+   "ipa": "/aɪ/",
+   "vi": "mắt",
+   "emoji": "👁️",
+   "image_prompt": "A single, friendly cartoon eye with a bright pupil. No text."
+  },
+  {
+   "en": "ear",
+   "ipa": "/ɪr/",
+   "vi": "tai",
+   "emoji": "👂",
+   "image_prompt": "A single, simple cartoon ear. No text."
+  },
+  {
+   "en": "nose",
+   "ipa": "/noʊz/",
+   "vi": "mũi",
+   "emoji": "👃",
+   "image_prompt": "A small, round cartoon nose. No text."
+  },
+  {
+   "en": "mouth",
+   "ipa": "/maʊθ/",
+   "vi": "miệng",
+   "emoji": "👄",
+   "image_prompt": "A smiling cartoon mouth with visible teeth. No text."
+  },
+  {
+   "en": "arm",
+   "ipa": "/ɑːrm/",
+   "vi": "cánh tay",
+   "emoji": "💪",
+   "image_prompt": "A cartoon child's arm, bent at the elbow, showing the whole arm. No text."
+  },
+  {
+   "en": "hand",
+   "ipa": "/hænd/",
+   "vi": "bàn tay",
+   "emoji": "🖐️",
+   "image_prompt": "A cartoon child's open hand with five fingers. No text."
+  },
+  {
+   "en": "finger",
+   "ipa": "/ˈfɪŋɡər/",
+   "vi": "ngón tay",
+   "emoji": "👆",
+   "image_prompt": "A single cartoon finger pointing upwards. No text."
+  },
+  {
+   "en": "leg",
+   "ipa": "/lɛɡ/",
+   "vi": "chân",
+   "emoji": "🦵",
+   "image_prompt": "A cartoon child's leg, from hip to foot. No text."
+  },
+  {
+   "en": "foot",
+   "ipa": "/fʊt/",
+   "vi": "bàn chân",
+   "emoji": "🦶",
+   "image_prompt": "A single cartoon child's foot. No text."
+  },
+  {
+   "en": "toe",
+   "ipa": "/toʊ/",
+   "vi": "ngón chân",
+   "emoji": "👣",
+   "image_prompt": "A cartoon big toe on a foot. No text."
+  },
+  {
+   "en": "body",
+   "ipa": "/ˈbɑːdi/",
+   "vi": "cơ thể",
+   "emoji": "🧍",
+   "image_prompt": "A simple cartoon outline of a human body, showing the full form without clothes. No text."
+  },
+  {
+   "en": "stomach",
+   "ipa": "/ˈstʌmək/",
+   "vi": "bụng",
+   "emoji": "🤰",
+   "image_prompt": "A cartoon child's torso, specifically highlighting the stomach area. No text."
+  },
+  {
+   "en": "back",
+   "ipa": "/bæk/",
+   "vi": "lưng",
+   "emoji": "🔙",
+   "image_prompt": "A cartoon child seen from behind, showing their back. No text."
+  },
+  {
+   "en": "knee",
+   "ipa": "/niː/",
+   "vi": "đầu gối",
+   "emoji": "🧎‍♀️",
+   "image_prompt": "A cartoon child's knee, isolated. No text."
+  },
+  {
+   "en": "elbow",
+   "ipa": "/ˈɛlboʊ/",
+   "vi": "khuỷu tay",
+   "emoji": "🙆‍♂️",
+   "image_prompt": "A cartoon child's elbow, isolated. No text."
+  },
+  {
+   "en": "neck",
+   "ipa": "/nɛk/",
+   "vi": "cổ",
+   "emoji": "🦒",
+   "image_prompt": "A cartoon child's neck, connecting the head to the body. No text."
+  },
+  {
+   "en": "shoulder",
+   "ipa": "/ˈʃoʊldər/",
+   "vi": "vai",
+   "emoji": "🤷‍♀️",
+   "image_prompt": "A cartoon child's shoulder, showing the joint. No text."
+  }
+ ],
+ "phonics": {
+  "sound": "/h/",
+  "letters": "Hh",
+  "words": [
+   "head",
+   "hand",
+   "hair",
+   "happy",
+   "hello",
+   "house"
+  ],
+  "chant": "My head, my hand, my hair. /H/ is a happy sound to share!",
+  "tip_vi": "Phát âm âm /h/ giống như khi em thở ra một hơi nhẹ từ miệng, không rung dây thanh quản."
+ },
+ "patterns": [
+  {
+   "pattern": "This is my + singular body part.",
+   "vi": "Đây là + bộ phận cơ thể số ít của tôi.",
+   "examples": [
+    "This is my head.",
+    "This is my nose.",
+    "This is my stomach."
+   ]
+  },
+  {
+   "pattern": "These are my + plural body part.",
+   "vi": "Đây là + bộ phận cơ thể số nhiều của tôi.",
+   "examples": [
+    "These are my eyes.",
+    "These are my hands.",
+    "These are my feet."
+   ]
+  },
+  {
+   "pattern": "I have + number + body part.",
+   "vi": "Tôi có + số lượng + bộ phận cơ thể.",
+   "examples": [
+    "I have two eyes.",
+    "I have ten fingers.",
+    "I have two legs."
+   ]
+  },
+  {
+   "pattern": "I can + action + with my + body part.",
+   "vi": "Tôi có thể + hành động + bằng + bộ phận cơ thể của mình.",
+   "examples": [
+    "I can see with my eyes.",
+    "I can clap with my hands.",
+    "I can run with my legs."
+   ]
+  },
+  {
+   "pattern": "My + body part + is/are + adjective.",
+   "vi": "Bộ phận cơ thể của tôi + thì + tính từ.",
+   "examples": [
+    "My hair is long.",
+    "My eyes are big.",
+    "My hands are small."
+   ]
+  },
+  {
+   "pattern": "What is this?",
+   "vi": "Đây là cái gì?",
+   "examples": [
+    "What is this? This is my arm.",
+    "What is this? This is my mouth.",
+    "What is this? This is my knee."
+   ]
+  },
+  {
+   "pattern": "How many + body part + do you have?",
+   "vi": "Bạn có bao nhiêu + bộ phận cơ thể?",
+   "examples": [
+    "How many ears do you have? I have two ears.",
+    "How many toes do you have? I have ten toes.",
+    "How many heads do you have? I have one head."
+   ]
+  },
+  {
+   "pattern": "Let's touch our + body part.",
+   "vi": "Chúng ta hãy chạm vào + bộ phận cơ thể của mình.",
+   "examples": [
+    "Let's touch our head.",
+    "Let's touch our nose.",
+    "Let's touch our shoulders."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "We use 'This is' for one body part. We use 'These are' for two or more body parts.",
+   "explain_vi": "Chúng ta dùng 'This is' cho một bộ phận cơ thể. Chúng ta dùng 'These are' cho hai hoặc nhiều bộ phận cơ thể.",
+   "examples": [
+    "This is my head.",
+    "These are my eyes.",
+    "This is my nose.",
+    "These are my fingers."
+   ],
+   "right": "✅ These are my hands.",
+   "wrong": "❌ This are my hands."
+  },
+  {
+   "title": "I have / You have",
+   "explain_en": "We use 'I have' to talk about our own body parts. We use 'You have' to talk about someone else's body parts.",
+   "explain_vi": "Chúng ta dùng 'I have' để nói về các bộ phận cơ thể của mình. Chúng ta dùng 'You have' để nói về các bộ phận cơ thể của người khác.",
+   "examples": [
+    "I have one head.",
+    "I have two arms.",
+    "You have two ears.",
+    "You have ten toes."
+   ],
+   "right": "✅ I have two legs.",
+   "wrong": "❌ I has two legs."
+  },
+  {
+   "title": "Can / Can't for actions",
+   "explain_en": "We use 'can' to say what we are able to do. We use 'can't' to say what we are not able to do.",
+   "explain_vi": "Chúng ta dùng 'can' để nói về những gì chúng ta có thể làm được. Chúng ta dùng 'can't' để nói về những gì chúng ta không thể làm được.",
+   "examples": [
+    "I can run with my legs.",
+    "I can clap my hands.",
+    "I can't fly.",
+    "I can't touch the sky."
+   ],
+   "right": "✅ I can jump.",
+   "wrong": "❌ I cans jump."
+  },
+  {
+   "title": "Adjectives for body parts",
+   "explain_en": "We use adjectives like 'big', 'small', 'long', 'short' to describe body parts.",
+   "explain_vi": "Chúng ta dùng các tính từ như 'big' (lớn), 'small' (nhỏ), 'long' (dài), 'short' (ngắn) để mô tả các bộ phận cơ thể.",
+   "examples": [
+    "My eyes are big.",
+    "My nose is small.",
+    "My hair is long.",
+    "My fingers are short."
+   ],
+   "right": "✅ My legs are long.",
+   "wrong": "❌ My legs long are."
+  }
+ ],
+ "song": {
+  "title": "My Body Song",
+  "tune": "Sing to the tune of 'Head, Shoulders, Knees and Toes'",
+  "lines": [
+   "Head, shoulders, knees and toes,",
+   "Knees and toes.",
+   "Head, shoulders, knees and toes,",
+   "Eyes, ears, mouth and nose.",
+   "Arms and hands, legs and feet,",
+   "Legs and feet.",
+   "Arms and hands, legs and feet,",
+   "My body is so neat!"
+  ],
+  "actions_vi": "Chạm vào đầu, vai, đầu gối và ngón chân theo lời bài hát. Chạm vào mắt, tai, miệng và mũi khi nhắc đến. Vung tay và vỗ tay, nhấc chân và giậm chân."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY BODY",
+   "text": "Hello! My name is Ben. This is my body. I have one head. I have two eyes. I have two ears. I have one nose and one mouth. This is my arm. These are my hands. I have two legs and two feet. My body is great!",
+   "image_prompt": "A happy Vietnamese boy named Ben, 7 years old, standing and pointing to his own head, then his eyes, then his hands. He is smiling. Bright and simple background. No text.",
+   "vocab": [
+    {
+     "en": "body",
+     "ipa": "/ˈbɑːdi/",
+     "vi": "cơ thể"
+    },
+    {
+     "en": "head",
+     "ipa": "/hɛd/",
+     "vi": "đầu"
+    },
+    {
+     "en": "eye",
+     "ipa": "/aɪ/",
+     "vi": "mắt"
+    },
+    {
+     "en": "ear",
+     "ipa": "/ɪr/",
+     "vi": "tai"
+    },
+    {
+     "en": "nose",
+     "ipa": "/noʊz/",
+     "vi": "mũi"
+    },
+    {
+     "en": "mouth",
+     "ipa": "/maʊθ/",
+     "vi": "miệng"
+    },
+    {
+     "en": "arm",
+     "ipa": "/ɑːrm/",
+     "vi": "cánh tay"
+    },
+    {
+     "en": "hand",
+     "ipa": "/hænd/",
+     "vi": "bàn tay"
+    },
+    {
+     "en": "leg",
+     "ipa": "/lɛɡ/",
+     "vi": "chân"
+    },
+    {
+     "en": "foot",
+     "ipa": "/fʊt/",
+     "vi": "bàn chân"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "How many heads does Ben have?",
+    "How many eyes does Ben have?",
+    "How many ears does Ben have?",
+    "Does Ben have one nose or two noses?",
+    "Does Ben have one mouth or two mouths?",
+    "What is this? (It is an arm)",
+    "Are these his hands or his feet?",
+    "How many legs does Ben have?",
+    "How many feet does Ben have?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben has two heads.",
+     "answer": false
+    },
+    {
+     "statement": "Ben has two eyes.",
+     "answer": true
+    },
+    {
+     "statement": "Ben has one nose.",
+     "answer": true
+    },
+    {
+     "statement": "Ben has one arm.",
+     "answer": false
+    },
+    {
+     "statement": "Ben has two legs.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "WHAT CAN I DO?",
+   "text": "My name is Mai. I am seven years old. I have a happy body. I can do many things! I can see with my two big eyes. I can hear with my two ears. I can smell with my nose and eat with my mouth. I have two arms and two hands. I can clap my hands. I have two long legs and two feet. I can run and jump with my legs. My body is strong. I love my body!",
+   "image_prompt": "A cheerful Vietnamese girl named Mai, 7 years old, running and jumping in a park. She has bright, energetic eyes and a big smile. Other children are playing in the background. No text.",
+   "vocab": [
+    {
+     "en": "happy",
+     "ipa": "/ˈhæpi/",
+     "vi": "vui vẻ"
+    },
+    {
+     "en": "see",
+     "ipa": "/siː/",
+     "vi": "nhìn"
+    },
+    {
+     "en": "hear",
+     "ipa": "/hɪr/",
+     "vi": "nghe"
+    },
+    {
+     "en": "smell",
+     "ipa": "/smɛl/",
+     "vi": "ngửi"
+    },
+    {
+     "en": "eat",
+     "ipa": "/iːt/",
+     "vi": "ăn"
+    },
+    {
+     "en": "clap",
+     "ipa": "/klæp/",
+     "vi": "vỗ"
+    },
+    {
+     "en": "run",
+     "ipa": "/rʌn/",
+     "vi": "chạy"
+    },
+    {
+     "en": "jump",
+     "ipa": "/dʒʌmp/",
+     "vi": "nhảy"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɔːŋ/",
+     "vi": "khỏe mạnh"
+    },
+    {
+     "en": "love",
+     "ipa": "/lʌv/",
+     "vi": "yêu"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Mai?",
+    "What kind of body does Mai have?",
+    "What can Mai do with her eyes?",
+    "What can Mai do with her ears?",
+    "What can Mai do with her nose?",
+    "What can Mai do with her mouth?",
+    "How many arms does Mai have?",
+    "What can Mai do with her hands?",
+    "What can Mai do with her legs?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "Mai can see with her ears.",
+     "answer": false
+    },
+    {
+     "statement": "Mai can clap her hands.",
+     "answer": true
+    },
+    {
+     "statement": "Mai has two long legs.",
+     "answer": true
+    },
+    {
+     "statement": "Mai does not love her body.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "MY WONDERFUL BODY",
+   "text": "Hello, friends! I am Linh. My body is wonderful! I have a head on top. My head has my hair, my face, my eyes, my nose, and my mouth. My two ears are on the sides of my head. I have a neck to connect my head to my body. Below my neck, I have two shoulders. My two arms connect to my shoulders. Each arm has an elbow and a hand. I have ten fingers on my two hands. My body has a stomach and a back. I have two legs below my stomach. Each leg has a knee and a foot. I have ten toes on my two feet. My body helps me play, learn, and grow every day. It is special!",
+   "image_prompt": "A happy Vietnamese girl named Linh, 7 years old, standing and playfully pointing to various body parts like her neck, shoulders, elbows, and knees. She is dressed in comfortable clothes, on a bright, inviting background. No text.",
+   "vocab": [
+    {
+     "en": "wonderful",
+     "ipa": "/ˈwʌndərfəl/",
+     "vi": "tuyệt vời"
+    },
+    {
+     "en": "top",
+     "ipa": "/tɑːp/",
+     "vi": "trên cùng"
+    },
+    {
+     "en": "side",
+     "ipa": "/saɪd/",
+     "vi": "bên cạnh"
+    },
+    {
+     "en": "connect",
+     "ipa": "/kəˈnɛkt/",
+     "vi": "nối"
+    },
+    {
+     "en": "below",
+     "ipa": "/bɪˈloʊ/",
+     "vi": "dưới"
+    },
+    {
+     "en": "each",
+     "ipa": "/iːtʃ/",
+     "vi": "mỗi"
+    },
+    {
+     "en": "stomach",
+     "ipa": "/ˈstʌmək/",
+     "vi": "bụng"
+    },
+    {
+     "en": "back",
+     "ipa": "/bæk/",
+     "vi": "lưng"
+    },
+    {
+     "en": "play",
+     "ipa": "/pleɪ/",
+     "vi": "chơi"
+    },
+    {
+     "en": "grow",
+     "ipa": "/ɡroʊ/",
+     "vi": "lớn lên"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "What is on top of Linh's body?",
+    "What does Linh's head have?",
+    "Where are Linh's ears?",
+    "What connects Linh's head to her body?",
+    "How many shoulders does Linh have?",
+    "What connects to Linh's shoulders?",
+    "How many fingers does Linh have on her two hands?",
+    "Where are Linh's legs?",
+    "What does Linh's body help her do every day?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh's body is not wonderful.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's ears are on the front of her head.",
+     "answer": false
+    },
+    {
+     "statement": "Linh has a neck.",
+     "answer": true
+    },
+    {
+     "statement": "Linh has ten fingers.",
+     "answer": true
+    },
+    {
+     "statement": "Linh's body helps her fly.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "My Funny Body",
+  "panels": [
+   {
+    "scene": "A Vietnamese boy, Nam, is standing and looking at his reflection in a mirror. He points to his nose with a puzzled look.",
+    "speech": "Nam: This is my nose. It is small!"
+   },
+   {
+    "scene": "A Vietnamese girl, Mai, joins Nam. She points to her own nose and smiles.",
+    "speech": "Mai: Yes, your nose is small. My nose is small too!"
+   },
+   {
+    "scene": "Nam laughs and points to his ears. Mai giggles.",
+    "speech": "Nam: But my ears are big! Can you see them?"
+   },
+   {
+    "scene": "Mai laughs and covers her ears playfully. Nam makes a funny face, wiggling his ears.",
+    "speech": "Mai: Ha ha! Yes, your ears are big and funny! My ears are small."
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your name?",
+   "How old are you?",
+   "Can you touch your head?",
+   "How many eyes do you have?",
+   "What color are your eyes?",
+   "Do you have long hair or short hair?",
+   "What can you do with your hands?",
+   "Can you clap your hands?",
+   "How many fingers do you have?",
+   "Can you touch your toes?",
+   "What can you do with your legs?",
+   "Do you have a big mouth or a small mouth?",
+   "What is your favorite body part?",
+   "Why do you like your (favorite body part)?",
+   "What can your body do for you?"
+  ],
+  "model": "Hello! My name is Minh. I am seven years old. I have one head and two eyes. My eyes are brown. I have short hair. I can clap my hands and I can run fast with my legs. I have ten fingers and ten toes. My body is strong. I love my body because it helps me play and learn every day.",
+  "challenge": "Talk about your body for 30–60 seconds. Tell us about your head, eyes, hands, and legs. What can you do with them?"
+ },
+ "conversations": [
+  {
+   "title": "Talking about My Body",
+   "image_prompt": "Two Vietnamese children, a boy named Alex and a girl named Lucy, sitting on a colorful rug. Alex is pointing to his arm, and Lucy is looking at her own hand. They are smiling and engaged in conversation. No text.",
+   "lines": [
+    {
+     "speaker": "Alex",
+     "text": "Hi, Lucy! This is my arm."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Hello, Alex! Yes, it is your arm. And these are my hands."
+    },
+    {
+     "speaker": "Alex",
+     "text": "Wow! You have two hands."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, I do. I have ten fingers too. How many fingers do you have?"
+    },
+    {
+     "speaker": "Alex",
+     "text": "I have ten fingers! I can count them: one, two, three… ten!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "That's great! I can clap with my hands. Can you clap?"
+    },
+    {
+     "speaker": "Alex",
+     "text": "Yes, I can! Clap, clap, clap!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "My body is so fun!"
+    }
+   ]
+  },
+  {
+   "title": "What Can You Do?",
+   "image_prompt": "Two diverse children, a boy named Tom and a girl named Lily, standing outside. Tom is trying to touch his toes, and Lily is watching him with a curious expression. They are wearing bright, comfortable clothes. No text.",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "text": "Look, Lily! I can touch my toes."
+    },
+    {
+     "speaker": "Lily",
+     "text": "Oh, wow! Your legs are long."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, they are. I can run fast with my legs."
+    },
+    {
+     "speaker": "Lily",
+     "text": "I can run fast too! My legs are strong."
+    },
+    {
+     "speaker": "Tom",
+     "text": "What else can you do with your body?"
+    },
+    {
+     "speaker": "Lily",
+     "text": "I can jump high! And I can sing with my mouth."
+    },
+    {
+     "speaker": "Tom",
+     "text": "That's cool! Can you wiggle your ears?"
+    },
+    {
+     "speaker": "Lily",
+     "text": "No, I can't wiggle my ears. Can you?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "No, I can't either! My ears just listen."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, children! Today we talk about our bodies. Listen carefully. My name is Ms. Hoa. I have two eyes and one nose. I have two ears and one mouth. My hair is long. I have two arms and two hands. I have ten fingers. I also have two legs and two feet. I have ten toes. I can walk and run with my legs. I can clap my hands. Our bodies are amazing! They help us do many things. What about your body? How many eyes do you have? How many fingers do you have? Think about it!",
+  "questions": [
+   "What is the teacher's name?",
+   "Does Ms. Hoa have one nose or two noses?",
+   "Does Ms. Hoa have short hair or long hair?",
+   "How many arms does Ms. Hoa have?",
+   "How many hands does Ms. Hoa have?",
+   "How many fingers does Ms. Hoa have?",
+   "How many legs does Ms. Hoa have?",
+   "How many feet does Ms. Hoa have?",
+   "How many toes does Ms. Hoa have?",
+   "What can Ms. Hoa do with her legs?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "HEAD",
+   "NOSE",
+   "ARMS",
+   "HANDS",
+   "LEGS",
+   "FEET",
+   "EYES",
+   "MOUTH"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "head",
+     "eye",
+     "nose",
+     "arm"
+    ],
+    "answer": "arm",
+    "why_vi": "Cánh tay không nằm trên mặt."
+   },
+   {
+    "options": [
+     "finger",
+     "toe",
+     "hand",
+     "ear"
+    ],
+    "answer": "ear",
+    "why_vi": "Tai không phải là bộ phận của bàn tay hoặc bàn chân."
+   },
+   {
+    "options": [
+     "run",
+     "jump",
+     "clap",
+     "body"
+    ],
+    "answer": "body",
+    "why_vi": "Cơ thể là một danh từ, các từ còn lại là hành động."
+   },
+   {
+    "options": [
+     "mouth",
+     "stomach",
+     "back",
+     "shoulder"
+    ],
+    "answer": "mouth",
+    "why_vi": "Miệng là một bộ phận trên mặt, các từ còn lại là bộ phận của thân."
+   },
+   {
+    "options": [
+     "long",
+     "short",
+     "big",
+     "finger"
+    ],
+    "answer": "finger",
+    "why_vi": "Ngón tay là một danh từ, các từ còn lại là tính từ mô tả."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am on your head. I can be long or short. What am I?",
+    "answer": "hair"
+   },
+   {
+    "riddle": "I help you see. You have two of me. What am I?",
+    "answer": "eyes"
+   },
+   {
+    "riddle": "You have ten of me on your feet. What am I?",
+    "answer": "toes"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "deha",
+    "answer": "head"
+   },
+   {
+    "scrambled": "seon",
+    "answer": "nose"
+   },
+   {
+    "scrambled": "sarm",
+    "answer": "arms"
+   },
+   {
+    "scrambled": "egls",
+    "answer": "legs"
+   },
+   {
+    "scrambled": "tuomh",
+    "answer": "mouth"
+   },
+   {
+    "scrambled": "eys",
+    "answer": "eyes"
+   }
+  ],
+  "picture_count": {
+   "question": "How many arms can you see in the cover picture?",
+   "hint_vi": "Hãy đếm số cánh tay của tất cả các bạn nhỏ trong hình bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Body Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ____ years old.",
+   "I have ____ head.",
+   "I have ____ eyes.",
+   "My eyes are ____.",
+   "I have ____ nose.",
+   "I have ____ mouth.",
+   "I have ____ arms and ____ hands.",
+   "I have ____ fingers.",
+   "I have ____ legs and ____ feet."
+  ],
+  "frame_title": "MY BODY",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "This is my body.",
+   "I have one ____.",
+   "I have two ____.",
+   "My ____ are ____.",
+   "I can ____ with my ____.",
+   "I can ____ with my ____.",
+   "My body is ____.",
+   "I love my body!"
+  ]
+ },
+ "life_skill": {
+  "title": "TAKE CARE OF YOUR BODY",
+  "intro": "Your body is amazing! It helps you play, learn, and grow. It is important to take good care of it every day.",
+  "intro_vi": "Cơ thể của em thật tuyệt vời! Nó giúp em chơi đùa, học hỏi và lớn lên. Điều quan trọng là phải chăm sóc tốt cho cơ thể mỗi ngày.",
+  "can_do": [
+   "Wash my hands often.",
+   "Brush my teeth every morning and night.",
+   "Take a bath or shower.",
+   "Eat healthy food.",
+   "Drink lots of water.",
+   "Get enough sleep.",
+   "Play outside every day.",
+   "Run and jump.",
+   "Listen to my body when it needs rest.",
+   "Keep my hair clean.",
+   "Wear clean clothes.",
+   "Visit the doctor when I am sick."
+  ],
+  "value_question": "What is one new thing you can do to take better care of your body?",
+  "image_prompt": "A happy diverse group of children, including Vietnamese kids, performing various healthy actions: one brushing teeth, one eating an apple, one running, one drinking water, and one sleeping peacefully. All actions are shown with a cheerful, clean aesthetic. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Your heart beats about 100,000 times a day!",
+   "vi": "Em có biết không? Trái tim của em đập khoảng 100.000 lần mỗi ngày!"
+  },
+  {
+   "en": "Did you know? Your nose can smell over 1 trillion different smells!",
+   "vi": "Em có biết không? Mũi của em có thể ngửi hơn 1 nghìn tỷ mùi hương khác nhau!"
+  },
+  {
+   "en": "Did you know? You have 20 bones in each foot!",
+   "vi": "Em có biết không? Em có 20 xương ở mỗi bàn chân!"
+  },
+  {
+   "en": "Did you know? Your hair grows about 1 cm every month!",
+   "vi": "Em có biết không? Tóc của em mọc dài khoảng 1 cm mỗi tháng!"
+  },
+  {
+   "en": "Did you know? Your tongue has tiny bumps called taste buds that help you taste food!",
+   "vi": "Em có biết không? Lưỡi của em có những nốt nhỏ gọi là chồi vị giác giúp em nếm thức ăn!"
+  }
+ ],
+ "project": {
+  "title": "MY HEALTHY BODY POSTER",
+  "task": "Create a poster about 'My Healthy Body'. Draw pictures of body parts and what they can do, or how to keep them healthy. Write sentences about your drawings.",
+  "draw_items": [
+   "A happy head with clean hair",
+   "Smiling face with bright eyes",
+   "Hands washing with soap",
+   "Legs running and jumping",
+   "A child eating healthy food",
+   "A child drinking water",
+   "A child sleeping",
+   "A child brushing teeth"
+  ],
+  "example": [
+   "This is my head. I have clean hair.",
+   "These are my eyes. I can see with my eyes.",
+   "These are my hands. I wash my hands.",
+   "These are my legs. I can run and jump.",
+   "I eat healthy food for my body."
+  ],
+  "present": "Hello everyone! This is my 'Healthy Body' poster. This is my head. I keep my hair clean. These are my hands. I wash my hands often. My body is healthy!",
+  "image_prompt": "A cheerful Vietnamese boy, 7 years old, proudly presenting his 'My Healthy Body' poster in a classroom. The poster shows colorful drawings of kids performing healthy actions like running, eating fruits, and washing hands. Other diverse classmates are watching and smiling. No text on the poster or in the scene."
+ },
+ "classroom_game": {
+  "name": "Body Part Simon Says",
+  "players": "Whole class",
+  "steps_en": [
+   "1. The teacher says 'Simon says, touch your head!'",
+   "2. Students touch their head. If the teacher says just 'Touch your head!', students should not touch.",
+   "3. If a student touches when Simon doesn't say, they are out.",
+   "4. The last student remaining wins!"
+  ],
+  "steps_vi": [
+   "1. Giáo viên nói 'Simon says, touch your head!' (Simon nói, chạm vào đầu của bạn!)",
+   "2. Học sinh chạm vào đầu của mình. Nếu giáo viên chỉ nói 'Touch your head!', học sinh không được chạm.",
+   "3. Nếu học sinh chạm vào mà không có 'Simon says', học sinh đó sẽ bị loại.",
+   "4. Học sinh cuối cùng còn lại sẽ thắng cuộc!"
+  ],
+  "language": [
+   "Simon says, touch your ____.",
+   "Touch your ____.",
+   "How many ____ do you have?"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "h__d",
+    "answer": "head"
+   },
+   {
+    "word": "n__se",
+    "answer": "nose"
+   },
+   {
+    "word": "__ye",
+    "answer": "eye"
+   },
+   {
+    "word": "__ar",
+    "answer": "ear"
+   },
+   {
+    "word": "m__th",
+    "answer": "mouth"
+   },
+   {
+    "word": "h__nd",
+    "answer": "hand"
+   },
+   {
+    "word": "__rm",
+    "answer": "arm"
+   },
+   {
+    "word": "l__g",
+    "answer": "leg"
+   },
+   {
+    "word": "f__ot",
+    "answer": "foot"
+   },
+   {
+    "word": "t__e",
+    "answer": "toe"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ______ my nose.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I have two ______.",
+    "options": [
+     "eye",
+     "eyes",
+     "ey"
+    ],
+    "answer": "eyes"
+   },
+   {
+    "q": "I can ______ with my hands.",
+    "options": [
+     "run",
+     "clap",
+     "see"
+    ],
+    "answer": "clap"
+   },
+   {
+    "q": "These ______ my fingers.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "are"
+   },
+   {
+    "q": "My hair is ______.",
+    "options": [
+     "long",
+     "arm",
+     "mouth"
+    ],
+    "answer": "long"
+   },
+   {
+    "q": "How many ______ do you have?",
+    "options": [
+     "hand",
+     "hands",
+     "handss"
+    ],
+    "answer": "hands"
+   },
+   {
+    "q": "I ______ run fast.",
+    "options": [
+     "am",
+     "can",
+     "is"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "What is this? It is my ______.",
+    "options": [
+     "feet",
+     "leg",
+     "legs"
+    ],
+    "answer": "leg"
+   },
+   {
+    "q": "I have one ______.",
+    "options": [
+     "head",
+     "heads",
+     "hand"
+    ],
+    "answer": "head"
+   },
+   {
+    "q": "I can ______ with my legs.",
+    "options": [
+     "hear",
+     "smell",
+     "jump"
+    ],
+    "answer": "jump"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / head / my",
+    "answer": "This is my head."
+   },
+   {
+    "words": "have / I / eyes / two",
+    "answer": "I have two eyes."
+   },
+   {
+    "words": "are / These / hands / my",
+    "answer": "These are my hands."
+   },
+   {
+    "words": "can / I / run / legs / my / with",
+    "answer": "I can run with my legs."
+   },
+   {
+    "words": "is / nose / My / small",
+    "answer": "My nose is small."
+   },
+   {
+    "words": "many / How / have / do / you / toes?",
+    "answer": "How many toes do you have?"
+   },
+   {
+    "words": "can / I / clap / hands / my",
+    "answer": "I can clap my hands."
+   },
+   {
+    "words": "have / You / two / ears",
+    "answer": "You have two ears."
+   },
+   {
+    "words": "body / My / is / wonderful",
+    "answer": "My body is wonderful."
+   },
+   {
+    "words": "touch / Let's / shoulders / our",
+    "answer": "Let's touch our shoulders."
+   }
+  ],
+  "about_you": [
+   "What is your favorite body part?",
+   "How many eyes do you have?",
+   "What color are your eyes?",
+   "Do you have long hair or short hair?",
+   "Can you touch your nose?",
+   "Can you clap your hands?",
+   "Can you jump high?",
+   "What can you do with your mouth?",
+   "How many fingers do you have?",
+   "What do you do to keep your body healthy?"
+  ]
+ },
+ "i_can": [
+  "I can say body parts in English.",
+  "I can use 'This is' for one body part.",
+  "I can use 'These are' for many body parts.",
+  "I can say 'I have' for my body parts.",
+  "I can describe my body parts with adjectives like 'big' and 'small'.",
+  "I can ask 'How many... do you have?'.",
+  "I can say what I can do with my body parts (e.g., 'I can see with my eyes').",
+  "I can sing the 'My Body Song'.",
+  "I can understand short stories about the body.",
+  "I can talk about my own body for a short time.",
+  "I can follow instructions like 'Simon says, touch your head'.",
+  "I can write sentences about my body.",
+  "I can identify 'odd one out' body words.",
+  "I can make a poster about a healthy body.",
+  "I can tell one way to take care of my body."
+ ],
+ "message_en": "YOUR BODY IS AMAZING! TAKE GOOD CARE OF IT AND IT WILL HELP YOU DO WONDERFUL THINGS.",
+ "message_vi": "CƠ THỂ CỦA EM THẬT TUYỆT VỜI! HÃY CHĂM SÓC NÓ THẬT TỐT VÀ NÓ SẼ GIÚP EM LÀM ĐƯỢC NHỮNG ĐIỀU KỲ DIỆU.",
+ "message_body": "Dear Roxy English learner, your body is your best friend. It helps you explore the world, play with friends, and learn new things every day. Remember to keep it healthy and strong. We are so proud of you!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 3,
+ "grade": 2,
+ "validation": []
+}

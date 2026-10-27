@@ -1,0 +1,1169 @@
+{
+ "title": "TET AND FESTIVALS",
+ "theme": "Culture",
+ "goal": "Students can talk about Tet and traditional festivals, describe future plans, and share past experiences using simple tenses and comparatives.",
+ "goal_vi": "Học sinh có thể nói về Tết và các lễ hội truyền thống, mô tả kế hoạch tương lai và chia sẻ trải nghiệm đã qua bằng các thì cơ bản và so sánh hơn.",
+ "cover_emoji": "🧨🧧🌸",
+ "cover_image_prompt": "A cheerful illustration of Vietnamese primary school children in traditional colorful Ao Dai celebrating Tet outdoors under bright pink peach blossom trees and yellow apricot flowers with red lanterns hanging above.",
+ "big_question": {
+  "en": "How do you celebrate Tet and special festivals with your family?",
+  "vi": "Bạn ăn mừng Tết và các lễ hội đặc biệt cùng gia đình như thế nào?",
+  "prompts": [
+   "What is your favorite festival?",
+   "Do you like Tet holiday?",
+   "What color of envelope brings lucky money?",
+   "Who do you visit during Tet?",
+   "What special foods do you eat at festivals?",
+   "Can you see colorful fireworks at New Year's Eve?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "Tet holiday",
+   "ipa": "/ˈtɛt ˈhɑːlədeɪ/",
+   "vi": "dịp lễ Tết",
+   "emoji": "🧨",
+   "image_prompt": "A festive red envelope and a branch of pink peach blossom representing Lunar New Year holiday."
+  },
+  {
+   "en": "peach blossom",
+   "ipa": "/piːtʃ ˈblɑːsəm/",
+   "vi": "hoa đào",
+   "emoji": "🌸",
+   "image_prompt": "A beautiful branch with delicate bright pink peach blossom flowers in full bloom."
+  },
+  {
+   "en": "apricot blossom",
+   "ipa": "/ˈeɪprɪkɑːt ˈblɑːsəm/",
+   "vi": "hoa mai",
+   "emoji": "🌼",
+   "image_prompt": "A bright yellow apricot blossom branch with fresh green leaves and sunny petals."
+  },
+  {
+   "en": "lucky money",
+   "ipa": "/ˈlʌki ˈmʌni/",
+   "vi": "tiền lì xì",
+   "emoji": "🧧",
+   "image_prompt": "A shiny red envelope with golden decorative patterns filled with clean paper bills."
+  },
+  {
+   "en": "sticky rice cake",
+   "ipa": "/ˈstɪki raɪs keɪk/",
+   "vi": "bánh chưng / bánh tét",
+   "emoji": "🟩",
+   "image_prompt": "A green square wrapped sticky rice cake tied neatly with bamboo string."
+  },
+  {
+   "en": "fireworks",
+   "ipa": "/ˈfaɪərwɜːrks/",
+   "vi": "pháo hoa",
+   "emoji": "🎆",
+   "image_prompt": "Colorful bright fireworks exploding in the dark night sky above a peaceful city."
+  },
+  {
+   "en": "family reunion",
+   "ipa": "/ˈfæməli riːˈjuːniən/",
+   "vi": "sự đoàn tụ gia đình",
+   "emoji": "👨‍👩‍👧‍👦",
+   "image_prompt": "A happy Vietnamese family with grandparents, parents, and children sitting together around a dining table."
+  },
+  {
+   "en": "decorate",
+   "ipa": "/ˈdɛkəreɪt/",
+   "vi": "trang trí",
+   "emoji": "🎋",
+   "image_prompt": "A young boy and girl hanging small red ornaments onto a flower branch."
+  },
+  {
+   "en": "dragon dance",
+   "ipa": "/ˈdræɡən dæns/",
+   "vi": "múa lân / múa rồng",
+   "emoji": "🐉",
+   "image_prompt": "Performers holding poles to dance a large red and gold traditional dragon costume on a sunny street."
+  },
+  {
+   "en": "lantern",
+   "ipa": "/ˈlæntərn/",
+   "vi": "đèn lồng",
+   "emoji": "🏮",
+   "image_prompt": "A glowing red paper lantern shaped like a star hanging under a wooden porch."
+  },
+  {
+   "en": "mooncake",
+   "ipa": "/ˈmuːnkeɪk/",
+   "vi": "bánh trung thu",
+   "emoji": "🥮",
+   "image_prompt": "A golden-brown baked mooncake cut into slices showing a salted egg yolk inside."
+  },
+  {
+   "en": "costume",
+   "ipa": "/ˈkɑːstuːm/",
+   "vi": "trang phục truyền thống",
+   "emoji": "👘",
+   "image_prompt": "A cute Vietnamese girl wearing an elegant traditional red Ao Dai dress."
+  },
+  {
+   "en": "festival",
+   "ipa": "/ˈfɛstɪvl/",
+   "vi": "lễ hội",
+   "emoji": "🎉",
+   "image_prompt": "A lively outdoor festival square full of colorful banners, flowers, and happy crowds."
+  },
+  {
+   "en": "tradition",
+   "ipa": "/trəˈdɪʃn/",
+   "vi": "truyền thống",
+   "emoji": "📜",
+   "image_prompt": "An elderly grandfather teaching a boy how to paint traditional calligraphy on red paper."
+  },
+  {
+   "en": "celebrate",
+   "ipa": "/ˈsɛlɪbreɪt/",
+   "vi": "ăn mừng, kỷ niệm",
+   "emoji": "🥳",
+   "image_prompt": "Children wearing party hats cheering happily with colorful confetti falling around them."
+  },
+  {
+   "en": "feast",
+   "ipa": "/fiːst/",
+   "vi": "bữa tiệc lớn",
+   "emoji": "🍽️",
+   "image_prompt": "A big dining table full of delicious holiday dishes, chicken, soups, and fruits."
+  },
+  {
+   "en": "wish",
+   "ipa": "/wɪʃ/",
+   "vi": "lời chúc / chúc",
+   "emoji": "🌠",
+   "image_prompt": "A young child bowing respectfully to give good health wishes to her smiling grandmother."
+  },
+  {
+   "en": "spring",
+   "ipa": "/sprɪŋ/",
+   "vi": "mùa xuân",
+   "emoji": "🌿",
+   "image_prompt": "A green park blooming with fresh flowers, gentle butterflies, and bright sunshine."
+  },
+  {
+   "en": "parade",
+   "ipa": "/pəˈreɪd/",
+   "vi": "cuộc diễu hành",
+   "emoji": "🥁",
+   "image_prompt": "A street parade with musicians playing drums and children waving small flags."
+  },
+  {
+   "en": "visit",
+   "ipa": "/ˈvɪzɪt/",
+   "vi": "thăm hỏi",
+   "emoji": "🏠",
+   "image_prompt": "A smiling family walking up to a cozy wooden gate carrying gift baskets to visit relatives."
+  }
+ ],
+ "phonics": {
+  "sound": "/st/",
+  "letters": "st",
+  "words": [
+   "sticky",
+   "star",
+   "street",
+   "story",
+   "costume",
+   "stay"
+  ],
+  "chant": "Star lanterns shine in the street so bright,\nSticky rice cakes make a tasty bite!",
+  "tip_vi": "Phát âm âm /s/ nhẹ trước rồi lướt nhanh sang âm /t/, không thêm âm 'ơ' vào giữa."
+ },
+ "patterns": [
+  {
+   "pattern": "What do you do at Tet?",
+   "vi": "Bạn làm gì vào dịp Tết?",
+   "examples": [
+    "What do you do at Tet? - I visit my grandparents.",
+    "What do you do at Tet? - I get lucky money.",
+    "What do you do at Tet? - We decorate our house."
+   ]
+  },
+  {
+   "pattern": "What will you do this holiday?",
+   "vi": "Bạn sẽ làm gì vào kỳ nghỉ này?",
+   "examples": [
+    "What will you do this holiday? - I will watch fireworks.",
+    "What will you do this holiday? - I will make sticky rice cakes.",
+    "What will you do this holiday? - We will travel to Hue."
+   ]
+  },
+  {
+   "pattern": "Did you watch the dragon dance yesterday?",
+   "vi": "Hôm qua bạn có xem múa lân không?",
+   "examples": [
+    "Did you watch the dragon dance yesterday? - Yes, I did.",
+    "Did you watch the dragon dance yesterday? - No, I didn't.",
+    "Did you eat mooncakes last week? - Yes, I did."
+   ]
+  },
+  {
+   "pattern": "We decorate our house with + noun.",
+   "vi": "Chúng tôi trang trí nhà cửa bằng...",
+   "examples": [
+    "We decorate our house with peach blossoms.",
+    "We decorate our house with yellow flowers.",
+    "We decorate our house with bright red lanterns."
+   ]
+  },
+  {
+   "pattern": "People wear beautiful costumes at the festival.",
+   "vi": "Mọi người mặc trang phục đẹp tại lễ hội.",
+   "examples": [
+    "People wear beautiful costumes at the festival.",
+    "Children wear red Ao Dai at Tet.",
+    "Dancers wear colorful costumes during the parade."
+   ]
+  },
+  {
+   "pattern": "Subject + is/are + comparative adjective + than...",
+   "vi": "Ai/Cái gì thì... hơn...",
+   "examples": [
+    "Lanterns are brighter than candles.",
+    "Tet is louder than normal days.",
+    "Dragon drums are noisier than soft songs."
+   ]
+  },
+  {
+   "pattern": "Can you make sticky rice cakes?",
+   "vi": "Bạn có thể gói bánh chưng không?",
+   "examples": [
+    "Can you make sticky rice cakes? - Yes, I can.",
+    "Can you play the festival drum? - No, I cannot.",
+    "Can you wear an Ao Dai? - Yes, I can."
+   ]
+  },
+  {
+   "pattern": "My family had a big feast yesterday.",
+   "vi": "Gia đình tôi đã có một bữa tiệc lớn ngày hôm qua.",
+   "examples": [
+    "My family had a big feast yesterday.",
+    "We ate delicious cakes last night.",
+    "I gave my best wishes to my teachers."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Future Simple with 'will'",
+   "explain_en": "We use 'will + verb' to talk about plans or actions in the future during upcoming holidays.",
+   "explain_vi": "Dùng 'will + động từ nguyên mẫu' để nói về kế hoạch hoặc hành động trong tương lai vào dịp lễ tới.",
+   "examples": [
+    "I will visit my hometown next week.",
+    "She will buy a new traditional dress.",
+    "They will watch fireworks on New Year's Eve."
+   ],
+   "right": "✅ I will get lucky money tomorrow.",
+   "wrong": "❌ I will getting lucky money tomorrow."
+  },
+  {
+   "title": "Past Simple Tense",
+   "explain_en": "We use Past Simple to talk about finished actions during past festivals (visited, watched, ate, made).",
+   "explain_vi": "Dùng thì Quá khứ đơn để nói về những sự việc đã xảy ra và kết thúc trong các lễ hội đã qua.",
+   "examples": [
+    "We visited our aunt yesterday.",
+    "Nam watched a dragon dance last night.",
+    "My family made sticky rice cakes two days ago."
+   ],
+   "right": "✅ She gave me a red envelope yesterday.",
+   "wrong": "❌ She gives me a red envelope yesterday."
+  },
+  {
+   "title": "Present Continuous for Festival Actions",
+   "explain_en": "We use 'am/is/are + V-ing' to describe actions happening right now at the festival.",
+   "explain_vi": "Dùng 'am/is/are + V-ing' để mô tả những hoạt động đang diễn ra ngay lúc này tại lễ hội.",
+   "examples": [
+    "Look! The dragon is dancing on the street.",
+    "Children are playing with star lanterns.",
+    "Mom is decorating the living room."
+   ],
+   "right": "✅ They are dancing right now.",
+   "wrong": "❌ They is dancing right now."
+  },
+  {
+   "title": "Simple Comparatives (-er than)",
+   "explain_en": "Add '-er than' to short adjectives to compare two things, people, or events.",
+   "explain_vi": "Thêm đuôi '-er than' vào sau tính từ ngắn để so sánh hai người, vật hoặc sự kiện.",
+   "examples": [
+    "This red lantern is brighter than that blue candle.",
+    "Tet is busier than normal weekends.",
+    "The drum sound is louder than the flute."
+   ],
+   "right": "✅ Spring is warmer than winter.",
+   "wrong": "❌ Spring is warm than winter."
+  }
+ ],
+ "song": {
+  "title": "TET IS HERE TODAY!",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Tet is coming, bright and red,",
+   "Peach flowers blossoming overhead.",
+   "Wear your dresses, bow so low,",
+   "Giving wishes as we go.",
+   "Lucky money in our hand,",
+   "Joy and smiles across the land!",
+   "Dragon dances in the street,",
+   "Sticky rice cakes sweet to eat.",
+   "Family feast and laughter gay,",
+   "Happy, happy Tet today!"
+  ],
+  "actions_vi": "Vỗ tay theo nhịp, nghiêng người cúi chào khi hát 'bow so low', và giơ tay tạo hình mở phong bao lì xì."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "TET IS COMING!",
+   "text": "Tet is the most important festival in Vietnam. Spring comes with warm sun and beautiful flowers. My family cleans and decorates our house before Tet. We buy pink peach blossoms for our living room. My mother cooks delicious sticky rice cakes in a big pot. On New Year's Day, I wear my new red Ao Dai. I visit my grandparents and wish them good health. They smile and give me red envelopes with lucky money. Tet is my favorite time of the year because my whole family gathers together happily.",
+   "image_prompt": "A happy family sitting together in a cozy room decorated with peach blossoms and red lanterns.",
+   "vocab": [
+    {
+     "en": "important",
+     "ipa": "/ɪmˈpɔːrtnt/",
+     "vi": "quan trọng"
+    },
+    {
+     "en": "clean",
+     "ipa": "/kliːn/",
+     "vi": "dọn dẹp"
+    },
+    {
+     "en": "pot",
+     "ipa": "/pɑːt/",
+     "vi": "cái nồi"
+    },
+    {
+     "en": "health",
+     "ipa": "/hɛlθ/",
+     "vi": "sức khỏe"
+    },
+    {
+     "en": "gather",
+     "ipa": "/ˈɡæðər/",
+     "vi": "tụ họp"
+    },
+    {
+     "en": "envelope",
+     "ipa": "/ˈɛnvəloʊp/",
+     "vi": "phong bì"
+    },
+    {
+     "en": "living room",
+     "ipa": "/ˈlɪvɪŋ ruːm/",
+     "vi": "phòng khách"
+    },
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích"
+    },
+    {
+     "en": "smile",
+     "ipa": "/smaɪl/",
+     "vi": "mỉm cười"
+    },
+    {
+     "en": "whole",
+     "ipa": "/hoʊl/",
+     "vi": "toàn bộ, cả"
+    }
+   ],
+   "questions": [
+    "What is the most important festival in Vietnam?",
+    "What season comes with Tet?",
+    "What do the family clean and decorate before Tet?",
+    "What flowers do they buy for the living room?",
+    "Where does the mother cook sticky rice cakes?",
+    "What does the child wear on New Year's Day?",
+    "Who does the child visit on New Year's Day?",
+    "What wishes does the child give to the grandparents?",
+    "What do the grandparents give the child?",
+    "Why is Tet the child's favorite time of year?"
+   ],
+   "true_false": [
+    {
+     "statement": "Tet is a festival in Vietnam.",
+     "answer": true
+    },
+    {
+     "statement": "The family buys blue roses for the living room.",
+     "answer": false
+    },
+    {
+     "statement": "The mother cooks sticky rice cakes in a pot.",
+     "answer": true
+    },
+    {
+     "statement": "The child wears old pyjamas on New Year's Day.",
+     "answer": false
+    },
+    {
+     "statement": "Grandparents give lucky money in red envelopes.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "THE MID-AUTUMN FESTIVAL",
+   "text": "Last month, our school celebrated the Mid-Autumn Festival. It is a special festival for children held in autumn under the bright full moon. Before the night came, my friends and I made beautiful star lanterns from bamboo and colorful paper. In the evening, we gathered at the school yard. The drums were louder than usual because the dragon dance started! A red and yellow dragon danced around the stage while we cheered happily. Afterwards, we enjoyed a sweet feast. We ate sweet mooncakes filled with lotus seeds and drank warm tea. My friend Mai sang a beautiful song about the moon. I took many photos with my camera. It was a wonderful night and everyone went home with big smiles.",
+   "image_prompt": "Children carrying star lanterns under a full moon outdoors while a dragon dance performs on stage.",
+   "vocab": [
+    {
+     "en": "autumn",
+     "ipa": "/ˈɔːtəm/",
+     "vi": "mùa thu"
+    },
+    {
+     "en": "full moon",
+     "ipa": "/fʊl muːn/",
+     "vi": "trăng tròn"
+    },
+    {
+     "en": "bamboo",
+     "ipa": "/bæmˈbuː/",
+     "vi": "cây tre"
+    },
+    {
+     "en": "yard",
+     "ipa": "/jɑːrd/",
+     "vi": "sân trường"
+    },
+    {
+     "en": "stage",
+     "ipa": "/steɪdʒ/",
+     "vi": "sân khấu"
+    },
+    {
+     "en": "cheer",
+     "ipa": "/tʃɪr/",
+     "vi": "reo hò"
+    },
+    {
+     "en": "lotus seed",
+     "ipa": "/ˈloʊtəs siːd/",
+     "vi": "hạt sen"
+    },
+    {
+     "en": "afterwards",
+     "ipa": "/ˈæftərwərdz/",
+     "vi": "sau đó"
+    },
+    {
+     "en": "wonderful",
+     "ipa": "/ˈwʌndərfl/",
+     "vi": "tuyệt vời"
+    },
+    {
+     "en": "loud",
+     "ipa": "/laʊd/",
+     "vi": "to (âm thanh)"
+    }
+   ],
+   "questions": [
+    "When did the school celebrate the Mid-Autumn Festival?",
+    "Who is this special festival mainly for?",
+    "What was in the sky during the festival?",
+    "What did the children make from bamboo and paper?",
+    "Where did the children gather in the evening?",
+    "Why were the drums louder than usual?",
+    "What colors was the dancing dragon?",
+    "What delicious baked treat did they eat during the feast?",
+    "What did Mai do during the festival?",
+    "How did everyone feel when going home?"
+   ],
+   "true_false": [
+    {
+     "statement": "The Mid-Autumn Festival is held in summer.",
+     "answer": false
+    },
+    {
+     "statement": "Children made star lanterns using bamboo.",
+     "answer": true
+    },
+    {
+     "statement": "The dragon was green and blue.",
+     "answer": false
+    },
+    {
+     "statement": "They ate mooncakes with lotus seeds.",
+     "answer": true
+    },
+    {
+     "statement": "Mai sang a song about the moon.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "FESTIVALS AROUND VIETNAM",
+   "text": "Vietnam is a country rich in culture and unique traditions. Throughout the year, people in different regions celebrate many colorful festivals. In spring, after Tet, the Perfume Pagoda Festival in Hanoi attracts thousands of visitors. People travel by small boats along scenic rivers and climb green mountains to pray for good luck and health. In the central region, the Hoi An Lantern Festival takes place every full moon night. All electric lights in the ancient town turn off, and the streets glow with thousands of handmade silk lanterns. People also float small paper flower lanterns on the Hoai River to make wishes. Further south, during the Ok Om Bok Festival, Khmer communities hold exciting boat races on the rivers. Loud drum sounds and cheering crowds make the atmosphere brighter and more exciting than ever. Attending these festivals helps us understand history, respect our cultural heritage, and feel proud of our beautiful homeland.",
+   "image_prompt": "A scenic view of a river filled with glowing colorful lanterns at night with ancient wooden houses in the background.",
+   "vocab": [
+    {
+     "en": "culture",
+     "ipa": "/ˈkʌltʃər/",
+     "vi": "văn hóa"
+    },
+    {
+     "en": "region",
+     "ipa": "/ˈriːdʒən/",
+     "vi": "vùng miền"
+    },
+    {
+     "en": "attract",
+     "ipa": "/əˈtrækt/",
+     "vi": "thu hút"
+    },
+    {
+     "en": "visitor",
+     "ipa": "/ˈvɪzɪtər/",
+     "vi": "du khách"
+    },
+    {
+     "en": "scenic",
+     "ipa": "/ˈsiːnɪk/",
+     "vi": "có cảnh đẹp"
+    },
+    {
+     "en": "ancient",
+     "ipa": "/ˈeɪnʃənt/",
+     "vi": "cổ kính"
+    },
+    {
+     "en": "float",
+     "ipa": "/floʊt/",
+     "vi": "thả trôi"
+    },
+    {
+     "en": "atmosphere",
+     "ipa": "/ˈætməsfɪr/",
+     "vi": "bầu không khí"
+    },
+    {
+     "en": "heritage",
+     "ipa": "/ˈhɛrɪtɪdʒ/",
+     "vi": "di sản"
+    },
+    {
+     "en": "homeland",
+     "ipa": "/ˈhoʊmlænd/",
+     "vi": "quê hương"
+    }
+   ],
+   "questions": [
+    "What is Vietnam rich in?",
+    "When does the Perfume Pagoda Festival take place?",
+    "How do visitors travel along rivers to the Perfume Pagoda?",
+    "Where is Hoi An located?",
+    "What happens to electric lights during the Hoi An Lantern Festival?",
+    "What do people float on the Hoai River?",
+    "Which festival features exciting boat races in the south?",
+    "Who holds the boat races during Ok Om Bok?",
+    "How does the drum music affect the festival atmosphere?",
+    "Why is attending traditional festivals good for us?"
+   ],
+   "true_false": [
+    {
+     "statement": "The Perfume Pagoda Festival happens in winter.",
+     "answer": false
+    },
+    {
+     "statement": "Visitors go by boat to the Perfume Pagoda.",
+     "answer": true
+    },
+    {
+     "statement": "Electric lights stay bright during Hoi An Lantern Festival.",
+     "answer": false
+    },
+    {
+     "statement": "Boat races are part of the Ok Om Bok Festival.",
+     "answer": true
+    },
+    {
+     "statement": "Festivals help children feel proud of their homeland.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "THE BIG DRAGON DANCE",
+  "panels": [
+   {
+    "scene": "Ben and Nam are standing on the busy street decorated with red lanterns. Nam points at the street corner.",
+    "speech": "Nam: Look, Ben! The dragon dance is starting over there!"
+   },
+   {
+    "scene": "A big yellow dragon puppet comes near them. Ben steps back with wide eyes.",
+    "speech": "Ben: Wow! The drum sound is louder than a thunder shock!"
+   },
+   {
+    "scene": "The dragon blinks its big shiny eyes right in front of Ben and wiggles its nose funny.",
+    "speech": "Nam: Don't be scared! Can you give the dragon a high-five?"
+   },
+   {
+    "scene": "Ben laughs and high-fives the dragon head while paper confetti drops around them.",
+    "speech": "Ben: Yay! This dragon is friendlier than my dog at home!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What festival do you like best?",
+   "When is Tet holiday in Vietnam?",
+   "What flowers do people buy in northern Vietnam for Tet?",
+   "What flowers do people buy in southern Vietnam?",
+   "Do you decorate your house before Tet?",
+   "Who gives you lucky money at Tet?",
+   "What do you say when you get lucky money?",
+   "What is your favorite festival food?",
+   "Can you make sticky rice cakes yourself?",
+   "Did you see fireworks last New Year's Eve?",
+   "Where did you go during last Tet holiday?",
+   "What will you do next Tet?",
+   "Are star lanterns brighter than normal lamps?",
+   "Do you like watching dragon dances?",
+   "Why are traditional festivals important?"
+  ],
+  "model": "My favorite festival is Tet holiday. Before Tet, my family decorates our living room with yellow apricot blossoms. We eat delicious square sticky rice cakes together. On the first day of spring, I wear my new red dress and visit my grandparents. I wish them health and happiness. I receive red envelopes with lucky money. Tet is warmer and happier than any other time of the year!",
+  "challenge": "Talk about your favorite festival for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Preparing for Tet",
+   "image_prompt": "Two young pupils, Mai and Ben, chatting near a flower market filled with peach blossoms.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi Ben! Are you ready for Tet holiday?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes, I am! My father bought a big peach blossom tree yesterday."
+    },
+    {
+     "speaker": "Mai",
+     "text": "That is great! We decorated our living room with yellow lanterns."
+    },
+    {
+     "speaker": "Ben",
+     "text": "What will you do on New Year's Day?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "I will visit my grandparents in the countryside."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Will you get lucky money?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, I will! I always wish my grandparents good health first."
+    },
+    {
+     "speaker": "Ben",
+     "text": "You are very polite. Happy New Year, Mai!"
+    }
+   ]
+  },
+  {
+   "title": "After the Festival",
+   "image_prompt": "Linh and Minh sitting at a school desk looking at photos on a tablet.",
+   "lines": [
+    {
+     "speaker": "Linh",
+     "text": "Did you go to the street festival yesterday, Minh?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "Yes, I did! I went with my older brother."
+    },
+    {
+     "speaker": "Linh",
+     "text": "Did you watch the dragon dance?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "Yes! The dragon was huge and colorful. The music was louder than last year!"
+    },
+    {
+     "speaker": "Linh",
+     "text": "What did you eat at the festival?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "We ate traditional rice cakes and sweet soup."
+    },
+    {
+     "speaker": "Linh",
+     "text": "That sounds delicious! Did you take any photos?"
+    },
+    {
+     "speaker": "Minh",
+     "text": "Look! Here is a photo of the golden dragon."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone, my name is Linh. Last week, my family celebrated Tet at my grandparents' house in Hue. Before Tet, my mom and grandma baked square sticky rice cakes in a large pot over a warm fire. On New Year's Eve, we watched bright fireworks explode in the night sky. The fireworks were brighter than the stars! On the first morning of spring, I put on a beautiful pink Ao Dai costume. I bowed politely and wished my grandparents long life and happiness. My grandfather gave me a red envelope with lucky money. In the afternoon, we went to the city square to see a dragon dance parade. Drums played loudly and everyone cheered. It was a joyful holiday full of love and fun!",
+  "questions": [
+   "Where did Linh celebrate Tet last week?",
+   "Who baked sticky rice cakes with Linh's mom?",
+   "Where did they bake the rice cakes?",
+   "When did they watch the fireworks?",
+   "Were the fireworks brighter than the stars?",
+   "What costume did Linh wear on the first morning of spring?",
+   "What wish did Linh give her grandparents?",
+   "What did the grandfather give to Linh?",
+   "Where did the family go in the afternoon?",
+   "What did they see at the city square?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "lantern",
+   "feast",
+   "spring",
+   "parade",
+   "wish",
+   "visit",
+   "costume",
+   "sticky"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "peach blossom",
+     "apricot blossom",
+     "rose",
+     "lantern"
+    ],
+    "answer": "lantern",
+    "why_vi": "'lantern' là vật dụng (đèn lồng), 3 từ còn lại là tên các loại hoa."
+   },
+   {
+    "options": [
+     "mooncake",
+     "sticky cake",
+     "feast",
+     "fireworks"
+    ],
+    "answer": "fireworks",
+    "why_vi": "'fireworks' (pháo hoa) không phải là món ăn, 3 từ còn lại thuộc chủ đề đồ ăn/bữa ăn."
+   },
+   {
+    "options": [
+     "brighter",
+     "louder",
+     "bigger",
+     "decorate"
+    ],
+    "answer": "decorate",
+    "why_vi": "'decorate' là động từ, 3 từ còn lại là tính từ so sánh hơn."
+   },
+   {
+    "options": [
+     "visited",
+     "watched",
+     "celebrate",
+     "danced"
+    ],
+    "answer": "celebrate",
+    "why_vi": "'celebrate' là động từ ở dạng nguyên mẫu, 3 từ còn lại ở dạng quá khứ đơn (-ed)."
+   },
+   {
+    "options": [
+     "red envelope",
+     "lucky money",
+     "wish",
+     "pencil case"
+    ],
+    "answer": "pencil case",
+    "why_vi": "'pencil case' là dụng cụ học tập, 3 từ còn lại liên quan đến phong tục Tết."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am wrapped in green leaves with rice inside. People eat me at Tet holiday. What am I?",
+    "answer": "sticky rice cake"
+   },
+   {
+    "riddle": "I am a red envelope with money inside. Grandparents give me to good children. What am I?",
+    "answer": "lucky money"
+   },
+   {
+    "riddle": "I glow high in the autumn sky when children carry star lanterns. What am I?",
+    "answer": "full moon"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "eatsf",
+    "answer": "feast"
+   },
+   {
+    "scrambled": "irpsng",
+    "answer": "spring"
+   },
+   {
+    "scrambled": "alnetrn",
+    "answer": "lantern"
+   },
+   {
+    "scrambled": "adpera",
+    "answer": "parade"
+   },
+   {
+    "scrambled": "tsiwih",
+    "answer": "wish"
+   },
+   {
+    "scrambled": "sitvi",
+    "answer": "visit"
+   }
+  ],
+  "picture_count": {
+   "question": "How many red lanterns can you see hanging in the cover picture?",
+   "hint_vi": "Hãy đếm tất cả những chiếc đèn lồng màu đỏ treo trên cành cây ở bức tranh bìa."
+  }
+ },
+ "write": {
+  "profile_title": "My Festival Profile",
+  "profile_fields": [
+   "My name is:",
+   "My age is:",
+   "My favorite festival is:",
+   "The festival happens in (season):",
+   "Special flower or thing I see:",
+   "Special food I eat:",
+   "What I do before the festival:",
+   "Who I visit during the holiday:",
+   "What costume I wear:",
+   "Why I love this festival:"
+  ],
+  "frame_title": "MY FAVORITE FESTIVAL",
+  "frame_lines": [
+   "My name is ____.",
+   "My favorite festival in Vietnam is ____.",
+   "It usually happens in ____.",
+   "Before the festival, my family ____ our house.",
+   "We buy beautiful ____ to decorate the rooms.",
+   "During the festival, I wear my traditional ____.",
+   "I visit my ____ and give them good wishes.",
+   "I receive ____ in bright red envelopes.",
+   "We eat delicious ____ together at a big feast.",
+   "I love this festival because ____."
+  ]
+ },
+ "life_skill": {
+  "title": "PRESERVING TRADITION AND SHOWING RESPECT",
+  "intro": "Festivals are wonderful cultural opportunities to show respect to elders, bond with family, and treasure our rich heritage.",
+  "intro_vi": "Lễ hội là cơ hội tuyệt vời để thể hiện lòng kính trọng với ông bà cha mẹ, gắn kết gia đình và trân trọng di sản văn hóa truyền thống.",
+  "can_do": [
+   "Greet my elders politely with two hands.",
+   "Say meaningful wishes to grandparents at New Year.",
+   "Help my parents clean and decorate the house.",
+   "Keep the red envelope neatly when getting lucky money.",
+   "Say thank you with a polite smile.",
+   "Wear traditional costumes with pride.",
+   "Keep public festival parks clean by not littering.",
+   "Share festival treats and sweets with friends.",
+   "Listen carefully to traditional stories told by elders.",
+   "Respect traditional music and dance performances.",
+   "Help clear the dinner table after a family feast.",
+   "Value time spent together with family members."
+  ],
+  "value_question": "What polite wish can you say to your grandparents during Tet?",
+  "image_prompt": "A young Vietnamese boy bowing politely while receiving a red envelope from his smiling grandmother inside a decorated house."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? Red envelopes are red because red is considered a lucky color that brings good fortune and repels bad luck in Vietnamese culture.",
+   "vi": "Bạn có biết? Phong bao lì xì có màu đỏ vì màu đỏ được coi là màu may mắn mang lại tài lộc và xua đuổi điều xui xẻo trong văn hóa Việt Nam."
+  },
+  {
+   "en": "Did you know? Square sticky rice cakes (Banh Chung) represent the earth, while round ones (Banh Giay) represent the sky in ancient legends.",
+   "vi": "Bạn có biết? Bánh chưng hình vuông tượng trưng cho mặt đất, trong khi bánh giầy hình tròn tượng trưng cho bầu trời theo truyền thuyết cổ xưa."
+  },
+  {
+   "en": "Did you know? Peach blossoms bloom in the cool spring of Northern Vietnam, while yellow apricot blossoms thrive in the warm South.",
+   "vi": "Bạn có biết? Hoa đào nở rộ trong mùa xuân se lạnh ở miền Bắc, còn hoa mai vàng phát triển mạnh ở miền Nam ấm áp."
+  },
+  {
+   "en": "Did you know? In Hoi An, local people turn off modern electric lights during full moon nights to let silk lanterns light up the streets.",
+   "vi": "Bạn có biết? Tại Hội An, người dân địa phương tắt đèn điện hiện đại vào các đêm rằm để lồng đèn lụa thắp sáng các con phố."
+  },
+  {
+   "en": "Did you know? Dragon and lion dances at festivals are believed to bring luck, health, and prosperity to homes and businesses.",
+   "vi": "Bạn có biết? Múa lân rồng tại các lễ hội được tin là sẽ mang lại may mắn, sức khỏe và sự thịnh vượng cho nhà cửa và công việc."
+  }
+ ],
+ "project": {
+  "title": "MY FESTIVAL CELEBRATION POSTER",
+  "task": "Create a colorful poster showing your dream festival celebration with family and friends.",
+  "draw_items": [
+   "A big branch of peach or apricot blossoms",
+   "Red paper lanterns hanging from a frame",
+   "Square sticky rice cakes on a plate",
+   "A shiny red lucky money envelope",
+   "A colorful dancing dragon head",
+   "A bright star lantern for full moon night",
+   "You wearing a traditional costume",
+   "Sparkling fireworks in the sky"
+  ],
+  "example": [
+   "Welcome to my Tet festival poster!",
+   "My favorite holiday is Tet in spring.",
+   "I draw peach blossoms and sticky rice cakes.",
+   "I will wear a red traditional costume.",
+   "I will visit my grandparents and give good wishes.",
+   "The dragon dance is louder and more exciting than ever.",
+   "I love celebrating traditional festivals with my family!"
+  ],
+  "present": "Hello everyone! This is my festival poster. My favorite holiday is Tet...",
+  "image_prompt": "A happy student holding up a colorful drawn poster showing traditional Tet flowers, dragon dance, and red envelopes."
+ },
+ "classroom_game": {
+  "name": "FESTIVAL CHARADES & WISHES",
+  "players": "Groups of 4 or whole class",
+  "steps_en": [
+   "One student acts out a festival activity (e.g. wrapping sticky cake, giving lucky money, dragon dancing) without speaking.",
+   "The other pupils raise their hands to guess the action using English (e.g. 'Are you decorating the house?').",
+   "The first student to guess correctly gets one point.",
+   "The winner then turns to the teacher and says a polite holiday wish in English to win a lucky star sticker!"
+  ],
+  "steps_vi": [
+   "Một học sinh diễn tả một hoạt động lễ hội (ví dụ: gói bánh chưng, trao lì xì, múa lân) bằng hành động mà không nói.",
+   "Các học sinh khác giơ tay đoán hành động bằng tiếng Anh (ví dụ: 'Are you decorating the house?').",
+   "Học sinh đoán đúng đầu tiên sẽ nhận được một điểm.",
+   "Người thắng cuộc sau đó quay sang giáo viên và nói một lời chúc mừng bằng tiếng Anh để nhận một ngôi sao may mắn!"
+  ],
+  "language": [
+   "Are you making sticky rice cakes?",
+   "Are you watching fireworks?",
+   "I wish you good health and happiness!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "f__tival",
+    "answer": "festival"
+   },
+   {
+    "word": "l__tern",
+    "answer": "lantern"
+   },
+   {
+    "word": "p__ch blossom",
+    "answer": "peach"
+   },
+   {
+    "word": "cos__me",
+    "answer": "costume"
+   },
+   {
+    "word": "sp__ng",
+    "answer": "spring"
+   },
+   {
+    "word": "st__ky rice cake",
+    "answer": "sticky"
+   },
+   {
+    "word": "l__ky money",
+    "answer": "lucky"
+   },
+   {
+    "word": "dr__on dance",
+    "answer": "dragon"
+   },
+   {
+    "word": "f__st",
+    "answer": "feast"
+   },
+   {
+    "word": "p__ade",
+    "answer": "parade"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "What do children get in red envelopes at Tet?",
+    "options": [
+     "lucky money",
+     "pencils",
+     "books"
+    ],
+    "answer": "lucky money"
+   },
+   {
+    "q": "Lanterns are ______ than candles.",
+    "options": [
+     "bright",
+     "brighter",
+     "brightest"
+    ],
+    "answer": "brighter"
+   },
+   {
+    "q": "What ______ you do next Tet holiday?",
+    "options": [
+     "will",
+     "did",
+     "are"
+    ],
+    "answer": "will"
+   },
+   {
+    "q": "Yesterday, my family ______ a big feast.",
+    "options": [
+     "have",
+     "had",
+     "having"
+    ],
+    "answer": "had"
+   },
+   {
+    "q": "Yellow ______ blossoms are popular in the South of Vietnam.",
+    "options": [
+     "peach",
+     "apricot",
+     "rose"
+    ],
+    "answer": "apricot"
+   },
+   {
+    "q": "Look! The dragon ______ on the street right now.",
+    "options": [
+     "dances",
+     "is dancing",
+     "danced"
+    ],
+    "answer": "is dancing"
+   },
+   {
+    "q": "Did you watch the fireworks last night? - Yes, I ______.",
+    "options": [
+     "did",
+     "do",
+     "will"
+    ],
+    "answer": "did"
+   },
+   {
+    "q": "We decorate our house ______ flowers.",
+    "options": [
+     "with",
+     "on",
+     "at"
+    ],
+    "answer": "with"
+   },
+   {
+    "q": "The drum sound was ______ than soft flute music.",
+    "options": [
+     "louder",
+     "loud",
+     "loudest"
+    ],
+    "answer": "louder"
+   },
+   {
+    "q": "We give good ______ to our grandparents at Tet.",
+    "options": [
+     "wishes",
+     "cakes",
+     "toys"
+    ],
+    "answer": "wishes"
+   }
+  ],
+  "order": [
+   {
+    "words": "Tet / my / favorite / is / festival / .",
+    "answer": "Tet is my favorite festival."
+   },
+   {
+    "words": "will / I / visit / grandparents / my / tomorrow / .",
+    "answer": "I will visit my grandparents tomorrow."
+   },
+   {
+    "words": "house / decorate / We / our / peach / with / blossoms / .",
+    "answer": "We decorate our house with peach blossoms."
+   },
+   {
+    "words": "did / What / do / you / yesterday / ?",
+    "answer": "What did you do yesterday?"
+   },
+   {
+    "words": "watched / dragon / We / a / dance / night / last / .",
+    "answer": "We watched a dragon dance last night."
+   },
+   {
+    "words": "get / I / money / lucky / in / envelopes / red / .",
+    "answer": "I get lucky money in red envelopes."
+   },
+   {
+    "words": "brighter / Lanterns / candles / are / than / .",
+    "answer": "Lanterns are brighter than candles."
+   },
+   {
+    "words": "is / Mother / making / sticky / cakes / rice / .",
+    "answer": "Mother is making sticky rice cakes."
+   },
+   {
+    "words": "you / Can / play / drum / festival / the / ?",
+    "answer": "Can you play the festival drum?"
+   },
+   {
+    "words": "wish / health / I / my / good / grandparents / .",
+    "answer": "I wish my grandparents good health."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "What festival do you like best?",
+   "What do you do before Tet holiday?",
+   "Does your family buy peach blossoms or apricot blossoms?",
+   "What do you wear on New Year's Day?",
+   "Who do you visit during Tet?",
+   "What polite wish do you say to your grandparents?",
+   "What is your favorite festival food?",
+   "Did you see a dragon dance last year?",
+   "What will you do next festival season?"
+  ]
+ },
+ "i_can": [
+  "I can name 20 festival words in English.",
+  "I can pronounce the /st/ sound correctly in words like sticky and star.",
+  "I can ask and answer about activities at Tet.",
+  "I can use 'will' to talk about future holiday plans.",
+  "I can talk about past events using past simple verbs.",
+  "I can describe actions happening now using present continuous.",
+  "I can compare two festival things using simple comparative adjectives.",
+  "I can ask and answer questions about festival costumes.",
+  "I can sing the 'Tet is Here Today' song with actions.",
+  "I can read short passages about Tet and festivals in Vietnam.",
+  "I can understand a teacher's listening story about Tet traditions.",
+  "I can roleplay a conversation about preparing for Tet.",
+  "I can write my own Festival Profile and frame sentences.",
+  "I can show respect to my elders during holiday celebrations.",
+  "I can create and present a poster about my dream festival."
+ ],
+ "message_en": "FESTIVALS BRING US TOGETHER TO HONOR OUR TRADITIONS, LOVE OUR FAMILIES, AND SHARE JOY WITH ALL.",
+ "message_vi": "LỄ HỘI GẮN KẾT CHÚNG TA ĐỂ TÔN VINH TRUYỀN THỐNG, YÊU THƯƠNG GIA ĐÌNH VÀ CHIA SẺ NIỀM VUI VỚI MỌI NGƯỜI.",
+ "message_body": "Tet and festivals are special moments to feel proud of our rich Vietnamese culture. By sharing smiles, showing respect to our grandparents, and celebrating together, we keep our wonderful traditions alive for the future.",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 6,
+ "grade": 4,
+ "validation": []
+}

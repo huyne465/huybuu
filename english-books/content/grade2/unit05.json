@@ -1,0 +1,1173 @@
+{
+ "title": "MY TOYS",
+ "theme": "Play Time",
+ "goal": "Students can identify and describe their toys using simple sentences.",
+ "goal_vi": "Học sinh có thể nhận biết và mô tả đồ chơi của mình bằng các câu đơn giản.",
+ "cover_emoji": "🧸🚗⚽🪁",
+ "cover_image_prompt": "A cheerful scene of diverse children, 7 years old, playing happily with various toys like a ball, doll, car, robot, and kite in a sunny park. A toy box is open nearby. No text.",
+ "big_question": {
+  "en": "What is your favorite toy?",
+  "vi": "Đồ chơi yêu thích của em là gì?",
+  "prompts": [
+   "What toys do you have?",
+   "Do you like to play with toys?",
+   "Is your toy big or small?",
+   "What color is your toy?",
+   "Who do you play with?",
+   "Where do you play with your toys?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "ball",
+   "ipa": "/bɔːl/",
+   "vi": "quả bóng",
+   "emoji": "⚽",
+   "image_prompt": "A colorful red and blue soccer ball on green grass."
+  },
+  {
+   "en": "doll",
+   "ipa": "/dɑːl/",
+   "vi": "búp bê",
+   "emoji": "👧",
+   "image_prompt": "A friendly-looking toy doll with brown hair and a pink dress."
+  },
+  {
+   "en": "car",
+   "ipa": "/kɑːr/",
+   "vi": "ô tô đồ chơi",
+   "emoji": "🚗",
+   "image_prompt": "A small, bright red toy car."
+  },
+  {
+   "en": "robot",
+   "ipa": "/ˈroʊbɑːt/",
+   "vi": "rô bốt",
+   "emoji": "🤖",
+   "image_prompt": "A friendly, metallic toy robot with blinking lights."
+  },
+  {
+   "en": "kite",
+   "ipa": "/kaɪt/",
+   "vi": "con diều",
+   "emoji": "🪁",
+   "image_prompt": "A colorful diamond-shaped kite flying high in a blue sky."
+  },
+  {
+   "en": "bike",
+   "ipa": "/baɪk/",
+   "vi": "xe đạp",
+   "emoji": "🚲",
+   "image_prompt": "A small blue child's bicycle with training wheels."
+  },
+  {
+   "en": "teddy bear",
+   "ipa": "/ˈtɛdi bɛr/",
+   "vi": "gấu bông",
+   "emoji": "🧸",
+   "image_prompt": "A soft, brown teddy bear sitting on a bed."
+  },
+  {
+   "en": "puzzle",
+   "ipa": "/ˈpʌzl/",
+   "vi": "ghép hình",
+   "emoji": "🧩",
+   "image_prompt": "A partially completed jigsaw puzzle with colorful animal shapes."
+  },
+  {
+   "en": "blocks",
+   "ipa": "/blɑːks/",
+   "vi": "khối xếp hình",
+   "emoji": "🧱",
+   "image_prompt": "A stack of colorful wooden building blocks."
+  },
+  {
+   "en": "train",
+   "ipa": "/treɪn/",
+   "vi": "tàu hỏa đồ chơi",
+   "emoji": "🚂",
+   "image_prompt": "A small, red toy train with two carriages on a wooden track."
+  },
+  {
+   "en": "plane",
+   "ipa": "/pleɪn/",
+   "vi": "máy bay đồ chơi",
+   "emoji": "✈️",
+   "image_prompt": "A small, white toy airplane flying in the sky."
+  },
+  {
+   "en": "scooter",
+   "ipa": "/ˈskuːtər/",
+   "vi": "xe trượt",
+   "emoji": "🛴",
+   "image_prompt": "A green child's kick scooter with two wheels."
+  },
+  {
+   "en": "yo-yo",
+   "ipa": "/ˈjoʊ joʊ/",
+   "vi": "con quay yoyo",
+   "emoji": "🪀",
+   "image_prompt": "A colorful blue and yellow yo-yo spinning down."
+  },
+  {
+   "en": "jump rope",
+   "ipa": "/dʒʌmp roʊp/",
+   "vi": "dây nhảy",
+   "emoji": "🤸‍♀️",
+   "image_prompt": "A child's jump rope with red handles, coiled on the ground."
+  },
+  {
+   "en": "drum",
+   "ipa": "/drʌm/",
+   "vi": "trống đồ chơi",
+   "emoji": "🥁",
+   "image_prompt": "A small, blue toy drum with two drumsticks."
+  },
+  {
+   "en": "guitar",
+   "ipa": "/ɡɪˈtɑːr/",
+   "vi": "đàn ghi-ta đồ chơi",
+   "emoji": "🎸",
+   "image_prompt": "A small, yellow toy guitar."
+  },
+  {
+   "en": "Play-Doh",
+   "ipa": "/ˈpleɪ doʊ/",
+   "vi": "đất nặn",
+   "emoji": "🎨",
+   "image_prompt": "Colorful Play-Doh pots, with some molded into simple shapes."
+  },
+  {
+   "en": "building set",
+   "ipa": "/ˈbɪldɪŋ sɛt/",
+   "vi": "bộ lắp ráp",
+   "emoji": "🏗️",
+   "image_prompt": "A child happily playing with a colorful plastic building set, creating a small house."
+  },
+  {
+   "en": "game",
+   "ipa": "/ɡeɪm/",
+   "vi": "trò chơi",
+   "emoji": "🎲",
+   "image_prompt": "A board game with colorful pieces and dice on a table, two children playing."
+  },
+  {
+   "en": "toy box",
+   "ipa": "/tɔɪ bɑːks/",
+   "vi": "hộp đồ chơi",
+   "emoji": "📦",
+   "image_prompt": "An open wooden toy box filled with various toys like a ball, doll, and car."
+  }
+ ],
+ "phonics": {
+  "sound": "/b/",
+  "letters": "b, bb",
+  "words": [
+   "ball",
+   "bike",
+   "blocks",
+   "teddy bear",
+   "big",
+   "blue"
+  ],
+  "chant": "Big brown bears bounce big blue balls.",
+  "tip_vi": "Hãy đọc từ 'ball' và cảm nhận môi trên và môi dưới chạm vào nhau rồi bật ra khi phát âm âm /b/."
+ },
+ "patterns": [
+  {
+   "pattern": "This is a/an + noun.",
+   "vi": "Đây là một + danh từ.",
+   "examples": [
+    "This is a ball.",
+    "This is a robot.",
+    "This is an old doll."
+   ]
+  },
+  {
+   "pattern": "I have a/an + noun.",
+   "vi": "Tôi có một + danh từ.",
+   "examples": [
+    "I have a red car.",
+    "I have a big teddy bear.",
+    "I have a new bike."
+   ]
+  },
+  {
+   "pattern": "It is + adjective + noun.",
+   "vi": "Nó là một + tính từ + danh từ.",
+   "examples": [
+    "It is a small ball.",
+    "It is a cute doll.",
+    "It is a fast car."
+   ]
+  },
+  {
+   "pattern": "What is this?",
+   "vi": "Đây là cái gì?",
+   "examples": [
+    "What is this? It is a train.",
+    "What is this? It is a yo-yo.",
+    "What is this? It is a puzzle."
+   ]
+  },
+  {
+   "pattern": "Do you have a/an + noun?",
+   "vi": "Bạn có một + danh từ không?",
+   "examples": [
+    "Do you have a car?",
+    "Do you have a jump rope?",
+    "Do you have an old plane?"
+   ]
+  },
+  {
+   "pattern": "Yes, I do. / No, I don't.",
+   "vi": "Có, tôi có. / Không, tôi không.",
+   "examples": [
+    "Do you have a ball? Yes, I do.",
+    "Do you have a robot? No, I don't.",
+    "Do you have blocks? Yes, I do."
+   ]
+  },
+  {
+   "pattern": "I like to play with + noun.",
+   "vi": "Tôi thích chơi với + danh từ.",
+   "examples": [
+    "I like to play with my doll.",
+    "I like to play with my scooter.",
+    "I like to play with my building set."
+   ]
+  },
+  {
+   "pattern": "Let's play with + noun.",
+   "vi": "Chúng ta hãy chơi với + danh từ.",
+   "examples": [
+    "Let's play with the ball!",
+    "Let's play with the blocks!",
+    "Let's play with the game!"
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "This is / These are",
+   "explain_en": "We use 'This is' for one toy. We use 'These are' for more than one toy.",
+   "explain_vi": "Chúng ta dùng 'This is' để giới thiệu một đồ chơi. Chúng ta dùng 'These are' để giới thiệu nhiều đồ chơi.",
+   "examples": [
+    "This is my car.",
+    "These are my cars.",
+    "This is a doll.",
+    "These are dolls."
+   ],
+   "right": "✅ This is a robot.",
+   "wrong": "❌ This are robots."
+  },
+  {
+   "title": "I have / You have",
+   "explain_en": "We use 'I have' to say what toys you own. We use 'You have' to say what toys another person owns.",
+   "explain_vi": "Chúng ta dùng 'I have' để nói về đồ chơi của mình. Chúng ta dùng 'You have' để nói về đồ chơi của người khác.",
+   "examples": [
+    "I have a teddy bear.",
+    "You have a bike.",
+    "I have many toys.",
+    "You have a big toy box."
+   ],
+   "right": "✅ I have a new ball.",
+   "wrong": "❌ I has a new ball."
+  },
+  {
+   "title": "What is this? / What are these?",
+   "explain_en": "We use 'What is this?' to ask about one toy. We use 'What are these?' to ask about many toys.",
+   "explain_vi": "Chúng ta dùng 'What is this?' để hỏi về một đồ chơi. Chúng ta dùng 'What are these?' để hỏi về nhiều đồ chơi.",
+   "examples": [
+    "What is this? It is a kite.",
+    "What are these? They are blocks.",
+    "What is this? It is a scooter."
+   ],
+   "right": "✅ What is this?",
+   "wrong": "❌ What are this?"
+  },
+  {
+   "title": "Adjectives for toys",
+   "explain_en": "We use adjectives like 'big', 'small', 'new', 'old', 'red', 'blue' to describe toys. Adjectives come before the noun.",
+   "explain_vi": "Chúng ta dùng các tính từ như 'to', 'nhỏ', 'mới', 'cũ', 'màu đỏ', 'màu xanh' để mô tả đồ chơi. Tính từ đứng trước danh từ.",
+   "examples": [
+    "I have a big ball.",
+    "This is a small doll.",
+    "It is a red car."
+   ],
+   "right": "✅ This is a new robot.",
+   "wrong": "❌ This is a robot new."
+  }
+ ],
+ "song": {
+  "title": "My Favorite Toys",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "I have toys, yes I do,",
+   "Many toys for me and you.",
+   "A red ball and a blue car,",
+   "Play with them, near or far.",
+   "Teddy bear and a cute doll,",
+   "Playing makes me stand up tall.",
+   "I love toys, yes I do,",
+   "Happy play for me and you."
+  ],
+  "actions_vi": "Vỗ tay theo nhịp. Khi hát 'ball', giả vờ ném bóng. Khi hát 'car', giả vờ lái ô tô. Khi hát 'teddy bear' và 'doll', ôm gấu bông hoặc búp bê. Khi hát 'stand up tall', đứng thẳng người."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY TOYS",
+   "text": "Hello! My name is Mai. I am seven years old. I have many toys. This is my teddy bear. It is brown and soft. This is my ball. It is red. I like to play with my ball in the park. I also have a small car. It is blue. I love my toys. They make me happy.",
+   "image_prompt": "A Vietnamese girl, Mai, 7 years old, smiling and holding a brown teddy bear. A red ball is next to her. A small blue toy car is on the floor. Cheerful and bright colors. No text.",
+   "vocab": [
+    {
+     "en": "many",
+     "ipa": "/ˈmɛni/",
+     "vi": "nhiều"
+    },
+    {
+     "en": "brown",
+     "ipa": "/braʊn/",
+     "vi": "màu nâu"
+    },
+    {
+     "en": "soft",
+     "ipa": "/sɑːft/",
+     "vi": "mềm mại"
+    },
+    {
+     "en": "red",
+     "ipa": "/rɛd/",
+     "vi": "màu đỏ"
+    },
+    {
+     "en": "park",
+     "ipa": "/pɑːrk/",
+     "vi": "công viên"
+    },
+    {
+     "en": "small",
+     "ipa": "/smɔːl/",
+     "vi": "nhỏ"
+    },
+    {
+     "en": "blue",
+     "ipa": "/bluː/",
+     "vi": "màu xanh dương"
+    },
+    {
+     "en": "love",
+     "ipa": "/lʌv/",
+     "vi": "yêu"
+    },
+    {
+     "en": "happy",
+     "ipa": "/ˈhæpi/",
+     "vi": "vui vẻ"
+    },
+    {
+     "en": "also",
+     "ipa": "/ˈɔːlsoʊ/",
+     "vi": "cũng"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Mai?",
+    "Does Mai have many toys?",
+    "What is her teddy bear's color?",
+    "Is her teddy bear hard or soft?",
+    "What color is her ball?",
+    "Where does she play with her ball?",
+    "What other toy does she have?",
+    "What color is her car?",
+    "How do her toys make her feel?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "Mai has a brown teddy bear.",
+     "answer": true
+    },
+    {
+     "statement": "Her ball is blue.",
+     "answer": false
+    },
+    {
+     "statement": "She plays with her ball in her room.",
+     "answer": false
+    },
+    {
+     "statement": "Mai loves her toys.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "PLAY TIME WITH BEN AND NAM",
+   "text": "Ben and Nam are friends. They are seven years old. Ben has a big toy box. Inside the box, there is a robot, a train, and blocks. Nam has a kite and a scooter. Ben likes his robot. It is strong. Nam likes his kite. It flies high in the sky. Today, they play together. Ben plays with his train. Nam rides his scooter. They share their toys. Playing together is fun. They are happy friends.",
+   "image_prompt": "Two boys, Ben (English-looking) and Nam (Vietnamese-looking), 7 years old, playing in a sunny backyard. Ben is sitting next to an open toy box with a robot and blocks. Nam is riding a green scooter. A kite is flying in the background. Cheerful and bright colors. No text.",
+   "vocab": [
+    {
+     "en": "friends",
+     "ipa": "/frɛndz/",
+     "vi": "bạn bè"
+    },
+    {
+     "en": "inside",
+     "ipa": "/ɪnˈsaɪd/",
+     "vi": "bên trong"
+    },
+    {
+     "en": "strong",
+     "ipa": "/strɔːŋ/",
+     "vi": "mạnh mẽ"
+    },
+    {
+     "en": "flies",
+     "ipa": "/flaɪz/",
+     "vi": "bay"
+    },
+    {
+     "en": "high",
+     "ipa": "/haɪ/",
+     "vi": "cao"
+    },
+    {
+     "en": "sky",
+     "ipa": "/skaɪ/",
+     "vi": "bầu trời"
+    },
+    {
+     "en": "today",
+     "ipa": "/təˈdeɪ/",
+     "vi": "hôm nay"
+    },
+    {
+     "en": "together",
+     "ipa": "/təˈɡɛðər/",
+     "vi": "cùng nhau"
+    },
+    {
+     "en": "share",
+     "ipa": "/ʃɛr/",
+     "vi": "chia sẻ"
+    },
+    {
+     "en": "fun",
+     "ipa": "/fʌn/",
+     "vi": "vui"
+    }
+   ],
+   "questions": [
+    "Who are Ben and Nam?",
+    "How old are they?",
+    "What does Ben have?",
+    "What toys are inside Ben's toy box?",
+    "What does Nam have?",
+    "What toy does Ben like?",
+    "What toy does Nam like?",
+    "What does Nam's kite do?",
+    "What does Ben play with today?",
+    "Is playing together fun?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben and Nam are brothers.",
+     "answer": false
+    },
+    {
+     "statement": "Ben has a small toy box.",
+     "answer": false
+    },
+    {
+     "statement": "Nam has a robot.",
+     "answer": false
+    },
+    {
+     "statement": "Nam's kite flies low.",
+     "answer": false
+    },
+    {
+     "statement": "They share their toys.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "LUCY'S NEW TOYS",
+   "text": "Lucy is a girl. She is seven. Today is her birthday! Her mom and dad give her new toys. She has a big doll. The doll has long hair. She also has a small pink scooter. Lucy likes to ride her scooter fast. Her friend, Linh, comes to her house. Linh has a new jump rope. Lucy and Linh play outside. Lucy rides her scooter. Linh jumps with her rope. They also play with Play-Doh. They make a red car and a blue plane. Lucy loves her new toys. She loves to play with her friend, Linh. They have a very fun birthday play time.",
+   "image_prompt": "A girl, Lucy (English-looking), 7 years old, with her friend Linh (Vietnamese-looking), 7 years old, playing happily outside a house. Lucy is riding a pink scooter. Linh is jumping with a colorful jump rope. On a small table, there are Play-Doh creations: a red car and a blue plane. Bright and joyful atmosphere. No text.",
+   "vocab": [
+    {
+     "en": "birthday",
+     "ipa": "/ˈbɜːrθdeɪ/",
+     "vi": "sinh nhật"
+    },
+    {
+     "en": "give",
+     "ipa": "/ɡɪv/",
+     "vi": "cho, tặng"
+    },
+    {
+     "en": "long",
+     "ipa": "/lɔːŋ/",
+     "vi": "dài"
+    },
+    {
+     "en": "pink",
+     "ipa": "/pɪŋk/",
+     "vi": "màu hồng"
+    },
+    {
+     "en": "fast",
+     "ipa": "/fæst/",
+     "vi": "nhanh"
+    },
+    {
+     "en": "comes",
+     "ipa": "/kʌmz/",
+     "vi": "đến"
+    },
+    {
+     "en": "house",
+     "ipa": "/haʊs/",
+     "vi": "nhà"
+    },
+    {
+     "en": "outside",
+     "ipa": "/ˌaʊtˈsaɪd/",
+     "vi": "bên ngoài"
+    },
+    {
+     "en": "make",
+     "ipa": "/meɪk/",
+     "vi": "làm, tạo ra"
+    },
+    {
+     "en": "very",
+     "ipa": "/ˈvɛri/",
+     "vi": "rất"
+    }
+   ],
+   "questions": [
+    "What day is it for Lucy?",
+    "Who gives Lucy new toys?",
+    "What is one of Lucy's new toys?",
+    "What color is her scooter?",
+    "How does Lucy like to ride her scooter?",
+    "Who comes to Lucy's house?",
+    "What toy does Linh have?",
+    "Where do Lucy and Linh play?",
+    "What do they make with Play-Doh?",
+    "Does Lucy love to play with Linh?"
+   ],
+   "true_false": [
+    {
+     "statement": "Lucy is six years old.",
+     "answer": false
+    },
+    {
+     "statement": "Lucy's doll has short hair.",
+     "answer": false
+    },
+    {
+     "statement": "Linh has a new bike.",
+     "answer": false
+    },
+    {
+     "statement": "Lucy and Linh play inside.",
+     "answer": false
+    },
+    {
+     "statement": "They make a red car and a blue plane with Play-Doh.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "Oops! My Ball!",
+  "panels": [
+   {
+    "scene": "A boy, Minh, 7 years old, is playing with a red ball in a grassy park. He kicks the ball too hard.",
+    "speech": "Minh: Wow! I kick the ball!"
+   },
+   {
+    "scene": "The red ball bounces high and rolls under a big bush. Minh looks sad.",
+    "speech": "Minh: Oh no! My ball! Where is it?"
+   },
+   {
+    "scene": "A girl, Mia, 7 years old, walks by. She sees the ball under the bush.",
+    "speech": "Mia: Look! A red ball!"
+   },
+   {
+    "scene": "Mia gives the ball back to Minh. Both children smile happily, Minh holds his ball.",
+    "speech": "Mia: Here is your ball, Minh! / Minh: Thank you, Mia! Let's play!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is your name?",
+   "How old are you?",
+   "What is your favorite toy?",
+   "What color is your favorite toy?",
+   "Is it big or small?",
+   "Do you have a doll? What color is it?",
+   "Do you have a car? Is it fast?",
+   "Do you like robots?",
+   "Can you fly a kite?",
+   "Do you ride a bike?",
+   "Do you have a teddy bear?",
+   "Do you like to play with blocks?",
+   "What game do you like to play?",
+   "Who do you play with?",
+   "Do you share your toys?"
+  ],
+  "model": "Hello! My name is An. I am seven years old. My favorite toy is my teddy bear. It is brown and soft. It is big. I also have a small blue car. I like to play with my car. I play with my brother. We like to share our toys. Playing is fun!",
+  "challenge": "Talk about your favorite toy and why you like it for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Sharing Toys",
+   "image_prompt": "Two diverse children, a Vietnamese boy named Tom and an English girl named Lucy, 7 years old, sitting on the floor. Tom is holding a toy robot. Lucy is looking at it with a smile. Other toys are around them. No text.",
+   "lines": [
+    {
+     "speaker": "Lucy",
+     "text": "Hi, Tom! What is this?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Hi, Lucy! This is my robot. It is new."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Wow! Your robot is cool. Can I play with it?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, you can! Let's play together."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Thank you, Tom. I have a jump rope."
+    },
+    {
+     "speaker": "Tom",
+     "text": "A jump rope? That is fun! Can I try?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, you can! Let's jump!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Great! Sharing toys is happy."
+    }
+   ]
+  },
+  {
+   "title": "My Favorite Toy",
+   "image_prompt": "Two diverse children, a Vietnamese girl named Linh and an English boy named Ben, 7 years old, standing in a room. Linh is holding a teddy bear. Ben is pointing to a toy plane on a shelf. Bright and friendly scene. No text.",
+   "lines": [
+    {
+     "speaker": "Ben",
+     "text": "Hello, Linh! What is your favorite toy?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Hi, Ben! My favorite toy is my teddy bear. It is soft."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Oh, a teddy bear! It is cute. What color is it?"
+    },
+    {
+     "speaker": "Linh",
+     "text": "It is brown. I sleep with it every night."
+    },
+    {
+     "speaker": "Ben",
+     "text": "I see. I like my toy plane. It is big."
+    },
+    {
+     "speaker": "Linh",
+     "text": "A toy plane! Can it fly?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "No, it cannot fly, but I play with it like it flies!"
+    },
+    {
+     "speaker": "Linh",
+     "text": "Haha, that is fun, Ben!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Listen to the children talk about their toys.\n\n**Teacher:** Hello everyone! Let's talk about toys. Who wants to start?\n**Girl 1 (Mia):** I do! I have a big red ball. I like to play with it outside. My friend, An, also has a ball. We play together.\n**Boy 1 (Minh):** I have a blue car. It is fast! I also have a robot. My robot can walk. It is cool.\n**Girl 2 (Lucy):** My favorite toy is my doll. Her name is Rosie. She has long hair. I play with her in my room. I also have a small puzzle. It has many pieces.\n**Boy 2 (Nam):** I like my building set. I can make a house with it. I also have a green scooter. I ride it to the park.",
+  "questions": [
+   "What color is Mia's ball?",
+   "Where does Mia like to play with her ball?",
+   "Who does Mia play with?",
+   "What color is Minh's car?",
+   "What can Minh's robot do?",
+   "What is Lucy's favorite toy?",
+   "What is her doll's name?",
+   "Where does Lucy play with her doll?",
+   "What can Nam make with his building set?",
+   "What color is Nam's scooter?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "BALL",
+   "DOLL",
+   "CAR",
+   "ROBOT",
+   "KITE",
+   "BIKE",
+   "BLOCKS",
+   "TRAIN"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "ball",
+     "robot",
+     "apple",
+     "doll"
+    ],
+    "answer": "apple",
+    "why_vi": "Quả táo là đồ ăn. Các từ còn lại là đồ chơi."
+   },
+   {
+    "options": [
+     "bike",
+     "scooter",
+     "jump rope",
+     "table"
+    ],
+    "answer": "table",
+    "why_vi": "Cái bàn là đồ dùng trong nhà. Các từ còn lại là đồ chơi vận động."
+   },
+   {
+    "options": [
+     "red",
+     "blue",
+     "car",
+     "green"
+    ],
+    "answer": "car",
+    "why_vi": "Ô tô là đồ chơi. Các từ còn lại là màu sắc."
+   },
+   {
+    "options": [
+     "teddy bear",
+     "kite",
+     "plane",
+     "book"
+    ],
+    "answer": "book",
+    "why_vi": "Quyển sách không phải đồ chơi. Các từ còn lại là đồ chơi."
+   },
+   {
+    "options": [
+     "puzzle",
+     "blocks",
+     "game",
+     "banana"
+    ],
+    "answer": "banana",
+    "why_vi": "Quả chuối là đồ ăn. Các từ còn lại là đồ chơi trí tuệ."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am round. You can kick me. You can throw me. What am I?",
+    "answer": "A ball"
+   },
+   {
+    "riddle": "I have wheels. I am fast. You can ride me. What am I?",
+    "answer": "A bike / A scooter"
+   },
+   {
+    "riddle": "I am soft and brown. You can hug me. I am your friend. What am I?",
+    "answer": "A teddy bear"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "ldol",
+    "answer": "doll"
+   },
+   {
+    "scrambled": "rotbo",
+    "answer": "robot"
+   },
+   {
+    "scrambled": "etki",
+    "answer": "kite"
+   },
+   {
+    "scrambled": "akbr",
+    "answer": "bike"
+   },
+   {
+    "scrambled": "puzlez",
+    "answer": "puzzle"
+   },
+   {
+    "scrambled": "ytxobo",
+    "answer": "toy box"
+   }
+  ],
+  "picture_count": {
+   "question": "How many balls can you see in the cover picture?",
+   "hint_vi": "Hãy nhìn kỹ bức tranh tổng thể của bài học."
+  }
+ },
+ "write": {
+  "profile_title": "My Toys Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ____ years old.",
+   "I have ____ toys.",
+   "My favorite toy is my ____.",
+   "It is ____ (color).",
+   "It is ____ (size: big/small).",
+   "I like to play with my ____.",
+   "I also have a ____.",
+   "I play with my ____ and my ____.",
+   "I share my toys with ____."
+  ],
+  "frame_title": "MY FAVORITE TOY",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "I have many toys.",
+   "My favorite toy is my ____.",
+   "It is ____ (color) and ____ (adjective).",
+   "It is a ____ (big/small) toy.",
+   "I like to play with my ____ very much.",
+   "I play with it ____ (where/when).",
+   "I share my toys with ____.",
+   "My toys make me ____."
+  ]
+ },
+ "life_skill": {
+  "title": "SHARE YOUR TOYS, SHARE YOUR JOY",
+  "intro": "Sharing toys means letting your friends and family play with your toys. It is a good thing to do.",
+  "intro_vi": "Chia sẻ đồ chơi có nghĩa là để bạn bè và gia đình chơi cùng đồ chơi của bạn. Đó là một việc tốt nên làm.",
+  "can_do": [
+   "I can share my ball.",
+   "I can let my friend play with my car.",
+   "I can take turns with my blocks.",
+   "I can share my teddy bear.",
+   "I can share my Play-Doh.",
+   "I can share my jump rope.",
+   "I can share my game.",
+   "I can be kind when I share.",
+   "I can ask nicely for a toy.",
+   "I can say 'Thank you' when I play with others' toys.",
+   "I can put toys back after playing.",
+   "I can play together happily."
+  ],
+  "value_question": "Why is it good to share your toys with friends?",
+  "image_prompt": "A diverse group of 7-year-old children, smiling and happily sharing different toys like a ball, blocks, and a doll in a sunny playroom. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The oldest known doll is over 4,000 years old!",
+   "vi": "Bạn có biết không? Búp bê lâu đời nhất được biết đến đã hơn 4.000 năm tuổi!"
+  },
+  {
+   "en": "Did you know? Playing with blocks can help you learn about shapes and building!",
+   "vi": "Bạn có biết không? Chơi với khối xếp hình có thể giúp bạn học về hình dạng và cách xây dựng!"
+  },
+  {
+   "en": "Did you know? The yo-yo was first used in the Philippines over 400 years ago!",
+   "vi": "Bạn có biết không? Con quay yoyo lần đầu tiên được sử dụng ở Philippines cách đây hơn 400 năm!"
+  },
+  {
+   "en": "Did you know? Kites were invented in China more than 2,000 years ago!",
+   "vi": "Bạn có biết không? Diều được phát minh ở Trung Quốc hơn 2.000 năm trước!"
+  },
+  {
+   "en": "Did you know? Many children around the world play with a ball. It is a very popular toy!",
+   "vi": "Bạn có biết không? Nhiều trẻ em trên thế giới chơi với bóng. Đó là một món đồ chơi rất phổ biến!"
+  }
+ ],
+ "project": {
+  "title": "MY FAVORITE TOY POSTER",
+  "task": "Create a poster about your favorite toy.",
+  "draw_items": [
+   "Your favorite toy",
+   "You playing with the toy",
+   "The color of your toy",
+   "The size of your toy (big/small)",
+   "Where you play with it",
+   "Who you play with",
+   "A happy face",
+   "A toy box"
+  ],
+  "example": [
+   "This is my poster.",
+   "My favorite toy is my robot.",
+   "It is big and red.",
+   "I like to play with my robot in my room.",
+   "I play with my friend, Ben.",
+   "My robot is very cool!",
+   "I love my robot."
+  ],
+  "present": "Hello everyone! This is my poster about my favorite toy. My favorite toy is my ____. It is ____ (color) and ____ (adjective). I play with it ____ (where). I love my toy!",
+  "image_prompt": "A cheerful Vietnamese child, 7 years old, proudly presenting a colorful poster about their favorite toy. The poster shows a drawing of a toy (e.g., a robot), the child playing with it, and simple sentences. No text on the poster itself."
+ },
+ "classroom_game": {
+  "name": "Guess My Toy!",
+  "players": "pairs / small groups",
+  "steps_en": [
+   "Step 1: Each student thinks of one toy they have.",
+   "Step 2: Student A describes their toy without saying its name (e.g., 'It is round. It is red. I kick it.').",
+   "Step 3: Student B guesses the toy (e.g., 'Is it a ball?').",
+   "Step 4: Student A says 'Yes, it is!' or 'No, it isn't.'",
+   "Step 5: Students switch roles and play again."
+  ],
+  "steps_vi": [
+   "Bước 1: Mỗi học sinh nghĩ về một món đồ chơi mình có.",
+   "Bước 2: Học sinh A mô tả đồ chơi của mình mà không nói tên (ví dụ: 'Nó tròn. Nó màu đỏ. Tớ đá nó.').",
+   "Bước 3: Học sinh B đoán tên đồ chơi (ví dụ: 'Có phải là quả bóng không?').",
+   "Bước 4: Học sinh A nói 'Đúng vậy!' hoặc 'Không phải.'.",
+   "Bước 5: Học sinh đổi vai và chơi lại."
+  ],
+  "language": [
+   "What is this?",
+   "It is a/an ____.",
+   "Is it a/an ____?",
+   "Yes, it is.",
+   "No, it isn't."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "b_ll",
+    "answer": "ball"
+   },
+   {
+    "word": "d_ll",
+    "answer": "doll"
+   },
+   {
+    "word": "c_r",
+    "answer": "car"
+   },
+   {
+    "word": "r_b_t",
+    "answer": "robot"
+   },
+   {
+    "word": "k_t_",
+    "answer": "kite"
+   },
+   {
+    "word": "b_k_",
+    "answer": "bike"
+   },
+   {
+    "word": "t_ddy b_ar",
+    "answer": "teddy bear"
+   },
+   {
+    "word": "p_zzl_",
+    "answer": "puzzle"
+   },
+   {
+    "word": "bl_cks",
+    "answer": "blocks"
+   },
+   {
+    "word": "t_y b_x",
+    "answer": "toy box"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "This ____ my doll.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I ____ a red car.",
+    "options": [
+     "has",
+     "have",
+     "is"
+    ],
+    "answer": "have"
+   },
+   {
+    "q": "What ____ this?",
+    "options": [
+     "are",
+     "is",
+     "am"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "Do you ____ a robot?",
+    "options": [
+     "has",
+     "have",
+     "is"
+    ],
+    "answer": "have"
+   },
+   {
+    "q": "Yes, I ____.",
+    "options": [
+     "am",
+     "do",
+     "don't"
+    ],
+    "answer": "do"
+   },
+   {
+    "q": "It is a ____ ball.",
+    "options": [
+     "ball big",
+     "big ball",
+     "big is ball"
+    ],
+    "answer": "big ball"
+   },
+   {
+    "q": "I like to play ____ my bike.",
+    "options": [
+     "with",
+     "at",
+     "on"
+    ],
+    "answer": "with"
+   },
+   {
+    "q": "Let's ____ with the blocks!",
+    "options": [
+     "see",
+     "eat",
+     "play"
+    ],
+    "answer": "play"
+   },
+   {
+    "q": "My teddy bear is ____.",
+    "options": [
+     "soft",
+     "softly",
+     "softest"
+    ],
+    "answer": "soft"
+   },
+   {
+    "q": "These ____ my toys.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "answer": "are"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / This / car / my",
+    "answer": "This is my car."
+   },
+   {
+    "words": "have / I / a / doll",
+    "answer": "I have a doll."
+   },
+   {
+    "words": "is / It / a / robot / new",
+    "answer": "It is a new robot."
+   },
+   {
+    "words": "this / What / is",
+    "answer": "What is this?"
+   },
+   {
+    "words": "you / a / Do / kite / have",
+    "answer": "Do you have a kite?"
+   },
+   {
+    "words": "do / Yes, / I",
+    "answer": "Yes, I do."
+   },
+   {
+    "words": "play / to / I / with / like / my / scooter",
+    "answer": "I like to play with my scooter."
+   },
+   {
+    "words": "play / Let's / ball / with / the",
+    "answer": "Let's play with the ball."
+   },
+   {
+    "words": "teddy / a / bear / have / I / brown",
+    "answer": "I have a brown teddy bear."
+   },
+   {
+    "words": "toys / are / These / my",
+    "answer": "These are my toys."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "How old are you?",
+   "Do you have many toys?",
+   "What is your favorite toy?",
+   "What color is it?",
+   "Is it big or small?",
+   "Who do you play with?",
+   "Do you like to share your toys?",
+   "What game do you like to play?",
+   "What makes you happy when you play?"
+  ]
+ },
+ "i_can": [
+  "I can say toy words in English.",
+  "I can identify different toys.",
+  "I can use 'This is' for one toy.",
+  "I can use 'These are' for many toys.",
+  "I can use 'I have' to talk about my toys.",
+  "I can ask 'What is this?' and 'What are these?'.",
+  "I can answer 'Yes, I do.' and 'No, I don't.'.",
+  "I can describe toys using colors and sizes.",
+  "I can talk about my favorite toy.",
+  "I can say what I like to play with.",
+  "I can sing a song about toys.",
+  "I can read about children and their toys.",
+  "I can write about my toys.",
+  "I can understand the importance of sharing toys.",
+  "I can create a poster about my favorite toy."
+ ],
+ "message_en": "PLAYING IS FUN! SHARE YOUR TOYS, SHARE YOUR JOY!",
+ "message_vi": "Chơi đùa thật vui! Chia sẻ đồ chơi, chia sẻ niềm vui!",
+ "message_body": "Dear Roxy English learner, you have learned many new words about toys and how to talk about them. Remember to play nicely and share your toys with your friends. Playing together is always more fun!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 5,
+ "grade": 2,
+ "validation": []
+}

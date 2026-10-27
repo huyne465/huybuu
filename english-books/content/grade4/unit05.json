@@ -1,0 +1,1175 @@
+{
+ "title": "PLACES IN MY TOWN",
+ "theme": "My Community",
+ "goal": "Students can talk about places in their town, give simple directions, compare locations, and describe past visits and future plans.",
+ "goal_vi": "Học sinh có thể nói về các địa điểm trong thị trấn, chỉ đường đơn giản, so sánh các địa điểm và miêu tả chuyến đi trong quá khứ cũng như kế hoạch tương lai.",
+ "cover_emoji": "🏙️🏛️🏞️",
+ "cover_image_prompt": "A bright and cheerful cartoon illustration of a bustling colorful town street in Vietnam with diverse children walking near a park, a bakery, a library, and a sunny square with trees and modern buildings.",
+ "big_question": {
+  "en": "What is your favourite place in your town?",
+  "vi": "Địa điểm yêu thích của em trong thị trấn là gì?",
+  "prompts": [
+   "Is your town big or small?",
+   "Is there a park near your house?",
+   "Where do you buy your books?",
+   "What can you see at a zoo?",
+   "How do you go to school every day?",
+   "Who do you go to the cinema with?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "park",
+   "ipa": "/pɑːrk/",
+   "vi": "công viên",
+   "emoji": "🏞️",
+   "image_prompt": "A clean green public park with wooden benches, green grass, colorful flowers, and tall shade trees under a bright blue sky."
+  },
+  {
+   "en": "bakery",
+   "ipa": "/ˈbeɪkəri/",
+   "vi": "tiệm bánh",
+   "emoji": "🧁",
+   "image_prompt": "A cozy bakery store front with large glass windows displaying fresh bread, cakes, and cupcakes on wooden shelves."
+  },
+  {
+   "en": "supermarket",
+   "ipa": "/ˈsuːpərmɑːrkɪt/",
+   "vi": "siêu thị",
+   "emoji": "🛒",
+   "image_prompt": "A modern brightly lit supermarket aisle filled with fresh fruits, vegetables, and shopping carts."
+  },
+  {
+   "en": "hospital",
+   "ipa": "/ˈhɑːspɪtl/",
+   "vi": "bệnh viện",
+   "emoji": "🏥",
+   "image_prompt": "A modern white and blue hospital building with a clear red cross symbol on the front and a clean driveway."
+  },
+  {
+   "en": "library",
+   "ipa": "/ˈlaɪbreri/",
+   "vi": "thư viện",
+   "emoji": "📚",
+   "image_prompt": "A quiet indoor library with tall wooden bookshelves full of colourful books and neat reading tables."
+  },
+  {
+   "en": "museum",
+   "ipa": "/mjuːˈziːəm/",
+   "vi": "bảo tàng",
+   "emoji": "🏛️",
+   "image_prompt": "A magnificent museum hall with classical pillars displaying ancient paintings and historical statues."
+  },
+  {
+   "en": "cinema",
+   "ipa": "/ˈsɪnəmə/",
+   "vi": "rạp chiếu phim",
+   "emoji": "🎬",
+   "image_prompt": "A movie theater entrance with colorful movie posters glowing signs, and a popcorn counter."
+  },
+  {
+   "en": "zoo",
+   "ipa": "/zuː/",
+   "vi": "sở thú",
+   "emoji": "🦁",
+   "image_prompt": "A friendly outdoor zoo with green trees, clean fences, a happy giraffe, and a lion."
+  },
+  {
+   "en": "post office",
+   "ipa": "/poʊst ˈɑːfɪs/",
+   "vi": "bưu điện",
+   "emoji": "📮",
+   "image_prompt": "A cheerful yellow post office building with a red mailbox outside and envelopes pictured on the sign."
+  },
+  {
+   "en": "bus stop",
+   "ipa": "/bʌs stɑːp/",
+   "vi": "trạm xe buýt",
+   "emoji": "🚏",
+   "image_prompt": "A neat bus stop shelter on a city sidewalk with a blue sign board and a yellow bench."
+  },
+  {
+   "en": "police station",
+   "ipa": "/pəˈliːs steɪʃn/",
+   "vi": "đồn cảnh sát",
+   "emoji": "🚔",
+   "image_prompt": "A secure police station building with a blue badge symbol and a blue police car parked in front."
+  },
+  {
+   "en": "toy shop",
+   "ipa": "/tɔɪ ʃɑːp/",
+   "vi": "cửa hàng đồ chơi",
+   "emoji": "🧸",
+   "image_prompt": "A colorful toy store window displaying teddy bears, toy cars, robots, and colorful balls."
+  },
+  {
+   "en": "bookshop",
+   "ipa": "/ˈbʊkʃɑːp/",
+   "vi": "hiệu sách",
+   "emoji": "📖",
+   "image_prompt": "A charming neighborhood bookshop front with stacked storybooks in the window and a wooden door."
+  },
+  {
+   "en": "swimming pool",
+   "ipa": "/ˈswɪmɪŋ puːl/",
+   "vi": "hồ bơi",
+   "emoji": "🏊",
+   "image_prompt": "A clean outdoor swimming pool with blue sparkling water, lane ropes, and sun umbrellas."
+  },
+  {
+   "en": "restaurant",
+   "ipa": "/ˈrestərɑːnt/",
+   "vi": "nhà hàng",
+   "emoji": "🍽️",
+   "image_prompt": "A welcoming restaurant interior with set dining tables, warm lighting, and a waiter holding a tray."
+  },
+  {
+   "en": "fire station",
+   "ipa": "/ˈfaɪər steɪʃn/",
+   "vi": "trạm cứu hỏa",
+   "emoji": "🚒",
+   "image_prompt": "A red fire station with open garage doors showing a shiny red fire truck parked inside."
+  },
+  {
+   "en": "bank",
+   "ipa": "/bæŋk/",
+   "vi": "ngân hàng",
+   "emoji": "🏦",
+   "image_prompt": "A modern bank building with large glass doors and an ATM machine near the entrance."
+  },
+  {
+   "en": "square",
+   "ipa": "/skwer/",
+   "vi": "quảng trường",
+   "emoji": "🏙️",
+   "image_prompt": "A spacious town square with a central water fountain, stone pavement, and flower beds."
+  },
+  {
+   "en": "bridge",
+   "ipa": "/brɪdʒ/",
+   "vi": "cây cầu",
+   "emoji": "🌉",
+   "image_prompt": "A sturdy arched bridge stretching over a calm blue river with green banks."
+  },
+  {
+   "en": "market",
+   "ipa": "/ˈmɑːrkɪt/",
+   "vi": "chợ",
+   "emoji": "🧺",
+   "image_prompt": "A lively traditional outdoor market with colorful stalls selling fresh fruit, vegetables, and flowers."
+  }
+ ],
+ "phonics": {
+  "sound": "/p/",
+  "letters": "p",
+  "words": [
+   "park",
+   "post",
+   "police",
+   "pool",
+   "place",
+   "puppy"
+  ],
+  "chant": "Peter picked a purple pencil in the park.\nPlay in the park with a cheerful puppy!",
+  "tip_vi": "Mím nhẹ hai môi lại rồi bật hơi ra thật nhanh, không làm rung dây thanh quản khi phát âm âm /p/."
+ },
+ "patterns": [
+  {
+   "pattern": "Where is the ____? - It is next to / opposite / behind / between ____.",
+   "vi": "Địa điểm ... ở đâu? - Nó nằm ở bên cạnh / đối diện / phía sau / ở giữa ...",
+   "examples": [
+    "Where is the bakery? - It is next to the bookshop.",
+    "Where is the hospital? - It is opposite the park.",
+    "Where is the toy shop? - It is between the bank and the cinema."
+   ]
+  },
+  {
+   "pattern": "What can you do at the ____? - You can ____.",
+   "vi": "Bạn có thể làm gì ở ...? - Bạn có thể ...",
+   "examples": [
+    "What can you do at the library? - You can read books quietly.",
+    "What can you do at the bakery? - You can buy fresh bread.",
+    "What can you do at the swimming pool? - You can swim with friends."
+   ]
+  },
+  {
+   "pattern": "Is there a ____ near here? - Yes, there is. / No, there isn't.",
+   "vi": "Có ... nào ở gần đây không? - Có, có một cái. / Không, không có.",
+   "examples": [
+    "Is there a bus stop near here? - Yes, there is.",
+    "Is there a museum near here? - No, there isn't.",
+    "Is there a police station near here? - Yes, there is."
+   ]
+  },
+  {
+   "pattern": "How can I get to the ____? - Turn left / Turn right / Go straight ahead.",
+   "vi": "Làm sao để tôi đi đến ...? - Rẽ trái / Rẽ phải / Đi thẳng.",
+   "examples": [
+    "How can I get to the market? - Turn left at the corner.",
+    "How can I get to the cinema? - Go straight ahead.",
+    "How can I get to the fire station? - Turn right at the park."
+   ]
+  },
+  {
+   "pattern": "Yesterday, I went to the ____ with my ____.",
+   "vi": "Hôm qua, tớ đã đi đến ... cùng với ...",
+   "examples": [
+    "Yesterday, I went to the museum with my family.",
+    "Yesterday, I went to the park with my friends.",
+    "Yesterday, I went to the supermarket with my mother."
+   ]
+  },
+  {
+   "pattern": "The ____ is ____er than the ____.",
+   "vi": "... thì ... hơn ...",
+   "examples": [
+    "The supermarket is bigger than the bakery.",
+    "The park is quieter than the market.",
+    "The new bridge is longer than the old bridge."
+   ]
+  },
+  {
+   "pattern": "Next weekend, I will visit the ____.",
+   "vi": "Cuối tuần tới, tớ sẽ đi thăm ...",
+   "examples": [
+    "Next weekend, I will visit the zoo.",
+    "Next weekend, I will visit the new library.",
+    "Next weekend, I will visit the museum."
+   ]
+  },
+  {
+   "pattern": "What were you doing at the ____? - I was ____ing.",
+   "vi": "Bạn đã đang làm gì ở ...? - Tớ đã đang ...",
+   "examples": [
+    "What were you doing at the park? - I was riding my bicycle.",
+    "What were you doing at the library? - I was reading a comic book.",
+    "What were you doing at the swimming pool? - I was swimming."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Prepositions of Place (Giới từ chỉ vị trí)",
+   "explain_en": "We use prepositions like 'next to', 'opposite', 'behind', and 'between' to say where a place is.",
+   "explain_vi": "Chúng ta dùng các giới từ chỉ vị trí để mô tả vị trí tương quan giữa các địa điểm.",
+   "examples": [
+    "The toy shop is next to the bakery.",
+    "The hospital is opposite the park.",
+    "The bank is between the museum and the cinema."
+   ],
+   "right": "✅ The library is next to the school.",
+   "wrong": "❌ The library is next the school."
+  },
+  {
+   "title": "Past Simple with Regular and Irregular Verbs (Thì quá khứ đơn)",
+   "explain_en": "We use the past simple to talk about completed actions in the past. 'Go' becomes 'went', 'see' becomes 'saw', and regular verbs add '-ed'.",
+   "explain_vi": "Dùng thì quá khứ đơn để nói về hành động đã diễn ra trong quá khứ.",
+   "examples": [
+    "I visited the museum yesterday.",
+    "We went to the cinema last night.",
+    "She bought a new book at the bookshop."
+   ],
+   "right": "✅ Yesterday, I went to the zoo.",
+   "wrong": "❌ Yesterday, I go to the zoo."
+  },
+  {
+   "title": "Simple Comparatives (So sánh hơn đơn giản)",
+   "explain_en": "Add '-er' to short adjectives to compare two places. Add 'than' after the adjective.",
+   "explain_vi": "Thêm đuôi '-er' vào sau tính từ ngắn và thêm từ 'than' để so sánh hai địa điểm.",
+   "examples": [
+    "The park is bigger than the garden.",
+    "The square is busier than the street.",
+    "The market is older than the supermarket."
+   ],
+   "right": "✅ The park is bigger than the schoolyard.",
+   "wrong": "❌ The park is more big than the schoolyard."
+  },
+  {
+   "title": "Future Plans with 'Will' (Thì tương lai đơn)",
+   "explain_en": "Use 'will' + base verb to talk about plans or intentions for the future.",
+   "explain_vi": "Dùng 'will' cộng động từ nguyên thể để nói về dự định trong tương lai.",
+   "examples": [
+    "I will go to the swimming pool tomorrow.",
+    "They will visit the zoo next Sunday.",
+    "We will buy bread at the bakery later."
+   ],
+   "right": "✅ Next week, I will visit my grandmother.",
+   "wrong": "❌ Next week, I will visiting my grandmother."
+  }
+ ],
+ "song": {
+  "title": "PLACES ALL AROUND TOWN",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Walk around our happy town,",
+   "Up the street and looking down!",
+   "There's a park so green and neat,",
+   "And a bakery across the street.",
+   "See the library full of books,",
+   "Come inside and take a look!",
+   "Supermarket big and bright,",
+   "Bus stop on the left and right.",
+   "Places, places everywhere,",
+   "Clean and safe for all to share!"
+  ],
+  "actions_vi": "Học sinh dậm chân tại chỗ theo nhịp điệu khi nói 'Walk around', đưa tay che trán nhìn xa khi nói 'looking down', giơ tay làm hình mái nhà khi nhắc đến các địa điểm."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "LINH'S FAVOURITE NEIGHBOURHOOD",
+   "text": "My name is Linh and I live in a lovely town. My neighbourhood is small but very peaceful. Opposite my house, there is a big green park. I like walking there with my dog every afternoon. Next to the park, you can see a small bakery. The baker makes fresh bread and sweet cakes every morning. Behind the bakery is a quiet library. I often go there on Saturday to read picture books with my best friend, Mai. Our town is very clean and beautiful. I love my town because the people here are friendly and kind.",
+   "image_prompt": "A young Vietnamese girl named Linh walking a small dog in a sunny park near a cozy bakery and a quiet library.",
+   "vocab": [
+    {
+     "en": "neighbourhood",
+     "ipa": "/ˈneɪbər hʊd/",
+     "vi": "xóm giềng / khu phố"
+    },
+    {
+     "en": "peaceful",
+     "ipa": "/ˈpiːsfl/",
+     "vi": "thanh bình"
+    },
+    {
+     "en": "opposite",
+     "ipa": "/ˈɑːpəzət/",
+     "vi": "đối diện"
+    },
+    {
+     "en": "baker",
+     "ipa": "/ˈbeɪkər/",
+     "vi": "thợ làm bánh"
+    },
+    {
+     "en": "fresh",
+     "ipa": "/freʃ/",
+     "vi": "tươi ngon"
+    },
+    {
+     "en": "behind",
+     "ipa": "/bɪˈhaɪnd/",
+     "vi": "phía sau"
+    },
+    {
+     "en": "quiet",
+     "ipa": "/ˈkwaɪət/",
+     "vi": "yên tĩnh"
+    },
+    {
+     "en": "picture book",
+     "ipa": "/ˈpɪktʃər bʊk/",
+     "vi": "sách tranh"
+    },
+    {
+     "en": "friendly",
+     "ipa": "/ˈfrendli/",
+     "vi": "thân thiện"
+    },
+    {
+     "en": "kind",
+     "ipa": "/kaɪnd/",
+     "vi": "tốt bụng"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "Is her neighbourhood big or small?",
+    "What is opposite her house?",
+    "When does Linh walk in the park?",
+    "What is next to the park?",
+    "When does the baker make fresh bread?",
+    "Where is the library located?",
+    "Who goes to the library with Linh?",
+    "What do Linh and Mai do at the library?",
+    "Why does Linh love her town?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh lives in a very noisy city.",
+     "answer": false
+    },
+    {
+     "statement": "There is a park opposite Linh's house.",
+     "answer": true
+    },
+    {
+     "statement": "The bakery is behind the library.",
+     "answer": false
+    },
+    {
+     "statement": "Linh goes to the library on Saturday.",
+     "answer": true
+    },
+    {
+     "statement": "The people in Linh's town are friendly.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A BUSY DAY IN MY TOWN",
+   "text": "Yesterday was Saturday, so Nam had a very busy day in town with his family. In the morning, they went to the supermarket to buy vegetables, milk, and fruit. The supermarket was bigger and busier than the local market. After that, they visited the central square. Nam saw a big water fountain and many flowers. At noon, they ate delicious noodles at a small restaurant near the police station. In the afternoon, Nam and his brother walked to the toy shop. He bought a small red toy car. Next to the toy shop, there was a busy bus stop. They took the bus home at five o'clock. Nam felt very happy after a fun day.",
+   "image_prompt": "A Vietnamese boy named Nam holding a new red toy car outside a toy shop with his brother near a busy bus stop.",
+   "vocab": [
+    {
+     "en": "busy",
+     "ipa": "/ˈbɪzi/",
+     "vi": "bận rộn / nhộn nhịp"
+    },
+    {
+     "en": "vegetables",
+     "ipa": "/ˈvedʒtəblz/",
+     "vi": "rau củ"
+    },
+    {
+     "en": "central square",
+     "ipa": "/ˈsentrəl skwer/",
+     "vi": "quảng trường trung tâm"
+    },
+    {
+     "en": "water fountain",
+     "ipa": "/ˈwɔːtər faʊntn/",
+     "vi": "đài phun nước"
+    },
+    {
+     "en": "delicious",
+     "ipa": "/dɪˈlɪʃəs/",
+     "vi": "ngon miệng"
+    },
+    {
+     "en": "noodles",
+     "ipa": "/ˈnuːdlz/",
+     "vi": "mì / phở"
+    },
+    {
+     "en": "police station",
+     "ipa": "/pəˈliːs steɪʃn/",
+     "vi": "đồn cảnh sát"
+    },
+    {
+     "en": "brother",
+     "ipa": "/ˈbrʌðər/",
+     "vi": "anh/em trai"
+    },
+    {
+     "en": "toy car",
+     "ipa": "/tɔɪ kɑːr/",
+     "vi": "ô tô đồ chơi"
+    },
+    {
+     "en": "felt",
+     "ipa": "/felt/",
+     "vi": "đã cảm thấy"
+    }
+   ],
+   "questions": [
+    "Which day of the week was it yesterday?",
+    "Who did Nam spend the day with?",
+    "Where did they go first in the morning?",
+    "Was the supermarket bigger than the local market?",
+    "What did Nam see at the central square?",
+    "Where did they eat noodles at noon?",
+    "Where was the restaurant located?",
+    "What did Nam buy at the toy shop?",
+    "What was next to the toy shop?",
+    "How did they go home at five o'clock?"
+   ],
+   "true_false": [
+    {
+     "statement": "Nam went to the supermarket on Sunday.",
+     "answer": false
+    },
+    {
+     "statement": "The supermarket was smaller than the local market.",
+     "answer": false
+    },
+    {
+     "statement": "Nam ate noodles near the police station.",
+     "answer": true
+    },
+    {
+     "statement": "Nam bought a toy train at the toy shop.",
+     "answer": false
+    },
+    {
+     "statement": "Nam and his family took the bus home.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "EXPLORING SUNNY VALLEY TOWN",
+   "text": "Sunny Valley is an old and famous town near the mountains. Last weekend, Ben and Mia visited the town history museum with their teacher. The museum was very old, but it was extremely interesting. They saw ancient pictures and old maps of the town. Outside the museum, there is a grand stone bridge over a clear river. People say the bridge is more than one hundred years old! Across the bridge, there is a lively night market where sellers sell traditional street food and beautiful handmade crafts. Ben loved the sweet pancakes, while Mia bought a colorful woven bag. Next weekend, they will visit Sunny Valley again. They plan to go to the famous zoo on the hill. They will see monkeys, elephants, and rare birds. Ben is excited because he will bring his camera to take photos. Exploring towns is a wonderful way to learn about history and community life.",
+   "image_prompt": "Ben and Mia, two young pupils, standing on an old stone bridge taking photos near an ancient museum and a river.",
+   "vocab": [
+    {
+     "en": "exploring",
+     "ipa": "/ɪkˈsplɔːrɪŋ/",
+     "vi": "khám phá"
+    },
+    {
+     "en": "famous",
+     "ipa": "/ˈfeɪməs/",
+     "vi": "nổi tiếng"
+    },
+    {
+     "en": "ancient",
+     "ipa": "/ˈeɪnʃənt/",
+     "vi": "cổ kính / xưa"
+    },
+    {
+     "en": "extremely",
+     "ipa": "/ɪkˈstriːmli/",
+     "vi": "cực kỳ"
+    },
+    {
+     "en": "stone bridge",
+     "ipa": "/stoʊn brɪdʒ/",
+     "vi": "cầu đá"
+    },
+    {
+     "en": "crafts",
+     "ipa": "/kræfts/",
+     "vi": "đồ thủ công"
+    },
+    {
+     "en": "woven bag",
+     "ipa": "/ˈwoʊvn bæɡ/",
+     "vi": "túi dệt"
+    },
+    {
+     "en": "rare birds",
+     "ipa": "/rer bɜːrdz/",
+     "vi": "các loài chim quý"
+    },
+    {
+     "en": "excited",
+     "ipa": "/ɪkˈsaɪtɪd/",
+     "vi": "háo hức"
+    },
+    {
+     "en": "community",
+     "ipa": "/kəˈmjuːnəti/",
+     "vi": "cộng đồng"
+    }
+   ],
+   "questions": [
+    "Where is Sunny Valley Town located?",
+    "Who did Ben and Mia visit the museum with?",
+    "What did they see inside the history museum?",
+    "Where is the grand stone bridge located?",
+    "How old do people say the bridge is?",
+    "What is across the bridge?",
+    "What food did Ben love at the night market?",
+    "What did Mia buy at the market?",
+    "Where will Ben and Mia go next weekend?",
+    "Why is Ben excited about the next trip?"
+   ],
+   "true_false": [
+    {
+     "statement": "Sunny Valley is a new town near the sea.",
+     "answer": false
+    },
+    {
+     "statement": "The stone bridge is over a clear river.",
+     "answer": true
+    },
+    {
+     "statement": "Mia bought a woven bag at the night market.",
+     "answer": true
+    },
+    {
+     "statement": "Ben and Mia will visit the swimming pool next weekend.",
+     "answer": false
+    },
+    {
+     "statement": "Ben will bring a camera to take photos at the zoo.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "WHERE IS THE TOY SHOP?",
+  "panels": [
+   {
+    "scene": "Ben and Tom stand at a street corner holding a paper map looking confused.",
+    "speech": "Ben: Excuse me! We are looking for the new toy shop."
+   },
+   {
+    "scene": "An old friendly policeman smiles and points straight down the pavement.",
+    "speech": "Officer: Go straight ahead and turn left at the bakery!"
+   },
+   {
+    "scene": "Ben and Tom turn left and see a big sign with a giant teddy bear logo.",
+    "speech": "Tom: Look! It is next to the ice cream shop!"
+   },
+   {
+    "scene": "Ben and Tom standing inside surrounded by colorful toys happily holding a tiny robot.",
+    "speech": "Ben: Yay! We found it! This is the best place in town!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is the name of your town or city?",
+   "Is your town big, small, noisy, or quiet?",
+   "Where is your house in the town?",
+   "Is there a park near your home?",
+   "How often do you go to the park?",
+   "Where do you buy your school supplies?",
+   "Is there a hospital near your school?",
+   "How can you get to the nearest supermarket from your house?",
+   "Where did you go last Sunday?",
+   "What did you do at that place?",
+   "Is the library bigger than your classroom?",
+   "What will you do next weekend?",
+   "Which place in your town do you like best?",
+   "Why do you like that place?",
+   "What can we do to keep our town clean?"
+  ],
+  "model": "Hello everyone! My name is An and I live in Hanoi. My town is big and very lively. My favourite place is the park near my house. It is next to a small bakery. On weekends, I go to the park with my family to ride my bike and eat fresh cakes. Yesterday, we visited the history museum near the lake. Next Sunday, I will go to the zoo with my friends. I love my town very much because it is beautiful and friendly!",
+  "challenge": "Talk about your town and your favourite places for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "Asking for Directions",
+   "image_prompt": "Mai and Lucy standing near a crosswalk in town with a city map.",
+   "lines": [
+    {
+     "speaker": "Mai",
+     "text": "Hi Lucy! Where are you going?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Hi Mai! I am trying to find the central library."
+    },
+    {
+     "speaker": "Mai",
+     "text": "Oh, the library is not far from here."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "How can I get there?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Go straight ahead for two minutes, then turn right."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Is it near the bus stop?"
+    },
+    {
+     "speaker": "Mai",
+     "text": "Yes, it is opposite the bus stop and next to the post office."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Thank you so much, Mai!"
+    },
+    {
+     "speaker": "Mai",
+     "text": "You're welcome! Have a good time!"
+    }
+   ]
+  },
+  {
+   "title": "Planning Weekend Activities",
+   "image_prompt": "Minh and Ben talking cheerfully while sitting on a park bench.",
+   "lines": [
+    {
+     "speaker": "Minh",
+     "text": "What did you do last weekend, Ben?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I went to the cinema with my brother. We watched a cartoon."
+    },
+    {
+     "speaker": "Minh",
+     "text": "That sounds fun! Was it good?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Yes! The cinema is bigger than the old one near my house."
+    },
+    {
+     "speaker": "Minh",
+     "text": "What will you do next weekend?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I will go to the swimming pool on Sunday morning."
+    },
+    {
+     "speaker": "Minh",
+     "text": "Can I come with you?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Sure! We can meet at nine o'clock!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! Welcome to Sunny Town! My name is Mr. Long and I am a tour guide. Today, I am showing you around our town. On your left, you can see our main library. It has over ten thousand books! Opposite the library is a big green park. Many children play football here after school. Next to the park, there is a famous bakery. They make delicious chocolate cakes! Yesterday, a new toy shop opened behind the bakery. Next weekend, our town will hold a flower festival in the central square. You can ride a yellow bus to get anywhere in town easily. Thank you for visiting Sunny Town!",
+  "questions": [
+   "What is the name of the tour guide?",
+   "What is the name of the town?",
+   "What building is on the left side?",
+   "How many books are in the main library?",
+   "What is opposite the library?",
+   "What do children do in the park after school?",
+   "What shop is next to the park?",
+   "What shop opened behind the bakery yesterday?",
+   "Where will the flower festival take place next weekend?",
+   "What color is the bus mentioned in the speech?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "PARK",
+   "BAKERY",
+   "MUSEUM",
+   "CINEMA",
+   "LIBRARY",
+   "BRIDGE",
+   "MARKET",
+   "STATION"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "park",
+     "library",
+     "museum",
+     "apple"
+    ],
+    "answer": "apple",
+    "why_vi": "apple là trái cây, các từ còn lại là địa điểm trong thị trấn."
+   },
+   {
+    "options": [
+     "bakery",
+     "supermarket",
+     "market",
+     "swimming"
+    ],
+    "answer": "swimming",
+    "why_vi": "swimming là hành động, các từ còn lại là địa điểm mua sắm."
+   },
+   {
+    "options": [
+     "behind",
+     "opposite",
+     "next to",
+     "hospital"
+    ],
+    "answer": "hospital",
+    "why_vi": "hospital là danh từ chỉ nơi chốn, các từ còn lại là giới từ chỉ vị trí."
+   },
+   {
+    "options": [
+     "bigger",
+     "quieter",
+     "older",
+     "cinema"
+    ],
+    "answer": "cinema",
+    "why_vi": "cinema là danh từ chỉ nơi chốn, các từ còn lại là tính từ so sánh hơn."
+   },
+   {
+    "options": [
+     "went",
+     "saw",
+     "bought",
+     "tomorrow"
+    ],
+    "answer": "tomorrow",
+    "why_vi": "tomorrow là từ chỉ tương lai, các từ còn lại là động từ ở thì quá khứ đơn."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have thousands of pages and many stories, but I never speak. You come to me to borrow books. What am I?",
+    "answer": "library"
+   },
+   {
+    "riddle": "Smell the fresh cakes and bread when you walk past my door. Bakers work here every morning. What am I?",
+    "answer": "bakery"
+   },
+   {
+    "riddle": "I have big screen movies, popcorn, and soda. People sit in the dark to watch films. What am I?",
+    "answer": "cinema"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "krap",
+    "answer": "park"
+   },
+   {
+    "scrambled": "yrakbe",
+    "answer": "bakery"
+   },
+   {
+    "scrambled": "zool",
+    "answer": "zoo"
+   },
+   {
+    "scrambled": "emsumu",
+    "answer": "museum"
+   },
+   {
+    "scrambled": "ebridg",
+    "answer": "bridge"
+   },
+   {
+    "scrambled": "mkerat",
+    "answer": "market"
+   }
+  ],
+  "picture_count": {
+   "question": "How many green trees can you see in the town square on the unit cover picture?",
+   "hint_vi": "Đếm tất cả các cây xanh lớn nhỏ xuất hiện trên tấm ảnh bìa của bài học!"
+  }
+ },
+ "write": {
+  "profile_title": "My Town Profile",
+  "profile_fields": [
+   "My name is:",
+   "My town/city name is:",
+   "It is (big/small/quiet/lively):",
+   "My house is near the:",
+   "My favourite place in town is:",
+   "It is located (next to / opposite):",
+   "What I can do there:",
+   "Where I went last weekend:",
+   "What I did there:",
+   "Where I will go next weekend:"
+  ],
+  "frame_title": "MY FAVOURITE PLACE IN TOWN",
+  "frame_lines": [
+   "Hello! My name is ____.",
+   "I live in ____.",
+   "My town is very ____ and ____.",
+   "My favourite place in town is the ____.",
+   "It is next to the ____ and opposite the ____.",
+   "At this place, I can ____.",
+   "Yesterday, I went to the ____ with ____.",
+   "We ____ and had a wonderful time.",
+   "Next weekend, I will visit the ____.",
+   "I love my town because ____."
+  ]
+ },
+ "life_skill": {
+  "title": "LOVE AND RESPECT YOUR COMMUNITY",
+  "intro": "A great town is made by kind, caring, and responsible citizens every single day!",
+  "intro_vi": "Một thị trấn tuyệt vời được xây dựng bởi những công dân nhân ái, quan tâm và có trách nhiệm mỗi ngày!",
+  "can_do": [
+   "Throw trash into dustbins in public parks.",
+   "Keep quiet when reading inside the library.",
+   "Wait politely in line at the bus stop.",
+   "Say thank you to shopkeepers and bakers.",
+   "Cross the street safely at pedestrian crossings.",
+   "Take care of public benches and playground toys.",
+   "Keep public toilets clean after use.",
+   "Help elderly people carry heavy bags.",
+   "Do not pick flowers in town squares or parks.",
+   "Speak politely to police officers and firefighters.",
+   "Keep your neighborhood street clean and green.",
+   "Welcome visitors and tourists with a cheerful smile."
+  ],
+  "value_question": "What can you do today to help keep your local park or street clean and beautiful?",
+  "image_prompt": "Diverse young pupils happily picking up trash and planting flowers in a sunny town park together."
+ },
+ "fun_facts": [
+  {
+   "en": "The oldest working post office in Vietnam is the Saigon Central Post Office, built over 130 years ago!",
+   "vi": "Bưu điện lâu đời nhất còn hoạt động tại Việt Nam là Bưu điện Trung tâm Sài Gòn, được xây dựng cách đây hơn 130 năm!"
+  },
+  {
+   "en": "The world's largest shopping mall has over 1,200 stores and even its own indoor aquarium!",
+   "vi": "Trung tâm thương mại lớn nhất thế giới có hơn 1.200 cửa hàng và có cả một bể cá khổng lồ trong nhà!"
+  },
+  {
+   "en": "In some countries, public libraries lend board games, musical instruments, and seeds for gardening, not just books!",
+   "vi": "Ở một số quốc gia, thư viện công cộng cho mượn cả trò chơi cờ, nhạc cụ và hạt giống cây trồng chứ không chỉ có sách!"
+  },
+  {
+   "en": "London's famous Red Telephone Boxes were designed almost 100 years ago and are world famous symbols of the city!",
+   "vi": "Những bốt điện thoại màu đỏ nổi tiếng ở Luân Đôn được thiết kế gần 100 năm trước và là biểu tượng nổi tiếng thế giới của thành phố này!"
+  },
+  {
+   "en": "The world's smallest police station in Ohio, USA, was built inside a tiny phone booth!",
+   "vi": "Đồn cảnh sát nhỏ nhất thế giới tại Ohio, Mỹ, từng được đặt bên trong một bốt điện thoại tí hon!"
+  }
+ ],
+ "project": {
+  "title": "MY DREAM TOWN POSTER",
+  "task": "Create a colourful poster of your ideal dream town with all your favourite places and present it to your class.",
+  "draw_items": [
+   "A sunny town square with a fountain",
+   "A big library with picture books",
+   "A fun toy shop with giant teddy bears",
+   "A green park with trees and swings",
+   "A bakery with fresh sweet cakes",
+   "A modern cinema with colorful posters",
+   "A long bridge over a blue river",
+   "A clean bus stop with a red bus"
+  ],
+  "example": [
+   "Welcome to my Dream Town called Star City!",
+   "In my town, there is a giant green park next to a chocolate bakery.",
+   "The library is bigger than the school and has thousands of fun comics.",
+   "Opposite the cinema, there is a huge toy shop with free ice cream.",
+   "Yesterday, I drew this bright poster with my colored pencils.",
+   "Next weekend, I will build a cardboard model of my dream town!"
+  ],
+  "present": "Hello everyone! This is my Dream Town Poster. In my town, there is a big park next to a bakery. You can play and eat sweet cakes here. I love my dream town because it is clean and full of fun places!",
+  "image_prompt": "A young student standing in front of the class proudly presenting a colorful hand-drawn poster of a dream town."
+ },
+ "classroom_game": {
+  "name": "Town Navigator Rally",
+  "players": "groups of 4 pupils",
+  "steps_en": [
+   "Place flashcards of town places on different desks around the classroom.",
+   "One student acts as the 'Navigator' and holds a direction card (e.g., 'Go to the bakery').",
+   "The Navigator gives directions: 'Go straight, turn left, it is next to the library!'.",
+   "The 'Walker' follows the oral directions to reach the correct desk card.",
+   "The first group to visit three correct places wins the round!"
+  ],
+  "steps_vi": [
+   "Đặt thẻ từ các địa điểm trong thị trấn lên các bàn khác nhau quanh lớp học.",
+   "Một học sinh đóng vai 'Người chỉ đường' và cầm thẻ nhiệm vụ (ví dụ: 'Đi đến tiệm bánh').",
+   "Người chỉ đường đưa ra hướng đi: 'Đi thẳng, rẽ trái, nó nằm bên cạnh thư viện!'.",
+   "Học sinh đóng vai 'Người di chuyển' nghe lệnh và đi đến đúng vị trí thẻ trên bàn.",
+   "Nhóm nào hoàn thành việc tìm 3 địa điểm chính xác nhanh nhất sẽ chiến thắng!"
+  ],
+  "language": [
+   "Where is the ____?",
+   "Go straight ahead!",
+   "Turn left / Turn right!",
+   "It is next to / opposite the ____!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "p__k",
+    "answer": "park"
+   },
+   {
+    "word": "bak__y",
+    "answer": "bakery"
+   },
+   {
+    "word": "libr__y",
+    "answer": "library"
+   },
+   {
+    "word": "mus__m",
+    "answer": "museum"
+   },
+   {
+    "word": "cin__a",
+    "answer": "cinema"
+   },
+   {
+    "word": "bri__e",
+    "answer": "bridge"
+   },
+   {
+    "word": "mar__t",
+    "answer": "market"
+   },
+   {
+    "word": "hos__tal",
+    "answer": "hospital"
+   },
+   {
+    "word": "b__kshop",
+    "answer": "bookshop"
+   },
+   {
+    "word": "squ__e",
+    "answer": "square"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "The bakery is ______ to the bookshop.",
+    "options": [
+     "next",
+     "between",
+     "opposite"
+    ],
+    "answer": "next"
+   },
+   {
+    "q": "Yesterday, I ______ to the museum with my class.",
+    "options": [
+     "go",
+     "went",
+     "will go"
+    ],
+    "answer": "went"
+   },
+   {
+    "q": "The supermarket is ______ than the corner shop.",
+    "options": [
+     "big",
+     "bigger",
+     "biggest"
+    ],
+    "answer": "bigger"
+   },
+   {
+    "q": "Next Sunday, we ______ visit the town zoo.",
+    "options": [
+     "will",
+     "did",
+     "were"
+    ],
+    "answer": "will"
+   },
+   {
+    "q": "Where can you borrow books?",
+    "options": [
+     "at the library",
+     "at the bakery",
+     "at the hospital"
+    ],
+    "answer": "at the library"
+   },
+   {
+    "q": "How can I get to the park? - ______ straight ahead!",
+    "options": [
+     "Go",
+     "Going",
+     "Went"
+    ],
+    "answer": "Go"
+   },
+   {
+    "q": "The hospital is ______ the park.",
+    "options": [
+     "opposite",
+     "next",
+     "between to"
+    ],
+    "answer": "opposite"
+   },
+   {
+    "q": "What ______ you doing at the park yesterday?",
+    "options": [
+     "are",
+     "were",
+     "will"
+    ],
+    "answer": "were"
+   },
+   {
+    "q": "You can buy toys at the ______.",
+    "options": [
+     "toy shop",
+     "bank",
+     "post office"
+    ],
+    "answer": "toy shop"
+   },
+   {
+    "q": "Is there a bus stop near here? - Yes, there ______.",
+    "options": [
+     "are",
+     "is",
+     "was"
+    ],
+    "answer": "is"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / The / bakery / to / next / the / library",
+    "answer": "The bakery is next to the library."
+   },
+   {
+    "words": "can / Where / buy / you / fresh / bread / ?",
+    "answer": "Where can you buy fresh bread?"
+   },
+   {
+    "words": "went / I / to / yesterday / the / museum",
+    "answer": "I went to the museum yesterday."
+   },
+   {
+    "words": "is / The / park / bigger / the / garden / than",
+    "answer": "The park is bigger than the garden."
+   },
+   {
+    "words": "will / We / visit / zoo / the / next / weekend",
+    "answer": "We will visit the zoo next weekend."
+   },
+   {
+    "words": "How / I / can / get / the / to / cinema / ?",
+    "answer": "How can I get to the cinema?"
+   },
+   {
+    "words": "Turn / left / at / post / the / office",
+    "answer": "Turn left at the post office."
+   },
+   {
+    "words": "is / There / a / bus / stop / near / house / my",
+    "answer": "There is a bus stop near my house."
+   },
+   {
+    "words": "were / What / doing / you / at / the / park / ?",
+    "answer": "What were you doing at the park?"
+   },
+   {
+    "words": "love / town / I / my / clean / and / beautiful",
+    "answer": "I love my clean and beautiful town."
+   }
+  ],
+  "about_you": [
+   "What is the name of your town?",
+   "Is there a library near your school?",
+   "Where is your favourite place in town?",
+   "Is the supermarket next to or opposite your house?",
+   "Where did you go yesterday?",
+   "Who did you go with?",
+   "What did you buy or do there?",
+   "Where will you go next Saturday?",
+   "How do you usually go to the park?",
+   "Why do you like your neighbourhood?"
+  ]
+ },
+ "i_can": [
+  "I can say 20 town place words in English.",
+  "I can pronounce the /p/ sound correctly.",
+  "I can use prepositions like next to, opposite, behind, and between.",
+  "I can ask where a place is located.",
+  "I can give simple directions like turn left, turn right, and go straight ahead.",
+  "I can describe what people can do at different places in town.",
+  "I can ask and answer 'Is there a... near here?'.",
+  "I can use past simple verbs like went, saw, and bought.",
+  "I can talk about where I went yesterday.",
+  "I can compare two places using simple comparative adjectives.",
+  "I can use 'will' to express my plans for next weekend.",
+  "I can read short texts about towns and answer questions.",
+  "I can act out conversations about asking for directions.",
+  "I can write a profile about my town and favourite places.",
+  "I can design and present my Dream Town poster."
+ ],
+ "message_en": "OUR TOWN IS OUR COMMON HOME. RESPECT IT, CARE FOR IT, AND HELP IT SHINE!",
+ "message_vi": "Thị trấn của chúng ta là mái nhà chung. Hãy tôn trọng, chăm sóc và giúp thị trấn luôn tươi đẹp!",
+ "message_body": "Every building, park, and street in our community brings people together. When we keep our town clean, help our neighbors, and speak kindly to everyone, we make our community a happy place for all.",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 5,
+ "grade": 4,
+ "validation": []
+}

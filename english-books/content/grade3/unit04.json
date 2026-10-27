@@ -1,0 +1,1173 @@
+{
+ "title": "MY DAY",
+ "theme": "Daily Routines & Time",
+ "goal": "Students can talk about their daily routines, ask and answer about time, and describe actions happening now.",
+ "goal_vi": "Học sinh có thể nói về các hoạt động hàng ngày của mình, hỏi và trả lời về thời gian, và mô tả các hành động đang diễn ra.",
+ "cover_emoji": "⏰☀️🌙",
+ "cover_image_prompt": "A cheerful, diverse group of Vietnamese and English children doing various daily activities like waking up, brushing teeth, eating breakfast, going to school, playing, and going to bed. Show a clock in the background, bright and engaging colors, children smiling.",
+ "big_question": {
+  "en": "What do you do every day?",
+  "vi": "Em làm gì mỗi ngày?",
+  "prompts": [
+   "What time do you wake up?",
+   "Do you eat breakfast every morning?",
+   "What do you do after school?",
+   "Do you like to play games?",
+   "When do you do your homework?",
+   "What do you do before bed?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "wake up",
+   "ipa": "/weɪk ʌp/",
+   "vi": "thức dậy",
+   "emoji": "⏰",
+   "image_prompt": "A child with sleepy eyes stretching in bed, sunlight coming through a window."
+  },
+  {
+   "en": "brush teeth",
+   "ipa": "/brʌʃ tiːθ/",
+   "vi": "đánh răng",
+   "emoji": "🦷",
+   "image_prompt": "A child happily brushing their teeth in front of a bathroom mirror."
+  },
+  {
+   "en": "wash face",
+   "ipa": "/wɑʃ feɪs/",
+   "vi": "rửa mặt",
+   "emoji": "🧼",
+   "image_prompt": "A child splashing water on their face, smiling, near a sink."
+  },
+  {
+   "en": "get dressed",
+   "ipa": "/ɡɛt drɛst/",
+   "vi": "mặc quần áo",
+   "emoji": "👕",
+   "image_prompt": "A child putting on a shirt, looking ready for the day."
+  },
+  {
+   "en": "eat breakfast",
+   "ipa": "/iːt ˈbrɛkfəst/",
+   "vi": "ăn sáng",
+   "emoji": "🍳",
+   "image_prompt": "A child sitting at a table eating a bowl of cereal and fruit, with a glass of milk."
+  },
+  {
+   "en": "go to school",
+   "ipa": "/ɡoʊ tu skuːl/",
+   "vi": "đi học",
+   "emoji": "🎒",
+   "image_prompt": "Two children, a boy and a girl, walking happily with backpacks towards a school building."
+  },
+  {
+   "en": "study",
+   "ipa": "/ˈstʌdi/",
+   "vi": "học bài",
+   "emoji": "📚",
+   "image_prompt": "A child sitting at a desk with an open book and a notebook, concentrating."
+  },
+  {
+   "en": "eat lunch",
+   "ipa": "/iːt lʌntʃ/",
+   "vi": "ăn trưa",
+   "emoji": "🥪",
+   "image_prompt": "A group of diverse children sitting together, sharing packed lunches and laughing."
+  },
+  {
+   "en": "play games",
+   "ipa": "/pleɪ ɡeɪmz/",
+   "vi": "chơi trò chơi",
+   "emoji": "🎮",
+   "image_prompt": "Two children, a boy and a girl, playing a board game on the floor, smiling."
+  },
+  {
+   "en": "do homework",
+   "ipa": "/duː ˈhoʊmˌwɜrk/",
+   "vi": "làm bài tập về nhà",
+   "emoji": "📝",
+   "image_prompt": "A child sitting quietly at a table, writing in a notebook with a pencil."
+  },
+  {
+   "en": "eat dinner",
+   "ipa": "/iːt ˈdɪnər/",
+   "vi": "ăn tối",
+   "emoji": "🍝",
+   "image_prompt": "A family (parents and two children) sitting around a dinner table, enjoying a meal together."
+  },
+  {
+   "en": "watch TV",
+   "ipa": "/wɑtʃ tiː viː/",
+   "vi": "xem TV",
+   "emoji": "📺",
+   "image_prompt": "A child sitting on a sofa, looking at a TV screen, smiling."
+  },
+  {
+   "en": "read a book",
+   "ipa": "/riːd ə bʊk/",
+   "vi": "đọc sách",
+   "emoji": "📖",
+   "image_prompt": "A child comfortably sitting in a chair, engrossed in reading a colorful picture book."
+  },
+  {
+   "en": "take a bath",
+   "ipa": "/teɪk ə bæθ/",
+   "vi": "tắm",
+   "emoji": "🛁",
+   "image_prompt": "A happy child playing with bubbles in a bathtub."
+  },
+  {
+   "en": "go to bed",
+   "ipa": "/ɡoʊ tu bɛd/",
+   "vi": "đi ngủ",
+   "emoji": "🛌",
+   "image_prompt": "A child tucked into bed, eyes closed, with a soft blanket and a teddy bear, a moon visible outside the window."
+  },
+  {
+   "en": "o'clock",
+   "ipa": "/əˈklɑk/",
+   "vi": "giờ (chỉ giờ đúng)",
+   "emoji": "🕒",
+   "image_prompt": "A simple analog clock showing 3:00, with a clear face and hands."
+  },
+  {
+   "en": "morning",
+   "ipa": "/ˈmɔrnɪŋ/",
+   "vi": "buổi sáng",
+   "emoji": "☀️",
+   "image_prompt": "A bright sun rising over hills, with birds flying in the sky."
+  },
+  {
+   "en": "afternoon",
+   "ipa": "/ˌæftərˈnuːn/",
+   "vi": "buổi chiều",
+   "emoji": "🌞",
+   "image_prompt": "A warm sun high in the sky, with children playing outside in a park."
+  },
+  {
+   "en": "evening",
+   "ipa": "/ˈiːvnɪŋ/",
+   "vi": "buổi tối",
+   "emoji": "🌆",
+   "image_prompt": "The sky with soft orange and purple colors as the sun sets, city lights beginning to twinkle."
+  },
+  {
+   "en": "night",
+   "ipa": "/naɪt/",
+   "vi": "ban đêm",
+   "emoji": "🌃",
+   "image_prompt": "A dark sky with a crescent moon and many stars, with a few house lights on below."
+  }
+ ],
+ "phonics": {
+  "sound": "/t/",
+  "letters": "t",
+  "words": [
+   "time",
+   "teeth",
+   "take",
+   "to",
+   "at",
+   "get"
+  ],
+  "chant": "Tick-tock, tick-tock, what time is it?\nTen tiny teeth, clean and bright!",
+  "tip_vi": "Âm /t/ giống âm 't' trong tiếng Việt nhưng bật hơi mạnh hơn một chút ở đầu lưỡi."
+ },
+ "patterns": [
+  {
+   "pattern": "I + verb + at + time.",
+   "vi": "Tôi làm gì đó vào lúc mấy giờ.",
+   "examples": [
+    "I wake up at 6 o'clock.",
+    "She eats breakfast at 7 o'clock.",
+    "We go to bed at 9 o'clock."
+   ]
+  },
+  {
+   "pattern": "What time do you + verb...?",
+   "vi": "Bạn làm gì đó vào lúc mấy giờ?",
+   "examples": [
+    "What time do you wake up?",
+    "What time do you eat lunch?",
+    "What time do you do your homework?"
+   ]
+  },
+  {
+   "pattern": "Subject + is/are + verb-ing + now.",
+   "vi": "Ai đó đang làm gì đó bây giờ.",
+   "examples": [
+    "He is watching TV now.",
+    "They are playing games now.",
+    "I am reading a book now."
+   ]
+  },
+  {
+   "pattern": "Subject + can/can't + verb.",
+   "vi": "Ai đó có thể/không thể làm gì đó.",
+   "examples": [
+    "I can brush my teeth.",
+    "She can't fly a kite.",
+    "We can play football."
+   ]
+  },
+  {
+   "pattern": "I have + noun.",
+   "vi": "Tôi có cái gì đó. / Tôi ăn cái gì đó.",
+   "examples": [
+    "I have breakfast every morning.",
+    "They have dinner at 7 PM.",
+    "She has a new clock."
+   ]
+  },
+  {
+   "pattern": "When do you + verb...?",
+   "vi": "Bạn làm gì đó khi nào?",
+   "examples": [
+    "When do you go to school?",
+    "When do you read a book?",
+    "When do you take a bath?"
+   ]
+  },
+  {
+   "pattern": "Sentence 1 because Sentence 2.",
+   "vi": "Câu 1 bởi vì Câu 2.",
+   "examples": [
+    "I go to bed early because I am tired.",
+    "She eats a lot because she is hungry.",
+    "We study hard because we want to learn."
+   ]
+  },
+  {
+   "pattern": "Sentence 1 and Sentence 2.",
+   "vi": "Câu 1 và Câu 2.",
+   "examples": [
+    "I wake up, and I brush my teeth.",
+    "He eats lunch, and he plays games.",
+    "She reads a book, and she goes to bed."
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Present Simple for Daily Routines",
+   "explain_en": "We use the Present Simple to talk about things we do regularly, every day, or routines.",
+   "explain_vi": "Chúng ta dùng thì Hiện tại đơn để nói về những việc mình làm thường xuyên, mỗi ngày, hoặc các thói quen.",
+   "examples": [
+    "I wake up at 6 o'clock every day.",
+    "She goes to school in the morning.",
+    "They do homework in the afternoon."
+   ],
+   "right": "✅ He brushes his teeth.",
+   "wrong": "❌ He brush his teeth."
+  },
+  {
+   "title": "Present Continuous for Actions Now",
+   "explain_en": "We use the Present Continuous to talk about actions happening at the moment of speaking (now).",
+   "explain_vi": "Chúng ta dùng thì Hiện tại tiếp diễn để nói về các hành động đang xảy ra ngay tại thời điểm nói (bây giờ).",
+   "examples": [
+    "I am eating breakfast now.",
+    "Look! She is watching TV.",
+    "The children are playing games right now."
+   ],
+   "right": "✅ What are you doing?",
+   "wrong": "❌ What you do now?"
+  },
+  {
+   "title": "Can / Can't for Ability",
+   "explain_en": "'Can' means you are able to do something. 'Can't' means you are not able to do something.",
+   "explain_vi": "'Can' có nghĩa là bạn có thể làm được điều gì đó. 'Can't' có nghĩa là bạn không thể làm được điều gì đó.",
+   "examples": [
+    "I can ride a bike.",
+    "He can't touch the sky.",
+    "Can you swim?"
+   ],
+   "right": "✅ I can read a book.",
+   "wrong": "❌ I can to read a book."
+  },
+  {
+   "title": "Wh-Questions (What time?, When?, What?)",
+   "explain_en": "We use 'What time?' to ask about specific times (e.g., 7 o'clock). We use 'When?' to ask about general periods (e.g., in the morning). We use 'What?' to ask about actions or things.",
+   "explain_vi": "Chúng ta dùng 'What time?' để hỏi về giờ cụ thể. Dùng 'When?' để hỏi về thời điểm chung (buổi sáng, buổi tối). Dùng 'What?' để hỏi về hành động hoặc sự vật.",
+   "examples": [
+    "What time do you go to bed?",
+    "When do you eat dinner?",
+    "What are you doing now?"
+   ],
+   "right": "✅ What time is it?",
+   "wrong": "❌ When time is it?"
+  }
+ ],
+ "song": {
+  "title": "My Day, My Fun!",
+  "tune": "Sing to the tune of 'Twinkle Twinkle Little Star'",
+  "lines": [
+   "Morning, morning, time to wake,",
+   "Brush my teeth, for goodness sake!",
+   "Eat my breakfast, yummy, yummy,",
+   "Ready for school, with a happy tummy.",
+   "Afternoon, I play and learn,",
+   "Do my homework, take my turn.",
+   "Evening comes, the sun goes down,",
+   "Read a book, then sleep in town.",
+   "Nighty night, I close my eyes,",
+   "Dream of stars in the dark skies."
+  ],
+  "actions_vi": "Khi hát: 'Morning' vươn vai; 'Brush my teeth' làm động tác đánh răng; 'Eat my breakfast' xoa bụng; 'Go to school' làm động tác đi bộ; 'Play and learn' vỗ tay; 'Do my homework' làm động tác viết bài; 'Read a book' làm động tác mở sách; 'Sleep' úp hai tay vào má."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "Linh's Morning",
+   "text": "My name is Linh. I am eight years old. Every morning, I wake up at 6 o'clock. I brush my teeth and wash my face. Then I get dressed. At 7 o'clock, I eat breakfast with my family. My mom makes delicious noodles! After breakfast, I pack my school bag. I leave for school at half past seven. My school is near my home. I can walk to school with my friends. We laugh and talk on the way. I love my morning routine!",
+   "image_prompt": "A cheerful Vietnamese girl named Linh, 8 years old, walking to school with a friend, both wearing backpacks and smiling. The sun is shining.",
+   "vocab": [
+    {
+     "en": "Linh",
+     "ipa": "/lɪn/",
+     "vi": "Linh (tên riêng)"
+    },
+    {
+     "en": "wake up",
+     "ipa": "/weɪk ʌp/",
+     "vi": "thức dậy"
+    },
+    {
+     "en": "brush teeth",
+     "ipa": "/brʌʃ tiːθ/",
+     "vi": "đánh răng"
+    },
+    {
+     "en": "wash face",
+     "ipa": "/wɑʃ feɪs/",
+     "vi": "rửa mặt"
+    },
+    {
+     "en": "get dressed",
+     "ipa": "/ɡɛt drɛst/",
+     "vi": "mặc quần áo"
+    },
+    {
+     "en": "eat breakfast",
+     "ipa": "/iːt ˈbrɛkfəst/",
+     "vi": "ăn sáng"
+    },
+    {
+     "en": "delicious",
+     "ipa": "/dɪˈlɪʃəs/",
+     "vi": "ngon"
+    },
+    {
+     "en": "noodles",
+     "ipa": "/ˈnuːdəlz/",
+     "vi": "mì"
+    },
+    {
+     "en": "school bag",
+     "ipa": "/skuːl bæɡ/",
+     "vi": "cặp sách"
+    },
+    {
+     "en": "half past",
+     "ipa": "/hæf pæst/",
+     "vi": "rưỡi (ví dụ: 7 rưỡi)"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "What time does Linh wake up?",
+    "What does Linh do after brushing her teeth and washing her face?",
+    "What time does she eat breakfast?",
+    "Who does Linh eat breakfast with?",
+    "What does Linh's mom make?",
+    "What does Linh do after breakfast?",
+    "What time does Linh leave for school?",
+    "How does Linh go to school?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is seven years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh wakes up at 6 o'clock.",
+     "answer": true
+    },
+    {
+     "statement": "Linh's dad makes breakfast.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's school is far from her home.",
+     "answer": false
+    },
+    {
+     "statement": "Linh walks to school with her friends.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "A Busy Afternoon",
+   "text": "After school, Minh and his sister Mai have a busy afternoon. They come home at 4 o'clock. First, they wash their hands and eat a snack. Then, they do their homework. Minh has English homework, and Mai has Math homework. They usually finish their homework at 5 o'clock. After homework, they can play games or read books. Today, Minh is playing football outside with his friends, and Mai is reading her favorite storybook in her room. At 6 o'clock, they help their mom set the table for dinner. They eat dinner together at half past six. Minh and Mai always have a fun and productive afternoon!",
+   "image_prompt": "Two Vietnamese children, Minh and Mai, in different parts of their home. Minh is playing football in a sunny yard, while Mai is comfortably reading a book in a cozy room.",
+   "vocab": [
+    {
+     "en": "Minh",
+     "ipa": "/mɪn/",
+     "vi": "Minh (tên riêng)"
+    },
+    {
+     "en": "Mai",
+     "ipa": "/maɪ/",
+     "vi": "Mai (tên riêng)"
+    },
+    {
+     "en": "busy",
+     "ipa": "/ˈbɪzi/",
+     "vi": "bận rộn"
+    },
+    {
+     "en": "snack",
+     "ipa": "/snæk/",
+     "vi": "bữa ăn nhẹ"
+    },
+    {
+     "en": "homework",
+     "ipa": "/ˈhoʊmˌwɜrk/",
+     "vi": "bài tập về nhà"
+    },
+    {
+     "en": "English",
+     "ipa": "/ˈɪŋɡlɪʃ/",
+     "vi": "tiếng Anh"
+    },
+    {
+     "en": "Math",
+     "ipa": "/mæθ/",
+     "vi": "Toán"
+    },
+    {
+     "en": "finish",
+     "ipa": "/ˈfɪnɪʃ/",
+     "vi": "hoàn thành"
+    },
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích"
+    },
+    {
+     "en": "set the table",
+     "ipa": "/sɛt ðə ˈteɪbəl/",
+     "vi": "dọn bàn ăn"
+    }
+   ],
+   "questions": [
+    "Who are the children in the story?",
+    "What time do Minh and Mai come home?",
+    "What do they do first when they get home?",
+    "What kind of homework does Minh have?",
+    "What kind of homework does Mai have?",
+    "What time do they usually finish their homework?",
+    "What can they do after homework?",
+    "What is Minh doing right now?",
+    "What is Mai doing right now?",
+    "What time do they eat dinner?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh and Mai come home at 3 o'clock.",
+     "answer": false
+    },
+    {
+     "statement": "They eat a snack after their homework.",
+     "answer": false
+    },
+    {
+     "statement": "Minh has Math homework.",
+     "answer": false
+    },
+    {
+     "statement": "Mai is reading a storybook.",
+     "answer": true
+    },
+    {
+     "statement": "They eat dinner at 6 o'clock.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "A Family Weekend Day",
+   "text": "On Saturdays, our family day is a little different. My brother, Tom, and I (my name is Lucy) don't go to school. We can wake up a bit later, around 7 o'clock. My dad usually makes pancakes for breakfast, and we all help. After breakfast, we have chores. I can clean my room, and Tom can help water the plants in the garden. He loves to see the flowers grow! In the afternoon, we sometimes go to the park, but today, it's raining, so we are staying home. My mom is cooking a big lunch, and Dad is reading the newspaper. Tom is building a tall tower with his blocks, and I am drawing a picture of a funny cat. In the evening, we often watch a movie together or play board games. Tonight, we are watching 'The Lion King'. We go to bed a bit later on Saturdays, around 10 o'clock, because it's a special day!",
+   "image_prompt": "A cozy family scene indoors on a rainy Saturday. Lucy is drawing, Tom is playing with blocks. Mom is in the kitchen cooking, and Dad is reading. A window shows rain outside.",
+   "vocab": [
+    {
+     "en": "Tom",
+     "ipa": "/tɑm/",
+     "vi": "Tom (tên riêng)"
+    },
+    {
+     "en": "Lucy",
+     "ipa": "/ˈluːsi/",
+     "vi": "Lucy (tên riêng)"
+    },
+    {
+     "en": "different",
+     "ipa": "/ˈdɪfrənt/",
+     "vi": "khác"
+    },
+    {
+     "en": "pancakes",
+     "ipa": "/ˈpænˌkeɪks/",
+     "vi": "bánh kếp"
+    },
+    {
+     "en": "chores",
+     "ipa": "/tʃɔrz/",
+     "vi": "việc nhà"
+    },
+    {
+     "en": "water (verb)",
+     "ipa": "/ˈwɑtər/",
+     "vi": "tưới (nước)"
+    },
+    {
+     "en": "plants",
+     "ipa": "/plænts/",
+     "vi": "thực vật, cây cối"
+    },
+    {
+     "en": "raining",
+     "ipa": "/ˈreɪnɪŋ/",
+     "vi": "đang mưa"
+    },
+    {
+     "en": "newspaper",
+     "ipa": "/ˈnuːzˌpeɪpər/",
+     "vi": "báo"
+    },
+    {
+     "en": "board games",
+     "ipa": "/bɔrd ɡeɪmz/",
+     "vi": "trò chơi cờ bàn"
+    }
+   ],
+   "questions": [
+    "What day is this story about?",
+    "What time do Tom and Lucy wake up on Saturdays?",
+    "Who makes breakfast on Saturdays?",
+    "What do they do after breakfast?",
+    "What chore does Lucy have?",
+    "What chore does Tom do?",
+    "Why are they staying home in the afternoon?",
+    "What is Mom doing now?",
+    "What is Tom doing now?",
+    "What movie are they watching tonight?"
+   ],
+   "true_false": [
+    {
+     "statement": "Tom and Lucy go to school on Saturdays.",
+     "answer": false
+    },
+    {
+     "statement": "Their dad makes pancakes for breakfast.",
+     "answer": true
+    },
+    {
+     "statement": "Lucy cleans the garden.",
+     "answer": false
+    },
+    {
+     "statement": "It is sunny, so they go to the park.",
+     "answer": false
+    },
+    {
+     "statement": "They watch a movie in the evening.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "What Time Is It?",
+  "panels": [
+   {
+    "scene": "A boy, Nam, is in bed with his eyes closed. An alarm clock on his bedside table shows 6:00 AM.",
+    "speech": "Nam: Zzzzz... (sleepy)"
+   },
+   {
+    "scene": "Nam's mom is standing by his bed, smiling. Nam is still in bed, rubbing his eyes. The clock still shows 6:00 AM.",
+    "speech": "Mom: Nam, wake up! It's 6 o'clock. Time for school!"
+   },
+   {
+    "scene": "Nam is now out of bed, looking confused at the clock. The clock now clearly shows 6:00 PM (the hands are pointing correctly, but the sun is setting outside the window).",
+    "speech": "Nam: 6 o'clock? But Mom, the sun is going down! It's night!"
+   },
+   {
+    "scene": "Mom is laughing, holding a new clock. Nam looks surprised. The old clock is still showing 6:00 PM. The new clock shows 6:00 AM with a bright sun.",
+    "speech": "Mom: Oh, Nam! This old clock is broken! It shows PM, not AM! Look at my new clock! It's morning!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What time do you usually wake up?",
+   "Do you brush your teeth before or after breakfast?",
+   "What do you eat for breakfast?",
+   "What time do you go to school?",
+   "What do you do in the morning at school?",
+   "Do you eat lunch at school? What time?",
+   "What do you do after school?",
+   "Do you do your homework every day?",
+   "What time do you eat dinner?",
+   "What do you do in the evening?",
+   "Do you watch TV or read a book before bed?",
+   "What time do you go to bed?",
+   "Can you help your parents with chores?",
+   "What is your favorite part of the day?",
+   "What are you doing right now?"
+  ],
+  "model": "Hello! My name is An. I am eight years old. Every morning, I wake up at half past six. I brush my teeth and wash my face. Then I get dressed. I eat breakfast at 7 o'clock. After breakfast, I go to school. In the afternoon, I do my homework and play with my friends. In the evening, I eat dinner with my family and watch TV. I go to bed at 9 o'clock. I can help my mom set the table. I love my busy day!",
+  "challenge": "Talk about your daily routine for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "My Daily Schedule",
+   "image_prompt": "Two Vietnamese children, a boy named Ben and a girl named Mia, sitting on a bench in a schoolyard, talking and looking at a small notebook.",
+   "lines": [
+    {
+     "speaker": "Ben",
+     "text": "Hi, Mia! What time do you wake up every day?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Hi, Ben! I wake up at 6 o'clock. It's early, but I like it."
+    },
+    {
+     "speaker": "Ben",
+     "text": "Wow, that is early! I wake up at half past six. Do you eat breakfast at home?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "Yes, I do. My mom makes pho. It's so good!"
+    },
+    {
+     "speaker": "Ben",
+     "text": "Pho for breakfast? Lucky you! I usually eat bread."
+    },
+    {
+     "speaker": "Mia",
+     "text": "And when do you go to school?"
+    },
+    {
+     "speaker": "Ben",
+     "text": "I go to school at 7 o'clock. My school is far, so I go by bike."
+    },
+    {
+     "speaker": "Mia",
+     "text": "That's cool! I walk to school because it's near."
+    }
+   ]
+  },
+  {
+   "title": "What Are You Doing?",
+   "image_prompt": "Two diverse children, a boy named Tom and a girl named Lucy, are in a living room. Tom is sitting on the floor with toy cars, and Lucy is drawing at a small table. They are looking at each other, smiling.",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "text": "Hi Lucy! What are you doing?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Hi Tom! I am drawing a big house. What about you?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I am playing with my toy cars. Vroom, vroom!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "That sounds fun! Can I draw a car for you?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, please! A red car! My car is red."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Okay! What time is it now?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "It's 4 o'clock. Soon, we need to do homework."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Oh no! But we can play after homework, right?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, we can! And we can watch TV in the evening."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello everyone! My name is Kien, and I want to tell you about my day. I usually wake up at 6:30 AM. First, I brush my teeth and wash my face. Then I get dressed quickly. At 7 o'clock, I eat a big breakfast with my parents. My dad always makes eggs! After breakfast, I pack my school bag and say goodbye to my family. I go to school by bus because it's a bit far. School starts at 8 AM. In the afternoon, after school, I do my homework. I finish it around 5 PM. Then I can play games with my sister or read my favorite comic books. At 7 PM, we eat dinner together. After dinner, I take a bath and then watch a little TV. I go to bed at 9 o'clock. I always try to sleep early because I need energy for the next day!",
+  "questions": [
+   "What is the boy's name?",
+   "What time does Kien usually wake up?",
+   "What does he do first in the morning?",
+   "Who does Kien eat breakfast with?",
+   "What does his dad always make for breakfast?",
+   "How does Kien go to school?",
+   "What time does Kien finish his homework?",
+   "What can Kien do after homework?",
+   "What time does Kien eat dinner?",
+   "What does Kien do before going to bed?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "WAKEUP",
+   "TEETH",
+   "LUNCH",
+   "STUDY",
+   "READ",
+   "BED",
+   "TIME",
+   "NIGHT"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "wake up",
+     "eat breakfast",
+     "go to bed",
+     "read a book"
+    ],
+    "answer": "read a book",
+    "why_vi": "Đây là một hoạt động, nhưng không phải là một phần của chuỗi 'thức dậy, ăn sáng, đi ngủ'."
+   },
+   {
+    "options": [
+     "morning",
+     "afternoon",
+     "evening",
+     "o'clock"
+    ],
+    "answer": "o'clock",
+    "why_vi": "'O'clock' dùng để chỉ giờ cụ thể, còn lại là các buổi trong ngày."
+   },
+   {
+    "options": [
+     "brush teeth",
+     "wash face",
+     "get dressed",
+     "do homework"
+    ],
+    "answer": "do homework",
+    "why_vi": "Đây là hoạt động sau giờ học, còn lại là các hoạt động buổi sáng chuẩn bị đi học."
+   },
+   {
+    "options": [
+     "play games",
+     "watch TV",
+     "eat dinner",
+     "study"
+    ],
+    "answer": "study",
+    "why_vi": "Đây là hoạt động học tập, còn lại là các hoạt động giải trí hoặc ăn uống."
+   },
+   {
+    "options": [
+     "at 7 o'clock",
+     "in the morning",
+     "in the afternoon",
+     "now"
+    ],
+    "answer": "now",
+    "why_vi": "'Now' dùng với Hiện tại tiếp diễn, còn lại là các cụm từ chỉ thời gian chung cho Hiện tại đơn."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have a face but no eyes, hands but no arms. I tell you when to wake up. What am I?",
+    "answer": "A clock"
+   },
+   {
+    "riddle": "I come after a long day, and before you go to bed. You might eat with your family. What part of the day am I?",
+    "answer": "Evening"
+   },
+   {
+    "riddle": "I am white and foamy. You use me with a brush to make your mouth clean and fresh. What am I?",
+    "answer": "Toothpaste"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "kewa pu",
+    "answer": "wake up"
+   },
+   {
+    "scrambled": "teth",
+    "answer": "teeth"
+   },
+   {
+    "scrambled": "mronnig",
+    "answer": "morning"
+   },
+   {
+    "scrambled": "udtsy",
+    "answer": "study"
+   },
+   {
+    "scrambled": "nnidre",
+    "answer": "dinner"
+   },
+   {
+    "scrambled": "edb",
+    "answer": "bed"
+   }
+  ],
+  "picture_count": {
+   "question": "How many clocks can you see in the cover picture?",
+   "hint_vi": "Hãy đếm tất cả đồng hồ trong bức tranh."
+  }
+ },
+ "write": {
+  "profile_title": "My Day Profile",
+  "profile_fields": [
+   "My name is:",
+   "I am ____ years old.",
+   "I wake up at ____ o'clock.",
+   "For breakfast, I eat ____.",
+   "I go to school at ____ o'clock.",
+   "After school, I like to ____.",
+   "I do my homework at ____.",
+   "For dinner, I eat ____.",
+   "In the evening, I ____.",
+   "I go to bed at ____ o'clock."
+  ],
+  "frame_title": "MY DAY",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "Every morning, I wake up at ____.",
+   "I brush my ____ and wash my ____.",
+   "Then I eat ____.",
+   "I go to school at ____.",
+   "In the afternoon, I do my ____.",
+   "After that, I ____ with my friends.",
+   "In the evening, I eat ____ and ____.",
+   "I go to bed at ____."
+  ]
+ },
+ "life_skill": {
+  "title": "MANAGE YOUR TIME WISELY",
+  "intro": "Every day has 24 hours. How you use your time is important! Managing your time helps you do everything you need to do and still have time for fun. It makes your day happy and productive.",
+  "intro_vi": "Mỗi ngày có 24 giờ. Cách em sử dụng thời gian rất quan trọng! Quản lý thời gian giúp em làm được mọi việc cần làm và vẫn có thời gian để vui chơi. Điều đó làm cho ngày của em vui vẻ và hiệu quả.",
+  "can_do": [
+   "Make a schedule for my day.",
+   "Wake up on time.",
+   "Brush my teeth every morning and night.",
+   "Eat breakfast every day.",
+   "Go to school on time.",
+   "Listen to my teachers carefully.",
+   "Do my homework after school.",
+   "Help my family with chores.",
+   "Play games, but not too long.",
+   "Read books before bed.",
+   "Go to bed early.",
+   "Have enough sleep every night."
+  ],
+  "value_question": "What is one thing you can do to manage your time better?",
+  "image_prompt": "A diverse group of cheerful children, Vietnamese and English, engaged in different activities from the 'can_do' list, like a child looking at a schedule, another brushing teeth, one reading a book, all in a bright, organized setting."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The shortest day of the year (winter solstice) has the fewest hours of daylight, and the longest day (summer solstice) has the most!",
+   "vi": "Em có biết không? Ngày ngắn nhất trong năm (đông chí) có ít giờ ban ngày nhất, và ngày dài nhất (hạ chí) có nhiều giờ ban ngày nhất!"
+  },
+  {
+   "en": "Did you know? Most clocks move clockwise because that's the way sundials worked in the Northern Hemisphere!",
+   "vi": "Em có biết không? Hầu hết đồng hồ chạy theo chiều kim đồng hồ vì đó là cách đồng hồ mặt trời hoạt động ở Bắc bán cầu!"
+  },
+  {
+   "en": "Did you know? Your body has a 'body clock' that tells you when to sleep and when to wake up. It's called your circadian rhythm!",
+   "vi": "Em có biết không? Cơ thể em có một 'đồng hồ sinh học' cho biết khi nào cần ngủ và khi nào cần thức dậy. Nó được gọi là nhịp sinh học!"
+  },
+  {
+   "en": "Did you know? A 'catnap' is a short sleep, often taken during the day, just like a cat might do!",
+   "vi": "Em có biết không? 'Ngủ ngày' (catnap) là một giấc ngủ ngắn, thường diễn ra vào ban ngày, giống như cách một con mèo có thể làm!"
+  },
+  {
+   "en": "Did you know? Different countries start their school day at different times. Some start as early as 7 AM, while others start closer to 9 AM!",
+   "vi": "Em có biết không? Các quốc gia khác nhau bắt đầu ngày học vào các thời điểm khác nhau. Một số bắt đầu sớm nhất là 7 giờ sáng, trong khi những quốc gia khác bắt đầu gần 9 giờ sáng!"
+  }
+ ],
+ "project": {
+  "title": "MY DAILY ROUTINE CHART",
+  "task": "Create a colorful chart showing your daily routine from morning to night. Use pictures and short sentences.",
+  "draw_items": [
+   "A clock showing wake-up time",
+   "A child brushing teeth",
+   "A breakfast plate",
+   "A child going to school",
+   "A child studying at a desk",
+   "A child playing a game",
+   "A dinner table",
+   "A child sleeping in bed"
+  ],
+  "example": [
+   "6:00 AM: I wake up.",
+   "7:00 AM: I eat breakfast.",
+   "7:30 AM: I go to school.",
+   "4:30 PM: I do homework.",
+   "7:00 PM: I eat dinner.",
+   "9:00 PM: I go to bed."
+  ],
+  "present": "Hello everyone! This is my daily routine chart. I wake up at 6 o'clock. Then I brush my teeth. I eat breakfast at 7 o'clock. I go to school at half past seven. In the afternoon, I do my homework. In the evening, I eat dinner and watch TV. I go to bed at 9 o'clock. Thank you for listening!",
+  "image_prompt": "A cheerful Vietnamese child, about 8 years old, standing next to a colorful, hand-drawn chart that depicts their daily routine with simple drawings and short sentences. The child is smiling and pointing to their chart."
+ },
+ "classroom_game": {
+  "name": "Routine Chain Game",
+  "players": "whole class",
+  "steps_en": [
+   "The teacher starts by saying, 'In the morning, I wake up.'",
+   "The first student repeats the teacher's sentence and adds one more routine action. (e.g., 'In the morning, I wake up, and I brush my teeth.')",
+   "The next student repeats all previous actions and adds a new one. (e.g., 'In the morning, I wake up, I brush my teeth, and I eat breakfast.')",
+   "Continue around the class. If a student forgets an action or makes a mistake, they sit down. The last student standing wins!"
+  ],
+  "steps_vi": [
+   "Giáo viên bắt đầu bằng cách nói, 'Vào buổi sáng, tôi thức dậy.'",
+   "Học sinh đầu tiên lặp lại câu của giáo viên và thêm một hành động thường ngày khác. (Ví dụ: 'Vào buổi sáng, tôi thức dậy, và tôi đánh răng.')",
+   "Học sinh tiếp theo lặp lại tất cả các hành động trước đó và thêm một hành động mới. (Ví dụ: 'Vào buổi sáng, tôi thức dậy, tôi đánh răng, và tôi ăn sáng.')",
+   "Tiếp tục luân phiên quanh lớp. Nếu một học sinh quên một hành động hoặc mắc lỗi, học sinh đó sẽ ngồi xuống. Học sinh cuối cùng đứng được sẽ thắng!"
+  ],
+  "language": [
+   "In the morning, I...",
+   "In the afternoon, I...",
+   "In the evening, I...",
+   "and I..."
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "w__e up",
+    "answer": "wake up"
+   },
+   {
+    "word": "br__h teeth",
+    "answer": "brush teeth"
+   },
+   {
+    "word": "e__t breakfast",
+    "answer": "eat breakfast"
+   },
+   {
+    "word": "st__y",
+    "answer": "study"
+   },
+   {
+    "word": "h__mework",
+    "answer": "homework"
+   },
+   {
+    "word": "wa__h TV",
+    "answer": "watch TV"
+   },
+   {
+    "word": "r__d a book",
+    "answer": "read a book"
+   },
+   {
+    "word": "g__ to bed",
+    "answer": "go to bed"
+   },
+   {
+    "word": "__'clock",
+    "answer": "o'clock"
+   },
+   {
+    "word": "mo__ning",
+    "answer": "morning"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "I ______ up at 6 o'clock every day.",
+    "options": [
+     "wake",
+     "wakes",
+     "waking"
+    ],
+    "answer": "wake"
+   },
+   {
+    "q": "What time ______ you go to school?",
+    "options": [
+     "is",
+     "do",
+     "does"
+    ],
+    "answer": "do"
+   },
+   {
+    "q": "She ______ her teeth in the morning.",
+    "options": [
+     "brush",
+     "brushes",
+     "brushing"
+    ],
+    "answer": "brushes"
+   },
+   {
+    "q": "Look! He ______ TV now.",
+    "options": [
+     "watch",
+     "watches",
+     "is watching"
+    ],
+    "answer": "is watching"
+   },
+   {
+    "q": "I ______ play football, but I can't swim.",
+    "options": [
+     "can",
+     "cans",
+     "am can"
+    ],
+    "answer": "can"
+   },
+   {
+    "q": "They eat dinner ______ 7 o'clock.",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ],
+    "answer": "at"
+   },
+   {
+    "q": "I go to bed early ______ I am tired.",
+    "options": [
+     "and",
+     "but",
+     "because"
+    ],
+    "answer": "because"
+   },
+   {
+    "q": "In the ______, I do my homework.",
+    "options": [
+     "morning",
+     "afternoon",
+     "night"
+    ],
+    "answer": "afternoon"
+   },
+   {
+    "q": "My sister ______ a book now.",
+    "options": [
+     "read",
+     "reads",
+     "is reading"
+    ],
+    "answer": "is reading"
+   },
+   {
+    "q": "What ______ are you doing?",
+    "options": [
+     "time",
+     "when",
+     "what"
+    ],
+    "answer": "what"
+   }
+  ],
+  "order": [
+   {
+    "words": "up / I / wake / 6 / at / o'clock",
+    "answer": "I wake up at 6 o'clock."
+   },
+   {
+    "words": "time / do / What / you / lunch / eat / ?",
+    "answer": "What time do you eat lunch?"
+   },
+   {
+    "words": "is / now / She / TV / watching",
+    "answer": "She is watching TV now."
+   },
+   {
+    "words": "can / I / swim / play / and / games",
+    "answer": "I can play games and swim."
+   },
+   {
+    "words": "do / you / When / homework / your / ?",
+    "answer": "When do you do your homework?"
+   },
+   {
+    "words": "eat / I / and / brush / teeth / my / breakfast",
+    "answer": "I brush my teeth and eat breakfast."
+   },
+   {
+    "words": "school / go / I / because / learn / to / I / want / to",
+    "answer": "I go to school because I want to learn."
+   },
+   {
+    "words": "bed / go / to / They / at / night / 9 / o'clock",
+    "answer": "They go to bed at 9 o'clock at night."
+   },
+   {
+    "words": "morning / my / wash / I / face / in / the",
+    "answer": "I wash my face in the morning."
+   },
+   {
+    "words": "is / What / now / Linh / doing / ?",
+    "answer": "What is Linh doing now?"
+   }
+  ],
+  "about_you": [
+   "What time do you wake up on weekends?",
+   "What do you like to do in the morning?",
+   "Do you eat lunch at school or at home?",
+   "What do you do immediately after school?",
+   "Do you like doing homework? Why or why not?",
+   "What is your favorite activity to do in the afternoon?",
+   "Who do you eat dinner with?",
+   "What do you usually watch on TV in the evening?",
+   "Do you read books before you go to bed?",
+   "What is one thing you can do to have a better day tomorrow?"
+  ]
+ },
+ "i_can": [
+  "I can say daily routine words in English.",
+  "I can ask and answer about time using 'What time...?'",
+  "I can use the Present Simple to talk about my daily routine.",
+  "I can use the Present Continuous to talk about actions happening now.",
+  "I can use 'can' and 'can't' to talk about abilities.",
+  "I can ask and answer about when I do things using 'When...?'",
+  "I can connect sentences using 'and', 'but', 'because'.",
+  "I can tell my morning routine.",
+  "I can tell my afternoon routine.",
+  "I can tell my evening routine.",
+  "I can read simple stories about daily life.",
+  "I can understand short conversations about routines.",
+  "I can write about my daily activities.",
+  "I can make a simple daily schedule.",
+  "I can identify good habits for managing my time."
+ ],
+ "message_en": "EVERY DAY IS A NEW CHANCE TO LEARN, TO GROW, AND TO SHINE!",
+ "message_vi": "MỖI NGÀY LÀ MỘT CƠ HỘI MỚI ĐỂ HỌC HỎI, TRƯỞNG THÀNH VÀ TỎA SÁNG!",
+ "message_body": "Dear young learners, you've done a great job exploring 'My Day'! Remember that every morning brings new opportunities. Make the most of your time, learn new things, and enjoy every moment. Keep practicing English and sharing your wonderful daily routines!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 4,
+ "grade": 3,
+ "validation": []
+}

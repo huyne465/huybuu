@@ -1,0 +1,1175 @@
+{
+ "title": "Weather and Seasons",
+ "theme": "Nature",
+ "goal": "Students can talk about different types of weather and seasons.",
+ "goal_vi": "Học sinh có thể nói về các loại thời tiết và mùa khác nhau.",
+ "cover_emoji": "☀️🌧️❄️🌸",
+ "cover_image_prompt": "A wide, cheerful outdoor scene with diverse children playing happily in different weather conditions and seasons. One child is flying a kite in windy weather, another is building a small snowman, a group is under an umbrella in light rain, and two children are picking flowers in the sun. No text or letters.",
+ "big_question": {
+  "en": "What is your favorite season?",
+  "vi": "Mùa yêu thích của em là gì?",
+  "prompts": [
+   "What is the weather like today?",
+   "Do you like sunny days?",
+   "What clothes do you wear in summer?",
+   "What clothes do you wear in winter?",
+   "How many seasons are there in a year?",
+   "What do you do on a rainy day?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "sunny",
+   "ipa": "/ˈsʌni/",
+   "vi": "nắng",
+   "emoji": "☀️",
+   "image_prompt": "A bright yellow sun shining in a clear blue sky."
+  },
+  {
+   "en": "rainy",
+   "ipa": "/ˈreɪni/",
+   "vi": "mưa",
+   "emoji": "🌧️",
+   "image_prompt": "Dark grey clouds with raindrops falling, a small puddle on the ground."
+  },
+  {
+   "en": "cloudy",
+   "ipa": "/ˈklaʊdi/",
+   "vi": "nhiều mây",
+   "emoji": "☁️",
+   "image_prompt": "A sky full of soft, fluffy grey and white clouds, no sun visible."
+  },
+  {
+   "en": "windy",
+   "ipa": "/ˈwɪndi/",
+   "vi": "có gió",
+   "emoji": "🌬️",
+   "image_prompt": "A tree with its leaves blowing strongly to one side, showing movement of wind."
+  },
+  {
+   "en": "snowy",
+   "ipa": "/ˈsnoʊi/",
+   "vi": "có tuyết",
+   "emoji": "❄️",
+   "image_prompt": "Gentle snowflakes falling against a wintery background, covering trees and ground in white."
+  },
+  {
+   "en": "hot",
+   "ipa": "/hɑːt/",
+   "vi": "nóng",
+   "emoji": "🔥",
+   "image_prompt": "A red thermometer showing high temperature, with wavy lines indicating heat."
+  },
+  {
+   "en": "cold",
+   "ipa": "/koʊld/",
+   "vi": "lạnh",
+   "emoji": "🥶",
+   "image_prompt": "A blue thermometer showing low temperature, with a snow crystal nearby."
+  },
+  {
+   "en": "spring",
+   "ipa": "/sprɪŋ/",
+   "vi": "mùa xuân",
+   "emoji": "🌸",
+   "image_prompt": "Bright green grass with many colorful flowers blooming, a small butterfly flying."
+  },
+  {
+   "en": "summer",
+   "ipa": "/ˈsʌmər/",
+   "vi": "mùa hè",
+   "emoji": "🏖️",
+   "image_prompt": "A sunny beach scene with blue water, sand, and a colorful beach ball."
+  },
+  {
+   "en": "autumn",
+   "ipa": "/ˈɔːtəm/",
+   "vi": "mùa thu",
+   "emoji": "🍂",
+   "image_prompt": "A tree with red, orange, and yellow leaves falling to the ground."
+  },
+  {
+   "en": "winter",
+   "ipa": "/ˈwɪntər/",
+   "vi": "mùa đông",
+   "emoji": "☃️",
+   "image_prompt": "A landscape covered in white snow, with bare trees and a happy snowman."
+  },
+  {
+   "en": "sun",
+   "ipa": "/sʌn/",
+   "vi": "mặt trời",
+   "emoji": "🌞",
+   "image_prompt": "A friendly, smiling sun with bright rays."
+  },
+  {
+   "en": "rain",
+   "ipa": "/reɪn/",
+   "vi": "mưa (danh từ)",
+   "emoji": "💧",
+   "image_prompt": "Individual raindrops falling, forming ripples in a puddle."
+  },
+  {
+   "en": "cloud",
+   "ipa": "/klaʊd/",
+   "vi": "đám mây",
+   "emoji": "☁️",
+   "image_prompt": "A single white, puffy cloud floating in a blue sky."
+  },
+  {
+   "en": "wind",
+   "ipa": "/wɪnd/",
+   "vi": "gió (danh từ)",
+   "emoji": "🍃",
+   "image_prompt": "A gentle gust of wind represented by swirling lines, rustling leaves on a branch."
+  },
+  {
+   "en": "snow",
+   "ipa": "/snoʊ/",
+   "vi": "tuyết (danh từ)",
+   "emoji": "🌨️",
+   "image_prompt": "A pile of white, soft snow on the ground, with a few snowflakes still falling."
+  },
+  {
+   "en": "flower",
+   "ipa": "/ˈflaʊər/",
+   "vi": "bông hoa",
+   "emoji": "🌷",
+   "image_prompt": "A single, vibrant red tulip with green leaves, standing in a garden."
+  },
+  {
+   "en": "tree",
+   "ipa": "/triː/",
+   "vi": "cái cây",
+   "emoji": "🌳",
+   "image_prompt": "A tall, green leafy tree with a brown trunk, standing alone in a field."
+  },
+  {
+   "en": "leaf",
+   "ipa": "/liːf/",
+   "vi": "chiếc lá",
+   "emoji": "🍁",
+   "image_prompt": "A single, colorful autumn leaf, red and orange, gently falling."
+  },
+  {
+   "en": "season",
+   "ipa": "/ˈsiːzn/",
+   "vi": "mùa",
+   "emoji": "📅",
+   "image_prompt": "A calendar showing the four seasons represented by small icons (flower, sun, leaf, snowflake)."
+  }
+ ],
+ "phonics": {
+  "sound": "/s/",
+  "letters": "s",
+  "words": [
+   "sunny",
+   "season",
+   "snow",
+   "spring",
+   "summer",
+   "sun"
+  ],
+  "chant": "See the sun, see the sky, / Summer season, flying high.",
+  "tip_vi": "Khi phát âm âm /s/, môi hơi mở, răng chạm nhẹ, đẩy hơi ra ngoài, không rung dây thanh quản."
+ },
+ "patterns": [
+  {
+   "pattern": "It is + weather adjective.",
+   "vi": "Trời + tính từ miêu tả thời tiết.",
+   "examples": [
+    "It is sunny today.",
+    "It is cold in winter.",
+    "It is rainy now."
+   ]
+  },
+  {
+   "pattern": "I like + season/weather.",
+   "vi": "Tôi thích + mùa/thời tiết.",
+   "examples": [
+    "I like summer.",
+    "I like sunny days.",
+    "I like to play in the snow."
+   ]
+  },
+  {
+   "pattern": "What is the weather like?",
+   "vi": "Thời tiết như thế nào?",
+   "examples": [
+    "What is the weather like today?",
+    "What is the weather like in spring?",
+    "What is the weather like in your city?"
+   ]
+  },
+  {
+   "pattern": "In + season, it is + weather adjective.",
+   "vi": "Vào mùa + [mùa], trời + [tính từ miêu tả thời tiết].",
+   "examples": [
+    "In summer, it is hot.",
+    "In winter, it is cold.",
+    "In spring, it is warm."
+   ]
+  },
+  {
+   "pattern": "There are + number + seasons.",
+   "vi": "Có + [số] + mùa.",
+   "examples": [
+    "There are four seasons in a year.",
+    "There are two main seasons in Vietnam.",
+    "There are many sunny days in summer."
+   ]
+  },
+  {
+   "pattern": "I wear + clothes + in + season/weather.",
+   "vi": "Tôi mặc + [quần áo] + vào mùa/thời tiết + [mùa/thời tiết].",
+   "examples": [
+    "I wear shorts in summer.",
+    "I wear a coat in winter.",
+    "I wear a hat when it is cold."
+   ]
+  },
+  {
+   "pattern": "The + noun + is + adjective.",
+   "vi": "Cái + [danh từ] + thì + [tính từ].",
+   "examples": [
+    "The sun is bright.",
+    "The sky is cloudy.",
+    "The wind is strong."
+   ]
+  },
+  {
+   "pattern": "Do you like + season/weather?",
+   "vi": "Bạn có thích + mùa/thời tiết không?",
+   "examples": [
+    "Do you like snowy weather?",
+    "Do you like autumn?",
+    "Do you like sunny mornings?"
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "It is + adjective (for weather)",
+   "explain_en": "We use 'It is' to talk about the weather.",
+   "explain_vi": "Dùng 'It is' để nói về thời tiết.",
+   "examples": [
+    "It is sunny.",
+    "It is cold.",
+    "It is rainy."
+   ],
+   "right": "✅ It is windy.",
+   "wrong": "❌ It windy."
+  },
+  {
+   "title": "I like + noun/gerund",
+   "explain_en": "We use 'I like' to say what we enjoy.",
+   "explain_vi": "Dùng 'I like' để nói về điều mình thích.",
+   "examples": [
+    "I like summer.",
+    "I like sunny days.",
+    "I like playing outside."
+   ],
+   "right": "✅ I like spring.",
+   "wrong": "❌ I likes spring."
+  },
+  {
+   "title": "Preposition 'In' for Seasons",
+   "explain_en": "We use 'in' before seasons.",
+   "explain_vi": "Dùng 'in' trước các mùa trong năm.",
+   "examples": [
+    "In summer, it is hot.",
+    "In winter, it is cold.",
+    "In spring, flowers bloom."
+   ],
+   "right": "✅ In autumn, leaves fall.",
+   "wrong": "❌ On autumn, leaves fall."
+  },
+  {
+   "title": "What is the weather like?",
+   "explain_en": "We use 'What is the weather like?' to ask about the weather.",
+   "explain_vi": "Dùng 'What is the weather like?' để hỏi về thời tiết.",
+   "examples": [
+    "What is the weather like? It is sunny.",
+    "What is the weather like today? It is cloudy."
+   ],
+   "right": "✅ What is the weather like?",
+   "wrong": "❌ How weather?"
+  }
+ ],
+ "song": {
+  "title": "The Weather Song",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "The sun in the sky goes up and up,",
+   "Up and up, up and up.",
+   "The sun in the sky goes up and up,",
+   "All day long.",
+   "The rain in the clouds goes drip, drip, drip,",
+   "Drip, drip, drip, drip, drip, drip.",
+   "The rain in the clouds goes drip, drip, drip,",
+   "All day long.",
+   "The wind in the trees goes whoosh, whoosh, whoosh,",
+   "Whoosh, whoosh, whoosh, whoosh, whoosh, whoosh.",
+   "The wind in the trees goes whoosh, whoosh, whoosh,",
+   "All day long.",
+   "The snow in the winter goes fall, fall, fall,",
+   "Fall, fall, fall, fall, fall, fall.",
+   "The snow in the winter goes fall, fall, fall,",
+   "All day long."
+  ],
+  "actions_vi": "Động tác: vẫy tay lên cao cho mặt trời, ngón tay uốn lượn xuống cho mưa, vẫy tay qua lại cho gió, hai tay vẫy nhẹ xuống cho tuyết."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "My Day, My Weather",
+   "text": "Hello! My name is Mai. I am seven. Today is Monday. The weather is sunny. I like sunny days. I play outside. In summer, it is hot. I like summer very much. I wear shorts and a T-shirt. I drink water. Sunny days are fun! What is your favorite weather?",
+   "image_prompt": "A happy Vietnamese girl named Mai, seven years old, playing with a small ball in a sunny park. Green trees and a bright sky in the background. No text.",
+   "vocab": [
+    {
+     "en": "sunny",
+     "ipa": "/ˈsʌni/",
+     "vi": "nắng"
+    },
+    {
+     "en": "play",
+     "ipa": "/pleɪ/",
+     "vi": "chơi"
+    },
+    {
+     "en": "outside",
+     "ipa": "/ˌaʊtˈsaɪd/",
+     "vi": "bên ngoài"
+    },
+    {
+     "en": "summer",
+     "ipa": "/ˈsʌmər/",
+     "vi": "mùa hè"
+    },
+    {
+     "en": "hot",
+     "ipa": "/hɑːt/",
+     "vi": "nóng"
+    },
+    {
+     "en": "wear",
+     "ipa": "/wɛr/",
+     "vi": "mặc"
+    },
+    {
+     "en": "shorts",
+     "ipa": "/ʃɔːrts/",
+     "vi": "quần đùi"
+    },
+    {
+     "en": "T-shirt",
+     "ipa": "/ˈtiːʃɜːrt/",
+     "vi": "áo phông"
+    },
+    {
+     "en": "drink",
+     "ipa": "/drɪŋk/",
+     "vi": "uống"
+    },
+    {
+     "en": "water",
+     "ipa": "/ˈwɔːtər/",
+     "vi": "nước"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Mai?",
+    "What day is it today?",
+    "What is the weather like today?",
+    "Does Mai like sunny days?",
+    "Where does Mai play?",
+    "What is the weather like in summer?",
+    "What does Mai wear in summer?",
+    "What does Mai drink?",
+    "Are sunny days fun for Mai?"
+   ],
+   "true_false": [
+    {
+     "statement": "Mai is eight years old.",
+     "answer": false
+    },
+    {
+     "statement": "The weather is rainy today.",
+     "answer": false
+    },
+    {
+     "statement": "Mai plays inside.",
+     "answer": false
+    },
+    {
+     "statement": "In summer, it is hot.",
+     "answer": true
+    },
+    {
+     "statement": "Mai wears a coat in summer.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "Four Seasons",
+   "text": "There are four seasons in a year. They are spring, summer, autumn, and winter. In spring, it is warm. Many flowers bloom. In summer, it is hot. We can go swimming. In autumn, it is cool. Leaves fall from the trees. In winter, it is cold. Sometimes, it is snowy. I wear a warm coat. Which season do you like best?",
+   "image_prompt": "Four diverse children, each in a different section of a circular illustration representing the four seasons. One child is among blooming flowers (spring), one at a sunny beach (summer), one playing in falling leaves (autumn), and one bundled up near a snowman (winter). No text.",
+   "vocab": [
+    {
+     "en": "season",
+     "ipa": "/ˈsiːzn/",
+     "vi": "mùa"
+    },
+    {
+     "en": "year",
+     "ipa": "/jɪr/",
+     "vi": "năm"
+    },
+    {
+     "en": "warm",
+     "ipa": "/wɔːrm/",
+     "vi": "ấm áp"
+    },
+    {
+     "en": "bloom",
+     "ipa": "/bluːm/",
+     "vi": "nở hoa"
+    },
+    {
+     "en": "swimming",
+     "ipa": "/ˈswɪmɪŋ/",
+     "vi": "bơi lội"
+    },
+    {
+     "en": "cool",
+     "ipa": "/kuːl/",
+     "vi": "mát mẻ"
+    },
+    {
+     "en": "leaves",
+     "ipa": "/liːvz/",
+     "vi": "những chiếc lá"
+    },
+    {
+     "en": "fall",
+     "ipa": "/fɔːl/",
+     "vi": "rụng, rơi"
+    },
+    {
+     "en": "coat",
+     "ipa": "/koʊt/",
+     "vi": "áo khoác"
+    },
+    {
+     "en": "best",
+     "ipa": "/bɛst/",
+     "vi": "tốt nhất"
+    }
+   ],
+   "questions": [
+    "How many seasons are there in a year?",
+    "What are the four seasons?",
+    "What is the weather like in spring?",
+    "What happens to flowers in spring?",
+    "What can we do in summer?",
+    "What is the weather like in autumn?",
+    "What happens to leaves in autumn?",
+    "What is the weather like in winter?",
+    "What do I wear in winter?",
+    "Does it always snow in winter?"
+   ],
+   "true_false": [
+    {
+     "statement": "There are three seasons in a year.",
+     "answer": false
+    },
+    {
+     "statement": "In spring, it is cold.",
+     "answer": false
+    },
+    {
+     "statement": "We can go swimming in summer.",
+     "answer": true
+    },
+    {
+     "statement": "Leaves fall from trees in winter.",
+     "answer": false
+    },
+    {
+     "statement": "It is always snowy in winter.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "Weather Fun",
+   "text": "Hi, I am Ben. I like different kinds of weather. When it is sunny, I ride my bike. The sun is bright and warm. When it is rainy, I stay home. I read a book or play games with my sister. My umbrella is red. When it is cloudy, the sky is grey. It is not too hot. I can play outside with my dog. When it is windy, the trees move a lot. I fly my kite in the park. My kite is colorful. When it is snowy, I wear a hat and gloves. I make a snowman. I love playing in the snow! What do you do in different weather?",
+   "image_prompt": "A cheerful boy named Ben, about seven years old, shown in a multi-panel illustration. He is biking in the sun, reading a book indoors during rain, playing with a small dog under a cloudy sky, flying a kite in a windy park, and building a snowman in the snow. No text.",
+   "vocab": [
+    {
+     "en": "ride",
+     "ipa": "/raɪd/",
+     "vi": "cưỡi, lái"
+    },
+    {
+     "en": "bike",
+     "ipa": "/baɪk/",
+     "vi": "xe đạp"
+    },
+    {
+     "en": "stay",
+     "ipa": "/steɪ/",
+     "vi": "ở lại"
+    },
+    {
+     "en": "home",
+     "ipa": "/hoʊm/",
+     "vi": "nhà"
+    },
+    {
+     "en": "read",
+     "ipa": "/riːd/",
+     "vi": "đọc"
+    },
+    {
+     "en": "games",
+     "ipa": "/ɡeɪmz/",
+     "vi": "trò chơi"
+    },
+    {
+     "en": "umbrella",
+     "ipa": "/ʌmˈbrɛlə/",
+     "vi": "cái ô"
+    },
+    {
+     "en": "dog",
+     "ipa": "/dɔːɡ/",
+     "vi": "chó"
+    },
+    {
+     "en": "kite",
+     "ipa": "/kaɪt/",
+     "vi": "cái diều"
+    },
+    {
+     "en": "snowman",
+     "ipa": "/ˈsnoʊmæn/",
+     "vi": "người tuyết"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "What does Ben do when it is sunny?",
+    "What is the sun like?",
+    "Where does Ben stay when it is rainy?",
+    "What does Ben do with his sister when it is rainy?",
+    "What color is Ben's umbrella?",
+    "What is the sky like when it is cloudy?",
+    "What does Ben do when it is windy?",
+    "What does Ben wear when it is snowy?",
+    "What does Ben make when it is snowy?"
+   ],
+   "true_false": [
+    {
+     "statement": "Ben likes only sunny weather.",
+     "answer": false
+    },
+    {
+     "statement": "Ben rides his bike when it is rainy.",
+     "answer": false
+    },
+    {
+     "statement": "Ben has a red umbrella.",
+     "answer": true
+    },
+    {
+     "statement": "When it is cloudy, Ben cannot play outside.",
+     "answer": false
+    },
+    {
+     "statement": "Ben likes playing in the snow.",
+     "answer": true
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "A Rainy Day Surprise",
+  "panels": [
+   {
+    "scene": "A Vietnamese girl, Linh, about 7, looks out a window with a sad expression. Rain falls outside.",
+    "speech": "Linh: Oh no! It is rainy today."
+   },
+   {
+    "scene": "A Vietnamese boy, Minh, about 7, walks into the room, holding a colorful board game. He smiles at Linh.",
+    "speech": "Minh: Don't worry, Linh! We can play inside."
+   },
+   {
+    "scene": "Linh and Minh are sitting on the floor, happily playing the board game together. They are smiling.",
+    "speech": "Linh: Yes! I like playing games."
+   },
+   {
+    "scene": "Linh and Minh are now looking out the window, pointing. The sun is peeking through the clouds, and the rain has stopped.",
+    "speech": "Minh: Look! The sun is out! Linh: Yay! Let's play outside soon!"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What is the weather like today?",
+   "Do you like sunny days? Why or why not?",
+   "What do you do when it is sunny?",
+   "Do you like rainy days? Why or why not?",
+   "What do you do when it is rainy?",
+   "How many seasons are there in a year?",
+   "What are the names of the four seasons?",
+   "What is your favorite season?",
+   "What is the weather like in your favorite season?",
+   "What do you wear in your favorite season?",
+   "What activities do you do in your favorite season?",
+   "What happens to trees in autumn?",
+   "What is the weather like in winter?",
+   "Do you like to see snow? Why?",
+   "What is your least favorite weather?"
+  ],
+  "model": "My name is [Name]. My favorite season is [Season]. In [Season], it is often [Weather adjective]. I like to [Activity]. I wear [Clothes] in [Season]. I also like [Another weather type] because [Reason, e.g., 'it is cool' or 'I can play inside'].",
+  "challenge": "Talk about your favorite season and the types of weather you like for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "At the Park",
+   "image_prompt": "Two diverse children, Nam (Vietnamese boy) and Lucy (English girl), about 7 years old, talking happily under a green tree in a park. The sun is shining, and the weather looks pleasant. No text.",
+   "lines": [
+    {
+     "speaker": "Nam",
+     "text": "Hi Lucy! The weather is nice today."
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, Nam! It is sunny and warm."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Do you like sunny days?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Yes, I do! I like to play outside."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Me too! What is your favorite season?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "My favorite season is summer."
+    },
+    {
+     "speaker": "Nam",
+     "text": "Why do you like summer?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Because it is hot and I can swim!"
+    }
+   ]
+  },
+  {
+   "title": "A Winter Chat",
+   "image_prompt": "Two diverse children, An (Vietnamese girl) and Tom (English boy), about 7 years old, bundled up in warm winter clothes (hats, scarves, gloves). They are looking out a window at a snowy landscape, smiling. No text.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Brrr! It is very cold today."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yes, An. It is winter."
+    },
+    {
+     "speaker": "An",
+     "text": "Is it snowy today?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "No, it is not snowy. But it is windy."
+    },
+    {
+     "speaker": "An",
+     "text": "I like winter. I like to drink hot chocolate."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Me too! I wear my warm hat and gloves."
+    },
+    {
+     "speaker": "An",
+     "text": "What do you do in winter?"
+    },
+    {
+     "speaker": "Tom",
+     "text": "I like to build a snowman when it snows."
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, children! Let's talk about the weather. Look outside! What is the weather like? Is it sunny or rainy? In Vietnam, we have two main seasons: the dry season and the rainy season. The dry season is usually sunny and hot. The rainy season has a lot of rain. In other countries, there are four seasons: spring, summer, autumn, and winter. What is your favorite weather? What do you do on a rainy day? I like sunny days. I go to the park. What about you?",
+  "questions": [
+   "What does the teacher ask us to talk about?",
+   "How many main seasons are there in Vietnam?",
+   "What are the two main seasons in Vietnam?",
+   "What is the weather like in the dry season?",
+   "What is the weather like in the rainy season?",
+   "How many seasons are there in other countries?",
+   "What are the four seasons?",
+   "What is the teacher's favorite weather?",
+   "Where does the teacher go on sunny days?",
+   "What is one thing the teacher asks you about the weather?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "SUNNY",
+   "RAINY",
+   "COLD",
+   "WINDY",
+   "SPRING",
+   "SUMMER",
+   "AUTUMN",
+   "WINTER"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "sunny",
+     "rainy",
+     "book",
+     "cloudy"
+    ],
+    "answer": "book",
+    "why_vi": "book không phải là từ miêu tả thời tiết, các từ còn lại là thời tiết."
+   },
+   {
+    "options": [
+     "spring",
+     "summer",
+     "tree",
+     "winter"
+    ],
+    "answer": "tree",
+    "why_vi": "tree không phải là mùa, các từ còn lại là các mùa trong năm."
+   },
+   {
+    "options": [
+     "hot",
+     "cold",
+     "warm",
+     "hat"
+    ],
+    "answer": "hat",
+    "why_vi": "hat là một loại quần áo, các từ còn lại là từ miêu tả nhiệt độ/thời tiết."
+   },
+   {
+    "options": [
+     "umbrella",
+     "coat",
+     "gloves",
+     "flower"
+    ],
+    "answer": "flower",
+    "why_vi": "flower là bông hoa, các từ còn lại là đồ dùng để mặc/che mưa che nắng."
+   },
+   {
+    "options": [
+     "sun",
+     "rain",
+     "cloud",
+     "bike"
+    ],
+    "answer": "bike",
+    "why_vi": "bike là xe đạp, các từ còn lại là các yếu tố tự nhiên của thời tiết."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I am bright and warm. I shine in the sky. What am I?",
+    "answer": "The sun"
+   },
+   {
+    "riddle": "I fall from the sky. You need an umbrella when I come. What am I?",
+    "answer": "Rain"
+   },
+   {
+    "riddle": "I am white and cold. Children play with me in winter. What am I?",
+    "answer": "Snow"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "nnusy",
+    "answer": "sunny"
+   },
+   {
+    "scrambled": "yiran",
+    "answer": "rainy"
+   },
+   {
+    "scrambled": "murems",
+    "answer": "summer"
+   },
+   {
+    "scrambled": "odlc",
+    "answer": "cold"
+   },
+   {
+    "scrambled": "terinw",
+    "answer": "winter"
+   },
+   {
+    "scrambled": "lowfer",
+    "answer": "flower"
+   }
+  ],
+  "picture_count": {
+   "question": "How many clouds can you see? (about the cover picture)",
+   "hint_vi": "Hãy đếm số đám mây."
+  }
+ },
+ "write": {
+  "profile_title": "My Favorite Season",
+  "profile_fields": [
+   "My name is: ____",
+   "My age is: ____ years old",
+   "My favorite season is: ____",
+   "In this season, the weather is often: ____",
+   "I like this season because: ____",
+   "In this season, I wear: ____",
+   "In this season, I like to eat: ____",
+   "In this season, I like to drink: ____",
+   "I like to play: ____",
+   "I can see: ____"
+  ],
+  "frame_title": "MY FAVORITE SEASON",
+  "frame_lines": [
+   "My name is ____.",
+   "I am ____ years old.",
+   "My favorite season is ____.",
+   "In ____, the weather is often ____.",
+   "I like this season very much.",
+   "I wear ____.",
+   "I like to eat ____.",
+   "I like to drink ____.",
+   "I play ____.",
+   "I see ____."
+  ]
+ },
+ "life_skill": {
+  "title": "APPRECIATE NATURE AND THE WEATHER",
+  "intro": "Nature gives us beautiful weather and seasons. Let's learn to appreciate them!",
+  "intro_vi": "Thiên nhiên ban tặng chúng ta thời tiết và các mùa tươi đẹp. Hãy học cách trân trọng chúng!",
+  "can_do": [
+   "Enjoy sunny days.",
+   "Stay safe on rainy days.",
+   "Wear suitable clothes for the weather.",
+   "Observe changes in nature.",
+   "Plant a flower in spring.",
+   "Help keep nature clean.",
+   "Feel the wind on my face.",
+   "Listen to the sound of rain.",
+   "Learn about different seasons.",
+   "Protect trees and plants.",
+   "Be thankful for the weather.",
+   "Find beauty in every season."
+  ],
+  "value_question": "What is one thing you can do to enjoy nature more?",
+  "image_prompt": "A diverse group of cheerful children, about 7 years old, engaged in respectful interaction with nature in different seasons. One child is watering a plant, another is looking at a butterfly, a third is listening to the rain under a leaf, and a fourth is observing autumn leaves. No text."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The sun is a star. It gives us light and warmth.",
+   "vi": "Em có biết không? Mặt trời là một ngôi sao. Nó cho chúng ta ánh sáng và sự ấm áp."
+  },
+  {
+   "en": "Did you know? Rain helps plants and trees grow.",
+   "vi": "Em có biết không? Mưa giúp cây cối phát triển."
+  },
+  {
+   "en": "Did you know? Some trees lose their leaves in autumn. This is called 'fall' in some places.",
+   "vi": "Em có biết không? Một số cây rụng lá vào mùa thu. Ở một số nơi, mùa này còn được gọi là 'fall'."
+  },
+  {
+   "en": "Did you know? Snowflakes have six sides. No two snowflakes are exactly alike!",
+   "vi": "Em có biết không? Bông tuyết có sáu cạnh. Không có hai bông tuyết nào giống hệt nhau!"
+  },
+  {
+   "en": "Did you know? The wind helps kites fly high in the sky.",
+   "vi": "Em có biết không? Gió giúp diều bay cao trên bầu trời."
+  }
+ ],
+ "project": {
+  "title": "MY FAVORITE SEASON POSTER",
+  "task": "Create a poster about your favorite season.",
+  "draw_items": [
+   "The sun or moon",
+   "Flowers or leaves",
+   "Snowman or beach scene",
+   "A boy or girl playing",
+   "Trees or mountains",
+   "Animals (e.g., a bird, a butterfly)",
+   "Clothes for the season",
+   "Your favorite food/drink for the season"
+  ],
+  "example": [
+   "My favorite season is summer.",
+   "It is hot and sunny.",
+   "I wear a T-shirt and shorts.",
+   "I like to swim in the sea.",
+   "I eat ice cream in summer.",
+   "It is fun!"
+  ],
+  "present": "Hello everyone! This is my poster about [Season]. In [Season], it is [Weather]. I like to [Activity]. Thank you!",
+  "image_prompt": "A diverse group of cheerful children, about 7 years old, proudly presenting their colorful, handmade posters about different seasons. Each poster clearly depicts elements of a season (e.g., sun and beach, flowers and butterflies, falling leaves, snowman). No text on posters."
+ },
+ "classroom_game": {
+  "name": "Weather Charades",
+  "players": "groups of 4",
+  "steps_en": [
+   "Each group gets cards with weather words (sunny, rainy, windy, snowy, cloudy, hot, cold).",
+   "One student picks a card and acts out the weather without speaking.",
+   "Other students in the group guess the weather: 'Is it rainy?'",
+   "The first student to guess correctly gets a point.",
+   "Play continues until all cards are used."
+  ],
+  "steps_vi": [
+   "Mỗi nhóm nhận các thẻ từ vựng thời tiết (nắng, mưa, gió, tuyết, mây, nóng, lạnh).",
+   "Một học sinh chọn một thẻ và diễn tả thời tiết đó mà không nói.",
+   "Các học sinh khác trong nhóm đoán thời tiết: 'Is it rainy?' (Trời có mưa không?)",
+   "Học sinh đoán đúng đầu tiên được một điểm.",
+   "Trò chơi tiếp tục cho đến khi hết thẻ."
+  ],
+  "language": [
+   "What is the weather like?",
+   "It is [weather adjective].",
+   "Is it [weather adjective]?"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "s__ny",
+    "answer": "sunny"
+   },
+   {
+    "word": "r__ny",
+    "answer": "rainy"
+   },
+   {
+    "word": "c__ud_",
+    "answer": "cloudy"
+   },
+   {
+    "word": "w__dy",
+    "answer": "windy"
+   },
+   {
+    "word": "sn__y",
+    "answer": "snowy"
+   },
+   {
+    "word": "sp__ng",
+    "answer": "spring"
+   },
+   {
+    "word": "s__mer",
+    "answer": "summer"
+   },
+   {
+    "word": "a__umn",
+    "answer": "autumn"
+   },
+   {
+    "word": "w__ter",
+    "answer": "winter"
+   },
+   {
+    "word": "fl__er",
+    "answer": "flower"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "It ______ sunny today.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "answer": "is"
+   },
+   {
+    "q": "I like ______ days.",
+    "options": [
+     "sun",
+     "sunny",
+     "sunshine"
+    ],
+    "answer": "sunny"
+   },
+   {
+    "q": "In winter, it is ______.",
+    "options": [
+     "hot",
+     "warm",
+     "cold"
+    ],
+    "answer": "cold"
+   },
+   {
+    "q": "______ are four seasons.",
+    "options": [
+     "There",
+     "Here",
+     "This"
+    ],
+    "answer": "There"
+   },
+   {
+    "q": "What is the weather ______?",
+    "options": [
+     "like",
+     "good",
+     "is"
+    ],
+    "answer": "like"
+   },
+   {
+    "q": "I wear a coat ______ winter.",
+    "options": [
+     "on",
+     "in",
+     "at"
+    ],
+    "answer": "in"
+   },
+   {
+    "q": "Leaves fall in ______.",
+    "options": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "answer": "autumn"
+   },
+   {
+    "q": "When it is rainy, I use an ______.",
+    "options": [
+     "hat",
+     "umbrella",
+     "glove"
+    ],
+    "answer": "umbrella"
+   },
+   {
+    "q": "______ is my favorite season.",
+    "options": [
+     "Spring",
+     "Spring is",
+     "I spring"
+    ],
+    "answer": "Spring"
+   },
+   {
+    "q": "The sun gives us ______.",
+    "options": [
+     "snow",
+     "rain",
+     "warmth"
+    ],
+    "answer": "warmth"
+   }
+  ],
+  "order": [
+   {
+    "words": "is / It / sunny",
+    "answer": "It is sunny."
+   },
+   {
+    "words": "like / I / summer",
+    "answer": "I like summer."
+   },
+   {
+    "words": "the / What / weather / is / like?",
+    "answer": "What is the weather like?"
+   },
+   {
+    "words": "cold / In / it / is / winter",
+    "answer": "In winter, it is cold."
+   },
+   {
+    "words": "are / seasons / There / four",
+    "answer": "There are four seasons."
+   },
+   {
+    "words": "wear / I / jacket / a / winter / in",
+    "answer": "I wear a jacket in winter."
+   },
+   {
+    "words": "sun / bright / The / is",
+    "answer": "The sun is bright."
+   },
+   {
+    "words": "you / Do / rainy / like / days?",
+    "answer": "Do you like rainy days?"
+   },
+   {
+    "words": "from / fall / Leaves / trees / the",
+    "answer": "Leaves fall from the trees."
+   },
+   {
+    "words": "play / I / outside / when / sunny / is / it",
+    "answer": "I play outside when it is sunny."
+   }
+  ],
+  "about_you": [
+   "What is your favorite season?",
+   "What is the weather like today?",
+   "Do you like sunny days?",
+   "What do you wear in summer?",
+   "What do you wear in winter?",
+   "What do you do when it is rainy?",
+   "Do you like snow? Why or why not?",
+   "How many seasons are there in a year?",
+   "What is your favorite weather activity?",
+   "What is the weather like in spring?"
+  ]
+ },
+ "i_can": [
+  "I can say weather words in English.",
+  "I can say season words in English.",
+  "I can talk about today's weather.",
+  "I can ask about the weather.",
+  "I can say what my favorite season is.",
+  "I can describe the weather in different seasons.",
+  "I can say what I do when it is sunny.",
+  "I can say what I do when it is rainy.",
+  "I can say what I wear in hot weather.",
+  "I can say what I wear in cold weather.",
+  "I can use 'It is' for weather.",
+  "I can use 'I like' for seasons and weather.",
+  "I can use 'In' for seasons.",
+  "I can appreciate nature and the weather.",
+  "I can sing 'The Weather Song'."
+ ],
+ "message_en": "EVERY SEASON BRINGS ITS OWN BEAUTY AND FUN.",
+ "message_vi": "MỖI MÙA ĐỀU MANG ĐẾN VẺ ĐẸP VÀ NIỀM VUI RIÊNG.",
+ "message_body": "The world has many kinds of weather and four beautiful seasons. Let's enjoy every day, whether it is sunny, rainy, or snowy. Find the joy in all weather!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 10,
+ "grade": 2,
+ "validation": []
+}

@@ -1,0 +1,1181 @@
+{
+ "title": "MY WEEK AND TIMETABLE",
+ "theme": "School Life",
+ "goal": "Students can talk about their weekly activities, school subjects, and plans using appropriate time expressions.",
+ "goal_vi": "Học sinh có thể nói về các hoạt động hàng tuần, các môn học ở trường và kế hoạch của mình bằng cách sử dụng các từ chỉ thời gian thích hợp.",
+ "cover_emoji": "🗓️⏰🎒",
+ "cover_image_prompt": "A cheerful scene with diverse children, including Vietnamese kids, happily looking at a colorful school timetable. Some children are holding books or school bags. A large, friendly clock is in the background, subtly showing different school subjects like a globe for geography, a paintbrush for art, and a calculator for maths.",
+ "big_question": {
+  "en": "What do you do on different days of the week?",
+  "vi": "Em làm gì vào các ngày khác nhau trong tuần?",
+  "prompts": [
+   "What day is it today?",
+   "What's your favorite day of the week and why?",
+   "What subjects do you have on Monday mornings?",
+   "Do you have English class every day?",
+   "What do you usually do after school on weekdays?",
+   "What plans do you have for the coming weekend?"
+  ]
+ },
+ "vocabulary": [
+  {
+   "en": "Monday",
+   "ipa": "/ˈmʌndeɪ/",
+   "vi": "Thứ Hai",
+   "emoji": "🗓️",
+   "image_prompt": "A calendar page showing 'Monday' highlighted, with a happy sun icon."
+  },
+  {
+   "en": "Tuesday",
+   "ipa": "/ˈtuːzdeɪ/",
+   "vi": "Thứ Ba",
+   "emoji": "📅",
+   "image_prompt": "A calendar page showing 'Tuesday' highlighted, with a cheerful school bell icon."
+  },
+  {
+   "en": "Wednesday",
+   "ipa": "/ˈwɛnzdeɪ/",
+   "vi": "Thứ Tư",
+   "emoji": "📆",
+   "image_prompt": "A calendar page showing 'Wednesday' highlighted, with a small book icon."
+  },
+  {
+   "en": "Thursday",
+   "ipa": "/ˈθɜːrzdeɪ/",
+   "vi": "Thứ Năm",
+   "emoji": "🗓️",
+   "image_prompt": "A calendar page showing 'Thursday' highlighted, with a friendly pencil icon."
+  },
+  {
+   "en": "Friday",
+   "ipa": "/ˈfraɪdeɪ/",
+   "vi": "Thứ Sáu",
+   "emoji": "🎉",
+   "image_prompt": "A calendar page showing 'Friday' highlighted, with a small party popper icon."
+  },
+  {
+   "en": "Saturday",
+   "ipa": "/ˈsætərdeɪ/",
+   "vi": "Thứ Bảy",
+   "emoji": "🌳",
+   "image_prompt": "A calendar page showing 'Saturday' highlighted, with a tree and a child playing."
+  },
+  {
+   "en": "Sunday",
+   "ipa": "/ˈsʌndeɪ/",
+   "vi": "Chủ Nhật",
+   "emoji": "🏠",
+   "image_prompt": "A calendar page showing 'Sunday' highlighted, with a cozy house and family icon."
+  },
+  {
+   "en": "week",
+   "ipa": "/wiːk/",
+   "vi": "tuần",
+   "emoji": "🗓️",
+   "image_prompt": "A calendar showing seven days in a row, labeled 'week'."
+  },
+  {
+   "en": "timetable",
+   "ipa": "/ˈtaɪmˌteɪbl/",
+   "vi": "thời khóa biểu",
+   "emoji": "⏰🗓️",
+   "image_prompt": "A colorful school timetable with subject names and times, with a happy clock."
+  },
+  {
+   "en": "subject",
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "vi": "môn học",
+   "emoji": "📚",
+   "image_prompt": "An open book with different symbols like a globe, a number, and a pencil coming out."
+  },
+  {
+   "en": "English",
+   "ipa": "/ˈɪŋɡlɪʃ/",
+   "vi": "Tiếng Anh",
+   "emoji": "🇬🇧",
+   "image_prompt": "A friendly flag of the United Kingdom with a smiling book."
+  },
+  {
+   "en": "Maths",
+   "ipa": "/mæθs/",
+   "vi": "Toán",
+   "emoji": "➕➖",
+   "image_prompt": "Numbers and mathematical symbols (+, -, x, /) floating around a calculator."
+  },
+  {
+   "en": "Science",
+   "ipa": "/ˈsaɪəns/",
+   "vi": "Khoa học",
+   "emoji": "🔬🧪",
+   "image_prompt": "A friendly microscope and a bubbling test tube."
+  },
+  {
+   "en": "Art",
+   "ipa": "/ɑːrt/",
+   "vi": "Mỹ thuật",
+   "emoji": "🎨🖌️",
+   "image_prompt": "A colorful palette with paintbrushes and a drawing of a smiling sun."
+  },
+  {
+   "en": "Music",
+   "ipa": "/ˈmjuːzɪk/",
+   "vi": "Âm nhạc",
+   "emoji": "🎶🎵",
+   "image_prompt": "Musical notes dancing around a cheerful piano."
+  },
+  {
+   "en": "PE (Physical Education)",
+   "ipa": "/ˌpiː ˈiː/",
+   "vi": "Thể dục",
+   "emoji": "🏃⚽",
+   "image_prompt": "A child running happily with a football and a jump rope."
+  },
+  {
+   "en": "History",
+   "ipa": "/ˈhɪstəri/",
+   "vi": "Lịch sử",
+   "emoji": "🏛️📜",
+   "image_prompt": "An ancient scroll and a small, friendly pyramid."
+  },
+  {
+   "en": "Geography",
+   "ipa": "/dʒiˈɑːɡrəfi/",
+   "vi": "Địa lý",
+   "emoji": "🌍🗺️",
+   "image_prompt": "A smiling globe with a map unfurling from it."
+  },
+  {
+   "en": "morning",
+   "ipa": "/ˈmɔːrnɪŋ/",
+   "vi": "buổi sáng",
+   "emoji": "☀️",
+   "image_prompt": "A bright, friendly sun rising over mountains with a few birds flying."
+  },
+  {
+   "en": "afternoon",
+   "ipa": "/ˌæftərˈnuːn/",
+   "vi": "buổi chiều",
+   "emoji": "🌤️",
+   "image_prompt": "A sun slightly lower in the sky, with children playing outside."
+  }
+ ],
+ "phonics": {
+  "sound": "/w/",
+  "letters": "w",
+  "words": [
+   "week",
+   "Wednesday",
+   "watch",
+   "water",
+   "window",
+   "write"
+  ],
+  "chant": "Wendy the walrus watches whales swim.\nShe waves her fin and says 'Wow! Wow! Wow!'",
+  "tip_vi": "Để phát âm âm /w/, hãy tròn môi như khi bạn thổi nến, sau đó nhanh chóng mở môi ra để tạo âm."
+ },
+ "patterns": [
+  {
+   "pattern": "What do you do on [day]?",
+   "vi": "Bạn làm gì vào [thứ]?",
+   "examples": [
+    "What do you do on Monday?",
+    "What do you do on Saturday mornings?",
+    "What do you do on Sunday afternoons?"
+   ]
+  },
+  {
+   "pattern": "On [day], I [activity].",
+   "vi": "Vào [thứ], tôi [hoạt động].",
+   "examples": [
+    "On Monday, I go to school.",
+    "On Saturday, I visit my grandparents.",
+    "On Sunday, I play football."
+   ]
+  },
+  {
+   "pattern": "What subject do you have on [day]?",
+   "vi": "Bạn có môn học gì vào [thứ]?",
+   "examples": [
+    "What subject do you have on Tuesday?",
+    "What subject do you have on Friday morning?",
+    "What subject do you have on Wednesday afternoon?"
+   ]
+  },
+  {
+   "pattern": "I have [subject] on [day].",
+   "vi": "Tôi có môn [môn học] vào [thứ].",
+   "examples": [
+    "I have English on Monday.",
+    "I have Maths on Tuesday and Thursday.",
+    "I have PE on Friday."
+   ]
+  },
+  {
+   "pattern": "When do you have [subject]?",
+   "vi": "Khi nào bạn có môn [môn học]?",
+   "examples": [
+    "When do you have Science?",
+    "When do you have Music class?",
+    "When do you have Geography?"
+   ]
+  },
+  {
+   "pattern": "I have [subject] from [time] to [time].",
+   "vi": "Tôi có môn [môn học] từ [thời gian] đến [thời gian].",
+   "examples": [
+    "I have English from 8:00 to 8:45.",
+    "I have Art from 10:00 to 10:45.",
+    "I have PE from 2:00 to 2:45."
+   ]
+  },
+  {
+   "pattern": "My favorite day is [day] because [reason].",
+   "vi": "Ngày yêu thích của tôi là [thứ] vì [lý do].",
+   "examples": [
+    "My favorite day is Friday because it's the end of the school week.",
+    "My favorite day is Saturday because I can play with my friends.",
+    "My favorite day is Wednesday because I have Art class."
+   ]
+  },
+  {
+   "pattern": "What will you do this [day/weekend]?",
+   "vi": "Bạn sẽ làm gì vào [thứ/cuối tuần] này?",
+   "examples": [
+    "What will you do this afternoon?",
+    "What will you do this weekend?",
+    "What will you do this Sunday?"
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "title": "Present Simple: Daily Routines and Timetables",
+   "explain_en": "We use the Present Simple to talk about things we do regularly, like daily routines and school timetables. We often use adverbs of frequency like 'always', 'usually', 'often', 'sometimes', 'never' or time expressions like 'every day', 'on Mondays'.",
+   "explain_vi": "Chúng ta dùng thì Hiện tại Đơn để nói về những điều chúng ta làm thường xuyên, như thói quen hàng ngày và thời khóa biểu ở trường. Chúng ta thường dùng các trạng từ chỉ tần suất như 'always', 'usually', 'often', 'sometimes', 'never' hoặc các cụm từ chỉ thời gian như 'every day', 'on Mondays'.",
+   "examples": [
+    "I go to school every weekday.",
+    "She has Maths on Tuesday mornings.",
+    "We usually have lunch at 11:30.",
+    "My English class starts at 8:00."
+   ],
+   "right": "✅ I always study English on Monday.",
+   "wrong": "❌ I am always studying English on Monday."
+  },
+  {
+   "title": "Prepositions of Time: on, at, in",
+   "explain_en": "We use 'on' for specific days and dates. We use 'at' for specific times. We use 'in' for parts of the day (morning, afternoon, evening) and months/seasons.",
+   "explain_vi": "Chúng ta dùng 'on' cho các ngày và ngày cụ thể. Chúng ta dùng 'at' cho các thời điểm cụ thể. Chúng ta dùng 'in' cho các buổi trong ngày (sáng, chiều, tối) và các tháng/mùa.",
+   "examples": [
+    "On Monday, I have Science.",
+    "My class starts at 9 o'clock.",
+    "I play with friends in the afternoon.",
+    "We have a holiday in July."
+   ],
+   "right": "✅ I play football on Saturday.",
+   "wrong": "❌ I play football at Saturday."
+  },
+  {
+   "title": "Asking about Plans: What will you do...?",
+   "explain_en": "We use 'What will you do...?' to ask about future plans or intentions, especially for the near future like the weekend or later today. The answer often uses 'I will...' or 'I'm going to...'.",
+   "explain_vi": "Chúng ta dùng 'What will you do...?' để hỏi về các kế hoạch hoặc dự định trong tương lai, đặc biệt là tương lai gần như cuối tuần hoặc chiều nay. Câu trả lời thường dùng 'I will...' hoặc 'I'm going to...'.",
+   "examples": [
+    "What will you do this weekend? I will visit my grandparents.",
+    "What will she do tomorrow? She will go to the library.",
+    "What will we do after school? We will play games."
+   ],
+   "right": "✅ What will you do on Sunday? I will go swimming.",
+   "wrong": "❌ What do you do on Sunday? I will go swimming."
+  },
+  {
+   "title": "Talking about Ability: Can / Cannot",
+   "explain_en": "We use 'can' to say that we are able to do something. We use 'cannot' (or 'can't') to say that we are not able to do something. This is useful when talking about subjects or activities.",
+   "explain_vi": "Chúng ta dùng 'can' để nói rằng chúng ta có thể làm điều gì đó. Chúng ta dùng 'cannot' (hoặc 'can't') để nói rằng chúng ta không thể làm điều gì đó. Điều này hữu ích khi nói về các môn học hoặc hoạt động.",
+   "examples": [
+    "I can draw well in Art class.",
+    "She can speak English fluently.",
+    "He can't play the piano, but he can sing.",
+    "We can solve difficult Maths problems."
+   ],
+   "right": "✅ I can run fast in PE.",
+   "wrong": "❌ I can to run fast in PE."
+  }
+ ],
+ "song": {
+  "title": "My Happy School Week",
+  "tune": "Sing to the tune of 'The Wheels on the Bus'",
+  "lines": [
+   "On Monday, I have English class, English class, English class.",
+   "On Monday, I have English class, all through the morning!",
+   "On Tuesday, I have Maths and Science, Maths and Science, Maths and Science.",
+   "On Tuesday, I have Maths and Science, all through the afternoon!",
+   "On Wednesday, I have Music and Art, Music and Art, Music and Art.",
+   "On Wednesday, I have Music and Art, a creative day for me!",
+   "On Thursday, I have History class, History class, History class.",
+   "On Thursday, I have History class, learning about the past!",
+   "On Friday, I have PE and fun, PE and fun, PE and fun.",
+   "On Friday, I have PE and fun, the school week is almost done!",
+   "The weekend is for playing games, playing games, playing games.",
+   "The weekend is for playing games, and resting with my family!"
+  ],
+  "actions_vi": "Ngày Thứ Hai: Giả vờ đọc sách. Ngày Thứ Ba: Giả vờ viết số, sau đó nhìn qua kính lúp. Ngày Thứ Tư: Giả vờ chơi nhạc cụ, sau đó vẽ trên không. Ngày Thứ Năm: Giả vờ giở sách cũ. Ngày Thứ Sáu: Nhảy nhót và giơ tay vui vẻ. Cuối tuần: Giả vờ chơi đùa và ôm gia đình."
+ },
+ "readings": [
+  {
+   "level": "EASY",
+   "title": "MY FAVORITE SCHOOL DAY",
+   "text": "Hello! My name is Linh. I am nine years old. I go to Green Hill Primary School. I love my school week, but my favorite day is Friday. \n\nOn Friday mornings, I have English and Music. English is my favorite subject because I can learn new words and songs. My teacher, Ms. Hoa, makes it fun! In Music class, we sing and play simple instruments. I can play the recorder a little bit. \n\nIn the afternoon, we have PE. I love running and playing games with my friends. After school, I usually go home and help my mom. Then I play with my dog, Lucky. Friday is a busy day, but it's also the start of the weekend, so it's the best!",
+   "image_prompt": "A happy Vietnamese girl, Linh, with short hair, smiling while holding an English book and a small recorder. In the background, there's a playful scene with children running in a PE class and a happy dog wagging its tail at home.",
+   "vocab": [
+    {
+     "en": "favorite",
+     "ipa": "/ˈfeɪvərɪt/",
+     "vi": "yêu thích"
+    },
+    {
+     "en": "recorder",
+     "ipa": "/rɪˈkɔːrdər/",
+     "vi": "sáo dọc"
+    },
+    {
+     "en": "instruments",
+     "ipa": "/ˈɪnstrəmənts/",
+     "vi": "nhạc cụ"
+    },
+    {
+     "en": "busy",
+     "ipa": "/ˈbɪzi/",
+     "vi": "bận rộn"
+    },
+    {
+     "en": "weekend",
+     "ipa": "/ˈwiːkˌɛnd/",
+     "vi": "cuối tuần"
+    },
+    {
+     "en": "Ms.",
+     "ipa": "/mɪz/",
+     "vi": "cô giáo, bà"
+    },
+    {
+     "en": "learn",
+     "ipa": "/lɜːrn/",
+     "vi": "học"
+    },
+    {
+     "en": "sing",
+     "ipa": "/sɪŋ/",
+     "vi": "hát"
+    },
+    {
+     "en": "play",
+     "ipa": "/pleɪ/",
+     "vi": "chơi"
+    },
+    {
+     "en": "help",
+     "ipa": "/hɛlp/",
+     "vi": "giúp đỡ"
+    }
+   ],
+   "questions": [
+    "What is the girl's name?",
+    "How old is Linh?",
+    "Which school does Linh go to?",
+    "What is Linh's favorite day?",
+    "What subjects does Linh have on Friday mornings?",
+    "Why is English her favorite subject?",
+    "What instrument can Linh play a little bit?",
+    "What subject does Linh have in the afternoon on Friday?",
+    "What does Linh do after school?",
+    "Why does Linh think Friday is the best day?"
+   ],
+   "true_false": [
+    {
+     "statement": "Linh is ten years old.",
+     "answer": false
+    },
+    {
+     "statement": "Linh's favorite day is Friday.",
+     "answer": true
+    },
+    {
+     "statement": "She has Maths on Friday mornings.",
+     "answer": false
+    },
+    {
+     "statement": "Linh plays with her cat after school.",
+     "answer": false
+    },
+    {
+     "statement": "Friday is the start of the weekend.",
+     "answer": true
+    }
+   ]
+  },
+  {
+   "level": "MORE PRACTICE",
+   "title": "MINH'S SCHOOL TIMETABLE",
+   "text": "Hi, I'm Minh! I'm in Grade 4. My school starts at 7:30 AM every day from Monday to Friday. Our timetable is always busy, but I enjoy learning new things. \n\nOn Mondays, we start with Vietnamese Literature, then Maths. In the afternoon, we have Social Studies and Art. Art is very relaxing. On Tuesdays, my favorite class is Science. We do cool experiments! After Science, we have English. Our English teacher, Mr. David, teaches us many fun games. \n\nWednesday is a bit different. We have PE in the morning, which I love because I can run and play with my friends. Then we have Music. In the afternoon, we have more Maths and some extra reading time in the library. My school week is full of activities, and I always look forward to the next lesson!",
+   "image_prompt": "A Vietnamese boy named Minh, with neat hair, pointing to a colorful school timetable on a wall. Behind him, there are glimpses of different classrooms: one with art supplies, another with science equipment, and a library corner with kids reading.",
+   "vocab": [
+    {
+     "en": "literature",
+     "ipa": "/ˈlɪtərətʃər/",
+     "vi": "văn học"
+    },
+    {
+     "en": "social studies",
+     "ipa": "/ˈsoʊʃəl ˈstʌdiz/",
+     "vi": "khoa học xã hội"
+    },
+    {
+     "en": "relaxing",
+     "ipa": "/rɪˈlæksɪŋ/",
+     "vi": "thư giãn"
+    },
+    {
+     "en": "experiments",
+     "ipa": "/ɪkˈspɛrəmənts/",
+     "vi": "thí nghiệm"
+    },
+    {
+     "en": "library",
+     "ipa": "/ˈlaɪbrəri/",
+     "vi": "thư viện"
+    },
+    {
+     "en": "extra",
+     "ipa": "/ˈɛkstrə/",
+     "vi": "thêm"
+    },
+    {
+     "en": "enjoy",
+     "ipa": "/ɪnˈdʒɔɪ/",
+     "vi": "thích thú"
+    },
+    {
+     "en": "different",
+     "ipa": "/ˈdɪfrənt/",
+     "vi": "khác nhau"
+    },
+    {
+     "en": "look forward to",
+     "ipa": "/lʊk ˈfɔːrwərd tuː/",
+     "vi": "mong chờ"
+    },
+    {
+     "en": "full of",
+     "ipa": "/fʊl əv/",
+     "vi": "đầy ắp"
+    }
+   ],
+   "questions": [
+    "What is the boy's name?",
+    "What grade is Minh in?",
+    "What time does Minh's school start?",
+    "What subjects does Minh have on Monday mornings?",
+    "Which subject does Minh find relaxing?",
+    "What is Minh's favorite class on Tuesdays?",
+    "Who is Minh's English teacher?",
+    "What does Minh do in PE class?",
+    "What does Minh do in the library on Wednesday afternoon?",
+    "How does Minh feel about his school week?"
+   ],
+   "true_false": [
+    {
+     "statement": "Minh's school starts at 8:00 AM.",
+     "answer": false
+    },
+    {
+     "statement": "Minh has Social Studies on Monday afternoon.",
+     "answer": true
+    },
+    {
+     "statement": "Science is Minh's favorite class on Tuesdays.",
+     "answer": true
+    },
+    {
+     "statement": "Mr. David teaches Maths.",
+     "answer": false
+    },
+    {
+     "statement": "Minh has PE in the afternoon on Wednesday.",
+     "answer": false
+    }
+   ]
+  },
+  {
+   "level": "CHALLENGE",
+   "title": "A WEEK OF DISCOVERIES",
+   "text": "This is a special week at Hoa Mai Primary School! The students in Grade 4 are having a 'Week of Discoveries', where they explore different topics and do fun activities every day. \n\nOn Monday, they had a 'Science Day'. They built small robots and learned about how plants grow. Nam said, 'It was amazing! We even saw tiny seeds sprout.' Tuesday was 'Art and Music Day'. The children painted beautiful pictures and composed their own short songs. Mia, a student from Grade 4B, proudly showed her painting of a vibrant flower garden. \n\nWednesday was 'Sports and Games Day'. Everyone played football, basketball, and invented new team games. 'I was tired but very happy,' said Tom. Thursday was 'History and Geography Day'. They learned about ancient Vietnamese heroes and drew maps of their city. Today is Friday, and it's 'Future Dreams Day'. The students are writing about what they want to be when they grow up and sharing their dreams with the class. They will also make posters about their dream jobs. \n\nThis 'Week of Discoveries' helps students learn in a fun way and discover new talents. Every day is an adventure, and they are all excited for the next one!",
+   "image_prompt": "A vibrant and busy classroom scene at Hoa Mai Primary School, filled with diverse children (including Vietnamese kids) engaged in various 'discovery week' activities. Some children are building small robots, others are painting colorful pictures, some are playing a team game, and a group is drawing maps. A teacher is smiling, overseeing the activities.",
+   "vocab": [
+    {
+     "en": "discoveries",
+     "ipa": "/dɪˈskʌvəriz/",
+     "vi": "những khám phá"
+    },
+    {
+     "en": "explore",
+     "ipa": "/ɪkˈsplɔːr/",
+     "vi": "khám phá"
+    },
+    {
+     "en": "robots",
+     "ipa": "/ˈroʊbɑːts/",
+     "vi": "người máy"
+    },
+    {
+     "en": "sprout",
+     "ipa": "/spraʊt/",
+     "vi": "nảy mầm"
+    },
+    {
+     "en": "composed",
+     "ipa": "/kəmˈpoʊzd/",
+     "vi": "sáng tác"
+    },
+    {
+     "en": "vibrant",
+     "ipa": "/ˈvaɪbrənt/",
+     "vi": "sống động"
+    },
+    {
+     "en": "invented",
+     "ipa": "/ɪnˈvɛntɪd/",
+     "vi": "phát minh"
+    },
+    {
+     "en": "ancient",
+     "ipa": "/ˈeɪnʃənt/",
+     "vi": "cổ đại"
+    },
+    {
+     "en": "heroes",
+     "ipa": "/ˈhɪroʊz/",
+     "vi": "anh hùng"
+    },
+    {
+     "en": "talents",
+     "ipa": "/ˈtælənts/",
+     "vi": "tài năng"
+    }
+   ],
+   "questions": [
+    "What is the special event at Hoa Mai Primary School?",
+    "What was Monday called during the 'Week of Discoveries'?",
+    "What did the students learn about on 'Science Day'?",
+    "What did Mia proudly show on 'Art and Music Day'?",
+    "What sports did the children play on 'Sports and Games Day'?",
+    "How did Tom feel after 'Sports and Games Day'?",
+    "What did they learn about on 'History and Geography Day'?",
+    "What day is 'Future Dreams Day'?",
+    "What are the students doing on 'Future Dreams Day'?",
+    "How does the 'Week of Discoveries' help students?"
+   ],
+   "true_false": [
+    {
+     "statement": "The special week is called 'Fun Week'.",
+     "answer": false
+    },
+    {
+     "statement": "On Monday, they built small robots.",
+     "answer": true
+    },
+    {
+     "statement": "Mia painted a picture of a car.",
+     "answer": false
+    },
+    {
+     "statement": "Tom felt tired but happy after 'Sports and Games Day'.",
+     "answer": true
+    },
+    {
+     "statement": "On Friday, students are learning about ancient heroes.",
+     "answer": false
+    }
+   ]
+  }
+ ],
+ "comic": {
+  "title": "LOST TIMETABLE!",
+  "panels": [
+   {
+    "scene": "Mai is looking frantically through her school bag, with books and papers spilling out onto a classroom desk. Her friend Ben is standing next to her, looking concerned.",
+    "speech": "Mai: Oh no! Where is my timetable? I can't find it anywhere!"
+   },
+   {
+    "scene": "Ben points to a small, colorful timetable stuck to the classroom wall, near the door. Mai looks up, surprised.",
+    "speech": "Ben: Is this it, Mai? It's on the wall by the door!"
+   },
+   {
+    "scene": "Mai walks over to the timetable on the wall, relief on her face. She looks at it closely.",
+    "speech": "Mai: Oh, yes! My Maths class is at 9 AM, and then English! Thanks, Ben!"
+   },
+   {
+    "scene": "Mai and Ben are walking cheerfully out of the classroom, Mai smiling and Ben giving a thumbs-up.",
+    "speech": "Ben: No problem! Always check the wall! What will you do after English?"
+   }
+  ]
+ },
+ "speak_up": {
+  "questions": [
+   "What's your full name and how old are you?",
+   "What day is it today? What day was yesterday? What day will be tomorrow?",
+   "How many days are there in a week? Can you name them?",
+   "What time does your school usually start and finish?",
+   "What subjects do you have on Monday?",
+   "What is your favorite subject and why?",
+   "What subjects do you have on Wednesday afternoons?",
+   "Do you have PE every week? When do you have it?",
+   "What do you usually do in the morning before school?",
+   "What do you usually do after school on weekdays?",
+   "What do you like to do on Saturday mornings?",
+   "What do you like to do on Sunday afternoons?",
+   "Will you visit your grandparents this weekend?",
+   "What is one thing you will do to help your family this week?",
+   "If you could have any new subject at school, what would it be?"
+  ],
+  "model": "Hello everyone! My name is Nam. I am nine years old. My favorite day is Friday because I have Art and PE classes. Art is fun because I can draw and paint. In PE, I can play football with my friends. After school on Fridays, I usually go home and read books. On Saturday, I will play chess with my dad. On Sunday, I will visit my cousins. I always look forward to the weekend!",
+  "challenge": "Talk about your school week and weekend plans for 30–60 seconds."
+ },
+ "conversations": [
+  {
+   "title": "My Monday Schedule",
+   "image_prompt": "Two cheerful Vietnamese children, a boy named An and a girl named Mia, standing in a school hallway, holding their school bags and talking. A clock on the wall shows an early morning time.",
+   "lines": [
+    {
+     "speaker": "An",
+     "text": "Hi Mia! How was your weekend?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "It was great, An! I went swimming. But now it's Monday again!"
+    },
+    {
+     "speaker": "An",
+     "text": "I know! What's your first class today?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "I have Maths at 8 o'clock. And then English."
+    },
+    {
+     "speaker": "An",
+     "text": "Oh, me too! What about after English?"
+    },
+    {
+     "speaker": "Mia",
+     "text": "After English, I have Science. We're doing an experiment today!"
+    },
+    {
+     "speaker": "An",
+     "text": "Wow, that sounds fun! My Science class is on Tuesday."
+    },
+    {
+     "speaker": "Mia",
+     "text": "Well, good luck with your Maths and English, An!"
+    },
+    {
+     "speaker": "An",
+     "text": "You too, Mia! See you at lunch!"
+    }
+   ]
+  },
+  {
+   "title": "Weekend Plans",
+   "image_prompt": "Two happy children, a boy named Tom and a girl named Lucy, sitting on a park bench under a sunny sky. They are looking at each other and smiling, perhaps making plans.",
+   "lines": [
+    {
+     "speaker": "Tom",
+     "text": "It's almost Friday! What will you do this weekend, Lucy?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Oh, I have some fun plans! On Saturday morning, I will go to the park with my family."
+    },
+    {
+     "speaker": "Tom",
+     "text": "That sounds nice! Will you play football?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "Maybe! In the afternoon, I will help my mom bake a cake."
+    },
+    {
+     "speaker": "Tom",
+     "text": "Yummy! What about Sunday?"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "On Sunday, I will read my new book and relax at home."
+    },
+    {
+     "speaker": "Tom",
+     "text": "I will visit my uncle and aunt on Sunday. They have a new puppy!"
+    },
+    {
+     "speaker": "Lucy",
+     "text": "A puppy? That's amazing! Have a great weekend, Tom!"
+    },
+    {
+     "speaker": "Tom",
+     "text": "You too, Lucy! Enjoy your cake and your book!"
+    }
+   ]
+  }
+ ],
+ "listening": {
+  "script": "Hello, I'm Ms. Lan, your teacher. Today, I want to tell you about our special school activities for this week. On Monday morning, we will have our regular English class, but in the afternoon, we will have a guest speaker talking about healthy eating habits. Please bring a small fruit for a snack! On Tuesday, we have our Maths and Science classes as usual. In Science, we'll start a new project about plants. Don't forget your notebooks! Wednesday is our 'Talent Show Practice' day. If you want to sing, dance, or tell a story, come to the school hall after lunch. On Thursday, we will have a special History lesson with a visit to the school museum. It will be very interesting! Finally, on Friday, we will have our big PE sports day in the morning, and in the afternoon, we will watch a movie together to celebrate a great week. I hope you all have a fantastic week!",
+  "questions": [
+   "Who is speaking?",
+   "What is special about Monday afternoon?",
+   "What should students bring for a snack on Monday?",
+   "What new project will they start in Science on Tuesday?",
+   "What day is the 'Talent Show Practice'?",
+   "Where should students go for the 'Talent Show Practice'?",
+   "What will they do in the History lesson on Thursday?",
+   "What is the activity for Friday morning?",
+   "What will they do on Friday afternoon?",
+   "How does the teacher hope the students will feel about the week?"
+  ]
+ },
+ "brain_games": {
+  "word_search": [
+   "MONDAY",
+   "ENGLISH",
+   "MUSIC",
+   "SCIENCE",
+   "WEEK",
+   "TIME",
+   "STUDY",
+   "PLAY"
+  ],
+  "odd_one_out": [
+   {
+    "options": [
+     "Monday",
+     "Tuesday",
+     "Book",
+     "Wednesday"
+    ],
+    "answer": "Book",
+    "why_vi": "Book không phải là một ngày trong tuần."
+   },
+   {
+    "options": [
+     "Maths",
+     "Art",
+     "Chair",
+     "Music"
+    ],
+    "answer": "Chair",
+    "why_vi": "Chair là một đồ vật, không phải môn học."
+   },
+   {
+    "options": [
+     "morning",
+     "afternoon",
+     "eat",
+     "evening"
+    ],
+    "answer": "eat",
+    "why_vi": "Eat là một động từ, không phải một buổi trong ngày."
+   },
+   {
+    "options": [
+     "run",
+     "swim",
+     "Science",
+     "jump"
+    ],
+    "answer": "Science",
+    "why_vi": "Science là một môn học, không phải một hoạt động thể chất."
+   },
+   {
+    "options": [
+     "timetable",
+     "week",
+     "student",
+     "day"
+    ],
+    "answer": "student",
+    "why_vi": "Student là một người, không phải đơn vị thời gian hoặc lịch trình."
+   }
+  ],
+  "riddles": [
+   {
+    "riddle": "I have seven parts, but no body. I start with M and end with Y. What am I?",
+    "answer": "A week"
+   },
+   {
+    "riddle": "I help you know what to do each hour of the day at school. I have subjects and times. What am I?",
+    "answer": "A timetable"
+   },
+   {
+    "riddle": "I am a subject where you learn about numbers and shapes. Some people find me hard, but others think I'm fun. What am I?",
+    "answer": "Maths"
+   }
+  ],
+  "scramble": [
+   {
+    "scrambled": "yandmo",
+    "answer": "Monday"
+   },
+   {
+    "scrambled": "jectsub",
+    "answer": "subject"
+   },
+   {
+    "scrambled": "misteblea",
+    "answer": "timetable"
+   },
+   {
+    "scrambled": "scineec",
+    "answer": "Science"
+   },
+   {
+    "scrambled": "icums",
+    "answer": "Music"
+   },
+   {
+    "scrambled": "ekew",
+    "answer": "week"
+   }
+  ],
+  "picture_count": {
+   "question": "How many clocks can you see in the cover picture?",
+   "hint_vi": "Hãy tìm những chiếc đồng hồ trên bức tranh bìa!"
+  }
+ },
+ "write": {
+  "profile_title": "My Weekly Timetable",
+  "profile_fields": [
+   "My name is:",
+   "My age is:",
+   "My school is:",
+   "My favorite day of the week is:",
+   "On Monday mornings, I have:",
+   "On Tuesday afternoons, I have:",
+   "My favorite subject is:",
+   "I usually do ____ after school.",
+   "On the weekend, I usually ____ and ____.",
+   "This week, I will ____."
+  ],
+  "frame_title": "MY WEEK",
+  "frame_lines": [
+   "My name is ____. I am ____ years old.",
+   "I go to ____ Primary School.",
+   "My school week is from Monday to Friday.",
+   "My favorite day is ____ because I have ____.",
+   "On Monday, I have ____ and ____.",
+   "On Tuesday, I have ____ in the morning and ____ in the afternoon.",
+   "On Wednesday, I have ____ and ____.",
+   "After school, I usually ____.",
+   "On Saturday, I will ____.",
+   "On Sunday, I will ____. I love my busy week!"
+  ]
+ },
+ "life_skill": {
+  "title": "MANAGE YOUR TIME WELL",
+  "intro": "Time is very important! Managing your time well means you use your time wisely to do schoolwork, play, and rest. This helps you be successful and happy.",
+  "intro_vi": "Thời gian rất quan trọng! Quản lý thời gian tốt có nghĩa là bạn sử dụng thời gian một cách khôn ngoan để làm bài tập, vui chơi và nghỉ ngơi. Điều này giúp bạn thành công và hạnh phúc.",
+  "can_do": [
+   "Make a weekly timetable.",
+   "Plan your homework for each day.",
+   "Start your homework early.",
+   "Don't waste time playing too many games.",
+   "Set a time for studying.",
+   "Set a time for playing.",
+   "Help your family with chores.",
+   "Get enough sleep every night.",
+   "Eat your meals on time.",
+   "Read books regularly.",
+   "Review your lessons before class.",
+   "Prepare your school bag the night before."
+  ],
+  "value_question": "How can you use your time to help others in your family or community?",
+  "image_prompt": "A happy Vietnamese child, sitting at a neat desk with a colorful weekly timetable pinned on the wall. They are smiling while organizing their books and pens. A small, friendly clock is visible on the desk."
+ },
+ "fun_facts": [
+  {
+   "en": "Did you know? The names of the days of the week come from ancient Roman and Norse gods and planets!",
+   "vi": "Bạn có biết không? Tên các ngày trong tuần bắt nguồn từ các vị thần và hành tinh của La Mã và Bắc Âu cổ đại!"
+  },
+  {
+   "en": "Did you know? There are exactly 168 hours in one week.",
+   "vi": "Bạn có biết không? Có chính xác 168 giờ trong một tuần."
+  },
+  {
+   "en": "Did you know? The shortest school week in the world is in France, where primary school children often have Wednesdays off!",
+   "vi": "Bạn có biết không? Tuần học ngắn nhất thế giới là ở Pháp, nơi học sinh tiểu học thường được nghỉ vào thứ Tư!"
+  },
+  {
+   "en": "Did you know? In some countries, the weekend is on Friday and Saturday, not Saturday and Sunday!",
+   "vi": "Bạn có biết không? Ở một số quốc gia, cuối tuần là vào thứ Sáu và thứ Bảy, chứ không phải thứ Bảy và Chủ Nhật!"
+  },
+  {
+   "en": "Did you know? The word 'timetable' comes from the combination of 'time' and 'table'.",
+   "vi": "Bạn có biết không? Từ 'timetable' (thời khóa biểu) được ghép từ 'time' (thời gian) và 'table' (bảng)."
+  }
+ ],
+ "project": {
+  "title": "MY DREAM WEEK TIMETABLE",
+  "task": "Create a poster about your dream week timetable. What subjects would you have? What activities would you do? Make it colorful and fun!",
+  "draw_items": [
+   "A clock showing a happy time",
+   "Books for different subjects",
+   "A football or other sports equipment",
+   "Music notes and instruments",
+   "Paintbrushes and colors for Art",
+   "A happy child studying",
+   "A child playing with friends",
+   "A healthy meal or snack"
+  ],
+  "example": [
+   "On Monday, I will have Space Exploration class.",
+   "I will play football on Tuesday afternoon.",
+   "My favorite subject will be Animal Care.",
+   "On Wednesday, I will have Cooking class and make yummy snacks.",
+   "The weekend will be for visiting fun places and reading my favorite books."
+  ],
+  "present": "Hello everyone! This is my dream week timetable. On Monday, I will have an exciting Space Exploration class! Then, on Tuesday afternoon, I will play football with my friends. My favorite subject will be Animal Care because I love animals. On Wednesday, I will have Cooking class and make yummy snacks! The weekend will be for visiting fun places and reading my favorite books. Thank you!",
+  "image_prompt": "A group of diverse children, including Vietnamese kids, proudly presenting their colorful and imaginative 'Dream Week Timetable' posters to their classmates. The posters are full of drawings of unusual subjects like 'Space Exploration' or 'Animal Care' and fun activities."
+ },
+ "classroom_game": {
+  "name": "Timetable Bingo",
+  "players": "groups of 4",
+  "steps_en": [
+   "Each student draws a 3x3 grid on a piece of paper.",
+   "Students write 9 different school subjects or daily activities (e.g., English, Maths, PE, lunch, play games) in their grid.",
+   "The teacher calls out a day of the week and a subject/activity (e.g., 'On Monday, English!').",
+   "If a student has that subject/activity in their grid, they cross it out. The first student to get 3 in a row (horizontally, vertically, or diagonally) shouts 'Bingo!' and wins."
+  ],
+  "steps_vi": [
+   "Mỗi học sinh vẽ một bảng 3x3 trên một tờ giấy.",
+   "Học sinh viết 9 môn học hoặc hoạt động hàng ngày khác nhau (ví dụ: Tiếng Anh, Toán, Thể dục, ăn trưa, chơi trò chơi) vào bảng của mình.",
+   "Giáo viên gọi tên một ngày trong tuần và một môn học/hoạt động (ví dụ: 'Vào thứ Hai, môn Tiếng Anh!').",
+   "Nếu học sinh có môn học/hoạt động đó trong bảng của mình, hãy gạch bỏ. Học sinh đầu tiên có 3 ô liên tiếp (ngang, dọc hoặc chéo) hô to 'Bingo!' và thắng cuộc."
+  ],
+  "language": [
+   "Do you have (subject) on (day)?",
+   "Yes, I do. / No, I don't.",
+   "I have (subject).",
+   "Bingo!"
+  ]
+ },
+ "review": {
+  "complete_words": [
+   {
+    "word": "M__day",
+    "answer": "Monday"
+   },
+   {
+    "word": "Scie__ce",
+    "answer": "Science"
+   },
+   {
+    "word": "ti__table",
+    "answer": "timetable"
+   },
+   {
+    "word": "Fr__day",
+    "answer": "Friday"
+   },
+   {
+    "word": "aft__noon",
+    "answer": "afternoon"
+   },
+   {
+    "word": "Eng__sh",
+    "answer": "English"
+   },
+   {
+    "word": "Mu__c",
+    "answer": "Music"
+   },
+   {
+    "word": "Hist__y",
+    "answer": "History"
+   },
+   {
+    "word": "__eek",
+    "answer": "week"
+   },
+   {
+    "word": "sub__ct",
+    "answer": "subject"
+   }
+  ],
+  "mcq": [
+   {
+    "q": "What do you do ______ Saturday?",
+    "options": [
+     "at",
+     "in",
+     "on"
+    ],
+    "answer": "on"
+   },
+   {
+    "q": "I have Maths ______ 8 o'clock.",
+    "options": [
+     "on",
+     "at",
+     "in"
+    ],
+    "answer": "at"
+   },
+   {
+    "q": "My favorite ______ is Art.",
+    "options": [
+     "day",
+     "time",
+     "subject"
+    ],
+    "answer": "subject"
+   },
+   {
+    "q": "What ______ you do this weekend?",
+    "options": [
+     "are",
+     "will",
+     "do"
+    ],
+    "answer": "will"
+   },
+   {
+    "q": "On Monday, I go to ______.",
+    "options": [
+     "school",
+     "park",
+     "home"
+    ],
+    "answer": "school"
+   },
+   {
+    "q": "I usually play with friends in the ______.",
+    "options": [
+     "morning",
+     "afternoon",
+     "night"
+    ],
+    "answer": "afternoon"
+   },
+   {
+    "q": "There are seven days in a ______.",
+    "options": [
+     "month",
+     "year",
+     "week"
+    ],
+    "answer": "week"
+   },
+   {
+    "q": "We have PE class on ______.",
+    "options": [
+     "Friday",
+     "Sunday",
+     "Saturday"
+    ],
+    "answer": "Friday"
+   },
+   {
+    "q": "I can ______ new words in English class.",
+    "options": [
+     "sing",
+     "learn",
+     "draw"
+    ],
+    "answer": "learn"
+   },
+   {
+    "q": "My school ______ starts at 7:30 AM.",
+    "options": [
+     "subject",
+     "timetable",
+     "activity"
+    ],
+    "answer": "timetable"
+   }
+  ],
+  "order": [
+   {
+    "words": "week. / days / are / There / seven / a / in",
+    "answer": "There are seven days in a week."
+   },
+   {
+    "words": "have / English / I / Monday. / on",
+    "answer": "I have English on Monday."
+   },
+   {
+    "words": "is / favorite / My / Friday. / day",
+    "answer": "My favorite day is Friday."
+   },
+   {
+    "words": "you / do / What / on / Sunday? / will",
+    "answer": "What will you do on Sunday?"
+   },
+   {
+    "words": "starts / school / at / My / 7:30. / timetable",
+    "answer": "My school timetable starts at 7:30."
+   },
+   {
+    "words": "in / play / the / I / afternoon. / usually",
+    "answer": "I usually play in the afternoon."
+   },
+   {
+    "words": "class. / Science / an / have / experiment / We / in",
+    "answer": "We have an experiment in Science class."
+   },
+   {
+    "words": "Maths / and / have / Tuesday. / I / on / Art",
+    "answer": "I have Maths and Art on Tuesday."
+   },
+   {
+    "words": "visit / will / grandparents / I / my / weekend. / this",
+    "answer": "I will visit my grandparents this weekend."
+   },
+   {
+    "words": "learn / love / new / I / things. / to",
+    "answer": "I love to learn new things."
+   }
+  ],
+  "about_you": [
+   "What is your name?",
+   "What day is it today?",
+   "What is your favorite day of the week?",
+   "What subjects do you have on Monday?",
+   "What do you usually do after school?",
+   "When do you have English class?",
+   "What is your favorite school subject?",
+   "What will you do this Saturday?",
+   "What will you do this Sunday?",
+   "How do you feel about your school week?"
+  ]
+ },
+ "i_can": [
+  "I can say the days of the week in English.",
+  "I can name common school subjects in English.",
+  "I can talk about my daily routines using the Present Simple.",
+  "I can describe my school timetable.",
+  "I can use 'on', 'at', and 'in' correctly for time expressions.",
+  "I can ask and answer questions about weekly activities.",
+  "I can talk about my plans for the future using 'will'.",
+  "I can understand a simple text about someone's week.",
+  "I can write a short paragraph about my own week.",
+  "I can understand a conversation about daily schedules.",
+  "I can identify and correct common grammar mistakes related to time.",
+  "I can make a simple timetable for myself.",
+  "I can understand the importance of managing time well.",
+  "I can ask my friends about their weekly plans.",
+  "I can present my dream week timetable to the class."
+ ],
+ "message_en": "EVERY DAY IS A CHANCE TO LEARN AND GROW.",
+ "message_vi": "MỖI NGÀY LÀ MỘT CƠ HỘI ĐỂ HỌC HỎI VÀ TRƯỞNG THÀNH.",
+ "message_body": "Your week is full of exciting lessons and fun activities! Remember, every day brings new opportunities to learn something new, meet challenges, and grow into a brighter version of yourself. Make the most of your time and enjoy every moment of your amazing journey!",
+ "value_line": "Learn English – Learn to Love – Learn to Grow.",
+ "unit": 2,
+ "grade": 4,
+ "validation": []
+}
